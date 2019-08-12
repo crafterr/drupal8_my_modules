@@ -1,0 +1,13 @@
+{
+    "name": "hello_world",
+    "type": "drupal-module",
+    "description": "Hello World module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/hello_world",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/hello_world",
+        "source": "http://cgit.drupalcode.org/hello_world",
+    },
+}
