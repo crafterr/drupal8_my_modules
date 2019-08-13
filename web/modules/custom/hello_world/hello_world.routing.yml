@@ -1,8 +1,20 @@
 
-hello_world.hello:
-  path: '/hello'
+hello_world.hello.node:
+  path: '/hello/{node}'
   defaults:
     _controller: '\Drupal\hello_world\Controller\HelloWorldController::helloWorld'
+    _title: 'Our first route'
+  requirements:
+    _permission: 'access content'
+  options:
+    parameters:
+      node:
+        type: entity:node
+
+hello_world.hello.simple:
+  path: '/hello'
+  defaults:
+    _controller: '\Drupal\hello_world\Controller\HelloWorldController::helloWorldSimple'
     _title: 'Our first route'
   requirements:
     _permission: 'access content'
