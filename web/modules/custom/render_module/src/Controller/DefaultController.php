@@ -3,6 +3,7 @@
 namespace Drupal\render_module\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
+use Drupal\Core\Link;
 
 /**
  * Class DefaultController.
@@ -39,6 +40,7 @@ class DefaultController extends ControllerBase {
   public function itemList() {
     $url1 = \Drupal\Core\Url::fromRoute('render_module.default_controller_table');
     $url2 = \Drupal\Core\Url::fromRoute('render_module.default_controller_url');
+
     return [
       '#theme' => 'item_list',
       '#list_type' => 'ul',
@@ -54,7 +56,8 @@ class DefaultController extends ControllerBase {
       ],
       '#items' => [
         [
-          '#markup' => \Drupal::l(t('Url 1'), $url1),
+
+          '#markup' => Link::fromTextAndUrl(t('Url 1'),$url1)->toString(),
           '#wrapper_attributes' => [
             'class' => [
               'wrapper__links__link',
@@ -62,7 +65,7 @@ class DefaultController extends ControllerBase {
           ],
         ],
         [
-          '#markup' => \Drupal::l(t('Url 2'), $url2),
+          '#markup' => Link::fromTextAndUrl(t('Url 2'),$url2)->toString(),
           '#wrapper_attributes' => [
             'class' => [
               'wrapper__links__link',

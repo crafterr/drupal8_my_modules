@@ -33,3 +33,8 @@ function render_module_theme() {
     ],
   ];
 }
+
+function render_module_preprocess_time(&$variables) {
+
+
+}
