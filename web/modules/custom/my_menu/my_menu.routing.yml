@@ -1,0 +1,23 @@
+my_menu.menu_example: # This is a route name.
+  path: '/my-menu/menu-example'
+  defaults:
+    _controller: '\Drupal\my_menu\Controller\MenuExampleController::description'
+    _title: 'Menu Example'
+  requirements:
+    _permission: 'access content'
+
+my_menu.menu_example.subscription: # This is a route name.
+  path: '/my-menu/subscription'
+  defaults:
+    _controller: '\Drupal\my_menu\Controller\MenuExampleController::subscription'
+    _title: 'Menu Example'
+  requirements:
+    _permission: 'access content'
+
+my_menu.menu_example.test: # This is a route name.
+  path: '/my-menu/test'
+  defaults:
+    _controller: '\Drupal\my_menu\Controller\MenuExampleController::test'
+    _title: 'Menu Example'
+  requirements:
+    _permission: 'access content'

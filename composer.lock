@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e3c42c51253ba3bc56b77bf433a3ddb5",
+    "content-hash": "4404914e7ced704277e7aa549aadc5e4",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2590,6 +2590,228 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "time": "2019-05-08T16:00:55+00:00"
+        },
+        {
+            "name": "drupal/examples",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/examples.git",
+                "reference": "3cca75f69adbc2e3fb17d32bf3010bc3b3ff8f50"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "require-dev": {
+                "drupal/stream_wrapper_example": "*"
+            },
+            "suggest": {
+                "drupal/devel": "Some modules will be able to pretty-print PHP with this module."
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1554503881",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                },
+                {
+                    "name": "Itangalo",
+                    "homepage": "https://www.drupal.org/user/153998"
+                },
+                {
+                    "name": "Mile23",
+                    "homepage": "https://www.drupal.org/user/116231"
+                },
+                {
+                    "name": "Torenware",
+                    "homepage": "https://www.drupal.org/user/18784"
+                },
+                {
+                    "name": "add1sun",
+                    "homepage": "https://www.drupal.org/user/65088"
+                },
+                {
+                    "name": "cyberswat",
+                    "homepage": "https://www.drupal.org/user/27802"
+                },
+                {
+                    "name": "ilo",
+                    "homepage": "https://www.drupal.org/user/118449"
+                },
+                {
+                    "name": "jhodgdon",
+                    "homepage": "https://www.drupal.org/user/155601"
+                },
+                {
+                    "name": "jn2",
+                    "homepage": "https://www.drupal.org/user/1001014"
+                },
+                {
+                    "name": "katbailey",
+                    "homepage": "https://www.drupal.org/user/172987"
+                },
+                {
+                    "name": "linclark",
+                    "homepage": "https://www.drupal.org/user/396253"
+                },
+                {
+                    "name": "marvil07",
+                    "homepage": "https://www.drupal.org/user/132175"
+                },
+                {
+                    "name": "mikl",
+                    "homepage": "https://www.drupal.org/user/58679"
+                },
+                {
+                    "name": "rfay",
+                    "homepage": "https://www.drupal.org/user/30906"
+                },
+                {
+                    "name": "socketwench",
+                    "homepage": "https://www.drupal.org/user/65793"
+                },
+                {
+                    "name": "yched",
+                    "homepage": "https://www.drupal.org/user/39567"
+                }
+            ],
+            "description": "The Examples for Developers project aims to provide high-quality, well-documented API examples for a broad range of Drupal core functionality.",
+            "homepage": "https://www.drupal.org/project/examples",
+            "support": {
+                "source": "http://cgit.drupalcode.org/examples",
+                "issues": "https://www.drupal.org/project/issues/examples",
+                "documentation": "https://api.drupal.org/api/examples"
+            },
+            "time": "2019-04-05T23:31:42+00:00"
+        },
+        {
+            "name": "drupal/rules",
+            "version": "3.0.0-alpha4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/rules.git",
+                "reference": "8.x-3.0-alpha4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/rules-8.x-3.0-alpha4.zip",
+                "reference": "8.x-3.0-alpha4",
+                "shasum": "d6f11a6bd867b3479504b00278b4465a5b138d3a"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/typed_data": "*"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "dev-master",
+                "drupal/coder": "8.2.*",
+                "squizlabs/php_codesniffer": "2.9.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.0-alpha4",
+                    "datestamp": "1526654284",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "TR",
+                    "homepage": "https://www.drupal.org/user/202830"
+                },
+                {
+                    "name": "fago",
+                    "homepage": "https://www.drupal.org/user/16747"
+                },
+                {
+                    "name": "klausi",
+                    "homepage": "https://www.drupal.org/user/262198"
+                }
+            ],
+            "description": "React on events and conditionally evaluate actions.",
+            "homepage": "https://www.drupal.org/project/rules",
+            "support": {
+                "source": "https://git.drupalcode.org/project/rules"
+            }
+        },
+        {
+            "name": "drupal/typed_data",
+            "version": "1.0.0-alpha3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/typed_data.git",
+                "reference": "8.x-1.0-alpha3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/typed_data-8.x-1.0-alpha3.zip",
+                "reference": "8.x-1.0-alpha3",
+                "shasum": "962d53659f73de8dfa43f291ef40ec26e1b7a07f"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha3",
+                    "datestamp": "1554612486",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "TR",
+                    "homepage": "https://www.drupal.org/user/202830"
+                },
+                {
+                    "name": "fago",
+                    "homepage": "https://www.drupal.org/user/16747"
+                }
+            ],
+            "description": "Extends the core Typed Data API with new APIS and features.",
+            "homepage": "https://www.drupal.org/project/typed_data",
+            "support": {
+                "source": "https://git.drupalcode.org/project/typed_data"
+            }
         },
         {
             "name": "drush/drush",
@@ -8456,7 +8678,10 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/examples": 20,
+        "drupal/rules": 15
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

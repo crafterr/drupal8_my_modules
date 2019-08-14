@@ -1,0 +1,48 @@
+
+render_module.default_controller_hello:
+  path: '/render_module/hello/{name}'
+  defaults:
+    _controller: '\Drupal\render_module\Controller\DefaultController::hello'
+    _title: 'Default'
+  requirements:
+    _permission: 'access content'
+
+render_module.default_controller_table:
+  path: '/render_module/table'
+  defaults:
+    _controller: '\Drupal\render_module\Controller\DefaultController::table'
+    _title: 'Default'
+  requirements:
+    _permission: 'access content'
+
+render_module.default_controller_url:
+  path: '/render_module/url'
+  defaults:
+    _controller: '\Drupal\render_module\Controller\DefaultController::urlType'
+    _title: 'Default'
+  requirements:
+    _permission: 'access content'
+
+render_module.default_controller_item_list:
+  path: '/render_module/item-list'
+  defaults:
+    _controller: '\Drupal\render_module\Controller\DefaultController::itemList'
+    _title: 'Default'
+  requirements:
+    _permission: 'access content'
+
+render_module.default_controller_item_list_p:
+  path: '/render_module/item-list-p'
+  defaults:
+    _controller: '\Drupal\render_module\Controller\DefaultController::itemListP'
+    _title: 'Default'
+  requirements:
+    _permission: 'access content'
+
+render_module.default_controller_time_theme:
+  path: '/render_module/time-theme'
+  defaults:
+    _controller: '\Drupal\render_module\Controller\DefaultController::timeTheme'
+    _title: 'Default'
+  requirements:
+    _permission: 'access content'
