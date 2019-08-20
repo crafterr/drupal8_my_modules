@@ -1,0 +1,5 @@
+<?php
+function new_field_to_page_bundle_install() {
+ // Drupal::configFactory()->getEditable('core.entity_form_display.node.page.default')->delete();
+  //Drupal::configFactory()->getEditable('core.entity_view_display.node.page.default')->delete();
+}

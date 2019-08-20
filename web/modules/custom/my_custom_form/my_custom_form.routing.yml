@@ -1,0 +1,7 @@
+my_custom_form.default_form:
+  path: 'admin/modules/form/default'
+  defaults:
+    _form: '\Drupal\my_custom_form\Form\DefaultForm'
+    _title: 'DefaultForm'
+  requirements:
+    _permission: 'administer modules'

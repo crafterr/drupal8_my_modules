@@ -1,0 +1,5 @@
+my_custom_form.modules_uninstall:
+  route_name: my_custom_form.default_form
+  base_route: system.modules_list
+  title: 'My Custom Form'
+  weight: 21

@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains new_field_to_page_bundle.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function new_field_to_page_bundle_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the new_field_to_page_bundle module.
+    case 'help.page.new_field_to_page_bundle':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function new_field_to_page_bundle_theme() {
+  return [
+    'new_field_to_page_bundle' => [
+      'render element' => 'children',
+    ],
+  ];
+}

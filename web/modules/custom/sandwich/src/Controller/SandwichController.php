@@ -19,8 +19,8 @@ class SandwichController extends ControllerBase {
    */
   public function build() {
 
-    $best_sandwich = [
-      '#theme' => 'sandwich',
+    /*$best_sandwich = [
+      '#type' => 'sandwich',
       '#name' => $this->t('Chickado'),
       '#attributes' => [
         'id' => 'best-sandwich',
@@ -41,7 +41,7 @@ class SandwichController extends ControllerBase {
     ];
 
     $alt_best_sandwich = [
-      '#theme' => 'sandwich',
+      '#type' => 'sandwich',
       '#name' => $this->t('Yummy'),
       '#attributes' => [
         'id' => 'alt-sandwich',
@@ -60,7 +60,7 @@ class SandwichController extends ControllerBase {
       ],
     ];
     $t_best_sandwich = [
-      '#theme' => 'sandwich',
+      '#type' => 'sandwich',
       '#name' => $this->t('Adam'),
       '#attributes' => [
         'id' => 'alt-sandwich',
@@ -86,7 +86,28 @@ class SandwichController extends ControllerBase {
       $best_sandwich,
       $alt_best_sandwich,
       $t_best_sandwich
+    ];*/
+
+    return [
+      '#type' => 'sandwich',
+      '#name' => $this->t('Chickado'),
+
+      '#attributes' => [
+        'id' => 'best-sandwich2',
+        'class' => ['menu--lefter', 'clearfix'],
+      ],
+      '#bread' => $this->t('Sourdough'),
+      '#cheese' => $this->t('Gruyère'),
+      '#veggies' => [
+        $this->t('Avocado'),
+        $this->t('Red onion'),
+        $this->t('Romaine'),
+      ],
+      '#protein' => $this->t('Chicken'),
+
     ];
+
+
   }
 
 }

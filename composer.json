@@ -23,6 +23,7 @@
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.7.0",
         "drupal/ctools": "^3.2",
+        "drupal/easy_install": "^10.1",
         "drupal/examples": "1.x-dev",
         "drupal/rules": "^3.0@alpha",
         "drush/drush": "^9.0.0",
