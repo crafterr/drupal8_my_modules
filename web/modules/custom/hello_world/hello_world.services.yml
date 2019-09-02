@@ -1,4 +1,4 @@
 services:
   hello_world.salutation:
     class: Drupal\hello_world\HelloWorldSalutation
-    arguments: ['@datetime.time']
+    arguments: ['@datetime.time','@config.factory']
