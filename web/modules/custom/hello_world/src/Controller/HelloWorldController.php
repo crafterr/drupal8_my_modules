@@ -14,14 +14,24 @@ class HelloWorldController extends ControllerBase {
 
 
   /**
-   * @var \Drupal\hello_world\HelloWorldSalutationInterface
+   * @var HelloWorldSalutationInterface
    */
-  private $helloWorldSalutation;
+  protected $salutation;
 
-  public function __construct(HelloWorldSalutationInterface $helloWorldSalutation) {
-    $this->helloWorldSalutation = $helloWorldSalutation;
+  /**
+   * HelloWorldController constructor.
+   *
+   * @param HelloWorldSalutationInterface $salutation
+   */
+  public function __construct(HelloWorldSalutationInterface $salutation) {
+    $this->salutation = $salutation;
   }
 
+  /**
+   * @param ContainerInterface $container
+   *
+   * @return HelloWorldController
+   */
   public static function create(ContainerInterface $container) {
     return new static(
       $container->get('hello_world.salutation')
@@ -35,7 +45,6 @@ class HelloWorldController extends ControllerBase {
    *   Return Hello string.
    */
   public function helloWorld(NodeInterface $node) {
-    dump($node); die();
     return [
       '#type' => 'markup',
       '#markup' => $this->t('Implement method: helloWorld')
@@ -45,7 +54,7 @@ class HelloWorldController extends ControllerBase {
   public function helloWorldSimple() {
     return [
       '#type' => 'markup',
-      '#markup' => $this->helloWorldSalutation->getSalutation()
+      '#markup' => $this->salutation->getSalutation()
     ];
   }
 }
