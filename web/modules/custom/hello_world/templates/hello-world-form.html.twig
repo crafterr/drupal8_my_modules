@@ -1,0 +1,16 @@
+<form method="post">
+{{ form.form_build_id }}
+    {{ form['#form'].form_token }}
+    {{ form['#form'].form_id }}
+<div class="row">
+    <div class="col-md-6">
+        {{ form['#form'].salutation }}
+    </div>
+    <div class="col-md-6">
+        {{ form['#form'].annotate_deletion }}
+    </div>
+    <div class="actions">
+        {{ form['#form'].actions.submit }}
+    </div>
+</div>
+</form>

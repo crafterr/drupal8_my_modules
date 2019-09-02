@@ -18,3 +18,19 @@ hello_world.hello.simple:
     _title: 'Our first route'
   requirements:
     _permission: 'access content'
+
+hello_world.hello.form:
+  path: '/hello-form'
+  defaults:
+    _controller: '\Drupal\hello_world\Controller\HelloWorldController::helloForm'
+    _title: 'Our first route'
+  requirements:
+    _permission: 'access content'
+
+hello_world.greeting_form:
+  path: '/admin/config/salutation-configuration'
+  defaults:
+    _form: '\Drupal\hello_world\Form\SalutationConfigurationForm'
+    _title: 'Salutation configuration'
+  requirements:
+    _permission: 'administer site configuration'

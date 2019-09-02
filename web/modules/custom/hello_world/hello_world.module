@@ -22,3 +22,46 @@ function hello_world_help($route_name, RouteMatchInterface $route_match) {
     default:
   }
 }
+
+/**
+ * Implements hook_theme().
+ */
+function hello_world_theme($existing, $type, $theme, $path) {
+  return [
+    'hello_world_form' => [
+      'render element' => 'form',
+    ]
+  ];
+}
+
+//the same what above only hook_form_FORM_ID_alter
+function hello_world_form_salutation_configuration_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id)
+{
+  $config = Drupal::config('hello_world.annotate_deletion');
+  $form['#submit'][] = 'hello_world_salutation_configuration_form_submit';
+  $form['annotate_deletion'] = [
+    '#type' => 'radios',
+    '#title' => t('Przypisy zostaną usunięte'),
+    '#description' => t('Wybierz metodę usuwania przypisów'),
+    '#options' => [
+      t('Nigdy'),
+      t('Losowo'),
+      t('Po 30 dniach')
+    ],
+    '#default_value' => $config->get('annotate_deletion',0), //domyslnie nigdy
+  ];
+
+  //any code
+}
+
+function hello_world_salutation_configuration_form_submit(&$form, \Drupal\Core\Form\FormStateInterface $form_state)
+{
+  //$config = \Drupal::config('system.maintenance');
+  //$config = $factory->get('system.site');
+  //$value = $config->get('page.403');
+  $annotate_deletion = $form_state->getValue('annotate_deletion');
+  \Drupal::service('config.factory')
+    ->getEditable('hello_world.annotate_deletion')
+    ->set('annotate_deletion',$annotate_deletion)
+    ->save();
+}

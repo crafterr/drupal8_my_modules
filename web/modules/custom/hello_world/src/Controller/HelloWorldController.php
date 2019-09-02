@@ -51,6 +51,14 @@ class HelloWorldController extends ControllerBase {
     ];
   }
 
+  public function helloForm() {
+    $builder = \Drupal::formBuilder();
+    return [
+      '#theme' => 'hello_world_form',
+      '#form' => $builder->getForm('Drupal\hello_world\Form\SalutationConfigurationForm')
+    ];
+  }
+
   public function helloWorldSimple() {
     return [
       '#type' => 'markup',
