@@ -1,0 +1,5 @@
+hello_world.admin.structure.settings:
+  title: 'Hello World - Salutation Settings'
+  description: 'Hello World - Salutation Settings'
+  route_name: hello_world.settings
+  parent: system.admin_structure
