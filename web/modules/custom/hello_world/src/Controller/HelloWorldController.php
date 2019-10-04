@@ -88,7 +88,7 @@ class HelloWorldController extends ControllerBase {
 
 
     //the same way
-    $link = $link->toString();
+   // $link = $link->toString();
     //or
     $link = $linkGeneratorService->generateFromLink($link);
 

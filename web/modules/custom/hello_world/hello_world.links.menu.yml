@@ -1,5 +1,16 @@
 hello_world.admin.structure.settings:
   title: 'Hello World - Salutation Settings'
   description: 'Hello World - Salutation Settings'
-  route_name: hello_world.settings
-  parent: system.admin_structure
+  route_name: hello_world.greeting_form
+  parent: system.admin_config_system
+
+hello_world.admin_config_mysite:
+  title: 'Konfiguracja settings'
+  route_name: hello_world.greeting_form
+  parent: 'system.admin_config'
+
+hello_world.admin_config_mysite.simple:
+  title: 'Hello World - Salutation Settings'
+  description: 'Hello World - Salutation Settings'
+  route_name: hello_world.greeting_form
+  parent: hello_world.admin_config_mysite

@@ -1,4 +1,13 @@
 services:
   hello_world.salutation:
     class: Drupal\hello_world\HelloWorldSalutation
-    arguments: ['@datetime.time','@config.factory']
+    arguments: ['@datetime.time','@config.factory','@event_dispatcher']
+  hello_world.redirect_subscriber:
+    class: \Drupal\hello_world\EventSubscriber\HelloWorldRedirectSubscriber
+    arguments: ['@current_user','@current_route_match']
+    tags:
+      - { name: event_subscriber }
+  hello_world.salutation_subscriber:
+    class: \Drupal\hello_world\EventSubscriber\HelloWorldSalutationSubscriber
+    tags:
+      - { name: event_subscriber }

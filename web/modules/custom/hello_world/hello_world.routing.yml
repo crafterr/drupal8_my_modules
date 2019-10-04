@@ -42,3 +42,11 @@ hello_world.greeting_form:
     _title: 'Salutation configuration'
   requirements:
     _permission: 'administer site configuration'
+
+system.admin_config_myconfig:
+  path: '/admin/config/mysite'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Mysite'
+  requirements:
+    _permission: 'access administration pages'
