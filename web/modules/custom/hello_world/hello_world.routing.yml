@@ -19,6 +19,14 @@ hello_world.hello.simple:
   requirements:
     _permission: 'access content'
 
+hello_world.hello.url:
+  path: '/hello/url'
+  defaults:
+    _controller: '\Drupal\hello_world\Controller\HelloWorldController::urlSample'
+    _title: 'Our first route for url'
+  requirements:
+    _permission: 'access content'
+
 hello_world.hello.form:
   path: '/hello-form'
   defaults:
