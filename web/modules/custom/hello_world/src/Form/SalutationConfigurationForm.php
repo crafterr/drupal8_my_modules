@@ -1,10 +1,33 @@
 <?php
 namespace Drupal\hello_world\Form;
 
+use Drupal\Core\Config\ConfigFactoryInterface;
 use Drupal\Core\Form\ConfigFormBase;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Logger\LoggerChannelInterface;
+use Symfony\Component\DependencyInjection\ContainerInterface;
 
 class SalutationConfigurationForm extends ConfigFormBase {
+
+  /**
+   * @var LoggerChannelInterface
+   */
+  protected $logger;
+
+  public function __construct(ConfigFactoryInterface $config_factory, LoggerChannelInterface $logger) {
+    parent::__construct($config_factory);
+    $this->logger = $logger;
+  }
+
+  /**
+   * @inheritDoc
+   */
+  public static function create(ContainerInterface $container) {
+    return new static(
+      $container->get('config.factory'),
+      $container->get('hello_world.logger.channel.hello_world')
+    );
+  }
 
   protected function getEditableConfigNames() {
     return ['hello_world.custom_salutation'];
@@ -39,6 +62,7 @@ class SalutationConfigurationForm extends ConfigFormBase {
     $this->config('hello_world.custom_salutation')
       ->set('salutation',$form_state->getValue('salutation'))
       ->save();
+    $this->logger->info('The Hello World salutation has been changed to @message.',['@message'=>$form_state->getValue('salutation')]);
     parent::submitForm($form, $form_state);
   }
 

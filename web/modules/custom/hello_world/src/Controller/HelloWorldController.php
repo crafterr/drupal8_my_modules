@@ -5,10 +5,12 @@ namespace Drupal\hello_world\Controller;
 use Drupal\Console\Bootstrap\Drupal;
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\Core\Link;
+use Drupal\Core\Logger\LoggerChannelInterface;
 use Drupal\Core\Url;
 use Drupal\hello_world\HelloWorldSalutationInterface;
 use Drupal\node\NodeInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
+use Symfony\Component\HttpFoundation\Response;
 
 /**
  * Class HelloWorldController.
@@ -22,12 +24,23 @@ class HelloWorldController extends ControllerBase {
   protected $salutation;
 
   /**
+   * @var \Drupal\Core\Logger\LoggerChannelInterface
+   */
+  private $loggerChannel;
+
+  /**
+   * @var \Drupal\Core\Logger\LoggerChannelInterface
+   */
+  private $loggerChannelHello;
+
+  /**
    * HelloWorldController constructor.
    *
    * @param HelloWorldSalutationInterface $salutation
    */
-  public function __construct(HelloWorldSalutationInterface $salutation) {
+  public function __construct(HelloWorldSalutationInterface $salutation, LoggerChannelInterface $loggerChannel) {
     $this->salutation = $salutation;
+    $this->loggerChannel = $loggerChannel;
   }
 
   /**
@@ -37,7 +50,8 @@ class HelloWorldController extends ControllerBase {
    */
   public static function create(ContainerInterface $container) {
     return new static(
-      $container->get('hello_world.salutation')
+      $container->get('hello_world.salutation'),
+      $container->get('hello_world.logger.channel.hello_world')
     );
   }
 
@@ -95,5 +109,14 @@ class HelloWorldController extends ControllerBase {
     echo $link; die();
     return [];
 
+  }
+
+  public function loggerSample() {
+
+    //\Drupal::logger('hello_world')->error('This is my error message');
+    //$log = \Drupal::service('logger.factory')->get('hello_world');
+    $this->loggerChannel->error('adam ma kota');
+
+    return new Response("poszlo");
   }
 }

@@ -27,6 +27,14 @@ hello_world.hello.url:
   requirements:
     _permission: 'access content'
 
+hello_world.logger.sample:
+  path: '/hello/logger'
+  defaults:
+    _controller: '\Drupal\hello_world\Controller\HelloWorldController::loggerSample'
+    _title: 'Our first route'
+  requirements:
+    _permission: 'access content'
+
 hello_world.hello.form:
   path: '/hello-form'
   defaults:
