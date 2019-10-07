@@ -2,6 +2,7 @@
 
 namespace Drupal\hello_world\Controller;
 
+use Drupal\Component\Render\FormattableMarkup;
 use Drupal\Console\Bootstrap\Drupal;
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\Core\Link;
@@ -9,6 +10,7 @@ use Drupal\Core\Logger\LoggerChannelInterface;
 use Drupal\Core\Url;
 use Drupal\hello_world\HelloWorldSalutationInterface;
 use Drupal\node\NodeInterface;
+use Psr\Log\LoggerInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -38,9 +40,10 @@ class HelloWorldController extends ControllerBase {
    *
    * @param HelloWorldSalutationInterface $salutation
    */
-  public function __construct(HelloWorldSalutationInterface $salutation, LoggerChannelInterface $loggerChannel) {
+  public function __construct(HelloWorldSalutationInterface $salutation, LoggerChannelInterface $loggerChannel, LoggerInterface $loggerChannelHello) {
     $this->salutation = $salutation;
     $this->loggerChannel = $loggerChannel;
+    $this->loggerChannelHello = $loggerChannelHello;
   }
 
   /**
@@ -51,7 +54,8 @@ class HelloWorldController extends ControllerBase {
   public static function create(ContainerInterface $container) {
     return new static(
       $container->get('hello_world.salutation'),
-      $container->get('hello_world.logger.channel.hello_world')
+      $container->get('hello_world.logger.channel.hello_world'),
+      $container->get('hello_world.logger.hello_world')
     );
   }
 
@@ -116,7 +120,15 @@ class HelloWorldController extends ControllerBase {
     //\Drupal::logger('hello_world')->error('This is my error message');
     //$log = \Drupal::service('logger.factory')->get('hello_world');
     $this->loggerChannel->error('adam ma kota');
+    $this->loggerChannelHello->log(3,'hello to ja',[]);
+    $variable = [':variable' => 'http://www.onet.pl'];
+    $markup = new FormattableMarkup('<a href=":variable">link text</a>', [
+      ':variable'=>'http://onet.pl',
 
+    ]);
+    $config = \Drupal::configFactory()->getEditable('system.mail');
+    $mail_plugins = $config->get('interface');
+  //  dump($mail_plugins); die();
     return new Response("poszlo");
   }
 }
