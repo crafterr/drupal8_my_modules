@@ -42,11 +42,16 @@ class MailLogger implements LoggerInterface {
 
     $langcode = $this->configFactory->get('system.site')->get('langcode');
     $variables = $this->parser->parseMessagePlaceholders($message, $context);
+
     $markup = new FormattableMarkup($message, $variables);
+    $params['dupa'] = 'dupa';
     /**
-     *
+     * default phpmail is php_mail
+     * you can see that
+     *  $config = \Drupal::configFactory()->getEditable('system.mail');
+        $mail_plugins = $config->get('interface');
      */
-    \Drupal::service('plugin.manager.mail')->mail('hello_world', 'hello_world_log', $to, $langcode, ['message' => $markup]);
+    \Drupal::service('plugin.manager.mail')->mail('hello_world', 'hello_world_log', $to, $langcode, ['message' => $markup,'params'=>$params]);
 
   }
 

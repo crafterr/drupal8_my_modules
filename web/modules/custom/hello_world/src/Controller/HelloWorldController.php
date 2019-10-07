@@ -2,6 +2,7 @@
 
 namespace Drupal\hello_world\Controller;
 
+use Drupal\Component\Render\FormattableMarkup;
 use Drupal\Console\Bootstrap\Drupal;
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\Core\Link;
@@ -120,7 +121,14 @@ class HelloWorldController extends ControllerBase {
     //$log = \Drupal::service('logger.factory')->get('hello_world');
     $this->loggerChannel->error('adam ma kota');
     $this->loggerChannelHello->log(3,'hello to ja',[]);
+    $variable = [':variable' => 'http://www.onet.pl'];
+    $markup = new FormattableMarkup('<a href=":variable">link text</a>', [
+      ':variable'=>'http://onet.pl',
 
+    ]);
+    $config = \Drupal::configFactory()->getEditable('system.mail');
+    $mail_plugins = $config->get('interface');
+  //  dump($mail_plugins); die();
     return new Response("poszlo");
   }
 }

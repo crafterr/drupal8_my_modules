@@ -76,6 +76,19 @@ function hello_world_mail($key, &$message, $params) {
       $message['from'] = \Drupal::config('system.site')->get('mail');
       $message['subject'] = t('There is an error on your website');
       $message['body'][] = $params['message'];
+
     break;
+  }
+}
+
+/**
+ * Implements hook_mail_alter().
+ */
+function hello_world_mail_alter(&$message) {
+  switch ($message['key']) {
+    case 'hello_world_log':
+      $message['headers']['Content-Type'] = 'text/html; charset=UTF-8; format=flowed; delsp=yes';
+
+      break;
   }
 }
