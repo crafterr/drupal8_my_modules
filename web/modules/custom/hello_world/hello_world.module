@@ -24,6 +24,54 @@ function hello_world_help($route_name, RouteMatchInterface $route_match) {
 }
 
 /**
+ * Implements hook_token_info().
+ */
+function hello_world_token_info() {
+  $type = [
+    'name' => t('Hello World'),
+    'description' => t('Tokens related to the Hello World module.'),
+  ];
+
+  $tokens['salutation'] = [
+    'name' => t('Salutation'),
+    'description' => t('The Hello World salutation value.'),
+  ];
+
+  return [
+    'types' => ['hello_world' => $type],
+    'tokens' => ['hello_world' => $tokens],
+  ];
+}
+
+/**
+ * Implements hook_token_info().
+ */
+/**
+ * Implements hook_tokens().
+ */
+function hello_world_tokens($type, $tokens, array $data, array $options, \Drupal\Core\Render\BubbleableMetadata $bubbleable_metadata) {
+  $replacements = [];
+  if ($type == 'hello_world') {
+    foreach ($tokens as $name => $original) {
+      switch ($name) {
+        case 'salutation':
+          $replacements[$original] = \Drupal::service('hello_world.salutation')->getSalutation();
+          $config = Drupal::config('hello_world.custom_salutation');
+          $bubbleable_metadata->addCacheableDependency($config);
+          break;
+        case 'salutation2':
+          $replacements[$original] = 'Adam ma kota kot ma adama';
+          $config = Drupal::config('hello_world.custom_salutation');
+          $bubbleable_metadata->addCacheableDependency($config);
+          break;
+      }
+    }
+  }
+  return $replacements;
+}
+
+
+/**
  * Implements hook_theme().
  */
 function hello_world_theme($existing, $type, $theme, $path) {

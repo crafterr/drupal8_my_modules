@@ -66,9 +66,12 @@ class HelloWorldController extends ControllerBase {
    *   Return Hello string.
    */
   public function helloWorld(NodeInterface $node) {
+
+    $salutation_replace_title =  \Drupal::token()->replace('The salutation text is: [customtoken:body]',['node'=>$node]);
+
     return [
       '#type' => 'markup',
-      '#markup' => $this->t('Implement method: helloWorld')
+      '#markup' => $salutation_replace_title
     ];
   }
 
@@ -130,5 +133,11 @@ class HelloWorldController extends ControllerBase {
     $mail_plugins = $config->get('interface');
   //  dump($mail_plugins); die();
     return new Response("poszlo");
+  }
+
+  public function tokenSample() {
+    $replace = \Drupal::token()->replace('The user that was logged in: [current-user:name].',['current-user' => \Drupal::currentUser()]);
+    $salutation_replace =  \Drupal::token()->replace('The salutation text is: [hello_world:salutation2]');
+    dump($salutation_replace); die();
   }
 }

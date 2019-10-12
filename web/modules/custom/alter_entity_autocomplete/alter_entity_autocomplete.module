@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains alter_entity_autocomplete.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function alter_entity_autocomplete_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the alter_entity_autocomplete module.
+    case 'help.page.alter_entity_autocomplete':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('The module alters entity autocomplete suggestion list.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

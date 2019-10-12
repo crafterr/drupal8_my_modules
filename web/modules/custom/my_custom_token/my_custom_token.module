@@ -1,0 +1,91 @@
+<?php
+
+/**
+ * @file
+ * Contains my_custom_token.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function my_custom_token_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the my_custom_token module.
+    case 'help.page.my_custom_token':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Custom Drupal Token Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function my_custom_token_theme() {
+  return [
+    'my_custom_token' => [
+      'render element' => 'children',
+    ],
+  ];
+}
+
+/**
+ * Implements hook_token_info().
+ */
+function my_custom_token_token_info() {
+  $type = [
+    'name' => t('Custom Token'),
+    'description' => t('Tokens for custom things.'),
+  ];
+
+  $node['title'] = [
+    'name' => t("Node Title"),
+    'description' => t('The node\'s title'),
+  ];
+  $node['body'] = [
+    'name' => t("Node Body"),
+    'description' => t('The node\'s Body'),
+  ];
+  $node['dateformat'] = [
+    'name' => t("Custom Date Format"),
+    'dynamic' => TRUE,
+    'description' => t('Show a custom format for the current date'),
+  ];
+  return [
+    'types' => ['customtoken' => $type],
+    'tokens' => ['customtoken' => $node],
+  ];
+
+}
+
+
+/**
+ * Implements hook_tokens().
+ */
+function my_custom_token_tokens($type, $tokens, array $data, array $options, \Drupal\Core\Render\BubbleableMetadata $bubbleable_metadata) {
+  $replacements = [];
+  if ($type == 'customtoken' && !empty($data['node'])) {
+
+    foreach ($tokens as $name => $original) {
+      switch ($name) {
+        case 'title':
+          $replacements[$original] = t($data['node']->getTitle());
+
+          break;
+        case 'body':
+          $replacements[$original] = t($data['node']->get('body')->value);
+
+          break;
+      }
+
+    }
+
+    return $replacements;
+
+  }
+}

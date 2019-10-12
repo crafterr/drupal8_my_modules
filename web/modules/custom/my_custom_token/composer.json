@@ -1,0 +1,13 @@
+{
+    "name": "my_custom_token",
+    "type": "drupal-module",
+    "description": "My Custom Drupal Token Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/my_custom_token",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/my_custom_token",
+        "source": "http://cgit.drupalcode.org/my_custom_token",
+    },
+}

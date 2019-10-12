@@ -1,0 +1,5 @@
+name: 'Alter Entity AutoComplete'
+type: module
+description: 'The module alters entity autocomplete suggestion list.'
+core: 8.x
+package: 'Custom'
