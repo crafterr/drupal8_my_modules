@@ -82,6 +82,7 @@ function hello_world_theme($existing, $type, $theme, $path) {
   ];
 }
 
+
 //the same what above only hook_form_FORM_ID_alter
 function hello_world_form_salutation_configuration_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id)
 {

@@ -5,3 +5,11 @@ sandwich.build:
     _title: 'Sandwich'
   requirements:
     _permission: 'access content'
+
+sandwich.build2:
+  path: '/sandwich2'
+  defaults:
+    _controller: '\Drupal\sandwich\Controller\SandwichController::build2'
+    _title: 'Sandwich'
+  requirements:
+    _permission: 'access content'

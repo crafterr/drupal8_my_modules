@@ -14,9 +14,24 @@ function sandwich_theme() {
     'sandwich' => [
       'render element' => 'element',
     ],
+    'sandwich_test' => [
+      'variables' => [
+        'service' => NULL,
+
+      ],
+    ]
   ];
 }
 
+function template_preprocess_sandwich_test(&$variables) {
+  $variables['name'] = 'adam ma kota';
+}
+
+function sandwich_theme_suggestions_sandwich_test($variables) {
+  return [
+    'sandwitch__test__mojtest'
+  ];
+}
 /**
  * Implements hook_theme_suggestions_sandwich().
  */
@@ -39,6 +54,11 @@ function sandwich_theme_suggestions_sandwich_alter(&$suggestions, $variables) {
  */
 function template_preprocess_sandwich(&$variables) {
   //$variables['name'] = 'hehehe';
+  $element = $variables['element'];
+  $variables['name'] = $element['#name'];
+  $variables['bread'] = $element['#bread'];
+  $variables['cheese'] = $element['#cheese'];
+  $variables['veggies'] = $element['#veggies'];
 }
 
 /**
@@ -49,8 +69,10 @@ function sandwich_preprocess_sandwich(&$variables) {
   //dump($variables);
   //$variables['test'] = 'adam ma kota';
   //$variables['name'] = $variables['element']['#name'];
-  $element = $variables['element'];
-  $variables['name'] = $element['#name'];
+  $variables['cheese'] = 'dupa';
+
+
+
 
   //dump($variables);
 

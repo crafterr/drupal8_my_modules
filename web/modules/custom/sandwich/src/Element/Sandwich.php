@@ -8,6 +8,7 @@
 
 namespace Drupal\sandwich\Element;
 use Drupal\Core\Render\Element\RenderElement;
+use Drupal\Core\StringTranslation\StringTranslationTrait;
 
 /**
  * Provides an example element.
@@ -15,7 +16,7 @@ use Drupal\Core\Render\Element\RenderElement;
  * @RenderElement("sandwich")
  */
 class Sandwich extends RenderElement {
-
+  use StringTranslationTrait;
   /**
    * @return array
    */
@@ -31,6 +32,7 @@ class Sandwich extends RenderElement {
 
   public static function preRenderSandwich($element) {
 
+    $element['#bread'] = 'hahaha';
     return $element;
   }
 

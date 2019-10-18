@@ -96,7 +96,7 @@ class SandwichController extends ControllerBase {
         'id' => 'best-sandwich2',
         'class' => ['menu--lefter', 'clearfix'],
       ],
-      '#bread' => $this->t('Sourdough'),
+
       '#cheese' => $this->t('Gruyère'),
       '#veggies' => [
         $this->t('Avocado'),
@@ -108,6 +108,13 @@ class SandwichController extends ControllerBase {
     ];
 
 
+  }
+
+  public function build2() {
+    return [
+      '#theme' => 'sandwich_test',
+      '#service' => 'to jest moj serwis',
+    ];
   }
 
 }
