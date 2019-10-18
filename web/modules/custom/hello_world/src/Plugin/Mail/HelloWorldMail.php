@@ -54,8 +54,8 @@ class HelloWorldMail implements MailInterface, ContainerFactoryPluginInterface {
   public function mail(array $message) {
     /// Use the external API to send the email based on the $message array
     // constructed via the `hook_mail()` implementation.
-    echo 'wysylam z '. __CLASS__;
-    die();
+   // echo 'wysylam z '. __CLASS__;
+
   }
 
 

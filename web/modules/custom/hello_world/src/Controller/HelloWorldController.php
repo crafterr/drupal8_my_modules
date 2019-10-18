@@ -113,7 +113,7 @@ class HelloWorldController extends ControllerBase {
     //or
     $link = $linkGeneratorService->generateFromLink($link);
 
-    echo $link; die();
+    echo $link;
     return [];
 
   }
@@ -138,6 +138,6 @@ class HelloWorldController extends ControllerBase {
   public function tokenSample() {
     $replace = \Drupal::token()->replace('The user that was logged in: [current-user:name].',['current-user' => \Drupal::currentUser()]);
     $salutation_replace =  \Drupal::token()->replace('The salutation text is: [hello_world:salutation2]');
-    dump($salutation_replace); die();
+    dump($salutation_replace);
   }
 }

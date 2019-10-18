@@ -1,0 +1,10 @@
+.slick-list {
+    position: relative; text-align: center;
+}
+.slick-list p {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+}
+

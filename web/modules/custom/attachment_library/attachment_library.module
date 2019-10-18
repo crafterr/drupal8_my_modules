@@ -26,8 +26,8 @@ function attachment_library_help($route_name, RouteMatchInterface $route_match) 
 /**
  * Implements hook_theme().
  */
-function attachment_library_theme() {
-  return [
+function attachment_library_theme($existing, $type, $theme, $path) {
+  $variables = [
     'attachment_library' => [
       'variables' => [
         'some_variable' => NULL,
@@ -35,17 +35,27 @@ function attachment_library_theme() {
       ],
     ],
   ];
+  return $variables;
 }
 
 /**
  * @param array $attachments
  * another way to attach library
  */
+
+/**
+ * @param array $attachments
+ * this way
+ */
 function attachment_library_page_attachments(array &$attachments) {
-  $attachments['#attached']['library'][] = 'my_module/my-library';
+  $attachments['#attached']['library'][] = 'attachment_library/slick';
 }
 
 
+/**
+ * @param $variables
+ * or this way
+ */
 function attachment_library_preprocess_attachment_library(&$variables) {
-  $variables['#attached']['library'][] =  'my_module/my_library';
+  $variables['#attached']['library'][] =  'attachment_library/slick';
 }

@@ -18,11 +18,11 @@ class DefaultController extends ControllerBase {
   public function hello() {
     $some_variable = [1,2,3,4,5];
     return [
-      '#theme' => 'some_theme_hook',
+      '#theme' => 'attachment_library',
       '#some_variable' => $some_variable,
       '#attached' => [
         'library' => [
-          'my_module/my-library',
+          'attachment_library/slick',
         ],
       ],
     ];

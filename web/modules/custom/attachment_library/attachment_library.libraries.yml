@@ -1,0 +1,16 @@
+slick:
+  version: VERSION
+  license:
+    name: MIT
+    gpl-compatible: false
+  css:
+    theme:
+      library/slick/slick.css: {}
+      library/slick/slick-theme.css: {}
+      library/style.css: {}
+  js:
+    library/slick/slick.js: {}
+    library/slick/config.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
