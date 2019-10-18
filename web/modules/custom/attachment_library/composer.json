@@ -1,0 +1,13 @@
+{
+    "name": "attachment_library",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/attachment_library",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/attachment_library",
+        "source": "http://cgit.drupalcode.org/attachment_library",
+    },
+}

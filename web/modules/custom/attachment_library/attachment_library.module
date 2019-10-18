@@ -1,0 +1,51 @@
+<?php
+
+/**
+ * @file
+ * Contains attachment_library.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function attachment_library_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the attachment_library module.
+    case 'help.page.attachment_library':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function attachment_library_theme() {
+  return [
+    'attachment_library' => [
+      'variables' => [
+        'some_variable' => NULL,
+
+      ],
+    ],
+  ];
+}
+
+/**
+ * @param array $attachments
+ * another way to attach library
+ */
+function attachment_library_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'my_module/my-library';
+}
+
+
+function attachment_library_preprocess_attachment_library(&$variables) {
+  $variables['#attached']['library'][] =  'my_module/my_library';
+}
