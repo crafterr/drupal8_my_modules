@@ -1,0 +1,8 @@
+
+common_theme_hooks.default_controller_hello:
+  path: '/common_theme_hooks/hello'
+  defaults:
+    _controller: '\Drupal\common_theme_hooks\Controller\DefaultController::items'
+    _title: 'My Default Controller'
+  requirements:
+    _permission: 'access content'

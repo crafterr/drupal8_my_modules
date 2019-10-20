@@ -1,0 +1,13 @@
+{
+    "name": "common_theme_hooks",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/common_theme_hooks",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/common_theme_hooks",
+        "source": "http://cgit.drupalcode.org/common_theme_hooks",
+    },
+}

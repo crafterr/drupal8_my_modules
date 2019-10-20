@@ -1,0 +1,57 @@
+<?php
+
+/**
+ * @file
+ * Contains common_theme_hooks.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Template\Attribute;
+
+/**
+ * Implements hook_help().
+ */
+function common_theme_hooks_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the common_theme_hooks module.
+    case 'help.page.common_theme_hooks':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function common_theme_hooks_theme() {
+  return [
+    'common_theme_hooks' => [
+      'render element' => 'children',
+    ],
+  ];
+}
+
+
+function common_theme_hooks_preprocess_item_list(&$variables) {
+
+  // Set the item's value and attributes for the template.
+  $items = [
+    [
+      'value' => 'Item 3',
+      'attributes' => new Attribute($variables['wrapper_attributes']),
+    ],
+    [
+
+      'value' => 'Item 4',
+      'attributes' => new Attribute($variables['wrapper_attributes']),
+    ]
+  ];
+  foreach ($items as $item) {
+    array_push($variables['items'],$item);
+  }
+
+}
