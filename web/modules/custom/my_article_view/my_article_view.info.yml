@@ -1,0 +1,5 @@
+name: 'My Article View'
+type: module
+description: 'My Awesome Module'
+core: 8.x
+package: 'Custom'
