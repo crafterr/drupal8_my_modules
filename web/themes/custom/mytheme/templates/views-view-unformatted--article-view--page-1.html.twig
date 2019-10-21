@@ -19,6 +19,11 @@
 {{ attach_library('my_article_view/library') }}
 <div class="drupal-page">
   <a href="#" class="clicker">kliknij mnie</a>
+  <select class="myselect" name="myselect">
+    <option value="1">First</option>
+    <option value="2">Second</option>
+    <option value="3">Third</option>
+  </select>
   {% if title %}
     <h3>{{ title }}</h3>
   {% endif %}
