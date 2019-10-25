@@ -1,5 +1,6 @@
 <?php
-
+use Drupal\mytheme\Theme\PageThemeSuggestion;
+use Drupal\mytheme\Theme\NodeThemeSuggestion;
 /**
  * @file
  * Functions to support theming in the mytheme theme.
@@ -41,11 +42,12 @@ function mytheme_preprocess_page(array &$variables) {
 
 }
 
-/**
- * Implements hook_theme_suggestions_page_alter().
- */
-function mytheme_theme_suggestions_page_alter(array &$suggestions, array $variables) {
 
+
+function mytheme_theme_suggestions_alter(array &$suggestions, array $variables, $hook) {
+
+  NodeThemeSuggestion::suggest($suggestions,$variables,$hook);
+  PageThemeSuggestion::suggest($suggestions,$variables,$hook);
 }
 
 /**
