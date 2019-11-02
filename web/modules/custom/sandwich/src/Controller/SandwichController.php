@@ -96,6 +96,8 @@ class SandwichController extends ControllerBase {
         'id' => 'best-sandwich2',
         'class' => ['menu--lefter', 'clearfix'],
       ],
+      '#isActive' => false,
+
 
       '#cheese' => $this->t('Gruyère'),
       '#veggies' => [

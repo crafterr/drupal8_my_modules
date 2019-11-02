@@ -59,6 +59,11 @@ function template_preprocess_sandwich(&$variables) {
   $variables['bread'] = $element['#bread'];
   $variables['cheese'] = $element['#cheese'];
   $variables['veggies'] = $element['#veggies'];
+ // $variables['attributes2'] = new \Drupal\Core\Template\Attribute($element['#attributes2']);
+  $variables['isActive'] = $element['#isActive'];
+  if ((bool) $variables['isActive']) {
+    $variables['name'] = $variables['name'].' is active';
+  }
 }
 
 /**
