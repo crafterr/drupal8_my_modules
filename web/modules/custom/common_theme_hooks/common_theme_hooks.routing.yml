@@ -6,3 +6,19 @@ common_theme_hooks.default_controller_hello:
     _title: 'My Default Controller'
   requirements:
     _permission: 'access content'
+
+common_theme_hooks.default_controller_links:
+  path: '/common_theme_hooks/links'
+  defaults:
+    _controller: '\Drupal\common_theme_hooks\Controller\DefaultController::links'
+    _title: 'My Default Controller'
+  requirements:
+    _permission: 'access content'
+
+common_theme_hooks.default_controller_table:
+  path: '/common_theme_hooks/table'
+  defaults:
+    _controller: '\Drupal\common_theme_hooks\Controller\DefaultController::table'
+    _title: 'My Default Controller'
+  requirements:
+    _permission: 'access content'

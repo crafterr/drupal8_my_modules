@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2d8a8d385fc4785e154ce1cdb38faaa8",
+    "content-hash": "6ba39f863d03d2bf07bcb2e6b3e2d610",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1154,6 +1154,40 @@
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
             "time": "2017-02-14T19:40:03+00:00"
+        },
+        {
+            "name": "crafterr/carousel_block",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/crafterr/carousel_block.git",
+                "reference": "a883b9823c41c9b8ee9c1d58acb52f52c3646a86"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/crafterr/carousel_block/zipball/a883b9823c41c9b8ee9c1d58acb52f52c3646a86",
+                "reference": "a883b9823c41c9b8ee9c1d58acb52f52c3646a86",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Adam Pietras",
+                    "email": "adam@crafter.net.pl"
+                }
+            ],
+            "description": "Module Provide carousel block with slick library",
+            "keywords": [
+                "drupal"
+            ],
+            "time": "2019-10-27T09:12:42+00:00"
         },
         {
             "name": "cweagans/composer-patches",
@@ -3928,16 +3962,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.2.4",
+            "version": "v4.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "97e59c7a16464196a8b9c77c47df68e4a39a45c4"
+                "reference": "b76bbc3c51f22c570648de48e8c2d941ed5e2cf2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/97e59c7a16464196a8b9c77c47df68e4a39a45c4",
-                "reference": "97e59c7a16464196a8b9c77c47df68e4a39a45c4",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/b76bbc3c51f22c570648de48e8c2d941ed5e2cf2",
+                "reference": "b76bbc3c51f22c570648de48e8c2d941ed5e2cf2",
                 "shasum": ""
             },
             "require": {
@@ -3945,6 +3979,7 @@
                 "php": ">=7.0"
             },
             "require-dev": {
+                "ircmaxell/php-yacc": "0.0.4",
                 "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0"
             },
             "bin": [
@@ -3975,7 +4010,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2019-09-01T07:51:21+00:00"
+            "time": "2019-10-25T18:33:07+00:00"
         },
         {
             "name": "paragonie/random_compat",
