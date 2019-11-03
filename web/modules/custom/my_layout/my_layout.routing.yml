@@ -1,0 +1,8 @@
+
+my_layout.default_controller_render_layout:
+  path: '/my_layout/render-layout'
+  defaults:
+    _controller: '\Drupal\my_layout\Controller\DefaultController::renderLayout'
+    _title: 'Layout'
+  requirements:
+    _permission: 'access content'

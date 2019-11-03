@@ -1,0 +1,9 @@
+two_column:
+  label: 'Two column'
+  category: 'My Layouts'
+  template: templates/two-column
+  regions:
+    left:
+      label: Left region
+    right:
+      label: Right region
