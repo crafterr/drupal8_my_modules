@@ -14,3 +14,11 @@ hello_world.admin_config_mysite.simple:
   description: 'Hello World - Salutation Settings'
   route_name: hello_world.greeting_form
   parent: hello_world.admin_config_mysite
+
+
+hello_world.hello:
+  title: 'Hello'
+  description: 'Get your dynamic salutation.'
+  route_name: hello_world.hello.simple
+  menu_name: main
+  weight: 0

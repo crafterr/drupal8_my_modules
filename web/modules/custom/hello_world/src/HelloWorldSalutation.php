@@ -37,6 +37,13 @@ class HelloWorldSalutation implements HelloWorldSalutationInterface{
   public function getSalutation() {
     $render = [
       '#theme' => 'hello_world_salutation',
+      '#salutation' => [
+        '#contextual_links' => [
+          'hello_world' => [
+            'route_parameters' => []
+          ],
+        ],
+      ],
       '#wrapper_attribute' => [
         'class' => ['salutation'],
       ]
@@ -58,17 +65,20 @@ class HelloWorldSalutation implements HelloWorldSalutationInterface{
     $render['#target'] = $this->t('world');
     if ((int) $time->format('G') >= 00 && (int) $time->format('G') < 12) {
 
-      $render['#salutation'] = $this->t('Good morning');
+      $render['#salutation']['#markup']  = $this->t('Good morning');
       return $render;
     }
     if ((int) $time->format('G') >= 12 && (int) $time->format('G') < 18) {
-      $render['#salutation'] = $this->t('Good afternoon');
+      $render['#salutation']['#markup'] = $this->t('Good afternoon');
       return $render;
     }
 
     if ((int) $time->format('G') >= 18) {
-      $render['#salutation'] = $this->t('Good evening');
+      $render['#salutation']['#markup'] = $this->t('Good eveningg');
+
       return $render;
     }
+
+
   }
 }

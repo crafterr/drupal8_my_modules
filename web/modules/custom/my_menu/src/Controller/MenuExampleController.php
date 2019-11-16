@@ -66,9 +66,11 @@ class MenuExampleController extends ControllerBase {
       // Use the default sorting of menu links.
       array('callable' => 'menu.default_tree_manipulators:generateIndexAndSort'),
     );
+
     $tree = $menu_tree->transform($tree, $manipulators);
     // Finally, build a renderable array from the transformed tree.
     $menu = $menu_tree->build($tree);
+
 
 
 
