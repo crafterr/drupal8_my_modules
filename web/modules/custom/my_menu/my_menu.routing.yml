@@ -21,3 +21,12 @@ my_menu.menu_example.test: # This is a route name.
     _title: 'Menu Example'
   requirements:
     _permission: 'access content'
+
+
+my_menu.menu_example.rendermenu: # This is a route name.
+  path: '/my-menu/render-menu'
+  defaults:
+    _controller: '\Drupal\my_menu\Controller\MenuExampleController::renderMenu'
+    _title: 'Menu Example'
+  requirements:
+    _permission: 'access content'

@@ -35,25 +35,40 @@ class HelloWorldSalutation implements HelloWorldSalutationInterface{
   }
 
   public function getSalutation() {
+    $render = [
+      '#theme' => 'hello_world_salutation',
+      '#wrapper_attribute' => [
+        'class' => ['salutation'],
+      ]
+    ];
+    $render['#overridden'] = TRUE;
     $config = $this->configFactory->get('hello_world.custom_salutation');
     $salutation = $config->get('salutation');
+
     if ($salutation != "") {
-      $event = new SalutationEvent();
+     $event = new SalutationEvent();
       $event->setValue($salutation);
       $event = $this->eventDispatcher->dispatch(SalutationEvent::EVENT,$event);
-      return $event->getValue();
-      //return $salutation;
+
+      $render['#salutation'] = $event->getValue();
+
+      return $render;
     }
     $time = new DrupalDateTime();
+    $render['#target'] = $this->t('world');
     if ((int) $time->format('G') >= 00 && (int) $time->format('G') < 12) {
-      return $this->t('Good morning world');
+
+      $render['#salutation'] = $this->t('Good morning');
+      return $render;
     }
     if ((int) $time->format('G') >= 12 && (int) $time->format('G') < 18) {
-      return $this->t('Good afternoon world');
+      $render['#salutation'] = $this->t('Good afternoon');
+      return $render;
     }
 
     if ((int) $time->format('G') >= 18) {
-      return $this->t('Good evening world');
+      $render['#salutation'] = $this->t('Good evening');
+      return $render;
     }
   }
 }

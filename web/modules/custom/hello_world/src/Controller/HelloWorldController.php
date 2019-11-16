@@ -84,10 +84,15 @@ class HelloWorldController extends ControllerBase {
   }
 
   public function helloWorldSimple() {
-    return [
-      '#type' => 'markup',
-      '#markup' => $this->salutation->getSalutation()
-    ];
+   /* return [
+      '#theme' => 'hello_world_salutation',
+      '#salutation' => $this->salutation->getSalutation(),
+      '#wrapper_attribute' => [
+        'class' => ['salutation'],
+      ]
+    ];*/
+
+   return $this->salutation->getSalutation();
   }
 
   /**
