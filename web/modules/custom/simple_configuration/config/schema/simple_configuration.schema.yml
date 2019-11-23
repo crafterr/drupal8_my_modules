@@ -1,0 +1,13 @@
+simple_configuration.setting:
+  type: config_object
+  label: 'Module settings'
+  mapping:
+    param1:
+      type: string
+      label: 'My string that can also be of type text if it was longer'
+    param2:
+      type: string
+      label: 'My string that can also be of type text if it was longer'
+    param3:
+      type: string
+      label: 'My string that can also be of type text if it was longer'
