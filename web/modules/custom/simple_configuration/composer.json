@@ -1,0 +1,13 @@
+{
+    "name": "simple_configuration",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/simple_configuration",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/simple_configuration",
+        "source": "http://cgit.drupalcode.org/simple_configuration",
+    },
+}
