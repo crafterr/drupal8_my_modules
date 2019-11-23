@@ -7,3 +7,11 @@ simple_configuration.simple_configuration_setting_form:
     _permission: 'access administration pages'
   options:
     _admin_route: TRUE
+
+simple_configuration.default_controller_hello:
+  path: 'admin/simple_configuration/hello'
+  defaults:
+    _controller: '\Drupal\simple_configuration\Controller\DefaultController::hello'
+    _title: 'My First Page'
+  requirements:
+    _permission: 'access content'
