@@ -1,0 +1,13 @@
+{
+    "name": "temp_contains_temp",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/temp_contains_temp",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/temp_contains_temp",
+        "source": "http://cgit.drupalcode.org/temp_contains_temp",
+    },
+}
