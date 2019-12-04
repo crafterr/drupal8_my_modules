@@ -30,6 +30,7 @@
         "drupal/pathauto": "^1.5",
         "drupal/rules": "^3.0@alpha",
         "drupal/token": "^1.5",
+        "drupal/user_online_status": "^1.0@alpha",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",

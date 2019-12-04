@@ -1,0 +1,72 @@
+<?php
+
+/**
+ * @file
+ * Contains user_status_online.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function user_status_online_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the user_status_online module.
+    case 'help.page.user_status_online':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function user_status_online_theme() {
+  return [
+    'user_status_online' => [
+      'render element' => 'children',
+    ],
+  ];
+}
+
+
+/**
+ * Implements hook_views_data_alter().
+ */
+function user_status_online_views_data_alter(array &$data) {
+
+  $data['node']['node_type_flagger'] = array(
+    'title' => t('Node type flagger'),
+    'field' => array(
+      'title' => t('Node type flagger'),
+      'help' => t('Flags a specific node type.'),
+      'id' => 'node_type_flagger',
+    ),
+  );
+  $data['node']['moje_jakies_pole'] = array(
+    'title' => t('Jakies moje pole'),
+    'field' => array(
+      'title' => t('Jakies moje pole'),
+      'help' => t('Jakies moje pole'),
+      'id' => 'moje_jakies_pole',
+    ),
+
+  );
+
+
+  $data['node']['show_online_status'] = array(
+    'title' => t('Pokaż status online'),
+    'field' => array(
+      'title' => t('Pokaż status online'),
+      'help' => t('Pokaż status online'),
+      'id' => 'show_online_status',
+    ),
+
+  );
+}
+

@@ -1,0 +1,14 @@
+{
+    "name": "drupal/user_status_online",
+    "type": "drupal-module",
+    "description": "Module provides View Field to views and Pseudo Field to display mode and display if user is online or not",
+    "keywords": ["Drupal"],
+    "license": "GPL-2.0+",
+    "homepage": "https://www.drupal.org/project/user_status_online",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/user_status_online",
+        "source": "http://cgit.drupalcode.org/user_status_online"
+    },
+    "require": { }
+}

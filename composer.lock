@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6ba39f863d03d2bf07bcb2e6b3e2d610",
+    "content-hash": "29e5c4e3f3994138737d8601d1bee185",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1153,6 +1153,7 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
+            "abandoned": "psr/container",
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
@@ -3186,6 +3187,53 @@
             "homepage": "https://www.drupal.org/project/typed_data",
             "support": {
                 "source": "https://git.drupalcode.org/project/typed_data"
+            }
+        },
+        {
+            "name": "drupal/user_online_status",
+            "version": "1.0.0-alpha5",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/user_online_status.git",
+                "reference": "8.x-1.0-alpha5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/user_online_status-8.x-1.0-alpha5.zip",
+                "reference": "8.x-1.0-alpha5",
+                "shasum": "d4bee682e0b6d619198445375d6191cc6e795b3a"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha5",
+                    "datestamp": "1544914980",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "leymannx",
+                    "homepage": "https://www.drupal.org/user/2482808"
+                }
+            ],
+            "description": "Show if a user is online or offline on their account page.",
+            "homepage": "https://www.drupal.org/project/user_online_status",
+            "support": {
+                "source": "https://git.drupalcode.org/project/user_online_status"
             }
         },
         {
@@ -9001,7 +9049,8 @@
     "stability-flags": {
         "drupal/examples": 20,
         "drupal/layout_library": 10,
-        "drupal/rules": 15
+        "drupal/rules": 15,
+        "drupal/user_online_status": 15
     },
     "prefer-stable": true,
     "prefer-lowest": false,
