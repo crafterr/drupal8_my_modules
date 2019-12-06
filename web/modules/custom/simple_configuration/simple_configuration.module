@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains simple_configuration.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function simple_configuration_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the simple_configuration module.
+    case 'help.page.simple_configuration':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function simple_configuration_theme() {
+  return [
+    'simple_configuration' => [
+      'render element' => 'children',
+    ],
+  ];
+}

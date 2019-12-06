@@ -1,0 +1,77 @@
+<?php
+
+/**
+ * @file
+ * Contains temp_contains_temp.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function temp_contains_temp_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the temp_contains_temp module.
+    case 'help.page.temp_contains_temp':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+
+
+
+/**
+ * Implements hook_theme().
+ */
+function temp_contains_temp_theme() {
+  return [
+    'container_theme' => [
+      'variables' => ['list' => [],'icon' => []],
+    ],
+    'list_theme' => [
+      'variables' => ['list' => NULL],
+    ],
+    'icon_theme' => [
+      'variables' => ['icon' => NULL],
+    ],
+
+  ];
+}
+
+function template_preprocess_container_theme(&$variables)
+{
+
+
+  if (!empty($variables['list'])) {
+
+
+    $variables['list'] = [
+      '#theme' => 'list_theme',
+      '#list' => $variables['list'],
+    ];
+  }
+
+  if (!empty($variables['icon'])) {
+    $variables['icon'] = [
+      '#theme' => 'icon_theme',
+      '#list' => $variables['icon'],
+    ];
+  }
+
+}
+
+function template_preprocess_icon_theme(&$variables) {
+  $variables['author'] = '';
+  $username = [
+    '#theme' => 'username',
+    '#account' => $user = \Drupal\user\Entity\User::load(\Drupal::currentUser()->id())
+  ];
+  $variables['author'] = \Drupal::service('renderer')->render($username);
+  $variables['time'] = new DateTime();
+}

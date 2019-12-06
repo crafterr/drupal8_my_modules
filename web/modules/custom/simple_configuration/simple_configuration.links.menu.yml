@@ -1,0 +1,6 @@
+simple_configuration.simple_configuration_setting_form:
+  title: 'SettingForm'
+  route_name: simple_configuration.simple_configuration_setting_form
+  description: 'A description for the menu entry'
+  parent: system.admin_config_media
+  weight: 99

@@ -1,0 +1,8 @@
+
+temp_contains_temp.default_controller:
+  path: '/temp_contains_temp/hello'
+  defaults:
+    _controller: '\Drupal\temp_contains_temp\Controller\DefaultController::hello'
+    _title: 'My Default'
+  requirements:
+    _permission: 'access content'

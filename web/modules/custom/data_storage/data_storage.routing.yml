@@ -1,0 +1,24 @@
+
+data_storage.default_controller_state_api:
+  path: '/data_storage/state-api'
+  defaults:
+    _controller: '\Drupal\data_storage\Controller\DefaultController::stateApi'
+    _title: 'Data Storage'
+  requirements:
+    _permission: 'access content'
+
+data_storage.default_controller_temp_store:
+  path: '/data_storage/temp-store'
+  defaults:
+    _controller: '\Drupal\data_storage\Controller\DefaultController::tempstore'
+    _title: 'Data Storage'
+  requirements:
+    _permission: 'access content'
+
+data_storage.default_controller_user_data:
+  path: '/data_storage/user-data'
+  defaults:
+    _controller: '\Drupal\data_storage\Controller\DefaultController::userdata'
+    _title: 'Data Storage'
+  requirements:
+    _permission: 'access content'

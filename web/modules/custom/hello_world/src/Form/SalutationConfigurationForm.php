@@ -30,7 +30,7 @@ class SalutationConfigurationForm extends ConfigFormBase {
   }
 
   protected function getEditableConfigNames() {
-    return ['hello_world.custom_salutation'];
+    return ['hello_world_custom_salutation.settings'];
   }
 
   public function getFormId() {
@@ -44,7 +44,7 @@ class SalutationConfigurationForm extends ConfigFormBase {
    * @return array
    */
   public function buildForm(array $form, FormStateInterface $form_state) {
-    $config = $this->config('hello_world.custom_salutation');
+    $config = $this->config('hello_world_custom_salutation.settings');
     $form['salutation'] = array(
       '#type' => 'textfield',
       '#title' => $this->t('Salutation'),
@@ -59,7 +59,7 @@ class SalutationConfigurationForm extends ConfigFormBase {
    * @param FormStateInterface $form_state
    */
   public function submitForm(array &$form, FormStateInterface $form_state) {
-    $this->config('hello_world.custom_salutation')
+    $this->config('hello_world_custom_salutation.settings')
       ->set('salutation',$form_state->getValue('salutation'))
       ->save();
     $this->logger->info('The Hello World salutation has been changed to @message.',['@message'=>$form_state->getValue('salutation')]);

@@ -1,0 +1,7 @@
+hello_world_custom_salutation.settings:
+  type: config_object
+  label: 'Salutation settings'
+  mapping:
+    salutation:
+      type: string
+      label: 'The salutation message'

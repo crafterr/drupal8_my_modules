@@ -1,0 +1,9 @@
+simple_configuration.hello:
+  route_name: simple_configuration.default_controller_hello
+  title: 'Hello World'
+  base_route: simple_configuration.default_controller_hello
+simple_configuration.config:
+  route_name: simple_configuration.simple_configuration_setting_form
+  title: 'Configuration'
+  base_route: simple_configuration.default_controller_hello
+  weight: 100

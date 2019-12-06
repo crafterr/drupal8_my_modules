@@ -16,7 +16,9 @@
  */
 #}
 <section{{ attributes }}>
+  {{ title_prefix }}
   <h2>{{ name }} </h2>
+
   {% if bread %}
     <p><strong>Bread:</strong> {{ bread }}</p>
   {% endif %}
@@ -46,4 +48,5 @@
       {% endfor %}
     </ul>
   {% endif %}
+  {{ title_suffix }}
 </section>

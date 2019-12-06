@@ -1,0 +1,6 @@
+views.filter.my_custom_view_filter_node_titles:
+  type: views_filter
+  label: 'Specify a list of titles a node can have.'
+views.filter_value.my_custom_view_filter_node_titles:
+  type: views.filter_value.numeric
+  label: 'Foobar string'
