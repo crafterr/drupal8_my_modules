@@ -27,5 +27,14 @@ function my_module_view_field_views_data() {
             'id' => 'my_module_views_field',
         ],
     ];
+
+  $data['views']['decorated_user_name'] = [
+    'group' => t('User'),
+    'title' => t('Decorated User name'),
+    'help' => t('Plugin render username in span'),
+    'field' => [
+      'id' => 'decorated_user_name',
+    ],
+  ];
     return $data;
 }
