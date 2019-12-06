@@ -1,0 +1,13 @@
+{
+    "name": "node_type_filter",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/node_type_filter",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/node_type_filter",
+        "source": "http://cgit.drupalcode.org/node_type_filter",
+    },
+}

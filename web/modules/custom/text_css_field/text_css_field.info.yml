@@ -1,0 +1,5 @@
+name: Text CSS Field
+type: module
+description: Custom Text/CSS views field
+core: 8.x
+package: Custom

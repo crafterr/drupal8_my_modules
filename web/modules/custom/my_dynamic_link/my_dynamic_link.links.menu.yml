@@ -1,0 +1,10 @@
+my_dynamic_link.product_link:
+  deriver: \Drupal\my_dynamic_link\Plugin\Derivative\MenuLinkDerivative
+  class: \Drupal\my_dynamic_link\Plugin\Menu\MenuLink
+
+my_dynamic_link.list:
+  title: 'List All Computers'
+  description: 'Show all known computers'
+  route_name: hello_world.hello.simple
+  parent: main
+  menu_name: main

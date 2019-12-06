@@ -11,6 +11,15 @@ use Drupal\Core\Link;
 class DefaultController extends ControllerBase {
 
   public function hello($name) {
+    $tree = \Drupal::menuTree()->load('main', new \Drupal\Core\Menu\MenuTreeParameters());
+    foreach ($tree as $item) {
+      $title = $item->link->getTitle();
+      $url_obj = $item->link->getUrlObject();
+      $has_children = $item->hasChildren;
+
+      // etc...
+    }
+
     return [
       '#type' => 'markup',
       '#markup' => $this->t('Implement method: hello with parameter(s): %name',['%name'=>'adam']),

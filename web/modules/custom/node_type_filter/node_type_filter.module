@@ -1,0 +1,51 @@
+<?php
+
+/**
+ * @file
+ * Contains node_type_filter.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function node_type_filter_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the node_type_filter module.
+    case 'help.page.node_type_filter':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function node_type_filter_theme() {
+  return [
+    'node_type_filter' => [
+      'render element' => 'children',
+    ],
+  ];
+}
+
+/**
+ * Implements hook_views_data_alter().
+ */
+function node_type_filter_views_data_alter(array &$data)
+{
+  $data['node_field_data']['node_type_filter'] = [
+    'title' => t('Enhanced node type filter'),
+    'filter' => array(
+      'title' => t('Enhanced node type filter'),
+      'help' => t('Provides a custom filter for nodes by their type.'),
+      'field' => 'type',
+      'id' => 'string'
+    ),
+  ];
+}

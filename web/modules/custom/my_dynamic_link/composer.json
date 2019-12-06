@@ -1,0 +1,13 @@
+{
+    "name": "my_dynamic_link",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/my_dynamic_link",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/my_dynamic_link",
+        "source": "http://cgit.drupalcode.org/my_dynamic_link",
+    },
+}

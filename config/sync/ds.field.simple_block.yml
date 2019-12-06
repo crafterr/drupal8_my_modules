@@ -1,0 +1,12 @@
+id: simple_block
+label: 'Simple Block'
+ui_limit: ''
+properties:
+  block: 'block_content:e5fbd71a-9144-475d-9e1e-2e0d36ff3770'
+  use_block_title: false
+  add_block_wrappers: false
+type: block
+type_label: 'Block field'
+entities:
+  block_content: block_content
+  node: node
