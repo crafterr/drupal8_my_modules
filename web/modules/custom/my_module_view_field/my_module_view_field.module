@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains my_module_view_field.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function my_module_view_field_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the my_module_view_field module.
+    case 'help.page.my_module_view_field':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function my_module_view_field_theme() {
+  return [
+    'my_module_view_field' => [
+      'render element' => 'children',
+    ],
+  ];
+}
