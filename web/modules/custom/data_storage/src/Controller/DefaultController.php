@@ -4,6 +4,7 @@ namespace Drupal\data_storage\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\Core\State\StateInterface;
+use Drupal\user\Entity\User;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -80,8 +81,9 @@ class DefaultController extends ControllerBase {
    */
   public function userData() {
     /** @var \Drupal\user\UserDataInterface $userData */
+
     $userData = \Drupal::service('user.data');
-    $userData->set('data_storage',$this->currentUser()->id(),'var','Adam ma kota');
+    $userData->set('data_storage',session_id(),'var','Adam ma kota');
     $s = $userData->get('data_storage',$this->currentUser()->id(),'var');
     /**
      * The user module defines the users_data database table whose columns pretty much map to the arguments of these methods. The extra serialized column is there to indicate whether the stored data is serialized. Also, in this table, multiple records for a given user can coexist.
@@ -90,4 +92,23 @@ class DefaultController extends ControllerBase {
     return new Response();
   }
 
+  public function bibliographySave() {
+    /** @var \Drupal\Core\TempStore\PrivateTempStoreFactory $factory */
+    $factory = \Drupal::service('user.private_tempstore');
+    $store = $factory->get('data_storage.my_collection');
+    //$store->set('my_key',$this->currentUser()->id().' adam ma kotaaaaa');
+    $value = $store->get('my_key');
+
+    die();
+
+  }
+
+  public function bibliographyWrite() {
+    $factory = \Drupal::service('user.private_tempstore');
+    $store = $factory->get('data_storage.my_collection');
+    $value = $store->get('my_key');
+    dump($value);
+    die();
+
+  }
 }
