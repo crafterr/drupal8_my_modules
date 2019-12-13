@@ -1,0 +1,4 @@
+services:
+  user_status_online.service:
+    class: Drupal\user_status_online\Service
+    arguments: ['@request_stack']

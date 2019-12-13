@@ -22,3 +22,20 @@ data_storage.default_controller_user_data:
     _title: 'Data Storage'
   requirements:
     _permission: 'access content'
+
+data_storage.default_controller_bibliography:
+  path: '/data_storage/bibliography'
+  defaults:
+    _controller: '\Drupal\data_storage\Controller\DefaultController::bibliography'
+    _title: 'Data Storage'
+  requirements:
+    _permission: 'access content'
+
+
+data_storage.default_controller_bibliographyread:
+  path: '/data_storage/bibliographyread'
+  defaults:
+    _controller: '\Drupal\data_storage\Controller\DefaultController::bibliographyRead'
+    _title: 'Data Storage'
+  requirements:
+    _permission: 'access content'

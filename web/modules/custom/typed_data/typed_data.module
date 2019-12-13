@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains typed_data.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function typed_data_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the typed_data module.
+    case 'help.page.typed_data':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function typed_data_theme() {
+  return [
+    'typed_data' => [
+      'render element' => 'children',
+    ],
+  ];
+}

@@ -1,0 +1,13 @@
+{
+    "name": "pw_bibliography_page",
+    "type": "drupal-module",
+    "description": "Module add new feature to bibliography page",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/pw_bibliography_page",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/pw_bibliography_page",
+        "source": "http://cgit.drupalcode.org/pw_bibliography_page",
+    },
+}

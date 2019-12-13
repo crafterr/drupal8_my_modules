@@ -1,0 +1,5 @@
+name: 'Pw Bibliography Page'
+type: module
+description: 'Module add new feature to bibliography page'
+core: 8.x
+package: 'Custom'

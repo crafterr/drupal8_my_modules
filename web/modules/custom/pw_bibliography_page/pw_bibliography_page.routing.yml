@@ -1,0 +1,8 @@
+
+pw_bibliography_page.default_controller_hello:
+  path: '/pw_bibliography_page/hello/{name}'
+  defaults:
+    _controller: '\Drupal\pw_bibliography_page\Controller\DefaultController::hello'
+    _title: 'Bibliography'
+  requirements:
+    _permission: 'access content'

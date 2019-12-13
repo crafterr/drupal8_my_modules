@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains pw_bibliography_page.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function pw_bibliography_page_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the pw_bibliography_page module.
+    case 'help.page.pw_bibliography_page':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Module add new feature to bibliography page') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function pw_bibliography_page_theme() {
+  return [
+    'pw_bibliography_page' => [
+      'render element' => 'children',
+    ],
+  ];
+}

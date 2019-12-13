@@ -1,1 +1,30 @@
-<!-- Add you custom twig html here -->
+{#
+/**
+ * @file
+ * Theme override for a main view template.
+ *
+ * Available variables:
+ * - attributes: Remaining HTML attributes for the element.
+ * - label_display: Return boolean value when is enabled
+ * - label: Display label
+ * - uid: User id
+ * - view_mode: Display view mode name
+ * - status: Display status for user based on strategy pattern (default statuses: online, offline, absent
+ *
+ * @see template_preprocess_user_status_online()
+ */
+#}
+{%
+    set classes = [
+    'view-mode-' ~ view_mode,
+]
+%}
+
+<div{{ attributes.addClass(classes) }}>
+    {% if label_display %}
+        <h4 class="label {{ label_display }}">
+            {{- label -}}
+        </h4>
+    {% endif %}
+    <span class="status">{{ status }}</span>
+</div>

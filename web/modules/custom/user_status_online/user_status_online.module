@@ -5,7 +5,14 @@
  * Contains user_status_online.module.
  */
 
+use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Routing\RouteMatchInterface;
+use \Drupal\user\Entity\User;
+use Drupal\user_status_online\Status;
+use Drupal\user_status_online\StatusStrategy\AbsentStrategy;
+use Drupal\user_status_online\StatusStrategy\OfflineStrategy;
+use Drupal\user_status_online\StatusStrategy\OnlineStrategy;
 
 /**
  * Implements hook_help().
@@ -16,57 +23,96 @@ function user_status_online_help($route_name, RouteMatchInterface $route_match) 
     case 'help.page.user_status_online':
       $output = '';
       $output .= '<h3>' . t('About') . '</h3>';
-      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      $output .= '<p>' . t('Module provides View Field to views and Pseudo Field to display mode and display if user is online or not') . '</p>';
       return $output;
 
     default:
   }
 }
 
+
+/**
+ * Implements hook_entity_extra_field_info().
+ */
+function user_status_online_entity_extra_field_info() {
+
+  $extra = [];
+
+  $extra['user']['user']['display']['user_status_online'] = [
+    'label'       => t('Online Status'),
+    'description' => t("Show the user's online status"),
+    'weight'      => 100,
+    'visible'     => TRUE,
+  ];
+
+  return $extra;
+}
+
+/**
+ * Implements hook_ENTITY_TYPE_view().
+ */
+function user_status_online_user_view(array &$build, EntityInterface $entity, EntityViewDisplayInterface $display, $view_mode) {
+
+  if ($display->getComponent('user_status_online')) {
+
+    $build['user_status_online'] = [
+      '#theme'         => 'user_status_online',
+      '#label'         => t('Online Status'),
+      '#label_display' => 'inline',
+      '#uid'           => $entity->id(),
+      '#view_mode'     => $view_mode,
+      '#cache' => [
+        'max-age' => 0,
+      ]
+    ];
+  }
+}
+
 /**
  * Implements hook_theme().
  */
-function user_status_online_theme() {
+function user_status_online_theme($existing, $type, $theme, $path) {
+
   return [
     'user_status_online' => [
-      'render element' => 'children',
+      'variables' => [
+        'label'         => NULL,
+        'label_display' => NULL,
+        'uid'           => NULL,
+        'view_mode'     => NULL,
+      ],
     ],
   ];
 }
 
-
 /**
- * Implements hook_views_data_alter().
+ * Implement template_preprocess_HOOK()
+ * @param $variables
  */
-function user_status_online_views_data_alter(array &$data) {
+function template_preprocess_user_status_online(&$variables)
+{
+  $uid = (int) $variables['uid'];
 
-  $data['node']['node_type_flagger'] = array(
-    'title' => t('Node type flagger'),
-    'field' => array(
-      'title' => t('Node type flagger'),
-      'help' => t('Flags a specific node type.'),
-      'id' => 'node_type_flagger',
-    ),
-  );
-  $data['node']['moje_jakies_pole'] = array(
-    'title' => t('Jakies moje pole'),
-    'field' => array(
-      'title' => t('Jakies moje pole'),
-      'help' => t('Jakies moje pole'),
-      'id' => 'moje_jakies_pole',
-    ),
-
-  );
+  $user = User::load($uid);
+  $statusManager = new Status($user,\Drupal::requestStack());
+  $statusManager->addStrategy(new OnlineStrategy());
+  $statusManager->addStrategy(new OfflineStrategy());
+  $statusManager->addStrategy(new AbsentStrategy());
+  $variables['status'] = t($statusManager->getStatus());
 
 
-  $data['node']['show_online_status'] = array(
-    'title' => t('Pokaż status online'),
-    'field' => array(
-      'title' => t('Pokaż status online'),
-      'help' => t('Pokaż status online'),
-      'id' => 'show_online_status',
-    ),
-
-  );
 }
 
+/**
+ * Implements hook_theme_suggestions_HOOK().
+ */
+function user_status_online_theme_suggestions_user_status_online(array $variables) {
+
+  $suggestions = [];
+
+  $suggestions[] = $variables['theme_hook_original'] . '__' . $variables['uid'] . '__' . $variables['view_mode'];
+  $suggestions[] = $variables['theme_hook_original'] . '__' . $variables['uid'];
+  $suggestions[] = $variables['theme_hook_original'] . '__' . $variables['view_mode'];
+
+  return $suggestions;
+}

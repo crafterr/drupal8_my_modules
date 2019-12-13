@@ -1,0 +1,33 @@
+
+typed_data.default_controller_hello:
+  path: '/typed_data/hello'
+  defaults:
+    _controller: '\Drupal\typed_data\Controller\DefaultController::hello'
+    _title: 'Typed Data'
+  requirements:
+    _permission: 'access content'
+
+
+typed_data.default_controller_licence_plate:
+  path: '/typed_data/licence-plate'
+  defaults:
+    _controller: '\Drupal\typed_data\Controller\DefaultController::licencePlate'
+    _title: 'Typed Data'
+  requirements:
+    _permission: 'access content'
+
+typed_data.default_controller_zipcode:
+  path: '/typed_data/zip-code'
+  defaults:
+    _controller: '\Drupal\typed_data\Controller\DefaultController::zipCode'
+    _title: 'Typed Data'
+  requirements:
+    _permission: 'access content'
+
+typed_data.default_controller_complex:
+  path: '/typed_data/complex'
+  defaults:
+    _controller: '\Drupal\typed_data\Controller\DefaultController::complex'
+    _title: 'Typed Data'
+  requirements:
+    _permission: 'access content'

@@ -12,6 +12,20 @@ use Symfony\Component\HttpFoundation\Response;
  */
 class DefaultController extends ControllerBase {
 
+  protected $tempStore;
+
+  // Pass the dependency to the object constructor
+  public function __construct(PrivateTempStoreFactory $temp_store_factory) {
+    // For "mymodule_name," any unique namespace will do
+    $this->tempStore = $temp_store_factory->get('mymodule_name');
+  }
+
+  // Uses Symfony's ContainerInterface to declare dependency to be passed to constructor
+  public static function create(ContainerInterface $container) {
+    return new static(
+      $container->get('user.private_tempstore')
+    );
+  }
 
   public function stateApi() {
 
@@ -88,6 +102,23 @@ class DefaultController extends ControllerBase {
      */
     dump($s);
     return new Response();
+  }
+
+  public function bibliography() {
+    $tempstore = \Drupal::service('user.private_tempstore')->get('data_storage');
+    $tempstore->set('key_name', 'adam ma kota');
+    $value = $tempstore->get('key_name');
+      dump($value);
+    die();
+  }
+
+  public function bibliographyRead() {
+    /** @var \Drupal\Core\TempStore\PrivateTempStoreFactory $factory */
+    $tempstore = \Drupal::service('user.private_tempstore')->get('data_storage');
+    //$tempstore->set('key_name', 'adam ma kota');
+    $value = $tempstore->get('key_name');
+    dump($value);
+    die();
   }
 
 }

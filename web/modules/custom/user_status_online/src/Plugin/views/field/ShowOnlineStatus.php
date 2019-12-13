@@ -1,16 +1,11 @@
 <?php
-
-/**
- * @file
- * Definition of Drupal\d8views\Plugin\views\field\NodeTypeFlagger
- */
-
 namespace Drupal\user_status_online\Plugin\views\field;
 
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\node\Entity\NodeType;
+use Drupal\user_status_online\ServiceInterface;
 use Drupal\views\Plugin\views\field\FieldPluginBase;
 use Drupal\views\ResultRow;
+use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
  * Field handler to flag the node type.
@@ -22,6 +17,26 @@ use Drupal\views\ResultRow;
 class ShowOnlineStatus extends FieldPluginBase {
 
   /**
+   * @var ServiceInterface
+   */
+  protected $service;
+
+  /**
+   * @inheritDoc
+   */
+  public function __construct(array $configuration, $plugin_id, $plugin_definition, ServiceInterface $service) {
+    parent::__construct($configuration, $plugin_id, $plugin_definition);
+    $this->service = $service;
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public static function create(ContainerInterface $container, array $configuration, $plugin_id, $plugin_definition) {
+    return new static($configuration, $plugin_id, $plugin_definition, $container->get('user_status_online.service'));
+  }
+
+  /**
    * @{inheritdoc}
    */
   public function query() {
@@ -29,20 +44,19 @@ class ShowOnlineStatus extends FieldPluginBase {
   }
 
   /**
-   * Define the available options
-   * @return array
+   * {@inheritdoc}
    */
   protected function defineOptions() {
     $options = parent::defineOptions();
 
+    $options['hide_alter_empty'] = ['default' => FALSE];
     return $options;
   }
 
   /**
-   * Provide the options form.
+   * {@inheritdoc}
    */
   public function buildOptionsForm(&$form, FormStateInterface $form_state) {
-
     parent::buildOptionsForm($form, $form_state);
   }
 
@@ -51,6 +65,8 @@ class ShowOnlineStatus extends FieldPluginBase {
    */
   public function render(ResultRow $values) {
     $user = $values->_entity;
-    return $this->t('Moje jakies pole z user');
+    $status = $this->service->getStatus($user);
+
+    return $this->t($status);
   }
 }
