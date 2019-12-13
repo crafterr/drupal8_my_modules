@@ -145,3 +145,8 @@ function mytheme_theme_suggestions_details_alter(array &$suggestions, array $var
 function mytheme_preprocess_menu_local_task(array &$variables) {
   //$variables['element']['#link']['url']->setOption('attributes', ['class'=>'rounded']);
 }
+
+
+function mytheme_preprocess_user(&$variables) {
+  dump($variables['user']); //die();
+}

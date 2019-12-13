@@ -21,6 +21,7 @@
         "crafterr/carousel_block": "^1.0",
         "cweagans/composer-patches": "^1.6",
         "drupal-composer/drupal-scaffold": "^2.5",
+        "drupal/better_exposed_filters": "^4.0@alpha",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.7.0",
         "drupal/ctools": "^3.2",

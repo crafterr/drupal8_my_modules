@@ -1,0 +1,28 @@
+{#
+/**
+* @file
+* Default theme implementation to display a block.
+*
+* @see template_preprocess_block()
+*
+* @ingroup themeable
+*/
+#}
+{% set classes = [
+    'clear-both',
+] %}
+<div{{ attributes.addClass(classes) }}>
+  <p><span class="copyright-text">{% trans %}
+        Copyright &copy; {{ year }} A Great Organization
+      {% endtrans %}
+  </span>
+
+    <span class="copyright-rights">
+    {% trans %}All Rights Reserved{% endtrans %}
+  </span>
+
+    <span class="site-credit">
+    {% trans %}Websitee by{% endtrans %}<a href="https://spinningcode.org">Adam Pietras</a>
+  </span>
+  </p>
+</div>

@@ -1,0 +1,84 @@
+<?php
+
+/**
+ * @file
+ * Contains query_alter.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function query_alter_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the query_alter module.
+    case 'help.page.query_alter':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+function query_alter_form_views_exposed_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+
+
+  $view_ids = ['my_article_view_table'];
+
+  $view = $form_state->getStorage('view');
+  if ($form_id == 'views_exposed_form' && in_array($view['view']->id(), $view_ids)) {
+    $options = array(
+      'All' => 'Wszystkie',
+      'desc' => 'desc',
+      'asc' => 'asc'
+    );
+    $form['my_form']['title']['#type'] = 'select';
+    $form['my_form']['title']['#options'] = $options;
+    $form['my_form']['title2']['#type'] = 'select';
+    $form['my_form']['title2']['#options'] = $options;
+  }
+}
+
+/**
+ * Implements hook_views_query_alter().
+ */
+function query_alter_views_query_alter(\Drupal\views\ViewExecutable $view, \Drupal\views\Plugin\views\query\QueryPluginBase $query)
+{
+  if ($view->id() == 'my_article_view_table' && $view->current_display == 'page_1') {
+
+    $query->orderby = array(
+      array(
+        'field' => 'node_field_data_title',
+        'direction' => $view->exposed_raw_input['title'],
+      ),
+      array(
+        'field' => 'node__field_title2_field_title2_value',
+        'direction' => $view->exposed_raw_input['title2'],
+      ),
+      /**
+      array(
+        'field' => '[third_sort_cck_field_value]',
+        'direction' => 'ASC',
+      )*/
+    );
+
+
+
+  }
+}
+
+
+
+/**
+ * Implements hook_theme().
+ */
+function query_alter_theme() {
+  return [
+    'query_alter' => [
+      'render element' => 'children',
+    ],
+  ];
+}

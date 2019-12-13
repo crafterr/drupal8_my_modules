@@ -1,0 +1,25 @@
+{#
+/**
+* @file
+* Default theme implementation to display a block.
+* Available variables:
+* - node: The node entity with limited access to object properties and methods.
+*   Only method names starting with "get", "has", or "is" and a few common
+*   methods such as "id", "label", and "bundle" are available. For example:
+*   - node.getCreatedTime() will return the node creation timestamp.
+*   - node.hasField('field_example') returns TRUE if the node bundle includes
+*     field_example. (This does not indicate the presence of a value in this
+*     field.)
+*   - node.isPublished() will return whether the node is published or not.
+
+* @see template_preprocess_block()
+*
+* @ingroup themeable
+*/
+#}
+{% set classes = [
+  'clear-both',
+] %}
+<div{{ attributes.addClass(classes) }}>
+  <p>{{ content }}</p>
+</div>

@@ -1,0 +1,8 @@
+
+my_custom_block.default_controller_render:
+  path: '/my_custom_block/render'
+  defaults:
+    _controller: '\Drupal\my_custom_block\Controller\DefaultController::render'
+    _title: 'Default'
+  requirements:
+    _permission: 'access content'
