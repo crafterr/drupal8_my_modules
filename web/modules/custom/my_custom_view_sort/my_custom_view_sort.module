@@ -1,0 +1,52 @@
+<?php
+
+/**
+ * @file
+ * Contains my_custom_view_sort.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function my_custom_view_sort_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the my_custom_view_sort module.
+    case 'help.page.my_custom_view_sort':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function my_custom_view_sort_theme() {
+  return [
+    'my_custom_view_sort' => [
+      'render element' => 'children',
+    ],
+  ];
+}
+
+
+/**
+ * Implements hook_views_data_alter().
+ */
+function my_custom_view_sort_views_data_alter(array &$data) {
+
+  $data['node_field_data']['node_field_title'] = array(
+    'title' => t('Custom title sort'),
+    'group' => t('Content'),
+    'help' => t('Sort title'),
+    'sort' => array(
+      'field' => 'title',
+      'id' => 'title',
+    ),
+  );
+}

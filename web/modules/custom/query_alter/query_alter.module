@@ -31,7 +31,7 @@ function query_alter_form_views_exposed_form_alter(&$form, \Drupal\Core\Form\For
   $view = $form_state->getStorage('view');
   if ($form_id == 'views_exposed_form' && in_array($view['view']->id(), $view_ids)) {
     $options = array(
-      'All' => 'Wszystkie',
+      'none' => 'Reset',
       'desc' => 'desc',
       'asc' => 'asc'
     );
@@ -48,22 +48,21 @@ function query_alter_form_views_exposed_form_alter(&$form, \Drupal\Core\Form\For
 function query_alter_views_query_alter(\Drupal\views\ViewExecutable $view, \Drupal\views\Plugin\views\query\QueryPluginBase $query)
 {
   if ($view->id() == 'my_article_view_table' && $view->current_display == 'page_1') {
-
-    $query->orderby = array(
-      array(
+    $orderby = [];
+    if ($view->exposed_raw_input['title']!='none') {
+      $orderby[] =  array(
         'field' => 'node_field_data_title',
         'direction' => $view->exposed_raw_input['title'],
-      ),
-      array(
+      );
+    }
+    if ($view->exposed_raw_input['title2']!='none') {
+      $orderby[] =  array(
         'field' => 'node__field_title2_field_title2_value',
         'direction' => $view->exposed_raw_input['title2'],
-      ),
-      /**
-      array(
-        'field' => '[third_sort_cck_field_value]',
-        'direction' => 'ASC',
-      )*/
-    );
+      );
+    }
+
+    $query->orderby = $orderby;
 
 
 
