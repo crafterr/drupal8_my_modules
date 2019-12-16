@@ -69,6 +69,24 @@ function query_alter_views_query_alter(\Drupal\views\ViewExecutable $view, \Drup
   }
 }
 
+function query_alter_preprocess_views_view_field(&$variables) {
+  $view = $variables['view'];
+  if ($view->id()=='my_article_view_table') {
+    if ($variables['field']->field == 'title') {
+
+
+      // Modify the actual output
+      $variables['output'] = preg_replace('/\([^)]*\),+/','',$variables['output']);
+
+      $variables['output'] = t($variables['output']);
+
+      // And OR add new variable that will be readable in your TWIG file
+      $variables['new_variable'] = "";
+
+    }
+  }
+}
+
 
 
 /**

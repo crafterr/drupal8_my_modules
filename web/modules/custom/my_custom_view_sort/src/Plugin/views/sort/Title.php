@@ -12,8 +12,7 @@ class Title extends SortPluginBase
 {
   public function query()
   {
- // dump($this->view->exposed_raw_input['sort_order']);
-    $this->ensureMyTable();
-    $this->query->addOrderBy($this->tableAlias, $this->realField, $this->options['order']);
+    parent::query();
+   // dump($this->query); die();
   }
 }
