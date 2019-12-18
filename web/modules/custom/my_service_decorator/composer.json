@@ -1,0 +1,13 @@
+{
+    "name": "my_service_decorator",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/my_service_decorator",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/my_service_decorator",
+        "source": "http://cgit.drupalcode.org/my_service_decorator",
+    },
+}

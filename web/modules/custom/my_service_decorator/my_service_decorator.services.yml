@@ -1,0 +1,13 @@
+services:
+  logger.channel.my_service_decorator:
+    parent: logger.channel_base
+    arguments: ['my_service_decorator']
+  my_service_decorator.default:
+    class: Drupal\my_service_decorator\DefaultService
+    arguments: []
+
+  my_service_decorator.override_my_service_decorator:
+    class: Drupal\my_service_decorator\DefaultServiceOverride
+    decorates: my_service_decorator.default
+    decoration_priority: 9
+    public: false

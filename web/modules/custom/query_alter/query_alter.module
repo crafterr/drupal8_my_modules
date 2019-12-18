@@ -76,7 +76,7 @@ function query_alter_preprocess_views_view_field(&$variables) {
 
 
       // Modify the actual output
-      $variables['output'] = preg_replace('/\([^)]*\),+/','',$variables['output']);
+      $variables['output'] = preg_replace('/\([^)]*\),+/','',$variables['output']->__toString());
 
       $variables['output'] = t($variables['output']);
 

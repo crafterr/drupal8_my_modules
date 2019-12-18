@@ -1,0 +1,8 @@
+
+my_service_decorator.default_controller_hello:
+  path: '/my_service_decorator/render'
+  defaults:
+    _controller: '\Drupal\my_service_decorator\Controller\DefaultController::render'
+    _title: 'Eska'
+  requirements:
+    _permission: 'access content'
