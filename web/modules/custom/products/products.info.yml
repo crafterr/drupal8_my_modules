@@ -1,0 +1,5 @@
+name: 'Products'
+type: module
+description: 'Module provide custom entity type and plugin importer and so on.'
+core: 8.x
+package: 'Custom'

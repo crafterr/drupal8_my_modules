@@ -37,4 +37,6 @@ interface ServiceInterface {
 
   public function getView(string $id);
 
+  public function getNodeViewBuilder();
+
 }

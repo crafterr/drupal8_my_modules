@@ -142,8 +142,22 @@ class QueryController extends ControllerBase {
     $this->service->createArticle();
     return new Response();
 
+  }
 
-
+  /**
+   *
+   */
+  public function renderContent() {
+    /** @var \Drupal\node\NodeViewBuilder $builder */
+    $builder = $this->service->getNodeViewBuilder();
+    $node = $this->service->load(13);
+    //for one node
+    $build = $builder->view($node,'tiles');
+    //for many nodes
+    //$build = $builder->viewMultiple($nodes,'tiles');
+    //add suggestion
+    $build['#theme'] = $build['#theme'] . '__my_suggestion';
+    return $build;
   }
 
 

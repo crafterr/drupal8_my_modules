@@ -1,8 +1,16 @@
 
-entity_queries.query_controller_hello:
+entity_queries.query_controller_query:
   path: '/entity_queries/query'
   defaults:
     _controller: '\Drupal\entity_queries\Controller\QueryController::query'
+    _title: 'Queries'
+  requirements:
+    _permission: 'access content'
+
+entity_queries.query_controller_render_content:
+  path: '/entity_queries/render-query'
+  defaults:
+    _controller: '\Drupal\entity_queries\Controller\QueryController::renderContent'
     _title: 'Queries'
   requirements:
     _permission: 'access content'

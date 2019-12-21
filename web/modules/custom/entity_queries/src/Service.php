@@ -134,5 +134,12 @@ class Service implements ServiceInterface {
     //return $view->result;
   }
 
+  /**
+   * @inheritDoc
+   */
+  public function getNodeViewBuilder() {
+    return $this->entityTypeManager->getViewBuilder('node');
+  }
+
 
 }

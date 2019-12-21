@@ -129,4 +129,23 @@ class DefaultController extends ControllerBase {
     die();
   }
 
+  public function validation() {
+    $definition = DataDefinition::create('string');
+    $definition->addConstraint('Length', ['max' => 20]);
+    /** @var \Drupal\Core\TypedData\TypedDataInterface $data */
+    $data = \Drupal::typedDataManager()->create($definition, 'my value that is too long');
+    $violations = $data->validate();
+
+    /** @var \Symfony\Component\Validator\ConstraintViolationInterface $violation */
+    foreach ($violations as $violation) {
+      $message = $violation->getMessage();
+      $value = $violation->getInvalidValue();
+      $path = $violation->getPropertyPath();
+      echo $message;
+      dump($value);
+      dump($path);
+    }
+    die();
+  }
+
 }

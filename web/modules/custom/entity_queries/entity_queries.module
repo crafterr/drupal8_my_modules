@@ -33,3 +33,43 @@ function entity_queries_theme() {
     ],
   ];
 }
+
+/**
+ * Implements hook_entity_view().
+ */
+function entity_queries_entity_view(array &$build, \Drupal\Core\Entity\EntityInterface $entity, \Drupal\Core\Entity\Display\EntityViewDisplayInterface $display, $view_mode) {
+  if ($entity->getEntityTypeId() == 'node' && $view_mode == 'tiles') {
+
+    /*$build['disclaimer'] = [
+      '#markup' => t('The content provided is for general information purposes only.'),
+      '#weight' => 100
+    ];*/
+  }
+  if ($display->getComponent('disclaimer')) {
+    $build['disclaimer'] = [
+      '#markup' => t('The content provided is for general information purposes only.'),
+    ];
+  }
+}
+
+
+/**
+ * CREATE PSEUDOFIELD
+ */
+/**
+ * Implements hook_entity_extra_field_info().
+ */
+function entity_queries_entity_extra_field_info() {
+  $extra = [];
+
+  foreach (\Drupal\node\Entity\NodeType::loadMultiple() as $bundle) {
+    $extra['node'][$bundle->id()]['display']['disclaimer'] = [
+      'label' => t('Disclaimer'),
+      'description' => t('A general disclaimer'),
+      'weight' => 100,
+      'visible' => TRUE,
+    ];
+  }
+
+  return $extra;
+}

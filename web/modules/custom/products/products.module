@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains products.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function products_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the products module.
+    case 'help.page.products':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Module provide custom entity type and plugin importer and so on.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function products_theme() {
+  return [
+    'products' => [
+      'render element' => 'children',
+    ],
+  ];
+}

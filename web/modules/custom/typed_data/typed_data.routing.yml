@@ -31,3 +31,11 @@ typed_data.default_controller_complex:
     _title: 'Typed Data'
   requirements:
     _permission: 'access content'
+
+typed_data.default_controller_validation:
+  path: '/typed_data/validation'
+  defaults:
+    _controller: '\Drupal\typed_data\Controller\DefaultController::validation'
+    _title: 'Typed Data'
+  requirements:
+    _permission: 'access content'

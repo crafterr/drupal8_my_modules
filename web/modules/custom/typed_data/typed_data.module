@@ -33,3 +33,14 @@ function typed_data_theme() {
     ],
   ];
 }
+
+function typed_data_entity_base_field_info_alter(&$fields, \Drupal\Core\Entity\EntityTypeInterface $entity_type) {
+  if ($entity_type->id() === 'node') {
+    $nid = $fields['nid'];
+    //$nid->addPropertyConstraints('title', ['Length' => ['max' => 5]]);
+    /*$constraints = $nid->getConstraints();
+    $item_constraints = $nid->getItemDefinition()->getConstraints();
+    dump($item_constraints);*/
+
+  }
+}

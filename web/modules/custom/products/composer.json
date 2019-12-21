@@ -1,0 +1,13 @@
+{
+    "name": "products",
+    "type": "drupal-module",
+    "description": "Module provide custom entity type and plugin importer and so on.",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/products",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/products",
+        "source": "http://cgit.drupalcode.org/products",
+    },
+}
