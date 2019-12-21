@@ -1,8 +1,12 @@
 <?php
+
 namespace Drupal\user_status_online\StatusStrategy;
 
 use Drupal\user_status_online\StatusInterface;
 
+/**
+ * Class StatusStrategy
+ */
 abstract class StatusStrategy {
 
   /**

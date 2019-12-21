@@ -3,3 +3,5 @@ type: module
 description: 'Module provides View Field to views and Pseudo Field to display user online status'
 core: 8.x
 package: 'Custom'
+dependencies:
+  - drupal:views

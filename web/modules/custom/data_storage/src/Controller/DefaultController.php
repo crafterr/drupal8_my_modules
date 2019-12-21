@@ -34,13 +34,13 @@ class DefaultController extends ControllerBase {
      */
    $this->state()->set('my_unique_key_name','adam ma kota');
 
-   dump($this->state()->get('my_unique_key_name'));
+   //dump($this->state()->get('my_unique_key_name'));
 
   // $this->state()->delete('my_unique_key_name');
 
    //multiple
     $this->state()->setMultiple(['my_unique_key_one' => 'value', 'my_unique_key_two' => 'value']);
-    dump($this->state()->getMultiple(['my_unique_key_one', 'my_unique_key_two']));
+    //dump($this->state()->getMultiple(['my_unique_key_one', 'my_unique_key_two']));
 
     $this->state()->deleteMultiple(['my_unique_key_one', 'my_unique_key_two']);
 
@@ -61,9 +61,9 @@ class DefaultController extends ControllerBase {
     //set in key_value_expire table name id_user:my_key 1:my_key value bloob  O:8:"stdClass":3:{s:5:"owner";s:1:"1";s:4:"data";s:12:"adam ma kota";s:7:"updated";i:1574372368;}
     //if user is not authorized then id_user will be 4W2kLm0ovYlBneHMKPBUPdEM8GEpjQcU3_-B3X6nLh0:my_key
     //Lastly, we have the expire column, which, by default, will be one week from the moment the entry was created. This is a "global" timeframe set as a parameter in the user.services.yml
-    dump($value);
+   // dump($value);
     $metadata = $store->getMetadata('my_key');
-    dump($metadata);
+   // dump($metadata);
     //we can delete
     //$store->delete('my_key');
 
@@ -77,13 +77,13 @@ class DefaultController extends ControllerBase {
     $store = $factory->get('my_module.my_collection');
     $store->set('my_key', 'my_value');
     $value = $store->get('my_key');
-    dump($value);
+    //dump($value);
 
     $metadata = $store->getMetadata('my_key');
     //$store->delete('my_key');
     $store->setIfOwner('my_key','my_valueeee');
     $value = $store->get('my_key');
-    dump($value);
+   // dump($value);
     return new Response();
 
   }
@@ -100,7 +100,7 @@ class DefaultController extends ControllerBase {
     /**
      * The user module defines the users_data database table whose columns pretty much map to the arguments of these methods. The extra serialized column is there to indicate whether the stored data is serialized. Also, in this table, multiple records for a given user can coexist.
      */
-    dump($s);
+    //dump($s);
     return new Response();
   }
 
@@ -108,7 +108,7 @@ class DefaultController extends ControllerBase {
     $tempstore = \Drupal::service('user.private_tempstore')->get('data_storage');
     $tempstore->set('key_name', 'adam ma kota');
     $value = $tempstore->get('key_name');
-      dump($value);
+
     die();
   }
 
@@ -117,7 +117,7 @@ class DefaultController extends ControllerBase {
     $tempstore = \Drupal::service('user.private_tempstore')->get('data_storage');
     //$tempstore->set('key_name', 'adam ma kota');
     $value = $tempstore->get('key_name');
-    dump($value);
+
     die();
   }
 

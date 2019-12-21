@@ -8,7 +8,7 @@
 use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Routing\RouteMatchInterface;
-use \Drupal\user\Entity\User;
+use Drupal\user\Entity\User;
 use Drupal\user_status_online\Status;
 use Drupal\user_status_online\StatusStrategy\AbsentStrategy;
 use Drupal\user_status_online\StatusStrategy\OfflineStrategy;
@@ -64,6 +64,7 @@ function user_status_online_user_view(array &$build, EntityInterface $entity, En
       '#cache' => [
         'max-age' => 0,
       ]
+
     ];
   }
 }
@@ -99,7 +100,6 @@ function template_preprocess_user_status_online(&$variables)
   $statusManager->addStrategy(new OfflineStrategy());
   $statusManager->addStrategy(new AbsentStrategy());
   $variables['status'] = t($statusManager->getStatus());
-
 
 }
 

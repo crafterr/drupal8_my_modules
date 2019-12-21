@@ -1,10 +1,14 @@
 <?php
+
 namespace Drupal\user_status_online;
 
 use Drupal\user_status_online\StatusStrategy\StatusStrategy;
-use \Drupal\user\UserInterface;
-use \Symfony\Component\HttpFoundation\RequestStack;
+use Drupal\user\UserInterface;
+use Symfony\Component\HttpFoundation\RequestStack;
 
+/**
+ * Interface StatusInterface
+ */
 interface StatusInterface {
 
   /**

@@ -1,4 +1,5 @@
 <?php
+
 namespace Drupal\user_status_online\Plugin\views\field;
 
 use Drupal\Core\Form\FormStateInterface;

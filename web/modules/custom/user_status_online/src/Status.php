@@ -1,4 +1,5 @@
 <?php
+
 namespace Drupal\user_status_online;
 
 use Drupal\user\UserInterface;
@@ -6,6 +7,9 @@ use Drupal\user_status_online\StatusStrategy\StatusStrategy;
 use Drupal\user_status_online\StatusStrategy\StrategyInterface;
 use Symfony\Component\HttpFoundation\RequestStack;
 
+/**
+ * Class Status
+ */
 class Status implements StatusInterface {
 
   /**
@@ -40,7 +44,7 @@ class Status implements StatusInterface {
    * @inheritDoc
    */
   public function addStrategy(StatusStrategy $strategy) {
-    if (in_array($strategy, $this->strategies, true)) {
+    if (in_array($strategy, $this->strategies, TRUE)) {
       return;
     }
     array_push($this->strategies, $strategy);

@@ -1,6 +1,10 @@
 <?php
+
 namespace Drupal\user_status_online\StatusStrategy;
 
+/**
+ * Class OnlineStrategy
+ */
 class OnlineStrategy extends StatusStrategy {
 
   protected $statusName = 'Online';

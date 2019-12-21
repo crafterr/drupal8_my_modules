@@ -1,4 +1,5 @@
 <?php
+
 namespace Drupal\user_status_online;
 
 use Drupal\user\UserInterface;

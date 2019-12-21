@@ -1,0 +1,7 @@
+services:
+  logger.channel.entity_queries:
+    parent: logger.channel_base
+    arguments: ['entity_queries']
+  entity_queries.service:
+    class: Drupal\entity_queries\Service
+    arguments: ['@entity_type.manager']
