@@ -1,14 +1,1 @@
 
-# Product menu items definition
-entity.product.collection:
-  title: 'Product list'
-  route_name: entity.product.collection
-  description: 'List Product entities'
-  parent: system.admin_structure
-  weight: 100
-
-product.admin.structure.settings:
-  title: 'Product settings'
-  description: 'Configure Product entities'
-  route_name: product.settings
-  parent: system.admin_structure

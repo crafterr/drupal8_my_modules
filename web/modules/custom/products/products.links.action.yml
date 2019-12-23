@@ -3,3 +3,9 @@ entity.product.add_form:
   title: 'Add Product'
   appears_on:
     - entity.product.collection
+
+entity.product.settings:
+  route_name: product.settings
+  title: 'Product settings'
+  appears_on:
+    - entity.product.collection

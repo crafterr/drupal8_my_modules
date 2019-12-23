@@ -89,6 +89,53 @@ class Product extends ContentEntityBase implements ProductInterface {
   /**
    * {@inheritdoc}
    */
+  public function getProductNumber() {
+    return $this->get('number')->value;
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function setProductNumber($number) {
+    $this->set('number', $number);
+    return $this;
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function getRemoteId() {
+    return $this->get('remote_id')->value;
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function setRemoteId($id) {
+    $this->set('remote_id', $id);
+    return $this;
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function getSource() {
+    return $this->get('source')->value;
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function setSource($source) {
+    $this->set('source', $source);
+    return $this;
+  }
+
+
+
+  /**
+   * {@inheritdoc}
+   */
   public function getCreatedTime() {
     return $this->get('created')->value;
   }
@@ -184,6 +231,44 @@ class Product extends ContentEntityBase implements ProductInterface {
       ->setDisplayConfigurable('form', TRUE)
       ->setDisplayConfigurable('view', TRUE)
       ->setRequired(TRUE);
+
+    $fields['number'] = BaseFieldDefinition::create('integer')
+      ->setLabel(t('Number'))
+      ->setDescription(t('The Product number.'))
+      ->setSettings([
+        'min' => 1,
+        'max' => 10000
+      ])
+      ->setDefaultValue(NULL)
+      ->setDisplayOptions('view', [
+        'label' => 'above',
+        'type' => 'number_unformatted',
+        'weight' => -4,
+      ])
+      ->setDisplayOptions('form', [
+        'type' => 'number',
+        'weight' => -4,
+      ])
+      ->setDisplayConfigurable('form', TRUE)
+      ->setDisplayConfigurable('view', TRUE);
+
+    $fields['remote_id'] = BaseFieldDefinition::create('string')
+      ->setLabel(t('Remote ID'))
+      ->setDescription(t('The remote ID of the Product.'))
+      ->setSettings([
+        'max_length' => 255,
+        'text_processing' => 0,
+      ])
+      ->setDefaultValue('');
+
+    $fields['source'] = BaseFieldDefinition::create('string')
+      ->setLabel(t('Source'))
+      ->setDescription(t('The source of the Product.'))
+      ->setSettings([
+        'max_length' => 255,
+        'text_processing' => 0,
+      ])
+      ->setDefaultValue('');
 
     $fields['status']->setDescription(t('A boolean indicating whether the Product is published.'))
       ->setDisplayOptions('form', [

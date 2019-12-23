@@ -1,4 +1,10 @@
 # Product routing definition
+product.product.collection:
+  title: 'Products'
+  route_name: entity.product.collection
+  description: 'List of Products'
+  base_route: system.admin_content
+
 product.settings_tab:
   route_name: product.settings
   title: 'Settings'
