@@ -1,0 +1,20 @@
+
+products.product_controller_product:
+  path: '/products/product/{product}'
+  defaults:
+    _controller: '\Drupal\products\Controller\ProductController::product'
+    _title: 'Render ProductViewBuilder'
+  requirements:
+    _permission: 'access content'
+  options:
+    parameters:
+      product:
+        type: entity:product
+
+products.product_controller_product_list:
+  path: '/products/list'
+  defaults:
+    _controller: '\Drupal\products\Controller\ProductController::productList'
+    _title: 'Render ProductViewBuilder'
+  requirements:
+    _permission: 'access content'
