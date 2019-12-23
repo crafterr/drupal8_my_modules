@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains view_tutorial_fruit.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function view_tutorial_fruit_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the view_tutorial_fruit module.
+    case 'help.page.view_tutorial_fruit':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function view_tutorial_fruit_theme() {
+  return [
+    'view_tutorial_fruit' => [
+      'render element' => 'children',
+    ],
+  ];
+}
