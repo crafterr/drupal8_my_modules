@@ -1,0 +1,122 @@
+<?php
+/**
+ * @file
+ * Install, update and uninstall functions view tutorial module
+ */
+
+/**
+ * Implements hook_schema().
+ */
+function view_tutorial_fruit_schema()
+{
+  $schema = [];
+  $schema['fruit'] = [
+    'description' => 'Stores data on fruits.',
+    'fields' => [
+      'id' => [
+        'description' => 'Unique ID of the fruit..',
+        'type' => 'serial',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ],
+      'label' => [
+        'description' => t('Label of the fruit.'),
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => true,
+      ],
+      'weight' => [
+        'description' => 'Weight of the fruit. Units are stored in weight_unit column.',
+        'type' => 'float',
+        'unsigned' => true,
+        'not null' => false,
+      ],
+
+      'weight_unit' => [
+        'description' => t('Unit of the weight.'),
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => true,
+      ],
+      'created' => [
+        'description' => 'The Unix timestamp when the node was created.',
+        'type' => 'int',
+        'unsigned' => true,
+        'not null' => true,
+        'default' => 0,
+      ],
+
+      'ip' => [
+        'description' => 'The user ip.',
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => true,
+      ],
+
+    ],
+    'primary key' => ['id'],
+    'foreign keys' => array(
+      'fk_node' => array(
+        'table' => 'node',
+        'columns' => array('sister_id' => 'nid'),
+      ),
+    ),
+  ];
+
+  $schema['fruit_opinions'] = [
+    'description' => 'Stores data on fuits opinions.',
+    'fields' => [
+      'id' => [
+        'description' => 'Unique ID of the fruit_relations..',
+        'type' => 'serial',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ],
+      'fruit_id' => [
+        'description' => '{fruit}.id of the fruit whose relation is described in this row.',
+        'type' => 'int',
+        'unsigned' => true,
+        'not null' => false,
+      ],
+      'user_id' => array(
+        'type' => 'int',
+        'not null' => TRUE,
+        'unsigned' => true,
+        'default' => 0,
+        'description' => t('The {user}.uid of the user crating the link.')
+      ),
+      'opinions' => [
+        'description' => 'Type of relation. Allowed values are: sweeter, bigger',
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => true,
+      ],
+
+      'created' => [
+        'description' => 'The Unix timestamp when the node was created.',
+        'type' => 'int',
+        'unsigned' => true,
+        'not null' => true,
+        'default' => 0,
+      ],
+
+      'ip' => [
+        'description' => 'The user ip.',
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => true,
+      ],
+
+    ],
+    'primary key' => ['id'],
+    'foreign keys' => [
+      'fk_fruit_opinions_uid' => [
+        'table' => 'users', 'columns' => ['user_id' => 'uid']
+      ],
+      'fk_fruit_opinions_fruit_id' => [
+        'table' => 'fruit', 'columns' => ['fruit_id' => 'id']
+      ],
+    ],
+  ];
+  return $schema;
+}
