@@ -1,0 +1,7 @@
+views.filter.fruit_weight:
+  type: views_filter
+  label: 'Weight Filter'
+
+views.filter_value.fruit_weight:
+  type: views.filter_value.value
+  label: 'Weight Numeric'

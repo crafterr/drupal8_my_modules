@@ -110,6 +110,14 @@ function view_tutorial_fruit_views_data() {
       'unit_column' => 'weight_unit',
       'lb_to_kg' => 0.4535924,
     ],
+    // The below key specifies to Views that it is also possible to filter by
+    // this column and in order to do filtering, it should use the
+    // 'fruit_weight' filter handler. As we have agreed, this filter handler
+    // expects only 1 definition item - name of the column where weight units
+    // are stored.
+    'filter' => [
+      'id' => 'numeric',
+    ],
   ];
 
   $views_data['fruit']['custom_field'] = [
