@@ -67,6 +67,23 @@ function view_tutorial_fruit_views_data() {
       // fetched column as field output (see ::render() method).
       'id' => 'standard',
     ],
+    // So let's tell Views sorting by this column is actually possible.
+    'sort' => [
+      // The id "standard" corresponds to
+      // \Drupal\views\Plugin\views\sort\Standard class. It is a dead straight
+      // forward implementation of sorting that blindly sorts like:
+      // "ORDER BY [column name] [sort direction, i.e. ASC/DESC]". This is just
+      // good enough given we want to sort by fruit label alphabetically.
+      'id' => 'standard',
+    ],
+    // By declaring 'filter' key we communicate to Views that this column can be
+    // filtered on.
+    'filter' => [
+      // The id "string" corresponds to
+      // \Drupal\views\Plugin\views\filter\StringFilter which according to its
+      // documentation is a reasonable filter for columns that contain strings.
+      'id' => 'string',
+    ],
   ];
 
   $views_data['fruit']['weight'] = [
@@ -84,13 +101,22 @@ function view_tutorial_fruit_views_data() {
         'label' => 'label'
       ],
     ],
+    'sort' => [
+      // Observe that we tell Views to use our custom sort handler for sorting
+      // by this column.
+      'id' => 'fruit_weight',
+      // As our sort handler expects 2 additional definition items, let us
+      // provide them correspondingly.
+      'unit_column' => 'weight_unit',
+      'lb_to_kg' => 0.4535924,
+    ],
+  ];
 
-    $views_data['fruit']['custom_field'] = [
-      'title' => t('Fruit Custom Field'),
-      'help' => t('Weight Something else.'),
-      'field' => [
-        'id' => 'fruit_custom_field',
-      ],
+  $views_data['fruit']['custom_field'] = [
+    'title' => t('Fruit Custom Field'),
+    'help' => t('Weight Something else.'),
+    'field' => [
+      'id' => 'fruit_custom_field',
     ],
   ];
 
