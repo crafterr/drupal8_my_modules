@@ -144,7 +144,106 @@ function view_tutorial_fruit_views_data() {
     ],
   ];
 
+  /**
+   * Relationship
+   */
+  $views_data['fruit_opinions']['fruit_id'] = [
+    // To communicate to Views that this column may act as a parting point for
+    // a relationship, utilize the key 'relationship' (that was pretty obvious,
+    // wasn't it?).
+    'relationship' => [
+      // The actual PHP class that corresponds to "standard" is
+      // \Drupal\views\Plugin\views\relationship\Standard. Have a look around it
+      // (well, around its parent because the Standard class only inherits an
+      // abstract parent that does all power lifting).
+      'id' => 'standard',
+      // Supply name of the new base table this relationship is introducing. In
+      // this tutorial I made it intentional that a 'fruit' base table
+      // establishes relationship to itself, i.e. another 'fruit' base table.
+      // This way I sought to demonstrate that relationships literally can
+      // introduce any base table (as long as there is a way to JOIN the new
+      // base table and base table is properly declared to Views).
+      'base' => 'fruit',
+      // You could specify the key 'base field' if your relationship implies
+      // joining on non-primary key column. In our case, however, we do join on
+      // primary key, so leaving out this key is equivalent to supplying the
+      // below:
+      'base field' => 'id',
 
+      // This label will be visible across multiple spots in the Views UI. Site
+      // builder will be given an option to override it though, so do not kill
+      // yourself picking up the pretty name. I know, in programming there are 2
+      // hard things: cache invalidation and naming things.
+      'label' => t('Related (sweeter or bigger) fruit'),
+      // In case you want more than 1 condition in the JOIN ON clause, then use
+      // 'extra' key here.
+      'extra' => [
+        // Some additional conditions. See the docblock comment of
+        // \Drupal\views\Plugin\views\join\JoinPluginBase for actual possible
+        // values. In fact it's very robust and covers 99% of use cases.
+      ],
+    ],
+  ];
+
+  $views_data['fruit_opinions']['table'] = [
+    'title' => t('Related fruit'),
+    'group' => t('Fruit Opinion'),
+    // Watch out! This is not a base table, so we use a different key and
+    // explain to Views how this table can be JOINed to our base table of
+    // 'fruit'.
+    'join' => [
+      // We are explaining Views how 'fruit_relations' can be JOINed to 'fruit'.
+      // By the way, you do not necessarily have to JOIN onto a base table. You
+      // may as well JOIN in chain a few non-base tables. Although for a table
+      // to become visible in Views UI, it must be connected one way or another
+      // to a base table on which the view is being built.
+      'fruit' => [
+        // Column from 'fruit' table which will participate in the JOIN clause.
+        'left_field' => 'id',
+        // Column from 'fruit_relations' table that will participate in the JOIN
+        // clause.
+        'field' => 'fruit_id',
+      ],
+    ],
+  ];
+
+  // As we describe the Views field 'label' that belongs to 'fruit' table, we
+  // nest it respectively within $views_data array.
+  $views_data['fruit_opinions']['opinions'] = [
+    // Human friendly name of your Views field.
+    'title' => t('Fruit Opinion'),
+    // A little more verbose description of your Views field.
+    'help' => t('Name of the opinion.'),
+    // Apart from field we could also describe sorting, filtering on this
+    // column, but for now let's just stick to the 'field' part.
+    'field' => [
+      // In the 'id' key we place the name of Views field plugin that is
+      // responsible for operating our 'label' column. The id "standard"
+      // corresponds to \Drupal\views\Plugin\views\field\Standard class. It is
+      // an extremely simplistic straightforward field plugin that appends the
+      // column into SELECT query (see ::query() method) and then displays the
+      // fetched column as field output (see ::render() method).
+      'id' => 'standard',
+    ],
+    // So let's tell Views sorting by this column is actually possible.
+    'sort' => [
+      // The id "standard" corresponds to
+      // \Drupal\views\Plugin\views\sort\Standard class. It is a dead straight
+      // forward implementation of sorting that blindly sorts like:
+      // "ORDER BY [column name] [sort direction, i.e. ASC/DESC]". This is just
+      // good enough given we want to sort by fruit label alphabetically.
+      'id' => 'standard',
+    ],
+    // By declaring 'filter' key we communicate to Views that this column can be
+    // filtered on.
+    'filter' => [
+      // The id "string" corresponds to
+      // \Drupal\views\Plugin\views\filter\StringFilter which according to its
+      // documentation is a reasonable filter for columns that contain strings.
+      'id' => 'string',
+    ],
+
+  ];
 
   return $views_data;
 }
