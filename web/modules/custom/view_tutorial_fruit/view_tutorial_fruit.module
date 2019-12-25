@@ -9,6 +9,7 @@ use Drupal\Core\Routing\RouteMatchInterface;
 
 /**
  * Implements hook_help().
+ * https://medium.com/oleksandr-trotsenko/drupal-8-views-tutorial-for-developers-part-i-theory-412d44b64adb?
  */
 function view_tutorial_fruit_help($route_name, RouteMatchInterface $route_match) {
   switch ($route_name) {
