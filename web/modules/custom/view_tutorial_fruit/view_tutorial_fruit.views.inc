@@ -84,6 +84,14 @@ function view_tutorial_fruit_views_data() {
       // documentation is a reasonable filter for columns that contain strings.
       'id' => 'string',
     ],
+    // The key 'argument' denotes how Views could use contextual filters on the
+    // column in question.
+    'argument' => [
+      // Because the label column is just a simple string, we are using the
+      // "string" argument handler which corresponds to
+      // \Drupal\views\Plugin\views\argument\StringArgument class.
+      'id' => 'string',
+    ],
   ];
 
   $views_data['fruit']['weight'] = [
@@ -117,6 +125,14 @@ function view_tutorial_fruit_views_data() {
     // are stored.
     'filter' => [
       'id' => 'numeric',
+    ],
+    // This is where we tell Views that for contextual filters on 'weight', we
+    // want to use 'fruit_weight' argument handler.
+    'argument' => [
+      'id' => 'fruit_weight',
+      // As 'fruit_weight' argument handler expects 'unit_column' definition
+      // item we kindly provide it to the handler.
+      'unit_column' => 'weight_unit',
     ],
   ];
 
