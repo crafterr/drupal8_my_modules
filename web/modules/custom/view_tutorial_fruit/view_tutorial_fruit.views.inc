@@ -124,7 +124,8 @@ function view_tutorial_fruit_views_data() {
     // expects only 1 definition item - name of the column where weight units
     // are stored.
     'filter' => [
-      'id' => 'numeric',
+      'id' => 'fruit_weight',
+      'unit_column' => 'weight_unit',
     ],
     // This is where we tell Views that for contextual filters on 'weight', we
     // want to use 'fruit_weight' argument handler.
