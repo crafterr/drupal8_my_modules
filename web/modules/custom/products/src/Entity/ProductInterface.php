@@ -56,6 +56,27 @@ interface ProductInterface extends ContentEntityInterface, EntityChangedInterfac
   public function setProductNumber($number);
 
   /**
+   * Sets the Product keygen.
+   *
+   * @param string $keygen
+   *   The Product keygen.
+   *
+   * @return \Drupal\products\Entity\ProductInterface
+   *   The called Product entity.
+   */
+  public function setProductKeygen($keygen);
+
+
+  /**
+   * Gets the Product keygen.
+   *
+   * @return string
+   *   Keygen of the Product.
+   */
+  public function getProductKeygen();
+
+
+  /**
    * Gets the Product remote ID.
    *
    * @return string

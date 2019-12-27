@@ -9,3 +9,22 @@ entity.product.settings:
   title: 'Product settings'
   appears_on:
     - entity.product.collection
+
+entity.importer.add_form:
+  route_name: entity.importer.add_form
+  title: 'Add Importer'
+  appears_on:
+    - entity.importer.collection
+
+entity.importer.collection:
+  route_name: entity.importer.collection
+  title: 'Importer List'
+  appears_on:
+    - entity.product.collection
+
+entity.importer.back_to_product_list:
+  route_name: entity.product.collection
+  title: 'Back to Product List'
+  appears_on:
+    - entity.importer.collection
+

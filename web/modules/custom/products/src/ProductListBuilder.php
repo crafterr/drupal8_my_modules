@@ -30,7 +30,7 @@ class ProductListBuilder extends EntityListBuilder {
     $row['id'] = $entity->id();
     $row['name'] = Link::createFromRoute(
       $entity->label(),
-      'entity.product.edit_form',
+      'entity.product.canonical',
       ['product' => $entity->id()]
     );
     return $row + parent::buildRow($entity);

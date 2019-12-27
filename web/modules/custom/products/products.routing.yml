@@ -18,3 +18,11 @@ products.product_controller_product_list:
     _title: 'Render ProductViewBuilder'
   requirements:
     _permission: 'access content'
+
+products.import_controller_import:
+  path: '/products/execute/{cid}'
+  defaults:
+    _controller: '\Drupal\products\Controller\ImportController::execute'
+    _title: 'Import'
+  requirements:
+    _permission: 'access content'

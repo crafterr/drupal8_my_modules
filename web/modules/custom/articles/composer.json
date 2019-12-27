@@ -1,0 +1,13 @@
+{
+    "name": "articles",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/articles",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/articles",
+        "source": "http://cgit.drupalcode.org/articles",
+    },
+}

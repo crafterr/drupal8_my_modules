@@ -102,6 +102,22 @@ class Product extends ContentEntityBase implements ProductInterface {
   }
 
   /**
+   * @inheritDoc
+   */
+  public function setProductKeygen($keygen) {
+    $this->set('keygen',$keygen);
+    return $this;
+  }
+
+  /**
+   * @inheritDoc
+   */
+  public function getProductKeygen() {
+    return $this->get('keygen')->value;
+  }
+
+
+  /**
    * {@inheritdoc}
    */
   public function getRemoteId() {
@@ -214,6 +230,27 @@ class Product extends ContentEntityBase implements ProductInterface {
     $fields['name'] = BaseFieldDefinition::create('string')
       ->setLabel(t('Name'))
       ->setDescription(t('The name of the Product entity.'))
+      ->setSettings([
+        'max_length' => 50,
+        'text_processing' => 0,
+      ])
+      ->setDefaultValue('')
+      ->setDisplayOptions('view', [
+        'label' => 'above',
+        'type' => 'string',
+        'weight' => -4,
+      ])
+      ->setDisplayOptions('form', [
+        'type' => 'string_textfield',
+        'weight' => -4,
+      ])
+      ->setDisplayConfigurable('form', TRUE)
+      ->setDisplayConfigurable('view', TRUE)
+      ->setRequired(TRUE);
+
+    $fields['keygen'] = BaseFieldDefinition::create('string')
+      ->setLabel(t('Keygen'))
+      ->setDescription(t('The keygen of the Product entity.'))
       ->setSettings([
         'max_length' => 50,
         'text_processing' => 0,
