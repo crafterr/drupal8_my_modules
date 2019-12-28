@@ -1,9 +1,9 @@
 {
-    "name": "drupal/sandwich",
+    "name": "drupal/sports",
     "type": "drupal-module",
     "autoload": {
         "psr-4": {
-            "Drupal\\sandwich\\": "src/"
+            "Drupal\\sports\\": "src/"
         }
     }
 }

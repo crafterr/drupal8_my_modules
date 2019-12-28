@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains sports.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function sports_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the sports module.
+    case 'help.page.sports':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Players and Team table in one to many relationship') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function sports_theme() {
+  return [
+    'sports' => [
+      'render element' => 'children',
+    ],
+  ];
+}

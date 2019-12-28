@@ -1,9 +1,9 @@
 {
-    "name": "drupal/sandwich",
+    "name": "drupal/colours",
     "type": "drupal-module",
     "autoload": {
         "psr-4": {
-            "Drupal\\sandwich\\": "src/"
+            "Drupal\\colours\\": "src/"
         }
     }
 }

@@ -1,13 +1,9 @@
 {
-    "name": "entity_queries",
+    "name": "drupal/entity_queries",
     "type": "drupal-module",
-    "description": "My Awesome Module",
-    "keywords": [
-    ],
-    "homepage": "https://www.drupal.org/project/entity_queries",
-    "minimum-stability": "dev",
-    "support": {
-        "issues": "https://www.drupal.org/project/issues/entity_queries",
-        "source": "http://cgit.drupalcode.org/entity_queries",
-    },
+    "autoload": {
+        "psr-4": {
+            "Drupal\\entity_queries\\": "src/"
+        }
+    }
 }

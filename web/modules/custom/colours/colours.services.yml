@@ -1,0 +1,4 @@
+services:
+  plugin.manager.colour_plugin:
+    class: Drupal\colours\Plugin\ColourPluginManager
+    parent: default_plugin_manager

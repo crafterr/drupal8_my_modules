@@ -1,13 +1,9 @@
 {
-    "name": "my_custom_block",
+    "name": "drupal/my_custom_block",
     "type": "drupal-module",
-    "description": "My Awesome Module",
-    "keywords": [
-    ],
-    "homepage": "https://www.drupal.org/project/my_custom_block",
-    "minimum-stability": "dev",
-    "support": {
-        "issues": "https://www.drupal.org/project/issues/my_custom_block",
-        "source": "http://cgit.drupalcode.org/my_custom_block",
-    },
+    "autoload": {
+        "psr-4": {
+            "Drupal\\my_custom_block\\": "src/"
+        }
+    }
 }

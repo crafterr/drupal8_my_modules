@@ -1,0 +1,8 @@
+
+colours.colour_controller_render:
+  path: '/colours/render/{plugin_id}'
+  defaults:
+    _controller: '\Drupal\colours\Controller\ColourController::render'
+    _title: 'Colour'
+  requirements:
+    _permission: 'access content'

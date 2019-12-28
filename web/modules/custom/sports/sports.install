@@ -1,0 +1,88 @@
+<?php
+
+/**
+ * @file
+ */
+
+/**
+ * Implements hook_schema().
+ */
+function sports_schema() {
+  $schema = [];
+  $schema['teams'] = [
+    'description' => 'The table that holds team data.',
+    'fields' => [
+      'id' => [
+        'description' => 'The primary identifier.',
+        'type' => 'serial',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ],
+      'name' => [
+        'description' => 'The team name.',
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+      ],
+      'description' => [
+        'description' => 'The team description.',
+        'type' => 'text',
+        'size' => 'normal',
+      ],
+    ],
+    'primary key' => ['id'],
+  ];
+
+  $schema['players'] = [
+    'description' => 'The table that holds player data.',
+    'fields' => [
+      'id' => [
+        'description' => 'The primary identifier.',
+        'type' => 'serial',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ],
+      'team_id' => [
+        'description' => 'The ID of the team it belongs to.',
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ],
+      'name' => [
+        'description' => 'The player name.',
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+      ],
+      'data' => [
+        'description' => 'Arbitrary data about the player.',
+        'type' => 'blob',
+        'size' => 'big',
+      ],
+    ],
+    'primary key' => ['id'],
+    'foreign keys' => [
+      'fk_players_team_id' => [
+        'table' => 'teams', 'columns' => ['team_id' => 'id']
+      ],
+    ],
+  ];
+  return $schema;
+}
+
+/**
+ * @param $sandbox
+ * change description and length column ip
+ */
+function sports_update_8001(&$sandbox) {
+
+  $field = [
+    'description' => 'The ID of the team it belongs to.',
+    'type' => 'int',
+    'unsigned' => TRUE,
+    'not null' => TRUE,
+  ];
+
+  $schema = $database = \Drupal::database()->schema();
+  $schema->changeField('players', 'team_id', 'team_id',$field);
+}

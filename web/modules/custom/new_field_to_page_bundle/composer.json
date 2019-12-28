@@ -1,13 +1,9 @@
 {
-    "name": "new_field_to_page_bundle",
+    "name": "drupal/new_field_to_page_bundle",
     "type": "drupal-module",
-    "description": "My Awesome Module",
-    "keywords": [
-    ],
-    "homepage": "https://www.drupal.org/project/new_field_to_page_bundle",
-    "minimum-stability": "dev",
-    "support": {
-        "issues": "https://www.drupal.org/project/issues/new_field_to_page_bundle",
-        "source": "http://cgit.drupalcode.org/new_field_to_page_bundle",
-    },
+    "autoload": {
+        "psr-4": {
+            "Drupal\\new_field_to_page_bundle\\": "src/"
+        }
+    }
 }

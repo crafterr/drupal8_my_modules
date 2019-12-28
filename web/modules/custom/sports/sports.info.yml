@@ -1,0 +1,5 @@
+name: 'Sports'
+type: module
+description: 'Players and Team table in one to many relationship'
+core: 8.x
+package: 'Custom'

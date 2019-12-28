@@ -1,13 +1,9 @@
 {
-    "name": "my_custom_view_filter",
+    "name": "drupal/my_custom_view_filter",
     "type": "drupal-module",
-    "description": "My Awesome Module",
-    "keywords": [
-    ],
-    "homepage": "https://www.drupal.org/project/my_custom_view_filter",
-    "minimum-stability": "dev",
-    "support": {
-        "issues": "https://www.drupal.org/project/issues/my_custom_view_filter",
-        "source": "http://cgit.drupalcode.org/my_custom_view_filter",
-    },
+    "autoload": {
+        "psr-4": {
+            "Drupal\\my_custom_view_filter\\": "src/"
+        }
+    }
 }

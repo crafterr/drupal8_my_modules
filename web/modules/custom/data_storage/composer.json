@@ -1,13 +1,9 @@
 {
-    "name": "data_storage",
+    "name": "drupal/data_storage",
     "type": "drupal-module",
-    "description": "My Awesome Module",
-    "keywords": [
-    ],
-    "homepage": "https://www.drupal.org/project/data_storage",
-    "minimum-stability": "dev",
-    "support": {
-        "issues": "https://www.drupal.org/project/issues/data_storage",
-        "source": "http://cgit.drupalcode.org/data_storage",
-    },
+    "autoload": {
+        "psr-4": {
+            "Drupal\\data_storage\\": "src/"
+        }
+    }
 }

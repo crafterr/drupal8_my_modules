@@ -1,13 +1,9 @@
 {
-    "name": "alter_entity_autocomplete",
+    "name": "drupal/alter_entity_autocomplete",
     "type": "drupal-module",
-    "description": "The module alters entity autocomplete suggestion list.",
-    "keywords": [
-    ],
-    "homepage": "https://www.drupal.org/project/alter_entity_autocomplete",
-    "minimum-stability": "dev",
-    "support": {
-        "issues": "https://www.drupal.org/project/issues/alter_entity_autocomplete",
-        "source": "http://cgit.drupalcode.org/alter_entity_autocomplete",
-    },
+    "autoload": {
+        "psr-4": {
+            "Drupal\\alter_entity_autocomplete\\": "src/"
+        }
+    }
 }
