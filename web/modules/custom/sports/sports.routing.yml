@@ -58,6 +58,71 @@ sports.teams.action:
   requirements:
     _permission: 'delete team'
 
+
+sports.players.list:
+  path: '/admin/content/players/{team}'
+  defaults:
+    _controller: '\Drupal\sports\Controller\PlayerController::listPlayers'
+    _title_callback: '\Drupal\sports\Controller\PlayerController::getTitle'
+  requirements:
+    _permission: 'manage players'
+  options:
+    parameters:
+      team:
+        type: team
+
+sports.players.add:
+  path: '/admin/content/team/add'
+  defaults:
+    _form: '\Drupal\sports\Form\PlayerForm'
+    _title: 'Create P1ayer'
+  requirements:
+    _permission: 'add players'
+
+sports.players.view:
+  path: '/admin/content/players/{player}'
+  defaults:
+    _controller: '\Drupal\sports\Controller\PlayerController::viewPlayer'
+    _title: 'View Team'
+  requirements:
+    _permission: 'view players'
+  options:
+    parameters:
+      player:
+        type: player
+
+sports.players.edit:
+  path: 'admin/content/team/{player}/edit'
+  defaults:
+    _form: '\Drupal\sports\Form\PlayerForm'
+    _title: 'Edit Team'
+  requirements:
+    _permission: 'edit player'
+  options:
+    parameters:
+      player:
+        type: player
+
+sports.players.delete:
+  path: '/admin/content/player/{player}/delete'
+  defaults:
+    _form: 'Drupal\sports\Form\PlayerDeleteForm'
+    _title: 'Delete Player'
+  requirements:
+    _permission: 'delete players'
+  options:
+    parameters:
+      player:
+        type: player
+
+sports.players.action:
+  path: '/admin/content/player/action/{action}'
+  defaults:
+    _form: 'Drupal\sports\Form\PlayerBulkActionForm'
+    _title_callback: 'Drupal\sports\Form\sports::getPageTitle'
+  requirements:
+    _permission: 'delete players'
+
 sports.settings:
   path: '/admin/config/sports'
   defaults:

@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains my_batch.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function my_batch_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the my_batch module.
+    case 'help.page.my_batch':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function my_batch_theme() {
+  return [
+    'my_batch' => [
+      'render element' => 'children',
+    ],
+  ];
+}

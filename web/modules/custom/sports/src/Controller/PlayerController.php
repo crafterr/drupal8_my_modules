@@ -6,18 +6,14 @@ use Drupal;
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\Core\Url;
 use Symfony\Component\HttpFoundation\RedirectResponse;
-use Drupal\Core\Ajax\AjaxResponse;
-use Drupal\Core\Ajax\OpenModalDialogCommand;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpFoundation\RequestStack;
 use Drupal\Core\Form\FormBuilder;
-use Drupal\sports\Form\TeamTableForm;
 use Drupal\Core\Database\Connection;
-use Drupal\file\Entity\File;
 /**
- * Class TeamController.
+ * Class PlayerController.
  */
-class TeamController extends ControllerBase {
+class PlayerController extends ControllerBase {
 
   /**
   * The Form builder.
@@ -31,6 +27,7 @@ class TeamController extends ControllerBase {
    * @var \Drupal\Core\Database\Connection
    */
   protected $db;
+
   /**
    * Request.
    *
@@ -65,12 +62,17 @@ class TeamController extends ControllerBase {
     );
   }
 
+  public function getTitle($team) {
+    return  'Teams Dashboard for '.$team->name;
+  }
 
-  public function listTeams() {
+
+  public function listPlayers($team = null) {
+    $this->team = $team;
     $content = [];
+    $player_table_form_instance = $this->formBuilder->getForm('Drupal\sports\Form\PlayerTableForm', $team);
 
-    $team_table_form_instance = $this->formBuilder->getForm('Drupal\sports\Form\TeamTableForm');
-    $content['table'] = $team_table_form_instance;
+    $content['table'] = $player_table_form_instance;
     $content['pager'] = [
       '#type' => 'pager',
     ];
@@ -81,25 +83,25 @@ class TeamController extends ControllerBase {
   /**
    * To view an team details.
    */
-  public function viewTeam($team = NULL) {
+  public function viewPlayer($player = NULL) {
 
-    if ($team == 'invalid') {
+    if ($player == 'invalid') {
       $this->messenger()->addMessage($this->t('Invalid Team record'), 'error');
-      return new RedirectResponse(Drupal::url('sports.teams.list'));
+      return new RedirectResponse(Drupal::url('sports.players.list'));
     }
     $rows = [
       [
         ['data' => 'Id', 'header' => TRUE],
-        $team->id,
+        $player->id,
       ],
       [
         ['data' => 'Name', 'header' => TRUE],
-        $team->name,
+        $player->name,
       ],
-      [
+     /* [
         ['data' => 'Description', 'header' => TRUE],
         $team->description,
-      ],
+      ],*/
 
     ];
 
@@ -114,19 +116,19 @@ class TeamController extends ControllerBase {
       '#type' => 'link',
       '#title' => 'Edit',
       '#attributes' => ['class' => ['button button--primary']],
-      '#url' => Url::fromRoute('sports.teams.edit', ['team' => $team->id]),
+      '#url' => Url::fromRoute('sports.players.edit', ['player' => $player->id]),
     ];
     $content['delete'] = [
       '#type' => 'link',
       '#title' => 'Delete',
       '#attributes' => ['class' => ['button']],
-      '#url' => Url::fromRoute('sports.teams.delete', ['team' => $team->id]),
+      '#url' => Url::fromRoute('sports.players.delete', ['player' => $player->id]),
     ];
     $content['return'] = [
       '#type' => 'link',
       '#title' => 'Return',
       '#attributes' => ['class' => ['button']],
-      '#url' => Url::fromRoute('sports.teams.list'),
+      '#url' => Url::fromRoute('sports.players.list'),
     ];
     return $content;
 

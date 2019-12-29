@@ -3,11 +3,11 @@
 namespace Drupal\sports;
 
 /**
- * DAO class for team table.
+ * DAO class for player table.
  */
-class TeamStorage {
+class PlayerStorage {
   /**
-   * To get multiple team records.
+   * To get multiple player records.
    *
    * @param int $limit
    *   The number of records to be fetched.
@@ -19,8 +19,8 @@ class TeamStorage {
    * @return
    */
   public static function getAll($limit = NULL, $orderBy = NULL, $order = 'DESC') {
-    $query = \Drupal::database()->select('teams', 't')
-      ->fields('t');
+    $query = \Drupal::database()->select('players', 'p')
+      ->fields('p');
     if ($limit) {
       $query->range(0, $limit);
     }
@@ -34,14 +34,14 @@ class TeamStorage {
 
   /**
    * @param $id int
-   *   The team id
+   *   The player id
    *
    * @return bool
    *   return boolean
    */
   public static function exists($id) {
-    $result = \Drupal::database()->select('teams', 't')
-      ->fields('t', ['id'])
+    $result = \Drupal::database()->select('players', 'p')
+      ->fields('p', ['id'])
       ->condition('id', $id, '=')
       ->execute()
       ->fetchField();
@@ -49,16 +49,16 @@ class TeamStorage {
   }
 
   /**
-   * To load an team record.
+   * To load an player record.
    *
    * @param int $id
-   *   The team ID.
+   *   The player ID.
    *
    * @return
    */
   public static function load($id) {
-    $result = \Drupal::database()->select('teams', 't')
-      ->fields('t')
+    $result = \Drupal::database()->select('players', 'p')
+      ->fields('p')
       ->condition('id', $id, '=')
       ->execute()
       ->fetchObject();
@@ -66,30 +66,30 @@ class TeamStorage {
   }
 
   /**
-   * To insert a new team record.
+   * To insert a new player record.
    *
    * @param array $fields
-   *   An array conating the team data in key value pair.
+   *   An array conating the player data in key value pair.
    *
    * @return \Drupal\Core\Database\StatementInterface|int|null
    * @throws \Exception
    */
   public static function add(array $fields) {
-    return \Drupal::database()->insert('teams')->fields($fields)->execute();
+    return \Drupal::database()->insert('players')->fields($fields)->execute();
   }
 
   /**
-   * To update an existing team record.
+   * To update an existing player record.
    *
    * @param int $id
-   *   The team ID.
+   *   The player ID.
    * @param array $fields
-   *   An array conating the team data in key value pair.
+   *   An array conating the player data in key value pair.
    * @return
    *   Drupal db execute
    */
   public static function update($id, array $fields) {
-    return \Drupal::database()->update('teams')->fields($fields)
+    return \Drupal::database()->update('players')->fields($fields)
       ->condition('id', $id)
       ->execute();
   }
@@ -106,7 +106,7 @@ class TeamStorage {
   public static function delete($id) {
     $record = self::load($id);
 
-    return \Drupal::database()->delete('teams')->condition('id', $id)->execute();
+    return \Drupal::database()->delete('players')->condition('id', $id)->execute();
   }
   /**
    * To activate/ block the employee record.

@@ -3,3 +3,7 @@ services:
     class: Drupal\sports\ParamConverter\TeamParamConverter
     tags:
       - { name: paramconverter }
+  player:
+    class: Drupal\sports\ParamConverter\PlayerParamConverter
+    tags:
+      - { name: paramconverter }

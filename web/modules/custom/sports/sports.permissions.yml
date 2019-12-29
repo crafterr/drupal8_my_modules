@@ -22,3 +22,28 @@ delete team:
   title: 'Delete Team'
   description: 'Delete an team'
   restrict access: true
+
+manage players:
+  title: 'Manage Players records'
+  description: 'View, add, edit and delete players records'
+  restrict access: true
+
+add player:
+  title: 'Add player'
+  description: 'Create a new players'
+  restrict access: true
+
+view player:
+  title: 'View Player'
+  description: 'View an player record'
+  restrict access: true
+
+edit player:
+  title: 'Edit Player'
+  description: 'Edit an player'
+  restrict access: true
+
+delete player:
+  title: 'Delete Player'
+  description: 'Delete an player'
+  restrict access: true

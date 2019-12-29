@@ -1,0 +1,8 @@
+
+my_batch.default_controller_batch:
+  path: '/my_batch/batch'
+  defaults:
+    _controller: '\Drupal\my_batch\Controller\DefaultController::batch'
+    _title: 'Batch'
+  requirements:
+    _permission: 'access content'

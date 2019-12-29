@@ -1,0 +1,13 @@
+{
+    "name": "my_batch",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/my_batch",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/my_batch",
+        "source": "http://cgit.drupalcode.org/my_batch",
+    },
+}
