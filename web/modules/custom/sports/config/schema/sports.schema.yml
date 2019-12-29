@@ -1,0 +1,10 @@
+sports.settings:
+  type: config_object
+  label: 'Sports Page Settings'
+  mapping:
+    page_limit_for_team:
+      type: integer
+      label: 'Per page item limit for Team'
+    page_limit_for_player:
+      type: integer
+      label: 'Per page item limit for Player'

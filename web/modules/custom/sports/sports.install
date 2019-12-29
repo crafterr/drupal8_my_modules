@@ -29,6 +29,20 @@ function sports_schema() {
         'type' => 'text',
         'size' => 'normal',
       ],
+      'status' => [
+        'type' => 'int',
+        'not null' => TRUE,
+        'size' => 'tiny',
+        'length' => 1,
+        'default' => 1,
+      ],
+      'created' => [
+        'description' => 'The Unix timestamp when the node was created.',
+        'type' => 'int',
+        'unsigned' => true,
+        'not null' => true,
+        'default' => 0,
+      ],
     ],
     'primary key' => ['id'],
   ];
@@ -85,4 +99,26 @@ function sports_update_8001(&$sandbox) {
 
   $schema = $database = \Drupal::database()->schema();
   $schema->changeField('players', 'team_id', 'team_id',$field);
+}
+
+function sports_update_8002(&$sandbox) {
+  $schema = \Drupal::database()->schema();
+  $schema->addField('teams', 'status', [
+    'type' => 'int',
+    'not null' => TRUE,
+    'size' => 'tiny',
+    'default' => 1,
+    'length' => 1,
+  ]);
+}
+
+function sports_update_8003(&$sandbox) {
+  $schema = \Drupal::database()->schema();
+  $schema->addField('teams', 'created', [
+    'description' => 'The Unix timestamp when the node was created.',
+    'type' => 'int',
+    'unsigned' => true,
+    'not null' => true,
+    'default' => 0,
+  ]);
 }

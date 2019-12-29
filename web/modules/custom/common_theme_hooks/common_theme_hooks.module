@@ -39,7 +39,7 @@ function common_theme_hooks_theme() {
 function common_theme_hooks_preprocess_item_list(&$variables) {
 
   // Set the item's value and attributes for the template.
-  $items = [
+  /*$items = [
     [
       'value' => 'Item 3',
       'attributes' => new Attribute($variables['wrapper_attributes']),
@@ -52,6 +52,6 @@ function common_theme_hooks_preprocess_item_list(&$variables) {
   ];
   foreach ($items as $item) {
     array_push($variables['items'],$item);
-  }
+  }*/
 
 }

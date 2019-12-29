@@ -1,0 +1,91 @@
+<?php
+
+/**
+ * @file
+ * Contains employee.install.
+ */
+
+use Drupal\Core\Database\Database;
+
+/**
+ * Implements hook_schema().
+ */
+function employee_schema() {
+  $schema['employee'] = [
+    'fields' => [
+      'id' => [
+        'type' => 'serial',
+        'not null' => TRUE,
+      ],
+      'name' => [
+        'type' => 'varchar',
+        'length' => 40,
+        'not null' => TRUE,
+      ],
+      'email' => [
+        'type' => 'varchar',
+        'length' => 40,
+        'not null' => TRUE,
+      ],
+      'department' => [
+        'type' => 'varchar',
+        'length' => 40,
+        'not null' => TRUE,
+      ],
+      'address' => [
+        'type' => 'text',
+        'not null' => TRUE,
+      ],
+      'country' => [
+        'type' => 'varchar',
+        'length' => 64,
+        'not null' => TRUE,
+      ],
+      'state' => [
+        'type' => 'varchar',
+        'length' => 64,
+        'not null' => TRUE,
+      ],
+      'status' => [
+        'type' => 'int',
+        'not null' => TRUE,
+        'size' => 'tiny',
+        'length' => 1,
+        'default' => 1,
+      ],
+      'profile_pic' => [
+        'type' => 'int',
+        'not null' => FALSE,
+        'length' => 11,
+      ],
+    ],
+    'primary key' => ['id'],
+  ];
+  return $schema;
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function employee_uninstall() {
+  Database::getConnection()->schema()->dropTable('employee');
+}
+
+/**
+ * Implements hook_update_N().
+ */
+function employee_update_8001() {
+  $schema = Database::getConnection()->schema();
+  $schema->addField('employee', 'status', [
+    'type' => 'int',
+    'not null' => TRUE,
+    'size' => 'tiny',
+    'default' => 1,
+    'length' => 1,
+  ]);
+  $schema->addField('employee', 'profile_pic', [
+    'type' => 'int',
+    'not null' => FALSE,
+    'length' => 11,
+  ]);
+}

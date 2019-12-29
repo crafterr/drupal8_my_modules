@@ -1,0 +1,24 @@
+manage teams:
+  title: 'Manage Teams records'
+  description: 'View, add, edit and delete teams records'
+  restrict access: true
+
+add team:
+  title: 'Add Team'
+  description: 'Create a new tream'
+  restrict access: true
+
+view team:
+  title: 'View Team'
+  description: 'View an team record'
+  restrict access: true
+
+edit team:
+  title: 'Edit Team'
+  description: 'Edit an team'
+  restrict access: true
+
+delete team:
+  title: 'Delete Team'
+  description: 'Delete an team'
+  restrict access: true

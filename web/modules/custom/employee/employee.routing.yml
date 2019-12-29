@@ -1,0 +1,88 @@
+employee.list:
+  path: '/admin/content/employee'
+  defaults:
+    _controller: '\Drupal\employee\controller\EmployeeController::listEmployees'
+    _title: 'Employee Dashboard'
+  requirements:
+    _permission: 'manage employees'
+
+employee.add:
+  path: '/admin/content/employee/add'
+  defaults:
+    _form: '\Drupal\employee\forms\EmployeeForm'
+    _title: 'Create Employee'
+  requirements:
+    _permission: 'add employee'
+
+employee.view:
+  path: '/admin/content/employee/{employee}/{js}'
+  defaults:
+    _controller: '\Drupal\employee\controller\EmployeeController::viewEmployee'
+    _title: 'View Employee'
+  requirements:
+    _permission: 'view employee'
+    js: 'nojs|ajax'
+  options:
+    parameters:
+      employee:
+        type: employee
+
+employee.edit:
+  path: 'admin/content/employee/{employee}/edit'
+  defaults:
+    _form: '\Drupal\employee\forms\EmployeeForm'
+    _title: 'Edit Employee'
+  requirements:
+    _permission: 'edit employee'
+  options:
+    parameters:
+      employee:
+        type: employee
+
+employee.quickedit:
+  path: 'admin/content/employee/{employee}/quickedit'
+  defaults:
+    _controller: '\Drupal\employee\controller\EmployeeController::openQuickEditModalForm'
+    _title: 'Quick Edit Employee'
+  requirements:
+    _permission: 'edit employee'
+  options:
+    parameters:
+      employee:
+        type: employee
+
+employee.sendmail:
+  path: 'admin/content/employee/mail/{employee}'
+  defaults:
+    _controller: '\Drupal\employee\controller\EmployeeController::openEmailModalForm'
+    _title: 'Send Mail'
+  requirements:
+    _permission: 'edit employee'
+  options:
+    parameters:
+      employee:
+        type: employee
+
+employee.delete:
+  path: '/admin/content/employee/{id}/delete'
+  defaults:
+    _form: 'Drupal\employee\forms\EmployeeDeleteForm'
+    _title: 'Delete Employee'
+  requirements:
+    _permission: 'delete employee'
+
+employee.action:
+  path: '/admin/content/employee/action/{action}'
+  defaults:
+    _form: 'Drupal\employee\forms\EmployeeBulkActionForm'
+    _title_callback: 'Drupal\employee\forms\EmployeeBulkActionForm::getPageTitle'
+  requirements:
+    _permission: 'delete employee'
+
+employee.settings:
+  path: '/admin/config/employee'
+  defaults:
+    _form: '\Drupal\employee\forms\EmployeeSettingsForm'
+    _title: 'Employees page settings'
+  requirements:
+    _permission: 'administer site configuration'

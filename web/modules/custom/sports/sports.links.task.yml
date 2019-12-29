@@ -1,0 +1,6 @@
+
+sports.team.collection:
+  title: 'Teams'
+  route_name: sports.teams.list
+  description: 'List of Team'
+  base_route: system.admin_content

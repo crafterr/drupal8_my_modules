@@ -1,0 +1,5 @@
+services:
+  team:
+    class: Drupal\sports\ParamConverter\TeamParamConverter
+    tags:
+      - { name: paramconverter }

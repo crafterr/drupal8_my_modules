@@ -1,0 +1,5 @@
+sports.settings:
+  title: 'Sports Settings'
+  description: 'Sports Settings - Select limit for team and players'
+  route_name: sports.settings
+  parent: system.admin_config_system

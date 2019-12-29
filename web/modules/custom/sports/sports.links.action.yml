@@ -1,0 +1,5 @@
+sports.team.add:
+  title: Add new Team
+  route_name: sports.teams.add
+  appears_on:
+    - sports.teams.list

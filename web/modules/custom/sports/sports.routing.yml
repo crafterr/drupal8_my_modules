@@ -1,0 +1,67 @@
+sports.teams.list:
+  path: '/admin/content/teams'
+  defaults:
+    _controller: '\Drupal\sports\Controller\TeamController::listTeams'
+    _title: 'Teams Dashboard'
+  requirements:
+    _permission: 'manage teams'
+
+sports.teams.add:
+  path: '/admin/content/team/add'
+  defaults:
+    _form: '\Drupal\sports\Form\TeamForm'
+    _title: 'Create Team'
+  requirements:
+    _permission: 'add team'
+
+sports.teams.view:
+  path: '/admin/content/teams/{team}'
+  defaults:
+    _controller: '\Drupal\sports\Controller\TeamController::viewTeam'
+    _title: 'View Team'
+  requirements:
+    _permission: 'view team'
+  options:
+    parameters:
+      team:
+        type: team
+
+sports.teams.edit:
+  path: 'admin/content/team/{team}/edit'
+  defaults:
+    _form: '\Drupal\sports\Form\TeamForm'
+    _title: 'Edit Team'
+  requirements:
+    _permission: 'edit team'
+  options:
+    parameters:
+      team:
+        type: team
+
+sports.teams.delete:
+  path: '/admin/content/team/{team}/delete'
+  defaults:
+    _form: 'Drupal\sports\Form\TeamDeleteForm'
+    _title: 'Delete Team'
+  requirements:
+    _permission: 'delete team'
+  options:
+    parameters:
+      team:
+        type: team
+
+sports.teams.action:
+  path: '/admin/content/team/action/{action}'
+  defaults:
+    _form: 'Drupal\sports\Form\TeamBulkActionForm'
+    _title_callback: 'Drupal\sports\Form\sports::getPageTitle'
+  requirements:
+    _permission: 'delete team'
+
+sports.settings:
+  path: '/admin/config/sports'
+  defaults:
+    _form: '\Drupal\sports\Form\SettingsForm'
+    _title: 'Sport page settings'
+  requirements:
+    _permission: 'administer site configuration'
