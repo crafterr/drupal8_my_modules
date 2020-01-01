@@ -2,3 +2,8 @@ services:
   plugin.manager.colour_plugin:
     class: Drupal\colours\Plugin\ColourPluginManager
     parent: default_plugin_manager
+
+  my_event_subscriber.event_subscriber:
+    class: Drupal\colours\EventSubscriber\MyEventSubscriber
+    tags:
+      - {name: event_subscriber}

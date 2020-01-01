@@ -64,3 +64,7 @@ views.argument_validator.number_ends_with:
       sequence:
         type: string
         label: 'An allowed suffix'
+
+views.area.my_area:
+  type: views_area
+  label: 'My Area'

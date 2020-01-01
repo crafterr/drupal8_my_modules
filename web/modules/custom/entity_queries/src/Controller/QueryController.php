@@ -191,4 +191,8 @@ class QueryController extends ControllerBase {
     return $arr;
   }
 
+  public function test() {
+
+  }
+
 }

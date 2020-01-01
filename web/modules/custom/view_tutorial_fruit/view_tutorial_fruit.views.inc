@@ -246,5 +246,23 @@ function view_tutorial_fruit_views_data() {
 
   ];
 
+  /**
+   * Area
+   */
+  $views_data['views']['my_area'] = array(
+    'title' => t('My Area'),
+    'help' => t('My plugin description.'),
+    'area' => array(
+      'id' => 'my_area',
+    ),
+  );
+
+  $views_data['views']['my_custom_site_area'] = array(
+    'title' => t('My custom site area'),
+    'help' => t('Provide return link and a custom hardcoded text for my custom site.'),
+    'area' => array(
+      'id' => 'my_custom_site_area',
+    ),
+  );
   return $views_data;
 }

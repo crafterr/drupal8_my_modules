@@ -14,3 +14,11 @@ entity_queries.query_controller_render_content:
     _title: 'Queries'
   requirements:
     _permission: 'access content'
+
+entity_queries.query_controller_test:
+  path: '/entity_queries/test'
+  defaults:
+    _controller: '\Drupal\entity_queries\Controller\QueryController::test'
+    _title: 'test'
+  requirements:
+    _permission: 'access content'
