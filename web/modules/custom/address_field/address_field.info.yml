@@ -1,0 +1,5 @@
+name: 'Address Field'
+type: module
+description: 'Defines a simple address field type.'
+core: 8.x
+package: 'Custom'

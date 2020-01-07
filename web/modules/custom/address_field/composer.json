@@ -1,0 +1,13 @@
+{
+    "name": "address_field",
+    "type": "drupal-module",
+    "description": "Defines a simple address field type.",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/address_field",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/address_field",
+        "source": "http://cgit.drupalcode.org/address_field",
+    },
+}
