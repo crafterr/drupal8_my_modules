@@ -84,7 +84,7 @@ class PlayerTableForm extends FormBase {
           ],
           'edit' => [
             'title' => t('Edit'),
-            'url' => Url::fromRoute('sports.players.edit', ['player' => $row->id]),
+            'url' => Url::fromRoute('sports.players.edit', ['player' => $row->id,'team'=>$team->id]),
           ],
           'delete' => [
             'title' => t('Delete'),

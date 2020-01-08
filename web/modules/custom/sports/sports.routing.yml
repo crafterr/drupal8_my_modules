@@ -72,12 +72,16 @@ sports.players.list:
         type: team
 
 sports.players.add:
-  path: '/admin/content/team/add'
+  path: '/admin/content/team/add/{team}'
   defaults:
     _form: '\Drupal\sports\Form\PlayerForm'
     _title: 'Create P1ayer'
   requirements:
     _permission: 'add players'
+  options:
+    parameters:
+      team:
+        type: team
 
 sports.players.view:
   path: '/admin/content/players/{player}'
@@ -92,7 +96,7 @@ sports.players.view:
         type: player
 
 sports.players.edit:
-  path: 'admin/content/team/{player}/edit'
+  path: 'admin/content/players/{player}/team/{team}/edit'
   defaults:
     _form: '\Drupal\sports\Form\PlayerForm'
     _title: 'Edit Team'

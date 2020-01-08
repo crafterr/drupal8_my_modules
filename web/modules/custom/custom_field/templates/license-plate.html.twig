@@ -1,0 +1,11 @@
+{%
+    set class = [
+    'license-plate',
+    color ? 'red':''
+]
+%}
+{% if concatenated %}
+    <span {{ attributes.addClass(class) }}>{{ code }} {{ number }}</span>
+{% else %}
+    <span class="license-plate—code">{{ code }}</span> <span class="license-plate—number">{{ number }}</span>
+{% endif %}

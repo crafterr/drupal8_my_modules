@@ -90,3 +90,38 @@ function sandwich_preprocess_sandwich__chickado(&$variables) {
 
 function sandwich_preprocess_sandwich__test(&$variables) {
 }
+
+
+/**
+ * Implements hook_page_top().
+ */
+function sandwich_page_top(array &$page_top) {
+
+  /*$render = [
+    '#type' => 'sandwich',
+    '#contextual_links' => [
+      'sandwich' => [
+        'route_parameters' => []
+      ],
+    ],
+
+    '#attributes' => [
+      'id' => 'best-sandwich2',
+      'class' => ['menu--lefter', 'clearfix'],
+    ],
+    '#isActive' => false,
+
+
+    '#cheese' => t('Gruyère'),
+    '#veggies' => [
+      t('Avocado'),
+      t('Red onion'),
+      t('Romaine'),
+    ],
+    '#protein' => t('Chicken'),
+
+  ];
+
+  $render['#name'] = t('Chickado');
+  $page_top['sandwich'] = $render;*/
+}

@@ -3,3 +3,15 @@ sports.team.add:
   route_name: sports.teams.add
   appears_on:
     - sports.teams.list
+
+sports.player.add:
+  title: Add new Player
+  route_name: sports.players.add
+  appears_on:
+    - sports.players.list
+
+sports.player.return:
+  title: Return
+  route_name: sports.teams.list
+  appears_on:
+    - sports.players.list
