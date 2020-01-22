@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains my_style_filter_to_ckeditor.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function my_style_filter_to_ckeditor_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the my_style_filter_to_ckeditor module.
+    case 'help.page.my_style_filter_to_ckeditor':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function my_style_filter_to_ckeditor_theme() {
+  return [
+    'my_style_filter_to_ckeditor' => [
+      'render element' => 'children',
+    ],
+  ];
+}

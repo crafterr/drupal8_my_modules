@@ -26,17 +26,23 @@ class AddressDefaultFormatter extends FormatterBase {
    */
   public static function defaultSettings() {
     return [
-      // Implement default settings.
-    ] + parent::defaultSettings();
+        'show_prefix' => 0,
+      ] + parent::defaultSettings();
   }
 
   /**
    * {@inheritdoc}
    */
   public function settingsForm(array $form, FormStateInterface $form_state) {
-    return [
-      // Implement settings form.
-    ] + parent::settingsForm($form, $form_state);
+
+    $elements['show_prefix'] = [
+      '#title' => $this->t('Show Prefix in City.'),
+      '#description' => $this->t('Show Prefix in City..'),
+      '#type' => 'checkbox',
+      '#default_value' => $this->getSetting('show_prefix'),
+    ];
+
+    return $elements;
   }
 
   /**

@@ -20,6 +20,7 @@ use Symfony\Component\HttpFoundation\Response;
 class HelloWorldController extends ControllerBase {
 
 
+
   /**
    * @var HelloWorldSalutationInterface
    */
@@ -68,7 +69,7 @@ class HelloWorldController extends ControllerBase {
   public function helloWorld(NodeInterface $node) {
 
     $salutation_replace_title =  \Drupal::token()->replace('The salutation text is: [customtoken:body]',['node'=>$node]);
-
+   
     return [
       '#type' => 'markup',
       '#markup' => $salutation_replace_title
