@@ -1,0 +1,13 @@
+{
+    "name": "custom_field",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/custom_field",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/custom_field",
+        "source": "http://cgit.drupalcode.org/custom_field",
+    },
+}

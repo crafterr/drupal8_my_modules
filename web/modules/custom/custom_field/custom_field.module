@@ -1,0 +1,38 @@
+<?php
+
+/**
+ * @file
+ * Contains custom_field.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function custom_field_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the custom_field module.
+    case 'help.page.custom_field':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function custom_field_theme() {
+  return [
+    'custom_field' => [
+      'render element' => 'children',
+    ],
+    'license_plate' => [
+      'variables' => ['code' => NULL, 'number' => NULL, 'concatenated' => TRUE,'color'=> FALSE],
+    ],
+  ];
+}
