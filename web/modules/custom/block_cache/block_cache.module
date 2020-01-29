@@ -1,0 +1,78 @@
+<?php
+
+/**
+ * @file
+ * Contains block_cache.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\block\Entity\Block;
+/**
+ * Implements hook_help().
+ */
+function block_cache_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the block_cache module.
+    case 'help.page.block_cache':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_form_alter().
+ * hook_form_{form_id}_alter
+ */
+function block_cache_form_block_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  $block = $form_state->getFormObject()->getEntity();
+  // This will automatically be saved in the third party settings.
+  $form['third_party_settings']['#tree'] = TRUE;
+  $form['third_party_settings']['block_cache'] = [
+    '#type' => 'details',
+    '#title' => t('Block Cache'),
+  ];
+  $form['third_party_settings']['block_cache']['miliseconds'] = [
+    '#type' => 'number',
+    '#min' => 0,
+    '#title' => t('Timeout'),
+    '#description' => t('Miliseconds, example: 3000 for 3 seconds'),
+    '#default_value' => $block->getThirdPartySetting('block_cache', 'miliseconds'),
+  ];
+  $form['third_party_settings']['block_cache']['disable'] = [
+    '#type' => 'checkbox',
+    '#title' => t('Disable cache'),
+    '#default_value' => $block->getThirdPartySetting('block_cache', 'disable', FALSE),
+  ];
+
+}
+
+/**
+ * Implements hook_block_build_alter().
+ */
+/**
+ * Implements hook_block_build_alter().
+ */
+function block_cache_block_build_alter(array &$build, \Drupal\Core\Block\BlockPluginInterface $block) {
+
+  $block_machine_name = $block->getMachineNameSuggestion();
+//dump($block_machine_name);
+  $block_entity = Block::load($block_machine_name);
+//dump($block_entity);
+  if ($block_entity) {
+    $disable = $block_entity->getThirdPartySetting('block_cache', 'disable', FALSE);
+    $miliseconds = $block_entity->getThirdPartySetting('block_cache', 'miliseconds');
+dump($miliseconds);
+    if ($miliseconds) {
+      $build['#cache']['max-age'] = $miliseconds;
+    }
+
+    if ($disable == TRUE) {
+      $build['#cache']['max-age'] = 0;
+    }
+  }
+}
+

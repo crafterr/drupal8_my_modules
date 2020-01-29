@@ -1,0 +1,13 @@
+{
+    "name": "block_cache",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/block_cache",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/block_cache",
+        "source": "http://cgit.drupalcode.org/block_cache",
+    },
+}
