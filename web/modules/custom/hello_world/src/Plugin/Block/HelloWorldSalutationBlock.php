@@ -5,8 +5,10 @@ namespace Drupal\hello_world\Plugin\Block;
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
+use Drupal\Core\Session\AccountInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Drupal\hello_world\HelloWorldSalutationInterface;
+use Drupal\Core\Access\AccessResult;
 
 /**
  * Provides a 'HelloWorldSalutationBlock' block.
@@ -99,6 +101,21 @@ class HelloWorldSalutationBlock extends BlockBase implements ContainerFactoryPlu
       '#type' => 'markup',
       '#markup' =>  ((bool)$this->configuration['enabled']) ? $this->helloWorldSalutation->getSalutation():'ma enabled wlaczony'
     ];
+
+  }
+
+  public function blockAccess(AccountInterface $account) {
+
+    $accountProxy = $account;
+    $user = \Drupal::entityTypeManager()
+      ->getStorage('user')
+      ->load($accountProxy->id());
+
+    if ($user->id()==1) {
+      return AccessResult::allowed();
+    } else {
+      return AccessResult::forbidden();
+    }
 
   }
 

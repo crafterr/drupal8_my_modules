@@ -25,4 +25,4 @@ products.import_controller_import:
     _controller: '\Drupal\products\Controller\ImportController::execute'
     _title: 'Import'
   requirements:
-    _permission: 'access content'
+      _permission: 'access content'

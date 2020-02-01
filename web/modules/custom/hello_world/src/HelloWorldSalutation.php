@@ -49,11 +49,12 @@ class HelloWorldSalutation implements HelloWorldSalutationInterface{
       ]
     ];
     $render['#overridden'] = TRUE;
-    $config = $this->configFactory->get('hello_world.custom_salutation');
-    $salutation = $config->get('salutation');
+    $config = $this->configFactory->get('hello_world_custom_salutation.settings');
 
+    $salutation = $config->get('salutation');
     if ($salutation != "") {
-     $event = new SalutationEvent();
+
+      $event = new SalutationEvent();
       $event->setValue($salutation);
       $event = $this->eventDispatcher->dispatch(SalutationEvent::EVENT,$event);
 
