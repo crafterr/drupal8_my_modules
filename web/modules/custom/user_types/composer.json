@@ -1,0 +1,13 @@
+{
+    "name": "user_types",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/user_types",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/user_types",
+        "source": "http://cgit.drupalcode.org/user_types",
+    },
+}

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac579f1b8295f81e139a482c6bad524e",
+    "content-hash": "096db5cdec1b3dfe5a40f1b42df65d1b",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2132,6 +2132,57 @@
             ],
             "description": "Composer Plugin for updating the Drupal scaffold files when using drupal/core",
             "time": "2019-03-30T10:41:38+00:00"
+        },
+        {
+            "name": "drupal/ala",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/ala.git",
+                "reference": "8.x-1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ala-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "d70408af582a390aa10f076c5301ca16a8d41994"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.4",
+                    "datestamp": "1578648487",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "iaconba",
+                    "homepage": "https://www.drupal.org/user/3314043"
+                },
+                {
+                    "name": "kushan4157",
+                    "homepage": "https://www.drupal.org/user/3619158"
+                }
+            ],
+            "description": "Provide a widget for Link field type which permits to choose class, target, icon and user role.",
+            "homepage": "https://www.drupal.org/project/ala",
+            "support": {
+                "source": "https://git.drupalcode.org/project/ala"
+            }
         },
         {
             "name": "drupal/better_exposed_filters",

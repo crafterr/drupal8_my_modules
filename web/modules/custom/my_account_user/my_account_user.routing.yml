@@ -1,0 +1,11 @@
+
+my_account_user.user_controller_render:
+  path: '/my_account_user/user'
+  defaults:
+    _controller: '\Drupal\my_account_user\Controller\UserController::render'
+    _title: 'User'
+  requirements:
+    _permission: 'administer site configuration'
+    _role: "editor+administrator"
+    _custom_access: '\Drupal\my_account_user\Controller\UserController::access'
+    _my_account_user_access_check: 'TRUE'

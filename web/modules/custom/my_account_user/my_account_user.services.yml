@@ -1,0 +1,6 @@
+services:
+  my_account_user.access_checker:
+    class: \Drupal\my_account_user\Access\UserAccess
+    arguments: ['@config.factory']
+    tags:
+    - { name: access_check, applies_to: _my_account_user_access_check }
