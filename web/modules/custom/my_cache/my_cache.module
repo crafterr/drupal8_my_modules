@@ -5,6 +5,7 @@
  * Contains my_cache.module.
  */
 
+use Drupal\Component\Utility\Random;
 use Drupal\Core\Routing\RouteMatchInterface;
 
 /**
@@ -29,8 +30,10 @@ function my_cache_help($route_name, RouteMatchInterface $route_match) {
 function my_cache_theme() {
   return [
     'my_cache' => [
-      'render element' => 'children',
-    ],
+      'variables' => [
+        'name' => NULL,
+      ],
+    ]
   ];
 }
 
@@ -39,10 +42,33 @@ function my_cache_theme() {
  */
 function my_cache_node_view(array &$build, \Drupal\Core\Entity\EntityInterface $entity, \Drupal\Core\Entity\Display\EntityViewDisplayInterface $display, $view_mode) {
 
-  if ($entity->bundle() && $view_mode == 'full') {
+  if ($entity->bundle()=='article' && $view_mode == 'full') {
     $tags = $entity->getCacheTags();
 
-    dump($tags);
-    die();
+
+
+
+  }
+}
+
+
+function my_cache_preprocess_breadcrumb(&$variables) {
+  /*if (($node = \Drupal::routeMatch()->getParameter('node')) && $variables['breadcrumb']) {
+    $variables['breadcrumb'][] = [
+      'text' => $node->getTitle() //(new Random())->string(5)
+    ];
+    $variables['#cache']['contexts'][] = 'url.path';
+
+    //dump($variables);
+  }*/
+}
+function my_cache_preprocess_page_title(&$variables) {
+
+  $node = \Drupal::request()->attributes->get('node');
+
+  if ($node && $node->bundle() == 'article') {
+    $variables['title'] = t('@title Review', ['@title' => $node->getTitle()]);
+    //dump($variables);
+    // $variables['#cache']['max-age'] = 0;
   }
 }

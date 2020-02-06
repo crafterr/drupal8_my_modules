@@ -93,7 +93,11 @@ class HelloWorldController extends ControllerBase {
       ]
     ];*/
 
-   return $this->salutation->getSalutation();
+   //return $this->salutation->getSalutation();
+    return [
+      '#lazy_builder' => ['hello_world.lazy_builder:renderSalutation', []],
+      '#create_placeholder' => TRUE,
+    ];
   }
 
   /**

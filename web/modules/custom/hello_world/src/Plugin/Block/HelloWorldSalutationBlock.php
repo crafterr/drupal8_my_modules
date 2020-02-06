@@ -114,9 +114,9 @@ class HelloWorldSalutationBlock extends BlockBase implements ContainerFactoryPlu
     if ($user->id()==1) {
       return AccessResult::allowed();
     } else {
-      return AccessResult::forbidden();
-    }
+  return AccessResult::forbidden();
+}
 
-  }
+}
 
 }

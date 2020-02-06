@@ -1,0 +1,22 @@
+
+my_cache.default_controller_render:
+  path: '/my_cache/render/{id}'
+  defaults:
+    _controller: '\Drupal\my_cache\Controller\DefaultController::render'
+    _title: 'Deafaut'
+  requirements:
+    _permission: 'access content'
+
+my_cache.default_controller_api:
+  path: '/my_cache/api/{node}'
+  defaults:
+    _controller: '\Drupal\my_cache\Controller\DefaultController::api'
+    _title: 'Deafaut'
+  requirements:
+    _permission: 'access content'
+  options:
+    parameters:
+      sister:
+        type: entity:node
+      coordinator:
+        type: entity:node

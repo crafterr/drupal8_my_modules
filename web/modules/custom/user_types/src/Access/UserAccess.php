@@ -46,6 +46,11 @@ class UserAccess implements AccessInterface{
     $user = $this->entityTypeManager->getStorage('user')->load($account->id());
     $type = $user->get('field_user_type')->value;
 
-    return in_array($type, $user_types) ? AccessResult::allowed() : AccessResult::forbidden();
+    $access = in_array($type, $user_types) ? AccessResult::allowed() : AccessResult::forbidden();
+
+    $access->addCacheableDependency($user);
+    $access->addCacheableDependency($account);
+
+    return $access;
   }
 }

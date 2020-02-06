@@ -27,3 +27,7 @@ services:
     class: Drupal\hello_world\HelloWorldConfigOverrides
     tags:
       - { name: config.factory.override, priority: 5 }
+
+  hello_world.lazy_builder:
+    class: Drupal\hello_world\HelloWorldLazyBuilder
+    arguments: ['@hello_world.salutation']
