@@ -1,0 +1,13 @@
+{
+    "name": "my_crone",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/my_crone",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/my_crone",
+        "source": "http://cgit.drupalcode.org/my_crone",
+    },
+}

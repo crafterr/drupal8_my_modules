@@ -1,0 +1,23 @@
+
+js_ajax_api.render_controller_render:
+  path: '/js_ajax_api/render'
+  defaults:
+    _controller: '\Drupal\js_ajax_api\Controller\RenderController::render'
+    _title: 'Render'
+  requirements:
+    _permission: 'access content'
+
+js_ajax_api.render_controller_showmelink:
+  path: '/js_ajax_api/showmelink'
+  defaults:
+    _controller: '\Drupal\js_ajax_api\Controller\RenderController::showMeLink'
+    _title: 'Render'
+  requirements:
+    _permission: 'access content'
+
+js_ajax_api.hide_block:
+  path: '/hide-block'
+  defaults:
+    _controller: '\Drupal\js_ajax_api\Controller\RenderController::hideBlock'
+  requirements:
+    _permission: 'access content'

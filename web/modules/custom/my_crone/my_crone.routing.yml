@@ -1,0 +1,7 @@
+my_crone.default_controller_save:
+  path: '/my_crone/save'
+  defaults:
+    _controller: '\Drupal\my_crone\Controller\DefaultController::save'
+    _title: 'tesat'
+  requirements:
+    _permission: 'access content'

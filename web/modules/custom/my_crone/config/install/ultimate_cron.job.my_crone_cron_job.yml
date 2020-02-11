@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - my_crone
+title: 'Sample Cron Job for create new file txt with date'
+id: my_crone_cron_job
+module: my_crone
+callback: test_cron_sample_cron_job

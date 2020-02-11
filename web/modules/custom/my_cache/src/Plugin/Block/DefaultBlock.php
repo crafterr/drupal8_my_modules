@@ -19,18 +19,9 @@ class DefaultBlock extends BlockBase {
    * {@inheritdoc}
    */
   public function build() {
-    $count = rand(1,10);
-    $build = [
-      '#theme' => 'my_cache',
-      '#name' => $count,
-      /*'#cache' => [
-       // 'keys' => ['special-key-for-block'],
-        //'contexts' => ['url.path']
-        'max-age' => 0
-      ],*/
+    return [
+      '#markup' => '<span>Current User ID: ' . \Drupal::currentUser()->id() . '</span>',
     ];
-
-    return $build;
   }
 
 

@@ -20,24 +20,25 @@ class DefaultController extends ControllerBase {
    *   Return Hello string.
    */
   public function render($id) {
-
+    Cache::invalidateTags(['moj_tag']);
     $count = rand(1,10);
     $build = [
       '#theme' => 'my_cache',
       '#name' => $count,
       '#cache' => [
-        'tags' => ['aaaa_bbbb']
+
         // 'keys' => ['special-key'],
          //'contexts' => ['url.path'],
-     //    'max-age' => 0
+         'max-age' => 0
       ],
     ];
 
-    return $build;
+    return [];
   }
 
   public function api(NodeInterface $node) {
-
+    Cache::invalidateTags(['moj_tag']);
+    die();
     $cache = \Drupal::cache('render');
     //$cache->set('my_renderer_cache',[1,2,3,4,5,6],CacheBackendInterface::CACHE_PERMANENT);
    // dump($cache->get('my_renderer_cache')->data); die();
