@@ -1,0 +1,69 @@
+<?php
+/**
+ * @file
+ */
+
+use Drupal\node\Entity\Node;
+/**
+ * Implements hook_update_N().
+ *
+ * Set default value to new field field_board_memeber on all Person nodes.
+ */
+function  multi_pass_update_update_8001(&$sandbox) {
+  $nids = \Drupal::entityQuery('node')
+    ->condition('type', 'person')
+    ->execute();
+
+  foreach($nids as $nid) {
+    $node = Node::load($nid);
+    $node->field_board_member->value = 1;
+    $node->save();
+  }
+}
+
+/**
+ * Implements hook_update_N().
+ *
+ * Set default value to new field field_board_memeber on all Person nodes using sandbox.
+ */
+function  multi_pass_update_update_8006(&$sandbox) {
+  if (!isset($sandbox['total'])) {
+
+    $nids = \Drupal::entityQuery('node')
+      ->condition('type', 'person')
+      ->execute();
+    $sandbox['total'] = count($nids);
+    $sandbox['current'] = 0;
+    $sandbox['title'] = [];
+  }
+  $nodes_per_batch = 25;
+
+  // Handle one pass through.
+  $nids = \Drupal::entityQuery('node')
+    ->condition('type', 'person')
+    ->range($sandbox['current'], $sandbox['current'] + $nodes_per_batch)
+    ->execute();
+
+
+  foreach($nids as $nid) {
+    $node = Node::load($nid);
+    $rand = random_int(1,2);
+    $node->field_board_member->value = $rand;
+    $node->save();
+    $sandbox['current']++;
+    $sandbox['title'][] = $node->getTitle().' with rand '.$node->field_board_member->value;
+
+  }
+
+  drupal_set_message($sandbox['current'] . ' nodes processed.');
+  foreach ($sandbox['title'] as $title) {
+    drupal_set_message($title);
+  }
+
+
+  if ($sandbox['total'] == 0) {
+    $sandbox['#finished'] = 1;
+  } else {
+    $sandbox['#finished'] = ($sandbox['current'] / $sandbox['total']);
+  }
+}

@@ -1,8 +1,16 @@
 
-my_batch.default_controller_batch:
-  path: '/my_batch/batch'
+my_batch.default_controller_link:
+  path: '/my_batch/link'
   defaults:
-    _controller: '\Drupal\my_batch\Controller\DefaultController::batch'
+    _controller: '\Drupal\my_batch\Controller\DefaultController::link'
+    _title: 'Batch'
+  requirements:
+    _permission: 'access content'
+
+my_batch.default_controller_run:
+  path: '/my_batch/run'
+  defaults:
+    _controller: '\Drupal\my_batch\Controller\DefaultController::run'
     _title: 'Batch'
   requirements:
     _permission: 'access content'

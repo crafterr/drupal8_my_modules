@@ -1,0 +1,13 @@
+{
+    "name": "multi_pass_update",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/multi_pass_update",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/multi_pass_update",
+        "source": "http://cgit.drupalcode.org/multi_pass_update",
+    },
+}

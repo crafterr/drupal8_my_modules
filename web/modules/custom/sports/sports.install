@@ -122,3 +122,44 @@ function sports_update_8003(&$sandbox) {
     'default' => 0,
   ]);
 }
+
+/**
+ * Update all the players to mark them as retired.
+ */
+function sports_update_8004(&$sandbox) {
+  $database = \Drupal::database();
+  if (empty($sandbox)) {
+    $results = $database->query("SELECT id FROM {players}")->fetchAllAssoc('id');
+    $sandbox['progress'] = 0;
+    $sandbox['ids'] = array_keys($results);
+    $sandbox['max'] = count($results);
+  }
+
+  $id = $sandbox['ids'] ? array_shift($sandbox['ids']) : NULL;
+
+  $player = $database->query("SELECT * FROM {players} WHERE id = :id", [':id' => $id])->fetch();
+  $data = $player->data ? unserialize($player->data) : [];
+  $data['retired'] = TRUE;
+  $database->update('players')
+    ->fields(['data' => serialize($data)])
+    ->condition('id', $id)
+    ->execute();
+  $sandbox['progress']++;
+  $sandbox['#finished'] = $sandbox['progress'] / $sandbox['max'];
+}
+
+/**
+ * Update all the players to mark them as done.
+ */
+function sports_update_8006(&$sandbox) {
+  $database = \Drupal::database();
+  $results =   Drupal\sports\PlayerStorage::getAll();
+  foreach ($results as $result) {
+    $data = $result->data ? unserialize($result->data) : [];
+    $data['done'] = TRUE;
+    $data['retired'] = TRUE;
+    $serialize_data = ['data' => serialize($data)];
+    \Drupal\sports\PlayerStorage::update($result->id,$serialize_data);
+
+  }
+}

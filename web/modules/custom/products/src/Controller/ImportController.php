@@ -48,8 +48,10 @@ class ImportController extends ControllerBase {
     /**
      * @var \Drupal\products\Plugin\ImporterInterface $importer
      */
+
     $importer = $this->importerManager->createInstanceFromConfig($config);
 
+    return $importer->import();
     if ($importer->import()) {
       $this->messenger()->addMessage($this->t('Created the %label Importer.'));
     }

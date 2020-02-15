@@ -45,16 +45,28 @@ function js_ajax_api_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $fo
   if ($form_id=='node_article_form') {
     $form['field_my_text_simple']['widget'][0]['value']['#value'] = 'adam ma kota';
 
-    $param = (int) \Drupal::request()->get('keys');
-    $term = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->load($param);
-    $article_cat = \Drupal::entityTypeManager()->getStorage('node')->load(9);
+    $param =  \Drupal::request()->get('keys');
+    if (!is_null($param)) {
+      $param = (int) $param;
+      $term1 = \Drupal::entityTypeManager()
+        ->getStorage('taxonomy_term')
+        ->load($param);
+      $term2 = \Drupal::entityTypeManager()
+        ->getStorage('taxonomy_term')
+        ->load(3);
 
-    $form['field_tags']['widget']['target_id']['#default_value'] = [$term];
-    //for autocomeplete
-    //$form['field_article_category']['widget'][0]['target_id']['#default_value'] = $article_cat;
-    //for select
-    $form['field_article_category']['widget']['#default_value'] = [$article_cat->id()];
-    //dump($form['field_tags']['widget']['target_id']['#default_value']);
+      $article_cat = \Drupal::entityTypeManager()->getStorage('node')->load(9);
+
+      $form['field_tags']['widget']['target_id']['#default_value'] = [
+        $term1,
+        $term2
+      ];
+      //for autocomeplete
+      //$form['field_article_category']['widget'][0]['target_id']['#default_value'] = $article_cat;
+      //for select
+      //$form['field_article_category']['widget']['#default_value'] = [$article_cat->id()];
+      //dump($form['field_tags']['widget']['target_id']['#default_value']);
       //$form['field_tags']['und']['#default_value'] = array(1);
+    }
   }
 }

@@ -3,6 +3,7 @@
 namespace Drupal\products\Entity;
 
 use Drupal\Core\Config\Entity\ConfigEntityBase;
+use Drupal\Core\StringTranslation\StringTranslationTrait;
 use Drupal\Core\Url;
 
 /**
@@ -36,11 +37,20 @@ use Drupal\Core\Url;
  *     "edit-form" = "/admin/structure/importer/{importer}/edit",
  *     "delete-form" = "/admin/structure/importer/{importer}/delete",
  *     "collection" = "/admin/structure/importer"
+ *   },
+ *   config_export = {
+ *     "id",
+ *     "label",
+ *     "plugin",
+ *     "update_existing",
+ *     "source",
+ *     "bundle",
+ *     "plugin_configuration"
  *   }
  * )
  */
 class Importer extends ConfigEntityBase implements ImporterInterface {
-
+  use StringTranslationTrait;
   /**
    * The Importer ID.
    *
@@ -56,11 +66,11 @@ class Importer extends ConfigEntityBase implements ImporterInterface {
   protected $label;
 
   /**
-   * The URL from where the import file can be retrieved.
+   * The configuration specific to the plugin.
    *
-   * @var string
+   * @var array
    */
-  protected $url;
+  protected $plugin_configuration;
 
   /**
    * The plugin ID of the plugin to be used for processing this import.
@@ -83,12 +93,7 @@ class Importer extends ConfigEntityBase implements ImporterInterface {
    */
   protected $source;
 
-  /**
-   * @inheritDoc
-   */
-  public function getUrl() {
-    return $this->url ? Url::fromUri($this->url): NULL;
-  }
+
 
   /**
    * @inheritDoc
@@ -110,6 +115,15 @@ class Importer extends ConfigEntityBase implements ImporterInterface {
   public function getSource() {
     return $this->source;
   }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function getPluginConfiguration() {
+    return $this->plugin_configuration;
+  }
+
+
 
 
 }

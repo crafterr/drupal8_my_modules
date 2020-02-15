@@ -192,7 +192,9 @@ class QueryController extends ControllerBase {
   }
 
   public function test() {
-
+    $database = \Drupal::database();
+    $results = $database->query("SELECT id, `data` FROM {players}")->fetchAllAssoc();
+    dump($results);
   }
 
 }
