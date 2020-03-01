@@ -33,3 +33,11 @@ function sports_theme() {
     ],
   ];
 }
+
+
+/**
+ * Implements hook_cron().
+ */
+function sports_cron() {
+  Drupal\sports\TeamStorage::deleteAllNotRelatedTeams();
+}

@@ -16,8 +16,8 @@ class DefaultController extends ControllerBase {
    *
    */
   public function hello() {
-    $some_variable = [1,2,3,4,5];
-    return [
+    $some_variable = 'adam ma kota';
+    /*return [
       '#theme' => 'attachment_library',
       '#some_variable' => $some_variable,
       '#attached' => [
@@ -25,7 +25,27 @@ class DefaultController extends ControllerBase {
           'attachment_library/slick',
         ],
       ],
-    ];
+    ];*/
+   /* return [
+      '#theme' => 'item_list',
+      '#items' => [
+
+      ],
+      '#title' => 'Moja item lista',
+      '#empty' => 'Lista nie zawiera elementów'
+    ];*/
+
+   $x = 1;
+
+   $this->count($x);
+
+   dump($x);
+
+   die();
+  }
+
+  function count(&$x) {
+    $x++;
   }
 
 }

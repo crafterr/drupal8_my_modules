@@ -93,6 +93,22 @@ class TeamStorage {
       ->condition('id', $id)
       ->execute();
   }
+
+  /**
+   *
+   */
+  public static function deleteAllNotRelatedTeams() {
+    $result = \Drupal::database()->query("SELECT id from {teams} WHERE id NOT IN (SELECT team_id from {players} WHERE team_id IS NOT NULL)")->fetchAllAssoc('id');
+
+    if (!$result) {
+      return;
+    }
+    $ids = array_keys($result);
+
+    \Drupal::database()->delete('teams')
+      ->condition('id',$ids,'IN')
+      ->execute();
+  }
   /**
    * To delete a specific employee record.
    *
@@ -122,4 +138,6 @@ class TeamStorage {
   public static function changeStatus($id, $status) {
     return self::update($id, ['status' => ($status) ? 1 : 0]);
   }
+
+
 }

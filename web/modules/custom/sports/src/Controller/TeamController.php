@@ -9,6 +9,7 @@ use Symfony\Component\HttpFoundation\RedirectResponse;
 use Drupal\Core\Ajax\AjaxResponse;
 use Drupal\Core\Ajax\OpenModalDialogCommand;
 use Symfony\Component\DependencyInjection\ContainerInterface;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\RequestStack;
 use Drupal\Core\Form\FormBuilder;
 use Drupal\sports\Form\TeamTableForm;
@@ -130,6 +131,19 @@ class TeamController extends ControllerBase {
     ];
     return $content;
 
+  }
+
+  public function getQuery(Request $request) {
+
+    $param = $request->query->get('name');
+
+
+    $result = $this->db->select('teams', 't')
+      ->fields('t')
+      ->condition('id', $param, '=')
+      ->execute()
+      ->fetchObject();
+    dump($result); die();
   }
 
 }

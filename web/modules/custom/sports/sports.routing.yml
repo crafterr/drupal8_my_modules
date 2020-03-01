@@ -6,6 +6,14 @@ sports.teams.list:
   requirements:
     _permission: 'manage teams'
 
+sports.teams.query:
+  path: '/admin/content/getquery'
+  defaults:
+    _controller: '\Drupal\sports\Controller\TeamController::getQuery'
+    _title: 'Teams Dashboard'
+  requirements:
+    _permission: 'manage teams'
+
 sports.teams.add:
   path: '/admin/content/team/add'
   defaults:

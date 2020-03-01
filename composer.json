@@ -33,6 +33,7 @@
         "drupal/examples": "1.x-dev",
         "drupal/layout_library": "^1.0@beta",
         "drupal/pathauto": "^1.5",
+        "drupal/restui": "^1.17",
         "drupal/rules": "^3.0@alpha",
         "drupal/token": "^1.5",
         "drupal/ultimate_cron": "^2.0@alpha",

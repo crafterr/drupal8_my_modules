@@ -31,6 +31,7 @@ function attachment_library_theme($existing, $type, $theme, $path) {
     'attachment_library' => [
       'variables' => [
         'some_variable' => NULL,
+        'attributes' => ['class' => ['links']]
 
       ],
     ],
