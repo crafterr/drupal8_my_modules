@@ -1,0 +1,7 @@
+drush_demo.example:
+  path: '/drush-demo/example'
+  defaults:
+    _title: 'Example'
+    _form: 'Drupal\drush_demo\Form\ExampleForm'
+  requirements:
+    _permission: 'access content'

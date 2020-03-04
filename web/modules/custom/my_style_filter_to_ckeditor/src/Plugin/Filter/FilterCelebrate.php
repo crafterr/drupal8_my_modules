@@ -18,7 +18,7 @@ use Drupal\filter\Plugin\FilterBase;
 class FilterCelebrate extends FilterBase {
   public function process($text, $langcode) {
     $replace = '<span class="celebrate-filter">' . $this->t('Good Times!') . '</span>';
-    $new_text = str_replace('[celebrate]', $replace, $text);
+    $new_text = str_replace('adam ma kota', $replace, $text);
     return new FilterProcessResult($new_text);
   }
 }
