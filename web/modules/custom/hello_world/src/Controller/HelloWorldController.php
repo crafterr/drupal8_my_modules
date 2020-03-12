@@ -150,4 +150,28 @@ class HelloWorldController extends ControllerBase {
     $salutation_replace =  \Drupal::token()->replace('The salutation text is: [hello_world:salutation2]');
     dump($salutation_replace);
   }
+
+  public function tabliczka() {
+
+    $rows = [];
+    $cols = [];
+    for ($i=1; $i<=10; $i++) {
+      $cols[] = $i;
+      for ($j=1; $j<=10; $j++) {
+        $rows[$i][$j] = $i*$j;
+      }
+    }
+
+
+    $build['table'] = [
+      '#type' => 'table',
+      '#caption' => $this->t('Tabliczka mnozenia.'),
+      '#header' => $cols,
+      '#rows' => $rows,
+      '#description' => $this->t('Example of using #type.'),
+    ];
+
+    return $build;
+
+  }
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2233d986135acaf1490bf276256c64eb",
+    "content-hash": "ad2dd559a8a7b2dcb27b8b33cd15ac00",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2304,6 +2304,57 @@
             }
         },
         {
+            "name": "drupal/carousel_block",
+            "version": "1.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/carousel_block.git",
+                "reference": "8.x-1.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/carousel_block-8.x-1.9.zip",
+                "reference": "8.x-1.9",
+                "shasum": "8422d274d10bc3522fae5a6590a73ddee0ec57c4"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.9",
+                    "datestamp": "1580824536",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "crafter",
+                    "homepage": "https://www.drupal.org/user/3510344"
+                }
+            ],
+            "description": "Module Provide carousel block with slick library",
+            "homepage": "https://www.drupal.org/project/carousel_block",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/carousel_block",
+                "issues": "https://www.drupal.org/project/issues/carousel_block"
+            }
+        },
+        {
             "name": "drupal/console",
             "version": "1.9.3",
             "source": {
@@ -3483,6 +3534,52 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/layout_library"
             }
+        },
+        {
+            "name": "drupal/node_read_time",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/node_read_time.git",
+                "reference": "65919598816e67227466c93d3bc8e35df4ff6e55"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1583410213",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "artamiel",
+                    "homepage": "https://www.drupal.org/user/3539472"
+                },
+                {
+                    "name": "yivanov",
+                    "homepage": "https://www.drupal.org/user/3513564"
+                }
+            ],
+            "description": "Displays reading time field on a node.",
+            "homepage": "https://www.drupal.org/project/node_read_time",
+            "support": {
+                "source": "https://git.drupalcode.org/project/node_read_time"
+            },
+            "time": "2020-03-05T12:20:26+00:00"
         },
         {
             "name": "drupal/pathauto",
@@ -9768,6 +9865,7 @@
         "drupal/better_exposed_filters": 15,
         "drupal/examples": 20,
         "drupal/layout_library": 10,
+        "drupal/node_read_time": 20,
         "drupal/rules": 15,
         "drupal/ultimate_cron": 15,
         "drupal/user_online_status": 15

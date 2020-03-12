@@ -66,3 +66,12 @@ system.admin_config_myconfig:
     _title: 'Mysite'
   requirements:
     _permission: 'access administration pages'
+
+hello_world.token.tabliczka_mnozenia:
+  path: '/hello/tabliczka'
+  defaults:
+    _controller: '\Drupal\hello_world\Controller\HelloWorldController::tabliczka'
+    _title: 'Our first route'
+  requirements:
+    _permission: 'access content'
+
