@@ -1,0 +1,7 @@
+services:
+  logger.channel.form_validation:
+    parent: logger.channel_base
+    arguments: ['form_validation']
+  form_validation.csv_validator:
+    class: Drupal\form_validation\CsvValidator
+    arguments: []
