@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b48e0f450d218c4936176e0cb6980c4",
+    "content-hash": "ad2dd559a8a7b2dcb27b8b33cd15ac00",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2157,7 +2157,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.4",
-                    "datestamp": "1578648487",
+                    "datestamp": "1579251145",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -2199,7 +2199,7 @@
                 "shasum": "d95e24390fb44bb2f6f0de515dee0b5975499fb9"
             },
             "require": {
-                "drupal/core": "*"
+                "drupal/core": "^8 || ^9"
             },
             "type": "drupal-module",
             "extra": {
@@ -2301,6 +2301,57 @@
             "homepage": "https://www.drupal.org/project/better_fields_formatters",
             "support": {
                 "source": "https://git.drupalcode.org/project/better_fields_formatters"
+            }
+        },
+        {
+            "name": "drupal/carousel_block",
+            "version": "1.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/carousel_block.git",
+                "reference": "8.x-1.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/carousel_block-8.x-1.9.zip",
+                "reference": "8.x-1.9",
+                "shasum": "8422d274d10bc3522fae5a6590a73ddee0ec57c4"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.9",
+                    "datestamp": "1580824536",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "crafter",
+                    "homepage": "https://www.drupal.org/user/3510344"
+                }
+            ],
+            "description": "Module Provide carousel block with slick library",
+            "homepage": "https://www.drupal.org/project/carousel_block",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/carousel_block",
+                "issues": "https://www.drupal.org/project/issues/carousel_block"
             }
         },
         {
@@ -3138,7 +3189,7 @@
                 },
                 "drupal": {
                     "version": "8.x-10.1",
-                    "datestamp": "1526027584",
+                    "datestamp": "1581598051",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3151,6 +3202,10 @@
             ],
             "authors": [
                 {
+                    "name": "btobac",
+                    "homepage": "https://www.drupal.org/user/3630142"
+                },
+                {
                     "name": "karthikeyan-manivasagam",
                     "homepage": "https://www.drupal.org/user/1494424"
                 }
@@ -3162,12 +3217,158 @@
             }
         },
         {
+            "name": "drupal/embed",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/embed.git",
+                "reference": "8.x-1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/embed-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "141be860f2d2e1df67904995fa43774fee355328"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.3",
+                    "datestamp": "1576704484",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                },
+                {
+                    "name": "Devin Carlson",
+                    "homepage": "https://www.drupal.org/user/290182"
+                },
+                {
+                    "name": "Drupal Media Team",
+                    "homepage": "https://www.drupal.org/user/3260690"
+                },
+                {
+                    "name": "cs_shadow",
+                    "homepage": "https://www.drupal.org/user/2828287"
+                },
+                {
+                    "name": "slashrsm",
+                    "homepage": "https://www.drupal.org/user/744628"
+                }
+            ],
+            "description": "Provide a framework for various different types of embeds in WYSIWYG editors, common functionality, interfaces, and standards.",
+            "homepage": "https://www.drupal.org/project/embed",
+            "support": {
+                "source": "https://git.drupalcode.org/project/embed",
+                "issues": "https://www.drupal.org/project/issues/embed",
+                "irc": "irc://irc.freenode.org/drupal-media"
+            }
+        },
+        {
+            "name": "drupal/entity_embed",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/entity_embed.git",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/entity_embed-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "abd37a54162a702cf696ef0e5f8b2b1082263c21"
+            },
+            "require": {
+                "drupal/core": "^8.4.0",
+                "drupal/embed": "*"
+            },
+            "require-dev": {
+                "drupal/entity_browser": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1562161679",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                },
+                {
+                    "name": "Devin Carlson",
+                    "homepage": "https://www.drupal.org/user/290182"
+                },
+                {
+                    "name": "Drupal Media Team",
+                    "homepage": "https://www.drupal.org/user/3260690"
+                },
+                {
+                    "name": "Wim Leers",
+                    "homepage": "https://www.drupal.org/user/99777"
+                },
+                {
+                    "name": "cs_shadow",
+                    "homepage": "https://www.drupal.org/user/2828287"
+                },
+                {
+                    "name": "oknate",
+                    "homepage": "https://www.drupal.org/user/471638"
+                },
+                {
+                    "name": "phenaproxima",
+                    "homepage": "https://www.drupal.org/user/205645"
+                },
+                {
+                    "name": "slashrsm",
+                    "homepage": "https://www.drupal.org/user/744628"
+                }
+            ],
+            "description": "Allows any entity to be embedded within a text area using a WYSIWYG editor.",
+            "homepage": "https://www.drupal.org/project/entity_embed",
+            "support": {
+                "source": "https://git.drupalcode.org/project/entity_embed",
+                "issues": "https://www.drupal.org/project/issues/entity_embed",
+                "irc": "irc://irc.freenode.org/drupal-media"
+            }
+        },
+        {
             "name": "drupal/examples",
             "version": "dev-1.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/examples.git",
-                "reference": "62883539445f2ca7350340ead3e6b07d5adebac4"
+                "reference": "14798771ff5ca50c8ad4e76aa8a67a26669ee7b9"
             },
             "require": {
                 "drupal/core": "*"
@@ -3184,8 +3385,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0+1-dev",
-                    "datestamp": "1570003388",
+                    "version": "8.x-1.0+16-dev",
+                    "datestamp": "1582940117",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -3273,7 +3474,7 @@
                 "issues": "https://www.drupal.org/project/issues/examples",
                 "documentation": "https://api.drupal.org/api/examples"
             },
-            "time": "2019-10-04T08:17:31+00:00"
+            "time": "2020-03-01T07:04:26+00:00"
         },
         {
             "name": "drupal/layout_library",
@@ -3299,7 +3500,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta1",
-                    "datestamp": "1560804485",
+                    "datestamp": "1582217387",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -3339,6 +3540,52 @@
             }
         },
         {
+            "name": "drupal/node_read_time",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/node_read_time.git",
+                "reference": "ec72bb4b44bc1c36ca8141e5583e4ed0f8ccb443"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1583410855",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "artamiel",
+                    "homepage": "https://www.drupal.org/user/3539472"
+                },
+                {
+                    "name": "yivanov",
+                    "homepage": "https://www.drupal.org/user/3513564"
+                }
+            ],
+            "description": "Displays reading time field on a node.",
+            "homepage": "https://www.drupal.org/project/node_read_time",
+            "support": {
+                "source": "https://git.drupalcode.org/project/node_read_time"
+            },
+            "time": "2020-03-06T13:44:18+00:00"
+        },
+        {
             "name": "drupal/pathauto",
             "version": "1.5.0",
             "source": {
@@ -3364,7 +3611,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.5",
-                    "datestamp": "1570828084",
+                    "datestamp": "1575467285",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3538,7 +3785,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.5",
-                    "datestamp": "1537557481",
+                    "datestamp": "1577708583",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3605,7 +3852,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-alpha3",
-                    "datestamp": "1554612486",
+                    "datestamp": "1579072387",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -3677,6 +3924,10 @@
                     "homepage": "https://www.drupal.org/user/339326"
                 },
                 {
+                    "name": "Primsi",
+                    "homepage": "https://www.drupal.org/user/282629"
+                },
+                {
                     "name": "arnested",
                     "homepage": "https://www.drupal.org/user/245635"
                 },
@@ -3719,10 +3970,10 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-alpha5",
-                    "datestamp": "1544914980",
+                    "datestamp": "1579903085",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
+                        "message": "Alpha releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -3731,6 +3982,10 @@
                 "GPL-2.0-or-later"
             ],
             "authors": [
+                {
+                    "name": "arthur_lorenz",
+                    "homepage": "https://www.drupal.org/user/3529915"
+                },
                 {
                     "name": "leymannx",
                     "homepage": "https://www.drupal.org/user/2482808"
@@ -3740,54 +3995,6 @@
             "homepage": "https://www.drupal.org/project/user_online_status",
             "support": {
                 "source": "https://git.drupalcode.org/project/user_online_status"
-            }
-        },
-        {
-            "name": "drupal/video_embed_dacast",
-            "version": "1.0.0-rc1",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/video_embed_dacast.git",
-                "reference": "8.x-1.0-rc1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/video_embed_dacast-8.x-1.0-rc1.zip",
-                "reference": "8.x-1.0-rc1",
-                "shasum": "831d20f8bb062e914b00d6794bfa17399ceefa4d"
-            },
-            "require": {
-                "drupal/core": "~8.0",
-                "drupal/video_embed_field": "*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0-rc1",
-                    "datestamp": "1583605567",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "kimberleycgm",
-                    "homepage": "https://www.drupal.org/user/3184061"
-                }
-            ],
-            "description": "Embed Dacast videos into your website using Video Embed Field",
-            "homepage": "https://www.drupal.org/project/video_embed_dacast",
-            "support": {
-                "source": "https://git.drupalcode.org/project/video_embed_dacast"
             }
         },
         {
@@ -5938,16 +6145,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v3.4.32",
+            "version": "v3.4.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "233f40cbebd595ffd91ddf291355f8a930a13777"
+                "reference": "4d440be93adcfd5e4ee0bdc7acd1c3260625728f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/233f40cbebd595ffd91ddf291355f8a930a13777",
-                "reference": "233f40cbebd595ffd91ddf291355f8a930a13777",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/4d440be93adcfd5e4ee0bdc7acd1c3260625728f",
+                "reference": "4d440be93adcfd5e4ee0bdc7acd1c3260625728f",
                 "shasum": ""
             },
             "require": {
@@ -5988,7 +6195,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2019-10-02T16:15:21+00:00"
+            "time": "2020-02-06T08:18:51+00:00"
         },
         {
             "name": "symfony/http-kernel",
@@ -6198,16 +6405,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.12.0",
+            "version": "v1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "b42a2f66e8f1b15ccf25652c3424265923eb4f17"
+                "reference": "34094cfa9abe1f0f14f48f490772db7a775559f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/b42a2f66e8f1b15ccf25652c3424265923eb4f17",
-                "reference": "b42a2f66e8f1b15ccf25652c3424265923eb4f17",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/34094cfa9abe1f0f14f48f490772db7a775559f2",
+                "reference": "34094cfa9abe1f0f14f48f490772db7a775559f2",
                 "shasum": ""
             },
             "require": {
@@ -6219,7 +6426,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.12-dev"
+                    "dev-master": "1.14-dev"
                 }
             },
             "autoload": {
@@ -6253,20 +6460,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-08-06T08:03:45+00:00"
+            "time": "2020-01-13T11:15:53+00:00"
         },
         {
             "name": "symfony/polyfill-php70",
-            "version": "v1.12.0",
+            "version": "v1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php70.git",
-                "reference": "54b4c428a0054e254223797d2713c31e08610831"
+                "reference": "419c4940024c30ccc033650373a1fe13890d3255"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/54b4c428a0054e254223797d2713c31e08610831",
-                "reference": "54b4c428a0054e254223797d2713c31e08610831",
+                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/419c4940024c30ccc033650373a1fe13890d3255",
+                "reference": "419c4940024c30ccc033650373a1fe13890d3255",
                 "shasum": ""
             },
             "require": {
@@ -6276,7 +6483,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.12-dev"
+                    "dev-master": "1.14-dev"
                 }
             },
             "autoload": {
@@ -6312,7 +6519,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-08-06T08:03:45+00:00"
+            "time": "2020-01-13T11:15:53+00:00"
         },
         {
             "name": "symfony/process",
@@ -7433,16 +7640,16 @@
     "packages-dev": [
         {
             "name": "behat/mink",
-            "version": "dev-master",
+            "version": "1.7.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/minkphp/Mink.git",
-                "reference": "a534fe7dac9525e8e10ca68e737c3d7e5058ec83"
+                "reference": "b2e031b747be637236c55f3158e4da280427bfa3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/minkphp/Mink/zipball/a534fe7dac9525e8e10ca68e737c3d7e5058ec83",
-                "reference": "a534fe7dac9525e8e10ca68e737c3d7e5058ec83",
+                "url": "https://api.github.com/repos/minkphp/Mink/zipball/b2e031b747be637236c55f3158e4da280427bfa3",
+                "reference": "b2e031b747be637236c55f3158e4da280427bfa3",
                 "shasum": ""
             },
             "require": {
@@ -7488,7 +7695,7 @@
                 "testing",
                 "web"
             ],
-            "time": "2019-07-15T12:45:29+00:00"
+            "time": "2020-03-06T06:18:25+00:00"
         },
         {
             "name": "behat/mink-browserkit-driver",
@@ -7603,16 +7810,16 @@
         },
         {
             "name": "behat/mink-selenium2-driver",
-            "version": "dev-master",
+            "version": "1.3.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/minkphp/MinkSelenium2Driver.git",
-                "reference": "8684ee4e634db7abda9039ea53545f86fc1e105a"
+                "reference": "0a09c4341621fca937a726827611b20ce3e2c259"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/minkphp/MinkSelenium2Driver/zipball/8684ee4e634db7abda9039ea53545f86fc1e105a",
-                "reference": "8684ee4e634db7abda9039ea53545f86fc1e105a",
+                "url": "https://api.github.com/repos/minkphp/MinkSelenium2Driver/zipball/0a09c4341621fca937a726827611b20ce3e2c259",
+                "reference": "0a09c4341621fca937a726827611b20ce3e2c259",
                 "shasum": ""
             },
             "require": {
@@ -7640,14 +7847,14 @@
             ],
             "authors": [
                 {
-                    "name": "Konstantin Kudryashov",
-                    "email": "ever.zet@gmail.com",
-                    "homepage": "http://everzet.com"
-                },
-                {
                     "name": "Pete Otaqui",
                     "email": "pete@otaqui.com",
                     "homepage": "https://github.com/pete-otaqui"
+                },
+                {
+                    "name": "Konstantin Kudryashov",
+                    "email": "ever.zet@gmail.com",
+                    "homepage": "http://everzet.com"
                 }
             ],
             "description": "Selenium2 (WebDriver) driver for Mink framework",
@@ -7660,7 +7867,7 @@
                 "testing",
                 "webdriver"
             ],
-            "time": "2018-10-10T12:39:06+00:00"
+            "time": "2019-09-02T09:46:54+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -8088,8 +8295,8 @@
             "authors": [
                 {
                     "name": "Frank Kleine",
-                    "role": "Developer",
-                    "homepage": "http://frankkleine.de/"
+                    "homepage": "http://frankkleine.de/",
+                    "role": "Developer"
                 }
             ],
             "description": "Virtual file system to mock the real file system in unit tests.",
@@ -9617,8 +9824,8 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "role": "Developer",
-                    "email": "arne@blankerts.de"
+                    "email": "arne@blankerts.de",
+                    "role": "Developer"
                 }
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
@@ -9670,10 +9877,10 @@
         "drupal/better_exposed_filters": 15,
         "drupal/examples": 20,
         "drupal/layout_library": 10,
+        "drupal/node_read_time": 20,
         "drupal/rules": 15,
         "drupal/ultimate_cron": 15,
-        "drupal/user_online_status": 15,
-        "drupal/video_embed_dacast": 5
+        "drupal/user_online_status": 15
     },
     "prefer-stable": true,
     "prefer-lowest": false,

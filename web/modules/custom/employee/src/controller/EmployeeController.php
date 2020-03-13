@@ -136,6 +136,7 @@ class EmployeeController extends ControllerBase {
     if ($profile_pic) {
       $profile_pic_url = file_create_url($profile_pic->getFileUri());
     }
+
     else {
       $module_handler = Drupal::service('module_handler');
       $path = $module_handler->getModule('employee')->getPath();
