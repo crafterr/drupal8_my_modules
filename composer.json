@@ -38,6 +38,7 @@
         "drupal/token": "^1.5",
         "drupal/ultimate_cron": "^2.0@alpha",
         "drupal/user_online_status": "^1.0@alpha",
+        "drupal/video_embed_dacast": "^1.0@RC",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
