@@ -34,4 +34,10 @@ use StringTranslationTrait;
       form_validation_validate_csv($file)
     );
   }
+
+  public function testCsvExist() {
+    $path = __DIR__.'/../../fixtures/book.incorrect_form.csv';
+    $this->assertFileExists($path);
+
+  }
 }
