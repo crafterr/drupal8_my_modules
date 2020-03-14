@@ -1,0 +1,8 @@
+
+my_yaml_readable.default_controller_read:
+  path: '/my_yaml_readable/read'
+  defaults:
+    _controller: '\Drupal\my_yaml_readable\Controller\DefaultController::read'
+    _title: 'Hello'
+  requirements:
+    _permission: 'access content'

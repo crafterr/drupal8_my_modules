@@ -1,0 +1,42 @@
+person:
+  name: &name "Adam"
+  occupation: 'programmer'
+  age: 36
+  gpa: 3.5
+  fav_num: 1e+10
+  male: true
+  birthday: 1983-05-07
+  flaws: null
+  #list elements
+  hobbies:
+    - hiking
+    - movies
+    - riding bike
+    - play guitar
+  #list different notation its equivalent
+  movies: ["Dark Knight","GOod Will HUnting"]
+  friends:
+    #this is the same like
+    - name: "Steph"
+      age: 22
+    #this but different way
+    - {name: "Adam", age: 33}
+    #or you can also do sth like this
+    -
+      name: "joe"
+      age: 23
+  description: > # render in one line
+    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+    content here', making it look like readable English.
+  signature: |
+    Mike
+    GIraffe Academy
+    email - giraffeacadamey@gmail.com
+  id: *name
+
+  base: &base
+    var1: value1
+
+  foo:
+    <<: *base

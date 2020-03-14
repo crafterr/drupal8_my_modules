@@ -1,0 +1,13 @@
+{
+    "name": "my_yaml_readable",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/my_yaml_readable",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/my_yaml_readable",
+        "source": "http://cgit.drupalcode.org/my_yaml_readable",
+    },
+}
