@@ -1,0 +1,3 @@
+services:
+  drupalup_fibo.calc_fibo:
+    class: Drupal\drupalup_fibo\FibonacciService

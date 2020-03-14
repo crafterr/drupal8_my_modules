@@ -1,0 +1,4 @@
+name: Durpalup Fibonacci
+description: Generate fibonacci sequences on the fly.
+type: module
+core: 8.x
