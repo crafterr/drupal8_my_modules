@@ -40,3 +40,14 @@ person:
 
   foo:
     <<: *base
+
+classes:
+  - id: 1
+    name: "1a"
+    description: This is probably the best class ever
+  - id: 2
+    name: "2a"
+    description: That class is supported by advertasing
+  - id: 3
+    name: "3a"
+    description: That class is the last class ever
