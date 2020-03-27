@@ -1,0 +1,6 @@
+services:
+  my_yaml_readable.mailer:
+    class: Drupal\my_yaml_readable\Library\Mailer
+  my_yaml_readable.user_manager:
+    class: Drupal\my_yaml_readable\Library\UserManager
+    arguments: ['@my_yaml_readable.mailer']

@@ -43,6 +43,7 @@
         "drupal/user_online_status": "^1.0@alpha",
         "drupal/video_embed_field": "^2.2",
         "drush/drush": "^9.0.0",
+        "php-di/php-di": "^6.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",

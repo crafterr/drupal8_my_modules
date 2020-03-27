@@ -52,6 +52,23 @@ function entity_queries_entity_view(array &$build, \Drupal\Core\Entity\EntityInt
   }
 }
 
+/**
+ * For view fields
+ */
+
+/**
+ * Implements hook_views_data_alter().
+ */
+function entity_queries_views_data_alter(array &$data) {
+  $data['node_field_data']['disclaimer'] = [
+    'title' => t('Disclaimer'),
+    'help' => t('Shows a disclaimer message'),
+    'field' => [
+      'id' => 'custom',
+    ],
+  ];
+}
+
 
 /**
  * CREATE PSEUDOFIELD

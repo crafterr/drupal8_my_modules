@@ -39,11 +39,26 @@ function sports_views_data() {
     ]
   ];
 
+  $views_data['players']['id'] = [
+    'title' => t('Players ID'),
+    'help' => t('ID of the player.'),
+    'field' => [
+      'id' => 'numeric',
+    ],
+    'sort' => [
+      'id' => 'standard',
+    ],
+    'filter' => [
+      'id' => 'in_operator',
+    ],
+
+  ];
+
   $views_data['teams']['id'] = [
     'title' => t('Teams ID'),
     'help' => t('ID of the team.'),
     'field' => [
-      'id' => 'standard',
+      'id' => 'numeric',
     ],
     'sort' => [
       'id' => 'standard',
@@ -107,6 +122,14 @@ function sports_views_data() {
    * Relationship
    */
   $views_data['players']['team_id'] = [
+    'title' => t('Team ID'),
+    'help' => t('The unique team ID of the player.'),
+    'field' => array(
+      'id' => 'numeric',
+    ),
+    'argument' => array(
+      'id' => 'numeric',
+    ),
     'relationship' => [
       'id' => 'standard',
       'base' => 'teams',
@@ -131,6 +154,14 @@ function sports_views_data() {
       'id' => 'string',
     ],
 
+  ];
+
+  $views_data['players']['data'] = [
+    'title' => t('Data field'),
+    'help' => t('Serialized Data field'),
+    'field' => [
+      'id' => 'serialized'
+    ]
   ];
 
   return $views_data;

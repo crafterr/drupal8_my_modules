@@ -6,3 +6,11 @@ my_yaml_readable.default_controller_read:
     _title: 'Hello'
   requirements:
     _permission: 'access content'
+
+my_yaml_readable.default_controller_usermanager:
+  path: '/my_yaml_readable/usermanager'
+  defaults:
+    _controller: '\Drupal\my_yaml_readable\Controller\DefaultController::userManager'
+    _title: 'Hello'
+  requirements:
+    _permission: 'access content'
