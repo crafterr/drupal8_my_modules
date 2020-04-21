@@ -24,7 +24,6 @@ class JsonImporter extends ImporterBase {
    */
   public function import() {
     $data = $this->getData();
-
     if (!$data) {
       return false;
     }
@@ -241,6 +240,7 @@ class JsonImporter extends ImporterBase {
       $product->setName($data->name);
       $product->setProductNumber($data->number);
       $product->setProductKeygen($data->keygen);
+      $product->setSource($data->source);
       $product->save();
       return;
     }
@@ -253,6 +253,7 @@ class JsonImporter extends ImporterBase {
     $product = reset($existing);
     $product->setName($data->name);
     $product->setProductNumber($data->number);
+    $product->setSource($config->getSource());
     $product->save();
   }
 

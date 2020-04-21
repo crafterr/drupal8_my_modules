@@ -66,6 +66,9 @@ function sports_views_data() {
     'filter' => [
       'id' => 'in_operator',
     ],
+    'argument' => [
+      'id' => 'standard',
+    ],
 
   ];
 
@@ -81,12 +84,20 @@ function sports_views_data() {
       'id' => 'standard',
     ],
     'filter' => [
-      'id' => 'string',
+      'id' => 'team_filter',
     ],
-    'argument' => [
-      'id' => 'string',
-    ],
+
   ];
+
+  /*$views_data['teams']['my_name'] = array(
+    'title' => t('My specify name'),
+    'filter' => array(
+      'title' => t('My specify name'),
+      'help' => t('Specify name.'),
+      'field' => 'name',
+      'id' => 'in_operator'
+    ),
+  );*/
 
   $views_data['teams']['description'] = [
     'title' => t('Teams description'),
@@ -117,6 +128,14 @@ function sports_views_data() {
     ],
 
   ];
+
+  $views_data['teams']['team'] = array(
+    'title' => t('Team'),
+    'help' => t('The team (either an ID or a team name).'),
+    'argument' => array(
+      'id' => 'team',
+    ),
+  );
 
   /**
    * Relationship

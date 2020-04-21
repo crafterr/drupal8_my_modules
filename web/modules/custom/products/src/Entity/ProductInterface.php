@@ -129,4 +129,9 @@ interface ProductInterface extends ContentEntityInterface, EntityChangedInterfac
    */
   public function setCreatedTime($timestamp);
 
+  /**
+   * Return importer config
+   * @return \Drupal\products\Entity\Importer $config
+   */
+  public function getImporterConfig();
 }

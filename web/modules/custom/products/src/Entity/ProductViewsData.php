@@ -17,6 +17,13 @@ class ProductViewsData extends EntityViewsData {
 
     // Additional information for Views integration, such as table joins, can be
     // put here.
+    $data['product']['importer'] = [
+      'title' => t('Importer'),
+      'help' => t('Information about the Product importer.'),
+      'field' => array(
+        'id' => 'product_importer',
+      ),
+    ];
     return $data;
   }
 
