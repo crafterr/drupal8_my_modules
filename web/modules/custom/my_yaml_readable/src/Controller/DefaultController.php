@@ -2,6 +2,8 @@
 
 namespace Drupal\my_yaml_readable\Controller;
 
+use Drupal\my_yaml_readable\Library\UserManager;
+use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\Yaml\Yaml;
 use Drupal\Core\Controller\ControllerBase;
 
@@ -10,7 +12,20 @@ use Drupal\Core\Controller\ControllerBase;
  */
 class DefaultController extends ControllerBase {
 
+  /**
+   * @var \Drupal\my_yaml_readable\Library\UserManager
+   */
+  private $userManager;
 
+  public function __construct(UserManager $userManager) {
+    $this->userManager = $userManager;
+  }
+
+  public static function create(ContainerInterface $container) {
+    return new static(
+      $container->get('my_yaml_readable.user_manager')
+    );
+  }
 
   /**
    * Dsafads.
@@ -26,6 +41,10 @@ class DefaultController extends ControllerBase {
       dump($yaml); die();
     }
 
+  }
+
+  public function userManager() {
+    dump($this->userManager->register("adam@onet.pl","fender"));
   }
 
 }

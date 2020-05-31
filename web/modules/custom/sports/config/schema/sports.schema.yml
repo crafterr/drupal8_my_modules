@@ -8,3 +8,14 @@ sports.settings:
     page_limit_for_player:
       type: integer
       label: 'Per page item limit for Player'
+
+views.filter.team_filter:
+  type: views_filter
+  label: 'The teams to filter by'
+  mapping:
+    value:
+      type: sequence
+      label: 'Teams'
+      sequence:
+        type: string
+        label: 'Team'

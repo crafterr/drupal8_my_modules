@@ -1,0 +1,10 @@
+filter_settings.filter_celebrate:
+  type: filter
+  label: 'Media Embed'
+  mapping:
+   allowed_node_types:
+      type: sequence
+      label: 'Node types selectable in the Content type'
+      sequence:
+        type: string
+        label: 'Node type'

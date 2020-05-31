@@ -60,7 +60,6 @@ class Product extends ContentEntityBase implements ProductInterface {
 
   use EntityChangedTrait;
   use EntityPublishedTrait;
-
   /**
    * {@inheritdoc}
    */
@@ -192,6 +191,10 @@ class Product extends ContentEntityBase implements ProductInterface {
   public function setOwner(UserInterface $account) {
     $this->set('user_id', $account->id());
     return $this;
+  }
+
+  public function getImporterConfig() {
+    // TODO: Implement getImporterConfig() method.
   }
 
   /**
