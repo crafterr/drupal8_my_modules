@@ -4,11 +4,28 @@ namespace Drupal\form_validation\Form;
 
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
+use Symfony\Component\DependencyInjection\ContainerInterface;
+use Drupal\Core\Session\AccountProxy;
 
 /**
  * Class BookImportForm.
  */
 class BookImportForm extends FormBase {
+
+  /**
+   * @var \Drupal\Core\Session\AccountProxy
+   */
+  private $user;
+
+  public function __construct(AccountProxy $user) {
+    $this->user = $user;
+  }
+
+  public static function create(ContainerInterface $container) {
+    return new self(
+      $container->get('current_user')
+    );
+  }
 
   /**
    * {@inheritdoc}
@@ -35,6 +52,13 @@ class BookImportForm extends FormBase {
       '#value' => $this->t('Submit'),
       '#button_type' =>   'primary'
     ];
+
+    if (true) {
+      $form['reset'] = [
+        '#type' => 'checkbox',
+        '#title' => $this->t('Reset all Books')
+      ];
+    }
 
     return $form;
   }

@@ -40,3 +40,19 @@ function form_validation_validate_csv(FileInterface $file) {
   $csvValidator =  Drupal::service('form_validation.csv_validator');
   return $csvValidator->validate($file);
 }
+
+function form_validation_node_view(array &$build, EntityInterface $entity, EntityViewDisplayInterface $display, $view_mode) {
+
+  //delete path alias
+  \Drupal::service('path.alias_storage')->delete(array('alias' => '/drugi-wpis'));
+  //unpubblish
+  $entity->setPublished(false);
+  // Publish nodes
+  // $node->setPublished(true);
+  $entity->save();
+
+  dump('udalo sie');
+
+}
+
+
