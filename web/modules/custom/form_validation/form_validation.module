@@ -44,13 +44,18 @@ function form_validation_validate_csv(FileInterface $file) {
 function form_validation_node_view(array &$build, EntityInterface $entity, EntityViewDisplayInterface $display, $view_mode) {
 
   //delete path alias
-  \Drupal::service('path.alias_storage')->delete(array('alias' => '/drugi-wpis'));
+  // \Drupal::service('path.alias_storage')->delete(array('alias' => '/drugi-wpis'));
   //unpubblish
-  $entity->setPublished(false);
+  //$entity->setPublished(false);
   // Publish nodes
   // $node->setPublished(true);
-  $entity->save();
+  //$entity->save();
+  $path = \Drupal::service('path.alias_storage')->load(array('alias' => '/drugi-wpis'));
+  $p = \Drupal::service('path.alias_storage')->lookupPathAlias('drugi-wpis','en');
+  $exist = \Drupal::service('path.alias_storage')->aliasExists('/drugi-wpis','en');
 
+  dump(\Drupal::service('path.alias_storage')->getPathAliasEntityStorage());
+  dump($exist); die();
   dump('udalo sie');
 
 }
