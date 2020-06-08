@@ -35,6 +35,7 @@
         "drupal/examples": "1.x-dev",
         "drupal/layout_library": "^1.0@beta",
         "drupal/node_read_time": "1.x-dev",
+        "drupal/paragraphs": "^1.12",
         "drupal/pathauto": "^1.5",
         "drupal/restui": "^1.17",
         "drupal/rules": "^3.0@alpha",
