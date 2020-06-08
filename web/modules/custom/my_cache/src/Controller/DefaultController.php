@@ -14,7 +14,7 @@ use Drupal\node\NodeInterface;
 class DefaultController extends ControllerBase {
 
   /**
-   * Hello.
+   * Hello world/
    *
    * @return string
    *   Return Hello string.
