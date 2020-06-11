@@ -1,0 +1,4 @@
+services:
+  entity_queries.service:
+    class: Drupal\pdn_show_node_from_taxonomy\Service
+    arguments: ['@entity_type.manager']

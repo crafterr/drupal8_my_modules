@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains pdn_show_node_from_taxonomy.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function pdn_show_node_from_taxonomy_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the pdn_show_node_from_taxonomy module.
+    case 'help.page.pdn_show_node_from_taxonomy':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function pdn_show_node_from_taxonomy_theme() {
+  return [
+    'pdn_show_node_from_taxonomy' => [
+      'render element' => 'children',
+    ],
+  ];
+}

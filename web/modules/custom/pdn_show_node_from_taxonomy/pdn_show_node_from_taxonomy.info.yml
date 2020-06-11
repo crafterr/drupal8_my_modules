@@ -1,0 +1,5 @@
+name: 'Pdn Show Node From Taxonomy'
+type: module
+description: 'My Awesome Module'
+core: 8.x
+package: 'Custom'

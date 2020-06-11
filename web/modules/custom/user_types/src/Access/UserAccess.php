@@ -48,8 +48,8 @@ class UserAccess implements AccessInterface{
 
     $access = in_array($type, $user_types) ? AccessResult::allowed() : AccessResult::forbidden();
 
-    $access->addCacheableDependency($user);
-    $access->addCacheableDependency($account);
+    //$access->addCacheableDependency($user);
+    //$access->addCacheableDependency($account);
 
     return $access;
   }

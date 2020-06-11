@@ -1,0 +1,13 @@
+{
+    "name": "pdn_show_node_from_taxonomy",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/pdn_show_node_from_taxonomy",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/pdn_show_node_from_taxonomy",
+        "source": "http://cgit.drupalcode.org/pdn_show_node_from_taxonomy",
+    },
+}

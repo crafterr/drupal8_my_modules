@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\Tests\user_types\Functional;
+namespace Drupal\Tests\pdn_show_node_from_taxonomy\Functional;
 
 use Drupal\Core\Url;
 use Drupal\Tests\BrowserTestBase;
@@ -8,7 +8,7 @@ use Drupal\Tests\BrowserTestBase;
 /**
  * Simple test to ensure that main page loads with module enabled.
  *
- * @group user_types
+ * @group pdn_show_node_from_taxonomy
  */
 class LoadTest extends BrowserTestBase {
 
@@ -17,7 +17,7 @@ class LoadTest extends BrowserTestBase {
    *
    * @var array
    */
-  public static $modules = ['user_types'];
+  public static $modules = ['pdn_show_node_from_taxonomy'];
 
   /**
    * A user with permission to administer site configuration.
