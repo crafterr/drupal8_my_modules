@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/crafter/www/drupal-modules.devel/web/core/modules/workspaces</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/home/crafter/www/drupal-modules.devel/web</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">core</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">modules</a></li>
+         <li class="breadcrumb-item"><a href="index.html">workspaces</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Access/ActiveWorkspaceCheck.php.html#13">Drupal\workspaces\Access\ActiveWorkspaceCheck</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceCacheContext.php.html#13">Drupal\workspaces\WorkspaceCacheContext</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/WorkspaceSelection.php.html#21">Drupal\workspaces\Plugin\EntityReferenceSelection\WorkspaceSelection</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/DeletedWorkspaceConstraintValidator.php.html#14">Drupal\workspaces\Plugin\Validation\Constraint\DeletedWorkspaceConstraintValidator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/EntityReferenceSupportedNewEntitiesConstraintValidator.php.html#15">Drupal\workspaces\Plugin\Validation\Constraint\EntityReferenceSupportedNewEntitiesConstraintValidator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/EntityWorkspaceConflictConstraintValidator.php.html#17">Drupal\workspaces\Plugin\Validation\Constraint\EntityWorkspaceConflictConstraintValidator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewsQueryAlter.php.html#22">Drupal\workspaces\ViewsQueryAlter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceAccessControlHandler.php.html#15">Drupal\workspaces\WorkspaceAccessControlHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceAssociation.php.html#13">Drupal\workspaces\WorkspaceAssociation</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceListBuilder.php.html#20">Drupal\workspaces\WorkspaceListBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Negotiator/SessionWorkspaceNegotiator.php.html#14">Drupal\workspaces\Negotiator\SessionWorkspaceNegotiator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceManager.php.html#20">Drupal\workspaces\WorkspaceManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceMerger.php.html#14">Drupal\workspaces\WorkspaceMerger</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceOperationFactory.php.html#17">Drupal\workspaces\WorkspaceOperationFactory</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspacePublisher.php.html#15">Drupal\workspaces\WorkspacePublisher</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceRepository.php.html#13">Drupal\workspaces\WorkspaceRepository</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspacesAliasRepository.php.html#10">Drupal\workspaces\WorkspacesAliasRepository</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspacesServiceProvider.php.html#13">Drupal\workspaces\WorkspacesServiceProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/WorkspaceSwitcherBlock.php.html#21">Drupal\workspaces\Plugin\Block\WorkspaceSwitcherBlock</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Negotiator/QueryParameterWorkspaceNegotiator.php.html#10">Drupal\workspaces\Negotiator\QueryParameterWorkspaceNegotiator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Workspace.php.html#66">Drupal\workspaces\Entity\Workspace</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityTypeInfo.php.html#20">Drupal\workspaces\EntityTypeInfo</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityAccess.php.html#18">Drupal\workspaces\EntityAccess</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityOperations.php.html#20">Drupal\workspaces\EntityOperations</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityQuery/PgsqlQueryFactory.php.html#14">Drupal\workspaces\EntityQuery\PgsqlQueryFactory</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityQuery/Query.php.html#10">Drupal\workspaces\EntityQuery\Query</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityQuery/QueryAggregate.php.html#10">Drupal\workspaces\EntityQuery\QueryAggregate</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityQuery/QueryFactory.php.html#14">Drupal\workspaces\EntityQuery\QueryFactory</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityQuery/Tables.php.html#13">Drupal\workspaces\EntityQuery\Tables</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/EntitySchemaSubscriber.php.html#18">Drupal\workspaces\EventSubscriber\EntitySchemaSubscriber</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FormOperations.php.html#18">Drupal\workspaces\FormOperations</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/WorkspaceRequestSubscriber.php.html#18">Drupal\workspaces\EventSubscriber\WorkspaceRequestSubscriber</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SwitchToLiveForm.php.html#15">Drupal\workspaces\Form\SwitchToLiveForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceActivateForm.php.html#15">Drupal\workspaces\Form\WorkspaceActivateForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceDeleteForm.php.html#19">Drupal\workspaces\Form\WorkspaceDeleteForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceDeployForm.php.html#18">Drupal\workspaces\Form\WorkspaceDeployForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceForm.php.html#18">Drupal\workspaces\Form\WorkspaceForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceMergeForm.php.html#17">Drupal\workspaces\Form\WorkspaceMergeForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceSwitcherForm.php.html#16">Drupal\workspaces\Form\WorkspaceSwitcherForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityQuery/QueryTrait.php.html#12">QueryTrait</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/ViewsQueryAlter.php.html#22">Drupal\workspaces\ViewsQueryAlter</a></td><td class="text-right">1980</td></tr>
+       <tr><td><a href="src/WorkspaceManager.php.html#20">Drupal\workspaces\WorkspaceManager</a></td><td class="text-right">1190</td></tr>
+       <tr><td><a href="src/EntityOperations.php.html#20">Drupal\workspaces\EntityOperations</a></td><td class="text-right">992</td></tr>
+       <tr><td><a href="src/WorkspaceListBuilder.php.html#20">Drupal\workspaces\WorkspaceListBuilder</a></td><td class="text-right">870</td></tr>
+       <tr><td><a href="src/WorkspaceAssociation.php.html#13">Drupal\workspaces\WorkspaceAssociation</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="src/WorkspaceMerger.php.html#14">Drupal\workspaces\WorkspaceMerger</a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="src/WorkspacePublisher.php.html#15">Drupal\workspaces\WorkspacePublisher</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="src/WorkspaceRepository.php.html#13">Drupal\workspaces\WorkspaceRepository</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="src/EventSubscriber/EntitySchemaSubscriber.php.html#18">Drupal\workspaces\EventSubscriber\EntitySchemaSubscriber</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="src/FormOperations.php.html#18">Drupal\workspaces\FormOperations</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="src/EntityQuery/Tables.php.html#13">Drupal\workspaces\EntityQuery\Tables</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="src/EntityTypeInfo.php.html#20">Drupal\workspaces\EntityTypeInfo</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/Form/WorkspaceDeployForm.php.html#18">Drupal\workspaces\Form\WorkspaceDeployForm</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/Entity/Workspace.php.html#66">Drupal\workspaces\Entity\Workspace</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/Form/WorkspaceForm.php.html#18">Drupal\workspaces\Form\WorkspaceForm</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/Form/WorkspaceSwitcherForm.php.html#16">Drupal\workspaces\Form\WorkspaceSwitcherForm</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/Form/WorkspaceMergeForm.php.html#17">Drupal\workspaces\Form\WorkspaceMergeForm</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/EntityAccess.php.html#18">Drupal\workspaces\EntityAccess</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/WorkspaceSelection.php.html#21">Drupal\workspaces\Plugin\EntityReferenceSelection\WorkspaceSelection</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/WorkspaceAccessControlHandler.php.html#15">Drupal\workspaces\WorkspaceAccessControlHandler</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="src/Form/WorkspaceActivateForm.php.html#15">Drupal\workspaces\Form\WorkspaceActivateForm</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/EntityWorkspaceConflictConstraintValidator.php.html#17">Drupal\workspaces\Plugin\Validation\Constraint\EntityWorkspaceConflictConstraintValidator</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/EventSubscriber/WorkspaceRequestSubscriber.php.html#18">Drupal\workspaces\EventSubscriber\WorkspaceRequestSubscriber</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/EntityQuery/QueryTrait.php.html#12">QueryTrait</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/Negotiator/SessionWorkspaceNegotiator.php.html#14">Drupal\workspaces\Negotiator\SessionWorkspaceNegotiator</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/EntityReferenceSupportedNewEntitiesConstraintValidator.php.html#15">Drupal\workspaces\Plugin\Validation\Constraint\EntityReferenceSupportedNewEntitiesConstraintValidator</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/DeletedWorkspaceConstraintValidator.php.html#14">Drupal\workspaces\Plugin\Validation\Constraint\DeletedWorkspaceConstraintValidator</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Form/WorkspaceDeleteForm.php.html#19">Drupal\workspaces\Form\WorkspaceDeleteForm</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/WorkspacesServiceProvider.php.html#13">Drupal\workspaces\WorkspacesServiceProvider</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/WorkspaceCacheContext.php.html#13">Drupal\workspaces\WorkspaceCacheContext</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Negotiator/QueryParameterWorkspaceNegotiator.php.html#10">Drupal\workspaces\Negotiator\QueryParameterWorkspaceNegotiator</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/WorkspacesAliasRepository.php.html#10">Drupal\workspaces\WorkspacesAliasRepository</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Access/ActiveWorkspaceCheck.php.html#13">Drupal\workspaces\Access\ActiveWorkspaceCheck</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/EntityQuery/Query.php.html#10">Drupal\workspaces\EntityQuery\Query</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Access/ActiveWorkspaceCheck.php.html#28"><abbr title="Drupal\workspaces\Access\ActiveWorkspaceCheck::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceAssociation.php.html#51"><abbr title="Drupal\workspaces\WorkspaceAssociation::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewsQueryAlter.php.html#94"><abbr title="Drupal\workspaces\ViewsQueryAlter::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewsQueryAlter.php.html#110"><abbr title="Drupal\workspaces\ViewsQueryAlter::alterQuery">alterQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewsQueryAlter.php.html#152"><abbr title="Drupal\workspaces\ViewsQueryAlter::alterQueryForEntityType">alterQueryForEntityType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewsQueryAlter.php.html#286"><abbr title="Drupal\workspaces\ViewsQueryAlter::ensureWorkspaceAssociationTable">ensureWorkspaceAssociationTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewsQueryAlter.php.html#331"><abbr title="Drupal\workspaces\ViewsQueryAlter::ensureRevisionTable">ensureRevisionTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewsQueryAlter.php.html#384"><abbr title="Drupal\workspaces\ViewsQueryAlter::getRevisionTableJoin">getRevisionTableJoin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewsQueryAlter.php.html#421"><abbr title="Drupal\workspaces\ViewsQueryAlter::moveEntityTable">moveEntityTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceAccessControlHandler.php.html#20"><abbr title="Drupal\workspaces\WorkspaceAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceAccessControlHandler.php.html#52"><abbr title="Drupal\workspaces\WorkspaceAccessControlHandler::checkCreateAccess">checkCreateAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceAssociation.php.html#60"><abbr title="Drupal\workspaces\WorkspaceAssociation::trackEntity">trackEntity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/EntityWorkspaceConflictConstraintValidator.php.html#81"><abbr title="Drupal\workspaces\Plugin\Validation\Constraint\EntityWorkspaceConflictConstraintValidator::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceAssociation.php.html#122"><abbr title="Drupal\workspaces\WorkspaceAssociation::workspaceInsert">workspaceInsert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceAssociation.php.html#133"><abbr title="Drupal\workspaces\WorkspaceAssociation::getTrackedEntities">getTrackedEntities</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceAssociation.php.html#159"><abbr title="Drupal\workspaces\WorkspaceAssociation::getAssociatedRevisions">getAssociatedRevisions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceAssociation.php.html#196"><abbr title="Drupal\workspaces\WorkspaceAssociation::getEntityTrackingWorkspaceIds">getEntityTrackingWorkspaceIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceAssociation.php.html#208"><abbr title="Drupal\workspaces\WorkspaceAssociation::postPublish">postPublish</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceAssociation.php.html#215"><abbr title="Drupal\workspaces\WorkspaceAssociation::deleteAssociations">deleteAssociations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceAssociation.php.html#233"><abbr title="Drupal\workspaces\WorkspaceAssociation::initializeWorkspace">initializeWorkspace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceCacheContext.php.html#28"><abbr title="Drupal\workspaces\WorkspaceCacheContext::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceCacheContext.php.html#35"><abbr title="Drupal\workspaces\WorkspaceCacheContext::getLabel">getLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceCacheContext.php.html#42"><abbr title="Drupal\workspaces\WorkspaceCacheContext::getContext">getContext</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewsQueryAlter.php.html#82"><abbr title="Drupal\workspaces\ViewsQueryAlter::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/EntityWorkspaceConflictConstraintValidator.php.html#69"><abbr title="Drupal\workspaces\Plugin\Validation\Constraint\EntityWorkspaceConflictConstraintValidator::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceListBuilder.php.html#57"><abbr title="Drupal\workspaces\WorkspaceListBuilder::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/WorkspaceSwitcherBlock.php.html#60"><abbr title="Drupal\workspaces\Plugin\Block\WorkspaceSwitcherBlock::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FormOperations.php.html#96"><abbr title="Drupal\workspaces\FormOperations::addWorkspaceValidation">addWorkspaceValidation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FormOperations.php.html#112"><abbr title="Drupal\workspaces\FormOperations::validateDefaultWorkspace">validateDefaultWorkspace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Negotiator/QueryParameterWorkspaceNegotiator.php.html#15"><abbr title="Drupal\workspaces\Negotiator\QueryParameterWorkspaceNegotiator::applies">applies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Negotiator/QueryParameterWorkspaceNegotiator.php.html#22"><abbr title="Drupal\workspaces\Negotiator\QueryParameterWorkspaceNegotiator::getActiveWorkspace">getActiveWorkspace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Negotiator/SessionWorkspaceNegotiator.php.html#47"><abbr title="Drupal\workspaces\Negotiator\SessionWorkspaceNegotiator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Negotiator/SessionWorkspaceNegotiator.php.html#56"><abbr title="Drupal\workspaces\Negotiator\SessionWorkspaceNegotiator::applies">applies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Negotiator/SessionWorkspaceNegotiator.php.html#64"><abbr title="Drupal\workspaces\Negotiator\SessionWorkspaceNegotiator::getActiveWorkspace">getActiveWorkspace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Negotiator/SessionWorkspaceNegotiator.php.html#77"><abbr title="Drupal\workspaces\Negotiator\SessionWorkspaceNegotiator::setActiveWorkspace">setActiveWorkspace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Negotiator/SessionWorkspaceNegotiator.php.html#84"><abbr title="Drupal\workspaces\Negotiator\SessionWorkspaceNegotiator::unsetActiveWorkspace">unsetActiveWorkspace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/WorkspaceSwitcherBlock.php.html#51"><abbr title="Drupal\workspaces\Plugin\Block\WorkspaceSwitcherBlock::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/WorkspaceSwitcherBlock.php.html#73"><abbr title="Drupal\workspaces\Plugin\Block\WorkspaceSwitcherBlock::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/EntityWorkspaceConflictConstraintValidator.php.html#59"><abbr title="Drupal\workspaces\Plugin\Validation\Constraint\EntityWorkspaceConflictConstraintValidator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/WorkspaceSelection.php.html#33"><abbr title="Drupal\workspaces\Plugin\EntityReferenceSelection\WorkspaceSelection::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/WorkspaceSelection.php.html#42"><abbr title="Drupal\workspaces\Plugin\EntityReferenceSelection\WorkspaceSelection::defaultConfiguration">defaultConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/WorkspaceSelection.php.html#54"><abbr title="Drupal\workspaces\Plugin\EntityReferenceSelection\WorkspaceSelection::buildConfigurationForm">buildConfigurationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/WorkspaceSelection.php.html#68"><abbr title="Drupal\workspaces\Plugin\EntityReferenceSelection\WorkspaceSelection::getReferenceableEntities">getReferenceableEntities</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/DeletedWorkspaceConstraintValidator.php.html#29"><abbr title="Drupal\workspaces\Plugin\Validation\Constraint\DeletedWorkspaceConstraintValidator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/DeletedWorkspaceConstraintValidator.php.html#36"><abbr title="Drupal\workspaces\Plugin\Validation\Constraint\DeletedWorkspaceConstraintValidator::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/DeletedWorkspaceConstraintValidator.php.html#45"><abbr title="Drupal\workspaces\Plugin\Validation\Constraint\DeletedWorkspaceConstraintValidator::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/EntityReferenceSupportedNewEntitiesConstraintValidator.php.html#34"><abbr title="Drupal\workspaces\Plugin\Validation\Constraint\EntityReferenceSupportedNewEntitiesConstraintValidator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/EntityReferenceSupportedNewEntitiesConstraintValidator.php.html#42"><abbr title="Drupal\workspaces\Plugin\Validation\Constraint\EntityReferenceSupportedNewEntitiesConstraintValidator::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/EntityReferenceSupportedNewEntitiesConstraintValidator.php.html#52"><abbr title="Drupal\workspaces\Plugin\Validation\Constraint\EntityReferenceSupportedNewEntitiesConstraintValidator::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceCacheContext.php.html#49"><abbr title="Drupal\workspaces\WorkspaceCacheContext::getCacheableMetadata">getCacheableMetadata</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceListBuilder.php.html#67"><abbr title="Drupal\workspaces\WorkspaceListBuilder::createInstance">createInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FormOperations.php.html#40"><abbr title="Drupal\workspaces\FormOperations::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspacePublisher.php.html#185"><abbr title="Drupal\workspaces\WorkspacePublisher::getDifferringRevisionIdsOnSource">getDifferringRevisionIdsOnSource</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceOperationFactory.php.html#68"><abbr title="Drupal\workspaces\WorkspaceOperationFactory::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceOperationFactory.php.html#85"><abbr title="Drupal\workspaces\WorkspaceOperationFactory::getPublisher">getPublisher</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceOperationFactory.php.html#100"><abbr title="Drupal\workspaces\WorkspaceOperationFactory::getMerger">getMerger</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspacePublisher.php.html#66"><abbr title="Drupal\workspaces\WorkspacePublisher::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspacePublisher.php.html#77"><abbr title="Drupal\workspaces\WorkspacePublisher::publish">publish</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspacePublisher.php.html#131"><abbr title="Drupal\workspaces\WorkspacePublisher::getSourceLabel">getSourceLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspacePublisher.php.html#138"><abbr title="Drupal\workspaces\WorkspacePublisher::getTargetLabel">getTargetLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspacePublisher.php.html#145"><abbr title="Drupal\workspaces\WorkspacePublisher::checkConflictsOnTarget">checkConflictsOnTarget</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspacePublisher.php.html#154"><abbr title="Drupal\workspaces\WorkspacePublisher::getDifferringRevisionIdsOnTarget">getDifferringRevisionIdsOnTarget</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspacePublisher.php.html#193"><abbr title="Drupal\workspaces\WorkspacePublisher::getNumberOfChangesOnTarget">getNumberOfChangesOnTarget</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceMerger.php.html#196"><abbr title="Drupal\workspaces\WorkspaceMerger::getNumberOfChangesOnTarget">getNumberOfChangesOnTarget</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspacePublisher.php.html#201"><abbr title="Drupal\workspaces\WorkspacePublisher::getNumberOfChangesOnSource">getNumberOfChangesOnSource</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceRepository.php.html#44"><abbr title="Drupal\workspaces\WorkspaceRepository::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceRepository.php.html#52"><abbr title="Drupal\workspaces\WorkspaceRepository::loadTree">loadTree</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceRepository.php.html#137"><abbr title="Drupal\workspaces\WorkspaceRepository::getDescendantsAndSelf">getDescendantsAndSelf</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceRepository.php.html#144"><abbr title="Drupal\workspaces\WorkspaceRepository::resetCache">resetCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspacesAliasRepository.php.html#27"><abbr title="Drupal\workspaces\WorkspacesAliasRepository::setWorkspacesManager">setWorkspacesManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspacesAliasRepository.php.html#35"><abbr title="Drupal\workspaces\WorkspacesAliasRepository::getBaseQuery">getBaseQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspacesServiceProvider.php.html#18"><abbr title="Drupal\workspaces\WorkspacesServiceProvider::alter">alter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityQuery/QueryTrait.php.html#36"><abbr title="QueryTrait::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityQuery/QueryTrait.php.html#45"><abbr title="QueryTrait::prepare">prepare</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceMerger.php.html#204"><abbr title="Drupal\workspaces\WorkspaceMerger::getNumberOfChangesOnSource">getNumberOfChangesOnSource</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceMerger.php.html#172"><abbr title="Drupal\workspaces\WorkspaceMerger::getDifferringRevisionIdsOnSource">getDifferringRevisionIdsOnSource</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceListBuilder.php.html#80"><abbr title="Drupal\workspaces\WorkspaceListBuilder::load">load</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceManager.php.html#206"><abbr title="Drupal\workspaces\WorkspaceManager::setActiveWorkspace">setActiveWorkspace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceListBuilder.php.html#94"><abbr title="Drupal\workspaces\WorkspaceListBuilder::buildHeader">buildHeader</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceListBuilder.php.html#104"><abbr title="Drupal\workspaces\WorkspaceListBuilder::buildRow">buildRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceListBuilder.php.html#134"><abbr title="Drupal\workspaces\WorkspaceListBuilder::getDefaultOperations">getDefaultOperations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceListBuilder.php.html#187"><abbr title="Drupal\workspaces\WorkspaceListBuilder::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceListBuilder.php.html#206"><abbr title="Drupal\workspaces\WorkspaceListBuilder::offCanvasRender">offCanvasRender</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceManager.php.html#129"><abbr title="Drupal\workspaces\WorkspaceManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceManager.php.html#144"><abbr title="Drupal\workspaces\WorkspaceManager::isEntityTypeSupported">isEntityTypeSupported</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceManager.php.html#163"><abbr title="Drupal\workspaces\WorkspaceManager::getSupportedEntityTypes">getSupportedEntityTypes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceManager.php.html#176"><abbr title="Drupal\workspaces\WorkspaceManager::hasActiveWorkspace">hasActiveWorkspace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceManager.php.html#183"><abbr title="Drupal\workspaces\WorkspaceManager::getActiveWorkspace">getActiveWorkspace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceManager.php.html#225"><abbr title="Drupal\workspaces\WorkspaceManager::switchToLive">switchToLive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceMerger.php.html#148"><abbr title="Drupal\workspaces\WorkspaceMerger::getDifferringRevisionIdsOnTarget">getDifferringRevisionIdsOnTarget</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceManager.php.html#247"><abbr title="Drupal\workspaces\WorkspaceManager::doSwitchWorkspace">doSwitchWorkspace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceManager.php.html#274"><abbr title="Drupal\workspaces\WorkspaceManager::executeInWorkspace">executeInWorkspace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceManager.php.html#293"><abbr title="Drupal\workspaces\WorkspaceManager::executeOutsideWorkspace">executeOutsideWorkspace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceManager.php.html#305"><abbr title="Drupal\workspaces\WorkspaceManager::shouldAlterOperations">shouldAlterOperations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceManager.php.html#312"><abbr title="Drupal\workspaces\WorkspaceManager::purgeDeletedWorkspacesBatch">purgeDeletedWorkspacesBatch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceMerger.php.html#74"><abbr title="Drupal\workspaces\WorkspaceMerger::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceMerger.php.html#86"><abbr title="Drupal\workspaces\WorkspaceMerger::merge">merge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceMerger.php.html#125"><abbr title="Drupal\workspaces\WorkspaceMerger::getSourceLabel">getSourceLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceMerger.php.html#132"><abbr title="Drupal\workspaces\WorkspaceMerger::getTargetLabel">getTargetLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WorkspaceMerger.php.html#139"><abbr title="Drupal\workspaces\WorkspaceMerger::checkConflictsOnTarget">checkConflictsOnTarget</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FormOperations.php.html#58"><abbr title="Drupal\workspaces\FormOperations::formAlter">formAlter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/FormOperations.php.html#33"><abbr title="Drupal\workspaces\FormOperations::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Access/ActiveWorkspaceCheck.php.html#41"><abbr title="Drupal\workspaces\Access\ActiveWorkspaceCheck::access">access</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityQuery/Tables.php.html#115"><abbr title="Drupal\workspaces\EntityQuery\Tables::addNextBaseTable">addNextBaseTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityQuery/PgsqlQueryFactory.php.html#48"><abbr title="Drupal\workspaces\EntityQuery\PgsqlQueryFactory::getAggregate">getAggregate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityQuery/Query.php.html#19"><abbr title="Drupal\workspaces\EntityQuery\Query::prepare">prepare</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityQuery/QueryAggregate.php.html#19"><abbr title="Drupal\workspaces\EntityQuery\QueryAggregate::prepare">prepare</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityQuery/QueryFactory.php.html#31"><abbr title="Drupal\workspaces\EntityQuery\QueryFactory::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityQuery/QueryFactory.php.html#40"><abbr title="Drupal\workspaces\EntityQuery\QueryFactory::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityQuery/QueryFactory.php.html#48"><abbr title="Drupal\workspaces\EntityQuery\QueryFactory::getAggregate">getAggregate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityQuery/Tables.php.html#42"><abbr title="Drupal\workspaces\EntityQuery\Tables::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityQuery/Tables.php.html#60"><abbr title="Drupal\workspaces\EntityQuery\Tables::addField">addField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityQuery/Tables.php.html#85"><abbr title="Drupal\workspaces\EntityQuery\Tables::addJoin">addJoin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityQuery/Tables.php.html#142"><abbr title="Drupal\workspaces\EntityQuery\Tables::addWorkspaceAssociationJoin">addWorkspaceAssociationJoin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityQuery/PgsqlQueryFactory.php.html#31"><abbr title="Drupal\workspaces\EntityQuery\PgsqlQueryFactory::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityTypeInfo.php.html#44"><abbr title="Drupal\workspaces\EntityTypeInfo::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityTypeInfo.php.html#52"><abbr title="Drupal\workspaces\EntityTypeInfo::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityTypeInfo.php.html#68"><abbr title="Drupal\workspaces\EntityTypeInfo::entityTypeBuild">entityTypeBuild</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityTypeInfo.php.html#85"><abbr title="Drupal\workspaces\EntityTypeInfo::entityTypeAlter">entityTypeAlter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityTypeInfo.php.html#103"><abbr title="Drupal\workspaces\EntityTypeInfo::fieldInfoAlter">fieldInfoAlter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityTypeInfo.php.html#125"><abbr title="Drupal\workspaces\EntityTypeInfo::entityBaseFieldInfo">entityBaseFieldInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/EntitySchemaSubscriber.php.html#54"><abbr title="Drupal\workspaces\EventSubscriber\EntitySchemaSubscriber::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/EntitySchemaSubscriber.php.html#63"><abbr title="Drupal\workspaces\EventSubscriber\EntitySchemaSubscriber::getSubscribedEvents">getSubscribedEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/EntitySchemaSubscriber.php.html#70"><abbr title="Drupal\workspaces\EventSubscriber\EntitySchemaSubscriber::onEntityTypeCreate">onEntityTypeCreate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/EntitySchemaSubscriber.php.html#81"><abbr title="Drupal\workspaces\EventSubscriber\EntitySchemaSubscriber::onFieldableEntityTypeCreate">onFieldableEntityTypeCreate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityQuery/PgsqlQueryFactory.php.html#40"><abbr title="Drupal\workspaces\EntityQuery\PgsqlQueryFactory::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityOperations.php.html#305"><abbr title="Drupal\workspaces\EntityOperations::shouldSkipPreOperations">shouldSkipPreOperations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/EntitySchemaSubscriber.php.html#112"><abbr title="Drupal\workspaces\EventSubscriber\EntitySchemaSubscriber::onFieldableEntityTypeUpdate">onFieldableEntityTypeUpdate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityAccess.php.html#52"><abbr title="Drupal\workspaces\EntityAccess::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Workspace.php.html#74"><abbr title="Drupal\workspaces\Entity\Workspace::baseFieldDefinitions">baseFieldDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Workspace.php.html#129"><abbr title="Drupal\workspaces\Entity\Workspace::publish">publish</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Workspace.php.html#136"><abbr title="Drupal\workspaces\Entity\Workspace::isDefaultWorkspace">isDefaultWorkspace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Workspace.php.html#144"><abbr title="Drupal\workspaces\Entity\Workspace::getCreatedTime">getCreatedTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Workspace.php.html#151"><abbr title="Drupal\workspaces\Entity\Workspace::setCreatedTime">setCreatedTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Workspace.php.html#158"><abbr title="Drupal\workspaces\Entity\Workspace::hasParent">hasParent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Workspace.php.html#165"><abbr title="Drupal\workspaces\Entity\Workspace::preDelete">preDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Workspace.php.html#181"><abbr title="Drupal\workspaces\Entity\Workspace::postDelete">postDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Workspace.php.html#205"><abbr title="Drupal\workspaces\Entity\Workspace::getCurrentUserId">getCurrentUserId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityAccess.php.html#44"><abbr title="Drupal\workspaces\EntityAccess::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityAccess.php.html#74"><abbr title="Drupal\workspaces\EntityAccess::entityOperationAccess">entityOperationAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityOperations.php.html#289"><abbr title="Drupal\workspaces\EntityOperations::entityFormEntityBuild">entityFormEntityBuild</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityAccess.php.html#100"><abbr title="Drupal\workspaces\EntityAccess::entityCreateAccess">entityCreateAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityAccess.php.html#121"><abbr title="Drupal\workspaces\EntityAccess::bypassAccessResult">bypassAccessResult</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityOperations.php.html#55"><abbr title="Drupal\workspaces\EntityOperations::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityOperations.php.html#64"><abbr title="Drupal\workspaces\EntityOperations::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityOperations.php.html#77"><abbr title="Drupal\workspaces\EntityOperations::entityPreload">entityPreload</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityOperations.php.html#111"><abbr title="Drupal\workspaces\EntityOperations::entityPresave">entityPresave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityOperations.php.html#167"><abbr title="Drupal\workspaces\EntityOperations::entityInsert">entityInsert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityOperations.php.html#202"><abbr title="Drupal\workspaces\EntityOperations::entityUpdate">entityUpdate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityOperations.php.html#224"><abbr title="Drupal\workspaces\EntityOperations::entityPredelete">entityPredelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityOperations.php.html#253"><abbr title="Drupal\workspaces\EntityOperations::entityFormAlter">entityFormAlter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/EntitySchemaSubscriber.php.html#88"><abbr title="Drupal\workspaces\EventSubscriber\EntitySchemaSubscriber::onEntityTypeUpdate">onEntityTypeUpdate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/EntitySchemaSubscriber.php.html#119"><abbr title="Drupal\workspaces\EventSubscriber\EntitySchemaSubscriber::onEntityTypeDelete">onEntityTypeDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceSwitcherForm.php.html#150"><abbr title="Drupal\workspaces\Form\WorkspaceSwitcherForm::submitSwitchToLive">submitSwitchToLive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceMergeForm.php.html#63"><abbr title="Drupal\workspaces\Form\WorkspaceMergeForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceDeployForm.php.html#77"><abbr title="Drupal\workspaces\Form\WorkspaceDeployForm::form">form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceDeployForm.php.html#115"><abbr title="Drupal\workspaces\Form\WorkspaceDeployForm::actions">actions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceDeployForm.php.html#150"><abbr title="Drupal\workspaces\Form\WorkspaceDeployForm::deploy">deploy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceForm.php.html#46"><abbr title="Drupal\workspaces\Form\WorkspaceForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceForm.php.html#54"><abbr title="Drupal\workspaces\Form\WorkspaceForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceForm.php.html#66"><abbr title="Drupal\workspaces\Form\WorkspaceForm::form">form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceForm.php.html#98"><abbr title="Drupal\workspaces\Form\WorkspaceForm::getEditedFieldNames">getEditedFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceForm.php.html#108"><abbr title="Drupal\workspaces\Form\WorkspaceForm::flagViolations">flagViolations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceForm.php.html#126"><abbr title="Drupal\workspaces\Form\WorkspaceForm::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceMergeForm.php.html#55"><abbr title="Drupal\workspaces\Form\WorkspaceMergeForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceMergeForm.php.html#73"><abbr title="Drupal\workspaces\Form\WorkspaceMergeForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceDeployForm.php.html#55"><abbr title="Drupal\workspaces\Form\WorkspaceDeployForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceMergeForm.php.html#80"><abbr title="Drupal\workspaces\Form\WorkspaceMergeForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceMergeForm.php.html#121"><abbr title="Drupal\workspaces\Form\WorkspaceMergeForm::getQuestion">getQuestion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceMergeForm.php.html#131"><abbr title="Drupal\workspaces\Form\WorkspaceMergeForm::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceMergeForm.php.html#138"><abbr title="Drupal\workspaces\Form\WorkspaceMergeForm::getCancelUrl">getCancelUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceMergeForm.php.html#145"><abbr title="Drupal\workspaces\Form\WorkspaceMergeForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceSwitcherForm.php.html#49"><abbr title="Drupal\workspaces\Form\WorkspaceSwitcherForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceSwitcherForm.php.html#58"><abbr title="Drupal\workspaces\Form\WorkspaceSwitcherForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceSwitcherForm.php.html#69"><abbr title="Drupal\workspaces\Form\WorkspaceSwitcherForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceSwitcherForm.php.html#76"><abbr title="Drupal\workspaces\Form\WorkspaceSwitcherForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceSwitcherForm.php.html#132"><abbr title="Drupal\workspaces\Form\WorkspaceSwitcherForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceDeployForm.php.html#64"><abbr title="Drupal\workspaces\Form\WorkspaceDeployForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceDeleteForm.php.html#111"><abbr title="Drupal\workspaces\Form\WorkspaceDeleteForm::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/EntitySchemaSubscriber.php.html#129"><abbr title="Drupal\workspaces\EventSubscriber\EntitySchemaSubscriber::addRevisionMetadataField">addRevisionMetadataField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SwitchToLiveForm.php.html#67"><abbr title="Drupal\workspaces\Form\SwitchToLiveForm::getCancelUrl">getCancelUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/EntitySchemaSubscriber.php.html#151"><abbr title="Drupal\workspaces\EventSubscriber\EntitySchemaSubscriber::getWorkspaceFieldDefinition">getWorkspaceFieldDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/WorkspaceRequestSubscriber.php.html#60"><abbr title="Drupal\workspaces\EventSubscriber\WorkspaceRequestSubscriber::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/WorkspaceRequestSubscriber.php.html#75"><abbr title="Drupal\workspaces\EventSubscriber\WorkspaceRequestSubscriber::onKernelController">onKernelController</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/WorkspaceRequestSubscriber.php.html#89"><abbr title="Drupal\workspaces\EventSubscriber\WorkspaceRequestSubscriber::onKernelRequest">onKernelRequest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/WorkspaceRequestSubscriber.php.html#98"><abbr title="Drupal\workspaces\EventSubscriber\WorkspaceRequestSubscriber::getSubscribedEvents">getSubscribedEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SwitchToLiveForm.php.html#30"><abbr title="Drupal\workspaces\Form\SwitchToLiveForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SwitchToLiveForm.php.html#37"><abbr title="Drupal\workspaces\Form\SwitchToLiveForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SwitchToLiveForm.php.html#46"><abbr title="Drupal\workspaces\Form\SwitchToLiveForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SwitchToLiveForm.php.html#53"><abbr title="Drupal\workspaces\Form\SwitchToLiveForm::getQuestion">getQuestion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SwitchToLiveForm.php.html#60"><abbr title="Drupal\workspaces\Form\SwitchToLiveForm::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SwitchToLiveForm.php.html#74"><abbr title="Drupal\workspaces\Form\SwitchToLiveForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceDeleteForm.php.html#79"><abbr title="Drupal\workspaces\Form\WorkspaceDeleteForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceActivateForm.php.html#46"><abbr title="Drupal\workspaces\Form\WorkspaceActivateForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceActivateForm.php.html#54"><abbr title="Drupal\workspaces\Form\WorkspaceActivateForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceActivateForm.php.html#64"><abbr title="Drupal\workspaces\Form\WorkspaceActivateForm::getQuestion">getQuestion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceActivateForm.php.html#71"><abbr title="Drupal\workspaces\Form\WorkspaceActivateForm::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceActivateForm.php.html#78"><abbr title="Drupal\workspaces\Form\WorkspaceActivateForm::getCancelUrl">getCancelUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceActivateForm.php.html#85"><abbr title="Drupal\workspaces\Form\WorkspaceActivateForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceActivateForm.php.html#97"><abbr title="Drupal\workspaces\Form\WorkspaceActivateForm::actions">actions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceActivateForm.php.html#106"><abbr title="Drupal\workspaces\Form\WorkspaceActivateForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceDeleteForm.php.html#45"><abbr title="Drupal\workspaces\Form\WorkspaceDeleteForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/WorkspaceDeleteForm.php.html#70"><abbr title="Drupal\workspaces\Form\WorkspaceDeleteForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EntityQuery/QueryTrait.php.html#75"><abbr title="QueryTrait::isSimpleQuery">isSimpleQuery</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/ViewsQueryAlter.php.html#152"><abbr title="Drupal\workspaces\ViewsQueryAlter::alterQueryForEntityType">alterQueryForEntityType</abbr></a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="src/WorkspaceRepository.php.html#52"><abbr title="Drupal\workspaces\WorkspaceRepository::loadTree">loadTree</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="src/WorkspaceListBuilder.php.html#206"><abbr title="Drupal\workspaces\WorkspaceListBuilder::offCanvasRender">offCanvasRender</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/WorkspaceAccessControlHandler.php.html#20"><abbr title="Drupal\workspaces\WorkspaceAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/WorkspaceSelection.php.html#68"><abbr title="Drupal\workspaces\Plugin\EntityReferenceSelection\WorkspaceSelection::getReferenceableEntities">getReferenceableEntities</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/WorkspaceMerger.php.html#86"><abbr title="Drupal\workspaces\WorkspaceMerger::merge">merge</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/EntityOperations.php.html#111"><abbr title="Drupal\workspaces\EntityOperations::entityPresave">entityPresave</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/ViewsQueryAlter.php.html#110"><abbr title="Drupal\workspaces\ViewsQueryAlter::alterQuery">alterQuery</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/WorkspaceListBuilder.php.html#134"><abbr title="Drupal\workspaces\WorkspaceListBuilder::getDefaultOperations">getDefaultOperations</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/WorkspacePublisher.php.html#77"><abbr title="Drupal\workspaces\WorkspacePublisher::publish">publish</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/WorkspaceAssociation.php.html#60"><abbr title="Drupal\workspaces\WorkspaceAssociation::trackEntity">trackEntity</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/ViewsQueryAlter.php.html#331"><abbr title="Drupal\workspaces\ViewsQueryAlter::ensureRevisionTable">ensureRevisionTable</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/EntityWorkspaceConflictConstraintValidator.php.html#81"><abbr title="Drupal\workspaces\Plugin\Validation\Constraint\EntityWorkspaceConflictConstraintValidator::validate">validate</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/FormOperations.php.html#58"><abbr title="Drupal\workspaces\FormOperations::formAlter">formAlter</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/WorkspaceManager.php.html#312"><abbr title="Drupal\workspaces\WorkspaceManager::purgeDeletedWorkspacesBatch">purgeDeletedWorkspacesBatch</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/WorkspaceListBuilder.php.html#104"><abbr title="Drupal\workspaces\WorkspaceListBuilder::buildRow">buildRow</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/WorkspacesServiceProvider.php.html#18"><abbr title="Drupal\workspaces\WorkspacesServiceProvider::alter">alter</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/EntityOperations.php.html#253"><abbr title="Drupal\workspaces\EntityOperations::entityFormAlter">entityFormAlter</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/WorkspaceManager.php.html#183"><abbr title="Drupal\workspaces\WorkspaceManager::getActiveWorkspace">getActiveWorkspace</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/EntityQuery/Tables.php.html#85"><abbr title="Drupal\workspaces\EntityQuery\Tables::addJoin">addJoin</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/EventSubscriber/EntitySchemaSubscriber.php.html#88"><abbr title="Drupal\workspaces\EventSubscriber\EntitySchemaSubscriber::onEntityTypeUpdate">onEntityTypeUpdate</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/FormOperations.php.html#96"><abbr title="Drupal\workspaces\FormOperations::addWorkspaceValidation">addWorkspaceValidation</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Form/WorkspaceSwitcherForm.php.html#76"><abbr title="Drupal\workspaces\Form\WorkspaceSwitcherForm::buildForm">buildForm</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Form/WorkspaceDeployForm.php.html#77"><abbr title="Drupal\workspaces\Form\WorkspaceDeployForm::form">form</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/EntityQuery/QueryTrait.php.html#45"><abbr title="QueryTrait::prepare">prepare</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/WorkspaceManager.php.html#144"><abbr title="Drupal\workspaces\WorkspaceManager::isEntityTypeSupported">isEntityTypeSupported</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/WorkspaceManager.php.html#247"><abbr title="Drupal\workspaces\WorkspaceManager::doSwitchWorkspace">doSwitchWorkspace</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/EntityAccess.php.html#74"><abbr title="Drupal\workspaces\EntityAccess::entityOperationAccess">entityOperationAccess</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Form/WorkspaceMergeForm.php.html#80"><abbr title="Drupal\workspaces\Form\WorkspaceMergeForm::buildForm">buildForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Form/WorkspaceForm.php.html#126"><abbr title="Drupal\workspaces\Form\WorkspaceForm::save">save</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/WorkspaceMerger.php.html#148"><abbr title="Drupal\workspaces\WorkspaceMerger::getDifferringRevisionIdsOnTarget">getDifferringRevisionIdsOnTarget</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/DeletedWorkspaceConstraintValidator.php.html#45"><abbr title="Drupal\workspaces\Plugin\Validation\Constraint\DeletedWorkspaceConstraintValidator::validate">validate</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/WorkspaceMerger.php.html#172"><abbr title="Drupal\workspaces\WorkspaceMerger::getDifferringRevisionIdsOnSource">getDifferringRevisionIdsOnSource</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/EntityOperations.php.html#77"><abbr title="Drupal\workspaces\EntityOperations::entityPreload">entityPreload</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/EntityAccess.php.html#100"><abbr title="Drupal\workspaces\EntityAccess::entityCreateAccess">entityCreateAccess</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/WorkspaceAssociation.php.html#133"><abbr title="Drupal\workspaces\WorkspaceAssociation::getTrackedEntities">getTrackedEntities</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/EntityReferenceSupportedNewEntitiesConstraintValidator.php.html#52"><abbr title="Drupal\workspaces\Plugin\Validation\Constraint\EntityReferenceSupportedNewEntitiesConstraintValidator::validate">validate</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/EntityOperations.php.html#167"><abbr title="Drupal\workspaces\EntityOperations::entityInsert">entityInsert</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/ViewsQueryAlter.php.html#384"><abbr title="Drupal\workspaces\ViewsQueryAlter::getRevisionTableJoin">getRevisionTableJoin</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/WorkspaceManager.php.html#206"><abbr title="Drupal\workspaces\WorkspaceManager::setActiveWorkspace">setActiveWorkspace</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/EntityOperations.php.html#202"><abbr title="Drupal\workspaces\EntityOperations::entityUpdate">entityUpdate</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/EntityOperations.php.html#224"><abbr title="Drupal\workspaces\EntityOperations::entityPredelete">entityPredelete</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/WorkspaceAssociation.php.html#159"><abbr title="Drupal\workspaces\WorkspaceAssociation::getAssociatedRevisions">getAssociatedRevisions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Negotiator/SessionWorkspaceNegotiator.php.html#64"><abbr title="Drupal\workspaces\Negotiator\SessionWorkspaceNegotiator::getActiveWorkspace">getActiveWorkspace</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/EntityOperations.php.html#305"><abbr title="Drupal\workspaces\EntityOperations::shouldSkipPreOperations">shouldSkipPreOperations</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Entity/Workspace.php.html#165"><abbr title="Drupal\workspaces\Entity\Workspace::preDelete">preDelete</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Negotiator/QueryParameterWorkspaceNegotiator.php.html#22"><abbr title="Drupal\workspaces\Negotiator\QueryParameterWorkspaceNegotiator::getActiveWorkspace">getActiveWorkspace</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/EntityTypeInfo.php.html#68"><abbr title="Drupal\workspaces\EntityTypeInfo::entityTypeBuild">entityTypeBuild</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/WorkspaceManager.php.html#163"><abbr title="Drupal\workspaces\WorkspaceManager::getSupportedEntityTypes">getSupportedEntityTypes</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/EntityQuery/Tables.php.html#60"><abbr title="Drupal\workspaces\EntityQuery\Tables::addField">addField</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Form/WorkspaceDeployForm.php.html#150"><abbr title="Drupal\workspaces\Form\WorkspaceDeployForm::deploy">deploy</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Form/WorkspaceDeleteForm.php.html#79"><abbr title="Drupal\workspaces\Form\WorkspaceDeleteForm::buildForm">buildForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/EventSubscriber/WorkspaceRequestSubscriber.php.html#89"><abbr title="Drupal\workspaces\EventSubscriber\WorkspaceRequestSubscriber::onKernelRequest">onKernelRequest</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/EventSubscriber/WorkspaceRequestSubscriber.php.html#75"><abbr title="Drupal\workspaces\EventSubscriber\WorkspaceRequestSubscriber::onKernelController">onKernelController</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/EventSubscriber/EntitySchemaSubscriber.php.html#129"><abbr title="Drupal\workspaces\EventSubscriber\EntitySchemaSubscriber::addRevisionMetadataField">addRevisionMetadataField</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/WorkspacePublisher.php.html#154"><abbr title="Drupal\workspaces\WorkspacePublisher::getDifferringRevisionIdsOnTarget">getDifferringRevisionIdsOnTarget</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/EntityTypeInfo.php.html#103"><abbr title="Drupal\workspaces\EntityTypeInfo::fieldInfoAlter">fieldInfoAlter</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/EntityQuery/Tables.php.html#115"><abbr title="Drupal\workspaces\EntityQuery\Tables::addNextBaseTable">addNextBaseTable</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/WorkspaceAssociation.php.html#215"><abbr title="Drupal\workspaces\WorkspaceAssociation::deleteAssociations">deleteAssociations</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/WorkspacesAliasRepository.php.html#35"><abbr title="Drupal\workspaces\WorkspacesAliasRepository::getBaseQuery">getBaseQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/WorkspaceManager.php.html#225"><abbr title="Drupal\workspaces\WorkspaceManager::switchToLive">switchToLive</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/WorkspaceManager.php.html#305"><abbr title="Drupal\workspaces\WorkspaceManager::shouldAlterOperations">shouldAlterOperations</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/WorkspaceManager.php.html#274"><abbr title="Drupal\workspaces\WorkspaceManager::executeInWorkspace">executeInWorkspace</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Access/ActiveWorkspaceCheck.php.html#41"><abbr title="Drupal\workspaces\Access\ActiveWorkspaceCheck::access">access</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/WorkspaceListBuilder.php.html#187"><abbr title="Drupal\workspaces\WorkspaceListBuilder::render">render</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Form/WorkspaceForm.php.html#66"><abbr title="Drupal\workspaces\Form\WorkspaceForm::form">form</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/EntityQuery/Query.php.html#19"><abbr title="Drupal\workspaces\EntityQuery\Query::prepare">prepare</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/EntityQuery/Tables.php.html#42"><abbr title="Drupal\workspaces\EntityQuery\Tables::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/EntityQuery/Tables.php.html#142"><abbr title="Drupal\workspaces\EntityQuery\Tables::addWorkspaceAssociationJoin">addWorkspaceAssociationJoin</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/EntityTypeInfo.php.html#85"><abbr title="Drupal\workspaces\EntityTypeInfo::entityTypeAlter">entityTypeAlter</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/EntityTypeInfo.php.html#125"><abbr title="Drupal\workspaces\EntityTypeInfo::entityBaseFieldInfo">entityBaseFieldInfo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/EventSubscriber/EntitySchemaSubscriber.php.html#70"><abbr title="Drupal\workspaces\EventSubscriber\EntitySchemaSubscriber::onEntityTypeCreate">onEntityTypeCreate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Form/WorkspaceActivateForm.php.html#106"><abbr title="Drupal\workspaces\Form\WorkspaceActivateForm::submitForm">submitForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Form/WorkspaceDeployForm.php.html#115"><abbr title="Drupal\workspaces\Form\WorkspaceDeployForm::actions">actions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Form/WorkspaceForm.php.html#108"><abbr title="Drupal\workspaces\Form\WorkspaceForm::flagViolations">flagViolations</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/WorkspaceListBuilder.php.html#80"><abbr title="Drupal\workspaces\WorkspaceListBuilder::load">load</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Form/WorkspaceSwitcherForm.php.html#132"><abbr title="Drupal\workspaces\Form\WorkspaceSwitcherForm::submitForm">submitForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/FormOperations.php.html#112"><abbr title="Drupal\workspaces\FormOperations::validateDefaultWorkspace">validateDefaultWorkspace</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Negotiator/QueryParameterWorkspaceNegotiator.php.html#15"><abbr title="Drupal\workspaces\Negotiator\QueryParameterWorkspaceNegotiator::applies">applies</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/ViewsQueryAlter.php.html#286"><abbr title="Drupal\workspaces\ViewsQueryAlter::ensureWorkspaceAssociationTable">ensureWorkspaceAssociationTable</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/ViewsQueryAlter.php.html#421"><abbr title="Drupal\workspaces\ViewsQueryAlter::moveEntityTable">moveEntityTable</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/WorkspaceAssociation.php.html#122"><abbr title="Drupal\workspaces\WorkspaceAssociation::workspaceInsert">workspaceInsert</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/WorkspaceAssociation.php.html#233"><abbr title="Drupal\workspaces\WorkspaceAssociation::initializeWorkspace">initializeWorkspace</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/WorkspaceCacheContext.php.html#42"><abbr title="Drupal\workspaces\WorkspaceCacheContext::getContext">getContext</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/EntityQuery/QueryTrait.php.html#75"><abbr title="QueryTrait::isSimpleQuery">isSimpleQuery</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.33-16+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Fri Jun 12 8:21:00 AEST 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([40,0,0,0,0,0,0,0,0,0,0,5], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([204,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,3,"<a href=\"src\/Access\/ActiveWorkspaceCheck.php.html#13\">Drupal\\workspaces\\Access\\ActiveWorkspaceCheck<\/a>"],[0,11,"<a href=\"src\/Entity\/Workspace.php.html#66\">Drupal\\workspaces\\Entity\\Workspace<\/a>"],[0,11,"<a href=\"src\/EntityAccess.php.html#18\">Drupal\\workspaces\\EntityAccess<\/a>"],[0,31,"<a href=\"src\/EntityOperations.php.html#20\">Drupal\\workspaces\\EntityOperations<\/a>"],[0,3,"<a href=\"src\/EntityQuery\/PgsqlQueryFactory.php.html#14\">Drupal\\workspaces\\EntityQuery\\PgsqlQueryFactory<\/a>"],[0,2,"<a href=\"src\/EntityQuery\/Query.php.html#10\">Drupal\\workspaces\\EntityQuery\\Query<\/a>"],[0,1,"<a href=\"src\/EntityQuery\/QueryAggregate.php.html#10\">Drupal\\workspaces\\EntityQuery\\QueryAggregate<\/a>"],[0,3,"<a href=\"src\/EntityQuery\/QueryFactory.php.html#14\">Drupal\\workspaces\\EntityQuery\\QueryFactory<\/a>"],[0,15,"<a href=\"src\/EntityQuery\/Tables.php.html#13\">Drupal\\workspaces\\EntityQuery\\Tables<\/a>"],[0,12,"<a href=\"src\/EntityTypeInfo.php.html#20\">Drupal\\workspaces\\EntityTypeInfo<\/a>"],[0,16,"<a href=\"src\/EventSubscriber\/EntitySchemaSubscriber.php.html#18\">Drupal\\workspaces\\EventSubscriber\\EntitySchemaSubscriber<\/a>"],[0,8,"<a href=\"src\/EventSubscriber\/WorkspaceRequestSubscriber.php.html#18\">Drupal\\workspaces\\EventSubscriber\\WorkspaceRequestSubscriber<\/a>"],[0,7,"<a href=\"src\/Form\/SwitchToLiveForm.php.html#15\">Drupal\\workspaces\\Form\\SwitchToLiveForm<\/a>"],[0,9,"<a href=\"src\/Form\/WorkspaceActivateForm.php.html#15\">Drupal\\workspaces\\Form\\WorkspaceActivateForm<\/a>"],[0,6,"<a href=\"src\/Form\/WorkspaceDeleteForm.php.html#19\">Drupal\\workspaces\\Form\\WorkspaceDeleteForm<\/a>"],[0,12,"<a href=\"src\/Form\/WorkspaceDeployForm.php.html#18\">Drupal\\workspaces\\Form\\WorkspaceDeployForm<\/a>"],[0,11,"<a href=\"src\/Form\/WorkspaceForm.php.html#18\">Drupal\\workspaces\\Form\\WorkspaceForm<\/a>"],[0,11,"<a href=\"src\/Form\/WorkspaceMergeForm.php.html#17\">Drupal\\workspaces\\Form\\WorkspaceMergeForm<\/a>"],[0,11,"<a href=\"src\/Form\/WorkspaceSwitcherForm.php.html#16\">Drupal\\workspaces\\Form\\WorkspaceSwitcherForm<\/a>"],[0,15,"<a href=\"src\/FormOperations.php.html#18\">Drupal\\workspaces\\FormOperations<\/a>"],[0,5,"<a href=\"src\/Negotiator\/QueryParameterWorkspaceNegotiator.php.html#10\">Drupal\\workspaces\\Negotiator\\QueryParameterWorkspaceNegotiator<\/a>"],[0,7,"<a href=\"src\/Negotiator\/SessionWorkspaceNegotiator.php.html#14\">Drupal\\workspaces\\Negotiator\\SessionWorkspaceNegotiator<\/a>"],[0,3,"<a href=\"src\/Plugin\/Block\/WorkspaceSwitcherBlock.php.html#21\">Drupal\\workspaces\\Plugin\\Block\\WorkspaceSwitcherBlock<\/a>"],[0,11,"<a href=\"src\/Plugin\/EntityReferenceSelection\/WorkspaceSelection.php.html#21\">Drupal\\workspaces\\Plugin\\EntityReferenceSelection\\WorkspaceSelection<\/a>"],[100,0,"<a href=\"src\/Plugin\/Validation\/Constraint\/DeletedWorkspaceConstraint.php.html#15\">Drupal\\workspaces\\Plugin\\Validation\\Constraint\\DeletedWorkspaceConstraint<\/a>"],[0,6,"<a href=\"src\/Plugin\/Validation\/Constraint\/DeletedWorkspaceConstraintValidator.php.html#14\">Drupal\\workspaces\\Plugin\\Validation\\Constraint\\DeletedWorkspaceConstraintValidator<\/a>"],[100,0,"<a href=\"src\/Plugin\/Validation\/Constraint\/EntityReferenceSupportedNewEntitiesConstraint.php.html#15\">Drupal\\workspaces\\Plugin\\Validation\\Constraint\\EntityReferenceSupportedNewEntitiesConstraint<\/a>"],[0,6,"<a href=\"src\/Plugin\/Validation\/Constraint\/EntityReferenceSupportedNewEntitiesConstraintValidator.php.html#15\">Drupal\\workspaces\\Plugin\\Validation\\Constraint\\EntityReferenceSupportedNewEntitiesConstraintValidator<\/a>"],[100,0,"<a href=\"src\/Plugin\/Validation\/Constraint\/EntityWorkspaceConflictConstraint.php.html#16\">Drupal\\workspaces\\Plugin\\Validation\\Constraint\\EntityWorkspaceConflictConstraint<\/a>"],[0,8,"<a href=\"src\/Plugin\/Validation\/Constraint\/EntityWorkspaceConflictConstraintValidator.php.html#17\">Drupal\\workspaces\\Plugin\\Validation\\Constraint\\EntityWorkspaceConflictConstraintValidator<\/a>"],[0,44,"<a href=\"src\/ViewsQueryAlter.php.html#22\">Drupal\\workspaces\\ViewsQueryAlter<\/a>"],[0,10,"<a href=\"src\/WorkspaceAccessControlHandler.php.html#15\">Drupal\\workspaces\\WorkspaceAccessControlHandler<\/a>"],[100,0,"<a href=\"src\/WorkspaceAccessException.php.html#10\">Drupal\\workspaces\\WorkspaceAccessException<\/a>"],[0,23,"<a href=\"src\/WorkspaceAssociation.php.html#13\">Drupal\\workspaces\\WorkspaceAssociation<\/a>"],[0,5,"<a href=\"src\/WorkspaceCacheContext.php.html#13\">Drupal\\workspaces\\WorkspaceCacheContext<\/a>"],[100,0,"<a href=\"src\/WorkspaceConflictException.php.html#8\">Drupal\\workspaces\\WorkspaceConflictException<\/a>"],[0,29,"<a href=\"src\/WorkspaceListBuilder.php.html#20\">Drupal\\workspaces\\WorkspaceListBuilder<\/a>"],[0,34,"<a href=\"src\/WorkspaceManager.php.html#20\">Drupal\\workspaces\\WorkspaceManager<\/a>"],[0,21,"<a href=\"src\/WorkspaceMerger.php.html#14\">Drupal\\workspaces\\WorkspaceMerger<\/a>"],[0,3,"<a href=\"src\/WorkspaceOperationFactory.php.html#17\">Drupal\\workspaces\\WorkspaceOperationFactory<\/a>"],[0,17,"<a href=\"src\/WorkspacePublisher.php.html#15\">Drupal\\workspaces\\WorkspacePublisher<\/a>"],[0,16,"<a href=\"src\/WorkspaceRepository.php.html#13\">Drupal\\workspaces\\WorkspaceRepository<\/a>"],[0,3,"<a href=\"src\/WorkspacesAliasRepository.php.html#10\">Drupal\\workspaces\\WorkspacesAliasRepository<\/a>"],[0,6,"<a href=\"src\/WorkspacesServiceProvider.php.html#13\">Drupal\\workspaces\\WorkspacesServiceProvider<\/a>"],[0,7,"<a href=\"src\/EntityQuery\/QueryTrait.php.html#12\">QueryTrait<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"src\/Access\/ActiveWorkspaceCheck.php.html#28\">Drupal\\workspaces\\Access\\ActiveWorkspaceCheck::__construct<\/a>"],[0,2,"<a href=\"src\/Access\/ActiveWorkspaceCheck.php.html#41\">Drupal\\workspaces\\Access\\ActiveWorkspaceCheck::access<\/a>"],[0,1,"<a href=\"src\/Entity\/Workspace.php.html#74\">Drupal\\workspaces\\Entity\\Workspace::baseFieldDefinitions<\/a>"],[0,1,"<a href=\"src\/Entity\/Workspace.php.html#129\">Drupal\\workspaces\\Entity\\Workspace::publish<\/a>"],[0,1,"<a href=\"src\/Entity\/Workspace.php.html#136\">Drupal\\workspaces\\Entity\\Workspace::isDefaultWorkspace<\/a>"],[0,1,"<a href=\"src\/Entity\/Workspace.php.html#144\">Drupal\\workspaces\\Entity\\Workspace::getCreatedTime<\/a>"],[0,1,"<a href=\"src\/Entity\/Workspace.php.html#151\">Drupal\\workspaces\\Entity\\Workspace::setCreatedTime<\/a>"],[0,1,"<a href=\"src\/Entity\/Workspace.php.html#158\">Drupal\\workspaces\\Entity\\Workspace::hasParent<\/a>"],[0,3,"<a href=\"src\/Entity\/Workspace.php.html#165\">Drupal\\workspaces\\Entity\\Workspace::preDelete<\/a>"],[0,1,"<a href=\"src\/Entity\/Workspace.php.html#181\">Drupal\\workspaces\\Entity\\Workspace::postDelete<\/a>"],[0,1,"<a href=\"src\/Entity\/Workspace.php.html#205\">Drupal\\workspaces\\Entity\\Workspace::getCurrentUserId<\/a>"],[0,1,"<a href=\"src\/EntityAccess.php.html#44\">Drupal\\workspaces\\EntityAccess::__construct<\/a>"],[0,1,"<a href=\"src\/EntityAccess.php.html#52\">Drupal\\workspaces\\EntityAccess::create<\/a>"],[0,4,"<a href=\"src\/EntityAccess.php.html#74\">Drupal\\workspaces\\EntityAccess::entityOperationAccess<\/a>"],[0,4,"<a href=\"src\/EntityAccess.php.html#100\">Drupal\\workspaces\\EntityAccess::entityCreateAccess<\/a>"],[0,1,"<a href=\"src\/EntityAccess.php.html#121\">Drupal\\workspaces\\EntityAccess::bypassAccessResult<\/a>"],[0,1,"<a href=\"src\/EntityOperations.php.html#55\">Drupal\\workspaces\\EntityOperations::__construct<\/a>"],[0,1,"<a href=\"src\/EntityOperations.php.html#64\">Drupal\\workspaces\\EntityOperations::create<\/a>"],[0,4,"<a href=\"src\/EntityOperations.php.html#77\">Drupal\\workspaces\\EntityOperations::entityPreload<\/a>"],[0,7,"<a href=\"src\/EntityOperations.php.html#111\">Drupal\\workspaces\\EntityOperations::entityPresave<\/a>"],[0,3,"<a href=\"src\/EntityOperations.php.html#167\">Drupal\\workspaces\\EntityOperations::entityInsert<\/a>"],[0,3,"<a href=\"src\/EntityOperations.php.html#202\">Drupal\\workspaces\\EntityOperations::entityUpdate<\/a>"],[0,3,"<a href=\"src\/EntityOperations.php.html#224\">Drupal\\workspaces\\EntityOperations::entityPredelete<\/a>"],[0,5,"<a href=\"src\/EntityOperations.php.html#253\">Drupal\\workspaces\\EntityOperations::entityFormAlter<\/a>"],[0,1,"<a href=\"src\/EntityOperations.php.html#289\">Drupal\\workspaces\\EntityOperations::entityFormEntityBuild<\/a>"],[0,3,"<a href=\"src\/EntityOperations.php.html#305\">Drupal\\workspaces\\EntityOperations::shouldSkipPreOperations<\/a>"],[0,1,"<a href=\"src\/EntityQuery\/PgsqlQueryFactory.php.html#31\">Drupal\\workspaces\\EntityQuery\\PgsqlQueryFactory::__construct<\/a>"],[0,1,"<a href=\"src\/EntityQuery\/PgsqlQueryFactory.php.html#40\">Drupal\\workspaces\\EntityQuery\\PgsqlQueryFactory::get<\/a>"],[0,1,"<a href=\"src\/EntityQuery\/PgsqlQueryFactory.php.html#48\">Drupal\\workspaces\\EntityQuery\\PgsqlQueryFactory::getAggregate<\/a>"],[0,2,"<a href=\"src\/EntityQuery\/Query.php.html#19\">Drupal\\workspaces\\EntityQuery\\Query::prepare<\/a>"],[0,1,"<a href=\"src\/EntityQuery\/QueryAggregate.php.html#19\">Drupal\\workspaces\\EntityQuery\\QueryAggregate::prepare<\/a>"],[0,1,"<a href=\"src\/EntityQuery\/QueryFactory.php.html#31\">Drupal\\workspaces\\EntityQuery\\QueryFactory::__construct<\/a>"],[0,1,"<a href=\"src\/EntityQuery\/QueryFactory.php.html#40\">Drupal\\workspaces\\EntityQuery\\QueryFactory::get<\/a>"],[0,1,"<a href=\"src\/EntityQuery\/QueryFactory.php.html#48\">Drupal\\workspaces\\EntityQuery\\QueryFactory::getAggregate<\/a>"],[0,2,"<a href=\"src\/EntityQuery\/Tables.php.html#42\">Drupal\\workspaces\\EntityQuery\\Tables::__construct<\/a>"],[0,3,"<a href=\"src\/EntityQuery\/Tables.php.html#60\">Drupal\\workspaces\\EntityQuery\\Tables::addField<\/a>"],[0,5,"<a href=\"src\/EntityQuery\/Tables.php.html#85\">Drupal\\workspaces\\EntityQuery\\Tables::addJoin<\/a>"],[0,3,"<a href=\"src\/EntityQuery\/Tables.php.html#115\">Drupal\\workspaces\\EntityQuery\\Tables::addNextBaseTable<\/a>"],[0,2,"<a href=\"src\/EntityQuery\/Tables.php.html#142\">Drupal\\workspaces\\EntityQuery\\Tables::addWorkspaceAssociationJoin<\/a>"],[0,1,"<a href=\"src\/EntityTypeInfo.php.html#44\">Drupal\\workspaces\\EntityTypeInfo::__construct<\/a>"],[0,1,"<a href=\"src\/EntityTypeInfo.php.html#52\">Drupal\\workspaces\\EntityTypeInfo::create<\/a>"],[0,3,"<a href=\"src\/EntityTypeInfo.php.html#68\">Drupal\\workspaces\\EntityTypeInfo::entityTypeBuild<\/a>"],[0,2,"<a href=\"src\/EntityTypeInfo.php.html#85\">Drupal\\workspaces\\EntityTypeInfo::entityTypeAlter<\/a>"],[0,3,"<a href=\"src\/EntityTypeInfo.php.html#103\">Drupal\\workspaces\\EntityTypeInfo::fieldInfoAlter<\/a>"],[0,2,"<a href=\"src\/EntityTypeInfo.php.html#125\">Drupal\\workspaces\\EntityTypeInfo::entityBaseFieldInfo<\/a>"],[0,1,"<a href=\"src\/EventSubscriber\/EntitySchemaSubscriber.php.html#54\">Drupal\\workspaces\\EventSubscriber\\EntitySchemaSubscriber::__construct<\/a>"],[0,1,"<a href=\"src\/EventSubscriber\/EntitySchemaSubscriber.php.html#63\">Drupal\\workspaces\\EventSubscriber\\EntitySchemaSubscriber::getSubscribedEvents<\/a>"],[0,2,"<a href=\"src\/EventSubscriber\/EntitySchemaSubscriber.php.html#70\">Drupal\\workspaces\\EventSubscriber\\EntitySchemaSubscriber::onEntityTypeCreate<\/a>"],[0,1,"<a href=\"src\/EventSubscriber\/EntitySchemaSubscriber.php.html#81\">Drupal\\workspaces\\EventSubscriber\\EntitySchemaSubscriber::onFieldableEntityTypeCreate<\/a>"],[0,5,"<a href=\"src\/EventSubscriber\/EntitySchemaSubscriber.php.html#88\">Drupal\\workspaces\\EventSubscriber\\EntitySchemaSubscriber::onEntityTypeUpdate<\/a>"],[0,1,"<a href=\"src\/EventSubscriber\/EntitySchemaSubscriber.php.html#112\">Drupal\\workspaces\\EventSubscriber\\EntitySchemaSubscriber::onFieldableEntityTypeUpdate<\/a>"],[0,1,"<a href=\"src\/EventSubscriber\/EntitySchemaSubscriber.php.html#119\">Drupal\\workspaces\\EventSubscriber\\EntitySchemaSubscriber::onEntityTypeDelete<\/a>"],[0,3,"<a href=\"src\/EventSubscriber\/EntitySchemaSubscriber.php.html#129\">Drupal\\workspaces\\EventSubscriber\\EntitySchemaSubscriber::addRevisionMetadataField<\/a>"],[0,1,"<a href=\"src\/EventSubscriber\/EntitySchemaSubscriber.php.html#151\">Drupal\\workspaces\\EventSubscriber\\EntitySchemaSubscriber::getWorkspaceFieldDefinition<\/a>"],[0,1,"<a href=\"src\/EventSubscriber\/WorkspaceRequestSubscriber.php.html#60\">Drupal\\workspaces\\EventSubscriber\\WorkspaceRequestSubscriber::__construct<\/a>"],[0,3,"<a href=\"src\/EventSubscriber\/WorkspaceRequestSubscriber.php.html#75\">Drupal\\workspaces\\EventSubscriber\\WorkspaceRequestSubscriber::onKernelController<\/a>"],[0,3,"<a href=\"src\/EventSubscriber\/WorkspaceRequestSubscriber.php.html#89\">Drupal\\workspaces\\EventSubscriber\\WorkspaceRequestSubscriber::onKernelRequest<\/a>"],[0,1,"<a href=\"src\/EventSubscriber\/WorkspaceRequestSubscriber.php.html#98\">Drupal\\workspaces\\EventSubscriber\\WorkspaceRequestSubscriber::getSubscribedEvents<\/a>"],[0,1,"<a href=\"src\/Form\/SwitchToLiveForm.php.html#30\">Drupal\\workspaces\\Form\\SwitchToLiveForm::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/SwitchToLiveForm.php.html#37\">Drupal\\workspaces\\Form\\SwitchToLiveForm::create<\/a>"],[0,1,"<a href=\"src\/Form\/SwitchToLiveForm.php.html#46\">Drupal\\workspaces\\Form\\SwitchToLiveForm::getFormId<\/a>"],[0,1,"<a href=\"src\/Form\/SwitchToLiveForm.php.html#53\">Drupal\\workspaces\\Form\\SwitchToLiveForm::getQuestion<\/a>"],[0,1,"<a href=\"src\/Form\/SwitchToLiveForm.php.html#60\">Drupal\\workspaces\\Form\\SwitchToLiveForm::getDescription<\/a>"],[0,1,"<a href=\"src\/Form\/SwitchToLiveForm.php.html#67\">Drupal\\workspaces\\Form\\SwitchToLiveForm::getCancelUrl<\/a>"],[0,1,"<a href=\"src\/Form\/SwitchToLiveForm.php.html#74\">Drupal\\workspaces\\Form\\SwitchToLiveForm::submitForm<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceActivateForm.php.html#46\">Drupal\\workspaces\\Form\\WorkspaceActivateForm::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceActivateForm.php.html#54\">Drupal\\workspaces\\Form\\WorkspaceActivateForm::create<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceActivateForm.php.html#64\">Drupal\\workspaces\\Form\\WorkspaceActivateForm::getQuestion<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceActivateForm.php.html#71\">Drupal\\workspaces\\Form\\WorkspaceActivateForm::getDescription<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceActivateForm.php.html#78\">Drupal\\workspaces\\Form\\WorkspaceActivateForm::getCancelUrl<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceActivateForm.php.html#85\">Drupal\\workspaces\\Form\\WorkspaceActivateForm::buildForm<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceActivateForm.php.html#97\">Drupal\\workspaces\\Form\\WorkspaceActivateForm::actions<\/a>"],[0,2,"<a href=\"src\/Form\/WorkspaceActivateForm.php.html#106\">Drupal\\workspaces\\Form\\WorkspaceActivateForm::submitForm<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceDeleteForm.php.html#45\">Drupal\\workspaces\\Form\\WorkspaceDeleteForm::create<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceDeleteForm.php.html#70\">Drupal\\workspaces\\Form\\WorkspaceDeleteForm::__construct<\/a>"],[0,3,"<a href=\"src\/Form\/WorkspaceDeleteForm.php.html#79\">Drupal\\workspaces\\Form\\WorkspaceDeleteForm::buildForm<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceDeleteForm.php.html#111\">Drupal\\workspaces\\Form\\WorkspaceDeleteForm::getDescription<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceDeployForm.php.html#55\">Drupal\\workspaces\\Form\\WorkspaceDeployForm::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceDeployForm.php.html#64\">Drupal\\workspaces\\Form\\WorkspaceDeployForm::create<\/a>"],[0,5,"<a href=\"src\/Form\/WorkspaceDeployForm.php.html#77\">Drupal\\workspaces\\Form\\WorkspaceDeployForm::form<\/a>"],[0,2,"<a href=\"src\/Form\/WorkspaceDeployForm.php.html#115\">Drupal\\workspaces\\Form\\WorkspaceDeployForm::actions<\/a>"],[0,3,"<a href=\"src\/Form\/WorkspaceDeployForm.php.html#150\">Drupal\\workspaces\\Form\\WorkspaceDeployForm::deploy<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceForm.php.html#46\">Drupal\\workspaces\\Form\\WorkspaceForm::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceForm.php.html#54\">Drupal\\workspaces\\Form\\WorkspaceForm::create<\/a>"],[0,2,"<a href=\"src\/Form\/WorkspaceForm.php.html#66\">Drupal\\workspaces\\Form\\WorkspaceForm::form<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceForm.php.html#98\">Drupal\\workspaces\\Form\\WorkspaceForm::getEditedFieldNames<\/a>"],[0,2,"<a href=\"src\/Form\/WorkspaceForm.php.html#108\">Drupal\\workspaces\\Form\\WorkspaceForm::flagViolations<\/a>"],[0,4,"<a href=\"src\/Form\/WorkspaceForm.php.html#126\">Drupal\\workspaces\\Form\\WorkspaceForm::save<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceMergeForm.php.html#55\">Drupal\\workspaces\\Form\\WorkspaceMergeForm::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceMergeForm.php.html#63\">Drupal\\workspaces\\Form\\WorkspaceMergeForm::create<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceMergeForm.php.html#73\">Drupal\\workspaces\\Form\\WorkspaceMergeForm::getFormId<\/a>"],[0,4,"<a href=\"src\/Form\/WorkspaceMergeForm.php.html#80\">Drupal\\workspaces\\Form\\WorkspaceMergeForm::buildForm<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceMergeForm.php.html#121\">Drupal\\workspaces\\Form\\WorkspaceMergeForm::getQuestion<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceMergeForm.php.html#131\">Drupal\\workspaces\\Form\\WorkspaceMergeForm::getDescription<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceMergeForm.php.html#138\">Drupal\\workspaces\\Form\\WorkspaceMergeForm::getCancelUrl<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceMergeForm.php.html#145\">Drupal\\workspaces\\Form\\WorkspaceMergeForm::submitForm<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceSwitcherForm.php.html#49\">Drupal\\workspaces\\Form\\WorkspaceSwitcherForm::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceSwitcherForm.php.html#58\">Drupal\\workspaces\\Form\\WorkspaceSwitcherForm::create<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceSwitcherForm.php.html#69\">Drupal\\workspaces\\Form\\WorkspaceSwitcherForm::getFormId<\/a>"],[0,5,"<a href=\"src\/Form\/WorkspaceSwitcherForm.php.html#76\">Drupal\\workspaces\\Form\\WorkspaceSwitcherForm::buildForm<\/a>"],[0,2,"<a href=\"src\/Form\/WorkspaceSwitcherForm.php.html#132\">Drupal\\workspaces\\Form\\WorkspaceSwitcherForm::submitForm<\/a>"],[0,1,"<a href=\"src\/Form\/WorkspaceSwitcherForm.php.html#150\">Drupal\\workspaces\\Form\\WorkspaceSwitcherForm::submitSwitchToLive<\/a>"],[0,1,"<a href=\"src\/FormOperations.php.html#33\">Drupal\\workspaces\\FormOperations::__construct<\/a>"],[0,1,"<a href=\"src\/FormOperations.php.html#40\">Drupal\\workspaces\\FormOperations::create<\/a>"],[0,6,"<a href=\"src\/FormOperations.php.html#58\">Drupal\\workspaces\\FormOperations::formAlter<\/a>"],[0,5,"<a href=\"src\/FormOperations.php.html#96\">Drupal\\workspaces\\FormOperations::addWorkspaceValidation<\/a>"],[0,2,"<a href=\"src\/FormOperations.php.html#112\">Drupal\\workspaces\\FormOperations::validateDefaultWorkspace<\/a>"],[0,2,"<a href=\"src\/Negotiator\/QueryParameterWorkspaceNegotiator.php.html#15\">Drupal\\workspaces\\Negotiator\\QueryParameterWorkspaceNegotiator::applies<\/a>"],[0,3,"<a href=\"src\/Negotiator\/QueryParameterWorkspaceNegotiator.php.html#22\">Drupal\\workspaces\\Negotiator\\QueryParameterWorkspaceNegotiator::getActiveWorkspace<\/a>"],[0,1,"<a href=\"src\/Negotiator\/SessionWorkspaceNegotiator.php.html#47\">Drupal\\workspaces\\Negotiator\\SessionWorkspaceNegotiator::__construct<\/a>"],[0,1,"<a href=\"src\/Negotiator\/SessionWorkspaceNegotiator.php.html#56\">Drupal\\workspaces\\Negotiator\\SessionWorkspaceNegotiator::applies<\/a>"],[0,3,"<a href=\"src\/Negotiator\/SessionWorkspaceNegotiator.php.html#64\">Drupal\\workspaces\\Negotiator\\SessionWorkspaceNegotiator::getActiveWorkspace<\/a>"],[0,1,"<a href=\"src\/Negotiator\/SessionWorkspaceNegotiator.php.html#77\">Drupal\\workspaces\\Negotiator\\SessionWorkspaceNegotiator::setActiveWorkspace<\/a>"],[0,1,"<a href=\"src\/Negotiator\/SessionWorkspaceNegotiator.php.html#84\">Drupal\\workspaces\\Negotiator\\SessionWorkspaceNegotiator::unsetActiveWorkspace<\/a>"],[0,1,"<a href=\"src\/Plugin\/Block\/WorkspaceSwitcherBlock.php.html#51\">Drupal\\workspaces\\Plugin\\Block\\WorkspaceSwitcherBlock::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/Block\/WorkspaceSwitcherBlock.php.html#60\">Drupal\\workspaces\\Plugin\\Block\\WorkspaceSwitcherBlock::create<\/a>"],[0,1,"<a href=\"src\/Plugin\/Block\/WorkspaceSwitcherBlock.php.html#73\">Drupal\\workspaces\\Plugin\\Block\\WorkspaceSwitcherBlock::build<\/a>"],[0,1,"<a href=\"src\/Plugin\/EntityReferenceSelection\/WorkspaceSelection.php.html#33\">Drupal\\workspaces\\Plugin\\EntityReferenceSelection\\WorkspaceSelection::create<\/a>"],[0,1,"<a href=\"src\/Plugin\/EntityReferenceSelection\/WorkspaceSelection.php.html#42\">Drupal\\workspaces\\Plugin\\EntityReferenceSelection\\WorkspaceSelection::defaultConfiguration<\/a>"],[0,1,"<a href=\"src\/Plugin\/EntityReferenceSelection\/WorkspaceSelection.php.html#54\">Drupal\\workspaces\\Plugin\\EntityReferenceSelection\\WorkspaceSelection::buildConfigurationForm<\/a>"],[0,8,"<a href=\"src\/Plugin\/EntityReferenceSelection\/WorkspaceSelection.php.html#68\">Drupal\\workspaces\\Plugin\\EntityReferenceSelection\\WorkspaceSelection::getReferenceableEntities<\/a>"],[0,1,"<a href=\"src\/Plugin\/Validation\/Constraint\/DeletedWorkspaceConstraintValidator.php.html#29\">Drupal\\workspaces\\Plugin\\Validation\\Constraint\\DeletedWorkspaceConstraintValidator::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/Validation\/Constraint\/DeletedWorkspaceConstraintValidator.php.html#36\">Drupal\\workspaces\\Plugin\\Validation\\Constraint\\DeletedWorkspaceConstraintValidator::create<\/a>"],[0,4,"<a href=\"src\/Plugin\/Validation\/Constraint\/DeletedWorkspaceConstraintValidator.php.html#45\">Drupal\\workspaces\\Plugin\\Validation\\Constraint\\DeletedWorkspaceConstraintValidator::validate<\/a>"],[0,1,"<a href=\"src\/Plugin\/Validation\/Constraint\/EntityReferenceSupportedNewEntitiesConstraintValidator.php.html#34\">Drupal\\workspaces\\Plugin\\Validation\\Constraint\\EntityReferenceSupportedNewEntitiesConstraintValidator::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/Validation\/Constraint\/EntityReferenceSupportedNewEntitiesConstraintValidator.php.html#42\">Drupal\\workspaces\\Plugin\\Validation\\Constraint\\EntityReferenceSupportedNewEntitiesConstraintValidator::create<\/a>"],[0,4,"<a href=\"src\/Plugin\/Validation\/Constraint\/EntityReferenceSupportedNewEntitiesConstraintValidator.php.html#52\">Drupal\\workspaces\\Plugin\\Validation\\Constraint\\EntityReferenceSupportedNewEntitiesConstraintValidator::validate<\/a>"],[0,1,"<a href=\"src\/Plugin\/Validation\/Constraint\/EntityWorkspaceConflictConstraintValidator.php.html#59\">Drupal\\workspaces\\Plugin\\Validation\\Constraint\\EntityWorkspaceConflictConstraintValidator::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/Validation\/Constraint\/EntityWorkspaceConflictConstraintValidator.php.html#69\">Drupal\\workspaces\\Plugin\\Validation\\Constraint\\EntityWorkspaceConflictConstraintValidator::create<\/a>"],[0,6,"<a href=\"src\/Plugin\/Validation\/Constraint\/EntityWorkspaceConflictConstraintValidator.php.html#81\">Drupal\\workspaces\\Plugin\\Validation\\Constraint\\EntityWorkspaceConflictConstraintValidator::validate<\/a>"],[0,1,"<a href=\"src\/ViewsQueryAlter.php.html#82\">Drupal\\workspaces\\ViewsQueryAlter::__construct<\/a>"],[0,1,"<a href=\"src\/ViewsQueryAlter.php.html#94\">Drupal\\workspaces\\ViewsQueryAlter::create<\/a>"],[0,7,"<a href=\"src\/ViewsQueryAlter.php.html#110\">Drupal\\workspaces\\ViewsQueryAlter::alterQuery<\/a>"],[0,22,"<a href=\"src\/ViewsQueryAlter.php.html#152\">Drupal\\workspaces\\ViewsQueryAlter::alterQueryForEntityType<\/a>"],[0,2,"<a href=\"src\/ViewsQueryAlter.php.html#286\">Drupal\\workspaces\\ViewsQueryAlter::ensureWorkspaceAssociationTable<\/a>"],[0,6,"<a href=\"src\/ViewsQueryAlter.php.html#331\">Drupal\\workspaces\\ViewsQueryAlter::ensureRevisionTable<\/a>"],[0,3,"<a href=\"src\/ViewsQueryAlter.php.html#384\">Drupal\\workspaces\\ViewsQueryAlter::getRevisionTableJoin<\/a>"],[0,2,"<a href=\"src\/ViewsQueryAlter.php.html#421\">Drupal\\workspaces\\ViewsQueryAlter::moveEntityTable<\/a>"],[0,9,"<a href=\"src\/WorkspaceAccessControlHandler.php.html#20\">Drupal\\workspaces\\WorkspaceAccessControlHandler::checkAccess<\/a>"],[0,1,"<a href=\"src\/WorkspaceAccessControlHandler.php.html#52\">Drupal\\workspaces\\WorkspaceAccessControlHandler::checkCreateAccess<\/a>"],[0,1,"<a href=\"src\/WorkspaceAssociation.php.html#51\">Drupal\\workspaces\\WorkspaceAssociation::__construct<\/a>"],[0,6,"<a href=\"src\/WorkspaceAssociation.php.html#60\">Drupal\\workspaces\\WorkspaceAssociation::trackEntity<\/a>"],[0,2,"<a href=\"src\/WorkspaceAssociation.php.html#122\">Drupal\\workspaces\\WorkspaceAssociation::workspaceInsert<\/a>"],[0,4,"<a href=\"src\/WorkspaceAssociation.php.html#133\">Drupal\\workspaces\\WorkspaceAssociation::getTrackedEntities<\/a>"],[0,3,"<a href=\"src\/WorkspaceAssociation.php.html#159\">Drupal\\workspaces\\WorkspaceAssociation::getAssociatedRevisions<\/a>"],[0,1,"<a href=\"src\/WorkspaceAssociation.php.html#196\">Drupal\\workspaces\\WorkspaceAssociation::getEntityTrackingWorkspaceIds<\/a>"],[0,1,"<a href=\"src\/WorkspaceAssociation.php.html#208\">Drupal\\workspaces\\WorkspaceAssociation::postPublish<\/a>"],[0,3,"<a href=\"src\/WorkspaceAssociation.php.html#215\">Drupal\\workspaces\\WorkspaceAssociation::deleteAssociations<\/a>"],[0,2,"<a href=\"src\/WorkspaceAssociation.php.html#233\">Drupal\\workspaces\\WorkspaceAssociation::initializeWorkspace<\/a>"],[0,1,"<a href=\"src\/WorkspaceCacheContext.php.html#28\">Drupal\\workspaces\\WorkspaceCacheContext::__construct<\/a>"],[0,1,"<a href=\"src\/WorkspaceCacheContext.php.html#35\">Drupal\\workspaces\\WorkspaceCacheContext::getLabel<\/a>"],[0,2,"<a href=\"src\/WorkspaceCacheContext.php.html#42\">Drupal\\workspaces\\WorkspaceCacheContext::getContext<\/a>"],[0,1,"<a href=\"src\/WorkspaceCacheContext.php.html#49\">Drupal\\workspaces\\WorkspaceCacheContext::getCacheableMetadata<\/a>"],[0,1,"<a href=\"src\/WorkspaceListBuilder.php.html#57\">Drupal\\workspaces\\WorkspaceListBuilder::__construct<\/a>"],[0,1,"<a href=\"src\/WorkspaceListBuilder.php.html#67\">Drupal\\workspaces\\WorkspaceListBuilder::createInstance<\/a>"],[0,2,"<a href=\"src\/WorkspaceListBuilder.php.html#80\">Drupal\\workspaces\\WorkspaceListBuilder::load<\/a>"],[0,1,"<a href=\"src\/WorkspaceListBuilder.php.html#94\">Drupal\\workspaces\\WorkspaceListBuilder::buildHeader<\/a>"],[0,6,"<a href=\"src\/WorkspaceListBuilder.php.html#104\">Drupal\\workspaces\\WorkspaceListBuilder::buildRow<\/a>"],[0,7,"<a href=\"src\/WorkspaceListBuilder.php.html#134\">Drupal\\workspaces\\WorkspaceListBuilder::getDefaultOperations<\/a>"],[0,2,"<a href=\"src\/WorkspaceListBuilder.php.html#187\">Drupal\\workspaces\\WorkspaceListBuilder::render<\/a>"],[0,9,"<a href=\"src\/WorkspaceListBuilder.php.html#206\">Drupal\\workspaces\\WorkspaceListBuilder::offCanvasRender<\/a>"],[0,1,"<a href=\"src\/WorkspaceManager.php.html#129\">Drupal\\workspaces\\WorkspaceManager::__construct<\/a>"],[0,4,"<a href=\"src\/WorkspaceManager.php.html#144\">Drupal\\workspaces\\WorkspaceManager::isEntityTypeSupported<\/a>"],[0,3,"<a href=\"src\/WorkspaceManager.php.html#163\">Drupal\\workspaces\\WorkspaceManager::getSupportedEntityTypes<\/a>"],[0,1,"<a href=\"src\/WorkspaceManager.php.html#176\">Drupal\\workspaces\\WorkspaceManager::hasActiveWorkspace<\/a>"],[0,5,"<a href=\"src\/WorkspaceManager.php.html#183\">Drupal\\workspaces\\WorkspaceManager::getActiveWorkspace<\/a>"],[0,3,"<a href=\"src\/WorkspaceManager.php.html#206\">Drupal\\workspaces\\WorkspaceManager::setActiveWorkspace<\/a>"],[0,2,"<a href=\"src\/WorkspaceManager.php.html#225\">Drupal\\workspaces\\WorkspaceManager::switchToLive<\/a>"],[0,4,"<a href=\"src\/WorkspaceManager.php.html#247\">Drupal\\workspaces\\WorkspaceManager::doSwitchWorkspace<\/a>"],[0,2,"<a href=\"src\/WorkspaceManager.php.html#274\">Drupal\\workspaces\\WorkspaceManager::executeInWorkspace<\/a>"],[0,1,"<a href=\"src\/WorkspaceManager.php.html#293\">Drupal\\workspaces\\WorkspaceManager::executeOutsideWorkspace<\/a>"],[0,2,"<a href=\"src\/WorkspaceManager.php.html#305\">Drupal\\workspaces\\WorkspaceManager::shouldAlterOperations<\/a>"],[0,6,"<a href=\"src\/WorkspaceManager.php.html#312\">Drupal\\workspaces\\WorkspaceManager::purgeDeletedWorkspacesBatch<\/a>"],[0,1,"<a href=\"src\/WorkspaceMerger.php.html#74\">Drupal\\workspaces\\WorkspaceMerger::__construct<\/a>"],[0,7,"<a href=\"src\/WorkspaceMerger.php.html#86\">Drupal\\workspaces\\WorkspaceMerger::merge<\/a>"],[0,1,"<a href=\"src\/WorkspaceMerger.php.html#125\">Drupal\\workspaces\\WorkspaceMerger::getSourceLabel<\/a>"],[0,1,"<a href=\"src\/WorkspaceMerger.php.html#132\">Drupal\\workspaces\\WorkspaceMerger::getTargetLabel<\/a>"],[0,1,"<a href=\"src\/WorkspaceMerger.php.html#139\">Drupal\\workspaces\\WorkspaceMerger::checkConflictsOnTarget<\/a>"],[0,4,"<a href=\"src\/WorkspaceMerger.php.html#148\">Drupal\\workspaces\\WorkspaceMerger::getDifferringRevisionIdsOnTarget<\/a>"],[0,4,"<a href=\"src\/WorkspaceMerger.php.html#172\">Drupal\\workspaces\\WorkspaceMerger::getDifferringRevisionIdsOnSource<\/a>"],[0,1,"<a href=\"src\/WorkspaceMerger.php.html#196\">Drupal\\workspaces\\WorkspaceMerger::getNumberOfChangesOnTarget<\/a>"],[0,1,"<a href=\"src\/WorkspaceMerger.php.html#204\">Drupal\\workspaces\\WorkspaceMerger::getNumberOfChangesOnSource<\/a>"],[0,1,"<a href=\"src\/WorkspaceOperationFactory.php.html#68\">Drupal\\workspaces\\WorkspaceOperationFactory::__construct<\/a>"],[0,1,"<a href=\"src\/WorkspaceOperationFactory.php.html#85\">Drupal\\workspaces\\WorkspaceOperationFactory::getPublisher<\/a>"],[0,1,"<a href=\"src\/WorkspaceOperationFactory.php.html#100\">Drupal\\workspaces\\WorkspaceOperationFactory::getMerger<\/a>"],[0,1,"<a href=\"src\/WorkspacePublisher.php.html#66\">Drupal\\workspaces\\WorkspacePublisher::__construct<\/a>"],[0,7,"<a href=\"src\/WorkspacePublisher.php.html#77\">Drupal\\workspaces\\WorkspacePublisher::publish<\/a>"],[0,1,"<a href=\"src\/WorkspacePublisher.php.html#131\">Drupal\\workspaces\\WorkspacePublisher::getSourceLabel<\/a>"],[0,1,"<a href=\"src\/WorkspacePublisher.php.html#138\">Drupal\\workspaces\\WorkspacePublisher::getTargetLabel<\/a>"],[0,1,"<a href=\"src\/WorkspacePublisher.php.html#145\">Drupal\\workspaces\\WorkspacePublisher::checkConflictsOnTarget<\/a>"],[0,3,"<a href=\"src\/WorkspacePublisher.php.html#154\">Drupal\\workspaces\\WorkspacePublisher::getDifferringRevisionIdsOnTarget<\/a>"],[0,1,"<a href=\"src\/WorkspacePublisher.php.html#185\">Drupal\\workspaces\\WorkspacePublisher::getDifferringRevisionIdsOnSource<\/a>"],[0,1,"<a href=\"src\/WorkspacePublisher.php.html#193\">Drupal\\workspaces\\WorkspacePublisher::getNumberOfChangesOnTarget<\/a>"],[0,1,"<a href=\"src\/WorkspacePublisher.php.html#201\">Drupal\\workspaces\\WorkspacePublisher::getNumberOfChangesOnSource<\/a>"],[0,1,"<a href=\"src\/WorkspaceRepository.php.html#44\">Drupal\\workspaces\\WorkspaceRepository::__construct<\/a>"],[0,13,"<a href=\"src\/WorkspaceRepository.php.html#52\">Drupal\\workspaces\\WorkspaceRepository::loadTree<\/a>"],[0,1,"<a href=\"src\/WorkspaceRepository.php.html#137\">Drupal\\workspaces\\WorkspaceRepository::getDescendantsAndSelf<\/a>"],[0,1,"<a href=\"src\/WorkspaceRepository.php.html#144\">Drupal\\workspaces\\WorkspaceRepository::resetCache<\/a>"],[0,1,"<a href=\"src\/WorkspacesAliasRepository.php.html#27\">Drupal\\workspaces\\WorkspacesAliasRepository::setWorkspacesManager<\/a>"],[0,2,"<a href=\"src\/WorkspacesAliasRepository.php.html#35\">Drupal\\workspaces\\WorkspacesAliasRepository::getBaseQuery<\/a>"],[0,6,"<a href=\"src\/WorkspacesServiceProvider.php.html#18\">Drupal\\workspaces\\WorkspacesServiceProvider::alter<\/a>"],[0,1,"<a href=\"src\/EntityQuery\/QueryTrait.php.html#36\">QueryTrait::__construct<\/a>"],[0,4,"<a href=\"src\/EntityQuery\/QueryTrait.php.html#45\">QueryTrait::prepare<\/a>"],[0,2,"<a href=\"src\/EntityQuery\/QueryTrait.php.html#75\">QueryTrait::isSimpleQuery<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

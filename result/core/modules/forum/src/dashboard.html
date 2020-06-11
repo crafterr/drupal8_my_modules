@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/crafter/www/drupal-modules.devel/web/core/modules/forum/src</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../index.html">/home/crafter/www/drupal-modules.devel/web</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">core</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">modules</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">forum</a></li>
+         <li class="breadcrumb-item"><a href="index.html">src</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Breadcrumb/ForumBreadcrumbBuilderBase.php.html#22">Drupal\forum\Breadcrumb\ForumBreadcrumbBuilderBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumManager.php.html#20">Drupal\forum\ForumManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Validation/Constraint/ForumLeafConstraintValidator.php.html#11">Drupal\forum\Plugin\Validation\Constraint\ForumLeafConstraintValidator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/NewTopicsBlock.php.html#16">Drupal\forum\Plugin\Block\NewTopicsBlock</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/ForumBlockBase.php.html#15">Drupal\forum\Plugin\Block\ForumBlockBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/ActiveTopicsBlock.php.html#16">Drupal\forum\Plugin\Block\ActiveTopicsBlock</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumUninstallValidator.php.html#16">Drupal\forum\ForumUninstallValidator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumSettingsForm.php.html#13">Drupal\forum\ForumSettingsForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumIndexStorage.php.html#12">Drupal\forum\ForumIndexStorage</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Breadcrumb/ForumListingBreadcrumbBuilder.php.html#11">Drupal\forum\Breadcrumb\ForumListingBreadcrumbBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/Overview.php.html#17">Drupal\forum\Form\Overview</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ForumForm.php.html#15">Drupal\forum\Form\ForumForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/DeleteForm.php.html#15">Drupal\forum\Form\DeleteForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ContainerForm.php.html#12">Drupal\forum\Form\ContainerForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ForumController.php.html#22">Drupal\forum\Controller\ForumController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Breadcrumb/ForumNodeBreadcrumbBuilder.php.html#11">Drupal\forum\Breadcrumb\ForumNodeBreadcrumbBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProxyClass/ForumUninstallValidator.php.html#15">Drupal\forum\ProxyClass\ForumUninstallValidator</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ForumManager.php.html#20">Drupal\forum\ForumManager</a></td><td class="text-right">1980</td></tr>
+       <tr><td><a href="Controller/ForumController.php.html#22">Drupal\forum\Controller\ForumController</a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="Form/ForumForm.php.html#15">Drupal\forum\Form\ForumForm</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="ForumIndexStorage.php.html#12">Drupal\forum\ForumIndexStorage</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="ForumUninstallValidator.php.html#16">Drupal\forum\ForumUninstallValidator</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Plugin/Block/ForumBlockBase.php.html#15">Drupal\forum\Plugin\Block\ForumBlockBase</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Breadcrumb/ForumListingBreadcrumbBuilder.php.html#11">Drupal\forum\Breadcrumb\ForumListingBreadcrumbBuilder</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Breadcrumb/ForumNodeBreadcrumbBuilder.php.html#11">Drupal\forum\Breadcrumb\ForumNodeBreadcrumbBuilder</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Form/Overview.php.html#17">Drupal\forum\Form\Overview</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ProxyClass/ForumUninstallValidator.php.html#15">Drupal\forum\ProxyClass\ForumUninstallValidator</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Plugin/Validation/Constraint/ForumLeafConstraintValidator.php.html#11">Drupal\forum\Plugin\Validation\Constraint\ForumLeafConstraintValidator</a></td><td class="text-right">20</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Breadcrumb/ForumBreadcrumbBuilderBase.php.html#71"><abbr title="Drupal\forum\Breadcrumb\ForumBreadcrumbBuilderBase::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumManager.php.html#490"><abbr title="Drupal\forum\ForumManager::checkNodeType">checkNodeType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumSettingsForm.php.html#32"><abbr title="Drupal\forum\ForumSettingsForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumSettingsForm.php.html#25"><abbr title="Drupal\forum\ForumSettingsForm::getEditableConfigNames">getEditableConfigNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumSettingsForm.php.html#18"><abbr title="Drupal\forum\ForumSettingsForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumManager.php.html#529"><abbr title="Drupal\forum\ForumManager::__wakeup">__wakeup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumManager.php.html#519"><abbr title="Drupal\forum\ForumManager::__sleep">__sleep</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumManager.php.html#499"><abbr title="Drupal\forum\ForumManager::unreadTopics">unreadTopics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumManager.php.html#482"><abbr title="Drupal\forum\ForumManager::getParents">getParents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumUninstallValidator.php.html#44"><abbr title="Drupal\forum\ForumUninstallValidator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumManager.php.html#472"><abbr title="Drupal\forum\ForumManager::resetCache">resetCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumManager.php.html#449"><abbr title="Drupal\forum\ForumManager::getIndex">getIndex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumManager.php.html#420"><abbr title="Drupal\forum\ForumManager::getChildren">getChildren</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumManager.php.html#394"><abbr title="Drupal\forum\ForumManager::getForumStatistics">getForumStatistics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumManager.php.html#353"><abbr title="Drupal\forum\ForumManager::getLastPost">getLastPost</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumManager.php.html#331"><abbr title="Drupal\forum\ForumManager::lastVisit">lastVisit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumManager.php.html#302"><abbr title="Drupal\forum\ForumManager::getTopicOrder">getTopicOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumSettingsForm.php.html#71"><abbr title="Drupal\forum\ForumSettingsForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumUninstallValidator.php.html#53"><abbr title="Drupal\forum\ForumUninstallValidator::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumManager.php.html#139"><abbr title="Drupal\forum\ForumManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/ForumBlockBase.php.html#85"><abbr title="Drupal\forum\Plugin\Block\ForumBlockBase::getCacheContexts">getCacheContexts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProxyClass/ForumUninstallValidator.php.html#73"><abbr title="Drupal\forum\ProxyClass\ForumUninstallValidator::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProxyClass/ForumUninstallValidator.php.html#61"><abbr title="Drupal\forum\ProxyClass\ForumUninstallValidator::lazyLoadItself">lazyLoadItself</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProxyClass/ForumUninstallValidator.php.html#49"><abbr title="Drupal\forum\ProxyClass\ForumUninstallValidator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Validation/Constraint/ForumLeafConstraintValidator.php.html#16"><abbr title="Drupal\forum\Plugin\Validation\Constraint\ForumLeafConstraintValidator::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/NewTopicsBlock.php.html#21"><abbr title="Drupal\forum\Plugin\Block\NewTopicsBlock::buildForumQuery">buildForumQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/ForumBlockBase.php.html#92"><abbr title="Drupal\forum\Plugin\Block\ForumBlockBase::getCacheTags">getCacheTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/ForumBlockBase.php.html#78"><abbr title="Drupal\forum\Plugin\Block\ForumBlockBase::blockSubmit">blockSubmit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumUninstallValidator.php.html#85"><abbr title="Drupal\forum\ForumUninstallValidator::hasForumNodes">hasForumNodes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/ForumBlockBase.php.html#64"><abbr title="Drupal\forum\Plugin\Block\ForumBlockBase::blockForm">blockForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/ForumBlockBase.php.html#57"><abbr title="Drupal\forum\Plugin\Block\ForumBlockBase::blockAccess">blockAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/ForumBlockBase.php.html#45"><abbr title="Drupal\forum\Plugin\Block\ForumBlockBase::defaultConfiguration">defaultConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/ForumBlockBase.php.html#20"><abbr title="Drupal\forum\Plugin\Block\ForumBlockBase::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Block/ActiveTopicsBlock.php.html#21"><abbr title="Drupal\forum\Plugin\Block\ActiveTopicsBlock::buildForumQuery">buildForumQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumUninstallValidator.php.html#118"><abbr title="Drupal\forum\ForumUninstallValidator::getForumVocabulary">getForumVocabulary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumUninstallValidator.php.html#103"><abbr title="Drupal\forum\ForumUninstallValidator::hasTermsForVocabulary">hasTermsForVocabulary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumManager.php.html#155"><abbr title="Drupal\forum\ForumManager::getTopics">getTopics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumIndexStorage.php.html#158"><abbr title="Drupal\forum\ForumIndexStorage::deleteIndex">deleteIndex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Breadcrumb/ForumBreadcrumbBuilderBase.php.html#82"><abbr title="Drupal\forum\Breadcrumb\ForumBreadcrumbBuilderBase::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ForumController.php.html#210"><abbr title="Drupal\forum\Controller\ForumController::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/DeleteForm.php.html#27"><abbr title="Drupal\forum\Form\DeleteForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ContainerForm.php.html#41"><abbr title="Drupal\forum\Form\ContainerForm::buildEntity">buildEntity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ContainerForm.php.html#24"><abbr title="Drupal\forum\Form\ContainerForm::form">form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ForumController.php.html#288"><abbr title="Drupal\forum\Controller\ForumController::buildActionLinks">buildActionLinks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ForumController.php.html#268"><abbr title="Drupal\forum\Controller\ForumController::addContainer">addContainer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ForumController.php.html#253"><abbr title="Drupal\forum\Controller\ForumController::addForum">addForum</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ForumController.php.html#177"><abbr title="Drupal\forum\Controller\ForumController::forumIndex">forumIndex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/DeleteForm.php.html#41"><abbr title="Drupal\forum\Form\DeleteForm::getCancelUrl">getCancelUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ForumController.php.html#154"><abbr title="Drupal\forum\Controller\ForumController::forumPage">forumPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ForumController.php.html#127"><abbr title="Drupal\forum\Controller\ForumController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ForumController.php.html#111"><abbr title="Drupal\forum\Controller\ForumController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Breadcrumb/ForumNodeBreadcrumbBuilder.php.html#25"><abbr title="Drupal\forum\Breadcrumb\ForumNodeBreadcrumbBuilder::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Breadcrumb/ForumNodeBreadcrumbBuilder.php.html#16"><abbr title="Drupal\forum\Breadcrumb\ForumNodeBreadcrumbBuilder::applies">applies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Breadcrumb/ForumListingBreadcrumbBuilder.php.html#23"><abbr title="Drupal\forum\Breadcrumb\ForumListingBreadcrumbBuilder::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Breadcrumb/ForumListingBreadcrumbBuilder.php.html#16"><abbr title="Drupal\forum\Breadcrumb\ForumListingBreadcrumbBuilder::applies">applies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/DeleteForm.php.html#34"><abbr title="Drupal\forum\Form\DeleteForm::getQuestion">getQuestion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/DeleteForm.php.html#48"><abbr title="Drupal\forum\Form\DeleteForm::getConfirmText">getConfirmText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumIndexStorage.php.html#130"><abbr title="Drupal\forum\ForumIndexStorage::createIndex">createIndex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumIndexStorage.php.html#27"><abbr title="Drupal\forum\ForumIndexStorage::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumIndexStorage.php.html#93"><abbr title="Drupal\forum\ForumIndexStorage::updateIndex">updateIndex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumIndexStorage.php.html#83"><abbr title="Drupal\forum\ForumIndexStorage::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumIndexStorage.php.html#73"><abbr title="Drupal\forum\ForumIndexStorage::deleteRevision">deleteRevision</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumIndexStorage.php.html#64"><abbr title="Drupal\forum\ForumIndexStorage::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumIndexStorage.php.html#54"><abbr title="Drupal\forum\ForumIndexStorage::read">read</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumIndexStorage.php.html#41"><abbr title="Drupal\forum\ForumIndexStorage::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ForumIndexStorage.php.html#34"><abbr title="Drupal\forum\ForumIndexStorage::getOriginalTermId">getOriginalTermId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/Overview.php.html#29"><abbr title="Drupal\forum\Form\Overview::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/DeleteForm.php.html#55"><abbr title="Drupal\forum\Form\DeleteForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/Overview.php.html#22"><abbr title="Drupal\forum\Form\Overview::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ForumForm.php.html#128"><abbr title="Drupal\forum\Form\ForumForm::forumParentSelect">forumParentSelect</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ForumForm.php.html#104"><abbr title="Drupal\forum\Form\ForumForm::actions">actions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ForumForm.php.html#75"><abbr title="Drupal\forum\Form\ForumForm::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ForumForm.php.html#63"><abbr title="Drupal\forum\Form\ForumForm::buildEntity">buildEntity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/ForumForm.php.html#34"><abbr title="Drupal\forum\Form\ForumForm::form">form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/DeleteForm.php.html#64"><abbr title="Drupal\forum\Form\DeleteForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProxyClass/ForumUninstallValidator.php.html#81"><abbr title="Drupal\forum\ProxyClass\ForumUninstallValidator::setStringTranslation">setStringTranslation</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ForumManager.php.html#155"><abbr title="Drupal\forum\ForumManager::getTopics">getTopics</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Controller/ForumController.php.html#288"><abbr title="Drupal\forum\Controller\ForumController::buildActionLinks">buildActionLinks</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Form/ForumForm.php.html#128"><abbr title="Drupal\forum\Form\ForumForm::forumParentSelect">forumParentSelect</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Form/Overview.php.html#29"><abbr title="Drupal\forum\Form\Overview::buildForm">buildForm</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ForumManager.php.html#331"><abbr title="Drupal\forum\ForumManager::lastVisit">lastVisit</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ForumManager.php.html#302"><abbr title="Drupal\forum\ForumManager::getTopicOrder">getTopicOrder</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Controller/ForumController.php.html#210"><abbr title="Drupal\forum\Controller\ForumController::build">build</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ForumUninstallValidator.php.html#53"><abbr title="Drupal\forum\ForumUninstallValidator::validate">validate</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Breadcrumb/ForumListingBreadcrumbBuilder.php.html#23"><abbr title="Drupal\forum\Breadcrumb\ForumListingBreadcrumbBuilder::build">build</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ForumIndexStorage.php.html#130"><abbr title="Drupal\forum\ForumIndexStorage::createIndex">createIndex</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ForumManager.php.html#420"><abbr title="Drupal\forum\ForumManager::getChildren">getChildren</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Form/ForumForm.php.html#75"><abbr title="Drupal\forum\Form\ForumForm::save">save</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Plugin/Validation/Constraint/ForumLeafConstraintValidator.php.html#16"><abbr title="Drupal\forum\Plugin\Validation\Constraint\ForumLeafConstraintValidator::validate">validate</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Form/ForumForm.php.html#104"><abbr title="Drupal\forum\Form\ForumForm::actions">actions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Breadcrumb/ForumNodeBreadcrumbBuilder.php.html#25"><abbr title="Drupal\forum\Breadcrumb\ForumNodeBreadcrumbBuilder::build">build</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Breadcrumb/ForumNodeBreadcrumbBuilder.php.html#16"><abbr title="Drupal\forum\Breadcrumb\ForumNodeBreadcrumbBuilder::applies">applies</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ForumManager.php.html#353"><abbr title="Drupal\forum\ForumManager::getLastPost">getLastPost</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ForumManager.php.html#394"><abbr title="Drupal\forum\ForumManager::getForumStatistics">getForumStatistics</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/Block/ForumBlockBase.php.html#20"><abbr title="Drupal\forum\Plugin\Block\ForumBlockBase::build">build</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ForumManager.php.html#449"><abbr title="Drupal\forum\ForumManager::getIndex">getIndex</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Breadcrumb/ForumListingBreadcrumbBuilder.php.html#16"><abbr title="Drupal\forum\Breadcrumb\ForumListingBreadcrumbBuilder::applies">applies</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ForumManager.php.html#139"><abbr title="Drupal\forum\ForumManager::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ForumIndexStorage.php.html#93"><abbr title="Drupal\forum\ForumIndexStorage::updateIndex">updateIndex</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controller/ForumController.php.html#177"><abbr title="Drupal\forum\Controller\ForumController::forumIndex">forumIndex</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controller/ForumController.php.html#154"><abbr title="Drupal\forum\Controller\ForumController::forumPage">forumPage</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ProxyClass/ForumUninstallValidator.php.html#61"><abbr title="Drupal\forum\ProxyClass\ForumUninstallValidator::lazyLoadItself">lazyLoadItself</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.33-16+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Fri Jun 12 8:21:00 AEST 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([17,0,0,0,0,0,0,0,0,0,0,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([76,0,0,0,0,0,0,0,0,0,0,1], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,2,"<a href=\"Breadcrumb\/ForumBreadcrumbBuilderBase.php.html#22\">Drupal\\forum\\Breadcrumb\\ForumBreadcrumbBuilderBase<\/a>"],[0,6,"<a href=\"Breadcrumb\/ForumListingBreadcrumbBuilder.php.html#11\">Drupal\\forum\\Breadcrumb\\ForumListingBreadcrumbBuilder<\/a>"],[0,6,"<a href=\"Breadcrumb\/ForumNodeBreadcrumbBuilder.php.html#11\">Drupal\\forum\\Breadcrumb\\ForumNodeBreadcrumbBuilder<\/a>"],[0,20,"<a href=\"Controller\/ForumController.php.html#22\">Drupal\\forum\\Controller\\ForumController<\/a>"],[0,2,"<a href=\"Form\/ContainerForm.php.html#12\">Drupal\\forum\\Form\\ContainerForm<\/a>"],[0,6,"<a href=\"Form\/DeleteForm.php.html#15\">Drupal\\forum\\Form\\DeleteForm<\/a>"],[0,15,"<a href=\"Form\/ForumForm.php.html#15\">Drupal\\forum\\Form\\ForumForm<\/a>"],[0,6,"<a href=\"Form\/Overview.php.html#17\">Drupal\\forum\\Form\\Overview<\/a>"],[0,14,"<a href=\"ForumIndexStorage.php.html#12\">Drupal\\forum\\ForumIndexStorage<\/a>"],[0,44,"<a href=\"ForumManager.php.html#20\">Drupal\\forum\\ForumManager<\/a>"],[0,4,"<a href=\"ForumSettingsForm.php.html#13\">Drupal\\forum\\ForumSettingsForm<\/a>"],[0,9,"<a href=\"ForumUninstallValidator.php.html#16\">Drupal\\forum\\ForumUninstallValidator<\/a>"],[0,1,"<a href=\"Plugin\/Block\/ActiveTopicsBlock.php.html#16\">Drupal\\forum\\Plugin\\Block\\ActiveTopicsBlock<\/a>"],[0,9,"<a href=\"Plugin\/Block\/ForumBlockBase.php.html#15\">Drupal\\forum\\Plugin\\Block\\ForumBlockBase<\/a>"],[0,1,"<a href=\"Plugin\/Block\/NewTopicsBlock.php.html#16\">Drupal\\forum\\Plugin\\Block\\NewTopicsBlock<\/a>"],[100,0,"<a href=\"Plugin\/Validation\/Constraint\/ForumLeafConstraint.php.html#15\">Drupal\\forum\\Plugin\\Validation\\Constraint\\ForumLeafConstraint<\/a>"],[0,4,"<a href=\"Plugin\/Validation\/Constraint\/ForumLeafConstraintValidator.php.html#11\">Drupal\\forum\\Plugin\\Validation\\Constraint\\ForumLeafConstraintValidator<\/a>"],[0,5,"<a href=\"ProxyClass\/ForumUninstallValidator.php.html#15\">Drupal\\forum\\ProxyClass\\ForumUninstallValidator<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Breadcrumb\/ForumBreadcrumbBuilderBase.php.html#71\">Drupal\\forum\\Breadcrumb\\ForumBreadcrumbBuilderBase::__construct<\/a>"],[0,1,"<a href=\"Breadcrumb\/ForumBreadcrumbBuilderBase.php.html#82\">Drupal\\forum\\Breadcrumb\\ForumBreadcrumbBuilderBase::build<\/a>"],[0,2,"<a href=\"Breadcrumb\/ForumListingBreadcrumbBuilder.php.html#16\">Drupal\\forum\\Breadcrumb\\ForumListingBreadcrumbBuilder::applies<\/a>"],[0,4,"<a href=\"Breadcrumb\/ForumListingBreadcrumbBuilder.php.html#23\">Drupal\\forum\\Breadcrumb\\ForumListingBreadcrumbBuilder::build<\/a>"],[0,3,"<a href=\"Breadcrumb\/ForumNodeBreadcrumbBuilder.php.html#16\">Drupal\\forum\\Breadcrumb\\ForumNodeBreadcrumbBuilder::applies<\/a>"],[0,3,"<a href=\"Breadcrumb\/ForumNodeBreadcrumbBuilder.php.html#25\">Drupal\\forum\\Breadcrumb\\ForumNodeBreadcrumbBuilder::build<\/a>"],[0,1,"<a href=\"Controller\/ForumController.php.html#111\">Drupal\\forum\\Controller\\ForumController::__construct<\/a>"],[0,1,"<a href=\"Controller\/ForumController.php.html#127\">Drupal\\forum\\Controller\\ForumController::create<\/a>"],[0,2,"<a href=\"Controller\/ForumController.php.html#154\">Drupal\\forum\\Controller\\ForumController::forumPage<\/a>"],[0,2,"<a href=\"Controller\/ForumController.php.html#177\">Drupal\\forum\\Controller\\ForumController::forumIndex<\/a>"],[0,5,"<a href=\"Controller\/ForumController.php.html#210\">Drupal\\forum\\Controller\\ForumController::build<\/a>"],[0,1,"<a href=\"Controller\/ForumController.php.html#253\">Drupal\\forum\\Controller\\ForumController::addForum<\/a>"],[0,1,"<a href=\"Controller\/ForumController.php.html#268\">Drupal\\forum\\Controller\\ForumController::addContainer<\/a>"],[0,7,"<a href=\"Controller\/ForumController.php.html#288\">Drupal\\forum\\Controller\\ForumController::buildActionLinks<\/a>"],[0,1,"<a href=\"Form\/ContainerForm.php.html#24\">Drupal\\forum\\Form\\ContainerForm::form<\/a>"],[0,1,"<a href=\"Form\/ContainerForm.php.html#41\">Drupal\\forum\\Form\\ContainerForm::buildEntity<\/a>"],[0,1,"<a href=\"Form\/DeleteForm.php.html#27\">Drupal\\forum\\Form\\DeleteForm::getFormId<\/a>"],[0,1,"<a href=\"Form\/DeleteForm.php.html#34\">Drupal\\forum\\Form\\DeleteForm::getQuestion<\/a>"],[0,1,"<a href=\"Form\/DeleteForm.php.html#41\">Drupal\\forum\\Form\\DeleteForm::getCancelUrl<\/a>"],[0,1,"<a href=\"Form\/DeleteForm.php.html#48\">Drupal\\forum\\Form\\DeleteForm::getConfirmText<\/a>"],[0,1,"<a href=\"Form\/DeleteForm.php.html#55\">Drupal\\forum\\Form\\DeleteForm::buildForm<\/a>"],[0,1,"<a href=\"Form\/DeleteForm.php.html#64\">Drupal\\forum\\Form\\DeleteForm::submitForm<\/a>"],[0,1,"<a href=\"Form\/ForumForm.php.html#34\">Drupal\\forum\\Form\\ForumForm::form<\/a>"],[0,1,"<a href=\"Form\/ForumForm.php.html#63\">Drupal\\forum\\Form\\ForumForm::buildEntity<\/a>"],[0,4,"<a href=\"Form\/ForumForm.php.html#75\">Drupal\\forum\\Form\\ForumForm::save<\/a>"],[0,3,"<a href=\"Form\/ForumForm.php.html#104\">Drupal\\forum\\Form\\ForumForm::actions<\/a>"],[0,6,"<a href=\"Form\/ForumForm.php.html#128\">Drupal\\forum\\Form\\ForumForm::forumParentSelect<\/a>"],[0,1,"<a href=\"Form\/Overview.php.html#22\">Drupal\\forum\\Form\\Overview::getFormId<\/a>"],[0,5,"<a href=\"Form\/Overview.php.html#29\">Drupal\\forum\\Form\\Overview::buildForm<\/a>"],[0,1,"<a href=\"ForumIndexStorage.php.html#27\">Drupal\\forum\\ForumIndexStorage::__construct<\/a>"],[0,1,"<a href=\"ForumIndexStorage.php.html#34\">Drupal\\forum\\ForumIndexStorage::getOriginalTermId<\/a>"],[0,1,"<a href=\"ForumIndexStorage.php.html#41\">Drupal\\forum\\ForumIndexStorage::create<\/a>"],[0,1,"<a href=\"ForumIndexStorage.php.html#54\">Drupal\\forum\\ForumIndexStorage::read<\/a>"],[0,1,"<a href=\"ForumIndexStorage.php.html#64\">Drupal\\forum\\ForumIndexStorage::delete<\/a>"],[0,1,"<a href=\"ForumIndexStorage.php.html#73\">Drupal\\forum\\ForumIndexStorage::deleteRevision<\/a>"],[0,1,"<a href=\"ForumIndexStorage.php.html#83\">Drupal\\forum\\ForumIndexStorage::update<\/a>"],[0,2,"<a href=\"ForumIndexStorage.php.html#93\">Drupal\\forum\\ForumIndexStorage::updateIndex<\/a>"],[0,4,"<a href=\"ForumIndexStorage.php.html#130\">Drupal\\forum\\ForumIndexStorage::createIndex<\/a>"],[0,1,"<a href=\"ForumIndexStorage.php.html#158\">Drupal\\forum\\ForumIndexStorage::deleteIndex<\/a>"],[0,2,"<a href=\"ForumManager.php.html#139\">Drupal\\forum\\ForumManager::__construct<\/a>"],[0,14,"<a href=\"ForumManager.php.html#155\">Drupal\\forum\\ForumManager::getTopics<\/a>"],[0,5,"<a href=\"ForumManager.php.html#302\">Drupal\\forum\\ForumManager::getTopicOrder<\/a>"],[0,5,"<a href=\"ForumManager.php.html#331\">Drupal\\forum\\ForumManager::lastVisit<\/a>"],[0,3,"<a href=\"ForumManager.php.html#353\">Drupal\\forum\\ForumManager::getLastPost<\/a>"],[0,3,"<a href=\"ForumManager.php.html#394\">Drupal\\forum\\ForumManager::getForumStatistics<\/a>"],[0,4,"<a href=\"ForumManager.php.html#420\">Drupal\\forum\\ForumManager::getChildren<\/a>"],[0,2,"<a href=\"ForumManager.php.html#449\">Drupal\\forum\\ForumManager::getIndex<\/a>"],[0,1,"<a href=\"ForumManager.php.html#472\">Drupal\\forum\\ForumManager::resetCache<\/a>"],[0,1,"<a href=\"ForumManager.php.html#482\">Drupal\\forum\\ForumManager::getParents<\/a>"],[0,1,"<a href=\"ForumManager.php.html#490\">Drupal\\forum\\ForumManager::checkNodeType<\/a>"],[0,1,"<a href=\"ForumManager.php.html#499\">Drupal\\forum\\ForumManager::unreadTopics<\/a>"],[0,1,"<a href=\"ForumManager.php.html#519\">Drupal\\forum\\ForumManager::__sleep<\/a>"],[0,1,"<a href=\"ForumManager.php.html#529\">Drupal\\forum\\ForumManager::__wakeup<\/a>"],[0,1,"<a href=\"ForumSettingsForm.php.html#18\">Drupal\\forum\\ForumSettingsForm::getFormId<\/a>"],[0,1,"<a href=\"ForumSettingsForm.php.html#25\">Drupal\\forum\\ForumSettingsForm::getEditableConfigNames<\/a>"],[0,1,"<a href=\"ForumSettingsForm.php.html#32\">Drupal\\forum\\ForumSettingsForm::buildForm<\/a>"],[0,1,"<a href=\"ForumSettingsForm.php.html#71\">Drupal\\forum\\ForumSettingsForm::submitForm<\/a>"],[0,1,"<a href=\"ForumUninstallValidator.php.html#44\">Drupal\\forum\\ForumUninstallValidator::__construct<\/a>"],[0,5,"<a href=\"ForumUninstallValidator.php.html#53\">Drupal\\forum\\ForumUninstallValidator::validate<\/a>"],[0,1,"<a href=\"ForumUninstallValidator.php.html#85\">Drupal\\forum\\ForumUninstallValidator::hasForumNodes<\/a>"],[0,1,"<a href=\"ForumUninstallValidator.php.html#103\">Drupal\\forum\\ForumUninstallValidator::hasTermsForVocabulary<\/a>"],[0,1,"<a href=\"ForumUninstallValidator.php.html#118\">Drupal\\forum\\ForumUninstallValidator::getForumVocabulary<\/a>"],[0,1,"<a href=\"Plugin\/Block\/ActiveTopicsBlock.php.html#21\">Drupal\\forum\\Plugin\\Block\\ActiveTopicsBlock::buildForumQuery<\/a>"],[0,2,"<a href=\"Plugin\/Block\/ForumBlockBase.php.html#20\">Drupal\\forum\\Plugin\\Block\\ForumBlockBase::build<\/a>"],[100,1,"<a href=\"Plugin\/Block\/ForumBlockBase.php.html#40\">Drupal\\forum\\Plugin\\Block\\ForumBlockBase::buildForumQuery<\/a>"],[0,1,"<a href=\"Plugin\/Block\/ForumBlockBase.php.html#45\">Drupal\\forum\\Plugin\\Block\\ForumBlockBase::defaultConfiguration<\/a>"],[0,1,"<a href=\"Plugin\/Block\/ForumBlockBase.php.html#57\">Drupal\\forum\\Plugin\\Block\\ForumBlockBase::blockAccess<\/a>"],[0,1,"<a href=\"Plugin\/Block\/ForumBlockBase.php.html#64\">Drupal\\forum\\Plugin\\Block\\ForumBlockBase::blockForm<\/a>"],[0,1,"<a href=\"Plugin\/Block\/ForumBlockBase.php.html#78\">Drupal\\forum\\Plugin\\Block\\ForumBlockBase::blockSubmit<\/a>"],[0,1,"<a href=\"Plugin\/Block\/ForumBlockBase.php.html#85\">Drupal\\forum\\Plugin\\Block\\ForumBlockBase::getCacheContexts<\/a>"],[0,1,"<a href=\"Plugin\/Block\/ForumBlockBase.php.html#92\">Drupal\\forum\\Plugin\\Block\\ForumBlockBase::getCacheTags<\/a>"],[0,1,"<a href=\"Plugin\/Block\/NewTopicsBlock.php.html#21\">Drupal\\forum\\Plugin\\Block\\NewTopicsBlock::buildForumQuery<\/a>"],[0,4,"<a href=\"Plugin\/Validation\/Constraint\/ForumLeafConstraintValidator.php.html#16\">Drupal\\forum\\Plugin\\Validation\\Constraint\\ForumLeafConstraintValidator::validate<\/a>"],[0,1,"<a href=\"ProxyClass\/ForumUninstallValidator.php.html#49\">Drupal\\forum\\ProxyClass\\ForumUninstallValidator::__construct<\/a>"],[0,2,"<a href=\"ProxyClass\/ForumUninstallValidator.php.html#61\">Drupal\\forum\\ProxyClass\\ForumUninstallValidator::lazyLoadItself<\/a>"],[0,1,"<a href=\"ProxyClass\/ForumUninstallValidator.php.html#73\">Drupal\\forum\\ProxyClass\\ForumUninstallValidator::validate<\/a>"],[0,1,"<a href=\"ProxyClass\/ForumUninstallValidator.php.html#81\">Drupal\\forum\\ProxyClass\\ForumUninstallValidator::setStringTranslation<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

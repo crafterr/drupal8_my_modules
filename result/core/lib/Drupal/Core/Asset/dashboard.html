@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/crafter/www/drupal-modules.devel/web/core/lib/Drupal/Core/Asset</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../../index.html">/home/crafter/www/drupal-modules.devel/web</a></li>
+         <li class="breadcrumb-item"><a href="../../../../index.html">core</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">lib</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Drupal</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Core</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Asset</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AssetDumper.php.html#12">Drupal\Core\Asset\AssetDumper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssetResolver.php.html#15">Drupal\Core\Asset\AssetResolver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AttachedAssets.php.html#8">Drupal\Core\Asset\AttachedAssets</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssCollectionGrouper.php.html#8">Drupal\Core\Asset\CssCollectionGrouper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssCollectionOptimizer.php.html#11">Drupal\Core\Asset\CssCollectionOptimizer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssCollectionRenderer.php.html#10">Drupal\Core\Asset\CssCollectionRenderer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssOptimizer.php.html#11">Drupal\Core\Asset\CssOptimizer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsCollectionGrouper.php.html#8">Drupal\Core\Asset\JsCollectionGrouper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsCollectionOptimizer.php.html#11">Drupal\Core\Asset\JsCollectionOptimizer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsCollectionRenderer.php.html#11">Drupal\Core\Asset\JsCollectionRenderer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsOptimizer.php.html#10">Drupal\Core\Asset\JsOptimizer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDependencyResolver.php.html#8">Drupal\Core\Asset\LibraryDependencyResolver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscovery.php.html#10">Drupal\Core\Asset\LibraryDiscovery</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryCollector.php.html#16">Drupal\Core\Asset\LibraryDiscoveryCollector</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#19">Drupal\Core\Asset\LibraryDiscoveryParser</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#19">Drupal\Core\Asset\LibraryDiscoveryParser</a></td><td class="text-right">5700</td></tr>
+       <tr><td><a href="AssetResolver.php.html#15">Drupal\Core\Asset\AssetResolver</a></td><td class="text-right">1980</td></tr>
+       <tr><td><a href="CssOptimizer.php.html#11">Drupal\Core\Asset\CssOptimizer</a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="JsCollectionOptimizer.php.html#11">Drupal\Core\Asset\JsCollectionOptimizer</a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="CssCollectionOptimizer.php.html#11">Drupal\Core\Asset\CssCollectionOptimizer</a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="LibraryDiscoveryCollector.php.html#16">Drupal\Core\Asset\LibraryDiscoveryCollector</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="LibraryDependencyResolver.php.html#8">Drupal\Core\Asset\LibraryDependencyResolver</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="AssetDumper.php.html#12">Drupal\Core\Asset\AssetDumper</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="JsCollectionRenderer.php.html#11">Drupal\Core\Asset\JsCollectionRenderer</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="AttachedAssets.php.html#8">Drupal\Core\Asset\AttachedAssets</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="LibraryDiscovery.php.html#10">Drupal\Core\Asset\LibraryDiscovery</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="CssCollectionGrouper.php.html#8">Drupal\Core\Asset\CssCollectionGrouper</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="CssCollectionRenderer.php.html#10">Drupal\Core\Asset\CssCollectionRenderer</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="JsCollectionGrouper.php.html#8">Drupal\Core\Asset\JsCollectionGrouper</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="JsOptimizer.php.html#10">Drupal\Core\Asset\JsOptimizer</a></td><td class="text-right">42</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AssetDumper.php.html#27"><abbr title="Drupal\Core\Asset\AssetDumper::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscovery.php.html#71"><abbr title="Drupal\Core\Asset\LibraryDiscovery::clearCachedDefinitions">clearCachedDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsCollectionOptimizer.php.html#186"><abbr title="Drupal\Core\Asset\JsCollectionOptimizer::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsCollectionOptimizer.php.html#193"><abbr title="Drupal\Core\Asset\JsCollectionOptimizer::deleteAll">deleteAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsCollectionRenderer.php.html#26"><abbr title="Drupal\Core\Asset\JsCollectionRenderer::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsCollectionRenderer.php.html#39"><abbr title="Drupal\Core\Asset\JsCollectionRenderer::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsOptimizer.php.html#15"><abbr title="Drupal\Core\Asset\JsOptimizer::optimize">optimize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsOptimizer.php.html#47"><abbr title="Drupal\Core\Asset\JsOptimizer::clean">clean</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDependencyResolver.php.html#23"><abbr title="Drupal\Core\Asset\LibraryDependencyResolver::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDependencyResolver.php.html#30"><abbr title="Drupal\Core\Asset\LibraryDependencyResolver::getLibrariesWithDependencies">getLibrariesWithDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDependencyResolver.php.html#50"><abbr title="Drupal\Core\Asset\LibraryDependencyResolver::doGetDependencies">doGetDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDependencyResolver.php.html#67"><abbr title="Drupal\Core\Asset\LibraryDependencyResolver::getMinimalRepresentativeSubset">getMinimalRepresentativeSubset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscovery.php.html#35"><abbr title="Drupal\Core\Asset\LibraryDiscovery::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscovery.php.html#42"><abbr title="Drupal\Core\Asset\LibraryDiscovery::getLibrariesByExtension">getLibrariesByExtension</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscovery.php.html#57"><abbr title="Drupal\Core\Asset\LibraryDiscovery::getLibraryByName">getLibraryByName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryCollector.php.html#44"><abbr title="Drupal\Core\Asset\LibraryDiscoveryCollector::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsCollectionOptimizer.php.html#88"><abbr title="Drupal\Core\Asset\JsCollectionOptimizer::optimize">optimize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryCollector.php.html#54"><abbr title="Drupal\Core\Asset\LibraryDiscoveryCollector::getCid">getCid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryCollector.php.html#65"><abbr title="Drupal\Core\Asset\LibraryDiscoveryCollector::resolveCacheMiss">resolveCacheMiss</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryCollector.php.html#86"><abbr title="Drupal\Core\Asset\LibraryDiscoveryCollector::getLibraryDefinitions">getLibraryDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryCollector.php.html#135"><abbr title="Drupal\Core\Asset\LibraryDiscoveryCollector::applyLibrariesExtend">applyLibrariesExtend</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryCollector.php.html#159"><abbr title="Drupal\Core\Asset\LibraryDiscoveryCollector::reset">reset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#61"><abbr title="Drupal\Core\Asset\LibraryDiscoveryParser::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#86"><abbr title="Drupal\Core\Asset\LibraryDiscoveryParser::buildByExtension">buildByExtension</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#312"><abbr title="Drupal\Core\Asset\LibraryDiscoveryParser::parseLibraryInfo">parseLibraryInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#350"><abbr title="Drupal\Core\Asset\LibraryDiscoveryParser::applyLibrariesOverride">applyLibrariesOverride</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#406"><abbr title="Drupal\Core\Asset\LibraryDiscoveryParser::drupalGetPath">drupalGetPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#417"><abbr title="Drupal\Core\Asset\LibraryDiscoveryParser::fileValidUri">fileValidUri</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#425"><abbr title="Drupal\Core\Asset\LibraryDiscoveryParser::isValidUri">isValidUri</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#441"><abbr title="Drupal\Core\Asset\LibraryDiscoveryParser::setOverrideValue">setOverrideValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#475"><abbr title="Drupal\Core\Asset\LibraryDiscoveryParser::resolveThemeAssetPath">resolveThemeAssetPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsCollectionOptimizer.php.html#175"><abbr title="Drupal\Core\Asset\JsCollectionOptimizer::generateHash">generateHash</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsCollectionOptimizer.php.html#62"><abbr title="Drupal\Core\Asset\JsCollectionOptimizer::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssetDumper.php.html#38"><abbr title="Drupal\Core\Asset\AssetDumper::dump">dump</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AttachedAssets.php.html#89"><abbr title="Drupal\Core\Asset\AttachedAssets::setAlreadyLoadedLibraries">setAlreadyLoadedLibraries</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssetDumper.php.html#82"><abbr title="Drupal\Core\Asset\AssetDumper::getFileSystem">getFileSystem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssetResolver.php.html#75"><abbr title="Drupal\Core\Asset\AssetResolver::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssetResolver.php.html#102"><abbr title="Drupal\Core\Asset\AssetResolver::getLibrariesToLoad">getLibrariesToLoad</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssetResolver.php.html#112"><abbr title="Drupal\Core\Asset\AssetResolver::getCssAssets">getCssAssets</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssetResolver.php.html#194"><abbr title="Drupal\Core\Asset\AssetResolver::getJsSettingsAssets">getJsSettingsAssets</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssetResolver.php.html#211"><abbr title="Drupal\Core\Asset\AssetResolver::getJsAssets">getJsAssets</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssetResolver.php.html#371"><abbr title="Drupal\Core\Asset\AssetResolver::sort">sort</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AttachedAssets.php.html#34"><abbr title="Drupal\Core\Asset\AttachedAssets::createFromRenderArray">createFromRenderArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AttachedAssets.php.html#52"><abbr title="Drupal\Core\Asset\AttachedAssets::setLibraries">setLibraries</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AttachedAssets.php.html#60"><abbr title="Drupal\Core\Asset\AttachedAssets::getLibraries">getLibraries</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AttachedAssets.php.html#67"><abbr title="Drupal\Core\Asset\AttachedAssets::setSettings">setSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AttachedAssets.php.html#75"><abbr title="Drupal\Core\Asset\AttachedAssets::getSettings">getSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AttachedAssets.php.html#82"><abbr title="Drupal\Core\Asset\AttachedAssets::getAlreadyLoadedLibraries">getAlreadyLoadedLibraries</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssCollectionGrouper.php.html#22"><abbr title="Drupal\Core\Asset\CssCollectionGrouper::group">group</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JsCollectionGrouper.php.html#21"><abbr title="Drupal\Core\Asset\JsCollectionGrouper::group">group</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssCollectionOptimizer.php.html#62"><abbr title="Drupal\Core\Asset\CssCollectionOptimizer::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssCollectionOptimizer.php.html#88"><abbr title="Drupal\Core\Asset\CssCollectionOptimizer::optimize">optimize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssCollectionOptimizer.php.html#172"><abbr title="Drupal\Core\Asset\CssCollectionOptimizer::generateHash">generateHash</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssCollectionOptimizer.php.html#183"><abbr title="Drupal\Core\Asset\CssCollectionOptimizer::getAll">getAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssCollectionOptimizer.php.html#190"><abbr title="Drupal\Core\Asset\CssCollectionOptimizer::deleteAll">deleteAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssCollectionRenderer.php.html#25"><abbr title="Drupal\Core\Asset\CssCollectionRenderer::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssCollectionRenderer.php.html#32"><abbr title="Drupal\Core\Asset\CssCollectionRenderer::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssOptimizer.php.html#23"><abbr title="Drupal\Core\Asset\CssOptimizer::optimize">optimize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssOptimizer.php.html#43"><abbr title="Drupal\Core\Asset\CssOptimizer::clean">clean</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssOptimizer.php.html#54"><abbr title="Drupal\Core\Asset\CssOptimizer::processFile">processFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssOptimizer.php.html#93"><abbr title="Drupal\Core\Asset\CssOptimizer::loadFile">loadFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssOptimizer.php.html#157"><abbr title="Drupal\Core\Asset\CssOptimizer::loadNestedFile">loadNestedFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssOptimizer.php.html#186"><abbr title="Drupal\Core\Asset\CssOptimizer::processCss">processCss</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CssOptimizer.php.html#253"><abbr title="Drupal\Core\Asset\CssOptimizer::rewriteFileURI">rewriteFileURI</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#497"><abbr title="Drupal\Core\Asset\LibraryDiscoveryParser::validateCssLibrary">validateCssLibrary</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#86"><abbr title="Drupal\Core\Asset\LibraryDiscoveryParser::buildByExtension">buildByExtension</abbr></a></td><td class="text-right">1722</td></tr>
+       <tr><td><a href="AssetResolver.php.html#211"><abbr title="Drupal\Core\Asset\AssetResolver::getJsAssets">getJsAssets</abbr></a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#350"><abbr title="Drupal\Core\Asset\LibraryDiscoveryParser::applyLibrariesOverride">applyLibrariesOverride</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="AssetResolver.php.html#112"><abbr title="Drupal\Core\Asset\AssetResolver::getCssAssets">getCssAssets</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="JsCollectionOptimizer.php.html#88"><abbr title="Drupal\Core\Asset\JsCollectionOptimizer::optimize">optimize</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="JsCollectionRenderer.php.html#39"><abbr title="Drupal\Core\Asset\JsCollectionRenderer::render">render</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="CssCollectionOptimizer.php.html#88"><abbr title="Drupal\Core\Asset\CssCollectionOptimizer::optimize">optimize</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="CssOptimizer.php.html#93"><abbr title="Drupal\Core\Asset\CssOptimizer::loadFile">loadFile</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="AssetDumper.php.html#38"><abbr title="Drupal\Core\Asset\AssetDumper::dump">dump</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="JsCollectionGrouper.php.html#21"><abbr title="Drupal\Core\Asset\JsCollectionGrouper::group">group</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="CssCollectionGrouper.php.html#22"><abbr title="Drupal\Core\Asset\CssCollectionGrouper::group">group</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="LibraryDependencyResolver.php.html#67"><abbr title="Drupal\Core\Asset\LibraryDependencyResolver::getMinimalRepresentativeSubset">getMinimalRepresentativeSubset</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="CssCollectionRenderer.php.html#32"><abbr title="Drupal\Core\Asset\CssCollectionRenderer::render">render</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="LibraryDiscoveryCollector.php.html#135"><abbr title="Drupal\Core\Asset\LibraryDiscoveryCollector::applyLibrariesExtend">applyLibrariesExtend</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="LibraryDiscoveryCollector.php.html#86"><abbr title="Drupal\Core\Asset\LibraryDiscoveryCollector::getLibraryDefinitions">getLibraryDefinitions</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="JsOptimizer.php.html#15"><abbr title="Drupal\Core\Asset\JsOptimizer::optimize">optimize</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#497"><abbr title="Drupal\Core\Asset\LibraryDiscoveryParser::validateCssLibrary">validateCssLibrary</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="AssetResolver.php.html#371"><abbr title="Drupal\Core\Asset\AssetResolver::sort">sort</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="AttachedAssets.php.html#34"><abbr title="Drupal\Core\Asset\AttachedAssets::createFromRenderArray">createFromRenderArray</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#441"><abbr title="Drupal\Core\Asset\LibraryDiscoveryParser::setOverrideValue">setOverrideValue</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="LibraryDependencyResolver.php.html#50"><abbr title="Drupal\Core\Asset\LibraryDependencyResolver::doGetDependencies">doGetDependencies</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#312"><abbr title="Drupal\Core\Asset\LibraryDiscoveryParser::parseLibraryInfo">parseLibraryInfo</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="LibraryDiscovery.php.html#57"><abbr title="Drupal\Core\Asset\LibraryDiscovery::getLibraryByName">getLibraryByName</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#475"><abbr title="Drupal\Core\Asset\LibraryDiscoveryParser::resolveThemeAssetPath">resolveThemeAssetPath</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AssetResolver.php.html#194"><abbr title="Drupal\Core\Asset\AssetResolver::getJsSettingsAssets">getJsSettingsAssets</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="JsCollectionOptimizer.php.html#193"><abbr title="Drupal\Core\Asset\JsCollectionOptimizer::deleteAll">deleteAll</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="CssOptimizer.php.html#23"><abbr title="Drupal\Core\Asset\CssOptimizer::optimize">optimize</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="CssCollectionOptimizer.php.html#190"><abbr title="Drupal\Core\Asset\CssCollectionOptimizer::deleteAll">deleteAll</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="LibraryDiscovery.php.html#42"><abbr title="Drupal\Core\Asset\LibraryDiscovery::getLibrariesByExtension">getLibrariesByExtension</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="LibraryDiscoveryParser.php.html#61"><abbr title="Drupal\Core\Asset\LibraryDiscoveryParser::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CssOptimizer.php.html#253"><abbr title="Drupal\Core\Asset\CssOptimizer::rewriteFileURI">rewriteFileURI</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CssCollectionOptimizer.php.html#62"><abbr title="Drupal\Core\Asset\CssCollectionOptimizer::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="LibraryDiscoveryCollector.php.html#54"><abbr title="Drupal\Core\Asset\LibraryDiscoveryCollector::getCid">getCid</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CssOptimizer.php.html#186"><abbr title="Drupal\Core\Asset\CssOptimizer::processCss">processCss</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CssCollectionOptimizer.php.html#172"><abbr title="Drupal\Core\Asset\CssCollectionOptimizer::generateHash">generateHash</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="JsCollectionOptimizer.php.html#175"><abbr title="Drupal\Core\Asset\JsCollectionOptimizer::generateHash">generateHash</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CssOptimizer.php.html#157"><abbr title="Drupal\Core\Asset\CssOptimizer::loadNestedFile">loadNestedFile</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AssetDumper.php.html#82"><abbr title="Drupal\Core\Asset\AssetDumper::getFileSystem">getFileSystem</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="JsCollectionOptimizer.php.html#62"><abbr title="Drupal\Core\Asset\JsCollectionOptimizer::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.33-16+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Fri Jun 12 8:21:00 AEST 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([15,0,0,0,0,0,0,0,0,0,0,5], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([65,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,12,"<a href=\"AssetDumper.php.html#12\">Drupal\\Core\\Asset\\AssetDumper<\/a>"],[0,44,"<a href=\"AssetResolver.php.html#15\">Drupal\\Core\\Asset\\AssetResolver<\/a>"],[0,10,"<a href=\"AttachedAssets.php.html#8\">Drupal\\Core\\Asset\\AttachedAssets<\/a>"],[0,7,"<a href=\"CssCollectionGrouper.php.html#8\">Drupal\\Core\\Asset\\CssCollectionGrouper<\/a>"],[0,18,"<a href=\"CssCollectionOptimizer.php.html#11\">Drupal\\Core\\Asset\\CssCollectionOptimizer<\/a>"],[0,7,"<a href=\"CssCollectionRenderer.php.html#10\">Drupal\\Core\\Asset\\CssCollectionRenderer<\/a>"],[0,21,"<a href=\"CssOptimizer.php.html#11\">Drupal\\Core\\Asset\\CssOptimizer<\/a>"],[100,0,"<a href=\"Exception\/IncompleteLibraryDefinitionException.php.html#8\">Drupal\\Core\\Asset\\Exception\\IncompleteLibraryDefinitionException<\/a>"],[100,0,"<a href=\"Exception\/InvalidLibrariesExtendSpecificationException.php.html#8\">Drupal\\Core\\Asset\\Exception\\InvalidLibrariesExtendSpecificationException<\/a>"],[100,0,"<a href=\"Exception\/InvalidLibrariesOverrideSpecificationException.php.html#8\">Drupal\\Core\\Asset\\Exception\\InvalidLibrariesOverrideSpecificationException<\/a>"],[100,0,"<a href=\"Exception\/InvalidLibraryFileException.php.html#8\">Drupal\\Core\\Asset\\Exception\\InvalidLibraryFileException<\/a>"],[100,0,"<a href=\"Exception\/LibraryDefinitionMissingLicenseException.php.html#8\">Drupal\\Core\\Asset\\Exception\\LibraryDefinitionMissingLicenseException<\/a>"],[0,7,"<a href=\"JsCollectionGrouper.php.html#8\">Drupal\\Core\\Asset\\JsCollectionGrouper<\/a>"],[0,20,"<a href=\"JsCollectionOptimizer.php.html#11\">Drupal\\Core\\Asset\\JsCollectionOptimizer<\/a>"],[0,12,"<a href=\"JsCollectionRenderer.php.html#11\">Drupal\\Core\\Asset\\JsCollectionRenderer<\/a>"],[0,6,"<a href=\"JsOptimizer.php.html#10\">Drupal\\Core\\Asset\\JsOptimizer<\/a>"],[0,13,"<a href=\"LibraryDependencyResolver.php.html#8\">Drupal\\Core\\Asset\\LibraryDependencyResolver<\/a>"],[0,8,"<a href=\"LibraryDiscovery.php.html#10\">Drupal\\Core\\Asset\\LibraryDiscovery<\/a>"],[0,15,"<a href=\"LibraryDiscoveryCollector.php.html#16\">Drupal\\Core\\Asset\\LibraryDiscoveryCollector<\/a>"],[0,75,"<a href=\"LibraryDiscoveryParser.php.html#19\">Drupal\\Core\\Asset\\LibraryDiscoveryParser<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"AssetDumper.php.html#27\">Drupal\\Core\\Asset\\AssetDumper::__construct<\/a>"],[0,9,"<a href=\"AssetDumper.php.html#38\">Drupal\\Core\\Asset\\AssetDumper::dump<\/a>"],[0,2,"<a href=\"AssetDumper.php.html#82\">Drupal\\Core\\Asset\\AssetDumper::getFileSystem<\/a>"],[0,1,"<a href=\"AssetResolver.php.html#75\">Drupal\\Core\\Asset\\AssetResolver::__construct<\/a>"],[0,1,"<a href=\"AssetResolver.php.html#102\">Drupal\\Core\\Asset\\AssetResolver::getLibrariesToLoad<\/a>"],[0,12,"<a href=\"AssetResolver.php.html#112\">Drupal\\Core\\Asset\\AssetResolver::getCssAssets<\/a>"],[0,3,"<a href=\"AssetResolver.php.html#194\">Drupal\\Core\\Asset\\AssetResolver::getJsSettingsAssets<\/a>"],[0,22,"<a href=\"AssetResolver.php.html#211\">Drupal\\Core\\Asset\\AssetResolver::getJsAssets<\/a>"],[0,5,"<a href=\"AssetResolver.php.html#371\">Drupal\\Core\\Asset\\AssetResolver::sort<\/a>"],[0,4,"<a href=\"AttachedAssets.php.html#34\">Drupal\\Core\\Asset\\AttachedAssets::createFromRenderArray<\/a>"],[0,1,"<a href=\"AttachedAssets.php.html#52\">Drupal\\Core\\Asset\\AttachedAssets::setLibraries<\/a>"],[0,1,"<a href=\"AttachedAssets.php.html#60\">Drupal\\Core\\Asset\\AttachedAssets::getLibraries<\/a>"],[0,1,"<a href=\"AttachedAssets.php.html#67\">Drupal\\Core\\Asset\\AttachedAssets::setSettings<\/a>"],[0,1,"<a href=\"AttachedAssets.php.html#75\">Drupal\\Core\\Asset\\AttachedAssets::getSettings<\/a>"],[0,1,"<a href=\"AttachedAssets.php.html#82\">Drupal\\Core\\Asset\\AttachedAssets::getAlreadyLoadedLibraries<\/a>"],[0,1,"<a href=\"AttachedAssets.php.html#89\">Drupal\\Core\\Asset\\AttachedAssets::setAlreadyLoadedLibraries<\/a>"],[0,7,"<a href=\"CssCollectionGrouper.php.html#22\">Drupal\\Core\\Asset\\CssCollectionGrouper::group<\/a>"],[0,2,"<a href=\"CssCollectionOptimizer.php.html#62\">Drupal\\Core\\Asset\\CssCollectionOptimizer::__construct<\/a>"],[0,10,"<a href=\"CssCollectionOptimizer.php.html#88\">Drupal\\Core\\Asset\\CssCollectionOptimizer::optimize<\/a>"],[0,2,"<a href=\"CssCollectionOptimizer.php.html#172\">Drupal\\Core\\Asset\\CssCollectionOptimizer::generateHash<\/a>"],[0,1,"<a href=\"CssCollectionOptimizer.php.html#183\">Drupal\\Core\\Asset\\CssCollectionOptimizer::getAll<\/a>"],[0,3,"<a href=\"CssCollectionOptimizer.php.html#190\">Drupal\\Core\\Asset\\CssCollectionOptimizer::deleteAll<\/a>"],[0,1,"<a href=\"CssCollectionRenderer.php.html#25\">Drupal\\Core\\Asset\\CssCollectionRenderer::__construct<\/a>"],[0,6,"<a href=\"CssCollectionRenderer.php.html#32\">Drupal\\Core\\Asset\\CssCollectionRenderer::render<\/a>"],[0,3,"<a href=\"CssOptimizer.php.html#23\">Drupal\\Core\\Asset\\CssOptimizer::optimize<\/a>"],[0,1,"<a href=\"CssOptimizer.php.html#43\">Drupal\\Core\\Asset\\CssOptimizer::clean<\/a>"],[0,1,"<a href=\"CssOptimizer.php.html#54\">Drupal\\Core\\Asset\\CssOptimizer::processFile<\/a>"],[0,10,"<a href=\"CssOptimizer.php.html#93\">Drupal\\Core\\Asset\\CssOptimizer::loadFile<\/a>"],[0,2,"<a href=\"CssOptimizer.php.html#157\">Drupal\\Core\\Asset\\CssOptimizer::loadNestedFile<\/a>"],[0,2,"<a href=\"CssOptimizer.php.html#186\">Drupal\\Core\\Asset\\CssOptimizer::processCss<\/a>"],[0,2,"<a href=\"CssOptimizer.php.html#253\">Drupal\\Core\\Asset\\CssOptimizer::rewriteFileURI<\/a>"],[0,7,"<a href=\"JsCollectionGrouper.php.html#21\">Drupal\\Core\\Asset\\JsCollectionGrouper::group<\/a>"],[0,2,"<a href=\"JsCollectionOptimizer.php.html#62\">Drupal\\Core\\Asset\\JsCollectionOptimizer::__construct<\/a>"],[0,12,"<a href=\"JsCollectionOptimizer.php.html#88\">Drupal\\Core\\Asset\\JsCollectionOptimizer::optimize<\/a>"],[0,2,"<a href=\"JsCollectionOptimizer.php.html#175\">Drupal\\Core\\Asset\\JsCollectionOptimizer::generateHash<\/a>"],[0,1,"<a href=\"JsCollectionOptimizer.php.html#186\">Drupal\\Core\\Asset\\JsCollectionOptimizer::getAll<\/a>"],[0,3,"<a href=\"JsCollectionOptimizer.php.html#193\">Drupal\\Core\\Asset\\JsCollectionOptimizer::deleteAll<\/a>"],[0,1,"<a href=\"JsCollectionRenderer.php.html#26\">Drupal\\Core\\Asset\\JsCollectionRenderer::__construct<\/a>"],[0,11,"<a href=\"JsCollectionRenderer.php.html#39\">Drupal\\Core\\Asset\\JsCollectionRenderer::render<\/a>"],[0,5,"<a href=\"JsOptimizer.php.html#15\">Drupal\\Core\\Asset\\JsOptimizer::optimize<\/a>"],[0,1,"<a href=\"JsOptimizer.php.html#47\">Drupal\\Core\\Asset\\JsOptimizer::clean<\/a>"],[0,1,"<a href=\"LibraryDependencyResolver.php.html#23\">Drupal\\Core\\Asset\\LibraryDependencyResolver::__construct<\/a>"],[0,1,"<a href=\"LibraryDependencyResolver.php.html#30\">Drupal\\Core\\Asset\\LibraryDependencyResolver::getLibrariesWithDependencies<\/a>"],[0,4,"<a href=\"LibraryDependencyResolver.php.html#50\">Drupal\\Core\\Asset\\LibraryDependencyResolver::doGetDependencies<\/a>"],[0,7,"<a href=\"LibraryDependencyResolver.php.html#67\">Drupal\\Core\\Asset\\LibraryDependencyResolver::getMinimalRepresentativeSubset<\/a>"],[0,1,"<a href=\"LibraryDiscovery.php.html#35\">Drupal\\Core\\Asset\\LibraryDiscovery::__construct<\/a>"],[0,3,"<a href=\"LibraryDiscovery.php.html#42\">Drupal\\Core\\Asset\\LibraryDiscovery::getLibrariesByExtension<\/a>"],[0,3,"<a href=\"LibraryDiscovery.php.html#57\">Drupal\\Core\\Asset\\LibraryDiscovery::getLibraryByName<\/a>"],[0,1,"<a href=\"LibraryDiscovery.php.html#71\">Drupal\\Core\\Asset\\LibraryDiscovery::clearCachedDefinitions<\/a>"],[0,1,"<a href=\"LibraryDiscoveryCollector.php.html#44\">Drupal\\Core\\Asset\\LibraryDiscoveryCollector::__construct<\/a>"],[0,2,"<a href=\"LibraryDiscoveryCollector.php.html#54\">Drupal\\Core\\Asset\\LibraryDiscoveryCollector::getCid<\/a>"],[0,1,"<a href=\"LibraryDiscoveryCollector.php.html#65\">Drupal\\Core\\Asset\\LibraryDiscoveryCollector::resolveCacheMiss<\/a>"],[0,5,"<a href=\"LibraryDiscoveryCollector.php.html#86\">Drupal\\Core\\Asset\\LibraryDiscoveryCollector::getLibraryDefinitions<\/a>"],[0,5,"<a href=\"LibraryDiscoveryCollector.php.html#135\">Drupal\\Core\\Asset\\LibraryDiscoveryCollector::applyLibrariesExtend<\/a>"],[0,1,"<a href=\"LibraryDiscoveryCollector.php.html#159\">Drupal\\Core\\Asset\\LibraryDiscoveryCollector::reset<\/a>"],[0,2,"<a href=\"LibraryDiscoveryParser.php.html#61\">Drupal\\Core\\Asset\\LibraryDiscoveryParser::__construct<\/a>"],[0,41,"<a href=\"LibraryDiscoveryParser.php.html#86\">Drupal\\Core\\Asset\\LibraryDiscoveryParser::buildByExtension<\/a>"],[0,4,"<a href=\"LibraryDiscoveryParser.php.html#312\">Drupal\\Core\\Asset\\LibraryDiscoveryParser::parseLibraryInfo<\/a>"],[0,13,"<a href=\"LibraryDiscoveryParser.php.html#350\">Drupal\\Core\\Asset\\LibraryDiscoveryParser::applyLibrariesOverride<\/a>"],[0,1,"<a href=\"LibraryDiscoveryParser.php.html#406\">Drupal\\Core\\Asset\\LibraryDiscoveryParser::drupalGetPath<\/a>"],[0,1,"<a href=\"LibraryDiscoveryParser.php.html#417\">Drupal\\Core\\Asset\\LibraryDiscoveryParser::fileValidUri<\/a>"],[0,1,"<a href=\"LibraryDiscoveryParser.php.html#425\">Drupal\\Core\\Asset\\LibraryDiscoveryParser::isValidUri<\/a>"],[0,4,"<a href=\"LibraryDiscoveryParser.php.html#441\">Drupal\\Core\\Asset\\LibraryDiscoveryParser::setOverrideValue<\/a>"],[0,3,"<a href=\"LibraryDiscoveryParser.php.html#475\">Drupal\\Core\\Asset\\LibraryDiscoveryParser::resolveThemeAssetPath<\/a>"],[0,5,"<a href=\"LibraryDiscoveryParser.php.html#497\">Drupal\\Core\\Asset\\LibraryDiscoveryParser::validateCssLibrary<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

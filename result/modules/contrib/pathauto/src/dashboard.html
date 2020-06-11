@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/crafter/www/drupal-modules.devel/web/modules/contrib/pathauto/src</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../index.html">/home/crafter/www/drupal-modules.devel/web</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">modules</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">contrib</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">pathauto</a></li>
+         <li class="breadcrumb-item"><a href="index.html">src</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AliasCleaner.php.html#18">Drupal\pathauto\AliasCleaner</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoFieldItemList.php.html#7">Drupal\pathauto\PathautoFieldItemList</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/ForumAliasType.php.html#27">Drupal\pathauto\Plugin\pathauto\AliasType\ForumAliasType</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/EntityAliasTypeBase.php.html#28">Drupal\pathauto\Plugin\pathauto\AliasType\EntityAliasTypeBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/Broken.php.html#15">Drupal\pathauto\Plugin\pathauto\AliasType\Broken</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/source/PathautoPattern.php.html#21">Drupal\pathauto\Plugin\migrate\source\PathautoPattern</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Deriver/EntityAliasTypeDeriver.php.html#20">Drupal\pathauto\Plugin\Deriver\EntityAliasTypeDeriver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Action/UpdateAction.php.html#18">Drupal\pathauto\Plugin\Action\UpdateAction</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoWidget.php.html#13">Drupal\pathauto\PathautoWidget</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoState.php.html#11">Drupal\pathauto\PathautoState</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoServiceProvider.php.html#12">Drupal\pathauto\PathautoServiceProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoPatternListBuilder.php.html#11">Drupal\pathauto\PathautoPatternListBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoItem.php.html#12">Drupal\pathauto\PathautoItem</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoGenerator.php.html#24">Drupal\pathauto\PathautoGenerator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LegacyAliasStorageHelper.php.html#16">Drupal\pathauto\LegacyAliasStorageHelper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorageHelper.php.html#17">Drupal\pathauto\AliasStorageHelper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PatternEnableForm.php.html#12">Drupal\pathauto\Form\PatternEnableForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PatternEditForm.php.html#16">Drupal\pathauto\Form\PatternEditForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PatternDuplicateForm.php.html#10">Drupal\pathauto\Form\PatternDuplicateForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PatternDisableForm.php.html#12">Drupal\pathauto\Form\PatternDisableForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoSettingsForm.php.html#23">Drupal\pathauto\Form\PathautoSettingsForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoBulkUpdateForm.php.html#16">Drupal\pathauto\Form\PathautoBulkUpdateForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoAdminDelete.php.html#14">Drupal\pathauto\Form\PathautoAdminDelete</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventSubscriber/PathautoSettingsCacheTag.php.html#14">Drupal\pathauto\EventSubscriber\PathautoSettingsCacheTag</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#66">Drupal\pathauto\Entity\PathautoPattern</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/PathautoCommands.php.html#20">Drupal\pathauto\Commands\PathautoCommands</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasUniquifier.php.html#15">Drupal\pathauto\AliasUniquifier</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasTypeManager.php.html#13">Drupal\pathauto\AliasTypeManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VerboseMessenger.php.html#12">Drupal\pathauto\VerboseMessenger</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Entity/PathautoPattern.php.html#66">Drupal\pathauto\Entity\PathautoPattern</a></td><td class="text-right">1640</td></tr>
+       <tr><td><a href="PathautoGenerator.php.html#24">Drupal\pathauto\PathautoGenerator</a></td><td class="text-right">1560</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/EntityAliasTypeBase.php.html#28">Drupal\pathauto\Plugin\pathauto\AliasType\EntityAliasTypeBase</a></td><td class="text-right">1122</td></tr>
+       <tr><td><a href="AliasCleaner.php.html#18">Drupal\pathauto\AliasCleaner</a></td><td class="text-right">1056</td></tr>
+       <tr><td><a href="Form/PatternEditForm.php.html#16">Drupal\pathauto\Form\PatternEditForm</a></td><td class="text-right">812</td></tr>
+       <tr><td><a href="LegacyAliasStorageHelper.php.html#16">Drupal\pathauto\LegacyAliasStorageHelper</a></td><td class="text-right">650</td></tr>
+       <tr><td><a href="Form/PathautoSettingsForm.php.html#23">Drupal\pathauto\Form\PathautoSettingsForm</a></td><td class="text-right">600</td></tr>
+       <tr><td><a href="Commands/PathautoCommands.php.html#20">Drupal\pathauto\Commands\PathautoCommands</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="AliasStorageHelper.php.html#17">Drupal\pathauto\AliasStorageHelper</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="PathautoState.php.html#11">Drupal\pathauto\PathautoState</a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="Form/PathautoAdminDelete.php.html#14">Drupal\pathauto\Form\PathautoAdminDelete</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="AliasUniquifier.php.html#15">Drupal\pathauto\AliasUniquifier</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Form/PathautoBulkUpdateForm.php.html#16">Drupal\pathauto\Form\PathautoBulkUpdateForm</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Plugin/migrate/source/PathautoPattern.php.html#21">Drupal\pathauto\Plugin\migrate\source\PathautoPattern</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="VerboseMessenger.php.html#12">Drupal\pathauto\VerboseMessenger</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Plugin/Deriver/EntityAliasTypeDeriver.php.html#20">Drupal\pathauto\Plugin\Deriver\EntityAliasTypeDeriver</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PathautoPatternListBuilder.php.html#11">Drupal\pathauto\PathautoPatternListBuilder</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="AliasTypeManager.php.html#13">Drupal\pathauto\AliasTypeManager</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/ForumAliasType.php.html#27">Drupal\pathauto\Plugin\pathauto\AliasType\ForumAliasType</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PathautoItem.php.html#12">Drupal\pathauto\PathautoItem</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="EventSubscriber/PathautoSettingsCacheTag.php.html#14">Drupal\pathauto\EventSubscriber\PathautoSettingsCacheTag</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PathautoFieldItemList.php.html#7">Drupal\pathauto\PathautoFieldItemList</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PathautoWidget.php.html#13">Drupal\pathauto\PathautoWidget</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/Action/UpdateAction.php.html#18">Drupal\pathauto\Plugin\Action\UpdateAction</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PathautoServiceProvider.php.html#12">Drupal\pathauto\PathautoServiceProvider</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AliasCleaner.php.html#89"><abbr title="Drupal\pathauto\AliasCleaner::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoGenerator.php.html#316"><abbr title="Drupal\pathauto\PathautoGenerator::getPatternByEntity">getPatternByEntity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LegacyAliasStorageHelper.php.html#233"><abbr title="Drupal\pathauto\LegacyAliasStorageHelper::countAll">countAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LegacyAliasStorageHelper.php.html#243"><abbr title="Drupal\pathauto\LegacyAliasStorageHelper::deleteMultiple">deleteMultiple</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoFieldItemList.php.html#12"><abbr title="Drupal\pathauto\PathautoFieldItemList::delegateMethod">delegateMethod</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoFieldItemList.php.html#32"><abbr title="Drupal\pathauto\PathautoFieldItemList::computeValue">computeValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoGenerator.php.html#139"><abbr title="Drupal\pathauto\PathautoGenerator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoGenerator.php.html#156"><abbr title="Drupal\pathauto\PathautoGenerator::createEntityAlias">createEntityAlias</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoGenerator.php.html#293"><abbr title="Drupal\pathauto\PathautoGenerator::getPatternByEntityType">getPatternByEntityType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoGenerator.php.html#336"><abbr title="Drupal\pathauto\PathautoGenerator::resetCaches">resetCaches</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LegacyAliasStorageHelper.php.html#198"><abbr title="Drupal\pathauto\LegacyAliasStorageHelper::loadBySourcePrefix">loadBySourcePrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoGenerator.php.html#345"><abbr title="Drupal\pathauto\PathautoGenerator::updateEntityAlias">updateEntityAlias</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoGenerator.php.html#406"><abbr title="Drupal\pathauto\PathautoGenerator::loadTermChildren">loadTermChildren</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoItem.php.html#17"><abbr title="Drupal\pathauto\PathautoItem::propertyDefinitions">propertyDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoItem.php.html#30"><abbr title="Drupal\pathauto\PathautoItem::postSave">postSave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoItem.php.html#42"><abbr title="Drupal\pathauto\PathautoItem::isEmpty">isEmpty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoPatternListBuilder.php.html#21"><abbr title="Drupal\pathauto\PathautoPatternListBuilder::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoPatternListBuilder.php.html#28"><abbr title="Drupal\pathauto\PathautoPatternListBuilder::buildHeader">buildHeader</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoPatternListBuilder.php.html#39"><abbr title="Drupal\pathauto\PathautoPatternListBuilder::buildRow">buildRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LegacyAliasStorageHelper.php.html#215"><abbr title="Drupal\pathauto\LegacyAliasStorageHelper::countBySourcePrefix">countBySourcePrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LegacyAliasStorageHelper.php.html#188"><abbr title="Drupal\pathauto\LegacyAliasStorageHelper::deleteEntityPathAll">deleteEntityPathAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoServiceProvider.php.html#17"><abbr title="Drupal\pathauto\PathautoServiceProvider::alter">alter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PatternEnableForm.php.html#17"><abbr title="Drupal\pathauto\Form\PatternEnableForm::getQuestion">getQuestion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PatternEditForm.php.html#54"><abbr title="Drupal\pathauto\Form\PatternEditForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PatternEditForm.php.html#75"><abbr title="Drupal\pathauto\Form\PatternEditForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PatternEditForm.php.html#85"><abbr title="Drupal\pathauto\Form\PatternEditForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PatternEditForm.php.html#214"><abbr title="Drupal\pathauto\Form\PatternEditForm::buildEntity">buildEntity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PatternEditForm.php.html#274"><abbr title="Drupal\pathauto\Form\PatternEditForm::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PatternEditForm.php.html#285"><abbr title="Drupal\pathauto\Form\PatternEditForm::ajaxReplacePatternForm">ajaxReplacePatternForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PatternEditForm.php.html#292"><abbr title="Drupal\pathauto\Form\PatternEditForm::submitSelectType">submitSelectType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PatternEnableForm.php.html#24"><abbr title="Drupal\pathauto\Form\PatternEnableForm::getCancelUrl">getCancelUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LegacyAliasStorageHelper.php.html#181"><abbr title="Drupal\pathauto\LegacyAliasStorageHelper::deleteAll">deleteAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PatternEnableForm.php.html#31"><abbr title="Drupal\pathauto\Form\PatternEnableForm::getConfirmText">getConfirmText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PatternEnableForm.php.html#38"><abbr title="Drupal\pathauto\Form\PatternEnableForm::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PatternEnableForm.php.html#45"><abbr title="Drupal\pathauto\Form\PatternEnableForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LegacyAliasStorageHelper.php.html#69"><abbr title="Drupal\pathauto\LegacyAliasStorageHelper::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LegacyAliasStorageHelper.php.html#80"><abbr title="Drupal\pathauto\LegacyAliasStorageHelper::getAliasSchemaMaxLength">getAliasSchemaMaxLength</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LegacyAliasStorageHelper.php.html#87"><abbr title="Drupal\pathauto\LegacyAliasStorageHelper::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LegacyAliasStorageHelper.php.html#152"><abbr title="Drupal\pathauto\LegacyAliasStorageHelper::loadBySource">loadBySource</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LegacyAliasStorageHelper.php.html#171"><abbr title="Drupal\pathauto\LegacyAliasStorageHelper::deleteBySourcePrefix">deleteBySourcePrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoPatternListBuilder.php.html#54"><abbr title="Drupal\pathauto\PathautoPatternListBuilder::getDefaultOperations">getDefaultOperations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoState.php.html#38"><abbr title="Drupal\pathauto\PathautoState::getValue">getValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PatternDisableForm.php.html#45"><abbr title="Drupal\pathauto\Form\PatternDisableForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/EntityAliasTypeBase.php.html#316"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\EntityAliasTypeBase::applies">applies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/EntityAliasTypeBase.php.html#132"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\EntityAliasTypeBase::getTokenTypes">getTokenTypes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/EntityAliasTypeBase.php.html#140"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\EntityAliasTypeBase::batchUpdate">batchUpdate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/EntityAliasTypeBase.php.html#203"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\EntityAliasTypeBase::batchDelete">batchDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/EntityAliasTypeBase.php.html#251"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\EntityAliasTypeBase::getEntityTypeId">getEntityTypeId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/EntityAliasTypeBase.php.html#266"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\EntityAliasTypeBase::bulkUpdate">bulkUpdate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/EntityAliasTypeBase.php.html#300"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\EntityAliasTypeBase::bulkDelete">bulkDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/EntityAliasTypeBase.php.html#307"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\EntityAliasTypeBase::calculateDependencies">calculateDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/EntityAliasTypeBase.php.html#323"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\EntityAliasTypeBase::getSourcePrefix">getSourcePrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/EntityAliasTypeBase.php.html#106"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\EntityAliasTypeBase::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/EntityAliasTypeBase.php.html#335"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\EntityAliasTypeBase::setContextValue">setContextValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/EntityAliasTypeBase.php.html#351"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\EntityAliasTypeBase::getTableInfo">getTableInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/ForumAliasType.php.html#58"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\ForumAliasType::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/ForumAliasType.php.html#66"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\ForumAliasType::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/ForumAliasType.php.html#83"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\ForumAliasType::getEntityTypeId">getEntityTypeId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/ForumAliasType.php.html#90"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\ForumAliasType::getSourcePrefix">getSourcePrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/ForumAliasType.php.html#97"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\ForumAliasType::applies">applies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VerboseMessenger.php.html#52"><abbr title="Drupal\pathauto\VerboseMessenger::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/EntityAliasTypeBase.php.html#122"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\EntityAliasTypeBase::getLabel">getLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/EntityAliasTypeBase.php.html#94"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\EntityAliasTypeBase::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoState.php.html#58"><abbr title="Drupal\pathauto\PathautoState::setValue">setValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Action/UpdateAction.php.html#31"><abbr title="Drupal\pathauto\Plugin\Action\UpdateAction::access">access</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoState.php.html#69"><abbr title="Drupal\pathauto\PathautoState::hasValue">hasValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoState.php.html#76"><abbr title="Drupal\pathauto\PathautoState::persist">persist</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoState.php.html#84"><abbr title="Drupal\pathauto\PathautoState::purge">purge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoState.php.html#94"><abbr title="Drupal\pathauto\PathautoState::getCollection">getCollection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoState.php.html#106"><abbr title="Drupal\pathauto\PathautoState::bulkDelete">bulkDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoState.php.html#150"><abbr title="Drupal\pathauto\PathautoState::getPathautoStateKey">getPathautoStateKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathautoWidget.php.html#18"><abbr title="Drupal\pathauto\PathautoWidget::formElement">formElement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Action/UpdateAction.php.html#23"><abbr title="Drupal\pathauto\Plugin\Action\UpdateAction::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Deriver/EntityAliasTypeDeriver.php.html#53"><abbr title="Drupal\pathauto\Plugin\Deriver\EntityAliasTypeDeriver::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/Broken.php.html#20"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\Broken::getLabel">getLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Deriver/EntityAliasTypeDeriver.php.html#63"><abbr title="Drupal\pathauto\Plugin\Deriver\EntityAliasTypeDeriver::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Deriver/EntityAliasTypeDeriver.php.html#75"><abbr title="Drupal\pathauto\Plugin\Deriver\EntityAliasTypeDeriver::getDerivativeDefinitions">getDerivativeDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/source/PathautoPattern.php.html#33"><abbr title="Drupal\pathauto\Plugin\migrate\source\PathautoPattern::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/source/PathautoPattern.php.html#41"><abbr title="Drupal\pathauto\Plugin\migrate\source\PathautoPattern::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/source/PathautoPattern.php.html#56"><abbr title="Drupal\pathauto\Plugin\migrate\source\PathautoPattern::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/source/PathautoPattern.php.html#67"><abbr title="Drupal\pathauto\Plugin\migrate\source\PathautoPattern::getIds">getIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/source/PathautoPattern.php.html#75"><abbr title="Drupal\pathauto\Plugin\migrate\source\PathautoPattern::fields">fields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/migrate/source/PathautoPattern.php.html#85"><abbr title="Drupal\pathauto\Plugin\migrate\source\PathautoPattern::prepareRow">prepareRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PatternDuplicateForm.php.html#15"><abbr title="Drupal\pathauto\Form\PatternDuplicateForm::setEntity">setEntity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PatternDisableForm.php.html#38"><abbr title="Drupal\pathauto\Form\PatternDisableForm::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasCleaner.php.html#101"><abbr title="Drupal\pathauto\AliasCleaner::cleanAlias">cleanAlias</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/PathautoCommands.php.html#186"><abbr title="Drupal\pathauto\Commands\PathautoCommands::interactAliasTypes">interactAliasTypes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasUniquifier.php.html#77"><abbr title="Drupal\pathauto\AliasUniquifier::uniquify">uniquify</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasUniquifier.php.html#101"><abbr title="Drupal\pathauto\AliasUniquifier::isReserved">isReserved</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasUniquifier.php.html#148"><abbr title="Drupal\pathauto\AliasUniquifier::isRoute">isRoute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/PathautoCommands.php.html#58"><abbr title="Drupal\pathauto\Commands\PathautoCommands::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/PathautoCommands.php.html#89"><abbr title="Drupal\pathauto\Commands\PathautoCommands::generateAliases">generateAliases</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/PathautoCommands.php.html#135"><abbr title="Drupal\pathauto\Commands\PathautoCommands::deleteAliases">deleteAliases</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/PathautoCommands.php.html#176"><abbr title="Drupal\pathauto\Commands\PathautoCommands::interactGenerateAliases">interactGenerateAliases</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/PathautoCommands.php.html#203"><abbr title="Drupal\pathauto\Commands\PathautoCommands::validateGenerateAliases">validateGenerateAliases</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasTypeManager.php.html#65"><abbr title="Drupal\pathauto\AliasTypeManager::getVisibleDefinitions">getVisibleDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/PathautoCommands.php.html#224"><abbr title="Drupal\pathauto\Commands\PathautoCommands::validateAliaseTypes">validateAliaseTypes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/PathautoCommands.php.html#261"><abbr title="Drupal\pathauto\Commands\PathautoCommands::getAllowedGenerateActions">getAllowedGenerateActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/PathautoCommands.php.html#286"><abbr title="Drupal\pathauto\Commands\PathautoCommands::getAliasTypes">getAliasTypes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#145"><abbr title="Drupal\pathauto\Entity\PathautoPattern::preSave">preSave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#160"><abbr title="Drupal\pathauto\Entity\PathautoPattern::postDelete">postDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#169"><abbr title="Drupal\pathauto\Entity\PathautoPattern::calculateDependencies">calculateDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#184"><abbr title="Drupal\pathauto\Entity\PathautoPattern::getPattern">getPattern</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#191"><abbr title="Drupal\pathauto\Entity\PathautoPattern::setPattern">setPattern</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasUniquifier.php.html#66"><abbr title="Drupal\pathauto\AliasUniquifier::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasTypeManager.php.html#54"><abbr title="Drupal\pathauto\AliasTypeManager::getFallbackPluginId">getFallbackPluginId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#206"><abbr title="Drupal\pathauto\Entity\PathautoPattern::getAliasType">getAliasType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorageHelper.php.html#98"><abbr title="Drupal\pathauto\AliasStorageHelper::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasCleaner.php.html#125"><abbr title="Drupal\pathauto\AliasCleaner::getCleanSeparators">getCleanSeparators</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasCleaner.php.html#161"><abbr title="Drupal\pathauto\AliasCleaner::cleanString">cleanString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasCleaner.php.html#281"><abbr title="Drupal\pathauto\AliasCleaner::getPunctuationCharacters">getPunctuationCharacters</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasCleaner.php.html#337"><abbr title="Drupal\pathauto\AliasCleaner::cleanTokenValues">cleanTokenValues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasCleaner.php.html#351"><abbr title="Drupal\pathauto\AliasCleaner::resetCaches">resetCaches</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorageHelper.php.html#79"><abbr title="Drupal\pathauto\AliasStorageHelper::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorageHelper.php.html#91"><abbr title="Drupal\pathauto\AliasStorageHelper::getAliasSchemaMaxLength">getAliasSchemaMaxLength</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorageHelper.php.html#164"><abbr title="Drupal\pathauto\AliasStorageHelper::loadBySource">loadBySource</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasTypeManager.php.html#41"><abbr title="Drupal\pathauto\AliasTypeManager::getPluginDefinitionByType">getPluginDefinitionByType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorageHelper.php.html#179"><abbr title="Drupal\pathauto\AliasStorageHelper::deleteBySourcePrefix">deleteBySourcePrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorageHelper.php.html#189"><abbr title="Drupal\pathauto\AliasStorageHelper::deleteAll">deleteAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorageHelper.php.html#201"><abbr title="Drupal\pathauto\AliasStorageHelper::deleteEntityPathAll">deleteEntityPathAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorageHelper.php.html#211"><abbr title="Drupal\pathauto\AliasStorageHelper::loadBySourcePrefix">loadBySourcePrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorageHelper.php.html#221"><abbr title="Drupal\pathauto\AliasStorageHelper::countBySourcePrefix">countBySourcePrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorageHelper.php.html#232"><abbr title="Drupal\pathauto\AliasStorageHelper::countAll">countAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorageHelper.php.html#241"><abbr title="Drupal\pathauto\AliasStorageHelper::deleteMultiple">deleteMultiple</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasTypeManager.php.html#26"><abbr title="Drupal\pathauto\AliasTypeManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#199"><abbr title="Drupal\pathauto\Entity\PathautoPattern::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#216"><abbr title="Drupal\pathauto\Entity\PathautoPattern::getWeight">getWeight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PatternDisableForm.php.html#31"><abbr title="Drupal\pathauto\Form\PatternDisableForm::getConfirmText">getConfirmText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoBulkUpdateForm.php.html#155"><abbr title="Drupal\pathauto\Form\PathautoBulkUpdateForm::batchProcess">batchProcess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoAdminDelete.php.html#178"><abbr title="Drupal\pathauto\Form\PathautoAdminDelete::batchFinished">batchFinished</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoBulkUpdateForm.php.html#46"><abbr title="Drupal\pathauto\Form\PathautoBulkUpdateForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoBulkUpdateForm.php.html#53"><abbr title="Drupal\pathauto\Form\PathautoBulkUpdateForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoBulkUpdateForm.php.html#62"><abbr title="Drupal\pathauto\Form\PathautoBulkUpdateForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoBulkUpdateForm.php.html#69"><abbr title="Drupal\pathauto\Form\PathautoBulkUpdateForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoBulkUpdateForm.php.html#123"><abbr title="Drupal\pathauto\Form\PathautoBulkUpdateForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoBulkUpdateForm.php.html#146"><abbr title="Drupal\pathauto\Form\PathautoBulkUpdateForm::batchStart">batchStart</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoBulkUpdateForm.php.html#164"><abbr title="Drupal\pathauto\Form\PathautoBulkUpdateForm::batchFinished">batchFinished</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoAdminDelete.php.html#161"><abbr title="Drupal\pathauto\Form\PathautoAdminDelete::batchStart">batchStart</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoSettingsForm.php.html#85"><abbr title="Drupal\pathauto\Form\PathautoSettingsForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoSettingsForm.php.html#98"><abbr title="Drupal\pathauto\Form\PathautoSettingsForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoSettingsForm.php.html#113"><abbr title="Drupal\pathauto\Form\PathautoSettingsForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoSettingsForm.php.html#120"><abbr title="Drupal\pathauto\Form\PathautoSettingsForm::getEditableConfigNames">getEditableConfigNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoSettingsForm.php.html#127"><abbr title="Drupal\pathauto\Form\PathautoSettingsForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoSettingsForm.php.html#294"><abbr title="Drupal\pathauto\Form\PathautoSettingsForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PatternDisableForm.php.html#17"><abbr title="Drupal\pathauto\Form\PatternDisableForm::getQuestion">getQuestion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PatternDisableForm.php.html#24"><abbr title="Drupal\pathauto\Form\PatternDisableForm::getCancelUrl">getCancelUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoAdminDelete.php.html#169"><abbr title="Drupal\pathauto\Form\PathautoAdminDelete::batchProcess">batchProcess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoAdminDelete.php.html#121"><abbr title="Drupal\pathauto\Form\PathautoAdminDelete::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#223"><abbr title="Drupal\pathauto\Entity\PathautoPattern::setWeight">setWeight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#314"><abbr title="Drupal\pathauto\Entity\PathautoPattern::getSelectionCondition">getSelectionCondition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#231"><abbr title="Drupal\pathauto\Entity\PathautoPattern::getContexts">getContexts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#249"><abbr title="Drupal\pathauto\Entity\PathautoPattern::hasRelationship">hasRelationship</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#256"><abbr title="Drupal\pathauto\Entity\PathautoPattern::addRelationship">addRelationship</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#268"><abbr title="Drupal\pathauto\Entity\PathautoPattern::replaceRelationship">replaceRelationship</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#280"><abbr title="Drupal\pathauto\Entity\PathautoPattern::removeRelationship">removeRelationship</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#288"><abbr title="Drupal\pathauto\Entity\PathautoPattern::getRelationships">getRelationships</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#295"><abbr title="Drupal\pathauto\Entity\PathautoPattern::getSelectionConditions">getSelectionConditions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#305"><abbr title="Drupal\pathauto\Entity\PathautoPattern::addSelectionCondition">addSelectionCondition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#321"><abbr title="Drupal\pathauto\Entity\PathautoPattern::removeSelectionCondition">removeSelectionCondition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoAdminDelete.php.html#63"><abbr title="Drupal\pathauto\Form\PathautoAdminDelete::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#329"><abbr title="Drupal\pathauto\Entity\PathautoPattern::getSelectionLogic">getSelectionLogic</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#336"><abbr title="Drupal\pathauto\Entity\PathautoPattern::applies">applies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventSubscriber/PathautoSettingsCacheTag.php.html#36"><abbr title="Drupal\pathauto\EventSubscriber\PathautoSettingsCacheTag::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventSubscriber/PathautoSettingsCacheTag.php.html#47"><abbr title="Drupal\pathauto\EventSubscriber\PathautoSettingsCacheTag::onSave">onSave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EventSubscriber/PathautoSettingsCacheTag.php.html#63"><abbr title="Drupal\pathauto\EventSubscriber\PathautoSettingsCacheTag::getSubscribedEvents">getSubscribedEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoAdminDelete.php.html#38"><abbr title="Drupal\pathauto\Form\PathautoAdminDelete::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoAdminDelete.php.html#46"><abbr title="Drupal\pathauto\Form\PathautoAdminDelete::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/PathautoAdminDelete.php.html#56"><abbr title="Drupal\pathauto\Form\PathautoAdminDelete::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VerboseMessenger.php.html#61"><abbr title="Drupal\pathauto\VerboseMessenger::addMessage">addMessage</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AliasCleaner.php.html#161"><abbr title="Drupal\pathauto\AliasCleaner::cleanString">cleanString</abbr></a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="PathautoGenerator.php.html#156"><abbr title="Drupal\pathauto\PathautoGenerator::createEntityAlias">createEntityAlias</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Form/PatternEditForm.php.html#85"><abbr title="Drupal\pathauto\Form\PatternEditForm::buildForm">buildForm</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="PathautoGenerator.php.html#345"><abbr title="Drupal\pathauto\PathautoGenerator::updateEntityAlias">updateEntityAlias</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Form/PathautoSettingsForm.php.html#127"><abbr title="Drupal\pathauto\Form\PathautoSettingsForm::buildForm">buildForm</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#336"><abbr title="Drupal\pathauto\Entity\PathautoPattern::applies">applies</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/EntityAliasTypeBase.php.html#140"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\EntityAliasTypeBase::batchUpdate">batchUpdate</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="LegacyAliasStorageHelper.php.html#87"><abbr title="Drupal\pathauto\LegacyAliasStorageHelper::save">save</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Form/PatternEditForm.php.html#214"><abbr title="Drupal\pathauto\Form\PatternEditForm::buildEntity">buildEntity</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Form/PathautoSettingsForm.php.html#294"><abbr title="Drupal\pathauto\Form\PathautoSettingsForm::submitForm">submitForm</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Form/PathautoAdminDelete.php.html#121"><abbr title="Drupal\pathauto\Form\PathautoAdminDelete::submitForm">submitForm</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="VerboseMessenger.php.html#61"><abbr title="Drupal\pathauto\VerboseMessenger::addMessage">addMessage</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="AliasUniquifier.php.html#101"><abbr title="Drupal\pathauto\AliasUniquifier::isReserved">isReserved</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Plugin/migrate/source/PathautoPattern.php.html#85"><abbr title="Drupal\pathauto\Plugin\migrate\source\PathautoPattern::prepareRow">prepareRow</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PathautoState.php.html#106"><abbr title="Drupal\pathauto\PathautoState::bulkDelete">bulkDelete</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="AliasStorageHelper.php.html#98"><abbr title="Drupal\pathauto\AliasStorageHelper::save">save</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Form/PathautoAdminDelete.php.html#178"><abbr title="Drupal\pathauto\Form\PathautoAdminDelete::batchFinished">batchFinished</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/EntityAliasTypeBase.php.html#266"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\EntityAliasTypeBase::bulkUpdate">bulkUpdate</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Commands/PathautoCommands.php.html#135"><abbr title="Drupal\pathauto\Commands\PathautoCommands::deleteAliases">deleteAliases</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/EntityAliasTypeBase.php.html#203"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\EntityAliasTypeBase::batchDelete">batchDelete</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Plugin/Deriver/EntityAliasTypeDeriver.php.html#75"><abbr title="Drupal\pathauto\Plugin\Deriver\EntityAliasTypeDeriver::getDerivativeDefinitions">getDerivativeDefinitions</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PathautoGenerator.php.html#316"><abbr title="Drupal\pathauto\PathautoGenerator::getPatternByEntity">getPatternByEntity</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="AliasUniquifier.php.html#148"><abbr title="Drupal\pathauto\AliasUniquifier::isRoute">isRoute</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PathautoState.php.html#38"><abbr title="Drupal\pathauto\PathautoState::getValue">getValue</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Form/PathautoBulkUpdateForm.php.html#69"><abbr title="Drupal\pathauto\Form\PathautoBulkUpdateForm::buildForm">buildForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="AliasCleaner.php.html#125"><abbr title="Drupal\pathauto\AliasCleaner::getCleanSeparators">getCleanSeparators</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="LegacyAliasStorageHelper.php.html#188"><abbr title="Drupal\pathauto\LegacyAliasStorageHelper::deleteEntityPathAll">deleteEntityPathAll</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Form/PathautoBulkUpdateForm.php.html#164"><abbr title="Drupal\pathauto\Form\PathautoBulkUpdateForm::batchFinished">batchFinished</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="LegacyAliasStorageHelper.php.html#152"><abbr title="Drupal\pathauto\LegacyAliasStorageHelper::loadBySource">loadBySource</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AliasCleaner.php.html#281"><abbr title="Drupal\pathauto\AliasCleaner::getPunctuationCharacters">getPunctuationCharacters</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PathautoWidget.php.html#18"><abbr title="Drupal\pathauto\PathautoWidget::formElement">formElement</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PathautoState.php.html#150"><abbr title="Drupal\pathauto\PathautoState::getPathautoStateKey">getPathautoStateKey</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Commands/PathautoCommands.php.html#224"><abbr title="Drupal\pathauto\Commands\PathautoCommands::validateAliaseTypes">validateAliaseTypes</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AliasStorageHelper.php.html#201"><abbr title="Drupal\pathauto\AliasStorageHelper::deleteEntityPathAll">deleteEntityPathAll</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Form/PathautoBulkUpdateForm.php.html#123"><abbr title="Drupal\pathauto\Form\PathautoBulkUpdateForm::submitForm">submitForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PathautoFieldItemList.php.html#12"><abbr title="Drupal\pathauto\PathautoFieldItemList::delegateMethod">delegateMethod</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Commands/PathautoCommands.php.html#286"><abbr title="Drupal\pathauto\Commands\PathautoCommands::getAliasTypes">getAliasTypes</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#231"><abbr title="Drupal\pathauto\Entity\PathautoPattern::getContexts">getContexts</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AliasTypeManager.php.html#41"><abbr title="Drupal\pathauto\AliasTypeManager::getPluginDefinitionByType">getPluginDefinitionByType</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AliasCleaner.php.html#337"><abbr title="Drupal\pathauto\AliasCleaner::cleanTokenValues">cleanTokenValues</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="EventSubscriber/PathautoSettingsCacheTag.php.html#47"><abbr title="Drupal\pathauto\EventSubscriber\PathautoSettingsCacheTag::onSave">onSave</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AliasUniquifier.php.html#77"><abbr title="Drupal\pathauto\AliasUniquifier::uniquify">uniquify</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PathautoState.php.html#58"><abbr title="Drupal\pathauto\PathautoState::setValue">setValue</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/Action/UpdateAction.php.html#31"><abbr title="Drupal\pathauto\Plugin\Action\UpdateAction::access">access</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#256"><abbr title="Drupal\pathauto\Entity\PathautoPattern::addRelationship">addRelationship</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Commands/PathautoCommands.php.html#176"><abbr title="Drupal\pathauto\Commands\PathautoCommands::interactGenerateAliases">interactGenerateAliases</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Commands/PathautoCommands.php.html#203"><abbr title="Drupal\pathauto\Commands\PathautoCommands::validateGenerateAliases">validateGenerateAliases</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Commands/PathautoCommands.php.html#186"><abbr title="Drupal\pathauto\Commands\PathautoCommands::interactAliasTypes">interactAliasTypes</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PathautoServiceProvider.php.html#17"><abbr title="Drupal\pathauto\PathautoServiceProvider::alter">alter</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Commands/PathautoCommands.php.html#89"><abbr title="Drupal\pathauto\Commands\PathautoCommands::generateAliases">generateAliases</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/EntityAliasTypeBase.php.html#316"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\EntityAliasTypeBase::applies">applies</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/EntityAliasTypeBase.php.html#323"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\EntityAliasTypeBase::getSourcePrefix">getSourcePrefix</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/EntityAliasTypeBase.php.html#351"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\EntityAliasTypeBase::getTableInfo">getTableInfo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/pathauto/AliasType/ForumAliasType.php.html#97"><abbr title="Drupal\pathauto\Plugin\pathauto\AliasType\ForumAliasType::applies">applies</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Commands/PathautoCommands.php.html#261"><abbr title="Drupal\pathauto\Commands\PathautoCommands::getAllowedGenerateActions">getAllowedGenerateActions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PathautoGenerator.php.html#293"><abbr title="Drupal\pathauto\PathautoGenerator::getPatternByEntityType">getPatternByEntityType</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PathautoPatternListBuilder.php.html#54"><abbr title="Drupal\pathauto\PathautoPatternListBuilder::getDefaultOperations">getDefaultOperations</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#169"><abbr title="Drupal\pathauto\Entity\PathautoPattern::calculateDependencies">calculateDependencies</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#295"><abbr title="Drupal\pathauto\Entity\PathautoPattern::getSelectionConditions">getSelectionConditions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Form/PathautoAdminDelete.php.html#63"><abbr title="Drupal\pathauto\Form\PathautoAdminDelete::buildForm">buildForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#206"><abbr title="Drupal\pathauto\Entity\PathautoPattern::getAliasType">getAliasType</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AliasStorageHelper.php.html#189"><abbr title="Drupal\pathauto\AliasStorageHelper::deleteAll">deleteAll</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AliasStorageHelper.php.html#179"><abbr title="Drupal\pathauto\AliasStorageHelper::deleteBySourcePrefix">deleteBySourcePrefix</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AliasStorageHelper.php.html#164"><abbr title="Drupal\pathauto\AliasStorageHelper::loadBySource">loadBySource</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#145"><abbr title="Drupal\pathauto\Entity\PathautoPattern::preSave">preSave</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PathautoPatternListBuilder.php.html#39"><abbr title="Drupal\pathauto\PathautoPatternListBuilder::buildRow">buildRow</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="LegacyAliasStorageHelper.php.html#243"><abbr title="Drupal\pathauto\LegacyAliasStorageHelper::deleteMultiple">deleteMultiple</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PathautoFieldItemList.php.html#32"><abbr title="Drupal\pathauto\PathautoFieldItemList::computeValue">computeValue</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PathautoGenerator.php.html#139"><abbr title="Drupal\pathauto\PathautoGenerator::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AliasStorageHelper.php.html#79"><abbr title="Drupal\pathauto\AliasStorageHelper::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Entity/PathautoPattern.php.html#268"><abbr title="Drupal\pathauto\Entity\PathautoPattern::replaceRelationship">replaceRelationship</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PathautoItem.php.html#30"><abbr title="Drupal\pathauto\PathautoItem::postSave">postSave</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PathautoItem.php.html#42"><abbr title="Drupal\pathauto\PathautoItem::isEmpty">isEmpty</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="LegacyAliasStorageHelper.php.html#171"><abbr title="Drupal\pathauto\LegacyAliasStorageHelper::deleteBySourcePrefix">deleteBySourcePrefix</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.33-16+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Fri Jun 12 8:21:00 AEST 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([29,0,0,0,0,0,0,0,0,0,0,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([169,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,32,"<a href=\"AliasCleaner.php.html#18\">Drupal\\pathauto\\AliasCleaner<\/a>"],[0,22,"<a href=\"AliasStorageHelper.php.html#17\">Drupal\\pathauto\\AliasStorageHelper<\/a>"],[0,6,"<a href=\"AliasTypeManager.php.html#13\">Drupal\\pathauto\\AliasTypeManager<\/a>"],[0,15,"<a href=\"AliasUniquifier.php.html#15\">Drupal\\pathauto\\AliasUniquifier<\/a>"],[100,0,"<a href=\"Annotation\/AliasType.php.html#12\">Drupal\\pathauto\\Annotation\\AliasType<\/a>"],[0,22,"<a href=\"Commands\/PathautoCommands.php.html#20\">Drupal\\pathauto\\Commands\\PathautoCommands<\/a>"],[0,40,"<a href=\"Entity\/PathautoPattern.php.html#66\">Drupal\\pathauto\\Entity\\PathautoPattern<\/a>"],[0,5,"<a href=\"EventSubscriber\/PathautoSettingsCacheTag.php.html#14\">Drupal\\pathauto\\EventSubscriber\\PathautoSettingsCacheTag<\/a>"],[0,19,"<a href=\"Form\/PathautoAdminDelete.php.html#14\">Drupal\\pathauto\\Form\\PathautoAdminDelete<\/a>"],[0,15,"<a href=\"Form\/PathautoBulkUpdateForm.php.html#16\">Drupal\\pathauto\\Form\\PathautoBulkUpdateForm<\/a>"],[0,24,"<a href=\"Form\/PathautoSettingsForm.php.html#23\">Drupal\\pathauto\\Form\\PathautoSettingsForm<\/a>"],[0,5,"<a href=\"Form\/PatternDisableForm.php.html#12\">Drupal\\pathauto\\Form\\PatternDisableForm<\/a>"],[0,1,"<a href=\"Form\/PatternDuplicateForm.php.html#10\">Drupal\\pathauto\\Form\\PatternDuplicateForm<\/a>"],[0,28,"<a href=\"Form\/PatternEditForm.php.html#16\">Drupal\\pathauto\\Form\\PatternEditForm<\/a>"],[0,5,"<a href=\"Form\/PatternEnableForm.php.html#12\">Drupal\\pathauto\\Form\\PatternEnableForm<\/a>"],[0,25,"<a href=\"LegacyAliasStorageHelper.php.html#16\">Drupal\\pathauto\\LegacyAliasStorageHelper<\/a>"],[0,5,"<a href=\"PathautoFieldItemList.php.html#7\">Drupal\\pathauto\\PathautoFieldItemList<\/a>"],[0,39,"<a href=\"PathautoGenerator.php.html#24\">Drupal\\pathauto\\PathautoGenerator<\/a>"],[0,5,"<a href=\"PathautoItem.php.html#12\">Drupal\\pathauto\\PathautoItem<\/a>"],[0,6,"<a href=\"PathautoPatternListBuilder.php.html#11\">Drupal\\pathauto\\PathautoPatternListBuilder<\/a>"],[0,2,"<a href=\"PathautoServiceProvider.php.html#12\">Drupal\\pathauto\\PathautoServiceProvider<\/a>"],[0,20,"<a href=\"PathautoState.php.html#11\">Drupal\\pathauto\\PathautoState<\/a>"],[0,3,"<a href=\"PathautoWidget.php.html#13\">Drupal\\pathauto\\PathautoWidget<\/a>"],[0,3,"<a href=\"Plugin\/Action\/UpdateAction.php.html#18\">Drupal\\pathauto\\Plugin\\Action\\UpdateAction<\/a>"],[0,7,"<a href=\"Plugin\/Deriver\/EntityAliasTypeDeriver.php.html#20\">Drupal\\pathauto\\Plugin\\Deriver\\EntityAliasTypeDeriver<\/a>"],[0,11,"<a href=\"Plugin\/migrate\/source\/PathautoPattern.php.html#21\">Drupal\\pathauto\\Plugin\\migrate\\source\\PathautoPattern<\/a>"],[0,1,"<a href=\"Plugin\/pathauto\/AliasType\/Broken.php.html#15\">Drupal\\pathauto\\Plugin\\pathauto\\AliasType\\Broken<\/a>"],[0,33,"<a href=\"Plugin\/pathauto\/AliasType\/EntityAliasTypeBase.php.html#28\">Drupal\\pathauto\\Plugin\\pathauto\\AliasType\\EntityAliasTypeBase<\/a>"],[0,6,"<a href=\"Plugin\/pathauto\/AliasType\/ForumAliasType.php.html#27\">Drupal\\pathauto\\Plugin\\pathauto\\AliasType\\ForumAliasType<\/a>"],[0,8,"<a href=\"VerboseMessenger.php.html#12\">Drupal\\pathauto\\VerboseMessenger<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"AliasCleaner.php.html#89\">Drupal\\pathauto\\AliasCleaner::__construct<\/a>"],[0,1,"<a href=\"AliasCleaner.php.html#101\">Drupal\\pathauto\\AliasCleaner::cleanAlias<\/a>"],[0,4,"<a href=\"AliasCleaner.php.html#125\">Drupal\\pathauto\\AliasCleaner::getCleanSeparators<\/a>"],[0,19,"<a href=\"AliasCleaner.php.html#161\">Drupal\\pathauto\\AliasCleaner::cleanString<\/a>"],[0,3,"<a href=\"AliasCleaner.php.html#281\">Drupal\\pathauto\\AliasCleaner::getPunctuationCharacters<\/a>"],[0,3,"<a href=\"AliasCleaner.php.html#337\">Drupal\\pathauto\\AliasCleaner::cleanTokenValues<\/a>"],[0,1,"<a href=\"AliasCleaner.php.html#351\">Drupal\\pathauto\\AliasCleaner::resetCaches<\/a>"],[0,2,"<a href=\"AliasStorageHelper.php.html#79\">Drupal\\pathauto\\AliasStorageHelper::__construct<\/a>"],[0,1,"<a href=\"AliasStorageHelper.php.html#91\">Drupal\\pathauto\\AliasStorageHelper::getAliasSchemaMaxLength<\/a>"],[0,6,"<a href=\"AliasStorageHelper.php.html#98\">Drupal\\pathauto\\AliasStorageHelper::save<\/a>"],[0,2,"<a href=\"AliasStorageHelper.php.html#164\">Drupal\\pathauto\\AliasStorageHelper::loadBySource<\/a>"],[0,2,"<a href=\"AliasStorageHelper.php.html#179\">Drupal\\pathauto\\AliasStorageHelper::deleteBySourcePrefix<\/a>"],[0,2,"<a href=\"AliasStorageHelper.php.html#189\">Drupal\\pathauto\\AliasStorageHelper::deleteAll<\/a>"],[0,3,"<a href=\"AliasStorageHelper.php.html#201\">Drupal\\pathauto\\AliasStorageHelper::deleteEntityPathAll<\/a>"],[0,1,"<a href=\"AliasStorageHelper.php.html#211\">Drupal\\pathauto\\AliasStorageHelper::loadBySourcePrefix<\/a>"],[0,1,"<a href=\"AliasStorageHelper.php.html#221\">Drupal\\pathauto\\AliasStorageHelper::countBySourcePrefix<\/a>"],[0,1,"<a href=\"AliasStorageHelper.php.html#232\">Drupal\\pathauto\\AliasStorageHelper::countAll<\/a>"],[0,1,"<a href=\"AliasStorageHelper.php.html#241\">Drupal\\pathauto\\AliasStorageHelper::deleteMultiple<\/a>"],[0,1,"<a href=\"AliasTypeManager.php.html#26\">Drupal\\pathauto\\AliasTypeManager::__construct<\/a>"],[0,3,"<a href=\"AliasTypeManager.php.html#41\">Drupal\\pathauto\\AliasTypeManager::getPluginDefinitionByType<\/a>"],[0,1,"<a href=\"AliasTypeManager.php.html#54\">Drupal\\pathauto\\AliasTypeManager::getFallbackPluginId<\/a>"],[0,1,"<a href=\"AliasTypeManager.php.html#65\">Drupal\\pathauto\\AliasTypeManager::getVisibleDefinitions<\/a>"],[0,1,"<a href=\"AliasUniquifier.php.html#66\">Drupal\\pathauto\\AliasUniquifier::__construct<\/a>"],[0,3,"<a href=\"AliasUniquifier.php.html#77\">Drupal\\pathauto\\AliasUniquifier::uniquify<\/a>"],[0,6,"<a href=\"AliasUniquifier.php.html#101\">Drupal\\pathauto\\AliasUniquifier::isReserved<\/a>"],[0,5,"<a href=\"AliasUniquifier.php.html#148\">Drupal\\pathauto\\AliasUniquifier::isRoute<\/a>"],[0,1,"<a href=\"Commands\/PathautoCommands.php.html#58\">Drupal\\pathauto\\Commands\\PathautoCommands::__construct<\/a>"],[0,2,"<a href=\"Commands\/PathautoCommands.php.html#89\">Drupal\\pathauto\\Commands\\PathautoCommands::generateAliases<\/a>"],[0,5,"<a href=\"Commands\/PathautoCommands.php.html#135\">Drupal\\pathauto\\Commands\\PathautoCommands::deleteAliases<\/a>"],[0,2,"<a href=\"Commands\/PathautoCommands.php.html#176\">Drupal\\pathauto\\Commands\\PathautoCommands::interactGenerateAliases<\/a>"],[0,2,"<a href=\"Commands\/PathautoCommands.php.html#186\">Drupal\\pathauto\\Commands\\PathautoCommands::interactAliasTypes<\/a>"],[0,2,"<a href=\"Commands\/PathautoCommands.php.html#203\">Drupal\\pathauto\\Commands\\PathautoCommands::validateGenerateAliases<\/a>"],[0,3,"<a href=\"Commands\/PathautoCommands.php.html#224\">Drupal\\pathauto\\Commands\\PathautoCommands::validateAliaseTypes<\/a>"],[0,2,"<a href=\"Commands\/PathautoCommands.php.html#261\">Drupal\\pathauto\\Commands\\PathautoCommands::getAllowedGenerateActions<\/a>"],[0,3,"<a href=\"Commands\/PathautoCommands.php.html#286\">Drupal\\pathauto\\Commands\\PathautoCommands::getAliasTypes<\/a>"],[0,2,"<a href=\"Entity\/PathautoPattern.php.html#145\">Drupal\\pathauto\\Entity\\PathautoPattern::preSave<\/a>"],[0,1,"<a href=\"Entity\/PathautoPattern.php.html#160\">Drupal\\pathauto\\Entity\\PathautoPattern::postDelete<\/a>"],[0,2,"<a href=\"Entity\/PathautoPattern.php.html#169\">Drupal\\pathauto\\Entity\\PathautoPattern::calculateDependencies<\/a>"],[0,1,"<a href=\"Entity\/PathautoPattern.php.html#184\">Drupal\\pathauto\\Entity\\PathautoPattern::getPattern<\/a>"],[0,1,"<a href=\"Entity\/PathautoPattern.php.html#191\">Drupal\\pathauto\\Entity\\PathautoPattern::setPattern<\/a>"],[0,1,"<a href=\"Entity\/PathautoPattern.php.html#199\">Drupal\\pathauto\\Entity\\PathautoPattern::getType<\/a>"],[0,2,"<a href=\"Entity\/PathautoPattern.php.html#206\">Drupal\\pathauto\\Entity\\PathautoPattern::getAliasType<\/a>"],[0,1,"<a href=\"Entity\/PathautoPattern.php.html#216\">Drupal\\pathauto\\Entity\\PathautoPattern::getWeight<\/a>"],[0,1,"<a href=\"Entity\/PathautoPattern.php.html#223\">Drupal\\pathauto\\Entity\\PathautoPattern::setWeight<\/a>"],[0,3,"<a href=\"Entity\/PathautoPattern.php.html#231\">Drupal\\pathauto\\Entity\\PathautoPattern::getContexts<\/a>"],[0,1,"<a href=\"Entity\/PathautoPattern.php.html#249\">Drupal\\pathauto\\Entity\\PathautoPattern::hasRelationship<\/a>"],[0,2,"<a href=\"Entity\/PathautoPattern.php.html#256\">Drupal\\pathauto\\Entity\\PathautoPattern::addRelationship<\/a>"],[0,2,"<a href=\"Entity\/PathautoPattern.php.html#268\">Drupal\\pathauto\\Entity\\PathautoPattern::replaceRelationship<\/a>"],[0,1,"<a href=\"Entity\/PathautoPattern.php.html#280\">Drupal\\pathauto\\Entity\\PathautoPattern::removeRelationship<\/a>"],[0,1,"<a href=\"Entity\/PathautoPattern.php.html#288\">Drupal\\pathauto\\Entity\\PathautoPattern::getRelationships<\/a>"],[0,2,"<a href=\"Entity\/PathautoPattern.php.html#295\">Drupal\\pathauto\\Entity\\PathautoPattern::getSelectionConditions<\/a>"],[0,1,"<a href=\"Entity\/PathautoPattern.php.html#305\">Drupal\\pathauto\\Entity\\PathautoPattern::addSelectionCondition<\/a>"],[0,1,"<a href=\"Entity\/PathautoPattern.php.html#314\">Drupal\\pathauto\\Entity\\PathautoPattern::getSelectionCondition<\/a>"],[0,1,"<a href=\"Entity\/PathautoPattern.php.html#321\">Drupal\\pathauto\\Entity\\PathautoPattern::removeSelectionCondition<\/a>"],[0,1,"<a href=\"Entity\/PathautoPattern.php.html#329\">Drupal\\pathauto\\Entity\\PathautoPattern::getSelectionLogic<\/a>"],[0,12,"<a href=\"Entity\/PathautoPattern.php.html#336\">Drupal\\pathauto\\Entity\\PathautoPattern::applies<\/a>"],[0,1,"<a href=\"EventSubscriber\/PathautoSettingsCacheTag.php.html#36\">Drupal\\pathauto\\EventSubscriber\\PathautoSettingsCacheTag::__construct<\/a>"],[0,3,"<a href=\"EventSubscriber\/PathautoSettingsCacheTag.php.html#47\">Drupal\\pathauto\\EventSubscriber\\PathautoSettingsCacheTag::onSave<\/a>"],[0,1,"<a href=\"EventSubscriber\/PathautoSettingsCacheTag.php.html#63\">Drupal\\pathauto\\EventSubscriber\\PathautoSettingsCacheTag::getSubscribedEvents<\/a>"],[0,1,"<a href=\"Form\/PathautoAdminDelete.php.html#38\">Drupal\\pathauto\\Form\\PathautoAdminDelete::__construct<\/a>"],[0,1,"<a href=\"Form\/PathautoAdminDelete.php.html#46\">Drupal\\pathauto\\Form\\PathautoAdminDelete::create<\/a>"],[0,1,"<a href=\"Form\/PathautoAdminDelete.php.html#56\">Drupal\\pathauto\\Form\\PathautoAdminDelete::getFormId<\/a>"],[0,2,"<a href=\"Form\/PathautoAdminDelete.php.html#63\">Drupal\\pathauto\\Form\\PathautoAdminDelete::buildForm<\/a>"],[0,7,"<a href=\"Form\/PathautoAdminDelete.php.html#121\">Drupal\\pathauto\\Form\\PathautoAdminDelete::submitForm<\/a>"],[0,1,"<a href=\"Form\/PathautoAdminDelete.php.html#161\">Drupal\\pathauto\\Form\\PathautoAdminDelete::batchStart<\/a>"],[0,1,"<a href=\"Form\/PathautoAdminDelete.php.html#169\">Drupal\\pathauto\\Form\\PathautoAdminDelete::batchProcess<\/a>"],[0,5,"<a href=\"Form\/PathautoAdminDelete.php.html#178\">Drupal\\pathauto\\Form\\PathautoAdminDelete::batchFinished<\/a>"],[0,1,"<a href=\"Form\/PathautoBulkUpdateForm.php.html#46\">Drupal\\pathauto\\Form\\PathautoBulkUpdateForm::__construct<\/a>"],[0,1,"<a href=\"Form\/PathautoBulkUpdateForm.php.html#53\">Drupal\\pathauto\\Form\\PathautoBulkUpdateForm::create<\/a>"],[0,1,"<a href=\"Form\/PathautoBulkUpdateForm.php.html#62\">Drupal\\pathauto\\Form\\PathautoBulkUpdateForm::getFormId<\/a>"],[0,4,"<a href=\"Form\/PathautoBulkUpdateForm.php.html#69\">Drupal\\pathauto\\Form\\PathautoBulkUpdateForm::buildForm<\/a>"],[0,3,"<a href=\"Form\/PathautoBulkUpdateForm.php.html#123\">Drupal\\pathauto\\Form\\PathautoBulkUpdateForm::submitForm<\/a>"],[0,1,"<a href=\"Form\/PathautoBulkUpdateForm.php.html#146\">Drupal\\pathauto\\Form\\PathautoBulkUpdateForm::batchStart<\/a>"],[0,1,"<a href=\"Form\/PathautoBulkUpdateForm.php.html#155\">Drupal\\pathauto\\Form\\PathautoBulkUpdateForm::batchProcess<\/a>"],[0,3,"<a href=\"Form\/PathautoBulkUpdateForm.php.html#164\">Drupal\\pathauto\\Form\\PathautoBulkUpdateForm::batchFinished<\/a>"],[0,1,"<a href=\"Form\/PathautoSettingsForm.php.html#85\">Drupal\\pathauto\\Form\\PathautoSettingsForm::__construct<\/a>"],[0,1,"<a href=\"Form\/PathautoSettingsForm.php.html#98\">Drupal\\pathauto\\Form\\PathautoSettingsForm::create<\/a>"],[0,1,"<a href=\"Form\/PathautoSettingsForm.php.html#113\">Drupal\\pathauto\\Form\\PathautoSettingsForm::getFormId<\/a>"],[0,1,"<a href=\"Form\/PathautoSettingsForm.php.html#120\">Drupal\\pathauto\\Form\\PathautoSettingsForm::getEditableConfigNames<\/a>"],[0,12,"<a href=\"Form\/PathautoSettingsForm.php.html#127\">Drupal\\pathauto\\Form\\PathautoSettingsForm::buildForm<\/a>"],[0,8,"<a href=\"Form\/PathautoSettingsForm.php.html#294\">Drupal\\pathauto\\Form\\PathautoSettingsForm::submitForm<\/a>"],[0,1,"<a href=\"Form\/PatternDisableForm.php.html#17\">Drupal\\pathauto\\Form\\PatternDisableForm::getQuestion<\/a>"],[0,1,"<a href=\"Form\/PatternDisableForm.php.html#24\">Drupal\\pathauto\\Form\\PatternDisableForm::getCancelUrl<\/a>"],[0,1,"<a href=\"Form\/PatternDisableForm.php.html#31\">Drupal\\pathauto\\Form\\PatternDisableForm::getConfirmText<\/a>"],[0,1,"<a href=\"Form\/PatternDisableForm.php.html#38\">Drupal\\pathauto\\Form\\PatternDisableForm::getDescription<\/a>"],[0,1,"<a href=\"Form\/PatternDisableForm.php.html#45\">Drupal\\pathauto\\Form\\PatternDisableForm::submitForm<\/a>"],[0,1,"<a href=\"Form\/PatternDuplicateForm.php.html#15\">Drupal\\pathauto\\Form\\PatternDuplicateForm::setEntity<\/a>"],[0,1,"<a href=\"Form\/PatternEditForm.php.html#54\">Drupal\\pathauto\\Form\\PatternEditForm::create<\/a>"],[0,1,"<a href=\"Form\/PatternEditForm.php.html#75\">Drupal\\pathauto\\Form\\PatternEditForm::__construct<\/a>"],[0,14,"<a href=\"Form\/PatternEditForm.php.html#85\">Drupal\\pathauto\\Form\\PatternEditForm::buildForm<\/a>"],[0,9,"<a href=\"Form\/PatternEditForm.php.html#214\">Drupal\\pathauto\\Form\\PatternEditForm::buildEntity<\/a>"],[0,1,"<a href=\"Form\/PatternEditForm.php.html#274\">Drupal\\pathauto\\Form\\PatternEditForm::save<\/a>"],[0,1,"<a href=\"Form\/PatternEditForm.php.html#285\">Drupal\\pathauto\\Form\\PatternEditForm::ajaxReplacePatternForm<\/a>"],[0,1,"<a href=\"Form\/PatternEditForm.php.html#292\">Drupal\\pathauto\\Form\\PatternEditForm::submitSelectType<\/a>"],[0,1,"<a href=\"Form\/PatternEnableForm.php.html#17\">Drupal\\pathauto\\Form\\PatternEnableForm::getQuestion<\/a>"],[0,1,"<a href=\"Form\/PatternEnableForm.php.html#24\">Drupal\\pathauto\\Form\\PatternEnableForm::getCancelUrl<\/a>"],[0,1,"<a href=\"Form\/PatternEnableForm.php.html#31\">Drupal\\pathauto\\Form\\PatternEnableForm::getConfirmText<\/a>"],[0,1,"<a href=\"Form\/PatternEnableForm.php.html#38\">Drupal\\pathauto\\Form\\PatternEnableForm::getDescription<\/a>"],[0,1,"<a href=\"Form\/PatternEnableForm.php.html#45\">Drupal\\pathauto\\Form\\PatternEnableForm::submitForm<\/a>"],[0,1,"<a href=\"LegacyAliasStorageHelper.php.html#69\">Drupal\\pathauto\\LegacyAliasStorageHelper::__construct<\/a>"],[0,1,"<a href=\"LegacyAliasStorageHelper.php.html#80\">Drupal\\pathauto\\LegacyAliasStorageHelper::getAliasSchemaMaxLength<\/a>"],[0,9,"<a href=\"LegacyAliasStorageHelper.php.html#87\">Drupal\\pathauto\\LegacyAliasStorageHelper::save<\/a>"],[0,3,"<a href=\"LegacyAliasStorageHelper.php.html#152\">Drupal\\pathauto\\LegacyAliasStorageHelper::loadBySource<\/a>"],[0,2,"<a href=\"LegacyAliasStorageHelper.php.html#171\">Drupal\\pathauto\\LegacyAliasStorageHelper::deleteBySourcePrefix<\/a>"],[0,1,"<a href=\"LegacyAliasStorageHelper.php.html#181\">Drupal\\pathauto\\LegacyAliasStorageHelper::deleteAll<\/a>"],[0,3,"<a href=\"LegacyAliasStorageHelper.php.html#188\">Drupal\\pathauto\\LegacyAliasStorageHelper::deleteEntityPathAll<\/a>"],[0,1,"<a href=\"LegacyAliasStorageHelper.php.html#198\">Drupal\\pathauto\\LegacyAliasStorageHelper::loadBySourcePrefix<\/a>"],[0,1,"<a href=\"LegacyAliasStorageHelper.php.html#215\">Drupal\\pathauto\\LegacyAliasStorageHelper::countBySourcePrefix<\/a>"],[0,1,"<a href=\"LegacyAliasStorageHelper.php.html#233\">Drupal\\pathauto\\LegacyAliasStorageHelper::countAll<\/a>"],[0,2,"<a href=\"LegacyAliasStorageHelper.php.html#243\">Drupal\\pathauto\\LegacyAliasStorageHelper::deleteMultiple<\/a>"],[0,3,"<a href=\"PathautoFieldItemList.php.html#12\">Drupal\\pathauto\\PathautoFieldItemList::delegateMethod<\/a>"],[0,2,"<a href=\"PathautoFieldItemList.php.html#32\">Drupal\\pathauto\\PathautoFieldItemList::computeValue<\/a>"],[0,2,"<a href=\"PathautoGenerator.php.html#139\">Drupal\\pathauto\\PathautoGenerator::__construct<\/a>"],[0,15,"<a href=\"PathautoGenerator.php.html#156\">Drupal\\pathauto\\PathautoGenerator::createEntityAlias<\/a>"],[0,2,"<a href=\"PathautoGenerator.php.html#293\">Drupal\\pathauto\\PathautoGenerator::getPatternByEntityType<\/a>"],[0,5,"<a href=\"PathautoGenerator.php.html#316\">Drupal\\pathauto\\PathautoGenerator::getPatternByEntity<\/a>"],[0,1,"<a href=\"PathautoGenerator.php.html#336\">Drupal\\pathauto\\PathautoGenerator::resetCaches<\/a>"],[0,13,"<a href=\"PathautoGenerator.php.html#345\">Drupal\\pathauto\\PathautoGenerator::updateEntityAlias<\/a>"],[0,1,"<a href=\"PathautoGenerator.php.html#406\">Drupal\\pathauto\\PathautoGenerator::loadTermChildren<\/a>"],[0,1,"<a href=\"PathautoItem.php.html#17\">Drupal\\pathauto\\PathautoItem::propertyDefinitions<\/a>"],[0,2,"<a href=\"PathautoItem.php.html#30\">Drupal\\pathauto\\PathautoItem::postSave<\/a>"],[0,2,"<a href=\"PathautoItem.php.html#42\">Drupal\\pathauto\\PathautoItem::isEmpty<\/a>"],[0,1,"<a href=\"PathautoPatternListBuilder.php.html#21\">Drupal\\pathauto\\PathautoPatternListBuilder::getFormId<\/a>"],[0,1,"<a href=\"PathautoPatternListBuilder.php.html#28\">Drupal\\pathauto\\PathautoPatternListBuilder::buildHeader<\/a>"],[0,2,"<a href=\"PathautoPatternListBuilder.php.html#39\">Drupal\\pathauto\\PathautoPatternListBuilder::buildRow<\/a>"],[0,2,"<a href=\"PathautoPatternListBuilder.php.html#54\">Drupal\\pathauto\\PathautoPatternListBuilder::getDefaultOperations<\/a>"],[0,2,"<a href=\"PathautoServiceProvider.php.html#17\">Drupal\\pathauto\\PathautoServiceProvider::alter<\/a>"],[0,4,"<a href=\"PathautoState.php.html#38\">Drupal\\pathauto\\PathautoState::getValue<\/a>"],[0,3,"<a href=\"PathautoState.php.html#58\">Drupal\\pathauto\\PathautoState::setValue<\/a>"],[0,1,"<a href=\"PathautoState.php.html#69\">Drupal\\pathauto\\PathautoState::hasValue<\/a>"],[0,1,"<a href=\"PathautoState.php.html#76\">Drupal\\pathauto\\PathautoState::persist<\/a>"],[0,1,"<a href=\"PathautoState.php.html#84\">Drupal\\pathauto\\PathautoState::purge<\/a>"],[0,1,"<a href=\"PathautoState.php.html#94\">Drupal\\pathauto\\PathautoState::getCollection<\/a>"],[0,6,"<a href=\"PathautoState.php.html#106\">Drupal\\pathauto\\PathautoState::bulkDelete<\/a>"],[0,3,"<a href=\"PathautoState.php.html#150\">Drupal\\pathauto\\PathautoState::getPathautoStateKey<\/a>"],[0,3,"<a href=\"PathautoWidget.php.html#18\">Drupal\\pathauto\\PathautoWidget::formElement<\/a>"],[0,1,"<a href=\"Plugin\/Action\/UpdateAction.php.html#23\">Drupal\\pathauto\\Plugin\\Action\\UpdateAction::execute<\/a>"],[0,2,"<a href=\"Plugin\/Action\/UpdateAction.php.html#31\">Drupal\\pathauto\\Plugin\\Action\\UpdateAction::access<\/a>"],[0,1,"<a href=\"Plugin\/Deriver\/EntityAliasTypeDeriver.php.html#53\">Drupal\\pathauto\\Plugin\\Deriver\\EntityAliasTypeDeriver::__construct<\/a>"],[0,1,"<a href=\"Plugin\/Deriver\/EntityAliasTypeDeriver.php.html#63\">Drupal\\pathauto\\Plugin\\Deriver\\EntityAliasTypeDeriver::create<\/a>"],[0,5,"<a href=\"Plugin\/Deriver\/EntityAliasTypeDeriver.php.html#75\">Drupal\\pathauto\\Plugin\\Deriver\\EntityAliasTypeDeriver::getDerivativeDefinitions<\/a>"],[0,1,"<a href=\"Plugin\/migrate\/source\/PathautoPattern.php.html#33\">Drupal\\pathauto\\Plugin\\migrate\\source\\PathautoPattern::__construct<\/a>"],[0,1,"<a href=\"Plugin\/migrate\/source\/PathautoPattern.php.html#41\">Drupal\\pathauto\\Plugin\\migrate\\source\\PathautoPattern::create<\/a>"],[0,1,"<a href=\"Plugin\/migrate\/source\/PathautoPattern.php.html#56\">Drupal\\pathauto\\Plugin\\migrate\\source\\PathautoPattern::query<\/a>"],[0,1,"<a href=\"Plugin\/migrate\/source\/PathautoPattern.php.html#67\">Drupal\\pathauto\\Plugin\\migrate\\source\\PathautoPattern::getIds<\/a>"],[0,1,"<a href=\"Plugin\/migrate\/source\/PathautoPattern.php.html#75\">Drupal\\pathauto\\Plugin\\migrate\\source\\PathautoPattern::fields<\/a>"],[0,6,"<a href=\"Plugin\/migrate\/source\/PathautoPattern.php.html#85\">Drupal\\pathauto\\Plugin\\migrate\\source\\PathautoPattern::prepareRow<\/a>"],[0,1,"<a href=\"Plugin\/pathauto\/AliasType\/Broken.php.html#20\">Drupal\\pathauto\\Plugin\\pathauto\\AliasType\\Broken::getLabel<\/a>"],[0,1,"<a href=\"Plugin\/pathauto\/AliasType\/EntityAliasTypeBase.php.html#94\">Drupal\\pathauto\\Plugin\\pathauto\\AliasType\\EntityAliasTypeBase::__construct<\/a>"],[0,1,"<a href=\"Plugin\/pathauto\/AliasType\/EntityAliasTypeBase.php.html#106\">Drupal\\pathauto\\Plugin\\pathauto\\AliasType\\EntityAliasTypeBase::create<\/a>"],[0,1,"<a href=\"Plugin\/pathauto\/AliasType\/EntityAliasTypeBase.php.html#122\">Drupal\\pathauto\\Plugin\\pathauto\\AliasType\\EntityAliasTypeBase::getLabel<\/a>"],[0,1,"<a href=\"Plugin\/pathauto\/AliasType\/EntityAliasTypeBase.php.html#132\">Drupal\\pathauto\\Plugin\\pathauto\\AliasType\\EntityAliasTypeBase::getTokenTypes<\/a>"],[0,9,"<a href=\"Plugin\/pathauto\/AliasType\/EntityAliasTypeBase.php.html#140\">Drupal\\pathauto\\Plugin\\pathauto\\AliasType\\EntityAliasTypeBase::batchUpdate<\/a>"],[0,5,"<a href=\"Plugin\/pathauto\/AliasType\/EntityAliasTypeBase.php.html#203\">Drupal\\pathauto\\Plugin\\pathauto\\AliasType\\EntityAliasTypeBase::batchDelete<\/a>"],[0,1,"<a href=\"Plugin\/pathauto\/AliasType\/EntityAliasTypeBase.php.html#251\">Drupal\\pathauto\\Plugin\\pathauto\\AliasType\\EntityAliasTypeBase::getEntityTypeId<\/a>"],[0,5,"<a href=\"Plugin\/pathauto\/AliasType\/EntityAliasTypeBase.php.html#266\">Drupal\\pathauto\\Plugin\\pathauto\\AliasType\\EntityAliasTypeBase::bulkUpdate<\/a>"],[0,1,"<a href=\"Plugin\/pathauto\/AliasType\/EntityAliasTypeBase.php.html#300\">Drupal\\pathauto\\Plugin\\pathauto\\AliasType\\EntityAliasTypeBase::bulkDelete<\/a>"],[0,1,"<a href=\"Plugin\/pathauto\/AliasType\/EntityAliasTypeBase.php.html#307\">Drupal\\pathauto\\Plugin\\pathauto\\AliasType\\EntityAliasTypeBase::calculateDependencies<\/a>"],[0,2,"<a href=\"Plugin\/pathauto\/AliasType\/EntityAliasTypeBase.php.html#316\">Drupal\\pathauto\\Plugin\\pathauto\\AliasType\\EntityAliasTypeBase::applies<\/a>"],[0,2,"<a href=\"Plugin\/pathauto\/AliasType\/EntityAliasTypeBase.php.html#323\">Drupal\\pathauto\\Plugin\\pathauto\\AliasType\\EntityAliasTypeBase::getSourcePrefix<\/a>"],[0,1,"<a href=\"Plugin\/pathauto\/AliasType\/EntityAliasTypeBase.php.html#335\">Drupal\\pathauto\\Plugin\\pathauto\\AliasType\\EntityAliasTypeBase::setContextValue<\/a>"],[0,2,"<a href=\"Plugin\/pathauto\/AliasType\/EntityAliasTypeBase.php.html#351\">Drupal\\pathauto\\Plugin\\pathauto\\AliasType\\EntityAliasTypeBase::getTableInfo<\/a>"],[0,1,"<a href=\"Plugin\/pathauto\/AliasType\/ForumAliasType.php.html#58\">Drupal\\pathauto\\Plugin\\pathauto\\AliasType\\ForumAliasType::__construct<\/a>"],[0,1,"<a href=\"Plugin\/pathauto\/AliasType\/ForumAliasType.php.html#66\">Drupal\\pathauto\\Plugin\\pathauto\\AliasType\\ForumAliasType::create<\/a>"],[0,1,"<a href=\"Plugin\/pathauto\/AliasType\/ForumAliasType.php.html#83\">Drupal\\pathauto\\Plugin\\pathauto\\AliasType\\ForumAliasType::getEntityTypeId<\/a>"],[0,1,"<a href=\"Plugin\/pathauto\/AliasType\/ForumAliasType.php.html#90\">Drupal\\pathauto\\Plugin\\pathauto\\AliasType\\ForumAliasType::getSourcePrefix<\/a>"],[0,2,"<a href=\"Plugin\/pathauto\/AliasType\/ForumAliasType.php.html#97\">Drupal\\pathauto\\Plugin\\pathauto\\AliasType\\ForumAliasType::applies<\/a>"],[0,1,"<a href=\"VerboseMessenger.php.html#52\">Drupal\\pathauto\\VerboseMessenger::__construct<\/a>"],[0,7,"<a href=\"VerboseMessenger.php.html#61\">Drupal\\pathauto\\VerboseMessenger::addMessage<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

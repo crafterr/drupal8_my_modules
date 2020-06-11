@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/crafter/www/drupal-modules.devel/web/core/modules/contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/home/crafter/www/drupal-modules.devel/web</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">core</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">modules</a></li>
+         <li class="breadcrumb-item"><a href="index.html">contact</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Access/ContactPageAccess.php.html#15">Drupal\contact\Access\ContactPageAccess</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ContactFormAccessControlHandler.php.html#15">Drupal\contact\ContactFormAccessControlHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ContactFormEditForm.php.html#20">Drupal\contact\ContactFormEditForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ContactFormListBuilder.php.html#13">Drupal\contact\ContactFormListBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ContactMessageAccessControlHandler.php.html#14">Drupal\contact\ContactMessageAccessControlHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/ContactController.php.html#16">Drupal\contact\Controller\ContactController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/ContactForm.php.html#55">Drupal\contact\Entity\ContactForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Message.php.html#42">Drupal\contact\Entity\Message</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/MailHandler.php.html#16">Drupal\contact\MailHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/MessageForm.php.html#20">Drupal\contact\MessageForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/MessageViewBuilder.php.html#13">Drupal\contact\MessageViewBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/ContactCategory.php.html#16">Drupal\contact\Plugin\migrate\source\ContactCategory</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/ContactSettings.php.html#13">Drupal\contact\Plugin\migrate\source\ContactSettings</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/ContactMessageResource.php.html#16">Drupal\contact\Plugin\rest\resource\ContactMessageResource</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/ContactLink.php.html#17">Drupal\contact\Plugin\views\field\ContactLink</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/MessageForm.php.html#20">Drupal\contact\MessageForm</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="src/Entity/Message.php.html#42">Drupal\contact\Entity\Message</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="src/ContactFormEditForm.php.html#20">Drupal\contact\ContactFormEditForm</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="src/Entity/ContactForm.php.html#55">Drupal\contact\Entity\ContactForm</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/MailHandler.php.html#16">Drupal\contact\MailHandler</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/Access/ContactPageAccess.php.html#15">Drupal\contact\Access\ContactPageAccess</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="src/Controller/ContactController.php.html#16">Drupal\contact\Controller\ContactController</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/MessageViewBuilder.php.html#13">Drupal\contact\MessageViewBuilder</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Plugin/views/field/ContactLink.php.html#17">Drupal\contact\Plugin\views\field\ContactLink</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/ContactFormAccessControlHandler.php.html#15">Drupal\contact\ContactFormAccessControlHandler</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/ContactFormListBuilder.php.html#13">Drupal\contact\ContactFormListBuilder</a></td><td class="text-right">20</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Access/ContactPageAccess.php.html#39"><abbr title="Drupal\contact\Access\ContactPageAccess::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/MessageForm.php.html#170"><abbr title="Drupal\contact\MessageForm::actions">actions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Message.php.html#96"><abbr title="Drupal\contact\Entity\Message::setSubject">setSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Message.php.html#103"><abbr title="Drupal\contact\Entity\Message::getMessage">getMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Message.php.html#110"><abbr title="Drupal\contact\Entity\Message::setMessage">setMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Message.php.html#117"><abbr title="Drupal\contact\Entity\Message::copySender">copySender</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Message.php.html#124"><abbr title="Drupal\contact\Entity\Message::setCopySender">setCopySender</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Message.php.html#131"><abbr title="Drupal\contact\Entity\Message::getPersonalRecipient">getPersonalRecipient</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Message.php.html#140"><abbr title="Drupal\contact\Entity\Message::baseFieldDefinitions">baseFieldDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/MailHandler.php.html#62"><abbr title="Drupal\contact\MailHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/MailHandler.php.html#73"><abbr title="Drupal\contact\MailHandler::sendMailMessages">sendMailMessages</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/MessageForm.php.html#75"><abbr title="Drupal\contact\MessageForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/MessageForm.php.html#86"><abbr title="Drupal\contact\MessageForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/MessageForm.php.html#101"><abbr title="Drupal\contact\MessageForm::form">form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/MessageForm.php.html#184"><abbr title="Drupal\contact\MessageForm::preview">preview</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Message.php.html#82"><abbr title="Drupal\contact\Entity\Message::setSenderMail">setSenderMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/MessageForm.php.html#193"><abbr title="Drupal\contact\MessageForm::validateForm">validateForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/MessageForm.php.html#215"><abbr title="Drupal\contact\MessageForm::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/MessageViewBuilder.php.html#18"><abbr title="Drupal\contact\MessageViewBuilder::getBuildDefaults">getBuildDefaults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/MessageViewBuilder.php.html#29"><abbr title="Drupal\contact\MessageViewBuilder::view">view</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/ContactCategory.php.html#21"><abbr title="Drupal\contact\Plugin\migrate\source\ContactCategory::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/ContactCategory.php.html#39"><abbr title="Drupal\contact\Plugin\migrate\source\ContactCategory::prepareRow">prepareRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/ContactCategory.php.html#47"><abbr title="Drupal\contact\Plugin\migrate\source\ContactCategory::fields">fields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/ContactCategory.php.html#61"><abbr title="Drupal\contact\Plugin\migrate\source\ContactCategory::getIds">getIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/ContactSettings.php.html#18"><abbr title="Drupal\contact\Plugin\migrate\source\ContactSettings::initializeIterator">initializeIterator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/ContactMessageResource.php.html#21"><abbr title="Drupal\contact\Plugin\rest\resource\ContactMessageResource::availableMethods">availableMethods</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/ContactLink.php.html#22"><abbr title="Drupal\contact\Plugin\views\field\ContactLink::buildOptionsForm">buildOptionsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/ContactLink.php.html#32"><abbr title="Drupal\contact\Plugin\views\field\ContactLink::getUrlInfo">getUrlInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/ContactLink.php.html#39"><abbr title="Drupal\contact\Plugin\views\field\ContactLink::renderLink">renderLink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Message.php.html#89"><abbr title="Drupal\contact\Entity\Message::getSubject">getSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Message.php.html#75"><abbr title="Drupal\contact\Entity\Message::getSenderMail">getSenderMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Access/ContactPageAccess.php.html#55"><abbr title="Drupal\contact\Access\ContactPageAccess::access">access</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/ContactController.php.html#107"><abbr title="Drupal\contact\Controller\ContactController::contactPersonalPage">contactPersonalPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ContactFormAccessControlHandler.php.html#20"><abbr title="Drupal\contact\ContactFormAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ContactFormEditForm.php.html#45"><abbr title="Drupal\contact\ContactFormEditForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ContactFormEditForm.php.html#53"><abbr title="Drupal\contact\ContactFormEditForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ContactFormEditForm.php.html#63"><abbr title="Drupal\contact\ContactFormEditForm::getEditableConfigNames">getEditableConfigNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ContactFormEditForm.php.html#70"><abbr title="Drupal\contact\ContactFormEditForm::form">form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ContactFormEditForm.php.html#137"><abbr title="Drupal\contact\ContactFormEditForm::validateForm">validateForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ContactFormEditForm.php.html#161"><abbr title="Drupal\contact\ContactFormEditForm::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ContactFormListBuilder.php.html#18"><abbr title="Drupal\contact\ContactFormListBuilder::buildHeader">buildHeader</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ContactFormListBuilder.php.html#28"><abbr title="Drupal\contact\ContactFormListBuilder::buildRow">buildRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ContactMessageAccessControlHandler.php.html#19"><abbr title="Drupal\contact\ContactMessageAccessControlHandler::checkCreateAccess">checkCreateAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/ContactController.php.html#31"><abbr title="Drupal\contact\Controller\ContactController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/ContactController.php.html#38"><abbr title="Drupal\contact\Controller\ContactController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/ContactController.php.html#58"><abbr title="Drupal\contact\Controller\ContactController::contactSitePage">contactSitePage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/ContactForm.php.html#109"><abbr title="Drupal\contact\Entity\ContactForm::getMessage">getMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Message.php.html#68"><abbr title="Drupal\contact\Entity\Message::setSenderName">setSenderName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/ContactForm.php.html#116"><abbr title="Drupal\contact\Entity\ContactForm::setMessage">setMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/ContactForm.php.html#124"><abbr title="Drupal\contact\Entity\ContactForm::getRecipients">getRecipients</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/ContactForm.php.html#131"><abbr title="Drupal\contact\Entity\ContactForm::setRecipients">setRecipients</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/ContactForm.php.html#139"><abbr title="Drupal\contact\Entity\ContactForm::getRedirectPath">getRedirectPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/ContactForm.php.html#146"><abbr title="Drupal\contact\Entity\ContactForm::getRedirectUrl">getRedirectUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/ContactForm.php.html#159"><abbr title="Drupal\contact\Entity\ContactForm::setRedirectPath">setRedirectPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/ContactForm.php.html#167"><abbr title="Drupal\contact\Entity\ContactForm::getReply">getReply</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/ContactForm.php.html#174"><abbr title="Drupal\contact\Entity\ContactForm::setReply">setReply</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/ContactForm.php.html#182"><abbr title="Drupal\contact\Entity\ContactForm::getWeight">getWeight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/ContactForm.php.html#189"><abbr title="Drupal\contact\Entity\ContactForm::setWeight">setWeight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Message.php.html#47"><abbr title="Drupal\contact\Entity\Message::isPersonal">isPersonal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Message.php.html#54"><abbr title="Drupal\contact\Entity\Message::getContactForm">getContactForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Message.php.html#61"><abbr title="Drupal\contact\Entity\Message::getSenderName">getSenderName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/ContactLink.php.html#59"><abbr title="Drupal\contact\Plugin\views\field\ContactLink::getDefaultLabel">getDefaultLabel</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/MailHandler.php.html#73"><abbr title="Drupal\contact\MailHandler::sendMailMessages">sendMailMessages</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="src/Access/ContactPageAccess.php.html#55"><abbr title="Drupal\contact\Access\ContactPageAccess::access">access</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/ContactFormEditForm.php.html#137"><abbr title="Drupal\contact\ContactFormEditForm::validateForm">validateForm</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/MessageForm.php.html#193"><abbr title="Drupal\contact\MessageForm::validateForm">validateForm</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/MessageViewBuilder.php.html#29"><abbr title="Drupal\contact\MessageViewBuilder::view">view</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/ContactFormAccessControlHandler.php.html#20"><abbr title="Drupal\contact\ContactFormAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/ContactFormEditForm.php.html#161"><abbr title="Drupal\contact\ContactFormEditForm::save">save</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Controller/ContactController.php.html#58"><abbr title="Drupal\contact\Controller\ContactController::contactSitePage">contactSitePage</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/MessageForm.php.html#101"><abbr title="Drupal\contact\MessageForm::form">form</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/MessageForm.php.html#215"><abbr title="Drupal\contact\MessageForm::save">save</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/ContactFormListBuilder.php.html#28"><abbr title="Drupal\contact\ContactFormListBuilder::buildRow">buildRow</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Controller/ContactController.php.html#107"><abbr title="Drupal\contact\Controller\ContactController::contactPersonalPage">contactPersonalPage</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Entity/ContactForm.php.html#146"><abbr title="Drupal\contact\Entity\ContactForm::getRedirectUrl">getRedirectUrl</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Entity/Message.php.html#131"><abbr title="Drupal\contact\Entity\Message::getPersonalRecipient">getPersonalRecipient</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/field/ContactLink.php.html#22"><abbr title="Drupal\contact\Plugin\views\field\ContactLink::buildOptionsForm">buildOptionsForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/field/ContactLink.php.html#39"><abbr title="Drupal\contact\Plugin\views\field\ContactLink::renderLink">renderLink</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.33-16+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Fri Jun 12 8:21:00 AEST 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([15,0,0,0,0,0,0,0,0,0,0,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([62,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,10,"<a href=\"src\/Access\/ContactPageAccess.php.html#15\">Drupal\\contact\\Access\\ContactPageAccess<\/a>"],[0,4,"<a href=\"src\/ContactFormAccessControlHandler.php.html#15\">Drupal\\contact\\ContactFormAccessControlHandler<\/a>"],[0,14,"<a href=\"src\/ContactFormEditForm.php.html#20\">Drupal\\contact\\ContactFormEditForm<\/a>"],[0,4,"<a href=\"src\/ContactFormListBuilder.php.html#13\">Drupal\\contact\\ContactFormListBuilder<\/a>"],[0,1,"<a href=\"src\/ContactMessageAccessControlHandler.php.html#14\">Drupal\\contact\\ContactMessageAccessControlHandler<\/a>"],[0,8,"<a href=\"src\/Controller\/ContactController.php.html#16\">Drupal\\contact\\Controller\\ContactController<\/a>"],[0,12,"<a href=\"src\/Entity\/ContactForm.php.html#55\">Drupal\\contact\\Entity\\ContactForm<\/a>"],[0,15,"<a href=\"src\/Entity\/Message.php.html#42\">Drupal\\contact\\Entity\\Message<\/a>"],[0,11,"<a href=\"src\/MailHandler.php.html#16\">Drupal\\contact\\MailHandler<\/a>"],[100,0,"<a href=\"src\/MailHandlerException.php.html#8\">Drupal\\contact\\MailHandlerException<\/a>"],[0,17,"<a href=\"src\/MessageForm.php.html#20\">Drupal\\contact\\MessageForm<\/a>"],[0,6,"<a href=\"src\/MessageViewBuilder.php.html#13\">Drupal\\contact\\MessageViewBuilder<\/a>"],[0,4,"<a href=\"src\/Plugin\/migrate\/source\/ContactCategory.php.html#16\">Drupal\\contact\\Plugin\\migrate\\source\\ContactCategory<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/ContactSettings.php.html#13\">Drupal\\contact\\Plugin\\migrate\\source\\ContactSettings<\/a>"],[0,1,"<a href=\"src\/Plugin\/rest\/resource\/ContactMessageResource.php.html#16\">Drupal\\contact\\Plugin\\rest\\resource\\ContactMessageResource<\/a>"],[0,6,"<a href=\"src\/Plugin\/views\/field\/ContactLink.php.html#17\">Drupal\\contact\\Plugin\\views\\field\\ContactLink<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"src\/Access\/ContactPageAccess.php.html#39\">Drupal\\contact\\Access\\ContactPageAccess::__construct<\/a>"],[0,9,"<a href=\"src\/Access\/ContactPageAccess.php.html#55\">Drupal\\contact\\Access\\ContactPageAccess::access<\/a>"],[0,4,"<a href=\"src\/ContactFormAccessControlHandler.php.html#20\">Drupal\\contact\\ContactFormAccessControlHandler::checkAccess<\/a>"],[0,1,"<a href=\"src\/ContactFormEditForm.php.html#45\">Drupal\\contact\\ContactFormEditForm::__construct<\/a>"],[0,1,"<a href=\"src\/ContactFormEditForm.php.html#53\">Drupal\\contact\\ContactFormEditForm::create<\/a>"],[0,1,"<a href=\"src\/ContactFormEditForm.php.html#63\">Drupal\\contact\\ContactFormEditForm::getEditableConfigNames<\/a>"],[0,1,"<a href=\"src\/ContactFormEditForm.php.html#70\">Drupal\\contact\\ContactFormEditForm::form<\/a>"],[0,6,"<a href=\"src\/ContactFormEditForm.php.html#137\">Drupal\\contact\\ContactFormEditForm::validateForm<\/a>"],[0,4,"<a href=\"src\/ContactFormEditForm.php.html#161\">Drupal\\contact\\ContactFormEditForm::save<\/a>"],[0,1,"<a href=\"src\/ContactFormListBuilder.php.html#18\">Drupal\\contact\\ContactFormListBuilder::buildHeader<\/a>"],[0,3,"<a href=\"src\/ContactFormListBuilder.php.html#28\">Drupal\\contact\\ContactFormListBuilder::buildRow<\/a>"],[0,1,"<a href=\"src\/ContactMessageAccessControlHandler.php.html#19\">Drupal\\contact\\ContactMessageAccessControlHandler::checkCreateAccess<\/a>"],[0,1,"<a href=\"src\/Controller\/ContactController.php.html#31\">Drupal\\contact\\Controller\\ContactController::__construct<\/a>"],[0,1,"<a href=\"src\/Controller\/ContactController.php.html#38\">Drupal\\contact\\Controller\\ContactController::create<\/a>"],[0,4,"<a href=\"src\/Controller\/ContactController.php.html#58\">Drupal\\contact\\Controller\\ContactController::contactSitePage<\/a>"],[0,2,"<a href=\"src\/Controller\/ContactController.php.html#107\">Drupal\\contact\\Controller\\ContactController::contactPersonalPage<\/a>"],[0,1,"<a href=\"src\/Entity\/ContactForm.php.html#109\">Drupal\\contact\\Entity\\ContactForm::getMessage<\/a>"],[0,1,"<a href=\"src\/Entity\/ContactForm.php.html#116\">Drupal\\contact\\Entity\\ContactForm::setMessage<\/a>"],[0,1,"<a href=\"src\/Entity\/ContactForm.php.html#124\">Drupal\\contact\\Entity\\ContactForm::getRecipients<\/a>"],[0,1,"<a href=\"src\/Entity\/ContactForm.php.html#131\">Drupal\\contact\\Entity\\ContactForm::setRecipients<\/a>"],[0,1,"<a href=\"src\/Entity\/ContactForm.php.html#139\">Drupal\\contact\\Entity\\ContactForm::getRedirectPath<\/a>"],[0,2,"<a href=\"src\/Entity\/ContactForm.php.html#146\">Drupal\\contact\\Entity\\ContactForm::getRedirectUrl<\/a>"],[0,1,"<a href=\"src\/Entity\/ContactForm.php.html#159\">Drupal\\contact\\Entity\\ContactForm::setRedirectPath<\/a>"],[0,1,"<a href=\"src\/Entity\/ContactForm.php.html#167\">Drupal\\contact\\Entity\\ContactForm::getReply<\/a>"],[0,1,"<a href=\"src\/Entity\/ContactForm.php.html#174\">Drupal\\contact\\Entity\\ContactForm::setReply<\/a>"],[0,1,"<a href=\"src\/Entity\/ContactForm.php.html#182\">Drupal\\contact\\Entity\\ContactForm::getWeight<\/a>"],[0,1,"<a href=\"src\/Entity\/ContactForm.php.html#189\">Drupal\\contact\\Entity\\ContactForm::setWeight<\/a>"],[0,1,"<a href=\"src\/Entity\/Message.php.html#47\">Drupal\\contact\\Entity\\Message::isPersonal<\/a>"],[0,1,"<a href=\"src\/Entity\/Message.php.html#54\">Drupal\\contact\\Entity\\Message::getContactForm<\/a>"],[0,1,"<a href=\"src\/Entity\/Message.php.html#61\">Drupal\\contact\\Entity\\Message::getSenderName<\/a>"],[0,1,"<a href=\"src\/Entity\/Message.php.html#68\">Drupal\\contact\\Entity\\Message::setSenderName<\/a>"],[0,1,"<a href=\"src\/Entity\/Message.php.html#75\">Drupal\\contact\\Entity\\Message::getSenderMail<\/a>"],[0,1,"<a href=\"src\/Entity\/Message.php.html#82\">Drupal\\contact\\Entity\\Message::setSenderMail<\/a>"],[0,1,"<a href=\"src\/Entity\/Message.php.html#89\">Drupal\\contact\\Entity\\Message::getSubject<\/a>"],[0,1,"<a href=\"src\/Entity\/Message.php.html#96\">Drupal\\contact\\Entity\\Message::setSubject<\/a>"],[0,1,"<a href=\"src\/Entity\/Message.php.html#103\">Drupal\\contact\\Entity\\Message::getMessage<\/a>"],[0,1,"<a href=\"src\/Entity\/Message.php.html#110\">Drupal\\contact\\Entity\\Message::setMessage<\/a>"],[0,1,"<a href=\"src\/Entity\/Message.php.html#117\">Drupal\\contact\\Entity\\Message::copySender<\/a>"],[0,1,"<a href=\"src\/Entity\/Message.php.html#124\">Drupal\\contact\\Entity\\Message::setCopySender<\/a>"],[0,2,"<a href=\"src\/Entity\/Message.php.html#131\">Drupal\\contact\\Entity\\Message::getPersonalRecipient<\/a>"],[0,1,"<a href=\"src\/Entity\/Message.php.html#140\">Drupal\\contact\\Entity\\Message::baseFieldDefinitions<\/a>"],[0,1,"<a href=\"src\/MailHandler.php.html#62\">Drupal\\contact\\MailHandler::__construct<\/a>"],[0,10,"<a href=\"src\/MailHandler.php.html#73\">Drupal\\contact\\MailHandler::sendMailMessages<\/a>"],[0,1,"<a href=\"src\/MessageForm.php.html#75\">Drupal\\contact\\MessageForm::__construct<\/a>"],[0,1,"<a href=\"src\/MessageForm.php.html#86\">Drupal\\contact\\MessageForm::create<\/a>"],[0,4,"<a href=\"src\/MessageForm.php.html#101\">Drupal\\contact\\MessageForm::form<\/a>"],[0,1,"<a href=\"src\/MessageForm.php.html#170\">Drupal\\contact\\MessageForm::actions<\/a>"],[0,1,"<a href=\"src\/MessageForm.php.html#184\">Drupal\\contact\\MessageForm::preview<\/a>"],[0,5,"<a href=\"src\/MessageForm.php.html#193\">Drupal\\contact\\MessageForm::validateForm<\/a>"],[0,4,"<a href=\"src\/MessageForm.php.html#215\">Drupal\\contact\\MessageForm::save<\/a>"],[0,1,"<a href=\"src\/MessageViewBuilder.php.html#18\">Drupal\\contact\\MessageViewBuilder::getBuildDefaults<\/a>"],[0,5,"<a href=\"src\/MessageViewBuilder.php.html#29\">Drupal\\contact\\MessageViewBuilder::view<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/ContactCategory.php.html#21\">Drupal\\contact\\Plugin\\migrate\\source\\ContactCategory::query<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/ContactCategory.php.html#39\">Drupal\\contact\\Plugin\\migrate\\source\\ContactCategory::prepareRow<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/ContactCategory.php.html#47\">Drupal\\contact\\Plugin\\migrate\\source\\ContactCategory::fields<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/ContactCategory.php.html#61\">Drupal\\contact\\Plugin\\migrate\\source\\ContactCategory::getIds<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/ContactSettings.php.html#18\">Drupal\\contact\\Plugin\\migrate\\source\\ContactSettings::initializeIterator<\/a>"],[0,1,"<a href=\"src\/Plugin\/rest\/resource\/ContactMessageResource.php.html#21\">Drupal\\contact\\Plugin\\rest\\resource\\ContactMessageResource::availableMethods<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/field\/ContactLink.php.html#22\">Drupal\\contact\\Plugin\\views\\field\\ContactLink::buildOptionsForm<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/ContactLink.php.html#32\">Drupal\\contact\\Plugin\\views\\field\\ContactLink::getUrlInfo<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/field\/ContactLink.php.html#39\">Drupal\\contact\\Plugin\\views\\field\\ContactLink::renderLink<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/ContactLink.php.html#59\">Drupal\\contact\\Plugin\\views\\field\\ContactLink::getDefaultLabel<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

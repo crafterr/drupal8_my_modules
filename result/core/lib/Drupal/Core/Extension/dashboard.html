@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/crafter/www/drupal-modules.devel/web/core/lib/Drupal/Core/Extension</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../../index.html">/home/crafter/www/drupal-modules.devel/web</a></li>
+         <li class="breadcrumb-item"><a href="../../../../index.html">core</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">lib</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Drupal</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Core</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Extension</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Dependency.php.html#15">Drupal\Core\Extension\Dependency</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/RecursiveExtensionFilterIterator.php.html#32">Drupal\Core\Extension\Discovery\RecursiveExtensionFilterIterator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Extension.php.html#13">Drupal\Core\Extension\Extension</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#20">Drupal\Core\Extension\ExtensionDiscovery</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionList.php.html#21">Drupal\Core\Extension\ExtensionList</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InfoParser.php.html#8">Drupal\Core\Extension\InfoParser</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InfoParserDynamic.php.html#12">Drupal\Core\Extension\InfoParserDynamic</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleExtensionList.php.html#19">Drupal\Core\Extension\ModuleExtensionList</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#13">Drupal\Core\Extension\ModuleHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleInstaller.php.html#23">Drupal\Core\Extension\ModuleInstaller</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProfileExtensionList.php.html#14">Drupal\Core\Extension\ProfileExtensionList</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RequiredModuleUninstallValidator.php.html#11">Drupal\Core\Extension\RequiredModuleUninstallValidator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeEngineExtensionList.php.html#14">Drupal\Core\Extension\ThemeEngineExtensionList</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeExtensionList.php.html#18">Drupal\Core\Extension\ThemeExtensionList</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#12">Drupal\Core\Extension\ThemeHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeInstaller.php.html#18">Drupal\Core\Extension\ThemeInstaller</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ModuleHandler.php.html#13">Drupal\Core\Extension\ModuleHandler</a></td><td class="text-right">10506</td></tr>
+       <tr><td><a href="ModuleInstaller.php.html#23">Drupal\Core\Extension\ModuleInstaller</a></td><td class="text-right">5550</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#20">Drupal\Core\Extension\ExtensionDiscovery</a></td><td class="text-right">2070</td></tr>
+       <tr><td><a href="InfoParserDynamic.php.html#12">Drupal\Core\Extension\InfoParserDynamic</a></td><td class="text-right">1722</td></tr>
+       <tr><td><a href="ExtensionList.php.html#21">Drupal\Core\Extension\ExtensionList</a></td><td class="text-right">1482</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#12">Drupal\Core\Extension\ThemeHandler</a></td><td class="text-right">930</td></tr>
+       <tr><td><a href="ThemeInstaller.php.html#18">Drupal\Core\Extension\ThemeInstaller</a></td><td class="text-right">870</td></tr>
+       <tr><td><a href="ThemeExtensionList.php.html#18">Drupal\Core\Extension\ThemeExtensionList</a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="ModuleExtensionList.php.html#19">Drupal\Core\Extension\ModuleExtensionList</a></td><td class="text-right">702</td></tr>
+       <tr><td><a href="Dependency.php.html#15">Drupal\Core\Extension\Dependency</a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="Extension.php.html#13">Drupal\Core\Extension\Extension</a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="Discovery/RecursiveExtensionFilterIterator.php.html#32">Drupal\Core\Extension\Discovery\RecursiveExtensionFilterIterator</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="RequiredModuleUninstallValidator.php.html#11">Drupal\Core\Extension\RequiredModuleUninstallValidator</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="InfoParser.php.html#8">Drupal\Core\Extension\InfoParser</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Dependency.php.html#55"><abbr title="Drupal\Core\Extension\Dependency::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#623"><abbr title="Drupal\Core\Extension\ModuleHandler::buildImplementationInfo">buildImplementationInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#418"><abbr title="Drupal\Core\Extension\ModuleHandler::invokeDeprecated">invokeDeprecated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#427"><abbr title="Drupal\Core\Extension\ModuleHandler::invokeAllDeprecated">invokeAllDeprecated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#441"><abbr title="Drupal\Core\Extension\ModuleHandler::triggerDeprecationError">triggerDeprecationError</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#455"><abbr title="Drupal\Core\Extension\ModuleHandler::alter">alter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#546"><abbr title="Drupal\Core\Extension\ModuleHandler::alterDeprecated">alterDeprecated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#577"><abbr title="Drupal\Core\Extension\ModuleHandler::getImplementationInfo">getImplementationInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#672"><abbr title="Drupal\Core\Extension\ModuleHandler::verifyImplementations">verifyImplementations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#387"><abbr title="Drupal\Core\Extension\ModuleHandler::invoke">invoke</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#723"><abbr title="Drupal\Core\Extension\ModuleHandler::parseDependency">parseDependency</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#738"><abbr title="Drupal\Core\Extension\ModuleHandler::getModuleDirectories">getModuleDirectories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#749"><abbr title="Drupal\Core\Extension\ModuleHandler::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleInstaller.php.html#66"><abbr title="Drupal\Core\Extension\ModuleInstaller::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleInstaller.php.html#75"><abbr title="Drupal\Core\Extension\ModuleInstaller::addUninstallValidator">addUninstallValidator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleInstaller.php.html#82"><abbr title="Drupal\Core\Extension\ModuleInstaller::install">install</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#398"><abbr title="Drupal\Core\Extension\ModuleHandler::invokeAll">invokeAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#367"><abbr title="Drupal\Core\Extension\ModuleHandler::implementsHook">implementsHook</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleInstaller.php.html#533"><abbr title="Drupal\Core\Extension\ModuleInstaller::removeCacheBins">removeCacheBins</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#213"><abbr title="Drupal\Core\Extension\ModuleHandler::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#158"><abbr title="Drupal\Core\Extension\ModuleHandler::isLoaded">isLoaded</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#165"><abbr title="Drupal\Core\Extension\ModuleHandler::getModuleList">getModuleList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#172"><abbr title="Drupal\Core\Extension\ModuleHandler::getModule">getModule</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#182"><abbr title="Drupal\Core\Extension\ModuleHandler::setModuleList">setModuleList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#192"><abbr title="Drupal\Core\Extension\ModuleHandler::addModule">addModule</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#199"><abbr title="Drupal\Core\Extension\ModuleHandler::addProfile">addProfile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#223"><abbr title="Drupal\Core\Extension\ModuleHandler::buildModuleDependencies">buildModuleDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#345"><abbr title="Drupal\Core\Extension\ModuleHandler::resetImplementations">resetImplementations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#246"><abbr title="Drupal\Core\Extension\ModuleHandler::moduleExists">moduleExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#253"><abbr title="Drupal\Core\Extension\ModuleHandler::loadAllIncludes">loadAllIncludes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#262"><abbr title="Drupal\Core\Extension\ModuleHandler::loadInclude">loadInclude</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#290"><abbr title="Drupal\Core\Extension\ModuleHandler::getHookInfo">getHookInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#308"><abbr title="Drupal\Core\Extension\ModuleHandler::buildHookInfo">buildHookInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#327"><abbr title="Drupal\Core\Extension\ModuleHandler::getImplementations">getImplementations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#335"><abbr title="Drupal\Core\Extension\ModuleHandler::writeCache">writeCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleInstaller.php.html#354"><abbr title="Drupal\Core\Extension\ModuleInstaller::uninstall">uninstall</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleInstaller.php.html#568"><abbr title="Drupal\Core\Extension\ModuleInstaller::updateKernel">updateKernel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#138"><abbr title="Drupal\Core\Extension\ModuleHandler::loadAll">loadAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#184"><abbr title="Drupal\Core\Extension\ThemeHandler::getThemeDirectories">getThemeDirectories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#118"><abbr title="Drupal\Core\Extension\ThemeHandler::addTheme">addTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#141"><abbr title="Drupal\Core\Extension\ThemeHandler::refreshInfo">refreshInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#155"><abbr title="Drupal\Core\Extension\ThemeHandler::reset">reset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#163"><abbr title="Drupal\Core\Extension\ThemeHandler::rebuildThemeData">rebuildThemeData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#170"><abbr title="Drupal\Core\Extension\ThemeHandler::getBaseThemes">getBaseThemes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#177"><abbr title="Drupal\Core\Extension\ThemeHandler::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#195"><abbr title="Drupal\Core\Extension\ThemeHandler::themeExists">themeExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#93"><abbr title="Drupal\Core\Extension\ThemeHandler::uninstall">uninstall</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#203"><abbr title="Drupal\Core\Extension\ThemeHandler::getTheme">getTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#214"><abbr title="Drupal\Core\Extension\ThemeHandler::hasUi">hasUi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeInstaller.php.html#90"><abbr title="Drupal\Core\Extension\ThemeInstaller::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeInstaller.php.html#105"><abbr title="Drupal\Core\Extension\ThemeInstaller::install">install</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeInstaller.php.html#209"><abbr title="Drupal\Core\Extension\ThemeInstaller::uninstall">uninstall</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeInstaller.php.html#264"><abbr title="Drupal\Core\Extension\ThemeInstaller::resetSystem">resetSystem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#103"><abbr title="Drupal\Core\Extension\ThemeHandler::listInfo">listInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#83"><abbr title="Drupal\Core\Extension\ThemeHandler::install">install</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleInstaller.php.html#583"><abbr title="Drupal\Core\Extension\ModuleInstaller::validateUninstall">validateUninstall</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeExtensionList.php.html#109"><abbr title="Drupal\Core\Extension\ThemeExtensionList::doList">doList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProfileExtensionList.php.html#31"><abbr title="Drupal\Core\Extension\ProfileExtensionList::getInstalledExtensionNames">getInstalledExtensionNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RequiredModuleUninstallValidator.php.html#30"><abbr title="Drupal\Core\Extension\RequiredModuleUninstallValidator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RequiredModuleUninstallValidator.php.html#38"><abbr title="Drupal\Core\Extension\RequiredModuleUninstallValidator::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RequiredModuleUninstallValidator.php.html#56"><abbr title="Drupal\Core\Extension\RequiredModuleUninstallValidator::getModuleInfoByModule">getModuleInfoByModule</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeEngineExtensionList.php.html#30"><abbr title="Drupal\Core\Extension\ThemeEngineExtensionList::getInstalledExtensionNames">getInstalledExtensionNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeExtensionList.php.html#99"><abbr title="Drupal\Core\Extension\ThemeExtensionList::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeExtensionList.php.html#154"><abbr title="Drupal\Core\Extension\ThemeExtensionList::fillInSubThemeData">fillInSubThemeData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#68"><abbr title="Drupal\Core\Extension\ThemeHandler::setDefault">setDefault</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeExtensionList.php.html#196"><abbr title="Drupal\Core\Extension\ThemeExtensionList::getBaseThemes">getBaseThemes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeExtensionList.php.html#214"><abbr title="Drupal\Core\Extension\ThemeExtensionList::doGetBaseThemes">doGetBaseThemes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeExtensionList.php.html#247"><abbr title="Drupal\Core\Extension\ThemeExtensionList::createExtensionInfo">createExtensionInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeExtensionList.php.html#287"><abbr title="Drupal\Core\Extension\ThemeExtensionList::getInstalledExtensionNames">getInstalledExtensionNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeExtensionList.php.html#298"><abbr title="Drupal\Core\Extension\ThemeExtensionList::reset">reset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#52"><abbr title="Drupal\Core\Extension\ThemeHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#61"><abbr title="Drupal\Core\Extension\ThemeHandler::getDefault">getDefault</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#150"><abbr title="Drupal\Core\Extension\ModuleHandler::reload">reload</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#122"><abbr title="Drupal\Core\Extension\ModuleHandler::load">load</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dependency.php.html#67"><abbr title="Drupal\Core\Extension\Dependency::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Extension.php.html#184"><abbr title="Drupal\Core\Extension\Extension::__wakeup">__wakeup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Extension.php.html#115"><abbr title="Drupal\Core\Extension\Extension::getFilename">getFilename</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Extension.php.html#124"><abbr title="Drupal\Core\Extension\Extension::getExtensionPathname">getExtensionPathname</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Extension.php.html#135"><abbr title="Drupal\Core\Extension\Extension::getExtensionFilename">getExtensionFilename</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Extension.php.html#145"><abbr title="Drupal\Core\Extension\Extension::load">load</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Extension.php.html#158"><abbr title="Drupal\Core\Extension\Extension::__call">__call</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Extension.php.html#171"><abbr title="Drupal\Core\Extension\Extension::__sleep">__sleep</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#106"><abbr title="Drupal\Core\Extension\ExtensionDiscovery::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Extension.php.html#97"><abbr title="Drupal\Core\Extension\Extension::getPath">getPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#152"><abbr title="Drupal\Core\Extension\ExtensionDiscovery::scan">scan</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#229"><abbr title="Drupal\Core\Extension\ExtensionDiscovery::setProfileDirectoriesFromSettings">setProfileDirectoriesFromSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#244"><abbr title="Drupal\Core\Extension\ExtensionDiscovery::getProfileDirectories">getProfileDirectories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#257"><abbr title="Drupal\Core\Extension\ExtensionDiscovery::setProfileDirectories">setProfileDirectories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#271"><abbr title="Drupal\Core\Extension\ExtensionDiscovery::filterByProfileDirectories">filterByProfileDirectories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#306"><abbr title="Drupal\Core\Extension\ExtensionDiscovery::sort">sort</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Extension.php.html#106"><abbr title="Drupal\Core\Extension\Extension::getPathname">getPathname</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Extension.php.html#88"><abbr title="Drupal\Core\Extension\Extension::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#387"><abbr title="Drupal\Core\Extension\ExtensionDiscovery::scanDirectory">scanDirectory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dependency.php.html#156"><abbr title="Drupal\Core\Extension\Dependency::offsetSet">offsetSet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dependency.php.html#77"><abbr title="Drupal\Core\Extension\Dependency::getProject">getProject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dependency.php.html#87"><abbr title="Drupal\Core\Extension\Dependency::getConstraintString">getConstraintString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dependency.php.html#97"><abbr title="Drupal\Core\Extension\Dependency::getConstraint">getConstraint</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dependency.php.html#113"><abbr title="Drupal\Core\Extension\Dependency::isCompatible">isCompatible</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dependency.php.html#120"><abbr title="Drupal\Core\Extension\Dependency::offsetExists">offsetExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dependency.php.html#128"><abbr title="Drupal\Core\Extension\Dependency::offsetGet">offsetGet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dependency.php.html#163"><abbr title="Drupal\Core\Extension\Dependency::offsetUnset">offsetUnset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Extension.php.html#79"><abbr title="Drupal\Core\Extension\Extension::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dependency.php.html#180"><abbr title="Drupal\Core\Extension\Dependency::createFromString">createFromString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dependency.php.html#199"><abbr title="Drupal\Core\Extension\Dependency::__sleep">__sleep</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/RecursiveExtensionFilterIterator.php.html#94"><abbr title="Drupal\Core\Extension\Discovery\RecursiveExtensionFilterIterator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/RecursiveExtensionFilterIterator.php.html#108"><abbr title="Drupal\Core\Extension\Discovery\RecursiveExtensionFilterIterator::acceptTests">acceptTests</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/RecursiveExtensionFilterIterator.php.html#118"><abbr title="Drupal\Core\Extension\Discovery\RecursiveExtensionFilterIterator::getChildren">getChildren</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/RecursiveExtensionFilterIterator.php.html#130"><abbr title="Drupal\Core\Extension\Discovery\RecursiveExtensionFilterIterator::accept">accept</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Extension.php.html#65"><abbr title="Drupal\Core\Extension\Extension::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#361"><abbr title="Drupal\Core\Extension\ExtensionDiscovery::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionList.php.html#135"><abbr title="Drupal\Core\Extension\ExtensionList::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#110"><abbr title="Drupal\Core\Extension\ModuleHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InfoParserDynamic.php.html#176"><abbr title="Drupal\Core\Extension\InfoParserDynamic::getAllPreviousCoreVersions">getAllPreviousCoreVersions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionList.php.html#553"><abbr title="Drupal\Core\Extension\ExtensionList::createExtensionInfo">createExtensionInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InfoParser.php.html#20"><abbr title="Drupal\Core\Extension\InfoParser::parse">parse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InfoParserDynamic.php.html#32"><abbr title="Drupal\Core\Extension\InfoParserDynamic::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InfoParserDynamic.php.html#44"><abbr title="Drupal\Core\Extension\InfoParserDynamic::parse">parse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InfoParserDynamic.php.html#133"><abbr title="Drupal\Core\Extension\InfoParserDynamic::getRequiredKeys">getRequiredKeys</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InfoParserDynamic.php.html#149"><abbr title="Drupal\Core\Extension\InfoParserDynamic::isConstraintSatisfiedByPreviousVersion">isConstraintSatisfiedByPreviousVersion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleExtensionList.php.html#72"><abbr title="Drupal\Core\Extension\ModuleExtensionList::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionList.php.html#512"><abbr title="Drupal\Core\Extension\ExtensionList::getPathname">getPathname</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleExtensionList.php.html#87"><abbr title="Drupal\Core\Extension\ModuleExtensionList::getExtensionDiscovery">getExtensionDiscovery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleExtensionList.php.html#106"><abbr title="Drupal\Core\Extension\ModuleExtensionList::getProfileDirectories">getProfileDirectories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleExtensionList.php.html#124"><abbr title="Drupal\Core\Extension\ModuleExtensionList::getActiveProfile">getActiveProfile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleExtensionList.php.html#136"><abbr title="Drupal\Core\Extension\ModuleExtensionList::doScanExtensions">doScanExtensions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleExtensionList.php.html#152"><abbr title="Drupal\Core\Extension\ModuleExtensionList::doList">doList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleExtensionList.php.html#198"><abbr title="Drupal\Core\Extension\ModuleExtensionList::getInstalledExtensionNames">getInstalledExtensionNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ModuleExtensionList.php.html#210"><abbr title="Drupal\Core\Extension\ModuleExtensionList::ensureRequiredDependencies">ensureRequiredDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionList.php.html#540"><abbr title="Drupal\Core\Extension\ExtensionList::getPath">getPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionList.php.html#467"><abbr title="Drupal\Core\Extension\ExtensionList::setPathname">setPathname</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionList.php.html#150"><abbr title="Drupal\Core\Extension\ExtensionList::getExtensionDiscovery">getExtensionDiscovery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionList.php.html#259"><abbr title="Drupal\Core\Extension\ExtensionList::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionList.php.html#163"><abbr title="Drupal\Core\Extension\ExtensionList::reset">reset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionList.php.html#191"><abbr title="Drupal\Core\Extension\ExtensionList::getListCacheId">getListCacheId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionList.php.html#201"><abbr title="Drupal\Core\Extension\ExtensionList::getInfoCacheId">getInfoCacheId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionList.php.html#211"><abbr title="Drupal\Core\Extension\ExtensionList::getPathnamesCacheId">getPathnamesCacheId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionList.php.html#225"><abbr title="Drupal\Core\Extension\ExtensionList::exists">exists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionList.php.html#242"><abbr title="Drupal\Core\Extension\ExtensionList::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionList.php.html#274"><abbr title="Drupal\Core\Extension\ExtensionList::getList">getList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionList.php.html#439"><abbr title="Drupal\Core\Extension\ExtensionList::recalculatePathnames">recalculatePathnames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionList.php.html#297"><abbr title="Drupal\Core\Extension\ExtensionList::doScanExtensions">doScanExtensions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionList.php.html#310"><abbr title="Drupal\Core\Extension\ExtensionList::doList">doList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionList.php.html#341"><abbr title="Drupal\Core\Extension\ExtensionList::getExtensionInfo">getExtensionInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionList.php.html#359"><abbr title="Drupal\Core\Extension\ExtensionList::getAllAvailableInfo">getAllAvailableInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionList.php.html#393"><abbr title="Drupal\Core\Extension\ExtensionList::getAllInstalledInfo">getAllInstalledInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionList.php.html#403"><abbr title="Drupal\Core\Extension\ExtensionList::recalculateInfo">recalculateInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExtensionList.php.html#414"><abbr title="Drupal\Core\Extension\ExtensionList::getPathnames">getPathnames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeInstaller.php.html#278"><abbr title="Drupal\Core\Extension\ThemeInstaller::themeRegistryRebuild">themeRegistryRebuild</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ModuleInstaller.php.html#82"><abbr title="Drupal\Core\Extension\ModuleInstaller::install">install</abbr></a></td><td class="text-right">1190</td></tr>
+       <tr><td><a href="InfoParserDynamic.php.html#44"><abbr title="Drupal\Core\Extension\InfoParserDynamic::parse">parse</abbr></a></td><td class="text-right">650</td></tr>
+       <tr><td><a href="ModuleInstaller.php.html#354"><abbr title="Drupal\Core\Extension\ModuleInstaller::uninstall">uninstall</abbr></a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#387"><abbr title="Drupal\Core\Extension\ExtensionDiscovery::scanDirectory">scanDirectory</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="ThemeInstaller.php.html#105"><abbr title="Drupal\Core\Extension\ThemeInstaller::install">install</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#455"><abbr title="Drupal\Core\Extension\ModuleHandler::alter">alter</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#152"><abbr title="Drupal\Core\Extension\ExtensionDiscovery::scan">scan</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="ThemeInstaller.php.html#209"><abbr title="Drupal\Core\Extension\ThemeInstaller::uninstall">uninstall</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#623"><abbr title="Drupal\Core\Extension\ModuleHandler::buildImplementationInfo">buildImplementationInfo</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="ModuleExtensionList.php.html#152"><abbr title="Drupal\Core\Extension\ModuleExtensionList::doList">doList</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="ModuleInstaller.php.html#533"><abbr title="Drupal\Core\Extension\ModuleInstaller::removeCacheBins">removeCacheBins</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#223"><abbr title="Drupal\Core\Extension\ModuleHandler::buildModuleDependencies">buildModuleDependencies</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="InfoParserDynamic.php.html#176"><abbr title="Drupal\Core\Extension\InfoParserDynamic::getAllPreviousCoreVersions">getAllPreviousCoreVersions</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#262"><abbr title="Drupal\Core\Extension\ModuleHandler::loadInclude">loadInclude</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#306"><abbr title="Drupal\Core\Extension\ExtensionDiscovery::sort">sort</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#577"><abbr title="Drupal\Core\Extension\ModuleHandler::getImplementationInfo">getImplementationInfo</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Dependency.php.html#128"><abbr title="Drupal\Core\Extension\Dependency::offsetGet">offsetGet</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ThemeExtensionList.php.html#214"><abbr title="Drupal\Core\Extension\ThemeExtensionList::doGetBaseThemes">doGetBaseThemes</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#398"><abbr title="Drupal\Core\Extension\ModuleHandler::invokeAll">invokeAll</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ThemeExtensionList.php.html#247"><abbr title="Drupal\Core\Extension\ThemeExtensionList::createExtensionInfo">createExtensionInfo</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#308"><abbr title="Drupal\Core\Extension\ModuleHandler::buildHookInfo">buildHookInfo</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#118"><abbr title="Drupal\Core\Extension\ThemeHandler::addTheme">addTheme</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ModuleInstaller.php.html#583"><abbr title="Drupal\Core\Extension\ModuleInstaller::validateUninstall">validateUninstall</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ExtensionList.php.html#512"><abbr title="Drupal\Core\Extension\ExtensionList::getPathname">getPathname</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ThemeExtensionList.php.html#154"><abbr title="Drupal\Core\Extension\ThemeExtensionList::fillInSubThemeData">fillInSubThemeData</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Discovery/RecursiveExtensionFilterIterator.php.html#130"><abbr title="Drupal\Core\Extension\Discovery\RecursiveExtensionFilterIterator::accept">accept</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ThemeExtensionList.php.html#109"><abbr title="Drupal\Core\Extension\ThemeExtensionList::doList">doList</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#271"><abbr title="Drupal\Core\Extension\ExtensionDiscovery::filterByProfileDirectories">filterByProfileDirectories</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#367"><abbr title="Drupal\Core\Extension\ModuleHandler::implementsHook">implementsHook</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ModuleExtensionList.php.html#210"><abbr title="Drupal\Core\Extension\ModuleExtensionList::ensureRequiredDependencies">ensureRequiredDependencies</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="InfoParserDynamic.php.html#149"><abbr title="Drupal\Core\Extension\InfoParserDynamic::isConstraintSatisfiedByPreviousVersion">isConstraintSatisfiedByPreviousVersion</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#214"><abbr title="Drupal\Core\Extension\ThemeHandler::hasUi">hasUi</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#672"><abbr title="Drupal\Core\Extension\ModuleHandler::verifyImplementations">verifyImplementations</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ExtensionList.php.html#414"><abbr title="Drupal\Core\Extension\ExtensionList::getPathnames">getPathnames</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ExtensionList.php.html#359"><abbr title="Drupal\Core\Extension\ExtensionList::getAllAvailableInfo">getAllAvailableInfo</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#141"><abbr title="Drupal\Core\Extension\ThemeHandler::refreshInfo">refreshInfo</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#290"><abbr title="Drupal\Core\Extension\ModuleHandler::getHookInfo">getHookInfo</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#103"><abbr title="Drupal\Core\Extension\ThemeHandler::listInfo">listInfo</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Dependency.php.html#180"><abbr title="Drupal\Core\Extension\Dependency::createFromString">createFromString</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ThemeExtensionList.php.html#287"><abbr title="Drupal\Core\Extension\ThemeExtensionList::getInstalledExtensionNames">getInstalledExtensionNames</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#138"><abbr title="Drupal\Core\Extension\ModuleHandler::loadAll">loadAll</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ExtensionList.php.html#274"><abbr title="Drupal\Core\Extension\ExtensionList::getList">getList</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Extension.php.html#65"><abbr title="Drupal\Core\Extension\Extension::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#122"><abbr title="Drupal\Core\Extension\ModuleHandler::load">load</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="InfoParserDynamic.php.html#32"><abbr title="Drupal\Core\Extension\InfoParserDynamic::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ModuleExtensionList.php.html#136"><abbr title="Drupal\Core\Extension\ModuleExtensionList::doScanExtensions">doScanExtensions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ModuleExtensionList.php.html#124"><abbr title="Drupal\Core\Extension\ModuleExtensionList::getActiveProfile">getActiveProfile</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#546"><abbr title="Drupal\Core\Extension\ModuleHandler::alterDeprecated">alterDeprecated</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="RequiredModuleUninstallValidator.php.html#56"><abbr title="Drupal\Core\Extension\RequiredModuleUninstallValidator::getModuleInfoByModule">getModuleInfoByModule</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#738"><abbr title="Drupal\Core\Extension\ModuleHandler::getModuleDirectories">getModuleDirectories</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#68"><abbr title="Drupal\Core\Extension\ThemeHandler::setDefault">setDefault</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#749"><abbr title="Drupal\Core\Extension\ModuleHandler::getName">getName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#203"><abbr title="Drupal\Core\Extension\ThemeHandler::getTheme">getTheme</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThemeHandler.php.html#184"><abbr title="Drupal\Core\Extension\ThemeHandler::getThemeDirectories">getThemeDirectories</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="RequiredModuleUninstallValidator.php.html#38"><abbr title="Drupal\Core\Extension\RequiredModuleUninstallValidator::validate">validate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Dependency.php.html#97"><abbr title="Drupal\Core\Extension\Dependency::getConstraint">getConstraint</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#172"><abbr title="Drupal\Core\Extension\ModuleHandler::getModule">getModule</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#441"><abbr title="Drupal\Core\Extension\ModuleHandler::triggerDeprecationError">triggerDeprecationError</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExtensionList.php.html#259"><abbr title="Drupal\Core\Extension\ExtensionList::get">get</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Discovery/RecursiveExtensionFilterIterator.php.html#108"><abbr title="Drupal\Core\Extension\Discovery\RecursiveExtensionFilterIterator::acceptTests">acceptTests</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Extension.php.html#124"><abbr title="Drupal\Core\Extension\Extension::getExtensionPathname">getExtensionPathname</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Extension.php.html#145"><abbr title="Drupal\Core\Extension\Extension::load">load</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Extension.php.html#158"><abbr title="Drupal\Core\Extension\Extension::__call">__call</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Extension.php.html#184"><abbr title="Drupal\Core\Extension\Extension::__wakeup">__wakeup</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#106"><abbr title="Drupal\Core\Extension\ExtensionDiscovery::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#229"><abbr title="Drupal\Core\Extension\ExtensionDiscovery::setProfileDirectoriesFromSettings">setProfileDirectoriesFromSettings</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExtensionDiscovery.php.html#361"><abbr title="Drupal\Core\Extension\ExtensionDiscovery::process">process</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExtensionList.php.html#163"><abbr title="Drupal\Core\Extension\ExtensionList::reset">reset</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExtensionList.php.html#310"><abbr title="Drupal\Core\Extension\ExtensionList::doList">doList</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#387"><abbr title="Drupal\Core\Extension\ModuleHandler::invoke">invoke</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExtensionList.php.html#341"><abbr title="Drupal\Core\Extension\ExtensionList::getExtensionInfo">getExtensionInfo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="InfoParser.php.html#20"><abbr title="Drupal\Core\Extension\InfoParser::parse">parse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ModuleExtensionList.php.html#72"><abbr title="Drupal\Core\Extension\ModuleExtensionList::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ModuleExtensionList.php.html#87"><abbr title="Drupal\Core\Extension\ModuleExtensionList::getExtensionDiscovery">getExtensionDiscovery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ModuleExtensionList.php.html#106"><abbr title="Drupal\Core\Extension\ModuleExtensionList::getProfileDirectories">getProfileDirectories</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#110"><abbr title="Drupal\Core\Extension\ModuleHandler::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#213"><abbr title="Drupal\Core\Extension\ModuleHandler::add">add</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#253"><abbr title="Drupal\Core\Extension\ModuleHandler::loadAllIncludes">loadAllIncludes</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ModuleHandler.php.html#335"><abbr title="Drupal\Core\Extension\ModuleHandler::writeCache">writeCache</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThemeInstaller.php.html#264"><abbr title="Drupal\Core\Extension\ThemeInstaller::resetSystem">resetSystem</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.33-16+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Fri Jun 12 8:21:00 AEST 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([16,0,0,0,0,0,0,0,0,0,0,6], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([148,0,0,0,0,0,0,0,0,0,0,1], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,20,"<a href=\"Dependency.php.html#15\">Drupal\\Core\\Extension\\Dependency<\/a>"],[0,9,"<a href=\"Discovery\/RecursiveExtensionFilterIterator.php.html#32\">Drupal\\Core\\Extension\\Discovery\\RecursiveExtensionFilterIterator<\/a>"],[100,0,"<a href=\"Exception\/UninstalledExtensionException.php.html#8\">Drupal\\Core\\Extension\\Exception\\UninstalledExtensionException<\/a>"],[100,0,"<a href=\"Exception\/UnknownExtensionException.php.html#8\">Drupal\\Core\\Extension\\Exception\\UnknownExtensionException<\/a>"],[0,18,"<a href=\"Extension.php.html#13\">Drupal\\Core\\Extension\\Extension<\/a>"],[0,45,"<a href=\"ExtensionDiscovery.php.html#20\">Drupal\\Core\\Extension\\ExtensionDiscovery<\/a>"],[0,38,"<a href=\"ExtensionList.php.html#21\">Drupal\\Core\\Extension\\ExtensionList<\/a>"],[100,0,"<a href=\"ExtensionNameLengthException.php.html#8\">Drupal\\Core\\Extension\\ExtensionNameLengthException<\/a>"],[0,2,"<a href=\"InfoParser.php.html#8\">Drupal\\Core\\Extension\\InfoParser<\/a>"],[0,41,"<a href=\"InfoParserDynamic.php.html#12\">Drupal\\Core\\Extension\\InfoParserDynamic<\/a>"],[100,0,"<a href=\"InfoParserException.php.html#8\">Drupal\\Core\\Extension\\InfoParserException<\/a>"],[100,0,"<a href=\"MissingDependencyException.php.html#10\">Drupal\\Core\\Extension\\MissingDependencyException<\/a>"],[0,26,"<a href=\"ModuleExtensionList.php.html#19\">Drupal\\Core\\Extension\\ModuleExtensionList<\/a>"],[0,102,"<a href=\"ModuleHandler.php.html#13\">Drupal\\Core\\Extension\\ModuleHandler<\/a>"],[0,74,"<a href=\"ModuleInstaller.php.html#23\">Drupal\\Core\\Extension\\ModuleInstaller<\/a>"],[100,0,"<a href=\"ModuleUninstallValidatorException.php.html#8\">Drupal\\Core\\Extension\\ModuleUninstallValidatorException<\/a>"],[0,1,"<a href=\"ProfileExtensionList.php.html#14\">Drupal\\Core\\Extension\\ProfileExtensionList<\/a>"],[0,5,"<a href=\"RequiredModuleUninstallValidator.php.html#11\">Drupal\\Core\\Extension\\RequiredModuleUninstallValidator<\/a>"],[0,1,"<a href=\"ThemeEngineExtensionList.php.html#14\">Drupal\\Core\\Extension\\ThemeEngineExtensionList<\/a>"],[0,27,"<a href=\"ThemeExtensionList.php.html#18\">Drupal\\Core\\Extension\\ThemeExtensionList<\/a>"],[0,30,"<a href=\"ThemeHandler.php.html#12\">Drupal\\Core\\Extension\\ThemeHandler<\/a>"],[0,29,"<a href=\"ThemeInstaller.php.html#18\">Drupal\\Core\\Extension\\ThemeInstaller<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Dependency.php.html#55\">Drupal\\Core\\Extension\\Dependency::__construct<\/a>"],[0,1,"<a href=\"Dependency.php.html#67\">Drupal\\Core\\Extension\\Dependency::getName<\/a>"],[0,1,"<a href=\"Dependency.php.html#77\">Drupal\\Core\\Extension\\Dependency::getProject<\/a>"],[0,1,"<a href=\"Dependency.php.html#87\">Drupal\\Core\\Extension\\Dependency::getConstraintString<\/a>"],[0,2,"<a href=\"Dependency.php.html#97\">Drupal\\Core\\Extension\\Dependency::getConstraint<\/a>"],[0,1,"<a href=\"Dependency.php.html#113\">Drupal\\Core\\Extension\\Dependency::isCompatible<\/a>"],[0,1,"<a href=\"Dependency.php.html#120\">Drupal\\Core\\Extension\\Dependency::offsetExists<\/a>"],[0,6,"<a href=\"Dependency.php.html#128\">Drupal\\Core\\Extension\\Dependency::offsetGet<\/a>"],[0,1,"<a href=\"Dependency.php.html#156\">Drupal\\Core\\Extension\\Dependency::offsetSet<\/a>"],[0,1,"<a href=\"Dependency.php.html#163\">Drupal\\Core\\Extension\\Dependency::offsetUnset<\/a>"],[0,3,"<a href=\"Dependency.php.html#180\">Drupal\\Core\\Extension\\Dependency::createFromString<\/a>"],[0,1,"<a href=\"Dependency.php.html#199\">Drupal\\Core\\Extension\\Dependency::__sleep<\/a>"],[0,1,"<a href=\"Discovery\/RecursiveExtensionFilterIterator.php.html#94\">Drupal\\Core\\Extension\\Discovery\\RecursiveExtensionFilterIterator::__construct<\/a>"],[0,2,"<a href=\"Discovery\/RecursiveExtensionFilterIterator.php.html#108\">Drupal\\Core\\Extension\\Discovery\\RecursiveExtensionFilterIterator::acceptTests<\/a>"],[0,1,"<a href=\"Discovery\/RecursiveExtensionFilterIterator.php.html#118\">Drupal\\Core\\Extension\\Discovery\\RecursiveExtensionFilterIterator::getChildren<\/a>"],[0,5,"<a href=\"Discovery\/RecursiveExtensionFilterIterator.php.html#130\">Drupal\\Core\\Extension\\Discovery\\RecursiveExtensionFilterIterator::accept<\/a>"],[0,3,"<a href=\"Extension.php.html#65\">Drupal\\Core\\Extension\\Extension::__construct<\/a>"],[0,1,"<a href=\"Extension.php.html#79\">Drupal\\Core\\Extension\\Extension::getType<\/a>"],[0,1,"<a href=\"Extension.php.html#88\">Drupal\\Core\\Extension\\Extension::getName<\/a>"],[0,1,"<a href=\"Extension.php.html#97\">Drupal\\Core\\Extension\\Extension::getPath<\/a>"],[0,1,"<a href=\"Extension.php.html#106\">Drupal\\Core\\Extension\\Extension::getPathname<\/a>"],[0,1,"<a href=\"Extension.php.html#115\">Drupal\\Core\\Extension\\Extension::getFilename<\/a>"],[0,2,"<a href=\"Extension.php.html#124\">Drupal\\Core\\Extension\\Extension::getExtensionPathname<\/a>"],[0,1,"<a href=\"Extension.php.html#135\">Drupal\\Core\\Extension\\Extension::getExtensionFilename<\/a>"],[0,2,"<a href=\"Extension.php.html#145\">Drupal\\Core\\Extension\\Extension::load<\/a>"],[0,2,"<a href=\"Extension.php.html#158\">Drupal\\Core\\Extension\\Extension::__call<\/a>"],[0,1,"<a href=\"Extension.php.html#171\">Drupal\\Core\\Extension\\Extension::__sleep<\/a>"],[0,2,"<a href=\"Extension.php.html#184\">Drupal\\Core\\Extension\\Extension::__wakeup<\/a>"],[0,2,"<a href=\"ExtensionDiscovery.php.html#106\">Drupal\\Core\\Extension\\ExtensionDiscovery::__construct<\/a>"],[0,11,"<a href=\"ExtensionDiscovery.php.html#152\">Drupal\\Core\\Extension\\ExtensionDiscovery::scan<\/a>"],[0,2,"<a href=\"ExtensionDiscovery.php.html#229\">Drupal\\Core\\Extension\\ExtensionDiscovery::setProfileDirectoriesFromSettings<\/a>"],[0,1,"<a href=\"ExtensionDiscovery.php.html#244\">Drupal\\Core\\Extension\\ExtensionDiscovery::getProfileDirectories<\/a>"],[0,1,"<a href=\"ExtensionDiscovery.php.html#257\">Drupal\\Core\\Extension\\ExtensionDiscovery::setProfileDirectories<\/a>"],[0,5,"<a href=\"ExtensionDiscovery.php.html#271\">Drupal\\Core\\Extension\\ExtensionDiscovery::filterByProfileDirectories<\/a>"],[0,6,"<a href=\"ExtensionDiscovery.php.html#306\">Drupal\\Core\\Extension\\ExtensionDiscovery::sort<\/a>"],[0,2,"<a href=\"ExtensionDiscovery.php.html#361\">Drupal\\Core\\Extension\\ExtensionDiscovery::process<\/a>"],[0,15,"<a href=\"ExtensionDiscovery.php.html#387\">Drupal\\Core\\Extension\\ExtensionDiscovery::scanDirectory<\/a>"],[0,1,"<a href=\"ExtensionList.php.html#135\">Drupal\\Core\\Extension\\ExtensionList::__construct<\/a>"],[0,1,"<a href=\"ExtensionList.php.html#150\">Drupal\\Core\\Extension\\ExtensionList::getExtensionDiscovery<\/a>"],[0,2,"<a href=\"ExtensionList.php.html#163\">Drupal\\Core\\Extension\\ExtensionList::reset<\/a>"],[0,1,"<a href=\"ExtensionList.php.html#191\">Drupal\\Core\\Extension\\ExtensionList::getListCacheId<\/a>"],[0,1,"<a href=\"ExtensionList.php.html#201\">Drupal\\Core\\Extension\\ExtensionList::getInfoCacheId<\/a>"],[0,1,"<a href=\"ExtensionList.php.html#211\">Drupal\\Core\\Extension\\ExtensionList::getPathnamesCacheId<\/a>"],[0,1,"<a href=\"ExtensionList.php.html#225\">Drupal\\Core\\Extension\\ExtensionList::exists<\/a>"],[0,1,"<a href=\"ExtensionList.php.html#242\">Drupal\\Core\\Extension\\ExtensionList::getName<\/a>"],[0,2,"<a href=\"ExtensionList.php.html#259\">Drupal\\Core\\Extension\\ExtensionList::get<\/a>"],[0,3,"<a href=\"ExtensionList.php.html#274\">Drupal\\Core\\Extension\\ExtensionList::getList<\/a>"],[0,1,"<a href=\"ExtensionList.php.html#297\">Drupal\\Core\\Extension\\ExtensionList::doScanExtensions<\/a>"],[0,2,"<a href=\"ExtensionList.php.html#310\">Drupal\\Core\\Extension\\ExtensionList::doList<\/a>"],[0,2,"<a href=\"ExtensionList.php.html#341\">Drupal\\Core\\Extension\\ExtensionList::getExtensionInfo<\/a>"],[0,3,"<a href=\"ExtensionList.php.html#359\">Drupal\\Core\\Extension\\ExtensionList::getAllAvailableInfo<\/a>"],[100,1,"<a href=\"ExtensionList.php.html#381\">Drupal\\Core\\Extension\\ExtensionList::getInstalledExtensionNames<\/a>"],[0,1,"<a href=\"ExtensionList.php.html#393\">Drupal\\Core\\Extension\\ExtensionList::getAllInstalledInfo<\/a>"],[0,1,"<a href=\"ExtensionList.php.html#403\">Drupal\\Core\\Extension\\ExtensionList::recalculateInfo<\/a>"],[0,4,"<a href=\"ExtensionList.php.html#414\">Drupal\\Core\\Extension\\ExtensionList::getPathnames<\/a>"],[0,1,"<a href=\"ExtensionList.php.html#439\">Drupal\\Core\\Extension\\ExtensionList::recalculatePathnames<\/a>"],[0,1,"<a href=\"ExtensionList.php.html#467\">Drupal\\Core\\Extension\\ExtensionList::setPathname<\/a>"],[0,5,"<a href=\"ExtensionList.php.html#512\">Drupal\\Core\\Extension\\ExtensionList::getPathname<\/a>"],[0,1,"<a href=\"ExtensionList.php.html#540\">Drupal\\Core\\Extension\\ExtensionList::getPath<\/a>"],[0,1,"<a href=\"ExtensionList.php.html#553\">Drupal\\Core\\Extension\\ExtensionList::createExtensionInfo<\/a>"],[0,2,"<a href=\"InfoParser.php.html#20\">Drupal\\Core\\Extension\\InfoParser::parse<\/a>"],[0,3,"<a href=\"InfoParserDynamic.php.html#32\">Drupal\\Core\\Extension\\InfoParserDynamic::__construct<\/a>"],[0,25,"<a href=\"InfoParserDynamic.php.html#44\">Drupal\\Core\\Extension\\InfoParserDynamic::parse<\/a>"],[0,1,"<a href=\"InfoParserDynamic.php.html#133\">Drupal\\Core\\Extension\\InfoParserDynamic::getRequiredKeys<\/a>"],[0,4,"<a href=\"InfoParserDynamic.php.html#149\">Drupal\\Core\\Extension\\InfoParserDynamic::isConstraintSatisfiedByPreviousVersion<\/a>"],[0,8,"<a href=\"InfoParserDynamic.php.html#176\">Drupal\\Core\\Extension\\InfoParserDynamic::getAllPreviousCoreVersions<\/a>"],[0,2,"<a href=\"ModuleExtensionList.php.html#72\">Drupal\\Core\\Extension\\ModuleExtensionList::__construct<\/a>"],[0,2,"<a href=\"ModuleExtensionList.php.html#87\">Drupal\\Core\\Extension\\ModuleExtensionList::getExtensionDiscovery<\/a>"],[0,2,"<a href=\"ModuleExtensionList.php.html#106\">Drupal\\Core\\Extension\\ModuleExtensionList::getProfileDirectories<\/a>"],[0,3,"<a href=\"ModuleExtensionList.php.html#124\">Drupal\\Core\\Extension\\ModuleExtensionList::getActiveProfile<\/a>"],[0,3,"<a href=\"ModuleExtensionList.php.html#136\">Drupal\\Core\\Extension\\ModuleExtensionList::doScanExtensions<\/a>"],[0,9,"<a href=\"ModuleExtensionList.php.html#152\">Drupal\\Core\\Extension\\ModuleExtensionList::doList<\/a>"],[0,1,"<a href=\"ModuleExtensionList.php.html#198\">Drupal\\Core\\Extension\\ModuleExtensionList::getInstalledExtensionNames<\/a>"],[0,4,"<a href=\"ModuleExtensionList.php.html#210\">Drupal\\Core\\Extension\\ModuleExtensionList::ensureRequiredDependencies<\/a>"],[0,2,"<a href=\"ModuleHandler.php.html#110\">Drupal\\Core\\Extension\\ModuleHandler::__construct<\/a>"],[0,3,"<a href=\"ModuleHandler.php.html#122\">Drupal\\Core\\Extension\\ModuleHandler::load<\/a>"],[0,3,"<a href=\"ModuleHandler.php.html#138\">Drupal\\Core\\Extension\\ModuleHandler::loadAll<\/a>"],[0,1,"<a href=\"ModuleHandler.php.html#150\">Drupal\\Core\\Extension\\ModuleHandler::reload<\/a>"],[0,1,"<a href=\"ModuleHandler.php.html#158\">Drupal\\Core\\Extension\\ModuleHandler::isLoaded<\/a>"],[0,1,"<a href=\"ModuleHandler.php.html#165\">Drupal\\Core\\Extension\\ModuleHandler::getModuleList<\/a>"],[0,2,"<a href=\"ModuleHandler.php.html#172\">Drupal\\Core\\Extension\\ModuleHandler::getModule<\/a>"],[0,1,"<a href=\"ModuleHandler.php.html#182\">Drupal\\Core\\Extension\\ModuleHandler::setModuleList<\/a>"],[0,1,"<a href=\"ModuleHandler.php.html#192\">Drupal\\Core\\Extension\\ModuleHandler::addModule<\/a>"],[0,1,"<a href=\"ModuleHandler.php.html#199\">Drupal\\Core\\Extension\\ModuleHandler::addProfile<\/a>"],[0,2,"<a href=\"ModuleHandler.php.html#213\">Drupal\\Core\\Extension\\ModuleHandler::add<\/a>"],[0,8,"<a href=\"ModuleHandler.php.html#223\">Drupal\\Core\\Extension\\ModuleHandler::buildModuleDependencies<\/a>"],[0,1,"<a href=\"ModuleHandler.php.html#246\">Drupal\\Core\\Extension\\ModuleHandler::moduleExists<\/a>"],[0,2,"<a href=\"ModuleHandler.php.html#253\">Drupal\\Core\\Extension\\ModuleHandler::loadAllIncludes<\/a>"],[0,6,"<a href=\"ModuleHandler.php.html#262\">Drupal\\Core\\Extension\\ModuleHandler::loadInclude<\/a>"],[0,3,"<a href=\"ModuleHandler.php.html#290\">Drupal\\Core\\Extension\\ModuleHandler::getHookInfo<\/a>"],[0,5,"<a href=\"ModuleHandler.php.html#308\">Drupal\\Core\\Extension\\ModuleHandler::buildHookInfo<\/a>"],[0,1,"<a href=\"ModuleHandler.php.html#327\">Drupal\\Core\\Extension\\ModuleHandler::getImplementations<\/a>"],[0,2,"<a href=\"ModuleHandler.php.html#335\">Drupal\\Core\\Extension\\ModuleHandler::writeCache<\/a>"],[0,1,"<a href=\"ModuleHandler.php.html#345\">Drupal\\Core\\Extension\\ModuleHandler::resetImplementations<\/a>"],[0,4,"<a href=\"ModuleHandler.php.html#367\">Drupal\\Core\\Extension\\ModuleHandler::implementsHook<\/a>"],[0,2,"<a href=\"ModuleHandler.php.html#387\">Drupal\\Core\\Extension\\ModuleHandler::invoke<\/a>"],[0,5,"<a href=\"ModuleHandler.php.html#398\">Drupal\\Core\\Extension\\ModuleHandler::invokeAll<\/a>"],[0,1,"<a href=\"ModuleHandler.php.html#418\">Drupal\\Core\\Extension\\ModuleHandler::invokeDeprecated<\/a>"],[0,1,"<a href=\"ModuleHandler.php.html#427\">Drupal\\Core\\Extension\\ModuleHandler::invokeAllDeprecated<\/a>"],[0,2,"<a href=\"ModuleHandler.php.html#441\">Drupal\\Core\\Extension\\ModuleHandler::triggerDeprecationError<\/a>"],[0,13,"<a href=\"ModuleHandler.php.html#455\">Drupal\\Core\\Extension\\ModuleHandler::alter<\/a>"],[0,3,"<a href=\"ModuleHandler.php.html#546\">Drupal\\Core\\Extension\\ModuleHandler::alterDeprecated<\/a>"],[0,6,"<a href=\"ModuleHandler.php.html#577\">Drupal\\Core\\Extension\\ModuleHandler::getImplementationInfo<\/a>"],[0,9,"<a href=\"ModuleHandler.php.html#623\">Drupal\\Core\\Extension\\ModuleHandler::buildImplementationInfo<\/a>"],[0,4,"<a href=\"ModuleHandler.php.html#672\">Drupal\\Core\\Extension\\ModuleHandler::verifyImplementations<\/a>"],[0,1,"<a href=\"ModuleHandler.php.html#723\">Drupal\\Core\\Extension\\ModuleHandler::parseDependency<\/a>"],[0,2,"<a href=\"ModuleHandler.php.html#738\">Drupal\\Core\\Extension\\ModuleHandler::getModuleDirectories<\/a>"],[0,2,"<a href=\"ModuleHandler.php.html#749\">Drupal\\Core\\Extension\\ModuleHandler::getName<\/a>"],[0,1,"<a href=\"ModuleInstaller.php.html#66\">Drupal\\Core\\Extension\\ModuleInstaller::__construct<\/a>"],[0,1,"<a href=\"ModuleInstaller.php.html#75\">Drupal\\Core\\Extension\\ModuleInstaller::addUninstallValidator<\/a>"],[0,34,"<a href=\"ModuleInstaller.php.html#82\">Drupal\\Core\\Extension\\ModuleInstaller::install<\/a>"],[0,23,"<a href=\"ModuleInstaller.php.html#354\">Drupal\\Core\\Extension\\ModuleInstaller::uninstall<\/a>"],[0,9,"<a href=\"ModuleInstaller.php.html#533\">Drupal\\Core\\Extension\\ModuleInstaller::removeCacheBins<\/a>"],[0,1,"<a href=\"ModuleInstaller.php.html#568\">Drupal\\Core\\Extension\\ModuleInstaller::updateKernel<\/a>"],[0,5,"<a href=\"ModuleInstaller.php.html#583\">Drupal\\Core\\Extension\\ModuleInstaller::validateUninstall<\/a>"],[0,1,"<a href=\"ProfileExtensionList.php.html#31\">Drupal\\Core\\Extension\\ProfileExtensionList::getInstalledExtensionNames<\/a>"],[0,1,"<a href=\"RequiredModuleUninstallValidator.php.html#30\">Drupal\\Core\\Extension\\RequiredModuleUninstallValidator::__construct<\/a>"],[0,2,"<a href=\"RequiredModuleUninstallValidator.php.html#38\">Drupal\\Core\\Extension\\RequiredModuleUninstallValidator::validate<\/a>"],[0,2,"<a href=\"RequiredModuleUninstallValidator.php.html#56\">Drupal\\Core\\Extension\\RequiredModuleUninstallValidator::getModuleInfoByModule<\/a>"],[0,1,"<a href=\"ThemeEngineExtensionList.php.html#30\">Drupal\\Core\\Extension\\ThemeEngineExtensionList::getInstalledExtensionNames<\/a>"],[0,1,"<a href=\"ThemeExtensionList.php.html#99\">Drupal\\Core\\Extension\\ThemeExtensionList::__construct<\/a>"],[0,5,"<a href=\"ThemeExtensionList.php.html#109\">Drupal\\Core\\Extension\\ThemeExtensionList::doList<\/a>"],[0,5,"<a href=\"ThemeExtensionList.php.html#154\">Drupal\\Core\\Extension\\ThemeExtensionList::fillInSubThemeData<\/a>"],[0,1,"<a href=\"ThemeExtensionList.php.html#196\">Drupal\\Core\\Extension\\ThemeExtensionList::getBaseThemes<\/a>"],[0,6,"<a href=\"ThemeExtensionList.php.html#214\">Drupal\\Core\\Extension\\ThemeExtensionList::doGetBaseThemes<\/a>"],[0,5,"<a href=\"ThemeExtensionList.php.html#247\">Drupal\\Core\\Extension\\ThemeExtensionList::createExtensionInfo<\/a>"],[0,3,"<a href=\"ThemeExtensionList.php.html#287\">Drupal\\Core\\Extension\\ThemeExtensionList::getInstalledExtensionNames<\/a>"],[0,1,"<a href=\"ThemeExtensionList.php.html#298\">Drupal\\Core\\Extension\\ThemeExtensionList::reset<\/a>"],[0,1,"<a href=\"ThemeHandler.php.html#52\">Drupal\\Core\\Extension\\ThemeHandler::__construct<\/a>"],[0,1,"<a href=\"ThemeHandler.php.html#61\">Drupal\\Core\\Extension\\ThemeHandler::getDefault<\/a>"],[0,2,"<a href=\"ThemeHandler.php.html#68\">Drupal\\Core\\Extension\\ThemeHandler::setDefault<\/a>"],[0,1,"<a href=\"ThemeHandler.php.html#83\">Drupal\\Core\\Extension\\ThemeHandler::install<\/a>"],[0,1,"<a href=\"ThemeHandler.php.html#93\">Drupal\\Core\\Extension\\ThemeHandler::uninstall<\/a>"],[0,3,"<a href=\"ThemeHandler.php.html#103\">Drupal\\Core\\Extension\\ThemeHandler::listInfo<\/a>"],[0,5,"<a href=\"ThemeHandler.php.html#118\">Drupal\\Core\\Extension\\ThemeHandler::addTheme<\/a>"],[0,3,"<a href=\"ThemeHandler.php.html#141\">Drupal\\Core\\Extension\\ThemeHandler::refreshInfo<\/a>"],[0,1,"<a href=\"ThemeHandler.php.html#155\">Drupal\\Core\\Extension\\ThemeHandler::reset<\/a>"],[0,1,"<a href=\"ThemeHandler.php.html#163\">Drupal\\Core\\Extension\\ThemeHandler::rebuildThemeData<\/a>"],[0,1,"<a href=\"ThemeHandler.php.html#170\">Drupal\\Core\\Extension\\ThemeHandler::getBaseThemes<\/a>"],[0,1,"<a href=\"ThemeHandler.php.html#177\">Drupal\\Core\\Extension\\ThemeHandler::getName<\/a>"],[0,2,"<a href=\"ThemeHandler.php.html#184\">Drupal\\Core\\Extension\\ThemeHandler::getThemeDirectories<\/a>"],[0,1,"<a href=\"ThemeHandler.php.html#195\">Drupal\\Core\\Extension\\ThemeHandler::themeExists<\/a>"],[0,2,"<a href=\"ThemeHandler.php.html#203\">Drupal\\Core\\Extension\\ThemeHandler::getTheme<\/a>"],[0,4,"<a href=\"ThemeHandler.php.html#214\">Drupal\\Core\\Extension\\ThemeHandler::hasUi<\/a>"],[0,1,"<a href=\"ThemeInstaller.php.html#90\">Drupal\\Core\\Extension\\ThemeInstaller::__construct<\/a>"],[0,15,"<a href=\"ThemeInstaller.php.html#105\">Drupal\\Core\\Extension\\ThemeInstaller::install<\/a>"],[0,10,"<a href=\"ThemeInstaller.php.html#209\">Drupal\\Core\\Extension\\ThemeInstaller::uninstall<\/a>"],[0,2,"<a href=\"ThemeInstaller.php.html#264\">Drupal\\Core\\Extension\\ThemeInstaller::resetSystem<\/a>"],[0,1,"<a href=\"ThemeInstaller.php.html#278\">Drupal\\Core\\Extension\\ThemeInstaller::themeRegistryRebuild<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

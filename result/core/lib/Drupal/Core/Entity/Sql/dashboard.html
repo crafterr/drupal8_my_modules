@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/crafter/www/drupal-modules.devel/web/core/lib/Drupal/Core/Entity/Sql</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../../../index.html">/home/crafter/www/drupal-modules.devel/web</a></li>
+         <li class="breadcrumb-item"><a href="../../../../../index.html">core</a></li>
+         <li class="breadcrumb-item"><a href="../../../../index.html">lib</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">Drupal</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Core</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Entity</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Sql</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DefaultTableMapping.php.html#12">Drupal\Core\Entity\Sql\DefaultTableMapping</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#42">Drupal\Core\Entity\Sql\SqlContentEntityStorage</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#30">Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchemaConverter.php.html#19">Drupal\Core\Entity\Sql\SqlContentEntityStorageSchemaConverter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryTableMapping.php.html#15">Drupal\Core\Entity\Sql\TemporaryTableMapping</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlFieldableEntityTypeListenerTrait.php.html#19">SqlFieldableEntityTypeListenerTrait</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#30">Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema</a></td><td class="text-right">107256</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#42">Drupal\Core\Entity\Sql\SqlContentEntityStorage</a></td><td class="text-right">66822</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#12">Drupal\Core\Entity\Sql\DefaultTableMapping</a></td><td class="text-right">5402</td></tr>
+       <tr><td><a href="SqlFieldableEntityTypeListenerTrait.php.html#19">SqlFieldableEntityTypeListenerTrait</a></td><td class="text-right">1640</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchemaConverter.php.html#19">Drupal\Core\Entity\Sql\SqlContentEntityStorageSchemaConverter</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="TemporaryTableMapping.php.html#15">Drupal\Core\Entity\Sql\TemporaryTableMapping</a></td><td class="text-right">12</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DefaultTableMapping.php.html#127"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1130"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getFieldSchemaData">getFieldSchemaData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#836"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getSelectQueryForFieldStorageDeletion">getSelectQueryForFieldStorageDeletion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#906"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::checkEntityType">checkEntityType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#932"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getEntitySchema">getEntitySchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1020"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getEntitySchemaTables">getEntitySchemaTables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1043"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getEntitySchemaData">getEntitySchemaData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1094"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getFieldIndexes">getFieldIndexes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1111"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getFieldUniqueKeys">getFieldUniqueKeys</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1170"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getFieldSchemaIdentifierName">getFieldSchemaIdentifierName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#714"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::onFieldStorageDefinitionDelete">onFieldStorageDefinitionDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1198"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getFieldForeignKeys">getFieldForeignKeys</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1227"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::loadEntitySchemaData">loadEntitySchemaData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1239"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::saveEntitySchemaData">saveEntitySchemaData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1250"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::deleteEntitySchemaData">deleteEntitySchemaData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1263"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::loadFieldSchemaData">loadFieldSchemaData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1275"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::saveFieldSchemaData">saveFieldSchemaData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1286"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::deleteFieldSchemaData">deleteFieldSchemaData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#817"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::finalizePurge">finalizePurge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#706"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::onFieldStorageDefinitionUpdate">onFieldStorageDefinitionUpdate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1333"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::initializeRevisionTable">initializeRevisionTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#360"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::onEntityTypeCreate">onEntityTypeCreate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#219"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::requiresEntityStorageSchemaChanges">requiresEntityStorageSchemaChanges</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#237"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::hasSharedTableStructureChange">hasSharedTableStructureChange</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#254"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::hasSharedTableNameChanges">hasSharedTableNameChanges</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#272"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::requiresFieldStorageSchemaChanges">requiresFieldStorageSchemaChanges</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#311"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getSchemaFromStorageDefinition">getSchemaFromStorageDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#333"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::requiresEntityDataMigration">requiresEntityDataMigration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#353"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::requiresFieldDataMigration">requiresFieldDataMigration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#367"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::onEntityTypeUpdate">onEntityTypeUpdate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#698"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::onFieldStorageDefinitionCreate">onFieldStorageDefinitionCreate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#395"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::onEntityTypeDelete">onEntityTypeDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#419"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::onFieldableEntityTypeCreate">onFieldableEntityTypeCreate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#456"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::onFieldableEntityTypeUpdate">onFieldableEntityTypeUpdate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#463"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::preUpdateEntityTypeSchema">preUpdateEntityTypeSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#527"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::postUpdateEntityTypeSchema">postUpdateEntityTypeSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#641"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getTableNames">getTableNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#659"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::handleEntityTypeSchemaUpdateExceptionOnDataCopy">handleEntityTypeSchemaUpdateExceptionOnDataCopy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#682"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getTemporaryTableMappingPrefix">getTemporaryTableMappingPrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1299"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::initializeBaseTable">initializeBaseTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1366"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::initializeDataTable">initializeDataTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#184"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::updateBackupRepository">updateBackupRepository</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#2552"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::addUniqueKey">addUniqueKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#2256"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getDedicatedTableSchema">getDedicatedTableSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#2431"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getEntityIndexName">getEntityIndexName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#2447"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getFieldIndexName">getFieldIndexName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#2462"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::isTableEmpty">isTableEmpty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#2482"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::hasColumnChanges">hasColumnChanges</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#2516"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getColumnSchemaRelevantKeys">getColumnSchemaRelevantKeys</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#2534"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::addIndex">addIndex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#2579"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::castValue">castValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#2207"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::addSharedTableFieldUniqueKey">addSharedTableFieldUniqueKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchemaConverter.php.html#52"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchemaConverter::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchemaConverter.php.html#92"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchemaConverter::convertToRevisionable">convertToRevisionable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryTableMapping.php.html#20"><abbr title="Drupal\Core\Entity\Sql\TemporaryTableMapping::generateFieldTableName">generateFieldTableName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryTableMapping.php.html#37"><abbr title="Drupal\Core\Entity\Sql\TemporaryTableMapping::getTempTableName">getTempTableName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlFieldableEntityTypeListenerTrait.php.html#24"><abbr title="SqlFieldableEntityTypeListenerTrait::onFieldableEntityTypeUpdate">onFieldableEntityTypeUpdate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlFieldableEntityTypeListenerTrait.php.html#101"><abbr title="SqlFieldableEntityTypeListenerTrait::preUpdateEntityTypeSchema">preUpdateEntityTypeSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlFieldableEntityTypeListenerTrait.php.html#120"><abbr title="SqlFieldableEntityTypeListenerTrait::postUpdateEntityTypeSchema">postUpdateEntityTypeSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlFieldableEntityTypeListenerTrait.php.html#137"><abbr title="SqlFieldableEntityTypeListenerTrait::copyData">copyData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#2226"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::addSharedTableFieldForeignKey">addSharedTableFieldForeignKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#2187"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::addSharedTableFieldIndex">addSharedTableFieldIndex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1403"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::initializeRevisionDataTable">initializeRevisionDataTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1557"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::performFieldSchemaOperation">performFieldSchemaOperation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1437"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::addTableDefaults">addTableDefaults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1454"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::processBaseTable">processBaseTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1469"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::processRevisionTable">processRevisionTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1487"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::processDataTable">processDataTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1504"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::processRevisionDataTable">processRevisionDataTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1518"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::processIdentifierSchema">processIdentifierSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1532"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::processFieldStorageSchema">processFieldStorageSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1578"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::createDedicatedTableSchema">createDedicatedTableSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#2080"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getSharedTableFieldSchema">getSharedTableFieldSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1604"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::createSharedTableSchema">createSharedTableSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1677"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::deleteDedicatedTableSchema">deleteDedicatedTableSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1698"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::deleteSharedTableSchema">deleteSharedTableSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1752"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::updateDedicatedTableSchema">updateDedicatedTableSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1844"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::updateSharedTableSchema">updateSharedTableSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1945"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::createEntitySchemaIndexes">createEntitySchemaIndexes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#2004"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::deleteEntitySchemaIndexes">deleteEntitySchemaIndexes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#2044"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::hasNullFieldPropertyData">hasNullFieldPropertyData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#203"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getTableMapping">getTableMapping</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#167"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::deletedFieldsRepository">deletedFieldsRepository</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#162"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#289"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::getStorageSchema">getStorageSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#173"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::getFieldStorageDefinitions">getFieldStorageDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#198"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#216"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::initTableLayout">initTableLayout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#249"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::getBaseTable">getBaseTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#259"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::getRevisionTable">getRevisionTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#269"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::getDataTable">getDataTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#279"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::getRevisionDataTable">getRevisionDataTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#306"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::setEntityType">setEntityType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#610"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::generateFieldTableName">generateFieldTableName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#324"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::setFieldStorageDefinitions">setFieldStorageDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#343"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::setTableMapping">setTableMapping</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#360"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::setTemporary">setTemporary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#367"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::getTableMapping">getTableMapping</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#401"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::getCustomTableMapping">getCustomTableMapping</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#409"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::doLoadMultiple">doLoadMultiple</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#433"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::getFromStorage">getFromStorage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#469"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::mapFromStorageRecords">mapFromStorageRecords</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#147"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::createInstance">createInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#582"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::getDedicatedRevisionTableName">getDedicatedRevisionTableName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#634"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::doLoadRevisionFieldItems">doLoadRevisionFieldItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#356"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::getFieldTableName">getFieldTableName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#271"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::getBaseTable">getBaseTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#283"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::getRevisionTable">getRevisionTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#295"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::getDataTable">getDataTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#307"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::getRevisionDataTable">getRevisionDataTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#314"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::getTableNames">getTableNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#321"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::getAllColumns">getAllColumns</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#346"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::getFieldNames">getFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#400"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::getColumnNames">getColumnNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#556"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::getDedicatedDataTableName">getDedicatedDataTableName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#415"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::getFieldColumnName">getFieldColumnName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#451"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::setFieldNames">setFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#461"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::getExtraColumns">getExtraColumns</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#483"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::setExtraColumns">setExtraColumns</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#499"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::allowsSharedTableStorage">allowsSharedTableStorage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#512"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::requiresDedicatedTableStorage">requiresDedicatedTableStorage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#522"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::getDedicatedTableNames">getDedicatedTableNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#540"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::getReservedColumns">getReservedColumns</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#547"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::loadFromSharedTables">loadFromSharedTables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#645"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::doLoadMultipleRevisionsFieldItems">doLoadMultipleRevisionsFieldItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#150"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::installedStorageSchema">installedStorageSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1564"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::onFieldStorageDefinitionUpdate">onFieldStorageDefinitionUpdate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1495"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::requiresFieldDataMigration">requiresFieldDataMigration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1502"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::onEntityTypeCreate">onEntityTypeCreate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1511"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::onEntityTypeUpdate">onEntityTypeUpdate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1526"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::onEntityTypeDelete">onEntityTypeDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1535"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::onFieldableEntityTypeCreate">onFieldableEntityTypeCreate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1544"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::onFieldableEntityTypeUpdate">onFieldableEntityTypeUpdate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1553"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::onFieldStorageDefinitionCreate">onFieldStorageDefinitionCreate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1575"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::onFieldStorageDefinitionDelete">onFieldStorageDefinitionDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1481"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::requiresFieldStorageSchemaChanges">requiresFieldStorageSchemaChanges</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1608"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::wrapSchemaException">wrapSchemaException</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1626"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::onFieldDefinitionDelete">onFieldDefinitionDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1659"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::readFieldItemsToPurge">readFieldItemsToPurge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1720"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::purgeFieldItems">purgeFieldItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1742"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::finalizePurge">finalizePurge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1749"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::countFieldData">countFieldData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1827"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::storageDefinitionIsDeleted">storageDefinitionIsDeleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#127"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1488"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::requiresEntityDataMigration">requiresEntityDataMigration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1474"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::requiresEntityStorageSchemaChanges">requiresEntityStorageSchemaChanges</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#669"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::doDeleteRevisionFieldItems">doDeleteRevisionFieldItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1003"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::has">has</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#686"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::buildPropertyQuery">buildPropertyQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#725"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::buildQuery">buildQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#778"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#801"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::doDeleteFieldItems">doDeleteFieldItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#834"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#853"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::restore">restore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#900"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::doSaveFieldItems">doSaveFieldItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1018"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::saveToSharedTables">saveToSharedTables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1454"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::deleteRevisionFromDedicatedTables">deleteRevisionFromDedicatedTables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1061"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::mapToStorageRecord">mapToStorageRecord</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1119"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::isColumnSerial">isColumnSerial</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1146"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::mapToDataStorageRecord">mapToDataStorageRecord</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1163"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::saveRevision">saveRevision</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1204"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::getQueryServiceName">getQueryServiceName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1216"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::loadFromDedicatedTables">loadFromDedicatedTables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1310"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::saveToDedicatedTables">saveToDedicatedTables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1429"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::deleteFromDedicatedTables">deleteFromDedicatedTables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SqlFieldableEntityTypeListenerTrait.php.html#251"><abbr title="SqlFieldableEntityTypeListenerTrait::handleEntityTypeSchemaUpdateExceptionOnDataCopy">handleEntityTypeSchemaUpdateExceptionOnDataCopy</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1310"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::saveToDedicatedTables">saveToDedicatedTables</abbr></a></td><td class="text-right">650</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1216"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::loadFromDedicatedTables">loadFromDedicatedTables</abbr></a></td><td class="text-right">650</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#900"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::doSaveFieldItems">doSaveFieldItems</abbr></a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1844"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::updateSharedTableSchema">updateSharedTableSchema</abbr></a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="SqlFieldableEntityTypeListenerTrait.php.html#24"><abbr title="SqlFieldableEntityTypeListenerTrait::onFieldableEntityTypeUpdate">onFieldableEntityTypeUpdate</abbr></a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#932"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getEntitySchema">getEntitySchema</abbr></a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#2080"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getSharedTableFieldSchema">getSharedTableFieldSchema</abbr></a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="SqlFieldableEntityTypeListenerTrait.php.html#137"><abbr title="SqlFieldableEntityTypeListenerTrait::copyData">copyData</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#714"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::onFieldStorageDefinitionDelete">onFieldStorageDefinitionDelete</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#547"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::loadFromSharedTables">loadFromSharedTables</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#2256"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getDedicatedTableSchema">getDedicatedTableSchema</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#469"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::mapFromStorageRecords">mapFromStorageRecords</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1752"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::updateDedicatedTableSchema">updateDedicatedTableSchema</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#162"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::create">create</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1604"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::createSharedTableSchema">createSharedTableSchema</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#527"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::postUpdateEntityTypeSchema">postUpdateEntityTypeSchema</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1945"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::createEntitySchemaIndexes">createEntitySchemaIndexes</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1061"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::mapToStorageRecord">mapToStorageRecord</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1749"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::countFieldData">countFieldData</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1698"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::deleteSharedTableSchema">deleteSharedTableSchema</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#2004"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::deleteEntitySchemaIndexes">deleteEntitySchemaIndexes</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#127"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::__construct">__construct</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#254"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::hasSharedTableNameChanges">hasSharedTableNameChanges</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1018"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::saveToSharedTables">saveToSharedTables</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1043"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getEntitySchemaData">getEntitySchemaData</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1659"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::readFieldItemsToPurge">readFieldItemsToPurge</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#725"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::buildQuery">buildQuery</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#641"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getTableNames">getTableNames</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#272"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::requiresFieldStorageSchemaChanges">requiresFieldStorageSchemaChanges</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#836"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getSelectQueryForFieldStorageDeletion">getSelectQueryForFieldStorageDeletion</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#216"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::initTableLayout">initTableLayout</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#419"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::onFieldableEntityTypeCreate">onFieldableEntityTypeCreate</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#853"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::restore">restore</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#415"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::getFieldColumnName">getFieldColumnName</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#356"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::getFieldTableName">getFieldTableName</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#2482"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::hasColumnChanges">hasColumnChanges</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#2579"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::castValue">castValue</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#311"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getSchemaFromStorageDefinition">getSchemaFromStorageDefinition</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#801"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::doDeleteFieldItems">doDeleteFieldItems</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#400"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::getColumnNames">getColumnNames</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#610"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::generateFieldTableName">generateFieldTableName</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#321"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::getAllColumns">getAllColumns</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#463"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::preUpdateEntityTypeSchema">preUpdateEntityTypeSchema</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#433"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::getFromStorage">getFromStorage</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1578"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::createDedicatedTableSchema">createDedicatedTableSchema</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#367"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::onEntityTypeUpdate">onEntityTypeUpdate</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1130"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getFieldSchemaData">getFieldSchemaData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1677"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::deleteDedicatedTableSchema">deleteDedicatedTableSchema</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#499"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::allowsSharedTableStorage">allowsSharedTableStorage</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#203"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getTableMapping">getTableMapping</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#395"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::onEntityTypeDelete">onEntityTypeDelete</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1454"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::deleteRevisionFromDedicatedTables">deleteRevisionFromDedicatedTables</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1163"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::saveRevision">saveRevision</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#686"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::buildPropertyQuery">buildPropertyQuery</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1429"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::deleteFromDedicatedTables">deleteFromDedicatedTables</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#645"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::doLoadMultipleRevisionsFieldItems">doLoadMultipleRevisionsFieldItems</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1170"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getFieldSchemaIdentifierName">getFieldSchemaIdentifierName</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#778"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::delete">delete</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#2187"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::addSharedTableFieldIndex">addSharedTableFieldIndex</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#324"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::setFieldStorageDefinitions">setFieldStorageDefinitions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#401"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::getCustomTableMapping">getCustomTableMapping</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1119"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::isColumnSerial">isColumnSerial</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1557"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::performFieldSchemaOperation">performFieldSchemaOperation</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1575"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::onFieldStorageDefinitionDelete">onFieldStorageDefinitionDelete</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchemaConverter.php.html#92"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchemaConverter::convertToRevisionable">convertToRevisionable</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1608"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::wrapSchemaException">wrapSchemaException</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#333"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::requiresEntityDataMigration">requiresEntityDataMigration</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1626"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::onFieldDefinitionDelete">onFieldDefinitionDelete</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1720"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::purgeFieldItems">purgeFieldItems</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#289"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::getStorageSchema">getStorageSchema</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#237"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::hasSharedTableStructureChange">hasSharedTableStructureChange</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#367"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::getTableMapping">getTableMapping</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1532"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::processFieldStorageSchema">processFieldStorageSchema</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1198"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getFieldForeignKeys">getFieldForeignKeys</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#461"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::getExtraColumns">getExtraColumns</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#512"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::requiresDedicatedTableStorage">requiresDedicatedTableStorage</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#167"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::deletedFieldsRepository">deletedFieldsRepository</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#834"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::save">save</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#346"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::getFieldNames">getFieldNames</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#669"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::doDeleteRevisionFieldItems">doDeleteRevisionFieldItems</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TemporaryTableMapping.php.html#37"><abbr title="Drupal\Core\Entity\Sql\TemporaryTableMapping::getTempTableName">getTempTableName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#634"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::doLoadRevisionFieldItems">doLoadRevisionFieldItems</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#2462"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::isTableEmpty">isTableEmpty</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1299"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::initializeBaseTable">initializeBaseTable</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#556"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::getDedicatedDataTableName">getDedicatedDataTableName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#306"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::setEntityType">setEntityType</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#127"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#219"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::requiresEntityStorageSchemaChanges">requiresEntityStorageSchemaChanges</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#409"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::doLoadMultiple">doLoadMultiple</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#198"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#659"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::handleEntityTypeSchemaUpdateExceptionOnDataCopy">handleEntityTypeSchemaUpdateExceptionOnDataCopy</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#682"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::getTemporaryTableMappingPrefix">getTemporaryTableMappingPrefix</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#906"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::checkEntityType">checkEntityType</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1518"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::processIdentifierSchema">processIdentifierSchema</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DefaultTableMapping.php.html#582"><abbr title="Drupal\Core\Entity\Sql\DefaultTableMapping::getDedicatedRevisionTableName">getDedicatedRevisionTableName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SqlContentEntityStorage.php.html#1146"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorage::mapToDataStorageRecord">mapToDataStorageRecord</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#184"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::updateBackupRepository">updateBackupRepository</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1366"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::initializeDataTable">initializeDataTable</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1454"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::processBaseTable">processBaseTable</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#1469"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::processRevisionTable">processRevisionTable</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SqlContentEntityStorageSchema.php.html#150"><abbr title="Drupal\Core\Entity\Sql\SqlContentEntityStorageSchema::installedStorageSchema">installedStorageSchema</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.33-16+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Fri Jun 12 8:21:00 AEST 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([6,0,0,0,0,0,0,0,0,0,0,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([166,0,0,0,0,0,0,0,0,0,0,2], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,73,"<a href=\"DefaultTableMapping.php.html#12\">Drupal\\Core\\Entity\\Sql\\DefaultTableMapping<\/a>"],[0,258,"<a href=\"SqlContentEntityStorage.php.html#42\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage<\/a>"],[100,0,"<a href=\"SqlContentEntityStorageException.php.html#10\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageException<\/a>"],[0,327,"<a href=\"SqlContentEntityStorageSchema.php.html#30\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema<\/a>"],[0,4,"<a href=\"SqlContentEntityStorageSchemaConverter.php.html#19\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchemaConverter<\/a>"],[0,3,"<a href=\"TemporaryTableMapping.php.html#15\">Drupal\\Core\\Entity\\Sql\\TemporaryTableMapping<\/a>"],[0,40,"<a href=\"SqlFieldableEntityTypeListenerTrait.php.html#19\">SqlFieldableEntityTypeListenerTrait<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,9,"<a href=\"DefaultTableMapping.php.html#127\">Drupal\\Core\\Entity\\Sql\\DefaultTableMapping::__construct<\/a>"],[0,14,"<a href=\"DefaultTableMapping.php.html#162\">Drupal\\Core\\Entity\\Sql\\DefaultTableMapping::create<\/a>"],[0,1,"<a href=\"DefaultTableMapping.php.html#271\">Drupal\\Core\\Entity\\Sql\\DefaultTableMapping::getBaseTable<\/a>"],[0,1,"<a href=\"DefaultTableMapping.php.html#283\">Drupal\\Core\\Entity\\Sql\\DefaultTableMapping::getRevisionTable<\/a>"],[0,1,"<a href=\"DefaultTableMapping.php.html#295\">Drupal\\Core\\Entity\\Sql\\DefaultTableMapping::getDataTable<\/a>"],[0,1,"<a href=\"DefaultTableMapping.php.html#307\">Drupal\\Core\\Entity\\Sql\\DefaultTableMapping::getRevisionDataTable<\/a>"],[0,1,"<a href=\"DefaultTableMapping.php.html#314\">Drupal\\Core\\Entity\\Sql\\DefaultTableMapping::getTableNames<\/a>"],[0,5,"<a href=\"DefaultTableMapping.php.html#321\">Drupal\\Core\\Entity\\Sql\\DefaultTableMapping::getAllColumns<\/a>"],[0,2,"<a href=\"DefaultTableMapping.php.html#346\">Drupal\\Core\\Entity\\Sql\\DefaultTableMapping::getFieldNames<\/a>"],[0,6,"<a href=\"DefaultTableMapping.php.html#356\">Drupal\\Core\\Entity\\Sql\\DefaultTableMapping::getFieldTableName<\/a>"],[0,5,"<a href=\"DefaultTableMapping.php.html#400\">Drupal\\Core\\Entity\\Sql\\DefaultTableMapping::getColumnNames<\/a>"],[0,6,"<a href=\"DefaultTableMapping.php.html#415\">Drupal\\Core\\Entity\\Sql\\DefaultTableMapping::getFieldColumnName<\/a>"],[0,1,"<a href=\"DefaultTableMapping.php.html#451\">Drupal\\Core\\Entity\\Sql\\DefaultTableMapping::setFieldNames<\/a>"],[0,2,"<a href=\"DefaultTableMapping.php.html#461\">Drupal\\Core\\Entity\\Sql\\DefaultTableMapping::getExtraColumns<\/a>"],[0,1,"<a href=\"DefaultTableMapping.php.html#483\">Drupal\\Core\\Entity\\Sql\\DefaultTableMapping::setExtraColumns<\/a>"],[0,4,"<a href=\"DefaultTableMapping.php.html#499\">Drupal\\Core\\Entity\\Sql\\DefaultTableMapping::allowsSharedTableStorage<\/a>"],[0,2,"<a href=\"DefaultTableMapping.php.html#512\">Drupal\\Core\\Entity\\Sql\\DefaultTableMapping::requiresDedicatedTableStorage<\/a>"],[0,1,"<a href=\"DefaultTableMapping.php.html#522\">Drupal\\Core\\Entity\\Sql\\DefaultTableMapping::getDedicatedTableNames<\/a>"],[0,1,"<a href=\"DefaultTableMapping.php.html#540\">Drupal\\Core\\Entity\\Sql\\DefaultTableMapping::getReservedColumns<\/a>"],[0,2,"<a href=\"DefaultTableMapping.php.html#556\">Drupal\\Core\\Entity\\Sql\\DefaultTableMapping::getDedicatedDataTableName<\/a>"],[0,2,"<a href=\"DefaultTableMapping.php.html#582\">Drupal\\Core\\Entity\\Sql\\DefaultTableMapping::getDedicatedRevisionTableName<\/a>"],[0,5,"<a href=\"DefaultTableMapping.php.html#610\">Drupal\\Core\\Entity\\Sql\\DefaultTableMapping::generateFieldTableName<\/a>"],[0,1,"<a href=\"SqlContentEntityStorage.php.html#147\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::createInstance<\/a>"],[0,1,"<a href=\"SqlContentEntityStorage.php.html#173\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::getFieldStorageDefinitions<\/a>"],[0,2,"<a href=\"SqlContentEntityStorage.php.html#198\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::__construct<\/a>"],[0,6,"<a href=\"SqlContentEntityStorage.php.html#216\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::initTableLayout<\/a>"],[0,1,"<a href=\"SqlContentEntityStorage.php.html#249\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::getBaseTable<\/a>"],[0,1,"<a href=\"SqlContentEntityStorage.php.html#259\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::getRevisionTable<\/a>"],[0,1,"<a href=\"SqlContentEntityStorage.php.html#269\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::getDataTable<\/a>"],[0,1,"<a href=\"SqlContentEntityStorage.php.html#279\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::getRevisionDataTable<\/a>"],[0,3,"<a href=\"SqlContentEntityStorage.php.html#289\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::getStorageSchema<\/a>"],[0,2,"<a href=\"SqlContentEntityStorage.php.html#306\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::setEntityType<\/a>"],[0,3,"<a href=\"SqlContentEntityStorage.php.html#324\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::setFieldStorageDefinitions<\/a>"],[0,1,"<a href=\"SqlContentEntityStorage.php.html#343\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::setTableMapping<\/a>"],[0,1,"<a href=\"SqlContentEntityStorage.php.html#360\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::setTemporary<\/a>"],[0,3,"<a href=\"SqlContentEntityStorage.php.html#367\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::getTableMapping<\/a>"],[0,3,"<a href=\"SqlContentEntityStorage.php.html#401\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::getCustomTableMapping<\/a>"],[0,2,"<a href=\"SqlContentEntityStorage.php.html#409\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::doLoadMultiple<\/a>"],[0,5,"<a href=\"SqlContentEntityStorage.php.html#433\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::getFromStorage<\/a>"],[0,14,"<a href=\"SqlContentEntityStorage.php.html#469\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::mapFromStorageRecords<\/a>"],[0,16,"<a href=\"SqlContentEntityStorage.php.html#547\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::loadFromSharedTables<\/a>"],[0,2,"<a href=\"SqlContentEntityStorage.php.html#634\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::doLoadRevisionFieldItems<\/a>"],[0,3,"<a href=\"SqlContentEntityStorage.php.html#645\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::doLoadMultipleRevisionsFieldItems<\/a>"],[0,2,"<a href=\"SqlContentEntityStorage.php.html#669\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::doDeleteRevisionFieldItems<\/a>"],[0,4,"<a href=\"SqlContentEntityStorage.php.html#686\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::buildPropertyQuery<\/a>"],[0,8,"<a href=\"SqlContentEntityStorage.php.html#725\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::buildQuery<\/a>"],[0,3,"<a href=\"SqlContentEntityStorage.php.html#778\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::delete<\/a>"],[0,5,"<a href=\"SqlContentEntityStorage.php.html#801\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::doDeleteFieldItems<\/a>"],[0,2,"<a href=\"SqlContentEntityStorage.php.html#834\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::save<\/a>"],[0,6,"<a href=\"SqlContentEntityStorage.php.html#853\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::restore<\/a>"],[0,21,"<a href=\"SqlContentEntityStorage.php.html#900\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::doSaveFieldItems<\/a>"],[0,1,"<a href=\"SqlContentEntityStorage.php.html#1003\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::has<\/a>"],[0,8,"<a href=\"SqlContentEntityStorage.php.html#1018\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::saveToSharedTables<\/a>"],[0,12,"<a href=\"SqlContentEntityStorage.php.html#1061\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::mapToStorageRecord<\/a>"],[0,3,"<a href=\"SqlContentEntityStorage.php.html#1119\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::isColumnSerial<\/a>"],[0,2,"<a href=\"SqlContentEntityStorage.php.html#1146\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::mapToDataStorageRecord<\/a>"],[0,4,"<a href=\"SqlContentEntityStorage.php.html#1163\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::saveRevision<\/a>"],[0,1,"<a href=\"SqlContentEntityStorage.php.html#1204\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::getQueryServiceName<\/a>"],[0,25,"<a href=\"SqlContentEntityStorage.php.html#1216\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::loadFromDedicatedTables<\/a>"],[0,25,"<a href=\"SqlContentEntityStorage.php.html#1310\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::saveToDedicatedTables<\/a>"],[0,4,"<a href=\"SqlContentEntityStorage.php.html#1429\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::deleteFromDedicatedTables<\/a>"],[0,4,"<a href=\"SqlContentEntityStorage.php.html#1454\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::deleteRevisionFromDedicatedTables<\/a>"],[0,1,"<a href=\"SqlContentEntityStorage.php.html#1474\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::requiresEntityStorageSchemaChanges<\/a>"],[0,1,"<a href=\"SqlContentEntityStorage.php.html#1481\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::requiresFieldStorageSchemaChanges<\/a>"],[0,1,"<a href=\"SqlContentEntityStorage.php.html#1488\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::requiresEntityDataMigration<\/a>"],[0,1,"<a href=\"SqlContentEntityStorage.php.html#1495\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::requiresFieldDataMigration<\/a>"],[0,1,"<a href=\"SqlContentEntityStorage.php.html#1502\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::onEntityTypeCreate<\/a>"],[0,1,"<a href=\"SqlContentEntityStorage.php.html#1511\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::onEntityTypeUpdate<\/a>"],[0,1,"<a href=\"SqlContentEntityStorage.php.html#1526\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::onEntityTypeDelete<\/a>"],[0,1,"<a href=\"SqlContentEntityStorage.php.html#1535\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::onFieldableEntityTypeCreate<\/a>"],[0,1,"<a href=\"SqlContentEntityStorage.php.html#1544\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::onFieldableEntityTypeUpdate<\/a>"],[0,1,"<a href=\"SqlContentEntityStorage.php.html#1553\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::onFieldStorageDefinitionCreate<\/a>"],[0,1,"<a href=\"SqlContentEntityStorage.php.html#1564\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::onFieldStorageDefinitionUpdate<\/a>"],[0,3,"<a href=\"SqlContentEntityStorage.php.html#1575\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::onFieldStorageDefinitionDelete<\/a>"],[0,3,"<a href=\"SqlContentEntityStorage.php.html#1608\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::wrapSchemaException<\/a>"],[0,3,"<a href=\"SqlContentEntityStorage.php.html#1626\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::onFieldDefinitionDelete<\/a>"],[100,1,"<a href=\"SqlContentEntityStorage.php.html#1649\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::onBundleCreate<\/a>"],[100,1,"<a href=\"SqlContentEntityStorage.php.html#1654\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::onBundleDelete<\/a>"],[0,8,"<a href=\"SqlContentEntityStorage.php.html#1659\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::readFieldItemsToPurge<\/a>"],[0,3,"<a href=\"SqlContentEntityStorage.php.html#1720\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::purgeFieldItems<\/a>"],[0,1,"<a href=\"SqlContentEntityStorage.php.html#1742\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::finalizePurge<\/a>"],[0,11,"<a href=\"SqlContentEntityStorage.php.html#1749\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::countFieldData<\/a>"],[0,1,"<a href=\"SqlContentEntityStorage.php.html#1827\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorage::storageDefinitionIsDeleted<\/a>"],[0,2,"<a href=\"SqlContentEntityStorageSchema.php.html#127\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::__construct<\/a>"],[0,2,"<a href=\"SqlContentEntityStorageSchema.php.html#150\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::installedStorageSchema<\/a>"],[0,2,"<a href=\"SqlContentEntityStorageSchema.php.html#167\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::deletedFieldsRepository<\/a>"],[0,2,"<a href=\"SqlContentEntityStorageSchema.php.html#184\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::updateBackupRepository<\/a>"],[0,4,"<a href=\"SqlContentEntityStorageSchema.php.html#203\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::getTableMapping<\/a>"],[0,2,"<a href=\"SqlContentEntityStorageSchema.php.html#219\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::requiresEntityStorageSchemaChanges<\/a>"],[0,3,"<a href=\"SqlContentEntityStorageSchema.php.html#237\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::hasSharedTableStructureChange<\/a>"],[0,8,"<a href=\"SqlContentEntityStorageSchema.php.html#254\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::hasSharedTableNameChanges<\/a>"],[0,7,"<a href=\"SqlContentEntityStorageSchema.php.html#272\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::requiresFieldStorageSchemaChanges<\/a>"],[0,5,"<a href=\"SqlContentEntityStorageSchema.php.html#311\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::getSchemaFromStorageDefinition<\/a>"],[0,3,"<a href=\"SqlContentEntityStorageSchema.php.html#333\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::requiresEntityDataMigration<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#353\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::requiresFieldDataMigration<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#360\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::onEntityTypeCreate<\/a>"],[0,4,"<a href=\"SqlContentEntityStorageSchema.php.html#367\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::onEntityTypeUpdate<\/a>"],[0,4,"<a href=\"SqlContentEntityStorageSchema.php.html#395\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::onEntityTypeDelete<\/a>"],[0,6,"<a href=\"SqlContentEntityStorageSchema.php.html#419\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::onFieldableEntityTypeCreate<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#456\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::onFieldableEntityTypeUpdate<\/a>"],[0,5,"<a href=\"SqlContentEntityStorageSchema.php.html#463\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::preUpdateEntityTypeSchema<\/a>"],[0,13,"<a href=\"SqlContentEntityStorageSchema.php.html#527\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::postUpdateEntityTypeSchema<\/a>"],[0,7,"<a href=\"SqlContentEntityStorageSchema.php.html#641\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::getTableNames<\/a>"],[0,2,"<a href=\"SqlContentEntityStorageSchema.php.html#659\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::handleEntityTypeSchemaUpdateExceptionOnDataCopy<\/a>"],[0,2,"<a href=\"SqlContentEntityStorageSchema.php.html#682\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::getTemporaryTableMappingPrefix<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#698\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::onFieldStorageDefinitionCreate<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#706\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::onFieldStorageDefinitionUpdate<\/a>"],[0,16,"<a href=\"SqlContentEntityStorageSchema.php.html#714\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::onFieldStorageDefinitionDelete<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#817\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::finalizePurge<\/a>"],[0,6,"<a href=\"SqlContentEntityStorageSchema.php.html#836\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::getSelectQueryForFieldStorageDeletion<\/a>"],[0,2,"<a href=\"SqlContentEntityStorageSchema.php.html#906\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::checkEntityType<\/a>"],[0,19,"<a href=\"SqlContentEntityStorageSchema.php.html#932\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::getEntitySchema<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#1020\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::getEntitySchemaTables<\/a>"],[0,8,"<a href=\"SqlContentEntityStorageSchema.php.html#1043\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::getEntitySchemaData<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#1094\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::getFieldIndexes<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#1111\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::getFieldUniqueKeys<\/a>"],[0,4,"<a href=\"SqlContentEntityStorageSchema.php.html#1130\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::getFieldSchemaData<\/a>"],[0,3,"<a href=\"SqlContentEntityStorageSchema.php.html#1170\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::getFieldSchemaIdentifierName<\/a>"],[0,3,"<a href=\"SqlContentEntityStorageSchema.php.html#1198\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::getFieldForeignKeys<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#1227\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::loadEntitySchemaData<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#1239\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::saveEntitySchemaData<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#1250\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::deleteEntitySchemaData<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#1263\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::loadFieldSchemaData<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#1275\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::saveFieldSchemaData<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#1286\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::deleteFieldSchemaData<\/a>"],[0,2,"<a href=\"SqlContentEntityStorageSchema.php.html#1299\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::initializeBaseTable<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#1333\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::initializeRevisionTable<\/a>"],[0,2,"<a href=\"SqlContentEntityStorageSchema.php.html#1366\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::initializeDataTable<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#1403\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::initializeRevisionDataTable<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#1437\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::addTableDefaults<\/a>"],[0,2,"<a href=\"SqlContentEntityStorageSchema.php.html#1454\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::processBaseTable<\/a>"],[0,2,"<a href=\"SqlContentEntityStorageSchema.php.html#1469\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::processRevisionTable<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#1487\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::processDataTable<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#1504\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::processRevisionDataTable<\/a>"],[0,2,"<a href=\"SqlContentEntityStorageSchema.php.html#1518\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::processIdentifierSchema<\/a>"],[0,3,"<a href=\"SqlContentEntityStorageSchema.php.html#1532\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::processFieldStorageSchema<\/a>"],[0,3,"<a href=\"SqlContentEntityStorageSchema.php.html#1557\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::performFieldSchemaOperation<\/a>"],[0,4,"<a href=\"SqlContentEntityStorageSchema.php.html#1578\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::createDedicatedTableSchema<\/a>"],[0,14,"<a href=\"SqlContentEntityStorageSchema.php.html#1604\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::createSharedTableSchema<\/a>"],[0,4,"<a href=\"SqlContentEntityStorageSchema.php.html#1677\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::deleteDedicatedTableSchema<\/a>"],[0,9,"<a href=\"SqlContentEntityStorageSchema.php.html#1698\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::deleteSharedTableSchema<\/a>"],[0,14,"<a href=\"SqlContentEntityStorageSchema.php.html#1752\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::updateDedicatedTableSchema<\/a>"],[0,21,"<a href=\"SqlContentEntityStorageSchema.php.html#1844\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::updateSharedTableSchema<\/a>"],[0,12,"<a href=\"SqlContentEntityStorageSchema.php.html#1945\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::createEntitySchemaIndexes<\/a>"],[0,9,"<a href=\"SqlContentEntityStorageSchema.php.html#2004\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::deleteEntitySchemaIndexes<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#2044\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::hasNullFieldPropertyData<\/a>"],[0,19,"<a href=\"SqlContentEntityStorageSchema.php.html#2080\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::getSharedTableFieldSchema<\/a>"],[0,3,"<a href=\"SqlContentEntityStorageSchema.php.html#2187\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::addSharedTableFieldIndex<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#2207\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::addSharedTableFieldUniqueKey<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#2226\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::addSharedTableFieldForeignKey<\/a>"],[0,16,"<a href=\"SqlContentEntityStorageSchema.php.html#2256\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::getDedicatedTableSchema<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#2431\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::getEntityIndexName<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#2447\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::getFieldIndexName<\/a>"],[0,2,"<a href=\"SqlContentEntityStorageSchema.php.html#2462\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::isTableEmpty<\/a>"],[0,6,"<a href=\"SqlContentEntityStorageSchema.php.html#2482\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::hasColumnChanges<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#2516\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::getColumnSchemaRelevantKeys<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#2534\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::addIndex<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchema.php.html#2552\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::addUniqueKey<\/a>"],[0,6,"<a href=\"SqlContentEntityStorageSchema.php.html#2579\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema::castValue<\/a>"],[0,1,"<a href=\"SqlContentEntityStorageSchemaConverter.php.html#52\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchemaConverter::__construct<\/a>"],[0,3,"<a href=\"SqlContentEntityStorageSchemaConverter.php.html#92\">Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchemaConverter::convertToRevisionable<\/a>"],[0,1,"<a href=\"TemporaryTableMapping.php.html#20\">Drupal\\Core\\Entity\\Sql\\TemporaryTableMapping::generateFieldTableName<\/a>"],[0,2,"<a href=\"TemporaryTableMapping.php.html#37\">Drupal\\Core\\Entity\\Sql\\TemporaryTableMapping::getTempTableName<\/a>"],[0,20,"<a href=\"SqlFieldableEntityTypeListenerTrait.php.html#24\">SqlFieldableEntityTypeListenerTrait::onFieldableEntityTypeUpdate<\/a>"],[0,1,"<a href=\"SqlFieldableEntityTypeListenerTrait.php.html#101\">SqlFieldableEntityTypeListenerTrait::preUpdateEntityTypeSchema<\/a>"],[0,1,"<a href=\"SqlFieldableEntityTypeListenerTrait.php.html#120\">SqlFieldableEntityTypeListenerTrait::postUpdateEntityTypeSchema<\/a>"],[0,17,"<a href=\"SqlFieldableEntityTypeListenerTrait.php.html#137\">SqlFieldableEntityTypeListenerTrait::copyData<\/a>"],[0,1,"<a href=\"SqlFieldableEntityTypeListenerTrait.php.html#251\">SqlFieldableEntityTypeListenerTrait::handleEntityTypeSchemaUpdateExceptionOnDataCopy<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

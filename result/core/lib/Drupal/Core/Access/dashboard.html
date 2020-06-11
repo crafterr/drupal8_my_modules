@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/crafter/www/drupal-modules.devel/web/core/lib/Drupal/Core/Access</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../../index.html">/home/crafter/www/drupal-modules.devel/web</a></li>
+         <li class="breadcrumb-item"><a href="../../../../index.html">core</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">lib</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Drupal</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Core</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Access</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AccessArgumentsResolverFactory.php.html#13">Drupal\Core\Access\AccessArgumentsResolverFactory</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessManager.php.html#21">Drupal\Core\Access\AccessManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResult.php.html#27">Drupal\Core\Access\AccessResult</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResultAllowed.php.html#8">Drupal\Core\Access\AccessResultAllowed</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResultForbidden.php.html#8">Drupal\Core\Access\AccessResultForbidden</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResultNeutral.php.html#8">Drupal\Core\Access\AccessResultNeutral</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CheckProvider.php.html#14">Drupal\Core\Access\CheckProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CsrfAccessCheck.php.html#17">Drupal\Core\Access\CsrfAccessCheck</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CsrfRequestHeaderAccessCheck.php.html#13">Drupal\Core\Access\CsrfRequestHeaderAccessCheck</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CsrfTokenGenerator.php.html#15">Drupal\Core\Access\CsrfTokenGenerator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CustomAccessCheck.php.html#21">Drupal\Core\Access\CustomAccessCheck</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultAccessCheck.php.html#11">Drupal\Core\Access\DefaultAccessCheck</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouteProcessorCsrf.php.html#14">Drupal\Core\Access\RouteProcessorCsrf</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AccessResult.php.html#27">Drupal\Core\Access\AccessResult</a></td><td class="text-right">7140</td></tr>
+       <tr><td><a href="CheckProvider.php.html#14">Drupal\Core\Access\CheckProvider</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="AccessManager.php.html#21">Drupal\Core\Access\AccessManager</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="CsrfRequestHeaderAccessCheck.php.html#13">Drupal\Core\Access\CsrfRequestHeaderAccessCheck</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="RouteProcessorCsrf.php.html#14">Drupal\Core\Access\RouteProcessorCsrf</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="CsrfTokenGenerator.php.html#15">Drupal\Core\Access\CsrfTokenGenerator</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="CsrfAccessCheck.php.html#17">Drupal\Core\Access\CsrfAccessCheck</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="CustomAccessCheck.php.html#21">Drupal\Core\Access\CustomAccessCheck</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="DefaultAccessCheck.php.html#11">Drupal\Core\Access\DefaultAccessCheck</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AccessArgumentsResolverFactory.php.html#13">Drupal\Core\Access\AccessArgumentsResolverFactory</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AccessArgumentsResolverFactory.php.html#18"><abbr title="Drupal\Core\Access\AccessArgumentsResolverFactory::getArgumentsResolver">getArgumentsResolver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CsrfAccessCheck.php.html#49"><abbr title="Drupal\Core\Access\CsrfAccessCheck::access">access</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResultForbidden.php.html#44"><abbr title="Drupal\Core\Access\AccessResultForbidden::setReason">setReason</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResultNeutral.php.html#23"><abbr title="Drupal\Core\Access\AccessResultNeutral::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResultNeutral.php.html#30"><abbr title="Drupal\Core\Access\AccessResultNeutral::isNeutral">isNeutral</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResultNeutral.php.html#37"><abbr title="Drupal\Core\Access\AccessResultNeutral::getReason">getReason</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResultNeutral.php.html#44"><abbr title="Drupal\Core\Access\AccessResultNeutral::setReason">setReason</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CheckProvider.php.html#61"><abbr title="Drupal\Core\Access\CheckProvider::addCheckService">addCheckService</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CheckProvider.php.html#75"><abbr title="Drupal\Core\Access\CheckProvider::getChecksNeedRequest">getChecksNeedRequest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CheckProvider.php.html#82"><abbr title="Drupal\Core\Access\CheckProvider::setChecks">setChecks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CheckProvider.php.html#94"><abbr title="Drupal\Core\Access\CheckProvider::loadCheck">loadCheck</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CheckProvider.php.html#124"><abbr title="Drupal\Core\Access\CheckProvider::applies">applies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CheckProvider.php.html#149"><abbr title="Drupal\Core\Access\CheckProvider::loadDynamicRequirementMap">loadDynamicRequirementMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CsrfAccessCheck.php.html#32"><abbr title="Drupal\Core\Access\CsrfAccessCheck::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CsrfRequestHeaderAccessCheck.php.html#42"><abbr title="Drupal\Core\Access\CsrfRequestHeaderAccessCheck::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResultForbidden.php.html#30"><abbr title="Drupal\Core\Access\AccessResultForbidden::isForbidden">isForbidden</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CsrfRequestHeaderAccessCheck.php.html#50"><abbr title="Drupal\Core\Access\CsrfRequestHeaderAccessCheck::applies">applies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CsrfRequestHeaderAccessCheck.php.html#89"><abbr title="Drupal\Core\Access\CsrfRequestHeaderAccessCheck::access">access</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CsrfTokenGenerator.php.html#39"><abbr title="Drupal\Core\Access\CsrfTokenGenerator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CsrfTokenGenerator.php.html#63"><abbr title="Drupal\Core\Access\CsrfTokenGenerator::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CsrfTokenGenerator.php.html#84"><abbr title="Drupal\Core\Access\CsrfTokenGenerator::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CsrfTokenGenerator.php.html#108"><abbr title="Drupal\Core\Access\CsrfTokenGenerator::computeToken">computeToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CustomAccessCheck.php.html#45"><abbr title="Drupal\Core\Access\CustomAccessCheck::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CustomAccessCheck.php.html#63"><abbr title="Drupal\Core\Access\CustomAccessCheck::access">access</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultAccessCheck.php.html#22"><abbr title="Drupal\Core\Access\DefaultAccessCheck::access">access</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouteProcessorCsrf.php.html#29"><abbr title="Drupal\Core\Access\RouteProcessorCsrf::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouteProcessorCsrf.php.html#36"><abbr title="Drupal\Core\Access\RouteProcessorCsrf::processOutbound">processOutbound</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouteProcessorCsrf.php.html#73"><abbr title="Drupal\Core\Access\RouteProcessorCsrf::renderPlaceholderCsrfToken">renderPlaceholderCsrfToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResultForbidden.php.html#37"><abbr title="Drupal\Core\Access\AccessResultForbidden::getReason">getReason</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResultForbidden.php.html#23"><abbr title="Drupal\Core\Access\AccessResultForbidden::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessManager.php.html#70"><abbr title="Drupal\Core\Access\AccessManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResult.php.html#194"><abbr title="Drupal\Core\Access\AccessResult::isForbidden">isForbidden</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessManager.php.html#81"><abbr title="Drupal\Core\Access\AccessManager::checkNamedRoute">checkNamedRoute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessManager.php.html#110"><abbr title="Drupal\Core\Access\AccessManager::checkRequest">checkRequest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessManager.php.html#118"><abbr title="Drupal\Core\Access\AccessManager::check">check</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessManager.php.html#155"><abbr title="Drupal\Core\Access\AccessManager::performCheck">performCheck</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResult.php.html#41"><abbr title="Drupal\Core\Access\AccessResult::neutral">neutral</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResult.php.html#52"><abbr title="Drupal\Core\Access\AccessResult::allowed">allowed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResult.php.html#66"><abbr title="Drupal\Core\Access\AccessResult::forbidden">forbidden</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResult.php.html#81"><abbr title="Drupal\Core\Access\AccessResult::allowedIf">allowedIf</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResult.php.html#98"><abbr title="Drupal\Core\Access\AccessResult::forbiddenIf">forbiddenIf</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResult.php.html#116"><abbr title="Drupal\Core\Access\AccessResult::allowedIfHasPermission">allowedIfHasPermission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResult.php.html#142"><abbr title="Drupal\Core\Access\AccessResult::allowedIfHasPermissions">allowedIfHasPermissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResult.php.html#185"><abbr title="Drupal\Core\Access\AccessResult::isAllowed">isAllowed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResult.php.html#203"><abbr title="Drupal\Core\Access\AccessResult::isNeutral">isNeutral</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResultAllowed.php.html#13"><abbr title="Drupal\Core\Access\AccessResultAllowed::isAllowed">isAllowed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResult.php.html#210"><abbr title="Drupal\Core\Access\AccessResult::getCacheContexts">getCacheContexts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResult.php.html#217"><abbr title="Drupal\Core\Access\AccessResult::getCacheTags">getCacheTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResult.php.html#224"><abbr title="Drupal\Core\Access\AccessResult::getCacheMaxAge">getCacheMaxAge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResult.php.html#233"><abbr title="Drupal\Core\Access\AccessResult::resetCacheContexts">resetCacheContexts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResult.php.html#243"><abbr title="Drupal\Core\Access\AccessResult::resetCacheTags">resetCacheTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResult.php.html#256"><abbr title="Drupal\Core\Access\AccessResult::setCacheMaxAge">setCacheMaxAge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResult.php.html#266"><abbr title="Drupal\Core\Access\AccessResult::cachePerPermissions">cachePerPermissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResult.php.html#276"><abbr title="Drupal\Core\Access\AccessResult::cachePerUser">cachePerUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResult.php.html#292"><abbr title="Drupal\Core\Access\AccessResult::cacheUntilEntityChanges">cacheUntilEntityChanges</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResult.php.html#308"><abbr title="Drupal\Core\Access\AccessResult::cacheUntilConfigurationChanges">cacheUntilConfigurationChanges</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResult.php.html#316"><abbr title="Drupal\Core\Access\AccessResult::orIf">orIf</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResult.php.html#377"><abbr title="Drupal\Core\Access\AccessResult::andIf">andIf</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccessResult.php.html#442"><abbr title="Drupal\Core\Access\AccessResult::inheritCacheability">inheritCacheability</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RouteProcessorCsrf.php.html#88"><abbr title="Drupal\Core\Access\RouteProcessorCsrf::trustedCallbacks">trustedCallbacks</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AccessResult.php.html#316"><abbr title="Drupal\Core\Access\AccessResult::orIf">orIf</abbr></a></td><td class="text-right">992</td></tr>
+       <tr><td><a href="AccessResult.php.html#377"><abbr title="Drupal\Core\Access\AccessResult::andIf">andIf</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="AccessResult.php.html#142"><abbr title="Drupal\Core\Access\AccessResult::allowedIfHasPermissions">allowedIfHasPermissions</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="AccessManager.php.html#118"><abbr title="Drupal\Core\Access\AccessManager::check">check</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="CsrfRequestHeaderAccessCheck.php.html#89"><abbr title="Drupal\Core\Access\CsrfRequestHeaderAccessCheck::access">access</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="CheckProvider.php.html#124"><abbr title="Drupal\Core\Access\CheckProvider::applies">applies</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="CheckProvider.php.html#94"><abbr title="Drupal\Core\Access\CheckProvider::loadCheck">loadCheck</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="CheckProvider.php.html#149"><abbr title="Drupal\Core\Access\CheckProvider::loadDynamicRequirementMap">loadDynamicRequirementMap</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="AccessManager.php.html#81"><abbr title="Drupal\Core\Access\AccessManager::checkNamedRoute">checkNamedRoute</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="RouteProcessorCsrf.php.html#36"><abbr title="Drupal\Core\Access\RouteProcessorCsrf::processOutbound">processOutbound</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="CsrfRequestHeaderAccessCheck.php.html#50"><abbr title="Drupal\Core\Access\CsrfRequestHeaderAccessCheck::applies">applies</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="CsrfAccessCheck.php.html#49"><abbr title="Drupal\Core\Access\CsrfAccessCheck::access">access</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="AccessResult.php.html#442"><abbr title="Drupal\Core\Access\AccessResult::inheritCacheability">inheritCacheability</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="DefaultAccessCheck.php.html#22"><abbr title="Drupal\Core\Access\DefaultAccessCheck::access">access</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="CheckProvider.php.html#61"><abbr title="Drupal\Core\Access\CheckProvider::addCheckService">addCheckService</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="CheckProvider.php.html#82"><abbr title="Drupal\Core\Access\CheckProvider::setChecks">setChecks</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AccessResult.php.html#116"><abbr title="Drupal\Core\Access\AccessResult::allowedIfHasPermission">allowedIfHasPermission</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AccessResult.php.html#98"><abbr title="Drupal\Core\Access\AccessResult::forbiddenIf">forbiddenIf</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AccessResult.php.html#81"><abbr title="Drupal\Core\Access\AccessResult::allowedIf">allowedIf</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AccessResult.php.html#66"><abbr title="Drupal\Core\Access\AccessResult::forbidden">forbidden</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AccessResult.php.html#41"><abbr title="Drupal\Core\Access\AccessResult::neutral">neutral</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CsrfTokenGenerator.php.html#63"><abbr title="Drupal\Core\Access\CsrfTokenGenerator::get">get</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CsrfTokenGenerator.php.html#84"><abbr title="Drupal\Core\Access\CsrfTokenGenerator::validate">validate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CustomAccessCheck.php.html#63"><abbr title="Drupal\Core\Access\CustomAccessCheck::access">access</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AccessManager.php.html#155"><abbr title="Drupal\Core\Access\AccessManager::performCheck">performCheck</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AccessArgumentsResolverFactory.php.html#18"><abbr title="Drupal\Core\Access\AccessArgumentsResolverFactory::getArgumentsResolver">getArgumentsResolver</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.33-16+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Fri Jun 12 8:21:00 AEST 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([13,0,0,0,0,0,0,0,0,0,0,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([60,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,2,"<a href=\"AccessArgumentsResolverFactory.php.html#13\">Drupal\\Core\\Access\\AccessArgumentsResolverFactory<\/a>"],[100,0,"<a href=\"AccessException.php.html#11\">Drupal\\Core\\Access\\AccessException<\/a>"],[0,16,"<a href=\"AccessManager.php.html#21\">Drupal\\Core\\Access\\AccessManager<\/a>"],[0,84,"<a href=\"AccessResult.php.html#27\">Drupal\\Core\\Access\\AccessResult<\/a>"],[0,1,"<a href=\"AccessResultAllowed.php.html#8\">Drupal\\Core\\Access\\AccessResultAllowed<\/a>"],[0,4,"<a href=\"AccessResultForbidden.php.html#8\">Drupal\\Core\\Access\\AccessResultForbidden<\/a>"],[0,4,"<a href=\"AccessResultNeutral.php.html#8\">Drupal\\Core\\Access\\AccessResultNeutral<\/a>"],[0,23,"<a href=\"CheckProvider.php.html#14\">Drupal\\Core\\Access\\CheckProvider<\/a>"],[0,5,"<a href=\"CsrfAccessCheck.php.html#17\">Drupal\\Core\\Access\\CsrfAccessCheck<\/a>"],[0,12,"<a href=\"CsrfRequestHeaderAccessCheck.php.html#13\">Drupal\\Core\\Access\\CsrfRequestHeaderAccessCheck<\/a>"],[0,6,"<a href=\"CsrfTokenGenerator.php.html#15\">Drupal\\Core\\Access\\CsrfTokenGenerator<\/a>"],[0,3,"<a href=\"CustomAccessCheck.php.html#21\">Drupal\\Core\\Access\\CustomAccessCheck<\/a>"],[0,3,"<a href=\"DefaultAccessCheck.php.html#11\">Drupal\\Core\\Access\\DefaultAccessCheck<\/a>"],[0,7,"<a href=\"RouteProcessorCsrf.php.html#14\">Drupal\\Core\\Access\\RouteProcessorCsrf<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,2,"<a href=\"AccessArgumentsResolverFactory.php.html#18\">Drupal\\Core\\Access\\AccessArgumentsResolverFactory::getArgumentsResolver<\/a>"],[0,1,"<a href=\"AccessManager.php.html#70\">Drupal\\Core\\Access\\AccessManager::__construct<\/a>"],[0,5,"<a href=\"AccessManager.php.html#81\">Drupal\\Core\\Access\\AccessManager::checkNamedRoute<\/a>"],[0,1,"<a href=\"AccessManager.php.html#110\">Drupal\\Core\\Access\\AccessManager::checkRequest<\/a>"],[0,7,"<a href=\"AccessManager.php.html#118\">Drupal\\Core\\Access\\AccessManager::check<\/a>"],[0,2,"<a href=\"AccessManager.php.html#155\">Drupal\\Core\\Access\\AccessManager::performCheck<\/a>"],[0,2,"<a href=\"AccessResult.php.html#41\">Drupal\\Core\\Access\\AccessResult::neutral<\/a>"],[0,1,"<a href=\"AccessResult.php.html#52\">Drupal\\Core\\Access\\AccessResult::allowed<\/a>"],[0,2,"<a href=\"AccessResult.php.html#66\">Drupal\\Core\\Access\\AccessResult::forbidden<\/a>"],[0,2,"<a href=\"AccessResult.php.html#81\">Drupal\\Core\\Access\\AccessResult::allowedIf<\/a>"],[0,2,"<a href=\"AccessResult.php.html#98\">Drupal\\Core\\Access\\AccessResult::forbiddenIf<\/a>"],[0,2,"<a href=\"AccessResult.php.html#116\">Drupal\\Core\\Access\\AccessResult::allowedIfHasPermission<\/a>"],[0,11,"<a href=\"AccessResult.php.html#142\">Drupal\\Core\\Access\\AccessResult::allowedIfHasPermissions<\/a>"],[0,1,"<a href=\"AccessResult.php.html#185\">Drupal\\Core\\Access\\AccessResult::isAllowed<\/a>"],[0,1,"<a href=\"AccessResult.php.html#194\">Drupal\\Core\\Access\\AccessResult::isForbidden<\/a>"],[0,1,"<a href=\"AccessResult.php.html#203\">Drupal\\Core\\Access\\AccessResult::isNeutral<\/a>"],[0,1,"<a href=\"AccessResult.php.html#210\">Drupal\\Core\\Access\\AccessResult::getCacheContexts<\/a>"],[0,1,"<a href=\"AccessResult.php.html#217\">Drupal\\Core\\Access\\AccessResult::getCacheTags<\/a>"],[0,1,"<a href=\"AccessResult.php.html#224\">Drupal\\Core\\Access\\AccessResult::getCacheMaxAge<\/a>"],[0,1,"<a href=\"AccessResult.php.html#233\">Drupal\\Core\\Access\\AccessResult::resetCacheContexts<\/a>"],[0,1,"<a href=\"AccessResult.php.html#243\">Drupal\\Core\\Access\\AccessResult::resetCacheTags<\/a>"],[0,1,"<a href=\"AccessResult.php.html#256\">Drupal\\Core\\Access\\AccessResult::setCacheMaxAge<\/a>"],[0,1,"<a href=\"AccessResult.php.html#266\">Drupal\\Core\\Access\\AccessResult::cachePerPermissions<\/a>"],[0,1,"<a href=\"AccessResult.php.html#276\">Drupal\\Core\\Access\\AccessResult::cachePerUser<\/a>"],[0,1,"<a href=\"AccessResult.php.html#292\">Drupal\\Core\\Access\\AccessResult::cacheUntilEntityChanges<\/a>"],[0,1,"<a href=\"AccessResult.php.html#308\">Drupal\\Core\\Access\\AccessResult::cacheUntilConfigurationChanges<\/a>"],[0,31,"<a href=\"AccessResult.php.html#316\">Drupal\\Core\\Access\\AccessResult::orIf<\/a>"],[0,14,"<a href=\"AccessResult.php.html#377\">Drupal\\Core\\Access\\AccessResult::andIf<\/a>"],[0,4,"<a href=\"AccessResult.php.html#442\">Drupal\\Core\\Access\\AccessResult::inheritCacheability<\/a>"],[0,1,"<a href=\"AccessResultAllowed.php.html#13\">Drupal\\Core\\Access\\AccessResultAllowed::isAllowed<\/a>"],[0,1,"<a href=\"AccessResultForbidden.php.html#23\">Drupal\\Core\\Access\\AccessResultForbidden::__construct<\/a>"],[0,1,"<a href=\"AccessResultForbidden.php.html#30\">Drupal\\Core\\Access\\AccessResultForbidden::isForbidden<\/a>"],[0,1,"<a href=\"AccessResultForbidden.php.html#37\">Drupal\\Core\\Access\\AccessResultForbidden::getReason<\/a>"],[0,1,"<a href=\"AccessResultForbidden.php.html#44\">Drupal\\Core\\Access\\AccessResultForbidden::setReason<\/a>"],[0,1,"<a href=\"AccessResultNeutral.php.html#23\">Drupal\\Core\\Access\\AccessResultNeutral::__construct<\/a>"],[0,1,"<a href=\"AccessResultNeutral.php.html#30\">Drupal\\Core\\Access\\AccessResultNeutral::isNeutral<\/a>"],[0,1,"<a href=\"AccessResultNeutral.php.html#37\">Drupal\\Core\\Access\\AccessResultNeutral::getReason<\/a>"],[0,1,"<a href=\"AccessResultNeutral.php.html#44\">Drupal\\Core\\Access\\AccessResultNeutral::setReason<\/a>"],[0,3,"<a href=\"CheckProvider.php.html#61\">Drupal\\Core\\Access\\CheckProvider::addCheckService<\/a>"],[0,1,"<a href=\"CheckProvider.php.html#75\">Drupal\\Core\\Access\\CheckProvider::getChecksNeedRequest<\/a>"],[0,3,"<a href=\"CheckProvider.php.html#82\">Drupal\\Core\\Access\\CheckProvider::setChecks<\/a>"],[0,5,"<a href=\"CheckProvider.php.html#94\">Drupal\\Core\\Access\\CheckProvider::loadCheck<\/a>"],[0,6,"<a href=\"CheckProvider.php.html#124\">Drupal\\Core\\Access\\CheckProvider::applies<\/a>"],[0,5,"<a href=\"CheckProvider.php.html#149\">Drupal\\Core\\Access\\CheckProvider::loadDynamicRequirementMap<\/a>"],[0,1,"<a href=\"CsrfAccessCheck.php.html#32\">Drupal\\Core\\Access\\CsrfAccessCheck::__construct<\/a>"],[0,4,"<a href=\"CsrfAccessCheck.php.html#49\">Drupal\\Core\\Access\\CsrfAccessCheck::access<\/a>"],[0,1,"<a href=\"CsrfRequestHeaderAccessCheck.php.html#42\">Drupal\\Core\\Access\\CsrfRequestHeaderAccessCheck::__construct<\/a>"],[0,4,"<a href=\"CsrfRequestHeaderAccessCheck.php.html#50\">Drupal\\Core\\Access\\CsrfRequestHeaderAccessCheck::applies<\/a>"],[0,7,"<a href=\"CsrfRequestHeaderAccessCheck.php.html#89\">Drupal\\Core\\Access\\CsrfRequestHeaderAccessCheck::access<\/a>"],[0,1,"<a href=\"CsrfTokenGenerator.php.html#39\">Drupal\\Core\\Access\\CsrfTokenGenerator::__construct<\/a>"],[0,2,"<a href=\"CsrfTokenGenerator.php.html#63\">Drupal\\Core\\Access\\CsrfTokenGenerator::get<\/a>"],[0,2,"<a href=\"CsrfTokenGenerator.php.html#84\">Drupal\\Core\\Access\\CsrfTokenGenerator::validate<\/a>"],[0,1,"<a href=\"CsrfTokenGenerator.php.html#108\">Drupal\\Core\\Access\\CsrfTokenGenerator::computeToken<\/a>"],[0,1,"<a href=\"CustomAccessCheck.php.html#45\">Drupal\\Core\\Access\\CustomAccessCheck::__construct<\/a>"],[0,2,"<a href=\"CustomAccessCheck.php.html#63\">Drupal\\Core\\Access\\CustomAccessCheck::access<\/a>"],[0,3,"<a href=\"DefaultAccessCheck.php.html#22\">Drupal\\Core\\Access\\DefaultAccessCheck::access<\/a>"],[0,1,"<a href=\"RouteProcessorCsrf.php.html#29\">Drupal\\Core\\Access\\RouteProcessorCsrf::__construct<\/a>"],[0,4,"<a href=\"RouteProcessorCsrf.php.html#36\">Drupal\\Core\\Access\\RouteProcessorCsrf::processOutbound<\/a>"],[0,1,"<a href=\"RouteProcessorCsrf.php.html#73\">Drupal\\Core\\Access\\RouteProcessorCsrf::renderPlaceholderCsrfToken<\/a>"],[0,1,"<a href=\"RouteProcessorCsrf.php.html#88\">Drupal\\Core\\Access\\RouteProcessorCsrf::trustedCallbacks<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/crafter/www/drupal-modules.devel/web/core/lib/Drupal/Core/Config/Entity</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../../../index.html">/home/crafter/www/drupal-modules.devel/web</a></li>
+         <li class="breadcrumb-item"><a href="../../../../../index.html">core</a></li>
+         <li class="breadcrumb-item"><a href="../../../../index.html">lib</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">Drupal</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Core</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Config</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Entity</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ConfigDependencyManager.php.html#122">Drupal\Core\Config\Entity\ConfigDependencyManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#21">Drupal\Core\Config\Entity\ConfigEntityBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBundleBase.php.html#14">Drupal\Core\Config\Entity\ConfigEntityBundleBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityDependency.php.html#12">Drupal\Core\Config\Entity\ConfigEntityDependency</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityListBuilder.php.html#13">Drupal\Core\Config\Entity\ConfigEntityListBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#36">Drupal\Core\Config\Entity\ConfigEntityStorage</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityType.php.html#12">Drupal\Core\Config\Entity\ConfigEntityType</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityUpdater.php.html#26">Drupal\Core\Config\Entity\ConfigEntityUpdater</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DraggableListBuilder.php.html#14">Drupal\Core\Config\Entity\DraggableListBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Condition.php.html#14">Drupal\Core\Config\Entity\Query\Condition</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Query.php.html#14">Drupal\Core\Config\Entity\Query\Query</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/QueryFactory.php.html#21">Drupal\Core\Config\Entity\Query\QueryFactory</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigDependencyDeleteFormTrait.php.html#13">ConfigDependencyDeleteFormTrait</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ConfigEntityBase.php.html#21">Drupal\Core\Config\Entity\ConfigEntityBase</a></td><td class="text-right">7482</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#36">Drupal\Core\Config\Entity\ConfigEntityStorage</a></td><td class="text-right">2352</td></tr>
+       <tr><td><a href="Query/Condition.php.html#14">Drupal\Core\Config\Entity\Query\Condition</a></td><td class="text-right">1722</td></tr>
+       <tr><td><a href="Query/Query.php.html#14">Drupal\Core\Config\Entity\Query\Query</a></td><td class="text-right">1122</td></tr>
+       <tr><td><a href="ConfigDependencyManager.php.html#122">Drupal\Core\Config\Entity\ConfigDependencyManager</a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="Query/QueryFactory.php.html#21">Drupal\Core\Config\Entity\Query\QueryFactory</a></td><td class="text-right">702</td></tr>
+       <tr><td><a href="DraggableListBuilder.php.html#14">Drupal\Core\Config\Entity\DraggableListBuilder</a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="ConfigEntityType.php.html#12">Drupal\Core\Config\Entity\ConfigEntityType</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="ConfigEntityBundleBase.php.html#14">Drupal\Core\Config\Entity\ConfigEntityBundleBase</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="ConfigDependencyDeleteFormTrait.php.html#13">ConfigDependencyDeleteFormTrait</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="ConfigEntityDependency.php.html#12">Drupal\Core\Config\Entity\ConfigEntityDependency</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="ConfigEntityUpdater.php.html#26">Drupal\Core\Config\Entity\ConfigEntityUpdater</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="ConfigEntityListBuilder.php.html#13">Drupal\Core\Config\Entity\ConfigEntityListBuilder</a></td><td class="text-right">42</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ConfigDependencyManager.php.html#152"><abbr title="Drupal\Core\Config\Entity\ConfigDependencyManager::getDependentEntities">getDependentEntities</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#404"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::createFromStorageRecord">createFromStorageRecord</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityType.php.html#147"><abbr title="Drupal\Core\Config\Entity\ConfigEntityType::getPropertiesToExport">getPropertiesToExport</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityType.php.html#138"><abbr title="Drupal\Core\Config\Entity\ConfigEntityType::checkStorageClass">checkStorageClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityType.php.html#125"><abbr title="Drupal\Core\Config\Entity\ConfigEntityType::getConfigDependencyKey">getConfigDependencyKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityType.php.html#118"><abbr title="Drupal\Core\Config\Entity\ConfigEntityType::getDataTable">getDataTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityType.php.html#111"><abbr title="Drupal\Core\Config\Entity\ConfigEntityType::getRevisionTable">getRevisionTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityType.php.html#104"><abbr title="Drupal\Core\Config\Entity\ConfigEntityType::getRevisionDataTable">getRevisionDataTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityType.php.html#97"><abbr title="Drupal\Core\Config\Entity\ConfigEntityType::getBaseTable">getBaseTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityType.php.html#78"><abbr title="Drupal\Core\Config\Entity\ConfigEntityType::getConfigPrefix">getConfigPrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityType.php.html#58"><abbr title="Drupal\Core\Config\Entity\ConfigEntityType::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#490"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::loadMultipleOverrideFree">loadMultipleOverrideFree</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#482"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::loadOverrideFree">loadOverrideFree</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#447"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::updateFromStorageRecord">updateFromStorageRecord</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#425"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::_doCreateFromStorageRecord">_doCreateFromStorageRecord</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#397"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::importRename">importRename</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityUpdater.php.html#54"><abbr title="Drupal\Core\Config\Entity\ConfigEntityUpdater::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#386"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::importDelete">importDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#371"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::importUpdate">importUpdate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#362"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::importCreate">importCreate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#355"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::getQueryServiceName">getQueryServiceName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#345"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::invokeHook">invokeHook</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#333"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::buildCacheId">buildCacheId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#326"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::hasData">hasData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#317"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::has">has</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#310"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::mapToStorageRecord">mapToStorageRecord</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#269"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::doSave">doSave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#248"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#236"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::doDelete">doDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#225"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::doCreate">doCreate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#169"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::doLoadMultiple">doLoadMultiple</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityType.php.html#187"><abbr title="Drupal\Core\Config\Entity\ConfigEntityType::getLookupKeys">getLookupKeys</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityUpdater.php.html#62"><abbr title="Drupal\Core\Config\Entity\ConfigEntityUpdater::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#155"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::getPrefix">getPrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Query.php.html#80"><abbr title="Drupal\Core\Config\Entity\Query\Query::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/QueryFactory.php.html#252"><abbr title="Drupal\Core\Config\Entity\Query\QueryFactory::getSubscribedEvents">getSubscribedEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/QueryFactory.php.html#240"><abbr title="Drupal\Core\Config\Entity\Query\QueryFactory::onConfigDelete">onConfigDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/QueryFactory.php.html#225"><abbr title="Drupal\Core\Config\Entity\Query\QueryFactory::onConfigSave">onConfigSave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/QueryFactory.php.html#197"><abbr title="Drupal\Core\Config\Entity\Query\QueryFactory::getValues">getValues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/QueryFactory.php.html#154"><abbr title="Drupal\Core\Config\Entity\Query\QueryFactory::getKeys">getKeys</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/QueryFactory.php.html#115"><abbr title="Drupal\Core\Config\Entity\Query\QueryFactory::deleteConfigKeyStore">deleteConfigKeyStore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/QueryFactory.php.html#94"><abbr title="Drupal\Core\Config\Entity\Query\QueryFactory::updateConfigKeyStore">updateConfigKeyStore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/QueryFactory.php.html#82"><abbr title="Drupal\Core\Config\Entity\Query\QueryFactory::getConfigKeyStore">getConfigKeyStore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/QueryFactory.php.html#69"><abbr title="Drupal\Core\Config\Entity\Query\QueryFactory::getAggregate">getAggregate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/QueryFactory.php.html#62"><abbr title="Drupal\Core\Config\Entity\Query\QueryFactory::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/QueryFactory.php.html#52"><abbr title="Drupal\Core\Config\Entity\Query\QueryFactory::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Query.php.html#224"><abbr title="Drupal\Core\Config\Entity\Query\Query::getConfigKeyStore">getConfigKeyStore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Query.php.html#120"><abbr title="Drupal\Core\Config\Entity\Query\Query::loadRecords">loadRecords</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Query.php.html#73"><abbr title="Drupal\Core\Config\Entity\Query\Query::condition">condition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityUpdater.php.html#100"><abbr title="Drupal\Core\Config\Entity\ConfigEntityUpdater::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Query.php.html#52"><abbr title="Drupal\Core\Config\Entity\Query\Query::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Condition.php.html#155"><abbr title="Drupal\Core\Config\Entity\Query\Condition::match">match</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Condition.php.html#112"><abbr title="Drupal\Core\Config\Entity\Query\Condition::matchArray">matchArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Condition.php.html#92"><abbr title="Drupal\Core\Config\Entity\Query\Condition::notExists">notExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Condition.php.html#85"><abbr title="Drupal\Core\Config\Entity\Query\Condition::exists">exists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Condition.php.html#19"><abbr title="Drupal\Core\Config\Entity\Query\Condition::compile">compile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DraggableListBuilder.php.html#176"><abbr title="Drupal\Core\Config\Entity\DraggableListBuilder::formBuilder">formBuilder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DraggableListBuilder.php.html#160"><abbr title="Drupal\Core\Config\Entity\DraggableListBuilder::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DraggableListBuilder.php.html#153"><abbr title="Drupal\Core\Config\Entity\DraggableListBuilder::validateForm">validateForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DraggableListBuilder.php.html#106"><abbr title="Drupal\Core\Config\Entity\DraggableListBuilder::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DraggableListBuilder.php.html#96"><abbr title="Drupal\Core\Config\Entity\DraggableListBuilder::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DraggableListBuilder.php.html#75"><abbr title="Drupal\Core\Config\Entity\DraggableListBuilder::buildRow">buildRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DraggableListBuilder.php.html#64"><abbr title="Drupal\Core\Config\Entity\DraggableListBuilder::buildHeader">buildHeader</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DraggableListBuilder.php.html#52"><abbr title="Drupal\Core\Config\Entity\DraggableListBuilder::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#162"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::getIDFromConfigName">getIDFromConfigName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#142"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::deleteRevision">deleteRevision</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigDependencyManager.php.html#195"><abbr title="Drupal\Core\Config\Entity\ConfigDependencyManager::prepareMultisort">prepareMultisort</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#189"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::setStatus">setStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#398"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::link">link</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#390"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::url">url</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#381"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::urlInfo">urlInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#355"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::calculateDependencies">calculateDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#326"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::__sleep">__sleep</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#286"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::preSave">preSave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#279"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::getTypedConfig">getTypedConfig</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#243"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#229"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::sort">sort</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#218"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::createDuplicate">createDuplicate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#211"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::isUninstalling">isUninstalling</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#204"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::setUninstalling">setUninstalling</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#197"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::status">status</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#182"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::disable">disable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#415"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::getCacheTagsToInvalidate">getCacheTagsToInvalidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#175"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::enable">enable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#158"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::set">set</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#151"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#144"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::isNew">isNew</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#127"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::setOriginalId">setOriginalId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#120"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::getOriginalId">getOriginalId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#106"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigDependencyManager.php.html#378"><abbr title="Drupal\Core\Config\Entity\ConfigDependencyManager::updateData">updateData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigDependencyManager.php.html#342"><abbr title="Drupal\Core\Config\Entity\ConfigDependencyManager::setData">setData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigDependencyManager.php.html#305"><abbr title="Drupal\Core\Config\Entity\ConfigDependencyManager::getGraph">getGraph</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigDependencyManager.php.html#283"><abbr title="Drupal\Core\Config\Entity\ConfigDependencyManager::createGraphConfigEntityDependencies">createGraphConfigEntityDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigDependencyManager.php.html#263"><abbr title="Drupal\Core\Config\Entity\ConfigDependencyManager::sortGraph">sortGraph</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigDependencyManager.php.html#238"><abbr title="Drupal\Core\Config\Entity\ConfigDependencyManager::sortGraphByWeight">sortGraphByWeight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigDependencyManager.php.html#212"><abbr title="Drupal\Core\Config\Entity\ConfigDependencyManager::sortAll">sortAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#406"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::toUrl">toUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#430"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::addDependency">addDependency</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#135"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::loadRevision">loadRevision</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#612"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#122"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::createInstance">createInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#111"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityListBuilder.php.html#31"><abbr title="Drupal\Core\Config\Entity\ConfigEntityListBuilder::getDefaultOperations">getDefaultOperations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityListBuilder.php.html#18"><abbr title="Drupal\Core\Config\Entity\ConfigEntityListBuilder::load">load</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityDependency.php.html#99"><abbr title="Drupal\Core\Config\Entity\ConfigEntityDependency::getConfigDependencyName">getConfigDependencyName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityDependency.php.html#83"><abbr title="Drupal\Core\Config\Entity\ConfigEntityDependency::hasDependency">hasDependency</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityDependency.php.html#59"><abbr title="Drupal\Core\Config\Entity\ConfigEntityDependency::getDependencies">getDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityDependency.php.html#36"><abbr title="Drupal\Core\Config\Entity\ConfigEntityDependency::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBundleBase.php.html#104"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBundleBase::loadDisplays">loadDisplays</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBundleBase.php.html#82"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBundleBase::preSave">preSave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBundleBase.php.html#59"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBundleBase::postDelete">postDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBundleBase.php.html#36"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBundleBase::postSave">postSave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBundleBase.php.html#19"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBundleBase::deleteDisplays">deleteDisplays</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#605"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::hasTrustedData">hasTrustedData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#444"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::getDependencies">getDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#597"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::trustData">trustData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#590"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::isInstallable">isInstallable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#583"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::getConfigManager">getConfigManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#556"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::preDelete">preDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#549"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::getThirdPartyProviders">getThirdPartyProviders</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#536"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::unsetThirdPartySetting">unsetThirdPartySetting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#529"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::getThirdPartySettings">getThirdPartySettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#517"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::getThirdPartySetting">getThirdPartySetting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#509"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::setThirdPartySetting">setThirdPartySetting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#502"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::invalidateTagsOnDelete">invalidateTagsOnDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#492"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::invalidateTagsOnSave">invalidateTagsOnSave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#476"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::onDependencyRemoval">onDependencyRemoval</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#465"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::getConfigTarget">getConfigTarget</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#458"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::getConfigDependencyName">getConfigDependencyName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConfigDependencyDeleteFormTrait.php.html#41"><abbr title="ConfigDependencyDeleteFormTrait::addDependencyListsToForm">addDependencyListsToForm</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Query/Query.php.html#120"><abbr title="Drupal\Core\Config\Entity\Query\Query::loadRecords">loadRecords</abbr></a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="Query/Condition.php.html#19"><abbr title="Drupal\Core\Config\Entity\Query\Condition::compile">compile</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="Query/Condition.php.html#155"><abbr title="Drupal\Core\Config\Entity\Query\Condition::match">match</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="ConfigDependencyDeleteFormTrait.php.html#41"><abbr title="ConfigDependencyDeleteFormTrait::addDependencyListsToForm">addDependencyListsToForm</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#286"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::preSave">preSave</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="ConfigEntityUpdater.php.html#100"><abbr title="Drupal\Core\Config\Entity\ConfigEntityUpdater::update">update</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Query/Condition.php.html#112"><abbr title="Drupal\Core\Config\Entity\Query\Condition::matchArray">matchArray</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Query/Query.php.html#80"><abbr title="Drupal\Core\Config\Entity\Query\Query::execute">execute</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#556"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::preDelete">preDelete</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="DraggableListBuilder.php.html#106"><abbr title="Drupal\Core\Config\Entity\DraggableListBuilder::buildForm">buildForm</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ConfigEntityType.php.html#147"><abbr title="Drupal\Core\Config\Entity\ConfigEntityType::getPropertiesToExport">getPropertiesToExport</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#169"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::doLoadMultiple">doLoadMultiple</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ConfigDependencyManager.php.html#152"><abbr title="Drupal\Core\Config\Entity\ConfigDependencyManager::getDependentEntities">getDependentEntities</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#355"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::calculateDependencies">calculateDependencies</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#243"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::toArray">toArray</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ConfigDependencyManager.php.html#283"><abbr title="Drupal\Core\Config\Entity\ConfigDependencyManager::createGraphConfigEntityDependencies">createGraphConfigEntityDependencies</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#229"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::sort">sort</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ConfigDependencyManager.php.html#305"><abbr title="Drupal\Core\Config\Entity\ConfigDependencyManager::getGraph">getGraph</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#269"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::doSave">doSave</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ConfigEntityListBuilder.php.html#31"><abbr title="Drupal\Core\Config\Entity\ConfigEntityListBuilder::getDefaultOperations">getDefaultOperations</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Query/QueryFactory.php.html#115"><abbr title="Drupal\Core\Config\Entity\Query\QueryFactory::deleteConfigKeyStore">deleteConfigKeyStore</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Query/QueryFactory.php.html#197"><abbr title="Drupal\Core\Config\Entity\Query\QueryFactory::getValues">getValues</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#326"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::__sleep">__sleep</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#430"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::addDependency">addDependency</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#447"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::updateFromStorageRecord">updateFromStorageRecord</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#425"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::_doCreateFromStorageRecord">_doCreateFromStorageRecord</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#248"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::save">save</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="DraggableListBuilder.php.html#160"><abbr title="Drupal\Core\Config\Entity\DraggableListBuilder::submitForm">submitForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ConfigEntityDependency.php.html#83"><abbr title="Drupal\Core\Config\Entity\ConfigEntityDependency::hasDependency">hasDependency</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ConfigEntityDependency.php.html#36"><abbr title="Drupal\Core\Config\Entity\ConfigEntityDependency::__construct">__construct</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ConfigEntityBundleBase.php.html#82"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBundleBase::preSave">preSave</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Query/QueryFactory.php.html#94"><abbr title="Drupal\Core\Config\Entity\Query\QueryFactory::updateConfigKeyStore">updateConfigKeyStore</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ConfigDependencyManager.php.html#195"><abbr title="Drupal\Core\Config\Entity\ConfigDependencyManager::prepareMultisort">prepareMultisort</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ConfigEntityBundleBase.php.html#19"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBundleBase::deleteDisplays">deleteDisplays</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ConfigEntityDependency.php.html#59"><abbr title="Drupal\Core\Config\Entity\ConfigEntityDependency::getDependencies">getDependencies</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ConfigEntityBundleBase.php.html#36"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBundleBase::postSave">postSave</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ConfigEntityType.php.html#78"><abbr title="Drupal\Core\Config\Entity\ConfigEntityType::getConfigPrefix">getConfigPrefix</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#106"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#158"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::set">set</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Query/QueryFactory.php.html#154"><abbr title="Drupal\Core\Config\Entity\Query\QueryFactory::getKeys">getKeys</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ConfigDependencyManager.php.html#263"><abbr title="Drupal\Core\Config\Entity\ConfigDependencyManager::sortGraph">sortGraph</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ConfigDependencyManager.php.html#238"><abbr title="Drupal\Core\Config\Entity\ConfigDependencyManager::sortGraphByWeight">sortGraphByWeight</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#151"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::get">get</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/QueryFactory.php.html#225"><abbr title="Drupal\Core\Config\Entity\Query\QueryFactory::onConfigSave">onConfigSave</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/QueryFactory.php.html#240"><abbr title="Drupal\Core\Config\Entity\Query\QueryFactory::onConfigDelete">onConfigDelete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DraggableListBuilder.php.html#176"><abbr title="Drupal\Core\Config\Entity\DraggableListBuilder::formBuilder">formBuilder</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#482"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::loadOverrideFree">loadOverrideFree</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DraggableListBuilder.php.html#96"><abbr title="Drupal\Core\Config\Entity\DraggableListBuilder::render">render</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DraggableListBuilder.php.html#75"><abbr title="Drupal\Core\Config\Entity\DraggableListBuilder::buildRow">buildRow</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DraggableListBuilder.php.html#64"><abbr title="Drupal\Core\Config\Entity\DraggableListBuilder::buildHeader">buildHeader</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DraggableListBuilder.php.html#52"><abbr title="Drupal\Core\Config\Entity\DraggableListBuilder::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ConfigEntityType.php.html#138"><abbr title="Drupal\Core\Config\Entity\ConfigEntityType::checkStorageClass">checkStorageClass</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ConfigEntityType.php.html#58"><abbr title="Drupal\Core\Config\Entity\ConfigEntityType::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#371"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::importUpdate">importUpdate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#333"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::buildCacheId">buildCacheId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ConfigEntityBundleBase.php.html#104"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBundleBase::loadDisplays">loadDisplays</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ConfigEntityBundleBase.php.html#59"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBundleBase::postDelete">postDelete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#536"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::unsetThirdPartySetting">unsetThirdPartySetting</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#529"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::getThirdPartySettings">getThirdPartySettings</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#517"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::getThirdPartySetting">getThirdPartySetting</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#476"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::onDependencyRemoval">onDependencyRemoval</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ConfigEntityBase.php.html#444"><abbr title="Drupal\Core\Config\Entity\ConfigEntityBase::getDependencies">getDependencies</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ConfigEntityStorage.php.html#236"><abbr title="Drupal\Core\Config\Entity\ConfigEntityStorage::doDelete">doDelete</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.33-16+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Fri Jun 12 8:21:00 AEST 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([13,0,0,0,0,0,0,0,0,0,0,3], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([131,0,0,0,0,0,0,0,0,0,0,1], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,27,"<a href=\"ConfigDependencyManager.php.html#122\">Drupal\\Core\\Config\\Entity\\ConfigDependencyManager<\/a>"],[0,86,"<a href=\"ConfigEntityBase.php.html#21\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase<\/a>"],[0,14,"<a href=\"ConfigEntityBundleBase.php.html#14\">Drupal\\Core\\Config\\Entity\\ConfigEntityBundleBase<\/a>"],[0,12,"<a href=\"ConfigEntityDependency.php.html#12\">Drupal\\Core\\Config\\Entity\\ConfigEntityDependency<\/a>"],[0,6,"<a href=\"ConfigEntityListBuilder.php.html#13\">Drupal\\Core\\Config\\Entity\\ConfigEntityListBuilder<\/a>"],[0,48,"<a href=\"ConfigEntityStorage.php.html#36\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage<\/a>"],[0,19,"<a href=\"ConfigEntityType.php.html#12\">Drupal\\Core\\Config\\Entity\\ConfigEntityType<\/a>"],[0,11,"<a href=\"ConfigEntityUpdater.php.html#26\">Drupal\\Core\\Config\\Entity\\ConfigEntityUpdater<\/a>"],[0,21,"<a href=\"DraggableListBuilder.php.html#14\">Drupal\\Core\\Config\\Entity\\DraggableListBuilder<\/a>"],[100,0,"<a href=\"Exception\/ConfigEntityIdLengthException.php.html#10\">Drupal\\Core\\Config\\Entity\\Exception\\ConfigEntityIdLengthException<\/a>"],[100,0,"<a href=\"Exception\/ConfigEntityStorageClassException.php.html#10\">Drupal\\Core\\Config\\Entity\\Exception\\ConfigEntityStorageClassException<\/a>"],[0,41,"<a href=\"Query\/Condition.php.html#14\">Drupal\\Core\\Config\\Entity\\Query\\Condition<\/a>"],[100,0,"<a href=\"Query\/InvalidLookupKeyException.php.html#8\">Drupal\\Core\\Config\\Entity\\Query\\InvalidLookupKeyException<\/a>"],[0,33,"<a href=\"Query\/Query.php.html#14\">Drupal\\Core\\Config\\Entity\\Query\\Query<\/a>"],[0,26,"<a href=\"Query\/QueryFactory.php.html#21\">Drupal\\Core\\Config\\Entity\\Query\\QueryFactory<\/a>"],[0,13,"<a href=\"ConfigDependencyDeleteFormTrait.php.html#13\">ConfigDependencyDeleteFormTrait<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,6,"<a href=\"ConfigDependencyManager.php.html#152\">Drupal\\Core\\Config\\Entity\\ConfigDependencyManager::getDependentEntities<\/a>"],[0,3,"<a href=\"ConfigDependencyManager.php.html#195\">Drupal\\Core\\Config\\Entity\\ConfigDependencyManager::prepareMultisort<\/a>"],[0,1,"<a href=\"ConfigDependencyManager.php.html#212\">Drupal\\Core\\Config\\Entity\\ConfigDependencyManager::sortAll<\/a>"],[0,2,"<a href=\"ConfigDependencyManager.php.html#238\">Drupal\\Core\\Config\\Entity\\ConfigDependencyManager::sortGraphByWeight<\/a>"],[0,2,"<a href=\"ConfigDependencyManager.php.html#263\">Drupal\\Core\\Config\\Entity\\ConfigDependencyManager::sortGraph<\/a>"],[0,6,"<a href=\"ConfigDependencyManager.php.html#283\">Drupal\\Core\\Config\\Entity\\ConfigDependencyManager::createGraphConfigEntityDependencies<\/a>"],[0,5,"<a href=\"ConfigDependencyManager.php.html#305\">Drupal\\Core\\Config\\Entity\\ConfigDependencyManager::getGraph<\/a>"],[0,1,"<a href=\"ConfigDependencyManager.php.html#342\">Drupal\\Core\\Config\\Entity\\ConfigDependencyManager::setData<\/a>"],[0,1,"<a href=\"ConfigDependencyManager.php.html#378\">Drupal\\Core\\Config\\Entity\\ConfigDependencyManager::updateData<\/a>"],[0,3,"<a href=\"ConfigEntityBase.php.html#106\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::__construct<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#120\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::getOriginalId<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#127\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::setOriginalId<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#144\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::isNew<\/a>"],[0,2,"<a href=\"ConfigEntityBase.php.html#151\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::get<\/a>"],[0,3,"<a href=\"ConfigEntityBase.php.html#158\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::set<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#175\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::enable<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#182\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::disable<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#189\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::setStatus<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#197\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::status<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#204\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::setUninstalling<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#211\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::isUninstalling<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#218\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::createDuplicate<\/a>"],[0,5,"<a href=\"ConfigEntityBase.php.html#229\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::sort<\/a>"],[0,6,"<a href=\"ConfigEntityBase.php.html#243\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::toArray<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#279\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::getTypedConfig<\/a>"],[0,10,"<a href=\"ConfigEntityBase.php.html#286\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::preSave<\/a>"],[0,4,"<a href=\"ConfigEntityBase.php.html#326\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::__sleep<\/a>"],[0,6,"<a href=\"ConfigEntityBase.php.html#355\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::calculateDependencies<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#381\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::urlInfo<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#390\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::url<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#398\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::link<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#406\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::toUrl<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#415\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::getCacheTagsToInvalidate<\/a>"],[0,4,"<a href=\"ConfigEntityBase.php.html#430\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::addDependency<\/a>"],[0,2,"<a href=\"ConfigEntityBase.php.html#444\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::getDependencies<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#458\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::getConfigDependencyName<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#465\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::getConfigTarget<\/a>"],[0,2,"<a href=\"ConfigEntityBase.php.html#476\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::onDependencyRemoval<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#492\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::invalidateTagsOnSave<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#502\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::invalidateTagsOnDelete<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#509\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::setThirdPartySetting<\/a>"],[0,2,"<a href=\"ConfigEntityBase.php.html#517\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::getThirdPartySetting<\/a>"],[0,2,"<a href=\"ConfigEntityBase.php.html#529\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::getThirdPartySettings<\/a>"],[0,2,"<a href=\"ConfigEntityBase.php.html#536\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::unsetThirdPartySetting<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#549\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::getThirdPartyProviders<\/a>"],[0,6,"<a href=\"ConfigEntityBase.php.html#556\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::preDelete<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#583\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::getConfigManager<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#590\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::isInstallable<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#597\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::trustData<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#605\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::hasTrustedData<\/a>"],[0,1,"<a href=\"ConfigEntityBase.php.html#612\">Drupal\\Core\\Config\\Entity\\ConfigEntityBase::save<\/a>"],[0,3,"<a href=\"ConfigEntityBundleBase.php.html#19\">Drupal\\Core\\Config\\Entity\\ConfigEntityBundleBase::deleteDisplays<\/a>"],[0,3,"<a href=\"ConfigEntityBundleBase.php.html#36\">Drupal\\Core\\Config\\Entity\\ConfigEntityBundleBase::postSave<\/a>"],[0,2,"<a href=\"ConfigEntityBundleBase.php.html#59\">Drupal\\Core\\Config\\Entity\\ConfigEntityBundleBase::postDelete<\/a>"],[0,4,"<a href=\"ConfigEntityBundleBase.php.html#82\">Drupal\\Core\\Config\\Entity\\ConfigEntityBundleBase::preSave<\/a>"],[0,2,"<a href=\"ConfigEntityBundleBase.php.html#104\">Drupal\\Core\\Config\\Entity\\ConfigEntityBundleBase::loadDisplays<\/a>"],[0,4,"<a href=\"ConfigEntityDependency.php.html#36\">Drupal\\Core\\Config\\Entity\\ConfigEntityDependency::__construct<\/a>"],[0,3,"<a href=\"ConfigEntityDependency.php.html#59\">Drupal\\Core\\Config\\Entity\\ConfigEntityDependency::getDependencies<\/a>"],[0,4,"<a href=\"ConfigEntityDependency.php.html#83\">Drupal\\Core\\Config\\Entity\\ConfigEntityDependency::hasDependency<\/a>"],[0,1,"<a href=\"ConfigEntityDependency.php.html#99\">Drupal\\Core\\Config\\Entity\\ConfigEntityDependency::getConfigDependencyName<\/a>"],[0,1,"<a href=\"ConfigEntityListBuilder.php.html#18\">Drupal\\Core\\Config\\Entity\\ConfigEntityListBuilder::load<\/a>"],[0,5,"<a href=\"ConfigEntityListBuilder.php.html#31\">Drupal\\Core\\Config\\Entity\\ConfigEntityListBuilder::getDefaultOperations<\/a>"],[0,1,"<a href=\"ConfigEntityStorage.php.html#111\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::__construct<\/a>"],[0,1,"<a href=\"ConfigEntityStorage.php.html#122\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::createInstance<\/a>"],[0,1,"<a href=\"ConfigEntityStorage.php.html#135\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::loadRevision<\/a>"],[0,1,"<a href=\"ConfigEntityStorage.php.html#142\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::deleteRevision<\/a>"],[0,1,"<a href=\"ConfigEntityStorage.php.html#155\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::getPrefix<\/a>"],[0,1,"<a href=\"ConfigEntityStorage.php.html#162\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::getIDFromConfigName<\/a>"],[0,6,"<a href=\"ConfigEntityStorage.php.html#169\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::doLoadMultiple<\/a>"],[0,1,"<a href=\"ConfigEntityStorage.php.html#225\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::doCreate<\/a>"],[0,2,"<a href=\"ConfigEntityStorage.php.html#236\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::doDelete<\/a>"],[0,4,"<a href=\"ConfigEntityStorage.php.html#248\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::save<\/a>"],[0,5,"<a href=\"ConfigEntityStorage.php.html#269\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::doSave<\/a>"],[0,1,"<a href=\"ConfigEntityStorage.php.html#310\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::mapToStorageRecord<\/a>"],[0,1,"<a href=\"ConfigEntityStorage.php.html#317\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::has<\/a>"],[0,1,"<a href=\"ConfigEntityStorage.php.html#326\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::hasData<\/a>"],[0,2,"<a href=\"ConfigEntityStorage.php.html#333\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::buildCacheId<\/a>"],[0,1,"<a href=\"ConfigEntityStorage.php.html#345\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::invokeHook<\/a>"],[0,1,"<a href=\"ConfigEntityStorage.php.html#355\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::getQueryServiceName<\/a>"],[0,1,"<a href=\"ConfigEntityStorage.php.html#362\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::importCreate<\/a>"],[0,2,"<a href=\"ConfigEntityStorage.php.html#371\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::importUpdate<\/a>"],[0,1,"<a href=\"ConfigEntityStorage.php.html#386\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::importDelete<\/a>"],[0,1,"<a href=\"ConfigEntityStorage.php.html#397\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::importRename<\/a>"],[0,1,"<a href=\"ConfigEntityStorage.php.html#404\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::createFromStorageRecord<\/a>"],[0,4,"<a href=\"ConfigEntityStorage.php.html#425\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::_doCreateFromStorageRecord<\/a>"],[0,4,"<a href=\"ConfigEntityStorage.php.html#447\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::updateFromStorageRecord<\/a>"],[0,2,"<a href=\"ConfigEntityStorage.php.html#482\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::loadOverrideFree<\/a>"],[0,1,"<a href=\"ConfigEntityStorage.php.html#490\">Drupal\\Core\\Config\\Entity\\ConfigEntityStorage::loadMultipleOverrideFree<\/a>"],[0,2,"<a href=\"ConfigEntityType.php.html#58\">Drupal\\Core\\Config\\Entity\\ConfigEntityType::__construct<\/a>"],[0,3,"<a href=\"ConfigEntityType.php.html#78\">Drupal\\Core\\Config\\Entity\\ConfigEntityType::getConfigPrefix<\/a>"],[0,1,"<a href=\"ConfigEntityType.php.html#97\">Drupal\\Core\\Config\\Entity\\ConfigEntityType::getBaseTable<\/a>"],[0,1,"<a href=\"ConfigEntityType.php.html#104\">Drupal\\Core\\Config\\Entity\\ConfigEntityType::getRevisionDataTable<\/a>"],[0,1,"<a href=\"ConfigEntityType.php.html#111\">Drupal\\Core\\Config\\Entity\\ConfigEntityType::getRevisionTable<\/a>"],[0,1,"<a href=\"ConfigEntityType.php.html#118\">Drupal\\Core\\Config\\Entity\\ConfigEntityType::getDataTable<\/a>"],[0,1,"<a href=\"ConfigEntityType.php.html#125\">Drupal\\Core\\Config\\Entity\\ConfigEntityType::getConfigDependencyKey<\/a>"],[0,2,"<a href=\"ConfigEntityType.php.html#138\">Drupal\\Core\\Config\\Entity\\ConfigEntityType::checkStorageClass<\/a>"],[0,6,"<a href=\"ConfigEntityType.php.html#147\">Drupal\\Core\\Config\\Entity\\ConfigEntityType::getPropertiesToExport<\/a>"],[0,1,"<a href=\"ConfigEntityType.php.html#187\">Drupal\\Core\\Config\\Entity\\ConfigEntityType::getLookupKeys<\/a>"],[0,1,"<a href=\"ConfigEntityUpdater.php.html#54\">Drupal\\Core\\Config\\Entity\\ConfigEntityUpdater::__construct<\/a>"],[0,1,"<a href=\"ConfigEntityUpdater.php.html#62\">Drupal\\Core\\Config\\Entity\\ConfigEntityUpdater::create<\/a>"],[0,9,"<a href=\"ConfigEntityUpdater.php.html#100\">Drupal\\Core\\Config\\Entity\\ConfigEntityUpdater::update<\/a>"],[0,2,"<a href=\"DraggableListBuilder.php.html#52\">Drupal\\Core\\Config\\Entity\\DraggableListBuilder::__construct<\/a>"],[0,2,"<a href=\"DraggableListBuilder.php.html#64\">Drupal\\Core\\Config\\Entity\\DraggableListBuilder::buildHeader<\/a>"],[0,2,"<a href=\"DraggableListBuilder.php.html#75\">Drupal\\Core\\Config\\Entity\\DraggableListBuilder::buildRow<\/a>"],[0,2,"<a href=\"DraggableListBuilder.php.html#96\">Drupal\\Core\\Config\\Entity\\DraggableListBuilder::render<\/a>"],[0,6,"<a href=\"DraggableListBuilder.php.html#106\">Drupal\\Core\\Config\\Entity\\DraggableListBuilder::buildForm<\/a>"],[0,1,"<a href=\"DraggableListBuilder.php.html#153\">Drupal\\Core\\Config\\Entity\\DraggableListBuilder::validateForm<\/a>"],[0,4,"<a href=\"DraggableListBuilder.php.html#160\">Drupal\\Core\\Config\\Entity\\DraggableListBuilder::submitForm<\/a>"],[0,2,"<a href=\"DraggableListBuilder.php.html#176\">Drupal\\Core\\Config\\Entity\\DraggableListBuilder::formBuilder<\/a>"],[0,16,"<a href=\"Query\/Condition.php.html#19\">Drupal\\Core\\Config\\Entity\\Query\\Condition::compile<\/a>"],[0,1,"<a href=\"Query\/Condition.php.html#85\">Drupal\\Core\\Config\\Entity\\Query\\Condition::exists<\/a>"],[0,1,"<a href=\"Query\/Condition.php.html#92\">Drupal\\Core\\Config\\Entity\\Query\\Condition::notExists<\/a>"],[0,8,"<a href=\"Query\/Condition.php.html#112\">Drupal\\Core\\Config\\Entity\\Query\\Condition::matchArray<\/a>"],[0,15,"<a href=\"Query\/Condition.php.html#155\">Drupal\\Core\\Config\\Entity\\Query\\Condition::match<\/a>"],[0,1,"<a href=\"Query\/Query.php.html#52\">Drupal\\Core\\Config\\Entity\\Query\\Query::__construct<\/a>"],[0,1,"<a href=\"Query\/Query.php.html#73\">Drupal\\Core\\Config\\Entity\\Query\\Query::condition<\/a>"],[0,7,"<a href=\"Query\/Query.php.html#80\">Drupal\\Core\\Config\\Entity\\Query\\Query::execute<\/a>"],[0,23,"<a href=\"Query\/Query.php.html#120\">Drupal\\Core\\Config\\Entity\\Query\\Query::loadRecords<\/a>"],[0,1,"<a href=\"Query\/Query.php.html#224\">Drupal\\Core\\Config\\Entity\\Query\\Query::getConfigKeyStore<\/a>"],[0,1,"<a href=\"Query\/QueryFactory.php.html#52\">Drupal\\Core\\Config\\Entity\\Query\\QueryFactory::__construct<\/a>"],[0,1,"<a href=\"Query\/QueryFactory.php.html#62\">Drupal\\Core\\Config\\Entity\\Query\\QueryFactory::get<\/a>"],[0,1,"<a href=\"Query\/QueryFactory.php.html#69\">Drupal\\Core\\Config\\Entity\\Query\\QueryFactory::getAggregate<\/a>"],[0,1,"<a href=\"Query\/QueryFactory.php.html#82\">Drupal\\Core\\Config\\Entity\\Query\\QueryFactory::getConfigKeyStore<\/a>"],[0,4,"<a href=\"Query\/QueryFactory.php.html#94\">Drupal\\Core\\Config\\Entity\\Query\\QueryFactory::updateConfigKeyStore<\/a>"],[0,5,"<a href=\"Query\/QueryFactory.php.html#115\">Drupal\\Core\\Config\\Entity\\Query\\QueryFactory::deleteConfigKeyStore<\/a>"],[0,3,"<a href=\"Query\/QueryFactory.php.html#154\">Drupal\\Core\\Config\\Entity\\Query\\QueryFactory::getKeys<\/a>"],[0,5,"<a href=\"Query\/QueryFactory.php.html#197\">Drupal\\Core\\Config\\Entity\\Query\\QueryFactory::getValues<\/a>"],[0,2,"<a href=\"Query\/QueryFactory.php.html#225\">Drupal\\Core\\Config\\Entity\\Query\\QueryFactory::onConfigSave<\/a>"],[0,2,"<a href=\"Query\/QueryFactory.php.html#240\">Drupal\\Core\\Config\\Entity\\Query\\QueryFactory::onConfigDelete<\/a>"],[0,1,"<a href=\"Query\/QueryFactory.php.html#252\">Drupal\\Core\\Config\\Entity\\Query\\QueryFactory::getSubscribedEvents<\/a>"],[100,1,"<a href=\"ConfigDependencyDeleteFormTrait.php.html#20\">ConfigDependencyDeleteFormTrait::t<\/a>"],[0,12,"<a href=\"ConfigDependencyDeleteFormTrait.php.html#41\">ConfigDependencyDeleteFormTrait::addDependencyListsToForm<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/crafter/www/drupal-modules.devel/web/core/modules/help_topics/src</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../index.html">/home/crafter/www/drupal-modules.devel/web</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">core</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">modules</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">help_topics</a></li>
+         <li class="breadcrumb-item"><a href="index.html">src</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controller/HelpTopicPluginController.php.html#21">Drupal\help_topics\Controller\HelpTopicPluginController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FrontMatter.php.html#12">Drupal\help_topics\FrontMatter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpBreadcrumbBuilder.php.html#20">Drupal\help_topics\HelpBreadcrumbBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpSectionManager.php.html#16">Drupal\help_topics\HelpSectionManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicDiscovery.php.html#25">Drupal\help_topics\HelpTopicDiscovery</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicPluginBase.php.html#17">Drupal\help_topics\HelpTopicPluginBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicPluginManager.php.html#69">Drupal\help_topics\HelpTopicPluginManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicTwig.php.html#22">Drupal\help_topics\HelpTopicTwig</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicTwigLoader.php.html#27">Drupal\help_topics\HelpTopicTwigLoader</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/HelpSection/HelpTopicSection.php.html#35">Drupal\help_topics\Plugin\HelpSection\HelpTopicSection</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Search/HelpSearch.php.html#44">Drupal\help_topics\Plugin\Search\HelpSearch</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Plugin/Search/HelpSearch.php.html#44">Drupal\help_topics\Plugin\Search\HelpSearch</a></td><td class="text-right">1892</td></tr>
+       <tr><td><a href="HelpTopicDiscovery.php.html#25">Drupal\help_topics\HelpTopicDiscovery</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="Plugin/HelpSection/HelpTopicSection.php.html#35">Drupal\help_topics\Plugin\HelpSection\HelpTopicSection</a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="FrontMatter.php.html#12">Drupal\help_topics\FrontMatter</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="HelpTopicPluginManager.php.html#69">Drupal\help_topics\HelpTopicPluginManager</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Controller/HelpTopicPluginController.php.html#21">Drupal\help_topics\Controller\HelpTopicPluginController</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="HelpTopicPluginBase.php.html#17">Drupal\help_topics\HelpTopicPluginBase</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="HelpTopicTwigLoader.php.html#27">Drupal\help_topics\HelpTopicTwigLoader</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="HelpSectionManager.php.html#16">Drupal\help_topics\HelpSectionManager</a></td><td class="text-right">30</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controller/HelpTopicPluginController.php.html#45"><abbr title="Drupal\help_topics\Controller\HelpTopicPluginController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/HelpSection/HelpTopicSection.php.html#205"><abbr title="Drupal\help_topics\Plugin\HelpSection\HelpTopicSection::renderTopicForSearch">renderTopicForSearch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicTwig.php.html#86"><abbr title="Drupal\help_topics\HelpTopicTwig::getCacheMaxAge">getCacheMaxAge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicTwigLoader.php.html#44"><abbr title="Drupal\help_topics\HelpTopicTwigLoader::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicTwigLoader.php.html#59"><abbr title="Drupal\help_topics\HelpTopicTwigLoader::addExtension">addExtension</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicTwigLoader.php.html#70"><abbr title="Drupal\help_topics\HelpTopicTwigLoader::getSourceContext">getSourceContext</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/HelpSection/HelpTopicSection.php.html#107"><abbr title="Drupal\help_topics\Plugin\HelpSection\HelpTopicSection::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/HelpSection/HelpTopicSection.php.html#119"><abbr title="Drupal\help_topics\Plugin\HelpSection\HelpTopicSection::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/HelpSection/HelpTopicSection.php.html#135"><abbr title="Drupal\help_topics\Plugin\HelpSection\HelpTopicSection::getCacheTags">getCacheTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/HelpSection/HelpTopicSection.php.html#142"><abbr title="Drupal\help_topics\Plugin\HelpSection\HelpTopicSection::getCacheContexts">getCacheContexts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/HelpSection/HelpTopicSection.php.html#149"><abbr title="Drupal\help_topics\Plugin\HelpSection\HelpTopicSection::getCacheMaxAge">getCacheMaxAge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/HelpSection/HelpTopicSection.php.html#156"><abbr title="Drupal\help_topics\Plugin\HelpSection\HelpTopicSection::listTopics">listTopics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/HelpSection/HelpTopicSection.php.html#169"><abbr title="Drupal\help_topics\Plugin\HelpSection\HelpTopicSection::getPlugins">getPlugins</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/HelpSection/HelpTopicSection.php.html#197"><abbr title="Drupal\help_topics\Plugin\HelpSection\HelpTopicSection::listSearchableTopics">listSearchableTopics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/HelpSection/HelpTopicSection.php.html#273"><abbr title="Drupal\help_topics\Plugin\HelpSection\HelpTopicSection::getCacheMetadata">getCacheMetadata</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicTwig.php.html#72"><abbr title="Drupal\help_topics\HelpTopicTwig::getCacheContexts">getCacheContexts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Search/HelpSearch.php.html#105"><abbr title="Drupal\help_topics\Plugin\Search\HelpSearch::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Search/HelpSearch.php.html#147"><abbr title="Drupal\help_topics\Plugin\Search\HelpSearch::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Search/HelpSearch.php.html#162"><abbr title="Drupal\help_topics\Plugin\Search\HelpSearch::access">access</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Search/HelpSearch.php.html#170"><abbr title="Drupal\help_topics\Plugin\Search\HelpSearch::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Search/HelpSearch.php.html#177"><abbr title="Drupal\help_topics\Plugin\Search\HelpSearch::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Search/HelpSearch.php.html#196"><abbr title="Drupal\help_topics\Plugin\Search\HelpSearch::findResults">findResults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Search/HelpSearch.php.html#270"><abbr title="Drupal\help_topics\Plugin\Search\HelpSearch::prepareResults">prepareResults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Search/HelpSearch.php.html#306"><abbr title="Drupal\help_topics\Plugin\Search\HelpSearch::updateIndex">updateIndex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Search/HelpSearch.php.html#375"><abbr title="Drupal\help_topics\Plugin\Search\HelpSearch::indexClear">indexClear</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Search/HelpSearch.php.html#382"><abbr title="Drupal\help_topics\Plugin\Search\HelpSearch::updateTopicList">updateTopicList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Search/HelpSearch.php.html#438"><abbr title="Drupal\help_topics\Plugin\Search\HelpSearch::markForReindex">markForReindex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Search/HelpSearch.php.html#446"><abbr title="Drupal\help_topics\Plugin\Search\HelpSearch::indexStatus">indexStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Search/HelpSearch.php.html#474"><abbr title="Drupal\help_topics\Plugin\Search\HelpSearch::removeItemsFromIndex">removeItemsFromIndex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicTwig.php.html#79"><abbr title="Drupal\help_topics\HelpTopicTwig::getCacheTags">getCacheTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicTwig.php.html#63"><abbr title="Drupal\help_topics\HelpTopicTwig::getBody">getBody</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/HelpTopicPluginController.php.html#53"><abbr title="Drupal\help_topics\Controller\HelpTopicPluginController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicDiscovery.php.html#52"><abbr title="Drupal\help_topics\HelpTopicDiscovery::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/HelpTopicPluginController.php.html#70"><abbr title="Drupal\help_topics\Controller\HelpTopicPluginController::viewHelpTopic">viewHelpTopic</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FrontMatter.php.html#58"><abbr title="Drupal\help_topics\FrontMatter::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FrontMatter.php.html#79"><abbr title="Drupal\help_topics\FrontMatter::load">load</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FrontMatter.php.html#95"><abbr title="Drupal\help_topics\FrontMatter::parse">parse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FrontMatter.php.html#143"><abbr title="Drupal\help_topics\FrontMatter::getCode">getCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FrontMatter.php.html#156"><abbr title="Drupal\help_topics\FrontMatter::getData">getData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FrontMatter.php.html#169"><abbr title="Drupal\help_topics\FrontMatter::getLine">getLine</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpBreadcrumbBuilder.php.html#30"><abbr title="Drupal\help_topics\HelpBreadcrumbBuilder::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpBreadcrumbBuilder.php.html#37"><abbr title="Drupal\help_topics\HelpBreadcrumbBuilder::applies">applies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpBreadcrumbBuilder.php.html#44"><abbr title="Drupal\help_topics\HelpBreadcrumbBuilder::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpSectionManager.php.html#31"><abbr title="Drupal\help_topics\HelpSectionManager::setSearchManager">setSearchManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpSectionManager.php.html#38"><abbr title="Drupal\help_topics\HelpSectionManager::clearCachedDefinitions">clearCachedDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicDiscovery.php.html#59"><abbr title="Drupal\help_topics\HelpTopicDiscovery::getDefinitions">getDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicTwig.php.html#51"><abbr title="Drupal\help_topics\HelpTopicTwig::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicDiscovery.php.html#82"><abbr title="Drupal\help_topics\HelpTopicDiscovery::findAll">findAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicDiscovery.php.html#168"><abbr title="Drupal\help_topics\HelpTopicDiscovery::findFiles">findFiles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicPluginBase.php.html#22"><abbr title="Drupal\help_topics\HelpTopicPluginBase::getProvider">getProvider</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicPluginBase.php.html#29"><abbr title="Drupal\help_topics\HelpTopicPluginBase::getLabel">getLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicPluginBase.php.html#36"><abbr title="Drupal\help_topics\HelpTopicPluginBase::isTopLevel">isTopLevel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicPluginBase.php.html#43"><abbr title="Drupal\help_topics\HelpTopicPluginBase::getRelated">getRelated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicPluginBase.php.html#50"><abbr title="Drupal\help_topics\HelpTopicPluginBase::toUrl">toUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicPluginBase.php.html#57"><abbr title="Drupal\help_topics\HelpTopicPluginBase::toLink">toLink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicPluginManager.php.html#115"><abbr title="Drupal\help_topics\HelpTopicPluginManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicPluginManager.php.html#130"><abbr title="Drupal\help_topics\HelpTopicPluginManager::getDiscovery">getDiscovery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicPluginManager.php.html#158"><abbr title="Drupal\help_topics\HelpTopicPluginManager::providerExists">providerExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicPluginManager.php.html#165"><abbr title="Drupal\help_topics\HelpTopicPluginManager::findDefinitions">findDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelpTopicTwig.php.html#43"><abbr title="Drupal\help_topics\HelpTopicTwig::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Search/HelpSearch.php.html#500"><abbr title="Drupal\help_topics\Plugin\Search\HelpSearch::getSectionPlugin">getSectionPlugin</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="HelpTopicDiscovery.php.html#82"><abbr title="Drupal\help_topics\HelpTopicDiscovery::findAll">findAll</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Plugin/Search/HelpSearch.php.html#382"><abbr title="Drupal\help_topics\Plugin\Search\HelpSearch::updateTopicList">updateTopicList</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Plugin/Search/HelpSearch.php.html#306"><abbr title="Drupal\help_topics\Plugin\Search\HelpSearch::updateIndex">updateIndex</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Plugin/Search/HelpSearch.php.html#270"><abbr title="Drupal\help_topics\Plugin\Search\HelpSearch::prepareResults">prepareResults</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Plugin/HelpSection/HelpTopicSection.php.html#169"><abbr title="Drupal\help_topics\Plugin\HelpSection\HelpTopicSection::getPlugins">getPlugins</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="FrontMatter.php.html#95"><abbr title="Drupal\help_topics\FrontMatter::parse">parse</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Plugin/Search/HelpSearch.php.html#196"><abbr title="Drupal\help_topics\Plugin\Search\HelpSearch::findResults">findResults</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="HelpTopicPluginManager.php.html#165"><abbr title="Drupal\help_topics\HelpTopicPluginManager::findDefinitions">findDefinitions</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Controller/HelpTopicPluginController.php.html#70"><abbr title="Drupal\help_topics\Controller\HelpTopicPluginController::viewHelpTopic">viewHelpTopic</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="HelpTopicDiscovery.php.html#168"><abbr title="Drupal\help_topics\HelpTopicDiscovery::findFiles">findFiles</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Plugin/HelpSection/HelpTopicSection.php.html#205"><abbr title="Drupal\help_topics\Plugin\HelpSection\HelpTopicSection::renderTopicForSearch">renderTopicForSearch</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="HelpTopicTwigLoader.php.html#70"><abbr title="Drupal\help_topics\HelpTopicTwigLoader::getSourceContext">getSourceContext</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="HelpSectionManager.php.html#38"><abbr title="Drupal\help_topics\HelpSectionManager::clearCachedDefinitions">clearCachedDefinitions</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Plugin/HelpSection/HelpTopicSection.php.html#273"><abbr title="Drupal\help_topics\Plugin\HelpSection\HelpTopicSection::getCacheMetadata">getCacheMetadata</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/Search/HelpSearch.php.html#177"><abbr title="Drupal\help_topics\Plugin\Search\HelpSearch::execute">execute</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="HelpTopicDiscovery.php.html#59"><abbr title="Drupal\help_topics\HelpTopicDiscovery::getDefinitions">getDefinitions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/Search/HelpSearch.php.html#474"><abbr title="Drupal\help_topics\Plugin\Search\HelpSearch::removeItemsFromIndex">removeItemsFromIndex</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="FrontMatter.php.html#58"><abbr title="Drupal\help_topics\FrontMatter::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HelpTopicTwigLoader.php.html#59"><abbr title="Drupal\help_topics\HelpTopicTwigLoader::addExtension">addExtension</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HelpTopicPluginManager.php.html#158"><abbr title="Drupal\help_topics\HelpTopicPluginManager::providerExists">providerExists</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/Search/HelpSearch.php.html#162"><abbr title="Drupal\help_topics\Plugin\Search\HelpSearch::access">access</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HelpTopicPluginManager.php.html#130"><abbr title="Drupal\help_topics\HelpTopicPluginManager::getDiscovery">getDiscovery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HelpTopicPluginBase.php.html#57"><abbr title="Drupal\help_topics\HelpTopicPluginBase::toLink">toLink</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/Search/HelpSearch.php.html#500"><abbr title="Drupal\help_topics\Plugin\Search\HelpSearch::getSectionPlugin">getSectionPlugin</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.33-16+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Fri Jun 12 8:21:00 AEST 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([11,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([61,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,7,"<a href=\"Controller\/HelpTopicPluginController.php.html#21\">Drupal\\help_topics\\Controller\\HelpTopicPluginController<\/a>"],[0,12,"<a href=\"FrontMatter.php.html#12\">Drupal\\help_topics\\FrontMatter<\/a>"],[0,3,"<a href=\"HelpBreadcrumbBuilder.php.html#20\">Drupal\\help_topics\\HelpBreadcrumbBuilder<\/a>"],[0,5,"<a href=\"HelpSectionManager.php.html#16\">Drupal\\help_topics\\HelpSectionManager<\/a>"],[0,23,"<a href=\"HelpTopicDiscovery.php.html#25\">Drupal\\help_topics\\HelpTopicDiscovery<\/a>"],[0,7,"<a href=\"HelpTopicPluginBase.php.html#17\">Drupal\\help_topics\\HelpTopicPluginBase<\/a>"],[0,11,"<a href=\"HelpTopicPluginManager.php.html#69\">Drupal\\help_topics\\HelpTopicPluginManager<\/a>"],[0,6,"<a href=\"HelpTopicTwig.php.html#22\">Drupal\\help_topics\\HelpTopicTwig<\/a>"],[0,7,"<a href=\"HelpTopicTwigLoader.php.html#27\">Drupal\\help_topics\\HelpTopicTwigLoader<\/a>"],[0,21,"<a href=\"Plugin\/HelpSection\/HelpTopicSection.php.html#35\">Drupal\\help_topics\\Plugin\\HelpSection\\HelpTopicSection<\/a>"],[0,43,"<a href=\"Plugin\/Search\/HelpSearch.php.html#44\">Drupal\\help_topics\\Plugin\\Search\\HelpSearch<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Controller\/HelpTopicPluginController.php.html#45\">Drupal\\help_topics\\Controller\\HelpTopicPluginController::__construct<\/a>"],[0,1,"<a href=\"Controller\/HelpTopicPluginController.php.html#53\">Drupal\\help_topics\\Controller\\HelpTopicPluginController::create<\/a>"],[0,5,"<a href=\"Controller\/HelpTopicPluginController.php.html#70\">Drupal\\help_topics\\Controller\\HelpTopicPluginController::viewHelpTopic<\/a>"],[0,2,"<a href=\"FrontMatter.php.html#58\">Drupal\\help_topics\\FrontMatter::__construct<\/a>"],[0,1,"<a href=\"FrontMatter.php.html#79\">Drupal\\help_topics\\FrontMatter::load<\/a>"],[0,6,"<a href=\"FrontMatter.php.html#95\">Drupal\\help_topics\\FrontMatter::parse<\/a>"],[0,1,"<a href=\"FrontMatter.php.html#143\">Drupal\\help_topics\\FrontMatter::getCode<\/a>"],[0,1,"<a href=\"FrontMatter.php.html#156\">Drupal\\help_topics\\FrontMatter::getData<\/a>"],[0,1,"<a href=\"FrontMatter.php.html#169\">Drupal\\help_topics\\FrontMatter::getLine<\/a>"],[0,1,"<a href=\"HelpBreadcrumbBuilder.php.html#30\">Drupal\\help_topics\\HelpBreadcrumbBuilder::__construct<\/a>"],[0,1,"<a href=\"HelpBreadcrumbBuilder.php.html#37\">Drupal\\help_topics\\HelpBreadcrumbBuilder::applies<\/a>"],[0,1,"<a href=\"HelpBreadcrumbBuilder.php.html#44\">Drupal\\help_topics\\HelpBreadcrumbBuilder::build<\/a>"],[0,1,"<a href=\"HelpSectionManager.php.html#31\">Drupal\\help_topics\\HelpSectionManager::setSearchManager<\/a>"],[0,4,"<a href=\"HelpSectionManager.php.html#38\">Drupal\\help_topics\\HelpSectionManager::clearCachedDefinitions<\/a>"],[0,1,"<a href=\"HelpTopicDiscovery.php.html#52\">Drupal\\help_topics\\HelpTopicDiscovery::__construct<\/a>"],[0,3,"<a href=\"HelpTopicDiscovery.php.html#59\">Drupal\\help_topics\\HelpTopicDiscovery::getDefinitions<\/a>"],[0,14,"<a href=\"HelpTopicDiscovery.php.html#82\">Drupal\\help_topics\\HelpTopicDiscovery::findAll<\/a>"],[0,5,"<a href=\"HelpTopicDiscovery.php.html#168\">Drupal\\help_topics\\HelpTopicDiscovery::findFiles<\/a>"],[0,1,"<a href=\"HelpTopicPluginBase.php.html#22\">Drupal\\help_topics\\HelpTopicPluginBase::getProvider<\/a>"],[0,1,"<a href=\"HelpTopicPluginBase.php.html#29\">Drupal\\help_topics\\HelpTopicPluginBase::getLabel<\/a>"],[0,1,"<a href=\"HelpTopicPluginBase.php.html#36\">Drupal\\help_topics\\HelpTopicPluginBase::isTopLevel<\/a>"],[0,1,"<a href=\"HelpTopicPluginBase.php.html#43\">Drupal\\help_topics\\HelpTopicPluginBase::getRelated<\/a>"],[0,1,"<a href=\"HelpTopicPluginBase.php.html#50\">Drupal\\help_topics\\HelpTopicPluginBase::toUrl<\/a>"],[0,2,"<a href=\"HelpTopicPluginBase.php.html#57\">Drupal\\help_topics\\HelpTopicPluginBase::toLink<\/a>"],[0,1,"<a href=\"HelpTopicPluginManager.php.html#115\">Drupal\\help_topics\\HelpTopicPluginManager::__construct<\/a>"],[0,2,"<a href=\"HelpTopicPluginManager.php.html#130\">Drupal\\help_topics\\HelpTopicPluginManager::getDiscovery<\/a>"],[0,2,"<a href=\"HelpTopicPluginManager.php.html#158\">Drupal\\help_topics\\HelpTopicPluginManager::providerExists<\/a>"],[0,6,"<a href=\"HelpTopicPluginManager.php.html#165\">Drupal\\help_topics\\HelpTopicPluginManager::findDefinitions<\/a>"],[0,1,"<a href=\"HelpTopicTwig.php.html#43\">Drupal\\help_topics\\HelpTopicTwig::__construct<\/a>"],[0,1,"<a href=\"HelpTopicTwig.php.html#51\">Drupal\\help_topics\\HelpTopicTwig::create<\/a>"],[0,1,"<a href=\"HelpTopicTwig.php.html#63\">Drupal\\help_topics\\HelpTopicTwig::getBody<\/a>"],[0,1,"<a href=\"HelpTopicTwig.php.html#72\">Drupal\\help_topics\\HelpTopicTwig::getCacheContexts<\/a>"],[0,1,"<a href=\"HelpTopicTwig.php.html#79\">Drupal\\help_topics\\HelpTopicTwig::getCacheTags<\/a>"],[0,1,"<a href=\"HelpTopicTwig.php.html#86\">Drupal\\help_topics\\HelpTopicTwig::getCacheMaxAge<\/a>"],[0,1,"<a href=\"HelpTopicTwigLoader.php.html#44\">Drupal\\help_topics\\HelpTopicTwigLoader::__construct<\/a>"],[0,2,"<a href=\"HelpTopicTwigLoader.php.html#59\">Drupal\\help_topics\\HelpTopicTwigLoader::addExtension<\/a>"],[0,4,"<a href=\"HelpTopicTwigLoader.php.html#70\">Drupal\\help_topics\\HelpTopicTwigLoader::getSourceContext<\/a>"],[0,1,"<a href=\"Plugin\/HelpSection\/HelpTopicSection.php.html#107\">Drupal\\help_topics\\Plugin\\HelpSection\\HelpTopicSection::__construct<\/a>"],[0,1,"<a href=\"Plugin\/HelpSection\/HelpTopicSection.php.html#119\">Drupal\\help_topics\\Plugin\\HelpSection\\HelpTopicSection::create<\/a>"],[0,1,"<a href=\"Plugin\/HelpSection\/HelpTopicSection.php.html#135\">Drupal\\help_topics\\Plugin\\HelpSection\\HelpTopicSection::getCacheTags<\/a>"],[0,1,"<a href=\"Plugin\/HelpSection\/HelpTopicSection.php.html#142\">Drupal\\help_topics\\Plugin\\HelpSection\\HelpTopicSection::getCacheContexts<\/a>"],[0,1,"<a href=\"Plugin\/HelpSection\/HelpTopicSection.php.html#149\">Drupal\\help_topics\\Plugin\\HelpSection\\HelpTopicSection::getCacheMaxAge<\/a>"],[0,1,"<a href=\"Plugin\/HelpSection\/HelpTopicSection.php.html#156\">Drupal\\help_topics\\Plugin\\HelpSection\\HelpTopicSection::listTopics<\/a>"],[0,6,"<a href=\"Plugin\/HelpSection\/HelpTopicSection.php.html#169\">Drupal\\help_topics\\Plugin\\HelpSection\\HelpTopicSection::getPlugins<\/a>"],[0,1,"<a href=\"Plugin\/HelpSection\/HelpTopicSection.php.html#197\">Drupal\\help_topics\\Plugin\\HelpSection\\HelpTopicSection::listSearchableTopics<\/a>"],[0,5,"<a href=\"Plugin\/HelpSection\/HelpTopicSection.php.html#205\">Drupal\\help_topics\\Plugin\\HelpSection\\HelpTopicSection::renderTopicForSearch<\/a>"],[0,3,"<a href=\"Plugin\/HelpSection\/HelpTopicSection.php.html#273\">Drupal\\help_topics\\Plugin\\HelpSection\\HelpTopicSection::getCacheMetadata<\/a>"],[0,1,"<a href=\"Plugin\/Search\/HelpSearch.php.html#105\">Drupal\\help_topics\\Plugin\\Search\\HelpSearch::create<\/a>"],[0,1,"<a href=\"Plugin\/Search\/HelpSearch.php.html#147\">Drupal\\help_topics\\Plugin\\Search\\HelpSearch::__construct<\/a>"],[0,2,"<a href=\"Plugin\/Search\/HelpSearch.php.html#162\">Drupal\\help_topics\\Plugin\\Search\\HelpSearch::access<\/a>"],[0,1,"<a href=\"Plugin\/Search\/HelpSearch.php.html#170\">Drupal\\help_topics\\Plugin\\Search\\HelpSearch::getType<\/a>"],[0,3,"<a href=\"Plugin\/Search\/HelpSearch.php.html#177\">Drupal\\help_topics\\Plugin\\Search\\HelpSearch::execute<\/a>"],[0,6,"<a href=\"Plugin\/Search\/HelpSearch.php.html#196\">Drupal\\help_topics\\Plugin\\Search\\HelpSearch::findResults<\/a>"],[0,7,"<a href=\"Plugin\/Search\/HelpSearch.php.html#270\">Drupal\\help_topics\\Plugin\\Search\\HelpSearch::prepareResults<\/a>"],[0,7,"<a href=\"Plugin\/Search\/HelpSearch.php.html#306\">Drupal\\help_topics\\Plugin\\Search\\HelpSearch::updateIndex<\/a>"],[0,1,"<a href=\"Plugin\/Search\/HelpSearch.php.html#375\">Drupal\\help_topics\\Plugin\\Search\\HelpSearch::indexClear<\/a>"],[0,7,"<a href=\"Plugin\/Search\/HelpSearch.php.html#382\">Drupal\\help_topics\\Plugin\\Search\\HelpSearch::updateTopicList<\/a>"],[0,1,"<a href=\"Plugin\/Search\/HelpSearch.php.html#438\">Drupal\\help_topics\\Plugin\\Search\\HelpSearch::markForReindex<\/a>"],[0,1,"<a href=\"Plugin\/Search\/HelpSearch.php.html#446\">Drupal\\help_topics\\Plugin\\Search\\HelpSearch::indexStatus<\/a>"],[0,3,"<a href=\"Plugin\/Search\/HelpSearch.php.html#474\">Drupal\\help_topics\\Plugin\\Search\\HelpSearch::removeItemsFromIndex<\/a>"],[0,2,"<a href=\"Plugin\/Search\/HelpSearch.php.html#500\">Drupal\\help_topics\\Plugin\\Search\\HelpSearch::getSectionPlugin<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

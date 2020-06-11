@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/crafter/www/drupal-modules.devel/web/core/modules/views_ui</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/home/crafter/www/drupal-modules.devel/web</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">core</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">modules</a></li>
+         <li class="breadcrumb-item"><a href="index.html">views_ui</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Ajax/SetFormCommand.php.html#12">Drupal\views_ui\Ajax\SetFormCommand</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ViewsFormBase.php.html#26">Drupal\views_ui\Form\Ajax\ViewsFormBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewPreviewForm.php.html#13">Drupal\views_ui\ViewPreviewForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewListBuilder.php.html#20">Drupal\views_ui\ViewListBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewFormBase.php.html#13">Drupal\views_ui\ViewFormBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#26">Drupal\views_ui\ViewEditForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewDuplicateForm.php.html#12">Drupal\views_ui\ViewDuplicateForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewAddForm.php.html#16">Drupal\views_ui\ViewAddForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ProxyClass/ParamConverter/ViewUIConverter.php.html#15">Drupal\views_ui\ProxyClass\ParamConverter\ViewUIConverter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ParamConverter/ViewUIConverter.php.html#30">Drupal\views_ui\ParamConverter\ViewUIConverter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/BreakLockForm.php.html#17">Drupal\views_ui\Form\BreakLockForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/BasicSettingsForm.php.html#16">Drupal\views_ui\Form\BasicSettingsForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ReorderDisplays.php.html#14">Drupal\views_ui\Form\Ajax\ReorderDisplays</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/ViewsUIController.php.html#23">Drupal\views_ui\Controller\ViewsUIController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/RearrangeFilter.php.html#14">Drupal\views_ui\Form\Ajax\RearrangeFilter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/Rearrange.php.html#17">Drupal\views_ui\Form\Ajax\Rearrange</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/EditDetails.php.html#13">Drupal\views_ui\Form\Ajax\EditDetails</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/Display.php.html#13">Drupal\views_ui\Form\Ajax\Display</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandlerGroup.php.html#15">Drupal\views_ui\Form\Ajax\ConfigHandlerGroup</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandlerExtra.php.html#14">Drupal\views_ui\Form\Ajax\ConfigHandlerExtra</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandler.php.html#16">Drupal\views_ui\Form\Ajax\ConfigHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/Analyze.php.html#13">Drupal\views_ui\Form\Ajax\Analyze</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/AddHandler.php.html#15">Drupal\views_ui\Form\Ajax\AddHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/AdvancedSettingsForm.php.html#14">Drupal\views_ui\Form\AdvancedSettingsForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#26">Drupal\views_ui\ViewUI</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/ViewUI.php.html#26">Drupal\views_ui\ViewUI</a></td><td class="text-right">30450</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#26">Drupal\views_ui\ViewEditForm</a></td><td class="text-right">16512</td></tr>
+       <tr><td><a href="src/Form/Ajax/RearrangeFilter.php.html#14">Drupal\views_ui\Form\Ajax\RearrangeFilter</a></td><td class="text-right">1722</td></tr>
+       <tr><td><a href="src/ViewFormBase.php.html#13">Drupal\views_ui\ViewFormBase</a></td><td class="text-right">1260</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandler.php.html#16">Drupal\views_ui\Form\Ajax\ConfigHandler</a></td><td class="text-right">1122</td></tr>
+       <tr><td><a href="src/Form/Ajax/ViewsFormBase.php.html#26">Drupal\views_ui\Form\Ajax\ViewsFormBase</a></td><td class="text-right">1056</td></tr>
+       <tr><td><a href="src/Controller/ViewsUIController.php.html#23">Drupal\views_ui\Controller\ViewsUIController</a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="src/ViewListBuilder.php.html#20">Drupal\views_ui\ViewListBuilder</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="src/Form/Ajax/AddHandler.php.html#15">Drupal\views_ui\Form\Ajax\AddHandler</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="src/Form/Ajax/Rearrange.php.html#17">Drupal\views_ui\Form\Ajax\Rearrange</a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="src/Form/Ajax/ReorderDisplays.php.html#14">Drupal\views_ui\Form\Ajax\ReorderDisplays</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="src/ViewAddForm.php.html#16">Drupal\views_ui\ViewAddForm</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="src/Form/Ajax/Display.php.html#13">Drupal\views_ui\Form\Ajax\Display</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandlerExtra.php.html#14">Drupal\views_ui\Form\Ajax\ConfigHandlerExtra</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/Form/BreakLockForm.php.html#17">Drupal\views_ui\Form\BreakLockForm</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="src/ParamConverter/ViewUIConverter.php.html#30">Drupal\views_ui\ParamConverter\ViewUIConverter</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandlerGroup.php.html#15">Drupal\views_ui\Form\Ajax\ConfigHandlerGroup</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/Form/BasicSettingsForm.php.html#16">Drupal\views_ui\Form\BasicSettingsForm</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/Form/Ajax/EditDetails.php.html#13">Drupal\views_ui\Form\Ajax\EditDetails</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/Form/AdvancedSettingsForm.php.html#14">Drupal\views_ui\Form\AdvancedSettingsForm</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/ViewPreviewForm.php.html#13">Drupal\views_ui\ViewPreviewForm</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/ProxyClass/ParamConverter/ViewUIConverter.php.html#15">Drupal\views_ui\ProxyClass\ParamConverter\ViewUIConverter</a></td><td class="text-right">30</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Ajax/SetFormCommand.php.html#27"><abbr title="Drupal\views_ui\Ajax\SetFormCommand::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#512"><abbr title="Drupal\views_ui\ViewUI::endQueryCapture">endQueryCapture</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#173"><abbr title="Drupal\views_ui\ViewUI::set">set</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#185"><abbr title="Drupal\views_ui\ViewUI::setSyncing">setSyncing</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#192"><abbr title="Drupal\views_ui\ViewUI::setUninstalling">setUninstalling</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#199"><abbr title="Drupal\views_ui\ViewUI::isSyncing">isSyncing</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#206"><abbr title="Drupal\views_ui\ViewUI::isUninstalling">isUninstalling</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#217"><abbr title="Drupal\views_ui\ViewUI::standardSubmit">standardSubmit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#265"><abbr title="Drupal\views_ui\ViewUI::standardCancel">standardCancel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#282"><abbr title="Drupal\views_ui\ViewUI::getStandardButtons">getStandardButtons</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#352"><abbr title="Drupal\views_ui\ViewUI::getOverrideValues">getOverrideValues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#382"><abbr title="Drupal\views_ui\ViewUI::addFormToStack">addFormToStack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#428"><abbr title="Drupal\views_ui\ViewUI::submitItemAdd">submitItemAdd</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#503"><abbr title="Drupal\views_ui\ViewUI::startQueryCapture">startQueryCapture</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#518"><abbr title="Drupal\views_ui\ViewUI::renderPreview">renderPreview</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#155"><abbr title="Drupal\views_ui\ViewUI::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#842"><abbr title="Drupal\views_ui\ViewUI::getFormProgress">getFormProgress</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#864"><abbr title="Drupal\views_ui\ViewUI::cacheSet">cacheSet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#894"><abbr title="Drupal\views_ui\ViewUI::isLocked">isLocked</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#902"><abbr title="Drupal\views_ui\ViewUI::__call">__call</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#909"><abbr title="Drupal\views_ui\ViewUI::getDisplay">getDisplay</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#916"><abbr title="Drupal\views_ui\ViewUI::id">id</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#923"><abbr title="Drupal\views_ui\ViewUI::uuid">uuid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#930"><abbr title="Drupal\views_ui\ViewUI::isNew">isNew</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#937"><abbr title="Drupal\views_ui\ViewUI::getEntityTypeId">getEntityTypeId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#944"><abbr title="Drupal\views_ui\ViewUI::bundle">bundle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#951"><abbr title="Drupal\views_ui\ViewUI::getEntityType">getEntityType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#958"><abbr title="Drupal\views_ui\ViewUI::createDuplicate">createDuplicate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#166"><abbr title="Drupal\views_ui\ViewUI::setStatus">setStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#147"><abbr title="Drupal\views_ui\ViewUI::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#972"><abbr title="Drupal\views_ui\ViewUI::loadMultiple">loadMultiple</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewFormBase.php.html#47"><abbr title="Drupal\views_ui\ViewFormBase::prepareEntity">prepareEntity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#640"><abbr title="Drupal\views_ui\ViewEditForm::submitDisplayDisable">submitDisplayDisable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#658"><abbr title="Drupal\views_ui\ViewEditForm::submitDisplayDelete">submitDisplayDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#683"><abbr title="Drupal\views_ui\ViewEditForm::rebuildCurrentTab">rebuildCurrentTab</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#701"><abbr title="Drupal\views_ui\ViewEditForm::renderDisplayTop">renderDisplayTop</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#812"><abbr title="Drupal\views_ui\ViewEditForm::submitDelayDestination">submitDelayDestination</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#841"><abbr title="Drupal\views_ui\ViewEditForm::submitDisplayDuplicate">submitDisplayDuplicate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#868"><abbr title="Drupal\views_ui\ViewEditForm::submitDisplayAdd">submitDisplayAdd</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#890"><abbr title="Drupal\views_ui\ViewEditForm::submitDuplicateDisplayAsType">submitDuplicateDisplayAsType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#919"><abbr title="Drupal\views_ui\ViewEditForm::buildOptionForm">buildOptionForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#953"><abbr title="Drupal\views_ui\ViewEditForm::getFormBucket">getFormBucket</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewFormBase.php.html#25"><abbr title="Drupal\views_ui\ViewFormBase::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewFormBase.php.html#36"><abbr title="Drupal\views_ui\ViewFormBase::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewFormBase.php.html#87"><abbr title="Drupal\views_ui\ViewFormBase::getDisplayTabs">getDisplayTabs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewPreviewForm.php.html#103"><abbr title="Drupal\views_ui\ViewPreviewForm::submitPreview">submitPreview</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewFormBase.php.html#142"><abbr title="Drupal\views_ui\ViewFormBase::isDefaultDisplayShown">isDefaultDisplayShown</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewFormBase.php.html#157"><abbr title="Drupal\views_ui\ViewFormBase::getDisplayLabel">getDisplayLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewListBuilder.php.html#37"><abbr title="Drupal\views_ui\ViewListBuilder::createInstance">createInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewListBuilder.php.html#55"><abbr title="Drupal\views_ui\ViewListBuilder::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewListBuilder.php.html#69"><abbr title="Drupal\views_ui\ViewListBuilder::load">load</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewListBuilder.php.html#88"><abbr title="Drupal\views_ui\ViewListBuilder::buildRow">buildRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewListBuilder.php.html#124"><abbr title="Drupal\views_ui\ViewListBuilder::buildHeader">buildHeader</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewListBuilder.php.html#162"><abbr title="Drupal\views_ui\ViewListBuilder::getDefaultOperations">getDefaultOperations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewListBuilder.php.html#196"><abbr title="Drupal\views_ui\ViewListBuilder::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewListBuilder.php.html#254"><abbr title="Drupal\views_ui\ViewListBuilder::getDisplaysList">getDisplaysList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewPreviewForm.php.html#18"><abbr title="Drupal\views_ui\ViewPreviewForm::form">form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewPreviewForm.php.html#75"><abbr title="Drupal\views_ui\ViewPreviewForm::actions">actions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#965"><abbr title="Drupal\views_ui\ViewUI::load">load</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#979"><abbr title="Drupal\views_ui\ViewUI::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#600"><abbr title="Drupal\views_ui\ViewEditForm::submitDisplayUndoDelete">submitDisplayUndoDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1291"><abbr title="Drupal\views_ui\ViewUI::getThirdPartySettings">getThirdPartySettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1207"><abbr title="Drupal\views_ui\ViewUI::getConfigDependencyName">getConfigDependencyName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1214"><abbr title="Drupal\views_ui\ViewUI::getConfigTarget">getConfigTarget</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1221"><abbr title="Drupal\views_ui\ViewUI::onDependencyRemoval">onDependencyRemoval</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1228"><abbr title="Drupal\views_ui\ViewUI::getDependencies">getDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1235"><abbr title="Drupal\views_ui\ViewUI::getCacheContexts">getCacheContexts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1242"><abbr title="Drupal\views_ui\ViewUI::getCacheTags">getCacheTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1249"><abbr title="Drupal\views_ui\ViewUI::getCacheMaxAge">getCacheMaxAge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1256"><abbr title="Drupal\views_ui\ViewUI::getTypedData">getTypedData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1263"><abbr title="Drupal\views_ui\ViewUI::addDisplay">addDisplay</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1270"><abbr title="Drupal\views_ui\ViewUI::isInstallable">isInstallable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1277"><abbr title="Drupal\views_ui\ViewUI::setThirdPartySetting">setThirdPartySetting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1284"><abbr title="Drupal\views_ui\ViewUI::getThirdPartySetting">getThirdPartySetting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1298"><abbr title="Drupal\views_ui\ViewUI::unsetThirdPartySetting">unsetThirdPartySetting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1192"><abbr title="Drupal\views_ui\ViewUI::calculateDependencies">calculateDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1305"><abbr title="Drupal\views_ui\ViewUI::getThirdPartyProviders">getThirdPartyProviders</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1312"><abbr title="Drupal\views_ui\ViewUI::trustData">trustData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1319"><abbr title="Drupal\views_ui\ViewUI::hasTrustedData">hasTrustedData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1326"><abbr title="Drupal\views_ui\ViewUI::addCacheableDependency">addCacheableDependency</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1334"><abbr title="Drupal\views_ui\ViewUI::addCacheContexts">addCacheContexts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1341"><abbr title="Drupal\views_ui\ViewUI::mergeCacheMaxAge">mergeCacheMaxAge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1348"><abbr title="Drupal\views_ui\ViewUI::getCacheTagsToInvalidate">getCacheTagsToInvalidate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1355"><abbr title="Drupal\views_ui\ViewUI::addCacheTags">addCacheTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1365"><abbr title="Drupal\views_ui\ViewUI::getLock">getLock</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1377"><abbr title="Drupal\views_ui\ViewUI::setLock">setLock</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1387"><abbr title="Drupal\views_ui\ViewUI::unsetLock">unsetLock</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1395"><abbr title="Drupal\views_ui\ViewUI::__set">__set</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1200"><abbr title="Drupal\views_ui\ViewUI::getConfigDependencyKey">getConfigDependencyKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1185"><abbr title="Drupal\views_ui\ViewUI::hasLinkTemplate">hasLinkTemplate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#986"><abbr title="Drupal\views_ui\ViewUI::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1077"><abbr title="Drupal\views_ui\ViewUI::status">status</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#993"><abbr title="Drupal\views_ui\ViewUI::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1000"><abbr title="Drupal\views_ui\ViewUI::urlInfo">urlInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1007"><abbr title="Drupal\views_ui\ViewUI::toUrl">toUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1014"><abbr title="Drupal\views_ui\ViewUI::link">link</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1021"><abbr title="Drupal\views_ui\ViewUI::toLink">toLink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1028"><abbr title="Drupal\views_ui\ViewUI::label">label</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1035"><abbr title="Drupal\views_ui\ViewUI::enforceIsNew">enforceIsNew</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1042"><abbr title="Drupal\views_ui\ViewUI::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1049"><abbr title="Drupal\views_ui\ViewUI::language">language</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1056"><abbr title="Drupal\views_ui\ViewUI::access">access</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1063"><abbr title="Drupal\views_ui\ViewUI::enable">enable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1070"><abbr title="Drupal\views_ui\ViewUI::disable">disable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1084"><abbr title="Drupal\views_ui\ViewUI::getOriginalId">getOriginalId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1178"><abbr title="Drupal\views_ui\ViewUI::url">url</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1091"><abbr title="Drupal\views_ui\ViewUI::setOriginalId">setOriginalId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1098"><abbr title="Drupal\views_ui\ViewUI::preSave">preSave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1105"><abbr title="Drupal\views_ui\ViewUI::postSave">postSave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1112"><abbr title="Drupal\views_ui\ViewUI::preCreate">preCreate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1118"><abbr title="Drupal\views_ui\ViewUI::postCreate">postCreate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1125"><abbr title="Drupal\views_ui\ViewUI::preDelete">preDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1131"><abbr title="Drupal\views_ui\ViewUI::postDelete">postDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1137"><abbr title="Drupal\views_ui\ViewUI::postLoad">postLoad</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1143"><abbr title="Drupal\views_ui\ViewUI::getExecutable">getExecutable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1150"><abbr title="Drupal\views_ui\ViewUI::duplicateDisplayAsType">duplicateDisplayAsType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1157"><abbr title="Drupal\views_ui\ViewUI::mergeDefaultDisplaysOptions">mergeDefaultDisplaysOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1164"><abbr title="Drupal\views_ui\ViewUI::uriRelationships">uriRelationships</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1171"><abbr title="Drupal\views_ui\ViewUI::referencedEntities">referencedEntities</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#621"><abbr title="Drupal\views_ui\ViewEditForm::submitDisplayEnable">submitDisplayEnable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#385"><abbr title="Drupal\views_ui\ViewEditForm::getDisplayDetails">getDisplayDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Ajax/SetFormCommand.php.html#34"><abbr title="Drupal\views_ui\Ajax\SetFormCommand::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/Display.php.html#25"><abbr title="Drupal\views_ui\Form\Ajax\Display::getFormKey">getFormKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandlerExtra.php.html#34"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandlerExtra::getForm">getForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandlerExtra.php.html#43"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandlerExtra::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandlerExtra.php.html#50"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandlerExtra::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandlerExtra.php.html#96"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandlerExtra::validateForm">validateForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandlerExtra.php.html#103"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandlerExtra::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandlerGroup.php.html#20"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandlerGroup::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandlerGroup.php.html#28"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandlerGroup::getFormKey">getFormKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandlerGroup.php.html#35"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandlerGroup::getForm">getForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandlerGroup.php.html#44"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandlerGroup::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandlerGroup.php.html#51"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandlerGroup::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandlerGroup.php.html#97"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandlerGroup::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/Display.php.html#18"><abbr title="Drupal\views_ui\Form\Ajax\Display::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/Display.php.html#35"><abbr title="Drupal\views_ui\Form\Ajax\Display::getFormState">getFormState</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandlerExtra.php.html#19"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandlerExtra::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/Display.php.html#44"><abbr title="Drupal\views_ui\Form\Ajax\Display::getForm">getForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/Display.php.html#52"><abbr title="Drupal\views_ui\Form\Ajax\Display::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/Display.php.html#59"><abbr title="Drupal\views_ui\Form\Ajax\Display::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/Display.php.html#95"><abbr title="Drupal\views_ui\Form\Ajax\Display::validateForm">validateForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/Display.php.html#108"><abbr title="Drupal\views_ui\Form\Ajax\Display::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/EditDetails.php.html#18"><abbr title="Drupal\views_ui\Form\Ajax\EditDetails::getFormKey">getFormKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/EditDetails.php.html#25"><abbr title="Drupal\views_ui\Form\Ajax\EditDetails::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/EditDetails.php.html#32"><abbr title="Drupal\views_ui\Form\Ajax\EditDetails::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/EditDetails.php.html#73"><abbr title="Drupal\views_ui\Form\Ajax\EditDetails::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/Rearrange.php.html#22"><abbr title="Drupal\views_ui\Form\Ajax\Rearrange::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/Rearrange.php.html#29"><abbr title="Drupal\views_ui\Form\Ajax\Rearrange::getFormKey">getFormKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/Rearrange.php.html#36"><abbr title="Drupal\views_ui\Form\Ajax\Rearrange::getForm">getForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandlerExtra.php.html#27"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandlerExtra::getFormKey">getFormKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandler.php.html#263"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandler::remove">remove</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/Rearrange.php.html#51"><abbr title="Drupal\views_ui\Form\Ajax\Rearrange::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/AddHandler.php.html#20"><abbr title="Drupal\views_ui\Form\Ajax\AddHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/ViewsUIController.php.html#38"><abbr title="Drupal\views_ui\Controller\ViewsUIController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/ViewsUIController.php.html#45"><abbr title="Drupal\views_ui\Controller\ViewsUIController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/ViewsUIController.php.html#57"><abbr title="Drupal\views_ui\Controller\ViewsUIController::reportFields">reportFields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/ViewsUIController.php.html#118"><abbr title="Drupal\views_ui\Controller\ViewsUIController::reportPlugins">reportPlugins</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/ViewsUIController.php.html#158"><abbr title="Drupal\views_ui\Controller\ViewsUIController::ajaxOperation">ajaxOperation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/ViewsUIController.php.html#183"><abbr title="Drupal\views_ui\Controller\ViewsUIController::autocompleteTag">autocompleteTag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/ViewsUIController.php.html#218"><abbr title="Drupal\views_ui\Controller\ViewsUIController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/AdvancedSettingsForm.php.html#19"><abbr title="Drupal\views_ui\Form\AdvancedSettingsForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/AdvancedSettingsForm.php.html#26"><abbr title="Drupal\views_ui\Form\AdvancedSettingsForm::getEditableConfigNames">getEditableConfigNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/AdvancedSettingsForm.php.html#33"><abbr title="Drupal\views_ui\Form\AdvancedSettingsForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/AdvancedSettingsForm.php.html#91"><abbr title="Drupal\views_ui\Form\AdvancedSettingsForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/AdvancedSettingsForm.php.html#104"><abbr title="Drupal\views_ui\Form\AdvancedSettingsForm::cacheSubmit">cacheSubmit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/AddHandler.php.html#27"><abbr title="Drupal\views_ui\Form\Ajax\AddHandler::getFormKey">getFormKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandler.php.html#205"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandler::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/AddHandler.php.html#34"><abbr title="Drupal\views_ui\Form\Ajax\AddHandler::getForm">getForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/AddHandler.php.html#42"><abbr title="Drupal\views_ui\Form\Ajax\AddHandler::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/AddHandler.php.html#49"><abbr title="Drupal\views_ui\Form\Ajax\AddHandler::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/Analyze.php.html#18"><abbr title="Drupal\views_ui\Form\Ajax\Analyze::getFormKey">getFormKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/Analyze.php.html#25"><abbr title="Drupal\views_ui\Form\Ajax\Analyze::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/Analyze.php.html#32"><abbr title="Drupal\views_ui\Form\Ajax\Analyze::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/Analyze.php.html#56"><abbr title="Drupal\views_ui\Form\Ajax\Analyze::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandler.php.html#21"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandler.php.html#29"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandler::getFormKey">getFormKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandler.php.html#36"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandler::getForm">getForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandler.php.html#45"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandler::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandler.php.html#52"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandler::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandler.php.html#194"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandler::validateForm">validateForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/Rearrange.php.html#44"><abbr title="Drupal\views_ui\Form\Ajax\Rearrange::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/Rearrange.php.html#151"><abbr title="Drupal\views_ui\Form\Ajax\Rearrange::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#349"><abbr title="Drupal\views_ui\ViewEditForm::getDisplayTab">getDisplayTab</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewAddForm.php.html#162"><abbr title="Drupal\views_ui\ViewAddForm::validateForm">validateForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ParamConverter/ViewUIConverter.php.html#53"><abbr title="Drupal\views_ui\ParamConverter\ViewUIConverter::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ParamConverter/ViewUIConverter.php.html#72"><abbr title="Drupal\views_ui\ParamConverter\ViewUIConverter::convert">convert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ParamConverter/ViewUIConverter.php.html#101"><abbr title="Drupal\views_ui\ParamConverter\ViewUIConverter::applies">applies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ProxyClass/ParamConverter/ViewUIConverter.php.html#49"><abbr title="Drupal\views_ui\ProxyClass\ParamConverter\ViewUIConverter::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ProxyClass/ParamConverter/ViewUIConverter.php.html#61"><abbr title="Drupal\views_ui\ProxyClass\ParamConverter\ViewUIConverter::lazyLoadItself">lazyLoadItself</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ProxyClass/ParamConverter/ViewUIConverter.php.html#73"><abbr title="Drupal\views_ui\ProxyClass\ParamConverter\ViewUIConverter::convert">convert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ProxyClass/ParamConverter/ViewUIConverter.php.html#81"><abbr title="Drupal\views_ui\ProxyClass\ParamConverter\ViewUIConverter::applies">applies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewAddForm.php.html#31"><abbr title="Drupal\views_ui\ViewAddForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewAddForm.php.html#38"><abbr title="Drupal\views_ui\ViewAddForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewAddForm.php.html#47"><abbr title="Drupal\views_ui\ViewAddForm::prepareEntity">prepareEntity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewAddForm.php.html#54"><abbr title="Drupal\views_ui\ViewAddForm::form">form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewAddForm.php.html#145"><abbr title="Drupal\views_ui\ViewAddForm::actions">actions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewAddForm.php.html#186"><abbr title="Drupal\views_ui\ViewAddForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/BreakLockForm.php.html#108"><abbr title="Drupal\views_ui\Form\BreakLockForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewAddForm.php.html#211"><abbr title="Drupal\views_ui\ViewAddForm::cancel">cancel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewDuplicateForm.php.html#17"><abbr title="Drupal\views_ui\ViewDuplicateForm::prepareEntity">prepareEntity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewDuplicateForm.php.html#24"><abbr title="Drupal\views_ui\ViewDuplicateForm::form">form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewDuplicateForm.php.html#54"><abbr title="Drupal\views_ui\ViewDuplicateForm::actions">actions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewDuplicateForm.php.html#70"><abbr title="Drupal\views_ui\ViewDuplicateForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#68"><abbr title="Drupal\views_ui\ViewEditForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#78"><abbr title="Drupal\views_ui\ViewEditForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#90"><abbr title="Drupal\views_ui\ViewEditForm::form">form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#214"><abbr title="Drupal\views_ui\ViewEditForm::actions">actions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#234"><abbr title="Drupal\views_ui\ViewEditForm::validateForm">validateForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#251"><abbr title="Drupal\views_ui\ViewEditForm::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#339"><abbr title="Drupal\views_ui\ViewEditForm::cancel">cancel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/BreakLockForm.php.html#119"><abbr title="Drupal\views_ui\Form\BreakLockForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/BreakLockForm.php.html#101"><abbr title="Drupal\views_ui\Form\BreakLockForm::getConfirmText">getConfirmText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/RearrangeFilter.php.html#19"><abbr title="Drupal\views_ui\Form\Ajax\RearrangeFilter::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ViewsFormBase.php.html#87"><abbr title="Drupal\views_ui\Form\Ajax\ViewsFormBase::getForm">getForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/RearrangeFilter.php.html#26"><abbr title="Drupal\views_ui\Form\Ajax\RearrangeFilter::getFormKey">getFormKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/RearrangeFilter.php.html#33"><abbr title="Drupal\views_ui\Form\Ajax\RearrangeFilter::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/RearrangeFilter.php.html#40"><abbr title="Drupal\views_ui\Form\Ajax\RearrangeFilter::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/RearrangeFilter.php.html#228"><abbr title="Drupal\views_ui\Form\Ajax\RearrangeFilter::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/RearrangeFilter.php.html#344"><abbr title="Drupal\views_ui\Form\Ajax\RearrangeFilter::arrayKeyPlus">arrayKeyPlus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ReorderDisplays.php.html#19"><abbr title="Drupal\views_ui\Form\Ajax\ReorderDisplays::getFormKey">getFormKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ReorderDisplays.php.html#26"><abbr title="Drupal\views_ui\Form\Ajax\ReorderDisplays::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ReorderDisplays.php.html#33"><abbr title="Drupal\views_ui\Form\Ajax\ReorderDisplays::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ReorderDisplays.php.html#151"><abbr title="Drupal\views_ui\Form\Ajax\ReorderDisplays::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ViewsFormBase.php.html#48"><abbr title="Drupal\views_ui\Form\Ajax\ViewsFormBase::setID">setID</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ViewsFormBase.php.html#60"><abbr title="Drupal\views_ui\Form\Ajax\ViewsFormBase::setType">setType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ViewsFormBase.php.html#69"><abbr title="Drupal\views_ui\Form\Ajax\ViewsFormBase::getFormState">getFormState</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ViewsFormBase.php.html#196"><abbr title="Drupal\views_ui\Form\Ajax\ViewsFormBase::ajaxFormWrapper">ajaxFormWrapper</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/BreakLockForm.php.html#94"><abbr title="Drupal\views_ui\Form\BreakLockForm::getCancelUrl">getCancelUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ViewsFormBase.php.html#272"><abbr title="Drupal\views_ui\Form\Ajax\ViewsFormBase::validateForm">validateForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/Ajax/ViewsFormBase.php.html#278"><abbr title="Drupal\views_ui\Form\Ajax\ViewsFormBase::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/BasicSettingsForm.php.html#33"><abbr title="Drupal\views_ui\Form\BasicSettingsForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/BasicSettingsForm.php.html#42"><abbr title="Drupal\views_ui\Form\BasicSettingsForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/BasicSettingsForm.php.html#52"><abbr title="Drupal\views_ui\Form\BasicSettingsForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/BasicSettingsForm.php.html#59"><abbr title="Drupal\views_ui\Form\BasicSettingsForm::getEditableConfigNames">getEditableConfigNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/BasicSettingsForm.php.html#66"><abbr title="Drupal\views_ui\Form\BasicSettingsForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/BasicSettingsForm.php.html#174"><abbr title="Drupal\views_ui\Form\BasicSettingsForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/BreakLockForm.php.html#49"><abbr title="Drupal\views_ui\Form\BreakLockForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/BreakLockForm.php.html#57"><abbr title="Drupal\views_ui\Form\BreakLockForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/BreakLockForm.php.html#67"><abbr title="Drupal\views_ui\Form\BreakLockForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/BreakLockForm.php.html#74"><abbr title="Drupal\views_ui\Form\BreakLockForm::getQuestion">getQuestion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/BreakLockForm.php.html#81"><abbr title="Drupal\views_ui\Form\BreakLockForm::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1411"><abbr title="Drupal\views_ui\ViewUI::__get">__get</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/ViewEditForm.php.html#953"><abbr title="Drupal\views_ui\ViewEditForm::getFormBucket">getFormBucket</abbr></a></td><td class="text-right">1482</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#518"><abbr title="Drupal\views_ui\ViewUI::renderPreview">renderPreview</abbr></a></td><td class="text-right">992</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#385"><abbr title="Drupal\views_ui\ViewEditForm::getDisplayDetails">getDisplayDetails</abbr></a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="src/Form/Ajax/RearrangeFilter.php.html#40"><abbr title="Drupal\views_ui\Form\Ajax\RearrangeFilter::buildForm">buildForm</abbr></a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandler.php.html#52"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandler::buildForm">buildForm</abbr></a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="src/Form/Ajax/RearrangeFilter.php.html#228"><abbr title="Drupal\views_ui\Form\Ajax\RearrangeFilter::submitForm">submitForm</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#251"><abbr title="Drupal\views_ui\ViewEditForm::save">save</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="src/Form/Ajax/AddHandler.php.html#49"><abbr title="Drupal\views_ui\Form\Ajax\AddHandler::buildForm">buildForm</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#428"><abbr title="Drupal\views_ui\ViewUI::submitItemAdd">submitItemAdd</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="src/Controller/ViewsUIController.php.html#57"><abbr title="Drupal\views_ui\Controller\ViewsUIController::reportFields">reportFields</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/ViewFormBase.php.html#47"><abbr title="Drupal\views_ui\ViewFormBase::prepareEntity">prepareEntity</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#90"><abbr title="Drupal\views_ui\ViewEditForm::form">form</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/Form/Ajax/ViewsFormBase.php.html#196"><abbr title="Drupal\views_ui\Form\Ajax\ViewsFormBase::ajaxFormWrapper">ajaxFormWrapper</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/Form/Ajax/ViewsFormBase.php.html#87"><abbr title="Drupal\views_ui\Form\Ajax\ViewsFormBase::getForm">getForm</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/ViewFormBase.php.html#87"><abbr title="Drupal\views_ui\ViewFormBase::getDisplayTabs">getDisplayTabs</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#282"><abbr title="Drupal\views_ui\ViewUI::getStandardButtons">getStandardButtons</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="src/Form/Ajax/ReorderDisplays.php.html#151"><abbr title="Drupal\views_ui\Form\Ajax\ReorderDisplays::submitForm">submitForm</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/Form/Ajax/Rearrange.php.html#51"><abbr title="Drupal\views_ui\Form\Ajax\Rearrange::buildForm">buildForm</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#701"><abbr title="Drupal\views_ui\ViewEditForm::renderDisplayTop">renderDisplayTop</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#919"><abbr title="Drupal\views_ui\ViewEditForm::buildOptionForm">buildOptionForm</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#217"><abbr title="Drupal\views_ui\ViewUI::standardSubmit">standardSubmit</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/ViewListBuilder.php.html#254"><abbr title="Drupal\views_ui\ViewListBuilder::getDisplaysList">getDisplaysList</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandler.php.html#205"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandler::submitForm">submitForm</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#382"><abbr title="Drupal\views_ui\ViewUI::addFormToStack">addFormToStack</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/Form/Ajax/Rearrange.php.html#151"><abbr title="Drupal\views_ui\Form\Ajax\Rearrange::submitForm">submitForm</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Form/Ajax/ReorderDisplays.php.html#33"><abbr title="Drupal\views_ui\Form\Ajax\ReorderDisplays::buildForm">buildForm</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Controller/ViewsUIController.php.html#183"><abbr title="Drupal\views_ui\Controller\ViewsUIController::autocompleteTag">autocompleteTag</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#812"><abbr title="Drupal\views_ui\ViewEditForm::submitDelayDestination">submitDelayDestination</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/ViewListBuilder.php.html#162"><abbr title="Drupal\views_ui\ViewListBuilder::getDefaultOperations">getDefaultOperations</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1395"><abbr title="Drupal\views_ui\ViewUI::__set">__set</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/ViewFormBase.php.html#36"><abbr title="Drupal\views_ui\ViewFormBase::buildForm">buildForm</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/ViewAddForm.php.html#162"><abbr title="Drupal\views_ui\ViewAddForm::validateForm">validateForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/ViewPreviewForm.php.html#18"><abbr title="Drupal\views_ui\ViewPreviewForm::form">form</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/ViewFormBase.php.html#157"><abbr title="Drupal\views_ui\ViewFormBase::getDisplayLabel">getDisplayLabel</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/ParamConverter/ViewUIConverter.php.html#72"><abbr title="Drupal\views_ui\ParamConverter\ViewUIConverter::convert">convert</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#352"><abbr title="Drupal\views_ui\ViewUI::getOverrideValues">getOverrideValues</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandlerExtra.php.html#50"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandlerExtra::buildForm">buildForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandlerGroup.php.html#51"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandlerGroup::buildForm">buildForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Form/Ajax/EditDetails.php.html#73"><abbr title="Drupal\views_ui\Form\Ajax\EditDetails::submitForm">submitForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#234"><abbr title="Drupal\views_ui\ViewEditForm::validateForm">validateForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/ViewListBuilder.php.html#196"><abbr title="Drupal\views_ui\ViewListBuilder::render">render</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Form/Ajax/Display.php.html#59"><abbr title="Drupal\views_ui\Form\Ajax\Display::buildForm">buildForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#864"><abbr title="Drupal\views_ui\ViewUI::cacheSet">cacheSet</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#842"><abbr title="Drupal\views_ui\ViewUI::getFormProgress">getFormProgress</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Controller/ViewsUIController.php.html#118"><abbr title="Drupal\views_ui\Controller\ViewsUIController::reportPlugins">reportPlugins</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/ViewAddForm.php.html#54"><abbr title="Drupal\views_ui\ViewAddForm::form">form</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/ParamConverter/ViewUIConverter.php.html#101"><abbr title="Drupal\views_ui\ParamConverter\ViewUIConverter::applies">applies</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/ParamConverter/ViewUIConverter.php.html#53"><abbr title="Drupal\views_ui\ParamConverter\ViewUIConverter::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Form/BasicSettingsForm.php.html#66"><abbr title="Drupal\views_ui\Form\BasicSettingsForm::buildForm">buildForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/ViewListBuilder.php.html#69"><abbr title="Drupal\views_ui\ViewListBuilder::load">load</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#265"><abbr title="Drupal\views_ui\ViewUI::standardCancel">standardCancel</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#155"><abbr title="Drupal\views_ui\ViewUI::get">get</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#894"><abbr title="Drupal\views_ui\ViewUI::isLocked">isLocked</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#173"><abbr title="Drupal\views_ui\ViewUI::set">set</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/ViewAddForm.php.html#186"><abbr title="Drupal\views_ui\ViewAddForm::submitForm">submitForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/ViewListBuilder.php.html#88"><abbr title="Drupal\views_ui\ViewListBuilder::buildRow">buildRow</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Form/Ajax/RearrangeFilter.php.html#344"><abbr title="Drupal\views_ui\Form\Ajax\RearrangeFilter::arrayKeyPlus">arrayKeyPlus</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Controller/ViewsUIController.php.html#158"><abbr title="Drupal\views_ui\Controller\ViewsUIController::ajaxOperation">ajaxOperation</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Controller/ViewsUIController.php.html#218"><abbr title="Drupal\views_ui\Controller\ViewsUIController::edit">edit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Form/AdvancedSettingsForm.php.html#33"><abbr title="Drupal\views_ui\Form\AdvancedSettingsForm::buildForm">buildForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandler.php.html#194"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandler::validateForm">validateForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandler.php.html#263"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandler::remove">remove</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Form/Ajax/ConfigHandlerExtra.php.html#103"><abbr title="Drupal\views_ui\Form\Ajax\ConfigHandlerExtra::submitForm">submitForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Form/Ajax/Display.php.html#95"><abbr title="Drupal\views_ui\Form\Ajax\Display::validateForm">validateForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Form/Ajax/ViewsFormBase.php.html#48"><abbr title="Drupal\views_ui\Form\Ajax\ViewsFormBase::setID">setID</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/ViewFormBase.php.html#142"><abbr title="Drupal\views_ui\ViewFormBase::isDefaultDisplayShown">isDefaultDisplayShown</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Form/Ajax/ViewsFormBase.php.html#60"><abbr title="Drupal\views_ui\Form\Ajax\ViewsFormBase::setType">setType</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Form/Ajax/ViewsFormBase.php.html#69"><abbr title="Drupal\views_ui\Form\Ajax\ViewsFormBase::getFormState">getFormState</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Form/BreakLockForm.php.html#108"><abbr title="Drupal\views_ui\Form\BreakLockForm::buildForm">buildForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/ProxyClass/ParamConverter/ViewUIConverter.php.html#61"><abbr title="Drupal\views_ui\ProxyClass\ParamConverter\ViewUIConverter::lazyLoadItself">lazyLoadItself</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#214"><abbr title="Drupal\views_ui\ViewEditForm::actions">actions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#349"><abbr title="Drupal\views_ui\ViewEditForm::getDisplayTab">getDisplayTab</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/ViewEditForm.php.html#683"><abbr title="Drupal\views_ui\ViewEditForm::rebuildCurrentTab">rebuildCurrentTab</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/ViewUI.php.html#1411"><abbr title="Drupal\views_ui\ViewUI::__get">__get</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.33-16+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Fri Jun 12 8:21:00 AEST 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([25,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([242,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,2,"<a href=\"src\/Ajax\/SetFormCommand.php.html#12\">Drupal\\views_ui\\Ajax\\SetFormCommand<\/a>"],[0,27,"<a href=\"src\/Controller\/ViewsUIController.php.html#23\">Drupal\\views_ui\\Controller\\ViewsUIController<\/a>"],[0,6,"<a href=\"src\/Form\/AdvancedSettingsForm.php.html#14\">Drupal\\views_ui\\Form\\AdvancedSettingsForm<\/a>"],[0,19,"<a href=\"src\/Form\/Ajax\/AddHandler.php.html#15\">Drupal\\views_ui\\Form\\Ajax\\AddHandler<\/a>"],[0,4,"<a href=\"src\/Form\/Ajax\/Analyze.php.html#13\">Drupal\\views_ui\\Form\\Ajax\\Analyze<\/a>"],[0,33,"<a href=\"src\/Form\/Ajax\/ConfigHandler.php.html#16\">Drupal\\views_ui\\Form\\Ajax\\ConfigHandler<\/a>"],[0,11,"<a href=\"src\/Form\/Ajax\/ConfigHandlerExtra.php.html#14\">Drupal\\views_ui\\Form\\Ajax\\ConfigHandlerExtra<\/a>"],[0,9,"<a href=\"src\/Form\/Ajax\/ConfigHandlerGroup.php.html#15\">Drupal\\views_ui\\Form\\Ajax\\ConfigHandlerGroup<\/a>"],[0,11,"<a href=\"src\/Form\/Ajax\/Display.php.html#13\">Drupal\\views_ui\\Form\\Ajax\\Display<\/a>"],[0,7,"<a href=\"src\/Form\/Ajax\/EditDetails.php.html#13\">Drupal\\views_ui\\Form\\Ajax\\EditDetails<\/a>"],[0,18,"<a href=\"src\/Form\/Ajax\/Rearrange.php.html#17\">Drupal\\views_ui\\Form\\Ajax\\Rearrange<\/a>"],[0,41,"<a href=\"src\/Form\/Ajax\/RearrangeFilter.php.html#14\">Drupal\\views_ui\\Form\\Ajax\\RearrangeFilter<\/a>"],[0,17,"<a href=\"src\/Form\/Ajax\/ReorderDisplays.php.html#14\">Drupal\\views_ui\\Form\\Ajax\\ReorderDisplays<\/a>"],[0,32,"<a href=\"src\/Form\/Ajax\/ViewsFormBase.php.html#26\">Drupal\\views_ui\\Form\\Ajax\\ViewsFormBase<\/a>"],[0,8,"<a href=\"src\/Form\/BasicSettingsForm.php.html#16\">Drupal\\views_ui\\Form\\BasicSettingsForm<\/a>"],[0,10,"<a href=\"src\/Form\/BreakLockForm.php.html#17\">Drupal\\views_ui\\Form\\BreakLockForm<\/a>"],[0,10,"<a href=\"src\/ParamConverter\/ViewUIConverter.php.html#30\">Drupal\\views_ui\\ParamConverter\\ViewUIConverter<\/a>"],[0,5,"<a href=\"src\/ProxyClass\/ParamConverter\/ViewUIConverter.php.html#15\">Drupal\\views_ui\\ProxyClass\\ParamConverter\\ViewUIConverter<\/a>"],[0,14,"<a href=\"src\/ViewAddForm.php.html#16\">Drupal\\views_ui\\ViewAddForm<\/a>"],[0,4,"<a href=\"src\/ViewDuplicateForm.php.html#12\">Drupal\\views_ui\\ViewDuplicateForm<\/a>"],[0,128,"<a href=\"src\/ViewEditForm.php.html#26\">Drupal\\views_ui\\ViewEditForm<\/a>"],[0,35,"<a href=\"src\/ViewFormBase.php.html#13\">Drupal\\views_ui\\ViewFormBase<\/a>"],[0,23,"<a href=\"src\/ViewListBuilder.php.html#20\">Drupal\\views_ui\\ViewListBuilder<\/a>"],[0,6,"<a href=\"src\/ViewPreviewForm.php.html#13\">Drupal\\views_ui\\ViewPreviewForm<\/a>"],[0,174,"<a href=\"src\/ViewUI.php.html#26\">Drupal\\views_ui\\ViewUI<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"src\/Ajax\/SetFormCommand.php.html#27\">Drupal\\views_ui\\Ajax\\SetFormCommand::__construct<\/a>"],[0,1,"<a href=\"src\/Ajax\/SetFormCommand.php.html#34\">Drupal\\views_ui\\Ajax\\SetFormCommand::render<\/a>"],[0,1,"<a href=\"src\/Controller\/ViewsUIController.php.html#38\">Drupal\\views_ui\\Controller\\ViewsUIController::__construct<\/a>"],[0,1,"<a href=\"src\/Controller\/ViewsUIController.php.html#45\">Drupal\\views_ui\\Controller\\ViewsUIController::create<\/a>"],[0,12,"<a href=\"src\/Controller\/ViewsUIController.php.html#57\">Drupal\\views_ui\\Controller\\ViewsUIController::reportFields<\/a>"],[0,3,"<a href=\"src\/Controller\/ViewsUIController.php.html#118\">Drupal\\views_ui\\Controller\\ViewsUIController::reportPlugins<\/a>"],[0,2,"<a href=\"src\/Controller\/ViewsUIController.php.html#158\">Drupal\\views_ui\\Controller\\ViewsUIController::ajaxOperation<\/a>"],[0,6,"<a href=\"src\/Controller\/ViewsUIController.php.html#183\">Drupal\\views_ui\\Controller\\ViewsUIController::autocompleteTag<\/a>"],[0,2,"<a href=\"src\/Controller\/ViewsUIController.php.html#218\">Drupal\\views_ui\\Controller\\ViewsUIController::edit<\/a>"],[0,1,"<a href=\"src\/Form\/AdvancedSettingsForm.php.html#19\">Drupal\\views_ui\\Form\\AdvancedSettingsForm::getFormId<\/a>"],[0,1,"<a href=\"src\/Form\/AdvancedSettingsForm.php.html#26\">Drupal\\views_ui\\Form\\AdvancedSettingsForm::getEditableConfigNames<\/a>"],[0,2,"<a href=\"src\/Form\/AdvancedSettingsForm.php.html#33\">Drupal\\views_ui\\Form\\AdvancedSettingsForm::buildForm<\/a>"],[0,1,"<a href=\"src\/Form\/AdvancedSettingsForm.php.html#91\">Drupal\\views_ui\\Form\\AdvancedSettingsForm::submitForm<\/a>"],[0,1,"<a href=\"src\/Form\/AdvancedSettingsForm.php.html#104\">Drupal\\views_ui\\Form\\AdvancedSettingsForm::cacheSubmit<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/AddHandler.php.html#20\">Drupal\\views_ui\\Form\\Ajax\\AddHandler::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/AddHandler.php.html#27\">Drupal\\views_ui\\Form\\Ajax\\AddHandler::getFormKey<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/AddHandler.php.html#34\">Drupal\\views_ui\\Form\\Ajax\\AddHandler::getForm<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/AddHandler.php.html#42\">Drupal\\views_ui\\Form\\Ajax\\AddHandler::getFormId<\/a>"],[0,15,"<a href=\"src\/Form\/Ajax\/AddHandler.php.html#49\">Drupal\\views_ui\\Form\\Ajax\\AddHandler::buildForm<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/Analyze.php.html#18\">Drupal\\views_ui\\Form\\Ajax\\Analyze::getFormKey<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/Analyze.php.html#25\">Drupal\\views_ui\\Form\\Ajax\\Analyze::getFormId<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/Analyze.php.html#32\">Drupal\\views_ui\\Form\\Ajax\\Analyze::buildForm<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/Analyze.php.html#56\">Drupal\\views_ui\\Form\\Ajax\\Analyze::submitForm<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/ConfigHandler.php.html#21\">Drupal\\views_ui\\Form\\Ajax\\ConfigHandler::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/ConfigHandler.php.html#29\">Drupal\\views_ui\\Form\\Ajax\\ConfigHandler::getFormKey<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/ConfigHandler.php.html#36\">Drupal\\views_ui\\Form\\Ajax\\ConfigHandler::getForm<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/ConfigHandler.php.html#45\">Drupal\\views_ui\\Form\\Ajax\\ConfigHandler::getFormId<\/a>"],[0,18,"<a href=\"src\/Form\/Ajax\/ConfigHandler.php.html#52\">Drupal\\views_ui\\Form\\Ajax\\ConfigHandler::buildForm<\/a>"],[0,2,"<a href=\"src\/Form\/Ajax\/ConfigHandler.php.html#194\">Drupal\\views_ui\\Form\\Ajax\\ConfigHandler::validateForm<\/a>"],[0,7,"<a href=\"src\/Form\/Ajax\/ConfigHandler.php.html#205\">Drupal\\views_ui\\Form\\Ajax\\ConfigHandler::submitForm<\/a>"],[0,2,"<a href=\"src\/Form\/Ajax\/ConfigHandler.php.html#263\">Drupal\\views_ui\\Form\\Ajax\\ConfigHandler::remove<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/ConfigHandlerExtra.php.html#19\">Drupal\\views_ui\\Form\\Ajax\\ConfigHandlerExtra::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/ConfigHandlerExtra.php.html#27\">Drupal\\views_ui\\Form\\Ajax\\ConfigHandlerExtra::getFormKey<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/ConfigHandlerExtra.php.html#34\">Drupal\\views_ui\\Form\\Ajax\\ConfigHandlerExtra::getForm<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/ConfigHandlerExtra.php.html#43\">Drupal\\views_ui\\Form\\Ajax\\ConfigHandlerExtra::getFormId<\/a>"],[0,4,"<a href=\"src\/Form\/Ajax\/ConfigHandlerExtra.php.html#50\">Drupal\\views_ui\\Form\\Ajax\\ConfigHandlerExtra::buildForm<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/ConfigHandlerExtra.php.html#96\">Drupal\\views_ui\\Form\\Ajax\\ConfigHandlerExtra::validateForm<\/a>"],[0,2,"<a href=\"src\/Form\/Ajax\/ConfigHandlerExtra.php.html#103\">Drupal\\views_ui\\Form\\Ajax\\ConfigHandlerExtra::submitForm<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/ConfigHandlerGroup.php.html#20\">Drupal\\views_ui\\Form\\Ajax\\ConfigHandlerGroup::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/ConfigHandlerGroup.php.html#28\">Drupal\\views_ui\\Form\\Ajax\\ConfigHandlerGroup::getFormKey<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/ConfigHandlerGroup.php.html#35\">Drupal\\views_ui\\Form\\Ajax\\ConfigHandlerGroup::getForm<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/ConfigHandlerGroup.php.html#44\">Drupal\\views_ui\\Form\\Ajax\\ConfigHandlerGroup::getFormId<\/a>"],[0,4,"<a href=\"src\/Form\/Ajax\/ConfigHandlerGroup.php.html#51\">Drupal\\views_ui\\Form\\Ajax\\ConfigHandlerGroup::buildForm<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/ConfigHandlerGroup.php.html#97\">Drupal\\views_ui\\Form\\Ajax\\ConfigHandlerGroup::submitForm<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/Display.php.html#18\">Drupal\\views_ui\\Form\\Ajax\\Display::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/Display.php.html#25\">Drupal\\views_ui\\Form\\Ajax\\Display::getFormKey<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/Display.php.html#35\">Drupal\\views_ui\\Form\\Ajax\\Display::getFormState<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/Display.php.html#44\">Drupal\\views_ui\\Form\\Ajax\\Display::getForm<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/Display.php.html#52\">Drupal\\views_ui\\Form\\Ajax\\Display::getFormId<\/a>"],[0,3,"<a href=\"src\/Form\/Ajax\/Display.php.html#59\">Drupal\\views_ui\\Form\\Ajax\\Display::buildForm<\/a>"],[0,2,"<a href=\"src\/Form\/Ajax\/Display.php.html#95\">Drupal\\views_ui\\Form\\Ajax\\Display::validateForm<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/Display.php.html#108\">Drupal\\views_ui\\Form\\Ajax\\Display::submitForm<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/EditDetails.php.html#18\">Drupal\\views_ui\\Form\\Ajax\\EditDetails::getFormKey<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/EditDetails.php.html#25\">Drupal\\views_ui\\Form\\Ajax\\EditDetails::getFormId<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/EditDetails.php.html#32\">Drupal\\views_ui\\Form\\Ajax\\EditDetails::buildForm<\/a>"],[0,4,"<a href=\"src\/Form\/Ajax\/EditDetails.php.html#73\">Drupal\\views_ui\\Form\\Ajax\\EditDetails::submitForm<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/Rearrange.php.html#22\">Drupal\\views_ui\\Form\\Ajax\\Rearrange::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/Rearrange.php.html#29\">Drupal\\views_ui\\Form\\Ajax\\Rearrange::getFormKey<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/Rearrange.php.html#36\">Drupal\\views_ui\\Form\\Ajax\\Rearrange::getForm<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/Rearrange.php.html#44\">Drupal\\views_ui\\Form\\Ajax\\Rearrange::getFormId<\/a>"],[0,8,"<a href=\"src\/Form\/Ajax\/Rearrange.php.html#51\">Drupal\\views_ui\\Form\\Ajax\\Rearrange::buildForm<\/a>"],[0,6,"<a href=\"src\/Form\/Ajax\/Rearrange.php.html#151\">Drupal\\views_ui\\Form\\Ajax\\Rearrange::submitForm<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/RearrangeFilter.php.html#19\">Drupal\\views_ui\\Form\\Ajax\\RearrangeFilter::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/RearrangeFilter.php.html#26\">Drupal\\views_ui\\Form\\Ajax\\RearrangeFilter::getFormKey<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/RearrangeFilter.php.html#33\">Drupal\\views_ui\\Form\\Ajax\\RearrangeFilter::getFormId<\/a>"],[0,19,"<a href=\"src\/Form\/Ajax\/RearrangeFilter.php.html#40\">Drupal\\views_ui\\Form\\Ajax\\RearrangeFilter::buildForm<\/a>"],[0,17,"<a href=\"src\/Form\/Ajax\/RearrangeFilter.php.html#228\">Drupal\\views_ui\\Form\\Ajax\\RearrangeFilter::submitForm<\/a>"],[0,2,"<a href=\"src\/Form\/Ajax\/RearrangeFilter.php.html#344\">Drupal\\views_ui\\Form\\Ajax\\RearrangeFilter::arrayKeyPlus<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/ReorderDisplays.php.html#19\">Drupal\\views_ui\\Form\\Ajax\\ReorderDisplays::getFormKey<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/ReorderDisplays.php.html#26\">Drupal\\views_ui\\Form\\Ajax\\ReorderDisplays::getFormId<\/a>"],[0,6,"<a href=\"src\/Form\/Ajax\/ReorderDisplays.php.html#33\">Drupal\\views_ui\\Form\\Ajax\\ReorderDisplays::buildForm<\/a>"],[0,9,"<a href=\"src\/Form\/Ajax\/ReorderDisplays.php.html#151\">Drupal\\views_ui\\Form\\Ajax\\ReorderDisplays::submitForm<\/a>"],[0,2,"<a href=\"src\/Form\/Ajax\/ViewsFormBase.php.html#48\">Drupal\\views_ui\\Form\\Ajax\\ViewsFormBase::setID<\/a>"],[0,2,"<a href=\"src\/Form\/Ajax\/ViewsFormBase.php.html#60\">Drupal\\views_ui\\Form\\Ajax\\ViewsFormBase::setType<\/a>"],[0,2,"<a href=\"src\/Form\/Ajax\/ViewsFormBase.php.html#69\">Drupal\\views_ui\\Form\\Ajax\\ViewsFormBase::getFormState<\/a>"],[0,12,"<a href=\"src\/Form\/Ajax\/ViewsFormBase.php.html#87\">Drupal\\views_ui\\Form\\Ajax\\ViewsFormBase::getForm<\/a>"],[0,12,"<a href=\"src\/Form\/Ajax\/ViewsFormBase.php.html#196\">Drupal\\views_ui\\Form\\Ajax\\ViewsFormBase::ajaxFormWrapper<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/ViewsFormBase.php.html#272\">Drupal\\views_ui\\Form\\Ajax\\ViewsFormBase::validateForm<\/a>"],[0,1,"<a href=\"src\/Form\/Ajax\/ViewsFormBase.php.html#278\">Drupal\\views_ui\\Form\\Ajax\\ViewsFormBase::submitForm<\/a>"],[0,1,"<a href=\"src\/Form\/BasicSettingsForm.php.html#33\">Drupal\\views_ui\\Form\\BasicSettingsForm::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/BasicSettingsForm.php.html#42\">Drupal\\views_ui\\Form\\BasicSettingsForm::create<\/a>"],[0,1,"<a href=\"src\/Form\/BasicSettingsForm.php.html#52\">Drupal\\views_ui\\Form\\BasicSettingsForm::getFormId<\/a>"],[0,1,"<a href=\"src\/Form\/BasicSettingsForm.php.html#59\">Drupal\\views_ui\\Form\\BasicSettingsForm::getEditableConfigNames<\/a>"],[0,3,"<a href=\"src\/Form\/BasicSettingsForm.php.html#66\">Drupal\\views_ui\\Form\\BasicSettingsForm::buildForm<\/a>"],[0,1,"<a href=\"src\/Form\/BasicSettingsForm.php.html#174\">Drupal\\views_ui\\Form\\BasicSettingsForm::submitForm<\/a>"],[0,1,"<a href=\"src\/Form\/BreakLockForm.php.html#49\">Drupal\\views_ui\\Form\\BreakLockForm::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/BreakLockForm.php.html#57\">Drupal\\views_ui\\Form\\BreakLockForm::create<\/a>"],[0,1,"<a href=\"src\/Form\/BreakLockForm.php.html#67\">Drupal\\views_ui\\Form\\BreakLockForm::getFormId<\/a>"],[0,1,"<a href=\"src\/Form\/BreakLockForm.php.html#74\">Drupal\\views_ui\\Form\\BreakLockForm::getQuestion<\/a>"],[0,1,"<a href=\"src\/Form\/BreakLockForm.php.html#81\">Drupal\\views_ui\\Form\\BreakLockForm::getDescription<\/a>"],[0,1,"<a href=\"src\/Form\/BreakLockForm.php.html#94\">Drupal\\views_ui\\Form\\BreakLockForm::getCancelUrl<\/a>"],[0,1,"<a href=\"src\/Form\/BreakLockForm.php.html#101\">Drupal\\views_ui\\Form\\BreakLockForm::getConfirmText<\/a>"],[0,2,"<a href=\"src\/Form\/BreakLockForm.php.html#108\">Drupal\\views_ui\\Form\\BreakLockForm::buildForm<\/a>"],[0,1,"<a href=\"src\/Form\/BreakLockForm.php.html#119\">Drupal\\views_ui\\Form\\BreakLockForm::submitForm<\/a>"],[0,3,"<a href=\"src\/ParamConverter\/ViewUIConverter.php.html#53\">Drupal\\views_ui\\ParamConverter\\ViewUIConverter::__construct<\/a>"],[0,4,"<a href=\"src\/ParamConverter\/ViewUIConverter.php.html#72\">Drupal\\views_ui\\ParamConverter\\ViewUIConverter::convert<\/a>"],[0,3,"<a href=\"src\/ParamConverter\/ViewUIConverter.php.html#101\">Drupal\\views_ui\\ParamConverter\\ViewUIConverter::applies<\/a>"],[0,1,"<a href=\"src\/ProxyClass\/ParamConverter\/ViewUIConverter.php.html#49\">Drupal\\views_ui\\ProxyClass\\ParamConverter\\ViewUIConverter::__construct<\/a>"],[0,2,"<a href=\"src\/ProxyClass\/ParamConverter\/ViewUIConverter.php.html#61\">Drupal\\views_ui\\ProxyClass\\ParamConverter\\ViewUIConverter::lazyLoadItself<\/a>"],[0,1,"<a href=\"src\/ProxyClass\/ParamConverter\/ViewUIConverter.php.html#73\">Drupal\\views_ui\\ProxyClass\\ParamConverter\\ViewUIConverter::convert<\/a>"],[0,1,"<a href=\"src\/ProxyClass\/ParamConverter\/ViewUIConverter.php.html#81\">Drupal\\views_ui\\ProxyClass\\ParamConverter\\ViewUIConverter::applies<\/a>"],[0,1,"<a href=\"src\/ViewAddForm.php.html#31\">Drupal\\views_ui\\ViewAddForm::__construct<\/a>"],[0,1,"<a href=\"src\/ViewAddForm.php.html#38\">Drupal\\views_ui\\ViewAddForm::create<\/a>"],[0,1,"<a href=\"src\/ViewAddForm.php.html#47\">Drupal\\views_ui\\ViewAddForm::prepareEntity<\/a>"],[0,3,"<a href=\"src\/ViewAddForm.php.html#54\">Drupal\\views_ui\\ViewAddForm::form<\/a>"],[0,1,"<a href=\"src\/ViewAddForm.php.html#145\">Drupal\\views_ui\\ViewAddForm::actions<\/a>"],[0,4,"<a href=\"src\/ViewAddForm.php.html#162\">Drupal\\views_ui\\ViewAddForm::validateForm<\/a>"],[0,2,"<a href=\"src\/ViewAddForm.php.html#186\">Drupal\\views_ui\\ViewAddForm::submitForm<\/a>"],[0,1,"<a href=\"src\/ViewAddForm.php.html#211\">Drupal\\views_ui\\ViewAddForm::cancel<\/a>"],[0,1,"<a href=\"src\/ViewDuplicateForm.php.html#17\">Drupal\\views_ui\\ViewDuplicateForm::prepareEntity<\/a>"],[0,1,"<a href=\"src\/ViewDuplicateForm.php.html#24\">Drupal\\views_ui\\ViewDuplicateForm::form<\/a>"],[0,1,"<a href=\"src\/ViewDuplicateForm.php.html#54\">Drupal\\views_ui\\ViewDuplicateForm::actions<\/a>"],[0,1,"<a href=\"src\/ViewDuplicateForm.php.html#70\">Drupal\\views_ui\\ViewDuplicateForm::submitForm<\/a>"],[0,1,"<a href=\"src\/ViewEditForm.php.html#68\">Drupal\\views_ui\\ViewEditForm::__construct<\/a>"],[0,1,"<a href=\"src\/ViewEditForm.php.html#78\">Drupal\\views_ui\\ViewEditForm::create<\/a>"],[0,12,"<a href=\"src\/ViewEditForm.php.html#90\">Drupal\\views_ui\\ViewEditForm::form<\/a>"],[0,2,"<a href=\"src\/ViewEditForm.php.html#214\">Drupal\\views_ui\\ViewEditForm::actions<\/a>"],[0,4,"<a href=\"src\/ViewEditForm.php.html#234\">Drupal\\views_ui\\ViewEditForm::validateForm<\/a>"],[0,16,"<a href=\"src\/ViewEditForm.php.html#251\">Drupal\\views_ui\\ViewEditForm::save<\/a>"],[0,1,"<a href=\"src\/ViewEditForm.php.html#339\">Drupal\\views_ui\\ViewEditForm::cancel<\/a>"],[0,2,"<a href=\"src\/ViewEditForm.php.html#349\">Drupal\\views_ui\\ViewEditForm::getDisplayTab<\/a>"],[0,21,"<a href=\"src\/ViewEditForm.php.html#385\">Drupal\\views_ui\\ViewEditForm::getDisplayDetails<\/a>"],[0,1,"<a href=\"src\/ViewEditForm.php.html#600\">Drupal\\views_ui\\ViewEditForm::submitDisplayUndoDelete<\/a>"],[0,1,"<a href=\"src\/ViewEditForm.php.html#621\">Drupal\\views_ui\\ViewEditForm::submitDisplayEnable<\/a>"],[0,1,"<a href=\"src\/ViewEditForm.php.html#640\">Drupal\\views_ui\\ViewEditForm::submitDisplayDisable<\/a>"],[0,1,"<a href=\"src\/ViewEditForm.php.html#658\">Drupal\\views_ui\\ViewEditForm::submitDisplayDelete<\/a>"],[0,2,"<a href=\"src\/ViewEditForm.php.html#683\">Drupal\\views_ui\\ViewEditForm::rebuildCurrentTab<\/a>"],[0,8,"<a href=\"src\/ViewEditForm.php.html#701\">Drupal\\views_ui\\ViewEditForm::renderDisplayTop<\/a>"],[0,5,"<a href=\"src\/ViewEditForm.php.html#812\">Drupal\\views_ui\\ViewEditForm::submitDelayDestination<\/a>"],[0,1,"<a href=\"src\/ViewEditForm.php.html#841\">Drupal\\views_ui\\ViewEditForm::submitDisplayDuplicate<\/a>"],[0,1,"<a href=\"src\/ViewEditForm.php.html#868\">Drupal\\views_ui\\ViewEditForm::submitDisplayAdd<\/a>"],[0,1,"<a href=\"src\/ViewEditForm.php.html#890\">Drupal\\views_ui\\ViewEditForm::submitDuplicateDisplayAsType<\/a>"],[0,8,"<a href=\"src\/ViewEditForm.php.html#919\">Drupal\\views_ui\\ViewEditForm::buildOptionForm<\/a>"],[0,38,"<a href=\"src\/ViewEditForm.php.html#953\">Drupal\\views_ui\\ViewEditForm::getFormBucket<\/a>"],[0,1,"<a href=\"src\/ViewFormBase.php.html#25\">Drupal\\views_ui\\ViewFormBase::init<\/a>"],[0,5,"<a href=\"src\/ViewFormBase.php.html#36\">Drupal\\views_ui\\ViewFormBase::buildForm<\/a>"],[0,12,"<a href=\"src\/ViewFormBase.php.html#47\">Drupal\\views_ui\\ViewFormBase::prepareEntity<\/a>"],[0,11,"<a href=\"src\/ViewFormBase.php.html#87\">Drupal\\views_ui\\ViewFormBase::getDisplayTabs<\/a>"],[0,2,"<a href=\"src\/ViewFormBase.php.html#142\">Drupal\\views_ui\\ViewFormBase::isDefaultDisplayShown<\/a>"],[0,4,"<a href=\"src\/ViewFormBase.php.html#157\">Drupal\\views_ui\\ViewFormBase::getDisplayLabel<\/a>"],[0,1,"<a href=\"src\/ViewListBuilder.php.html#37\">Drupal\\views_ui\\ViewListBuilder::createInstance<\/a>"],[0,1,"<a href=\"src\/ViewListBuilder.php.html#55\">Drupal\\views_ui\\ViewListBuilder::__construct<\/a>"],[0,3,"<a href=\"src\/ViewListBuilder.php.html#69\">Drupal\\views_ui\\ViewListBuilder::load<\/a>"],[0,2,"<a href=\"src\/ViewListBuilder.php.html#88\">Drupal\\views_ui\\ViewListBuilder::buildRow<\/a>"],[0,1,"<a href=\"src\/ViewListBuilder.php.html#124\">Drupal\\views_ui\\ViewListBuilder::buildHeader<\/a>"],[0,5,"<a href=\"src\/ViewListBuilder.php.html#162\">Drupal\\views_ui\\ViewListBuilder::getDefaultOperations<\/a>"],[0,3,"<a href=\"src\/ViewListBuilder.php.html#196\">Drupal\\views_ui\\ViewListBuilder::render<\/a>"],[0,7,"<a href=\"src\/ViewListBuilder.php.html#254\">Drupal\\views_ui\\ViewListBuilder::getDisplaysList<\/a>"],[0,4,"<a href=\"src\/ViewPreviewForm.php.html#18\">Drupal\\views_ui\\ViewPreviewForm::form<\/a>"],[0,1,"<a href=\"src\/ViewPreviewForm.php.html#75\">Drupal\\views_ui\\ViewPreviewForm::actions<\/a>"],[0,1,"<a href=\"src\/ViewPreviewForm.php.html#103\">Drupal\\views_ui\\ViewPreviewForm::submitPreview<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#147\">Drupal\\views_ui\\ViewUI::__construct<\/a>"],[0,3,"<a href=\"src\/ViewUI.php.html#155\">Drupal\\views_ui\\ViewUI::get<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#166\">Drupal\\views_ui\\ViewUI::setStatus<\/a>"],[0,2,"<a href=\"src\/ViewUI.php.html#173\">Drupal\\views_ui\\ViewUI::set<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#185\">Drupal\\views_ui\\ViewUI::setSyncing<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#192\">Drupal\\views_ui\\ViewUI::setUninstalling<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#199\">Drupal\\views_ui\\ViewUI::isSyncing<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#206\">Drupal\\views_ui\\ViewUI::isUninstalling<\/a>"],[0,7,"<a href=\"src\/ViewUI.php.html#217\">Drupal\\views_ui\\ViewUI::standardSubmit<\/a>"],[0,3,"<a href=\"src\/ViewUI.php.html#265\">Drupal\\views_ui\\ViewUI::standardCancel<\/a>"],[0,10,"<a href=\"src\/ViewUI.php.html#282\">Drupal\\views_ui\\ViewUI::getStandardButtons<\/a>"],[0,4,"<a href=\"src\/ViewUI.php.html#352\">Drupal\\views_ui\\ViewUI::getOverrideValues<\/a>"],[0,7,"<a href=\"src\/ViewUI.php.html#382\">Drupal\\views_ui\\ViewUI::addFormToStack<\/a>"],[0,15,"<a href=\"src\/ViewUI.php.html#428\">Drupal\\views_ui\\ViewUI::submitItemAdd<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#503\">Drupal\\views_ui\\ViewUI::startQueryCapture<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#512\">Drupal\\views_ui\\ViewUI::endQueryCapture<\/a>"],[0,31,"<a href=\"src\/ViewUI.php.html#518\">Drupal\\views_ui\\ViewUI::renderPreview<\/a>"],[0,3,"<a href=\"src\/ViewUI.php.html#842\">Drupal\\views_ui\\ViewUI::getFormProgress<\/a>"],[0,3,"<a href=\"src\/ViewUI.php.html#864\">Drupal\\views_ui\\ViewUI::cacheSet<\/a>"],[0,2,"<a href=\"src\/ViewUI.php.html#894\">Drupal\\views_ui\\ViewUI::isLocked<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#902\">Drupal\\views_ui\\ViewUI::__call<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#909\">Drupal\\views_ui\\ViewUI::getDisplay<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#916\">Drupal\\views_ui\\ViewUI::id<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#923\">Drupal\\views_ui\\ViewUI::uuid<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#930\">Drupal\\views_ui\\ViewUI::isNew<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#937\">Drupal\\views_ui\\ViewUI::getEntityTypeId<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#944\">Drupal\\views_ui\\ViewUI::bundle<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#951\">Drupal\\views_ui\\ViewUI::getEntityType<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#958\">Drupal\\views_ui\\ViewUI::createDuplicate<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#965\">Drupal\\views_ui\\ViewUI::load<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#972\">Drupal\\views_ui\\ViewUI::loadMultiple<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#979\">Drupal\\views_ui\\ViewUI::create<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#986\">Drupal\\views_ui\\ViewUI::delete<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#993\">Drupal\\views_ui\\ViewUI::save<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1000\">Drupal\\views_ui\\ViewUI::urlInfo<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1007\">Drupal\\views_ui\\ViewUI::toUrl<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1014\">Drupal\\views_ui\\ViewUI::link<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1021\">Drupal\\views_ui\\ViewUI::toLink<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1028\">Drupal\\views_ui\\ViewUI::label<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1035\">Drupal\\views_ui\\ViewUI::enforceIsNew<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1042\">Drupal\\views_ui\\ViewUI::toArray<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1049\">Drupal\\views_ui\\ViewUI::language<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1056\">Drupal\\views_ui\\ViewUI::access<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1063\">Drupal\\views_ui\\ViewUI::enable<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1070\">Drupal\\views_ui\\ViewUI::disable<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1077\">Drupal\\views_ui\\ViewUI::status<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1084\">Drupal\\views_ui\\ViewUI::getOriginalId<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1091\">Drupal\\views_ui\\ViewUI::setOriginalId<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1098\">Drupal\\views_ui\\ViewUI::preSave<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1105\">Drupal\\views_ui\\ViewUI::postSave<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1112\">Drupal\\views_ui\\ViewUI::preCreate<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1118\">Drupal\\views_ui\\ViewUI::postCreate<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1125\">Drupal\\views_ui\\ViewUI::preDelete<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1131\">Drupal\\views_ui\\ViewUI::postDelete<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1137\">Drupal\\views_ui\\ViewUI::postLoad<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1143\">Drupal\\views_ui\\ViewUI::getExecutable<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1150\">Drupal\\views_ui\\ViewUI::duplicateDisplayAsType<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1157\">Drupal\\views_ui\\ViewUI::mergeDefaultDisplaysOptions<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1164\">Drupal\\views_ui\\ViewUI::uriRelationships<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1171\">Drupal\\views_ui\\ViewUI::referencedEntities<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1178\">Drupal\\views_ui\\ViewUI::url<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1185\">Drupal\\views_ui\\ViewUI::hasLinkTemplate<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1192\">Drupal\\views_ui\\ViewUI::calculateDependencies<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1200\">Drupal\\views_ui\\ViewUI::getConfigDependencyKey<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1207\">Drupal\\views_ui\\ViewUI::getConfigDependencyName<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1214\">Drupal\\views_ui\\ViewUI::getConfigTarget<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1221\">Drupal\\views_ui\\ViewUI::onDependencyRemoval<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1228\">Drupal\\views_ui\\ViewUI::getDependencies<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1235\">Drupal\\views_ui\\ViewUI::getCacheContexts<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1242\">Drupal\\views_ui\\ViewUI::getCacheTags<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1249\">Drupal\\views_ui\\ViewUI::getCacheMaxAge<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1256\">Drupal\\views_ui\\ViewUI::getTypedData<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1263\">Drupal\\views_ui\\ViewUI::addDisplay<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1270\">Drupal\\views_ui\\ViewUI::isInstallable<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1277\">Drupal\\views_ui\\ViewUI::setThirdPartySetting<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1284\">Drupal\\views_ui\\ViewUI::getThirdPartySetting<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1291\">Drupal\\views_ui\\ViewUI::getThirdPartySettings<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1298\">Drupal\\views_ui\\ViewUI::unsetThirdPartySetting<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1305\">Drupal\\views_ui\\ViewUI::getThirdPartyProviders<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1312\">Drupal\\views_ui\\ViewUI::trustData<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1319\">Drupal\\views_ui\\ViewUI::hasTrustedData<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1326\">Drupal\\views_ui\\ViewUI::addCacheableDependency<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1334\">Drupal\\views_ui\\ViewUI::addCacheContexts<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1341\">Drupal\\views_ui\\ViewUI::mergeCacheMaxAge<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1348\">Drupal\\views_ui\\ViewUI::getCacheTagsToInvalidate<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1355\">Drupal\\views_ui\\ViewUI::addCacheTags<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1365\">Drupal\\views_ui\\ViewUI::getLock<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1377\">Drupal\\views_ui\\ViewUI::setLock<\/a>"],[0,1,"<a href=\"src\/ViewUI.php.html#1387\">Drupal\\views_ui\\ViewUI::unsetLock<\/a>"],[0,5,"<a href=\"src\/ViewUI.php.html#1395\">Drupal\\views_ui\\ViewUI::__set<\/a>"],[0,2,"<a href=\"src\/ViewUI.php.html#1411\">Drupal\\views_ui\\ViewUI::__get<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/crafter/www/drupal-modules.devel/web/core/modules/menu_link_content</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/home/crafter/www/drupal-modules.devel/web</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">core</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">modules</a></li>
+         <li class="breadcrumb-item"><a href="index.html">menu_link_content</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Controller/MenuController.php.html#11">Drupal\menu_link_content\Controller\MenuController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/MenuLinkContent.php.html#67">Drupal\menu_link_content\Entity\MenuLinkContent</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/MenuLinkContentDeleteForm.php.html#13">Drupal\menu_link_content\Form\MenuLinkContentDeleteForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/MenuLinkContentForm.php.html#20">Drupal\menu_link_content\Form\MenuLinkContentForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/MenuLinkContentAccessControlHandler.php.html#17">Drupal\menu_link_content\MenuLinkContentAccessControlHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/MenuLinkContentStorage.php.html#10">Drupal\menu_link_content\MenuLinkContentStorage</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/MenuLinkContentStorageSchema.php.html#11">Drupal\menu_link_content\MenuLinkContentStorageSchema</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Deriver/MenuLinkContentDeriver.php.html#18">Drupal\menu_link_content\Plugin\Deriver\MenuLinkContentDeriver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Menu/MenuLinkContent.php.html#17">Drupal\menu_link_content\Plugin\Menu\MenuLinkContent</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/MenuTreeHierarchyConstraint.php.html#15">Drupal\menu_link_content\Plugin\Validation\Constraint\MenuTreeHierarchyConstraint</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/MenuTreeHierarchyConstraintValidator.php.html#14">Drupal\menu_link_content\Plugin\Validation\Constraint\MenuTreeHierarchyConstraintValidator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/process/LinkUri.php.html#46">Drupal\menu_link_content\Plugin\migrate\process\LinkUri</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/MenuLink.php.html#17">Drupal\menu_link_content\Plugin\migrate\source\MenuLink</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/MenuLinkTranslation.php.html#17">Drupal\menu_link_content\Plugin\migrate\source\d6\MenuLinkTranslation</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Entity/MenuLinkContent.php.html#67">Drupal\menu_link_content\Entity\MenuLinkContent</a></td><td class="text-right">812</td></tr>
+       <tr><td><a href="src/Plugin/Menu/MenuLinkContent.php.html#17">Drupal\menu_link_content\Plugin\Menu\MenuLinkContent</a></td><td class="text-right">600</td></tr>
+       <tr><td><a href="src/Plugin/migrate/process/LinkUri.php.html#46">Drupal\menu_link_content\Plugin\migrate\process\LinkUri</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/MenuLinkContentAccessControlHandler.php.html#17">Drupal\menu_link_content\MenuLinkContentAccessControlHandler</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/MenuTreeHierarchyConstraintValidator.php.html#14">Drupal\menu_link_content\Plugin\Validation\Constraint\MenuTreeHierarchyConstraintValidator</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/Form/MenuLinkContentForm.php.html#20">Drupal\menu_link_content\Form\MenuLinkContentForm</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/MenuLinkTranslation.php.html#17">Drupal\menu_link_content\Plugin\migrate\source\d6\MenuLinkTranslation</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Form/MenuLinkContentDeleteForm.php.html#13">Drupal\menu_link_content\Form\MenuLinkContentDeleteForm</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/Deriver/MenuLinkContentDeriver.php.html#18">Drupal\menu_link_content\Plugin\Deriver\MenuLinkContentDeriver</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/MenuLinkContentStorageSchema.php.html#11">Drupal\menu_link_content\MenuLinkContentStorageSchema</a></td><td class="text-right">12</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Controller/MenuController.php.html#22"><abbr title="Drupal\menu_link_content\Controller\MenuController::addLink">addLink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Menu/MenuLinkContent.php.html#262"><abbr title="Drupal\menu_link_content\Plugin\Menu\MenuLinkContent::deleteLink">deleteLink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Deriver/MenuLinkContentDeriver.php.html#66"><abbr title="Drupal\menu_link_content\Plugin\Deriver\MenuLinkContentDeriver::getDerivativeDefinitions">getDerivativeDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Menu/MenuLinkContent.php.html#95"><abbr title="Drupal\menu_link_content\Plugin\Menu\MenuLinkContent::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Menu/MenuLinkContent.php.html#117"><abbr title="Drupal\menu_link_content\Plugin\Menu\MenuLinkContent::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Menu/MenuLinkContent.php.html#137"><abbr title="Drupal\menu_link_content\Plugin\Menu\MenuLinkContent::getEntity">getEntity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Menu/MenuLinkContent.php.html#172"><abbr title="Drupal\menu_link_content\Plugin\Menu\MenuLinkContent::getTitle">getTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Menu/MenuLinkContent.php.html#185"><abbr title="Drupal\menu_link_content\Plugin\Menu\MenuLinkContent::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Menu/MenuLinkContent.php.html#198"><abbr title="Drupal\menu_link_content\Plugin\Menu\MenuLinkContent::getDeleteRoute">getDeleteRoute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Menu/MenuLinkContent.php.html#205"><abbr title="Drupal\menu_link_content\Plugin\Menu\MenuLinkContent::getEditRoute">getEditRoute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Menu/MenuLinkContent.php.html#212"><abbr title="Drupal\menu_link_content\Plugin\Menu\MenuLinkContent::getTranslateRoute">getTranslateRoute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Menu/MenuLinkContent.php.html#222"><abbr title="Drupal\menu_link_content\Plugin\Menu\MenuLinkContent::getUuid">getUuid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Menu/MenuLinkContent.php.html#229"><abbr title="Drupal\menu_link_content\Plugin\Menu\MenuLinkContent::updateLink">updateLink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Menu/MenuLinkContent.php.html#248"><abbr title="Drupal\menu_link_content\Plugin\Menu\MenuLinkContent::isDeletable">isDeletable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Menu/MenuLinkContent.php.html#255"><abbr title="Drupal\menu_link_content\Plugin\Menu\MenuLinkContent::isTranslatable">isTranslatable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/MenuTreeHierarchyConstraint.php.html#27"><abbr title="Drupal\menu_link_content\Plugin\Validation\Constraint\MenuTreeHierarchyConstraint::coversFields">coversFields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Deriver/MenuLinkContentDeriver.php.html#48"><abbr title="Drupal\menu_link_content\Plugin\Deriver\MenuLinkContentDeriver::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/MenuTreeHierarchyConstraintValidator.php.html#29"><abbr title="Drupal\menu_link_content\Plugin\Validation\Constraint\MenuTreeHierarchyConstraintValidator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/MenuTreeHierarchyConstraintValidator.php.html#36"><abbr title="Drupal\menu_link_content\Plugin\Validation\Constraint\MenuTreeHierarchyConstraintValidator::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/MenuTreeHierarchyConstraintValidator.php.html#45"><abbr title="Drupal\menu_link_content\Plugin\Validation\Constraint\MenuTreeHierarchyConstraintValidator::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/process/LinkUri.php.html#67"><abbr title="Drupal\menu_link_content\Plugin\migrate\process\LinkUri::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/process/LinkUri.php.html#78"><abbr title="Drupal\menu_link_content\Plugin\migrate\process\LinkUri::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/process/LinkUri.php.html#90"><abbr title="Drupal\menu_link_content\Plugin\migrate\process\LinkUri::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/MenuLink.php.html#22"><abbr title="Drupal\menu_link_content\Plugin\migrate\source\MenuLink::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/MenuLink.php.html#42"><abbr title="Drupal\menu_link_content\Plugin\migrate\source\MenuLink::fields">fields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/MenuLink.php.html#75"><abbr title="Drupal\menu_link_content\Plugin\migrate\source\MenuLink::prepareRow">prepareRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/MenuLink.php.html#86"><abbr title="Drupal\menu_link_content\Plugin\migrate\source\MenuLink::getIds">getIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/MenuLinkTranslation.php.html#29"><abbr title="Drupal\menu_link_content\Plugin\migrate\source\d6\MenuLinkTranslation::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/MenuLinkTranslation.php.html#57"><abbr title="Drupal\menu_link_content\Plugin\migrate\source\d6\MenuLinkTranslation::prepareRow">prepareRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/MenuLinkTranslation.php.html#74"><abbr title="Drupal\menu_link_content\Plugin\migrate\source\d6\MenuLinkTranslation::fields">fields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Deriver/MenuLinkContentDeriver.php.html#56"><abbr title="Drupal\menu_link_content\Plugin\Deriver\MenuLinkContentDeriver::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/MenuLinkContentStorageSchema.php.html#16"><abbr title="Drupal\menu_link_content\MenuLinkContentStorageSchema::getSharedTableFieldSchema">getSharedTableFieldSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/MenuLinkContent.php.html#79"><abbr title="Drupal\menu_link_content\Entity\MenuLinkContent::setInsidePlugin">setInsidePlugin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/MenuLinkContent.php.html#244"><abbr title="Drupal\menu_link_content\Entity\MenuLinkContent::preDelete">preDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/MenuLinkContent.php.html#86"><abbr title="Drupal\menu_link_content\Entity\MenuLinkContent::getTitle">getTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/MenuLinkContent.php.html#93"><abbr title="Drupal\menu_link_content\Entity\MenuLinkContent::getUrlObject">getUrlObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/MenuLinkContent.php.html#100"><abbr title="Drupal\menu_link_content\Entity\MenuLinkContent::getMenuName">getMenuName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/MenuLinkContent.php.html#107"><abbr title="Drupal\menu_link_content\Entity\MenuLinkContent::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/MenuLinkContent.php.html#114"><abbr title="Drupal\menu_link_content\Entity\MenuLinkContent::getPluginId">getPluginId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/MenuLinkContent.php.html#121"><abbr title="Drupal\menu_link_content\Entity\MenuLinkContent::isEnabled">isEnabled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/MenuLinkContent.php.html#128"><abbr title="Drupal\menu_link_content\Entity\MenuLinkContent::isExpanded">isExpanded</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/MenuLinkContent.php.html#135"><abbr title="Drupal\menu_link_content\Entity\MenuLinkContent::getParentId">getParentId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/MenuLinkContent.php.html#144"><abbr title="Drupal\menu_link_content\Entity\MenuLinkContent::getWeight">getWeight</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/MenuLinkContent.php.html#151"><abbr title="Drupal\menu_link_content\Entity\MenuLinkContent::getPluginDefinition">getPluginDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/MenuLinkContent.php.html#188"><abbr title="Drupal\menu_link_content\Entity\MenuLinkContent::preCreate">preCreate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/MenuLinkContent.php.html#195"><abbr title="Drupal\menu_link_content\Entity\MenuLinkContent::preSave">preSave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/MenuLinkContent.php.html#209"><abbr title="Drupal\menu_link_content\Entity\MenuLinkContent::postSave">postSave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/MenuLinkContent.php.html#267"><abbr title="Drupal\menu_link_content\Entity\MenuLinkContent::baseFieldDefinitions">baseFieldDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/MenuLinkContentStorage.php.html#15"><abbr title="Drupal\menu_link_content\MenuLinkContentStorage::getMenuLinkIdsWithPendingRevisions">getMenuLinkIdsWithPendingRevisions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/MenuLinkContent.php.html#415"><abbr title="Drupal\menu_link_content\Entity\MenuLinkContent::requiresRediscovery">requiresRediscovery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/MenuLinkContent.php.html#422"><abbr title="Drupal\menu_link_content\Entity\MenuLinkContent::setRequiresRediscovery">setRequiresRediscovery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/MenuLinkContentDeleteForm.php.html#18"><abbr title="Drupal\menu_link_content\Form\MenuLinkContentDeleteForm::getCancelUrl">getCancelUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/MenuLinkContentDeleteForm.php.html#28"><abbr title="Drupal\menu_link_content\Form\MenuLinkContentDeleteForm::getRedirectUrl">getRedirectUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/MenuLinkContentDeleteForm.php.html#35"><abbr title="Drupal\menu_link_content\Form\MenuLinkContentDeleteForm::getDeletionMessage">getDeletionMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/MenuLinkContentForm.php.html#59"><abbr title="Drupal\menu_link_content\Form\MenuLinkContentForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/MenuLinkContentForm.php.html#68"><abbr title="Drupal\menu_link_content\Form\MenuLinkContentForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/MenuLinkContentForm.php.html#82"><abbr title="Drupal\menu_link_content\Form\MenuLinkContentForm::form">form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/MenuLinkContentForm.php.html#99"><abbr title="Drupal\menu_link_content\Form\MenuLinkContentForm::actions">actions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/MenuLinkContentForm.php.html#110"><abbr title="Drupal\menu_link_content\Form\MenuLinkContentForm::buildEntity">buildEntity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/MenuLinkContentForm.php.html#127"><abbr title="Drupal\menu_link_content\Form\MenuLinkContentForm::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/MenuLinkContentAccessControlHandler.php.html#34"><abbr title="Drupal\menu_link_content\MenuLinkContentAccessControlHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/MenuLinkContentAccessControlHandler.php.html#43"><abbr title="Drupal\menu_link_content\MenuLinkContentAccessControlHandler::createInstance">createInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/MenuLinkContentAccessControlHandler.php.html#50"><abbr title="Drupal\menu_link_content\MenuLinkContentAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/MenuLinkTranslation.php.html#86"><abbr title="Drupal\menu_link_content\Plugin\migrate\source\d6\MenuLinkTranslation::getIds">getIds</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Plugin/migrate/process/LinkUri.php.html#90"><abbr title="Drupal\menu_link_content\Plugin\migrate\process\LinkUri::transform">transform</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="src/MenuLinkContentAccessControlHandler.php.html#50"><abbr title="Drupal\menu_link_content\MenuLinkContentAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/MenuTreeHierarchyConstraintValidator.php.html#45"><abbr title="Drupal\menu_link_content\Plugin\Validation\Constraint\MenuTreeHierarchyConstraintValidator::validate">validate</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/Plugin/Menu/MenuLinkContent.php.html#137"><abbr title="Drupal\menu_link_content\Plugin\Menu\MenuLinkContent::getEntity">getEntity</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Entity/MenuLinkContent.php.html#151"><abbr title="Drupal\menu_link_content\Entity\MenuLinkContent::getPluginDefinition">getPluginDefinition</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Entity/MenuLinkContent.php.html#209"><abbr title="Drupal\menu_link_content\Entity\MenuLinkContent::postSave">postSave</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Entity/MenuLinkContent.php.html#244"><abbr title="Drupal\menu_link_content\Entity\MenuLinkContent::preDelete">preDelete</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/MenuLinkContentStorageSchema.php.html#16"><abbr title="Drupal\menu_link_content\MenuLinkContentStorageSchema::getSharedTableFieldSchema">getSharedTableFieldSchema</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/Menu/MenuLinkContent.php.html#229"><abbr title="Drupal\menu_link_content\Plugin\Menu\MenuLinkContent::updateLink">updateLink</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/Menu/MenuLinkContent.php.html#95"><abbr title="Drupal\menu_link_content\Plugin\Menu\MenuLinkContent::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/Menu/MenuLinkContent.php.html#185"><abbr title="Drupal\menu_link_content\Plugin\Menu\MenuLinkContent::getDescription">getDescription</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/Deriver/MenuLinkContentDeriver.php.html#66"><abbr title="Drupal\menu_link_content\Plugin\Deriver\MenuLinkContentDeriver::getDerivativeDefinitions">getDerivativeDefinitions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/Menu/MenuLinkContent.php.html#172"><abbr title="Drupal\menu_link_content\Plugin\Menu\MenuLinkContent::getTitle">getTitle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Entity/MenuLinkContent.php.html#195"><abbr title="Drupal\menu_link_content\Entity\MenuLinkContent::preSave">preSave</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Form/MenuLinkContentForm.php.html#82"><abbr title="Drupal\menu_link_content\Form\MenuLinkContentForm::form">form</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Form/MenuLinkContentDeleteForm.php.html#18"><abbr title="Drupal\menu_link_content\Form\MenuLinkContentDeleteForm::getCancelUrl">getCancelUrl</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/MenuLinkTranslation.php.html#57"><abbr title="Drupal\menu_link_content\Plugin\migrate\source\d6\MenuLinkTranslation::prepareRow">prepareRow</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.33-16+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Fri Jun 12 8:21:00 AEST 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([14,0,0,0,0,0,0,0,0,0,0,2], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([64,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"src\/Controller\/MenuController.php.html#11\">Drupal\\menu_link_content\\Controller\\MenuController<\/a>"],[0,28,"<a href=\"src\/Entity\/MenuLinkContent.php.html#67\">Drupal\\menu_link_content\\Entity\\MenuLinkContent<\/a>"],[0,4,"<a href=\"src\/Form\/MenuLinkContentDeleteForm.php.html#13\">Drupal\\menu_link_content\\Form\\MenuLinkContentDeleteForm<\/a>"],[0,7,"<a href=\"src\/Form\/MenuLinkContentForm.php.html#20\">Drupal\\menu_link_content\\Form\\MenuLinkContentForm<\/a>"],[0,10,"<a href=\"src\/MenuLinkContentAccessControlHandler.php.html#17\">Drupal\\menu_link_content\\MenuLinkContentAccessControlHandler<\/a>"],[0,1,"<a href=\"src\/MenuLinkContentStorage.php.html#10\">Drupal\\menu_link_content\\MenuLinkContentStorage<\/a>"],[0,3,"<a href=\"src\/MenuLinkContentStorageSchema.php.html#11\">Drupal\\menu_link_content\\MenuLinkContentStorageSchema<\/a>"],[0,4,"<a href=\"src\/Plugin\/Deriver\/MenuLinkContentDeriver.php.html#18\">Drupal\\menu_link_content\\Plugin\\Deriver\\MenuLinkContentDeriver<\/a>"],[0,24,"<a href=\"src\/Plugin\/Menu\/MenuLinkContent.php.html#17\">Drupal\\menu_link_content\\Plugin\\Menu\\MenuLinkContent<\/a>"],[0,1,"<a href=\"src\/Plugin\/Validation\/Constraint\/MenuTreeHierarchyConstraint.php.html#15\">Drupal\\menu_link_content\\Plugin\\Validation\\Constraint\\MenuTreeHierarchyConstraint<\/a>"],[0,9,"<a href=\"src\/Plugin\/Validation\/Constraint\/MenuTreeHierarchyConstraintValidator.php.html#14\">Drupal\\menu_link_content\\Plugin\\Validation\\Constraint\\MenuTreeHierarchyConstraintValidator<\/a>"],[0,12,"<a href=\"src\/Plugin\/migrate\/process\/LinkUri.php.html#46\">Drupal\\menu_link_content\\Plugin\\migrate\\process\\LinkUri<\/a>"],[100,0,"<a href=\"src\/Plugin\/migrate\/process\/d6\/LinkUri.php.html#15\">Drupal\\menu_link_content\\Plugin\\migrate\\process\\d6\\LinkUri<\/a>"],[100,0,"<a href=\"src\/Plugin\/migrate\/process\/d7\/InternalUri.php.html#15\">Drupal\\menu_link_content\\Plugin\\migrate\\process\\d7\\InternalUri<\/a>"],[0,4,"<a href=\"src\/Plugin\/migrate\/source\/MenuLink.php.html#17\">Drupal\\menu_link_content\\Plugin\\migrate\\source\\MenuLink<\/a>"],[0,5,"<a href=\"src\/Plugin\/migrate\/source\/d6\/MenuLinkTranslation.php.html#17\">Drupal\\menu_link_content\\Plugin\\migrate\\source\\d6\\MenuLinkTranslation<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"src\/Controller\/MenuController.php.html#22\">Drupal\\menu_link_content\\Controller\\MenuController::addLink<\/a>"],[0,1,"<a href=\"src\/Entity\/MenuLinkContent.php.html#79\">Drupal\\menu_link_content\\Entity\\MenuLinkContent::setInsidePlugin<\/a>"],[0,1,"<a href=\"src\/Entity\/MenuLinkContent.php.html#86\">Drupal\\menu_link_content\\Entity\\MenuLinkContent::getTitle<\/a>"],[0,1,"<a href=\"src\/Entity\/MenuLinkContent.php.html#93\">Drupal\\menu_link_content\\Entity\\MenuLinkContent::getUrlObject<\/a>"],[0,1,"<a href=\"src\/Entity\/MenuLinkContent.php.html#100\">Drupal\\menu_link_content\\Entity\\MenuLinkContent::getMenuName<\/a>"],[0,1,"<a href=\"src\/Entity\/MenuLinkContent.php.html#107\">Drupal\\menu_link_content\\Entity\\MenuLinkContent::getDescription<\/a>"],[0,1,"<a href=\"src\/Entity\/MenuLinkContent.php.html#114\">Drupal\\menu_link_content\\Entity\\MenuLinkContent::getPluginId<\/a>"],[0,1,"<a href=\"src\/Entity\/MenuLinkContent.php.html#121\">Drupal\\menu_link_content\\Entity\\MenuLinkContent::isEnabled<\/a>"],[0,1,"<a href=\"src\/Entity\/MenuLinkContent.php.html#128\">Drupal\\menu_link_content\\Entity\\MenuLinkContent::isExpanded<\/a>"],[0,1,"<a href=\"src\/Entity\/MenuLinkContent.php.html#135\">Drupal\\menu_link_content\\Entity\\MenuLinkContent::getParentId<\/a>"],[0,1,"<a href=\"src\/Entity\/MenuLinkContent.php.html#144\">Drupal\\menu_link_content\\Entity\\MenuLinkContent::getWeight<\/a>"],[0,5,"<a href=\"src\/Entity\/MenuLinkContent.php.html#151\">Drupal\\menu_link_content\\Entity\\MenuLinkContent::getPluginDefinition<\/a>"],[0,1,"<a href=\"src\/Entity\/MenuLinkContent.php.html#188\">Drupal\\menu_link_content\\Entity\\MenuLinkContent::preCreate<\/a>"],[0,2,"<a href=\"src\/Entity\/MenuLinkContent.php.html#195\">Drupal\\menu_link_content\\Entity\\MenuLinkContent::preSave<\/a>"],[0,4,"<a href=\"src\/Entity\/MenuLinkContent.php.html#209\">Drupal\\menu_link_content\\Entity\\MenuLinkContent::postSave<\/a>"],[0,3,"<a href=\"src\/Entity\/MenuLinkContent.php.html#244\">Drupal\\menu_link_content\\Entity\\MenuLinkContent::preDelete<\/a>"],[0,1,"<a href=\"src\/Entity\/MenuLinkContent.php.html#267\">Drupal\\menu_link_content\\Entity\\MenuLinkContent::baseFieldDefinitions<\/a>"],[0,1,"<a href=\"src\/Entity\/MenuLinkContent.php.html#415\">Drupal\\menu_link_content\\Entity\\MenuLinkContent::requiresRediscovery<\/a>"],[0,1,"<a href=\"src\/Entity\/MenuLinkContent.php.html#422\">Drupal\\menu_link_content\\Entity\\MenuLinkContent::setRequiresRediscovery<\/a>"],[0,2,"<a href=\"src\/Form\/MenuLinkContentDeleteForm.php.html#18\">Drupal\\menu_link_content\\Form\\MenuLinkContentDeleteForm::getCancelUrl<\/a>"],[0,1,"<a href=\"src\/Form\/MenuLinkContentDeleteForm.php.html#28\">Drupal\\menu_link_content\\Form\\MenuLinkContentDeleteForm::getRedirectUrl<\/a>"],[0,1,"<a href=\"src\/Form\/MenuLinkContentDeleteForm.php.html#35\">Drupal\\menu_link_content\\Form\\MenuLinkContentDeleteForm::getDeletionMessage<\/a>"],[0,1,"<a href=\"src\/Form\/MenuLinkContentForm.php.html#59\">Drupal\\menu_link_content\\Form\\MenuLinkContentForm::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/MenuLinkContentForm.php.html#68\">Drupal\\menu_link_content\\Form\\MenuLinkContentForm::create<\/a>"],[0,2,"<a href=\"src\/Form\/MenuLinkContentForm.php.html#82\">Drupal\\menu_link_content\\Form\\MenuLinkContentForm::form<\/a>"],[0,1,"<a href=\"src\/Form\/MenuLinkContentForm.php.html#99\">Drupal\\menu_link_content\\Form\\MenuLinkContentForm::actions<\/a>"],[0,1,"<a href=\"src\/Form\/MenuLinkContentForm.php.html#110\">Drupal\\menu_link_content\\Form\\MenuLinkContentForm::buildEntity<\/a>"],[0,1,"<a href=\"src\/Form\/MenuLinkContentForm.php.html#127\">Drupal\\menu_link_content\\Form\\MenuLinkContentForm::save<\/a>"],[0,1,"<a href=\"src\/MenuLinkContentAccessControlHandler.php.html#34\">Drupal\\menu_link_content\\MenuLinkContentAccessControlHandler::__construct<\/a>"],[0,1,"<a href=\"src\/MenuLinkContentAccessControlHandler.php.html#43\">Drupal\\menu_link_content\\MenuLinkContentAccessControlHandler::createInstance<\/a>"],[0,8,"<a href=\"src\/MenuLinkContentAccessControlHandler.php.html#50\">Drupal\\menu_link_content\\MenuLinkContentAccessControlHandler::checkAccess<\/a>"],[0,1,"<a href=\"src\/MenuLinkContentStorage.php.html#15\">Drupal\\menu_link_content\\MenuLinkContentStorage::getMenuLinkIdsWithPendingRevisions<\/a>"],[0,3,"<a href=\"src\/MenuLinkContentStorageSchema.php.html#16\">Drupal\\menu_link_content\\MenuLinkContentStorageSchema::getSharedTableFieldSchema<\/a>"],[0,1,"<a href=\"src\/Plugin\/Deriver\/MenuLinkContentDeriver.php.html#48\">Drupal\\menu_link_content\\Plugin\\Deriver\\MenuLinkContentDeriver::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/Deriver\/MenuLinkContentDeriver.php.html#56\">Drupal\\menu_link_content\\Plugin\\Deriver\\MenuLinkContentDeriver::create<\/a>"],[0,2,"<a href=\"src\/Plugin\/Deriver\/MenuLinkContentDeriver.php.html#66\">Drupal\\menu_link_content\\Plugin\\Deriver\\MenuLinkContentDeriver::getDerivativeDefinitions<\/a>"],[0,3,"<a href=\"src\/Plugin\/Menu\/MenuLinkContent.php.html#95\">Drupal\\menu_link_content\\Plugin\\Menu\\MenuLinkContent::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/Menu\/MenuLinkContent.php.html#117\">Drupal\\menu_link_content\\Plugin\\Menu\\MenuLinkContent::create<\/a>"],[0,6,"<a href=\"src\/Plugin\/Menu\/MenuLinkContent.php.html#137\">Drupal\\menu_link_content\\Plugin\\Menu\\MenuLinkContent::getEntity<\/a>"],[0,2,"<a href=\"src\/Plugin\/Menu\/MenuLinkContent.php.html#172\">Drupal\\menu_link_content\\Plugin\\Menu\\MenuLinkContent::getTitle<\/a>"],[0,2,"<a href=\"src\/Plugin\/Menu\/MenuLinkContent.php.html#185\">Drupal\\menu_link_content\\Plugin\\Menu\\MenuLinkContent::getDescription<\/a>"],[0,1,"<a href=\"src\/Plugin\/Menu\/MenuLinkContent.php.html#198\">Drupal\\menu_link_content\\Plugin\\Menu\\MenuLinkContent::getDeleteRoute<\/a>"],[0,1,"<a href=\"src\/Plugin\/Menu\/MenuLinkContent.php.html#205\">Drupal\\menu_link_content\\Plugin\\Menu\\MenuLinkContent::getEditRoute<\/a>"],[0,1,"<a href=\"src\/Plugin\/Menu\/MenuLinkContent.php.html#212\">Drupal\\menu_link_content\\Plugin\\Menu\\MenuLinkContent::getTranslateRoute<\/a>"],[0,1,"<a href=\"src\/Plugin\/Menu\/MenuLinkContent.php.html#222\">Drupal\\menu_link_content\\Plugin\\Menu\\MenuLinkContent::getUuid<\/a>"],[0,3,"<a href=\"src\/Plugin\/Menu\/MenuLinkContent.php.html#229\">Drupal\\menu_link_content\\Plugin\\Menu\\MenuLinkContent::updateLink<\/a>"],[0,1,"<a href=\"src\/Plugin\/Menu\/MenuLinkContent.php.html#248\">Drupal\\menu_link_content\\Plugin\\Menu\\MenuLinkContent::isDeletable<\/a>"],[0,1,"<a href=\"src\/Plugin\/Menu\/MenuLinkContent.php.html#255\">Drupal\\menu_link_content\\Plugin\\Menu\\MenuLinkContent::isTranslatable<\/a>"],[0,1,"<a href=\"src\/Plugin\/Menu\/MenuLinkContent.php.html#262\">Drupal\\menu_link_content\\Plugin\\Menu\\MenuLinkContent::deleteLink<\/a>"],[0,1,"<a href=\"src\/Plugin\/Validation\/Constraint\/MenuTreeHierarchyConstraint.php.html#27\">Drupal\\menu_link_content\\Plugin\\Validation\\Constraint\\MenuTreeHierarchyConstraint::coversFields<\/a>"],[0,1,"<a href=\"src\/Plugin\/Validation\/Constraint\/MenuTreeHierarchyConstraintValidator.php.html#29\">Drupal\\menu_link_content\\Plugin\\Validation\\Constraint\\MenuTreeHierarchyConstraintValidator::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/Validation\/Constraint\/MenuTreeHierarchyConstraintValidator.php.html#36\">Drupal\\menu_link_content\\Plugin\\Validation\\Constraint\\MenuTreeHierarchyConstraintValidator::create<\/a>"],[0,7,"<a href=\"src\/Plugin\/Validation\/Constraint\/MenuTreeHierarchyConstraintValidator.php.html#45\">Drupal\\menu_link_content\\Plugin\\Validation\\Constraint\\MenuTreeHierarchyConstraintValidator::validate<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/process\/LinkUri.php.html#67\">Drupal\\menu_link_content\\Plugin\\migrate\\process\\LinkUri::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/process\/LinkUri.php.html#78\">Drupal\\menu_link_content\\Plugin\\migrate\\process\\LinkUri::create<\/a>"],[0,10,"<a href=\"src\/Plugin\/migrate\/process\/LinkUri.php.html#90\">Drupal\\menu_link_content\\Plugin\\migrate\\process\\LinkUri::transform<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/MenuLink.php.html#22\">Drupal\\menu_link_content\\Plugin\\migrate\\source\\MenuLink::query<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/MenuLink.php.html#42\">Drupal\\menu_link_content\\Plugin\\migrate\\source\\MenuLink::fields<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/MenuLink.php.html#75\">Drupal\\menu_link_content\\Plugin\\migrate\\source\\MenuLink::prepareRow<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/MenuLink.php.html#86\">Drupal\\menu_link_content\\Plugin\\migrate\\source\\MenuLink::getIds<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d6\/MenuLinkTranslation.php.html#29\">Drupal\\menu_link_content\\Plugin\\migrate\\source\\d6\\MenuLinkTranslation::query<\/a>"],[0,2,"<a href=\"src\/Plugin\/migrate\/source\/d6\/MenuLinkTranslation.php.html#57\">Drupal\\menu_link_content\\Plugin\\migrate\\source\\d6\\MenuLinkTranslation::prepareRow<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d6\/MenuLinkTranslation.php.html#74\">Drupal\\menu_link_content\\Plugin\\migrate\\source\\d6\\MenuLinkTranslation::fields<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d6\/MenuLinkTranslation.php.html#86\">Drupal\\menu_link_content\\Plugin\\migrate\\source\\d6\\MenuLinkTranslation::getIds<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

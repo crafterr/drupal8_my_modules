@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/crafter/www/drupal-modules.devel/web/core/lib/Drupal/Core/TypedData</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../../index.html">/home/crafter/www/drupal-modules.devel/web</a></li>
+         <li class="breadcrumb-item"><a href="../../../../index.html">core</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">lib</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Drupal</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Core</a></li>
+         <li class="breadcrumb-item"><a href="index.html">TypedData</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ComplexDataDefinitionBase.php.html#8">Drupal\Core\TypedData\ComplexDataDefinitionBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/StringData.php.html#19">Drupal\Core\TypedData\Plugin\DataType\StringData</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedDataTrait.php.html#8">TypedDataTrait</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComputedItemListTrait.php.html#15">ComputedItemListTrait</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/TypedDataMetadata.php.html#17">Drupal\Core\TypedData\Validation\TypedDataMetadata</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/RecursiveValidator.php.html#18">Drupal\Core\TypedData\Validation\RecursiveValidator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/RecursiveContextualValidator.php.html#31">Drupal\Core\TypedData\Validation\RecursiveContextualValidator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContextFactory.php.html#16">Drupal\Core\TypedData\Validation\ExecutionContextFactory</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#21">Drupal\Core\TypedData\Validation\ExecutionContext</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ConstraintViolationBuilder.php.html#19">Drupal\Core\TypedData\Validation\ConstraintViolationBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedDataManager.php.html#21">Drupal\Core\TypedData\TypedDataManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedDataInternalPropertiesHelper.php.html#8">Drupal\Core\TypedData\TypedDataInternalPropertiesHelper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedData.php.html#17">Drupal\Core\TypedData\TypedData</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PrimitiveBase.php.html#8">Drupal\Core\TypedData\PrimitiveBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/Timestamp.php.html#16">Drupal\Core\TypedData\Plugin\DataType\Timestamp</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/TimeSpan.php.html#23">Drupal\Core\TypedData\Plugin\DataType\TimeSpan</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#27">Drupal\Core\TypedData\Plugin\DataType\Map</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#8">Drupal\Core\TypedData\DataDefinition</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/LanguageReference.php.html#23">Drupal\Core\TypedData\Plugin\DataType\LanguageReference</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/Language.php.html#20">Drupal\Core\TypedData\Plugin\DataType\Language</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#26">Drupal\Core\TypedData\Plugin\DataType\ItemList</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/IntegerData.php.html#19">Drupal\Core\TypedData\Plugin\DataType\IntegerData</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/FloatData.php.html#19">Drupal\Core\TypedData\Plugin\DataType\FloatData</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/DurationIso8601.php.html#17">Drupal\Core\TypedData\Plugin\DataType\DurationIso8601</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/DateTimeIso8601.php.html#18">Drupal\Core\TypedData\Plugin\DataType\DateTimeIso8601</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/BooleanData.php.html#19">Drupal\Core\TypedData\Plugin\DataType\BooleanData</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/BinaryData.php.html#20">Drupal\Core\TypedData\Plugin\DataType\BinaryData</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MapDataDefinition.php.html#8">Drupal\Core\TypedData\MapDataDefinition</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ListDataDefinition.php.html#8">Drupal\Core\TypedData\ListDataDefinition</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataReferenceTargetDefinition.php.html#17">Drupal\Core\TypedData\DataReferenceTargetDefinition</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataReferenceDefinition.php.html#13">Drupal\Core\TypedData\DataReferenceDefinition</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataReferenceBase.php.html#17">Drupal\Core\TypedData\DataReferenceBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/TypedDataAwareValidatorTrait.php.html#13">TypedDataAwareValidatorTrait</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#26">Drupal\Core\TypedData\Plugin\DataType\ItemList</a></td><td class="text-right">2970</td></tr>
+       <tr><td><a href="DataDefinition.php.html#8">Drupal\Core\TypedData\DataDefinition</a></td><td class="text-right">2162</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#27">Drupal\Core\TypedData\Plugin\DataType\Map</a></td><td class="text-right">1806</td></tr>
+       <tr><td><a href="Validation/RecursiveContextualValidator.php.html#31">Drupal\Core\TypedData\Validation\RecursiveContextualValidator</a></td><td class="text-right">1260</td></tr>
+       <tr><td><a href="TypedDataManager.php.html#21">Drupal\Core\TypedData\TypedDataManager</a></td><td class="text-right">1190</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#21">Drupal\Core\TypedData\Validation\ExecutionContext</a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="TypedData.php.html#17">Drupal\Core\TypedData\TypedData</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="ComputedItemListTrait.php.html#15">ComputedItemListTrait</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="Plugin/DataType/Language.php.html#20">Drupal\Core\TypedData\Plugin\DataType\Language</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="ListDataDefinition.php.html#8">Drupal\Core\TypedData\ListDataDefinition</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Plugin/DataType/BinaryData.php.html#20">Drupal\Core\TypedData\Plugin\DataType\BinaryData</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Validation/ConstraintViolationBuilder.php.html#19">Drupal\Core\TypedData\Validation\ConstraintViolationBuilder</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Validation/RecursiveValidator.php.html#18">Drupal\Core\TypedData\Validation\RecursiveValidator</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="MapDataDefinition.php.html#8">Drupal\Core\TypedData\MapDataDefinition</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="DataReferenceBase.php.html#17">Drupal\Core\TypedData\DataReferenceBase</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Plugin/DataType/DateTimeIso8601.php.html#18">Drupal\Core\TypedData\Plugin\DataType\DateTimeIso8601</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ComplexDataDefinitionBase.php.html#8">Drupal\Core\TypedData\ComplexDataDefinitionBase</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Plugin/DataType/Timestamp.php.html#16">Drupal\Core\TypedData\Plugin\DataType\Timestamp</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Plugin/DataType/TimeSpan.php.html#23">Drupal\Core\TypedData\Plugin\DataType\TimeSpan</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Plugin/DataType/DurationIso8601.php.html#17">Drupal\Core\TypedData\Plugin\DataType\DurationIso8601</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="DataReferenceDefinition.php.html#13">Drupal\Core\TypedData\DataReferenceDefinition</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PrimitiveBase.php.html#8">Drupal\Core\TypedData\PrimitiveBase</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="TypedDataTrait.php.html#8">TypedDataTrait</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/DataType/LanguageReference.php.html#23">Drupal\Core\TypedData\Plugin\DataType\LanguageReference</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Validation/TypedDataAwareValidatorTrait.php.html#13">TypedDataAwareValidatorTrait</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ComplexDataDefinitionBase.php.html#25"><abbr title="Drupal\Core\TypedData\ComplexDataDefinitionBase::getPropertyDefinition">getPropertyDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ConstraintViolationBuilder.php.html#176"><abbr title="Drupal\Core\TypedData\Validation\ConstraintViolationBuilder::setInvalidValue">setInvalidValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedDataManager.php.html#218"><abbr title="Drupal\Core\TypedData\TypedDataManager::getValidator">getValidator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedDataManager.php.html#232"><abbr title="Drupal\Core\TypedData\TypedDataManager::setValidationConstraintManager">setValidationConstraintManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedDataManager.php.html#239"><abbr title="Drupal\Core\TypedData\TypedDataManager::getValidationConstraintManager">getValidationConstraintManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedDataManager.php.html#246"><abbr title="Drupal\Core\TypedData\TypedDataManager::getDefaultConstraints">getDefaultConstraints</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedDataManager.php.html#272"><abbr title="Drupal\Core\TypedData\TypedDataManager::clearCachedDefinitions">clearCachedDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedDataManager.php.html#280"><abbr title="Drupal\Core\TypedData\TypedDataManager::getCanonicalRepresentation">getCanonicalRepresentation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ConstraintViolationBuilder.php.html#120"><abbr title="Drupal\Core\TypedData\Validation\ConstraintViolationBuilder::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ConstraintViolationBuilder.php.html#136"><abbr title="Drupal\Core\TypedData\Validation\ConstraintViolationBuilder::atPath">atPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ConstraintViolationBuilder.php.html#146"><abbr title="Drupal\Core\TypedData\Validation\ConstraintViolationBuilder::setParameter">setParameter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ConstraintViolationBuilder.php.html#156"><abbr title="Drupal\Core\TypedData\Validation\ConstraintViolationBuilder::setParameters">setParameters</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ConstraintViolationBuilder.php.html#166"><abbr title="Drupal\Core\TypedData\Validation\ConstraintViolationBuilder::setTranslationDomain">setTranslationDomain</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ConstraintViolationBuilder.php.html#186"><abbr title="Drupal\Core\TypedData\Validation\ConstraintViolationBuilder::setPlural">setPlural</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedDataManager.php.html#151"><abbr title="Drupal\Core\TypedData\TypedDataManager::getPropertyInstance">getPropertyInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ConstraintViolationBuilder.php.html#196"><abbr title="Drupal\Core\TypedData\Validation\ConstraintViolationBuilder::setCode">setCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ConstraintViolationBuilder.php.html#206"><abbr title="Drupal\Core\TypedData\Validation\ConstraintViolationBuilder::setCause">setCause</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ConstraintViolationBuilder.php.html#216"><abbr title="Drupal\Core\TypedData\Validation\ConstraintViolationBuilder::addViolation">addViolation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#123"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#134"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::setNode">setNode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#144"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::setGroup">setGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#151"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::setConstraint">setConstraint</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#158"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::addViolation">addViolation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#172"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::buildViolation">buildViolation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#179"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::getViolations">getViolations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#186"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::getValidator">getValidator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedDataManager.php.html#211"><abbr title="Drupal\Core\TypedData\TypedDataManager::setValidator">setValidator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedDataManager.php.html#144"><abbr title="Drupal\Core\TypedData\TypedDataManager::getInstance">getInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#200"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::getValue">getValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedData.php.html#119"><abbr title="Drupal\Core\TypedData\TypedData::getConstraints">getConstraints</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/Timestamp.php.html#37"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Timestamp::setDateTime">setDateTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PrimitiveBase.php.html#20"><abbr title="Drupal\Core\TypedData\PrimitiveBase::getValue">getValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PrimitiveBase.php.html#27"><abbr title="Drupal\Core\TypedData\PrimitiveBase::setValue">setValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedData.php.html#46"><abbr title="Drupal\Core\TypedData\TypedData::createInstance">createInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedData.php.html#64"><abbr title="Drupal\Core\TypedData\TypedData::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedData.php.html#73"><abbr title="Drupal\Core\TypedData\TypedData::getPluginId">getPluginId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedData.php.html#80"><abbr title="Drupal\Core\TypedData\TypedData::getPluginDefinition">getPluginDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedData.php.html#87"><abbr title="Drupal\Core\TypedData\TypedData::getDataDefinition">getDataDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedData.php.html#94"><abbr title="Drupal\Core\TypedData\TypedData::getValue">getValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedData.php.html#101"><abbr title="Drupal\Core\TypedData\TypedData::setValue">setValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedData.php.html#112"><abbr title="Drupal\Core\TypedData\TypedData::getString">getString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedData.php.html#131"><abbr title="Drupal\Core\TypedData\TypedData::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedDataManager.php.html#132"><abbr title="Drupal\Core\TypedData\TypedDataManager::createListDataDefinition">createListDataDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedData.php.html#138"><abbr title="Drupal\Core\TypedData\TypedData::applyDefaultValue">applyDefaultValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedData.php.html#147"><abbr title="Drupal\Core\TypedData\TypedData::setContext">setContext</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedData.php.html#155"><abbr title="Drupal\Core\TypedData\TypedData::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedData.php.html#162"><abbr title="Drupal\Core\TypedData\TypedData::getRoot">getRoot</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedData.php.html#173"><abbr title="Drupal\Core\TypedData\TypedData::getPropertyPath">getPropertyPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedData.php.html#191"><abbr title="Drupal\Core\TypedData\TypedData::getParent">getParent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedDataInternalPropertiesHelper.php.html#19"><abbr title="Drupal\Core\TypedData\TypedDataInternalPropertiesHelper::getNonInternalProperties">getNonInternalProperties</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedDataManager.php.html#65"><abbr title="Drupal\Core\TypedData\TypedDataManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedDataManager.php.html#76"><abbr title="Drupal\Core\TypedData\TypedDataManager::createInstance">createInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedDataManager.php.html#99"><abbr title="Drupal\Core\TypedData\TypedDataManager::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedDataManager.php.html#114"><abbr title="Drupal\Core\TypedData\TypedDataManager::createDataDefinition">createDataDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#193"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::getRoot">getRoot</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#207"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::getObject">getObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/TimeSpan.php.html#39"><abbr title="Drupal\Core\TypedData\Plugin\DataType\TimeSpan::setDuration">setDuration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComputedItemListTrait.php.html#50"><abbr title="ComputedItemListTrait::setValue">setValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/RecursiveValidator.php.html#88"><abbr title="Drupal\Core\TypedData\Validation\RecursiveValidator::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/RecursiveValidator.php.html#97"><abbr title="Drupal\Core\TypedData\Validation\RecursiveValidator::validateProperty">validateProperty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/RecursiveValidator.php.html#106"><abbr title="Drupal\Core\TypedData\Validation\RecursiveValidator::validatePropertyValue">validatePropertyValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/TypedDataMetadata.php.html#32"><abbr title="Drupal\Core\TypedData\Validation\TypedDataMetadata::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/TypedDataMetadata.php.html#39"><abbr title="Drupal\Core\TypedData\Validation\TypedDataMetadata::accept">accept</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/TypedDataMetadata.php.html#46"><abbr title="Drupal\Core\TypedData\Validation\TypedDataMetadata::findConstraints">findConstraints</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/TypedDataMetadata.php.html#53"><abbr title="Drupal\Core\TypedData\Validation\TypedDataMetadata::getConstraints">getConstraints</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/TypedDataMetadata.php.html#60"><abbr title="Drupal\Core\TypedData\Validation\TypedDataMetadata::getTraversalStrategy">getTraversalStrategy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/TypedDataMetadata.php.html#67"><abbr title="Drupal\Core\TypedData\Validation\TypedDataMetadata::getCascadingStrategy">getCascadingStrategy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComputedItemListTrait.php.html#32"><abbr title="ComputedItemListTrait::ensureComputedValue">ensureComputedValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComputedItemListTrait.php.html#42"><abbr title="ComputedItemListTrait::getValue">getValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComputedItemListTrait.php.html#61"><abbr title="ComputedItemListTrait::getString">getString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/RecursiveValidator.php.html#71"><abbr title="Drupal\Core\TypedData\Validation\RecursiveValidator::getMetadataFor">getMetadataFor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComputedItemListTrait.php.html#69"><abbr title="ComputedItemListTrait::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComputedItemListTrait.php.html#89"><abbr title="ComputedItemListTrait::set">set</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComputedItemListTrait.php.html#97"><abbr title="ComputedItemListTrait::appendItem">appendItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComputedItemListTrait.php.html#105"><abbr title="ComputedItemListTrait::removeItem">removeItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComputedItemListTrait.php.html#113"><abbr title="ComputedItemListTrait::isEmpty">isEmpty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComputedItemListTrait.php.html#121"><abbr title="ComputedItemListTrait::offsetExists">offsetExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComputedItemListTrait.php.html#129"><abbr title="ComputedItemListTrait::getIterator">getIterator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComputedItemListTrait.php.html#137"><abbr title="ComputedItemListTrait::count">count</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComputedItemListTrait.php.html#145"><abbr title="ComputedItemListTrait::applyDefaultValue">applyDefaultValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedDataTrait.php.html#25"><abbr title="TypedDataTrait::setTypedDataManager">setTypedDataManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TypedDataTrait.php.html#36"><abbr title="TypedDataTrait::getTypedDataManager">getTypedDataManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/RecursiveValidator.php.html#81"><abbr title="Drupal\Core\TypedData\Validation\RecursiveValidator::hasMetadataFor">hasMetadataFor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/RecursiveValidator.php.html#61"><abbr title="Drupal\Core\TypedData\Validation\RecursiveValidator::inContext">inContext</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#214"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::getMetadata">getMetadata</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#298"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::markObjectAsInitialized">markObjectAsInitialized</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#221"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::getGroup">getGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#228"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::getClassName">getClassName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#235"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::getPropertyName">getPropertyName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#242"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::getPropertyPath">getPropertyPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#249"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::addViolationAt">addViolationAt</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#256"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#263"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::markConstraintAsValidated">markConstraintAsValidated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#270"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::isConstraintValidated">isConstraintValidated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#277"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::validateValue">validateValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#284"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::markGroupAsValidated">markGroupAsValidated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#291"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::isGroupValidated">isGroupValidated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#305"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::isObjectInitialized">isObjectInitialized</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/RecursiveValidator.php.html#54"><abbr title="Drupal\Core\TypedData\Validation\RecursiveValidator::startContext">startContext</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#312"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::getMetadataFactory">getMetadataFactory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContextFactory.php.html#36"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContextFactory::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/ExecutionContextFactory.php.html#45"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContextFactory::createContext">createContext</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/RecursiveContextualValidator.php.html#66"><abbr title="Drupal\Core\TypedData\Validation\RecursiveContextualValidator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/RecursiveContextualValidator.php.html#76"><abbr title="Drupal\Core\TypedData\Validation\RecursiveContextualValidator::atPath">atPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/RecursiveContextualValidator.php.html#85"><abbr title="Drupal\Core\TypedData\Validation\RecursiveContextualValidator::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/RecursiveContextualValidator.php.html#121"><abbr title="Drupal\Core\TypedData\Validation\RecursiveContextualValidator::validateNode">validateNode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/RecursiveContextualValidator.php.html#178"><abbr title="Drupal\Core\TypedData\Validation\RecursiveContextualValidator::validateConstraints">validateConstraints</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/RecursiveContextualValidator.php.html#203"><abbr title="Drupal\Core\TypedData\Validation\RecursiveContextualValidator::getViolations">getViolations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/RecursiveContextualValidator.php.html#210"><abbr title="Drupal\Core\TypedData\Validation\RecursiveContextualValidator::validateProperty">validateProperty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/RecursiveContextualValidator.php.html#229"><abbr title="Drupal\Core\TypedData\Validation\RecursiveContextualValidator::validatePropertyValue">validatePropertyValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/RecursiveValidator.php.html#45"><abbr title="Drupal\Core\TypedData\Validation\RecursiveValidator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/Timestamp.php.html#28"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Timestamp::getDateTime">getDateTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/TimeSpan.php.html#28"><abbr title="Drupal\Core\TypedData\Plugin\DataType\TimeSpan::getDuration">getDuration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComplexDataDefinitionBase.php.html#35"><abbr title="Drupal\Core\TypedData\ComplexDataDefinitionBase::getMainPropertyName">getMainPropertyName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataReferenceDefinition.php.html#37"><abbr title="Drupal\Core\TypedData\DataReferenceDefinition::createFromDataType">createFromDataType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#329"><abbr title="Drupal\Core\TypedData\DataDefinition::offsetSet">offsetSet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#339"><abbr title="Drupal\Core\TypedData\DataDefinition::offsetUnset">offsetUnset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#348"><abbr title="Drupal\Core\TypedData\DataDefinition::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#355"><abbr title="Drupal\Core\TypedData\DataDefinition::__sleep">__sleep</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#365"><abbr title="Drupal\Core\TypedData\DataDefinition::isInternal">isInternal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#381"><abbr title="Drupal\Core\TypedData\DataDefinition::setInternal">setInternal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataReferenceBase.php.html#29"><abbr title="Drupal\Core\TypedData\DataReferenceBase::getTarget">getTarget</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataReferenceBase.php.html#36"><abbr title="Drupal\Core\TypedData\DataReferenceBase::getValue">getValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataReferenceBase.php.html#45"><abbr title="Drupal\Core\TypedData\DataReferenceBase::setValue">setValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataReferenceBase.php.html#56"><abbr title="Drupal\Core\TypedData\DataReferenceBase::getString">getString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataReferenceDefinition.php.html#28"><abbr title="Drupal\Core\TypedData\DataReferenceDefinition::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataReferenceDefinition.php.html#48"><abbr title="Drupal\Core\TypedData\DataReferenceDefinition::getTargetDefinition">getTargetDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#304"><abbr title="Drupal\Core\TypedData\DataDefinition::offsetExists">offsetExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataReferenceDefinition.php.html#60"><abbr title="Drupal\Core\TypedData\DataReferenceDefinition::setTargetDefinition">setTargetDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataReferenceTargetDefinition.php.html#22"><abbr title="Drupal\Core\TypedData\DataReferenceTargetDefinition::getConstraints">getConstraints</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ListDataDefinition.php.html#26"><abbr title="Drupal\Core\TypedData\ListDataDefinition::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ListDataDefinition.php.html#33"><abbr title="Drupal\Core\TypedData\ListDataDefinition::createFromDataType">createFromDataType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ListDataDefinition.php.html#43"><abbr title="Drupal\Core\TypedData\ListDataDefinition::createFromItemType">createFromItemType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ListDataDefinition.php.html#50"><abbr title="Drupal\Core\TypedData\ListDataDefinition::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ListDataDefinition.php.html#58"><abbr title="Drupal\Core\TypedData\ListDataDefinition::getDataType">getDataType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ListDataDefinition.php.html#65"><abbr title="Drupal\Core\TypedData\ListDataDefinition::setDataType">setDataType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ListDataDefinition.php.html#74"><abbr title="Drupal\Core\TypedData\ListDataDefinition::getClass">getClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ListDataDefinition.php.html#92"><abbr title="Drupal\Core\TypedData\ListDataDefinition::getItemDefinition">getItemDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ListDataDefinition.php.html#104"><abbr title="Drupal\Core\TypedData\ListDataDefinition::setItemDefinition">setItemDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#316"><abbr title="Drupal\Core\TypedData\DataDefinition::offsetGet">offsetGet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#293"><abbr title="Drupal\Core\TypedData\DataDefinition::addConstraint">addConstraint</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MapDataDefinition.php.html#25"><abbr title="Drupal\Core\TypedData\MapDataDefinition::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#123"><abbr title="Drupal\Core\TypedData\DataDefinition::isReadOnly">isReadOnly</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ComplexDataDefinitionBase.php.html#42"><abbr title="Drupal\Core\TypedData\ComplexDataDefinitionBase::__sleep">__sleep</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#28"><abbr title="Drupal\Core\TypedData\DataDefinition::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#36"><abbr title="Drupal\Core\TypedData\DataDefinition::createFromDataType">createFromDataType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#46"><abbr title="Drupal\Core\TypedData\DataDefinition::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#53"><abbr title="Drupal\Core\TypedData\DataDefinition::getDataType">getDataType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#66"><abbr title="Drupal\Core\TypedData\DataDefinition::setDataType">setDataType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#74"><abbr title="Drupal\Core\TypedData\DataDefinition::getLabel">getLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#87"><abbr title="Drupal\Core\TypedData\DataDefinition::setLabel">setLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#95"><abbr title="Drupal\Core\TypedData\DataDefinition::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#108"><abbr title="Drupal\Core\TypedData\DataDefinition::setDescription">setDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#116"><abbr title="Drupal\Core\TypedData\DataDefinition::isList">isList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#140"><abbr title="Drupal\Core\TypedData\DataDefinition::setReadOnly">setReadOnly</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#285"><abbr title="Drupal\Core\TypedData\DataDefinition::setConstraints">setConstraints</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#148"><abbr title="Drupal\Core\TypedData\DataDefinition::isComputed">isComputed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#161"><abbr title="Drupal\Core\TypedData\DataDefinition::setComputed">setComputed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#169"><abbr title="Drupal\Core\TypedData\DataDefinition::isRequired">isRequired</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#182"><abbr title="Drupal\Core\TypedData\DataDefinition::setRequired">setRequired</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#190"><abbr title="Drupal\Core\TypedData\DataDefinition::getClass">getClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#209"><abbr title="Drupal\Core\TypedData\DataDefinition::setClass">setClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#217"><abbr title="Drupal\Core\TypedData\DataDefinition::getSettings">getSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#230"><abbr title="Drupal\Core\TypedData\DataDefinition::setSettings">setSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#238"><abbr title="Drupal\Core\TypedData\DataDefinition::getSetting">getSetting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#253"><abbr title="Drupal\Core\TypedData\DataDefinition::setSetting">setSetting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#261"><abbr title="Drupal\Core\TypedData\DataDefinition::getConstraints">getConstraints</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DataDefinition.php.html#270"><abbr title="Drupal\Core\TypedData\DataDefinition::getConstraint">getConstraint</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ListDataDefinition.php.html#112"><abbr title="Drupal\Core\TypedData\ListDataDefinition::__clone">__clone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MapDataDefinition.php.html#33"><abbr title="Drupal\Core\TypedData\MapDataDefinition::createFromDataType">createFromDataType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/StringData.php.html#24"><abbr title="Drupal\Core\TypedData\Plugin\DataType\StringData::getCastedValue">getCastedValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#53"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Map::getValue">getValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#236"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::getIterator">getIterator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#243"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::count">count</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#250"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::isEmpty">isEmpty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#268"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::filter">filter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#290"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::onChange">onChange</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#300"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::__clone">__clone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/Language.php.html#39"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Language::getValue">getValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/Language.php.html#51"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Language::setValue">setValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/Language.php.html#73"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Language::getString">getString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/Language.php.html#81"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Language::id">id</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/LanguageReference.php.html#28"><abbr title="Drupal\Core\TypedData\Plugin\DataType\LanguageReference::getTargetIdentifier">getTargetIdentifier</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#74"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Map::setValue">setValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#222"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::createItem">createItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#97"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Map::getString">getString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#109"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Map::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#124"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Map::set">set</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#143"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Map::writePropertyValue">writePropertyValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#156"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Map::getProperties">getProperties</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#169"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Map::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#180"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Map::getIterator">getIterator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#187"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Map::isEmpty">isEmpty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#207"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Map::__clone">__clone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#222"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Map::onChange">onChange</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#232"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Map::applyDefaultValue">applyDefaultValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#229"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::getItemDefinition">getItemDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#210"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::appendItem">appendItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MapDataDefinition.php.html#40"><abbr title="Drupal\Core\TypedData\MapDataDefinition::getPropertyDefinitions">getPropertyDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/DurationIso8601.php.html#33"><abbr title="Drupal\Core\TypedData\Plugin\DataType\DurationIso8601::setDuration">setDuration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MapDataDefinition.php.html#57"><abbr title="Drupal\Core\TypedData\MapDataDefinition::setPropertyDefinition">setPropertyDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MapDataDefinition.php.html#70"><abbr title="Drupal\Core\TypedData\MapDataDefinition::getMainPropertyName">getMainPropertyName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MapDataDefinition.php.html#82"><abbr title="Drupal\Core\TypedData\MapDataDefinition::setMainPropertyName">setMainPropertyName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/BinaryData.php.html#39"><abbr title="Drupal\Core\TypedData\Plugin\DataType\BinaryData::getValue">getValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/BinaryData.php.html#53"><abbr title="Drupal\Core\TypedData\Plugin\DataType\BinaryData::setValue">setValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/BinaryData.php.html#76"><abbr title="Drupal\Core\TypedData\Plugin\DataType\BinaryData::getString">getString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/BinaryData.php.html#88"><abbr title="Drupal\Core\TypedData\Plugin\DataType\BinaryData::getCastedValue">getCastedValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/BooleanData.php.html#24"><abbr title="Drupal\Core\TypedData\Plugin\DataType\BooleanData::getCastedValue">getCastedValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/DateTimeIso8601.php.html#23"><abbr title="Drupal\Core\TypedData\Plugin\DataType\DateTimeIso8601::getDateTime">getDateTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/DateTimeIso8601.php.html#40"><abbr title="Drupal\Core\TypedData\Plugin\DataType\DateTimeIso8601::setDateTime">setDateTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/DurationIso8601.php.html#22"><abbr title="Drupal\Core\TypedData\Plugin\DataType\DurationIso8601::getDuration">getDuration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/FloatData.php.html#24"><abbr title="Drupal\Core\TypedData\Plugin\DataType\FloatData::getCastedValue">getCastedValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#197"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::offsetSet">offsetSet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/IntegerData.php.html#24"><abbr title="Drupal\Core\TypedData\Plugin\DataType\IntegerData::getCastedValue">getCastedValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#38"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::getValue">getValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#52"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::setValue">setValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#84"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::getString">getString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#96"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#113"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::set">set</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#135"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::removeItem">removeItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#155"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::rekey">rekey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#168"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::first">first</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#175"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::offsetExists">offsetExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#183"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::offsetUnset">offsetUnset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#190"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::offsetGet">offsetGet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/TypedDataAwareValidatorTrait.php.html#21"><abbr title="TypedDataAwareValidatorTrait::getTypedData">getTypedData</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Validation/RecursiveContextualValidator.php.html#121"><abbr title="Drupal\Core\TypedData\Validation\RecursiveContextualValidator::validateNode">validateNode</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#187"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Map::isEmpty">isEmpty</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="TypedDataManager.php.html#151"><abbr title="Drupal\Core\TypedData\TypedDataManager::getPropertyInstance">getPropertyInstance</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#52"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::setValue">setValue</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#74"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Map::setValue">setValue</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#96"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::get">get</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#113"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::set">set</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#250"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::isEmpty">isEmpty</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Plugin/DataType/Language.php.html#51"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Language::setValue">setValue</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Validation/RecursiveContextualValidator.php.html#210"><abbr title="Drupal\Core\TypedData\Validation\RecursiveContextualValidator::validateProperty">validateProperty</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#53"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Map::getValue">getValue</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Validation/RecursiveContextualValidator.php.html#85"><abbr title="Drupal\Core\TypedData\Validation\RecursiveContextualValidator::validate">validate</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Validation/RecursiveContextualValidator.php.html#229"><abbr title="Drupal\Core\TypedData\Validation\RecursiveContextualValidator::validatePropertyValue">validatePropertyValue</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Plugin/DataType/BinaryData.php.html#53"><abbr title="Drupal\Core\TypedData\Plugin\DataType\BinaryData::setValue">setValue</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="TypedDataManager.php.html#246"><abbr title="Drupal\Core\TypedData\TypedDataManager::getDefaultConstraints">getDefaultConstraints</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Validation/RecursiveContextualValidator.php.html#178"><abbr title="Drupal\Core\TypedData\Validation\RecursiveContextualValidator::validateConstraints">validateConstraints</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#156"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Map::getProperties">getProperties</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="TypedData.php.html#173"><abbr title="Drupal\Core\TypedData\TypedData::getPropertyPath">getPropertyPath</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Plugin/DataType/BinaryData.php.html#39"><abbr title="Drupal\Core\TypedData\Plugin\DataType\BinaryData::getValue">getValue</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#268"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::filter">filter</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="TypedData.php.html#101"><abbr title="Drupal\Core\TypedData\TypedData::setValue">setValue</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/DataType/Language.php.html#39"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Language::getValue">getValue</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/DataType/TimeSpan.php.html#39"><abbr title="Drupal\Core\TypedData\Plugin\DataType\TimeSpan::setDuration">setDuration</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PrimitiveBase.php.html#27"><abbr title="Drupal\Core\TypedData\PrimitiveBase::setValue">setValue</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#135"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::removeItem">removeItem</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#109"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Map::get">get</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/DataType/Timestamp.php.html#37"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Timestamp::setDateTime">setDateTime</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TypedDataManager.php.html#76"><abbr title="Drupal\Core\TypedData\TypedDataManager::createInstance">createInstance</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/DataType/Language.php.html#81"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Language::id">id</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/DataType/DurationIso8601.php.html#33"><abbr title="Drupal\Core\TypedData\Plugin\DataType\DurationIso8601::setDuration">setDuration</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ListDataDefinition.php.html#74"><abbr title="Drupal\Core\TypedData\ListDataDefinition::getClass">getClass</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ComputedItemListTrait.php.html#69"><abbr title="ComputedItemListTrait::get">get</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Validation/ConstraintViolationBuilder.php.html#216"><abbr title="Drupal\Core\TypedData\Validation\ConstraintViolationBuilder::addViolation">addViolation</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#222"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Map::onChange">onChange</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TypedDataManager.php.html#280"><abbr title="Drupal\Core\TypedData\TypedDataManager::getCanonicalRepresentation">getCanonicalRepresentation</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="DataReferenceBase.php.html#45"><abbr title="Drupal\Core\TypedData\DataReferenceBase::setValue">setValue</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/DataType/DateTimeIso8601.php.html#23"><abbr title="Drupal\Core\TypedData\Plugin\DataType\DateTimeIso8601::getDateTime">getDateTime</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/DataType/DateTimeIso8601.php.html#40"><abbr title="Drupal\Core\TypedData\Plugin\DataType\DateTimeIso8601::setDateTime">setDateTime</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TypedDataManager.php.html#114"><abbr title="Drupal\Core\TypedData\TypedDataManager::createDataDefinition">createDataDefinition</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TypedDataManager.php.html#218"><abbr title="Drupal\Core\TypedData\TypedDataManager::getValidator">getValidator</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TypedData.php.html#119"><abbr title="Drupal\Core\TypedData\TypedData::getConstraints">getConstraints</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TypedDataManager.php.html#132"><abbr title="Drupal\Core\TypedData\TypedDataManager::createListDataDefinition">createListDataDefinition</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TypedData.php.html#162"><abbr title="Drupal\Core\TypedData\TypedData::getRoot">getRoot</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Validation/ExecutionContext.php.html#158"><abbr title="Drupal\Core\TypedData\Validation\ExecutionContext::addViolation">addViolation</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/DataType/Timestamp.php.html#28"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Timestamp::getDateTime">getDateTime</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Validation/RecursiveValidator.php.html#71"><abbr title="Drupal\Core\TypedData\Validation\RecursiveValidator::getMetadataFor">getMetadataFor</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Validation/RecursiveValidator.php.html#106"><abbr title="Drupal\Core\TypedData\Validation\RecursiveValidator::validatePropertyValue">validatePropertyValue</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ComputedItemListTrait.php.html#32"><abbr title="ComputedItemListTrait::ensureComputedValue">ensureComputedValue</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/DataType/TimeSpan.php.html#28"><abbr title="Drupal\Core\TypedData\Plugin\DataType\TimeSpan::getDuration">getDuration</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TypedDataTrait.php.html#36"><abbr title="TypedDataTrait::getTypedDataManager">getTypedDataManager</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#232"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Map::applyDefaultValue">applyDefaultValue</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TypedDataManager.php.html#99"><abbr title="Drupal\Core\TypedData\TypedDataManager::create">create</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ComplexDataDefinitionBase.php.html#25"><abbr title="Drupal\Core\TypedData\ComplexDataDefinitionBase::getPropertyDefinition">getPropertyDefinition</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#207"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Map::__clone">__clone</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ListDataDefinition.php.html#65"><abbr title="Drupal\Core\TypedData\ListDataDefinition::setDataType">setDataType</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DataDefinition.php.html#74"><abbr title="Drupal\Core\TypedData\DataDefinition::getLabel">getLabel</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DataDefinition.php.html#95"><abbr title="Drupal\Core\TypedData\DataDefinition::getDescription">getDescription</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DataDefinition.php.html#123"><abbr title="Drupal\Core\TypedData\DataDefinition::isReadOnly">isReadOnly</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DataDefinition.php.html#190"><abbr title="Drupal\Core\TypedData\DataDefinition::getClass">getClass</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DataDefinition.php.html#217"><abbr title="Drupal\Core\TypedData\DataDefinition::getSettings">getSettings</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DataDefinition.php.html#238"><abbr title="Drupal\Core\TypedData\DataDefinition::getSetting">getSetting</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DataDefinition.php.html#261"><abbr title="Drupal\Core\TypedData\DataDefinition::getConstraints">getConstraints</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DataDefinition.php.html#270"><abbr title="Drupal\Core\TypedData\DataDefinition::getConstraint">getConstraint</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DataDefinition.php.html#304"><abbr title="Drupal\Core\TypedData\DataDefinition::offsetExists">offsetExists</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DataDefinition.php.html#316"><abbr title="Drupal\Core\TypedData\DataDefinition::offsetGet">offsetGet</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DataDefinition.php.html#365"><abbr title="Drupal\Core\TypedData\DataDefinition::isInternal">isInternal</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DataReferenceBase.php.html#36"><abbr title="Drupal\Core\TypedData\DataReferenceBase::getValue">getValue</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DataReferenceDefinition.php.html#37"><abbr title="Drupal\Core\TypedData\DataReferenceDefinition::createFromDataType">createFromDataType</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MapDataDefinition.php.html#40"><abbr title="Drupal\Core\TypedData\MapDataDefinition::getPropertyDefinitions">getPropertyDefinitions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#169"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Map::toArray">toArray</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MapDataDefinition.php.html#57"><abbr title="Drupal\Core\TypedData\MapDataDefinition::setPropertyDefinition">setPropertyDefinition</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/DataType/BinaryData.php.html#76"><abbr title="Drupal\Core\TypedData\Plugin\DataType\BinaryData::getString">getString</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/DataType/DurationIso8601.php.html#22"><abbr title="Drupal\Core\TypedData\Plugin\DataType\DurationIso8601::getDuration">getDuration</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#38"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::getValue">getValue</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#84"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::getString">getString</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#155"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::rekey">rekey</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#197"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::offsetSet">offsetSet</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#290"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::onChange">onChange</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/DataType/ItemList.php.html#300"><abbr title="Drupal\Core\TypedData\Plugin\DataType\ItemList::__clone">__clone</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/DataType/Language.php.html#73"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Language::getString">getString</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DataDefinition.php.html#53"><abbr title="Drupal\Core\TypedData\DataDefinition::getDataType">getDataType</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/DataType/LanguageReference.php.html#28"><abbr title="Drupal\Core\TypedData\Plugin\DataType\LanguageReference::getTargetIdentifier">getTargetIdentifier</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#97"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Map::getString">getString</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin/DataType/Map.php.html#143"><abbr title="Drupal\Core\TypedData\Plugin\DataType\Map::writePropertyValue">writePropertyValue</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Validation/TypedDataAwareValidatorTrait.php.html#21"><abbr title="TypedDataAwareValidatorTrait::getTypedData">getTypedData</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.33-16+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Fri Jun 12 8:21:00 AEST 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([33,0,0,0,0,0,0,0,0,0,0,6], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([226,0,0,0,0,0,0,0,0,0,0,2], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,0,"<a href=\"Annotation\/DataType.php.html#34\">Drupal\\Core\\TypedData\\Annotation\\DataType<\/a>"],[0,5,"<a href=\"ComplexDataDefinitionBase.php.html#8\">Drupal\\Core\\TypedData\\ComplexDataDefinitionBase<\/a>"],[0,46,"<a href=\"DataDefinition.php.html#8\">Drupal\\Core\\TypedData\\DataDefinition<\/a>"],[0,7,"<a href=\"DataReferenceBase.php.html#17\">Drupal\\Core\\TypedData\\DataReferenceBase<\/a>"],[0,5,"<a href=\"DataReferenceDefinition.php.html#13\">Drupal\\Core\\TypedData\\DataReferenceDefinition<\/a>"],[0,1,"<a href=\"DataReferenceTargetDefinition.php.html#17\">Drupal\\Core\\TypedData\\DataReferenceTargetDefinition<\/a>"],[100,0,"<a href=\"Exception\/MissingDataException.php.html#8\">Drupal\\Core\\TypedData\\Exception\\MissingDataException<\/a>"],[100,0,"<a href=\"Exception\/ReadOnlyException.php.html#8\">Drupal\\Core\\TypedData\\Exception\\ReadOnlyException<\/a>"],[0,13,"<a href=\"ListDataDefinition.php.html#8\">Drupal\\Core\\TypedData\\ListDataDefinition<\/a>"],[0,8,"<a href=\"MapDataDefinition.php.html#8\">Drupal\\Core\\TypedData\\MapDataDefinition<\/a>"],[100,0,"<a href=\"Plugin\/DataType\/Any.php.html#19\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Any<\/a>"],[0,12,"<a href=\"Plugin\/DataType\/BinaryData.php.html#20\">Drupal\\Core\\TypedData\\Plugin\\DataType\\BinaryData<\/a>"],[0,1,"<a href=\"Plugin\/DataType\/BooleanData.php.html#19\">Drupal\\Core\\TypedData\\Plugin\\DataType\\BooleanData<\/a>"],[0,6,"<a href=\"Plugin\/DataType\/DateTimeIso8601.php.html#18\">Drupal\\Core\\TypedData\\Plugin\\DataType\\DateTimeIso8601<\/a>"],[0,5,"<a href=\"Plugin\/DataType\/DurationIso8601.php.html#17\">Drupal\\Core\\TypedData\\Plugin\\DataType\\DurationIso8601<\/a>"],[100,0,"<a href=\"Plugin\/DataType\/Email.php.html#18\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Email<\/a>"],[0,1,"<a href=\"Plugin\/DataType\/FloatData.php.html#19\">Drupal\\Core\\TypedData\\Plugin\\DataType\\FloatData<\/a>"],[0,1,"<a href=\"Plugin\/DataType\/IntegerData.php.html#19\">Drupal\\Core\\TypedData\\Plugin\\DataType\\IntegerData<\/a>"],[0,54,"<a href=\"Plugin\/DataType\/ItemList.php.html#26\">Drupal\\Core\\TypedData\\Plugin\\DataType\\ItemList<\/a>"],[0,14,"<a href=\"Plugin\/DataType\/Language.php.html#20\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Language<\/a>"],[0,2,"<a href=\"Plugin\/DataType\/LanguageReference.php.html#23\">Drupal\\Core\\TypedData\\Plugin\\DataType\\LanguageReference<\/a>"],[0,42,"<a href=\"Plugin\/DataType\/Map.php.html#27\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Map<\/a>"],[0,1,"<a href=\"Plugin\/DataType\/StringData.php.html#19\">Drupal\\Core\\TypedData\\Plugin\\DataType\\StringData<\/a>"],[0,5,"<a href=\"Plugin\/DataType\/TimeSpan.php.html#23\">Drupal\\Core\\TypedData\\Plugin\\DataType\\TimeSpan<\/a>"],[0,5,"<a href=\"Plugin\/DataType\/Timestamp.php.html#16\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Timestamp<\/a>"],[100,0,"<a href=\"Plugin\/DataType\/Uri.php.html#17\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Uri<\/a>"],[0,4,"<a href=\"PrimitiveBase.php.html#8\">Drupal\\Core\\TypedData\\PrimitiveBase<\/a>"],[0,23,"<a href=\"TypedData.php.html#17\">Drupal\\Core\\TypedData\\TypedData<\/a>"],[0,1,"<a href=\"TypedDataInternalPropertiesHelper.php.html#8\">Drupal\\Core\\TypedData\\TypedDataInternalPropertiesHelper<\/a>"],[0,34,"<a href=\"TypedDataManager.php.html#21\">Drupal\\Core\\TypedData\\TypedDataManager<\/a>"],[0,12,"<a href=\"Validation\/ConstraintViolationBuilder.php.html#19\">Drupal\\Core\\TypedData\\Validation\\ConstraintViolationBuilder<\/a>"],[0,27,"<a href=\"Validation\/ExecutionContext.php.html#21\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext<\/a>"],[0,2,"<a href=\"Validation\/ExecutionContextFactory.php.html#16\">Drupal\\Core\\TypedData\\Validation\\ExecutionContextFactory<\/a>"],[0,35,"<a href=\"Validation\/RecursiveContextualValidator.php.html#31\">Drupal\\Core\\TypedData\\Validation\\RecursiveContextualValidator<\/a>"],[0,10,"<a href=\"Validation\/RecursiveValidator.php.html#18\">Drupal\\Core\\TypedData\\Validation\\RecursiveValidator<\/a>"],[0,6,"<a href=\"Validation\/TypedDataMetadata.php.html#17\">Drupal\\Core\\TypedData\\Validation\\TypedDataMetadata<\/a>"],[0,17,"<a href=\"ComputedItemListTrait.php.html#15\">ComputedItemListTrait<\/a>"],[0,3,"<a href=\"TypedDataTrait.php.html#8\">TypedDataTrait<\/a>"],[0,2,"<a href=\"Validation\/TypedDataAwareValidatorTrait.php.html#13\">TypedDataAwareValidatorTrait<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"ComplexDataDefinitionBase.php.html#20\">Drupal\\Core\\TypedData\\ComplexDataDefinitionBase::getPropertyDefinitions<\/a>"],[0,2,"<a href=\"ComplexDataDefinitionBase.php.html#25\">Drupal\\Core\\TypedData\\ComplexDataDefinitionBase::getPropertyDefinition<\/a>"],[0,1,"<a href=\"ComplexDataDefinitionBase.php.html#35\">Drupal\\Core\\TypedData\\ComplexDataDefinitionBase::getMainPropertyName<\/a>"],[0,1,"<a href=\"ComplexDataDefinitionBase.php.html#42\">Drupal\\Core\\TypedData\\ComplexDataDefinitionBase::__sleep<\/a>"],[0,1,"<a href=\"DataDefinition.php.html#28\">Drupal\\Core\\TypedData\\DataDefinition::create<\/a>"],[0,1,"<a href=\"DataDefinition.php.html#36\">Drupal\\Core\\TypedData\\DataDefinition::createFromDataType<\/a>"],[0,1,"<a href=\"DataDefinition.php.html#46\">Drupal\\Core\\TypedData\\DataDefinition::__construct<\/a>"],[0,2,"<a href=\"DataDefinition.php.html#53\">Drupal\\Core\\TypedData\\DataDefinition::getDataType<\/a>"],[0,1,"<a href=\"DataDefinition.php.html#66\">Drupal\\Core\\TypedData\\DataDefinition::setDataType<\/a>"],[0,2,"<a href=\"DataDefinition.php.html#74\">Drupal\\Core\\TypedData\\DataDefinition::getLabel<\/a>"],[0,1,"<a href=\"DataDefinition.php.html#87\">Drupal\\Core\\TypedData\\DataDefinition::setLabel<\/a>"],[0,2,"<a href=\"DataDefinition.php.html#95\">Drupal\\Core\\TypedData\\DataDefinition::getDescription<\/a>"],[0,1,"<a href=\"DataDefinition.php.html#108\">Drupal\\Core\\TypedData\\DataDefinition::setDescription<\/a>"],[0,1,"<a href=\"DataDefinition.php.html#116\">Drupal\\Core\\TypedData\\DataDefinition::isList<\/a>"],[0,2,"<a href=\"DataDefinition.php.html#123\">Drupal\\Core\\TypedData\\DataDefinition::isReadOnly<\/a>"],[0,1,"<a href=\"DataDefinition.php.html#140\">Drupal\\Core\\TypedData\\DataDefinition::setReadOnly<\/a>"],[0,1,"<a href=\"DataDefinition.php.html#148\">Drupal\\Core\\TypedData\\DataDefinition::isComputed<\/a>"],[0,1,"<a href=\"DataDefinition.php.html#161\">Drupal\\Core\\TypedData\\DataDefinition::setComputed<\/a>"],[0,1,"<a href=\"DataDefinition.php.html#169\">Drupal\\Core\\TypedData\\DataDefinition::isRequired<\/a>"],[0,1,"<a href=\"DataDefinition.php.html#182\">Drupal\\Core\\TypedData\\DataDefinition::setRequired<\/a>"],[0,2,"<a href=\"DataDefinition.php.html#190\">Drupal\\Core\\TypedData\\DataDefinition::getClass<\/a>"],[0,1,"<a href=\"DataDefinition.php.html#209\">Drupal\\Core\\TypedData\\DataDefinition::setClass<\/a>"],[0,2,"<a href=\"DataDefinition.php.html#217\">Drupal\\Core\\TypedData\\DataDefinition::getSettings<\/a>"],[0,1,"<a href=\"DataDefinition.php.html#230\">Drupal\\Core\\TypedData\\DataDefinition::setSettings<\/a>"],[0,2,"<a href=\"DataDefinition.php.html#238\">Drupal\\Core\\TypedData\\DataDefinition::getSetting<\/a>"],[0,1,"<a href=\"DataDefinition.php.html#253\">Drupal\\Core\\TypedData\\DataDefinition::setSetting<\/a>"],[0,2,"<a href=\"DataDefinition.php.html#261\">Drupal\\Core\\TypedData\\DataDefinition::getConstraints<\/a>"],[0,2,"<a href=\"DataDefinition.php.html#270\">Drupal\\Core\\TypedData\\DataDefinition::getConstraint<\/a>"],[0,1,"<a href=\"DataDefinition.php.html#285\">Drupal\\Core\\TypedData\\DataDefinition::setConstraints<\/a>"],[0,1,"<a href=\"DataDefinition.php.html#293\">Drupal\\Core\\TypedData\\DataDefinition::addConstraint<\/a>"],[0,2,"<a href=\"DataDefinition.php.html#304\">Drupal\\Core\\TypedData\\DataDefinition::offsetExists<\/a>"],[0,2,"<a href=\"DataDefinition.php.html#316\">Drupal\\Core\\TypedData\\DataDefinition::offsetGet<\/a>"],[0,1,"<a href=\"DataDefinition.php.html#329\">Drupal\\Core\\TypedData\\DataDefinition::offsetSet<\/a>"],[0,1,"<a href=\"DataDefinition.php.html#339\">Drupal\\Core\\TypedData\\DataDefinition::offsetUnset<\/a>"],[0,1,"<a href=\"DataDefinition.php.html#348\">Drupal\\Core\\TypedData\\DataDefinition::toArray<\/a>"],[0,1,"<a href=\"DataDefinition.php.html#355\">Drupal\\Core\\TypedData\\DataDefinition::__sleep<\/a>"],[0,2,"<a href=\"DataDefinition.php.html#365\">Drupal\\Core\\TypedData\\DataDefinition::isInternal<\/a>"],[0,1,"<a href=\"DataDefinition.php.html#381\">Drupal\\Core\\TypedData\\DataDefinition::setInternal<\/a>"],[0,1,"<a href=\"DataReferenceBase.php.html#29\">Drupal\\Core\\TypedData\\DataReferenceBase::getTarget<\/a>"],[0,2,"<a href=\"DataReferenceBase.php.html#36\">Drupal\\Core\\TypedData\\DataReferenceBase::getValue<\/a>"],[0,3,"<a href=\"DataReferenceBase.php.html#45\">Drupal\\Core\\TypedData\\DataReferenceBase::setValue<\/a>"],[0,1,"<a href=\"DataReferenceBase.php.html#56\">Drupal\\Core\\TypedData\\DataReferenceBase::getString<\/a>"],[0,1,"<a href=\"DataReferenceDefinition.php.html#28\">Drupal\\Core\\TypedData\\DataReferenceDefinition::create<\/a>"],[0,2,"<a href=\"DataReferenceDefinition.php.html#37\">Drupal\\Core\\TypedData\\DataReferenceDefinition::createFromDataType<\/a>"],[0,1,"<a href=\"DataReferenceDefinition.php.html#48\">Drupal\\Core\\TypedData\\DataReferenceDefinition::getTargetDefinition<\/a>"],[0,1,"<a href=\"DataReferenceDefinition.php.html#60\">Drupal\\Core\\TypedData\\DataReferenceDefinition::setTargetDefinition<\/a>"],[0,1,"<a href=\"DataReferenceTargetDefinition.php.html#22\">Drupal\\Core\\TypedData\\DataReferenceTargetDefinition::getConstraints<\/a>"],[0,1,"<a href=\"ListDataDefinition.php.html#26\">Drupal\\Core\\TypedData\\ListDataDefinition::create<\/a>"],[0,1,"<a href=\"ListDataDefinition.php.html#33\">Drupal\\Core\\TypedData\\ListDataDefinition::createFromDataType<\/a>"],[0,1,"<a href=\"ListDataDefinition.php.html#43\">Drupal\\Core\\TypedData\\ListDataDefinition::createFromItemType<\/a>"],[0,1,"<a href=\"ListDataDefinition.php.html#50\">Drupal\\Core\\TypedData\\ListDataDefinition::__construct<\/a>"],[0,1,"<a href=\"ListDataDefinition.php.html#58\">Drupal\\Core\\TypedData\\ListDataDefinition::getDataType<\/a>"],[0,2,"<a href=\"ListDataDefinition.php.html#65\">Drupal\\Core\\TypedData\\ListDataDefinition::setDataType<\/a>"],[0,3,"<a href=\"ListDataDefinition.php.html#74\">Drupal\\Core\\TypedData\\ListDataDefinition::getClass<\/a>"],[0,1,"<a href=\"ListDataDefinition.php.html#92\">Drupal\\Core\\TypedData\\ListDataDefinition::getItemDefinition<\/a>"],[0,1,"<a href=\"ListDataDefinition.php.html#104\">Drupal\\Core\\TypedData\\ListDataDefinition::setItemDefinition<\/a>"],[0,1,"<a href=\"ListDataDefinition.php.html#112\">Drupal\\Core\\TypedData\\ListDataDefinition::__clone<\/a>"],[0,1,"<a href=\"MapDataDefinition.php.html#25\">Drupal\\Core\\TypedData\\MapDataDefinition::create<\/a>"],[0,1,"<a href=\"MapDataDefinition.php.html#33\">Drupal\\Core\\TypedData\\MapDataDefinition::createFromDataType<\/a>"],[0,2,"<a href=\"MapDataDefinition.php.html#40\">Drupal\\Core\\TypedData\\MapDataDefinition::getPropertyDefinitions<\/a>"],[0,2,"<a href=\"MapDataDefinition.php.html#57\">Drupal\\Core\\TypedData\\MapDataDefinition::setPropertyDefinition<\/a>"],[0,1,"<a href=\"MapDataDefinition.php.html#70\">Drupal\\Core\\TypedData\\MapDataDefinition::getMainPropertyName<\/a>"],[0,1,"<a href=\"MapDataDefinition.php.html#82\">Drupal\\Core\\TypedData\\MapDataDefinition::setMainPropertyName<\/a>"],[0,4,"<a href=\"Plugin\/DataType\/BinaryData.php.html#39\">Drupal\\Core\\TypedData\\Plugin\\DataType\\BinaryData::getValue<\/a>"],[0,5,"<a href=\"Plugin\/DataType\/BinaryData.php.html#53\">Drupal\\Core\\TypedData\\Plugin\\DataType\\BinaryData::setValue<\/a>"],[0,2,"<a href=\"Plugin\/DataType\/BinaryData.php.html#76\">Drupal\\Core\\TypedData\\Plugin\\DataType\\BinaryData::getString<\/a>"],[0,1,"<a href=\"Plugin\/DataType\/BinaryData.php.html#88\">Drupal\\Core\\TypedData\\Plugin\\DataType\\BinaryData::getCastedValue<\/a>"],[0,1,"<a href=\"Plugin\/DataType\/BooleanData.php.html#24\">Drupal\\Core\\TypedData\\Plugin\\DataType\\BooleanData::getCastedValue<\/a>"],[0,3,"<a href=\"Plugin\/DataType\/DateTimeIso8601.php.html#23\">Drupal\\Core\\TypedData\\Plugin\\DataType\\DateTimeIso8601::getDateTime<\/a>"],[0,3,"<a href=\"Plugin\/DataType\/DateTimeIso8601.php.html#40\">Drupal\\Core\\TypedData\\Plugin\\DataType\\DateTimeIso8601::setDateTime<\/a>"],[0,2,"<a href=\"Plugin\/DataType\/DurationIso8601.php.html#22\">Drupal\\Core\\TypedData\\Plugin\\DataType\\DurationIso8601::getDuration<\/a>"],[0,3,"<a href=\"Plugin\/DataType\/DurationIso8601.php.html#33\">Drupal\\Core\\TypedData\\Plugin\\DataType\\DurationIso8601::setDuration<\/a>"],[0,1,"<a href=\"Plugin\/DataType\/FloatData.php.html#24\">Drupal\\Core\\TypedData\\Plugin\\DataType\\FloatData::getCastedValue<\/a>"],[0,1,"<a href=\"Plugin\/DataType\/IntegerData.php.html#24\">Drupal\\Core\\TypedData\\Plugin\\DataType\\IntegerData::getCastedValue<\/a>"],[0,2,"<a href=\"Plugin\/DataType\/ItemList.php.html#38\">Drupal\\Core\\TypedData\\Plugin\\DataType\\ItemList::getValue<\/a>"],[0,8,"<a href=\"Plugin\/DataType\/ItemList.php.html#52\">Drupal\\Core\\TypedData\\Plugin\\DataType\\ItemList::setValue<\/a>"],[0,2,"<a href=\"Plugin\/DataType\/ItemList.php.html#84\">Drupal\\Core\\TypedData\\Plugin\\DataType\\ItemList::getString<\/a>"],[0,6,"<a href=\"Plugin\/DataType\/ItemList.php.html#96\">Drupal\\Core\\TypedData\\Plugin\\DataType\\ItemList::get<\/a>"],[0,6,"<a href=\"Plugin\/DataType\/ItemList.php.html#113\">Drupal\\Core\\TypedData\\Plugin\\DataType\\ItemList::set<\/a>"],[0,3,"<a href=\"Plugin\/DataType\/ItemList.php.html#135\">Drupal\\Core\\TypedData\\Plugin\\DataType\\ItemList::removeItem<\/a>"],[0,2,"<a href=\"Plugin\/DataType\/ItemList.php.html#155\">Drupal\\Core\\TypedData\\Plugin\\DataType\\ItemList::rekey<\/a>"],[0,1,"<a href=\"Plugin\/DataType\/ItemList.php.html#168\">Drupal\\Core\\TypedData\\Plugin\\DataType\\ItemList::first<\/a>"],[0,1,"<a href=\"Plugin\/DataType\/ItemList.php.html#175\">Drupal\\Core\\TypedData\\Plugin\\DataType\\ItemList::offsetExists<\/a>"],[0,1,"<a href=\"Plugin\/DataType\/ItemList.php.html#183\">Drupal\\Core\\TypedData\\Plugin\\DataType\\ItemList::offsetUnset<\/a>"],[0,1,"<a href=\"Plugin\/DataType\/ItemList.php.html#190\">Drupal\\Core\\TypedData\\Plugin\\DataType\\ItemList::offsetGet<\/a>"],[0,2,"<a href=\"Plugin\/DataType\/ItemList.php.html#197\">Drupal\\Core\\TypedData\\Plugin\\DataType\\ItemList::offsetSet<\/a>"],[0,1,"<a href=\"Plugin\/DataType\/ItemList.php.html#210\">Drupal\\Core\\TypedData\\Plugin\\DataType\\ItemList::appendItem<\/a>"],[0,1,"<a href=\"Plugin\/DataType\/ItemList.php.html#222\">Drupal\\Core\\TypedData\\Plugin\\DataType\\ItemList::createItem<\/a>"],[0,1,"<a href=\"Plugin\/DataType\/ItemList.php.html#229\">Drupal\\Core\\TypedData\\Plugin\\DataType\\ItemList::getItemDefinition<\/a>"],[0,1,"<a href=\"Plugin\/DataType\/ItemList.php.html#236\">Drupal\\Core\\TypedData\\Plugin\\DataType\\ItemList::getIterator<\/a>"],[0,1,"<a href=\"Plugin\/DataType\/ItemList.php.html#243\">Drupal\\Core\\TypedData\\Plugin\\DataType\\ItemList::count<\/a>"],[0,6,"<a href=\"Plugin\/DataType\/ItemList.php.html#250\">Drupal\\Core\\TypedData\\Plugin\\DataType\\ItemList::isEmpty<\/a>"],[0,4,"<a href=\"Plugin\/DataType\/ItemList.php.html#268\">Drupal\\Core\\TypedData\\Plugin\\DataType\\ItemList::filter<\/a>"],[0,2,"<a href=\"Plugin\/DataType\/ItemList.php.html#290\">Drupal\\Core\\TypedData\\Plugin\\DataType\\ItemList::onChange<\/a>"],[0,2,"<a href=\"Plugin\/DataType\/ItemList.php.html#300\">Drupal\\Core\\TypedData\\Plugin\\DataType\\ItemList::__clone<\/a>"],[0,3,"<a href=\"Plugin\/DataType\/Language.php.html#39\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Language::getValue<\/a>"],[0,6,"<a href=\"Plugin\/DataType\/Language.php.html#51\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Language::setValue<\/a>"],[0,2,"<a href=\"Plugin\/DataType\/Language.php.html#73\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Language::getString<\/a>"],[0,3,"<a href=\"Plugin\/DataType\/Language.php.html#81\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Language::id<\/a>"],[0,2,"<a href=\"Plugin\/DataType\/LanguageReference.php.html#28\">Drupal\\Core\\TypedData\\Plugin\\DataType\\LanguageReference::getTargetIdentifier<\/a>"],[0,5,"<a href=\"Plugin\/DataType\/Map.php.html#53\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Map::getValue<\/a>"],[0,7,"<a href=\"Plugin\/DataType\/Map.php.html#74\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Map::setValue<\/a>"],[0,2,"<a href=\"Plugin\/DataType\/Map.php.html#97\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Map::getString<\/a>"],[0,3,"<a href=\"Plugin\/DataType\/Map.php.html#109\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Map::get<\/a>"],[0,1,"<a href=\"Plugin\/DataType\/Map.php.html#124\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Map::set<\/a>"],[0,2,"<a href=\"Plugin\/DataType\/Map.php.html#143\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Map::writePropertyValue<\/a>"],[0,4,"<a href=\"Plugin\/DataType\/Map.php.html#156\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Map::getProperties<\/a>"],[0,2,"<a href=\"Plugin\/DataType\/Map.php.html#169\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Map::toArray<\/a>"],[0,1,"<a href=\"Plugin\/DataType\/Map.php.html#180\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Map::getIterator<\/a>"],[0,8,"<a href=\"Plugin\/DataType\/Map.php.html#187\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Map::isEmpty<\/a>"],[0,2,"<a href=\"Plugin\/DataType\/Map.php.html#207\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Map::__clone<\/a>"],[0,3,"<a href=\"Plugin\/DataType\/Map.php.html#222\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Map::onChange<\/a>"],[0,2,"<a href=\"Plugin\/DataType\/Map.php.html#232\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Map::applyDefaultValue<\/a>"],[0,1,"<a href=\"Plugin\/DataType\/StringData.php.html#24\">Drupal\\Core\\TypedData\\Plugin\\DataType\\StringData::getCastedValue<\/a>"],[0,2,"<a href=\"Plugin\/DataType\/TimeSpan.php.html#28\">Drupal\\Core\\TypedData\\Plugin\\DataType\\TimeSpan::getDuration<\/a>"],[0,3,"<a href=\"Plugin\/DataType\/TimeSpan.php.html#39\">Drupal\\Core\\TypedData\\Plugin\\DataType\\TimeSpan::setDuration<\/a>"],[0,2,"<a href=\"Plugin\/DataType\/Timestamp.php.html#28\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Timestamp::getDateTime<\/a>"],[0,3,"<a href=\"Plugin\/DataType\/Timestamp.php.html#37\">Drupal\\Core\\TypedData\\Plugin\\DataType\\Timestamp::setDateTime<\/a>"],[0,1,"<a href=\"PrimitiveBase.php.html#20\">Drupal\\Core\\TypedData\\PrimitiveBase::getValue<\/a>"],[0,3,"<a href=\"PrimitiveBase.php.html#27\">Drupal\\Core\\TypedData\\PrimitiveBase::setValue<\/a>"],[0,1,"<a href=\"TypedData.php.html#46\">Drupal\\Core\\TypedData\\TypedData::createInstance<\/a>"],[0,1,"<a href=\"TypedData.php.html#64\">Drupal\\Core\\TypedData\\TypedData::__construct<\/a>"],[0,1,"<a href=\"TypedData.php.html#73\">Drupal\\Core\\TypedData\\TypedData::getPluginId<\/a>"],[0,1,"<a href=\"TypedData.php.html#80\">Drupal\\Core\\TypedData\\TypedData::getPluginDefinition<\/a>"],[0,1,"<a href=\"TypedData.php.html#87\">Drupal\\Core\\TypedData\\TypedData::getDataDefinition<\/a>"],[0,1,"<a href=\"TypedData.php.html#94\">Drupal\\Core\\TypedData\\TypedData::getValue<\/a>"],[0,3,"<a href=\"TypedData.php.html#101\">Drupal\\Core\\TypedData\\TypedData::setValue<\/a>"],[0,1,"<a href=\"TypedData.php.html#112\">Drupal\\Core\\TypedData\\TypedData::getString<\/a>"],[0,2,"<a href=\"TypedData.php.html#119\">Drupal\\Core\\TypedData\\TypedData::getConstraints<\/a>"],[0,1,"<a href=\"TypedData.php.html#131\">Drupal\\Core\\TypedData\\TypedData::validate<\/a>"],[0,1,"<a href=\"TypedData.php.html#138\">Drupal\\Core\\TypedData\\TypedData::applyDefaultValue<\/a>"],[0,1,"<a href=\"TypedData.php.html#147\">Drupal\\Core\\TypedData\\TypedData::setContext<\/a>"],[0,1,"<a href=\"TypedData.php.html#155\">Drupal\\Core\\TypedData\\TypedData::getName<\/a>"],[0,2,"<a href=\"TypedData.php.html#162\">Drupal\\Core\\TypedData\\TypedData::getRoot<\/a>"],[0,4,"<a href=\"TypedData.php.html#173\">Drupal\\Core\\TypedData\\TypedData::getPropertyPath<\/a>"],[0,1,"<a href=\"TypedData.php.html#191\">Drupal\\Core\\TypedData\\TypedData::getParent<\/a>"],[0,1,"<a href=\"TypedDataInternalPropertiesHelper.php.html#19\">Drupal\\Core\\TypedData\\TypedDataInternalPropertiesHelper::getNonInternalProperties<\/a>"],[0,1,"<a href=\"TypedDataManager.php.html#65\">Drupal\\Core\\TypedData\\TypedDataManager::__construct<\/a>"],[0,3,"<a href=\"TypedDataManager.php.html#76\">Drupal\\Core\\TypedData\\TypedDataManager::createInstance<\/a>"],[0,2,"<a href=\"TypedDataManager.php.html#99\">Drupal\\Core\\TypedData\\TypedDataManager::create<\/a>"],[0,3,"<a href=\"TypedDataManager.php.html#114\">Drupal\\Core\\TypedData\\TypedDataManager::createDataDefinition<\/a>"],[0,2,"<a href=\"TypedDataManager.php.html#132\">Drupal\\Core\\TypedData\\TypedDataManager::createListDataDefinition<\/a>"],[0,1,"<a href=\"TypedDataManager.php.html#144\">Drupal\\Core\\TypedData\\TypedDataManager::getInstance<\/a>"],[0,8,"<a href=\"TypedDataManager.php.html#151\">Drupal\\Core\\TypedData\\TypedDataManager::getPropertyInstance<\/a>"],[0,1,"<a href=\"TypedDataManager.php.html#211\">Drupal\\Core\\TypedData\\TypedDataManager::setValidator<\/a>"],[0,2,"<a href=\"TypedDataManager.php.html#218\">Drupal\\Core\\TypedData\\TypedDataManager::getValidator<\/a>"],[0,1,"<a href=\"TypedDataManager.php.html#232\">Drupal\\Core\\TypedData\\TypedDataManager::setValidationConstraintManager<\/a>"],[0,1,"<a href=\"TypedDataManager.php.html#239\">Drupal\\Core\\TypedData\\TypedDataManager::getValidationConstraintManager<\/a>"],[0,5,"<a href=\"TypedDataManager.php.html#246\">Drupal\\Core\\TypedData\\TypedDataManager::getDefaultConstraints<\/a>"],[0,1,"<a href=\"TypedDataManager.php.html#272\">Drupal\\Core\\TypedData\\TypedDataManager::clearCachedDefinitions<\/a>"],[0,3,"<a href=\"TypedDataManager.php.html#280\">Drupal\\Core\\TypedData\\TypedDataManager::getCanonicalRepresentation<\/a>"],[0,1,"<a href=\"Validation\/ConstraintViolationBuilder.php.html#120\">Drupal\\Core\\TypedData\\Validation\\ConstraintViolationBuilder::__construct<\/a>"],[0,1,"<a href=\"Validation\/ConstraintViolationBuilder.php.html#136\">Drupal\\Core\\TypedData\\Validation\\ConstraintViolationBuilder::atPath<\/a>"],[0,1,"<a href=\"Validation\/ConstraintViolationBuilder.php.html#146\">Drupal\\Core\\TypedData\\Validation\\ConstraintViolationBuilder::setParameter<\/a>"],[0,1,"<a href=\"Validation\/ConstraintViolationBuilder.php.html#156\">Drupal\\Core\\TypedData\\Validation\\ConstraintViolationBuilder::setParameters<\/a>"],[0,1,"<a href=\"Validation\/ConstraintViolationBuilder.php.html#166\">Drupal\\Core\\TypedData\\Validation\\ConstraintViolationBuilder::setTranslationDomain<\/a>"],[0,1,"<a href=\"Validation\/ConstraintViolationBuilder.php.html#176\">Drupal\\Core\\TypedData\\Validation\\ConstraintViolationBuilder::setInvalidValue<\/a>"],[0,1,"<a href=\"Validation\/ConstraintViolationBuilder.php.html#186\">Drupal\\Core\\TypedData\\Validation\\ConstraintViolationBuilder::setPlural<\/a>"],[0,1,"<a href=\"Validation\/ConstraintViolationBuilder.php.html#196\">Drupal\\Core\\TypedData\\Validation\\ConstraintViolationBuilder::setCode<\/a>"],[0,1,"<a href=\"Validation\/ConstraintViolationBuilder.php.html#206\">Drupal\\Core\\TypedData\\Validation\\ConstraintViolationBuilder::setCause<\/a>"],[0,3,"<a href=\"Validation\/ConstraintViolationBuilder.php.html#216\">Drupal\\Core\\TypedData\\Validation\\ConstraintViolationBuilder::addViolation<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#123\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::__construct<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#134\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::setNode<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#144\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::setGroup<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#151\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::setConstraint<\/a>"],[0,2,"<a href=\"Validation\/ExecutionContext.php.html#158\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::addViolation<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#172\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::buildViolation<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#179\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::getViolations<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#186\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::getValidator<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#193\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::getRoot<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#200\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::getValue<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#207\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::getObject<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#214\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::getMetadata<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#221\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::getGroup<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#228\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::getClassName<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#235\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::getPropertyName<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#242\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::getPropertyPath<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#249\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::addViolationAt<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#256\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::validate<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#263\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::markConstraintAsValidated<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#270\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::isConstraintValidated<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#277\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::validateValue<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#284\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::markGroupAsValidated<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#291\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::isGroupValidated<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#298\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::markObjectAsInitialized<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#305\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::isObjectInitialized<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContext.php.html#312\">Drupal\\Core\\TypedData\\Validation\\ExecutionContext::getMetadataFactory<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContextFactory.php.html#36\">Drupal\\Core\\TypedData\\Validation\\ExecutionContextFactory::__construct<\/a>"],[0,1,"<a href=\"Validation\/ExecutionContextFactory.php.html#45\">Drupal\\Core\\TypedData\\Validation\\ExecutionContextFactory::createContext<\/a>"],[0,1,"<a href=\"Validation\/RecursiveContextualValidator.php.html#66\">Drupal\\Core\\TypedData\\Validation\\RecursiveContextualValidator::__construct<\/a>"],[0,1,"<a href=\"Validation\/RecursiveContextualValidator.php.html#76\">Drupal\\Core\\TypedData\\Validation\\RecursiveContextualValidator::atPath<\/a>"],[0,5,"<a href=\"Validation\/RecursiveContextualValidator.php.html#85\">Drupal\\Core\\TypedData\\Validation\\RecursiveContextualValidator::validate<\/a>"],[0,12,"<a href=\"Validation\/RecursiveContextualValidator.php.html#121\">Drupal\\Core\\TypedData\\Validation\\RecursiveContextualValidator::validateNode<\/a>"],[0,4,"<a href=\"Validation\/RecursiveContextualValidator.php.html#178\">Drupal\\Core\\TypedData\\Validation\\RecursiveContextualValidator::validateConstraints<\/a>"],[0,1,"<a href=\"Validation\/RecursiveContextualValidator.php.html#203\">Drupal\\Core\\TypedData\\Validation\\RecursiveContextualValidator::getViolations<\/a>"],[0,6,"<a href=\"Validation\/RecursiveContextualValidator.php.html#210\">Drupal\\Core\\TypedData\\Validation\\RecursiveContextualValidator::validateProperty<\/a>"],[0,5,"<a href=\"Validation\/RecursiveContextualValidator.php.html#229\">Drupal\\Core\\TypedData\\Validation\\RecursiveContextualValidator::validatePropertyValue<\/a>"],[0,1,"<a href=\"Validation\/RecursiveValidator.php.html#45\">Drupal\\Core\\TypedData\\Validation\\RecursiveValidator::__construct<\/a>"],[0,1,"<a href=\"Validation\/RecursiveValidator.php.html#54\">Drupal\\Core\\TypedData\\Validation\\RecursiveValidator::startContext<\/a>"],[0,1,"<a href=\"Validation\/RecursiveValidator.php.html#61\">Drupal\\Core\\TypedData\\Validation\\RecursiveValidator::inContext<\/a>"],[0,2,"<a href=\"Validation\/RecursiveValidator.php.html#71\">Drupal\\Core\\TypedData\\Validation\\RecursiveValidator::getMetadataFor<\/a>"],[0,1,"<a href=\"Validation\/RecursiveValidator.php.html#81\">Drupal\\Core\\TypedData\\Validation\\RecursiveValidator::hasMetadataFor<\/a>"],[0,1,"<a href=\"Validation\/RecursiveValidator.php.html#88\">Drupal\\Core\\TypedData\\Validation\\RecursiveValidator::validate<\/a>"],[0,1,"<a href=\"Validation\/RecursiveValidator.php.html#97\">Drupal\\Core\\TypedData\\Validation\\RecursiveValidator::validateProperty<\/a>"],[0,2,"<a href=\"Validation\/RecursiveValidator.php.html#106\">Drupal\\Core\\TypedData\\Validation\\RecursiveValidator::validatePropertyValue<\/a>"],[0,1,"<a href=\"Validation\/TypedDataMetadata.php.html#32\">Drupal\\Core\\TypedData\\Validation\\TypedDataMetadata::__construct<\/a>"],[0,1,"<a href=\"Validation\/TypedDataMetadata.php.html#39\">Drupal\\Core\\TypedData\\Validation\\TypedDataMetadata::accept<\/a>"],[0,1,"<a href=\"Validation\/TypedDataMetadata.php.html#46\">Drupal\\Core\\TypedData\\Validation\\TypedDataMetadata::findConstraints<\/a>"],[0,1,"<a href=\"Validation\/TypedDataMetadata.php.html#53\">Drupal\\Core\\TypedData\\Validation\\TypedDataMetadata::getConstraints<\/a>"],[0,1,"<a href=\"Validation\/TypedDataMetadata.php.html#60\">Drupal\\Core\\TypedData\\Validation\\TypedDataMetadata::getTraversalStrategy<\/a>"],[0,1,"<a href=\"Validation\/TypedDataMetadata.php.html#67\">Drupal\\Core\\TypedData\\Validation\\TypedDataMetadata::getCascadingStrategy<\/a>"],[100,1,"<a href=\"ComputedItemListTrait.php.html#27\">ComputedItemListTrait::computeValue<\/a>"],[0,2,"<a href=\"ComputedItemListTrait.php.html#32\">ComputedItemListTrait::ensureComputedValue<\/a>"],[0,1,"<a href=\"ComputedItemListTrait.php.html#42\">ComputedItemListTrait::getValue<\/a>"],[0,1,"<a href=\"ComputedItemListTrait.php.html#50\">ComputedItemListTrait::setValue<\/a>"],[0,1,"<a href=\"ComputedItemListTrait.php.html#61\">ComputedItemListTrait::getString<\/a>"],[0,3,"<a href=\"ComputedItemListTrait.php.html#69\">ComputedItemListTrait::get<\/a>"],[0,1,"<a href=\"ComputedItemListTrait.php.html#89\">ComputedItemListTrait::set<\/a>"],[0,1,"<a href=\"ComputedItemListTrait.php.html#97\">ComputedItemListTrait::appendItem<\/a>"],[0,1,"<a href=\"ComputedItemListTrait.php.html#105\">ComputedItemListTrait::removeItem<\/a>"],[0,1,"<a href=\"ComputedItemListTrait.php.html#113\">ComputedItemListTrait::isEmpty<\/a>"],[0,1,"<a href=\"ComputedItemListTrait.php.html#121\">ComputedItemListTrait::offsetExists<\/a>"],[0,1,"<a href=\"ComputedItemListTrait.php.html#129\">ComputedItemListTrait::getIterator<\/a>"],[0,1,"<a href=\"ComputedItemListTrait.php.html#137\">ComputedItemListTrait::count<\/a>"],[0,1,"<a href=\"ComputedItemListTrait.php.html#145\">ComputedItemListTrait::applyDefaultValue<\/a>"],[0,1,"<a href=\"TypedDataTrait.php.html#25\">TypedDataTrait::setTypedDataManager<\/a>"],[0,2,"<a href=\"TypedDataTrait.php.html#36\">TypedDataTrait::getTypedDataManager<\/a>"],[0,2,"<a href=\"Validation\/TypedDataAwareValidatorTrait.php.html#21\">TypedDataAwareValidatorTrait::getTypedData<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

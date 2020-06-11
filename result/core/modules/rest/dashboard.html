@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/crafter/www/drupal-modules.devel/web/core/modules/rest</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/home/crafter/www/drupal-modules.devel/web</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">core</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">modules</a></li>
+         <li class="breadcrumb-item"><a href="index.html">rest</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Entity/ConfigDependencies.php.html#14">Drupal\rest\Entity\ConfigDependencies</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataFieldRow.php.html#22">Drupal\rest\Plugin\views\row\DataFieldRow</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResourceValidationTrait.php.html#14">EntityResourceValidationTrait</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResourceAccessTrait.php.html#12">EntityResourceAccessTrait</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Routing/ResourceRoutes.php.html#17">Drupal\rest\Routing\ResourceRoutes</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/RouteProcessor/RestResourceGetRouteProcessorBC.php.html#13">Drupal\rest\RouteProcessor\RestResourceGetRouteProcessorBC</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/RestServiceProvider.php.html#20">Drupal\rest\RestServiceProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/RestPermissions.php.html#13">Drupal\rest\RestPermissions</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ResourceResponse.php.html#19">Drupal\rest\ResourceResponse</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/RequestHandler.php.html#25">Drupal\rest\RequestHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/style/Serializer.php.html#24">Drupal\rest\Plugin\views\style\Serializer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataEntityRow.php.html#25">Drupal\rest\Plugin\views\row\DataEntityRow</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#37">Drupal\rest\Entity\RestResourceConfig</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#34">Drupal\rest\Plugin\views\display\RestExport</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#44">Drupal\rest\Plugin\rest\resource\EntityResource</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Type/ResourcePluginManager.php.html#17">Drupal\rest\Plugin\Type\ResourcePluginManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/ResourceBase.php.html#28">Drupal\rest\Plugin\ResourceBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Deriver/EntityDeriver.php.html#15">Drupal\rest\Plugin\Deriver\EntityDeriver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/PathProcessor/PathProcessorEntityResourceBC.php.html#12">Drupal\rest\PathProcessor\PathProcessorEntityResourceBC</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ModifiedResourceResponse.php.html#15">Drupal\rest\ModifiedResourceResponse</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/RestConfigSubscriber.php.html#13">Drupal\rest\EventSubscriber\RestConfigSubscriber</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/ResourceResponseSubscriber.php.html#23">Drupal\rest\EventSubscriber\ResourceResponseSubscriber</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/EntityResourcePostRouteSubscriber.php.html#13">Drupal\rest\EventSubscriber\EntityResourcePostRouteSubscriber</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ResourceResponseTrait.php.html#5">ResourceResponseTrait</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#44">Drupal\rest\Plugin\rest\resource\EntityResource</a></td><td class="text-right">2756</td></tr>
+       <tr><td><a href="src/Entity/ConfigDependencies.php.html#14">Drupal\rest\Entity\ConfigDependencies</a></td><td class="text-right">1722</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#34">Drupal\rest\Plugin\views\display\RestExport</a></td><td class="text-right">1332</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#37">Drupal\rest\Entity\RestResourceConfig</a></td><td class="text-right">1122</td></tr>
+       <tr><td><a href="src/RequestHandler.php.html#25">Drupal\rest\RequestHandler</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataFieldRow.php.html#22">Drupal\rest\Plugin\views\row\DataFieldRow</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="src/Routing/ResourceRoutes.php.html#17">Drupal\rest\Routing\ResourceRoutes</a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="src/Plugin/ResourceBase.php.html#28">Drupal\rest\Plugin\ResourceBase</a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="src/EventSubscriber/ResourceResponseSubscriber.php.html#23">Drupal\rest\EventSubscriber\ResourceResponseSubscriber</a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="src/Plugin/views/style/Serializer.php.html#24">Drupal\rest\Plugin\views\style\Serializer</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataEntityRow.php.html#25">Drupal\rest\Plugin\views\row\DataEntityRow</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/Plugin/Deriver/EntityDeriver.php.html#15">Drupal\rest\Plugin\Deriver\EntityDeriver</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/EventSubscriber/EntityResourcePostRouteSubscriber.php.html#13">Drupal\rest\EventSubscriber\EntityResourcePostRouteSubscriber</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/RouteProcessor/RestResourceGetRouteProcessorBC.php.html#13">Drupal\rest\RouteProcessor\RestResourceGetRouteProcessorBC</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/EventSubscriber/RestConfigSubscriber.php.html#13">Drupal\rest\EventSubscriber\RestConfigSubscriber</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/PathProcessor/PathProcessorEntityResourceBC.php.html#12">Drupal\rest\PathProcessor\PathProcessorEntityResourceBC</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResourceValidationTrait.php.html#14">EntityResourceValidationTrait</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/RestPermissions.php.html#13">Drupal\rest\RestPermissions</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/Type/ResourcePluginManager.php.html#17">Drupal\rest\Plugin\Type\ResourcePluginManager</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResourceAccessTrait.php.html#12">EntityResourceAccessTrait</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/RestServiceProvider.php.html#20">Drupal\rest\RestServiceProvider</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Entity/ConfigDependencies.php.html#38"><abbr title="Drupal\rest\Entity\ConfigDependencies::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataFieldRow.php.html#46"><abbr title="Drupal\rest\Plugin\views\row\DataFieldRow::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataEntityRow.php.html#135"><abbr title="Drupal\rest\Plugin\views\row\DataEntityRow::getEntityManager">getEntityManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataEntityRow.php.html#144"><abbr title="Drupal\rest\Plugin\views\row\DataEntityRow::getEntityTypeManager">getEntityTypeManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataEntityRow.php.html#151"><abbr title="Drupal\rest\Plugin\views\row\DataEntityRow::getEntityRepository">getEntityRepository</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataEntityRow.php.html#158"><abbr title="Drupal\rest\Plugin\views\row\DataEntityRow::getLanguageManager">getLanguageManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataEntityRow.php.html#165"><abbr title="Drupal\rest\Plugin\views\row\DataEntityRow::getView">getView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataEntityRow.php.html#172"><abbr title="Drupal\rest\Plugin\views\row\DataEntityRow::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataFieldRow.php.html#62"><abbr title="Drupal\rest\Plugin\views\row\DataFieldRow::defineOptions">defineOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataEntityRow.php.html#121"><abbr title="Drupal\rest\Plugin\views\row\DataEntityRow::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataFieldRow.php.html#72"><abbr title="Drupal\rest\Plugin\views\row\DataFieldRow::buildOptionsForm">buildOptionsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataFieldRow.php.html#113"><abbr title="Drupal\rest\Plugin\views\row\DataFieldRow::validateAliasName">validateAliasName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataFieldRow.php.html#122"><abbr title="Drupal\rest\Plugin\views\row\DataFieldRow::validateOptionsForm">validateOptionsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataFieldRow.php.html#136"><abbr title="Drupal\rest\Plugin\views\row\DataFieldRow::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataFieldRow.php.html#171"><abbr title="Drupal\rest\Plugin\views\row\DataFieldRow::getFieldKeyAlias">getFieldKeyAlias</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataFieldRow.php.html#190"><abbr title="Drupal\rest\Plugin\views\row\DataFieldRow::extractFromOptionsArray">extractFromOptionsArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataEntityRow.php.html#128"><abbr title="Drupal\rest\Plugin\views\row\DataEntityRow::getEntityTypeId">getEntityTypeId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataEntityRow.php.html#107"><abbr title="Drupal\rest\Plugin\views\row\DataEntityRow::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/style/Serializer.php.html#74"><abbr title="Drupal\rest\Plugin\views\style\Serializer::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#358"><abbr title="Drupal\rest\Plugin\views\display\RestExport::collectRoutes">collectRoutes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#254"><abbr title="Drupal\rest\Plugin\views\display\RestExport::getContentType">getContentType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#264"><abbr title="Drupal\rest\Plugin\views\display\RestExport::getAuthOptions">getAuthOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#271"><abbr title="Drupal\rest\Plugin\views\display\RestExport::defineOptions">defineOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#294"><abbr title="Drupal\rest\Plugin\views\display\RestExport::optionsSummary">optionsSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#330"><abbr title="Drupal\rest\Plugin\views\display\RestExport::buildOptionsForm">buildOptionsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#347"><abbr title="Drupal\rest\Plugin\views\display\RestExport::submitOptionsForm">submitOptionsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#403"><abbr title="Drupal\rest\Plugin\views\display\RestExport::overrideApplies">overrideApplies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataEntityRow.php.html#91"><abbr title="Drupal\rest\Plugin\views\row\DataEntityRow::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#413"><abbr title="Drupal\rest\Plugin\views\display\RestExport::buildResponse">buildResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#438"><abbr title="Drupal\rest\Plugin\views\display\RestExport::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#447"><abbr title="Drupal\rest\Plugin\views\display\RestExport::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#488"><abbr title="Drupal\rest\Plugin\views\display\RestExport::preview">preview</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#495"><abbr title="Drupal\rest\Plugin\views\display\RestExport::calculateDependencies">calculateDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#517"><abbr title="Drupal\rest\Plugin\views\display\RestExport::getFormatOptions">getFormatOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/style/Serializer.php.html#60"><abbr title="Drupal\rest\Plugin\views\style\Serializer::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/style/Serializer.php.html#86"><abbr title="Drupal\rest\Plugin\views\style\Serializer::defineOptions">defineOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#234"><abbr title="Drupal\rest\Plugin\views\display\RestExport::getMimeType">getMimeType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/RouteProcessor/RestResourceGetRouteProcessorBC.php.html#45"><abbr title="Drupal\rest\RouteProcessor\RestResourceGetRouteProcessorBC::processOutbound">processOutbound</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ResourceResponse.php.html#34"><abbr title="Drupal\rest\ResourceResponse::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/RestPermissions.php.html#37"><abbr title="Drupal\rest\RestPermissions::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/RestPermissions.php.html#45"><abbr title="Drupal\rest\RestPermissions::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/RestPermissions.php.html#54"><abbr title="Drupal\rest\RestPermissions::permissions">permissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/RestServiceProvider.php.html#25"><abbr title="Drupal\rest\RestServiceProvider::register">register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/RouteProcessor/RestResourceGetRouteProcessorBC.php.html#37"><abbr title="Drupal\rest\RouteProcessor\RestResourceGetRouteProcessorBC::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/RouteProcessor/RestResourceGetRouteProcessorBC.php.html#70"><abbr title="Drupal\rest\RouteProcessor\RestResourceGetRouteProcessorBC::overwriteRoute">overwriteRoute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/RequestHandler.php.html#259"><abbr title="Drupal\rest\RequestHandler::createArgumentResolver">createArgumentResolver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Routing/ResourceRoutes.php.html#50"><abbr title="Drupal\rest\Routing\ResourceRoutes::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Routing/ResourceRoutes.php.html#63"><abbr title="Drupal\rest\Routing\ResourceRoutes::onDynamicRouteEvent">onDynamicRouteEvent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Routing/ResourceRoutes.php.html#87"><abbr title="Drupal\rest\Routing\ResourceRoutes::getRoutesForResourceConfig">getRoutesForResourceConfig</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Routing/ResourceRoutes.php.html#152"><abbr title="Drupal\rest\Routing\ResourceRoutes::getSubscribedEvents">getSubscribedEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResourceAccessTrait.php.html#24"><abbr title="EntityResourceAccessTrait::checkEditFieldAccess">checkEditFieldAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResourceValidationTrait.php.html#32"><abbr title="EntityResourceValidationTrait::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/RequestHandler.php.html#328"><abbr title="Drupal\rest\RequestHandler::getLegacyParameters">getLegacyParameters</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/RequestHandler.php.html#227"><abbr title="Drupal\rest\RequestHandler::delegateToRestResourcePlugin">delegateToRestResourcePlugin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/style/Serializer.php.html#96"><abbr title="Drupal\rest\Plugin\views\style\Serializer::buildOptionsForm">buildOptionsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/style/Serializer.php.html#182"><abbr title="Drupal\rest\Plugin\views\style\Serializer::calculateDependencies">calculateDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/style/Serializer.php.html#111"><abbr title="Drupal\rest\Plugin\views\style\Serializer::submitOptionsForm">submitOptionsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/style/Serializer.php.html#121"><abbr title="Drupal\rest\Plugin\views\style\Serializer::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/style/Serializer.php.html#154"><abbr title="Drupal\rest\Plugin\views\style\Serializer::getFormats">getFormats</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/style/Serializer.php.html#161"><abbr title="Drupal\rest\Plugin\views\style\Serializer::getCacheMaxAge">getCacheMaxAge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/style/Serializer.php.html#168"><abbr title="Drupal\rest\Plugin\views\style\Serializer::getCacheContexts">getCacheContexts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/style/Serializer.php.html#175"><abbr title="Drupal\rest\Plugin\views\style\Serializer::getCacheTags">getCacheTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/style/Serializer.php.html#200"><abbr title="Drupal\rest\Plugin\views\style\Serializer::getFormatOptions">getFormatOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/RequestHandler.php.html#172"><abbr title="Drupal\rest\RequestHandler::deserialize">deserialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/RequestHandler.php.html#49"><abbr title="Drupal\rest\RequestHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/RequestHandler.php.html#57"><abbr title="Drupal\rest\RequestHandler::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/RequestHandler.php.html#77"><abbr title="Drupal\rest\RequestHandler::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/RequestHandler.php.html#97"><abbr title="Drupal\rest\RequestHandler::handleRaw">handleRaw</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/RequestHandler.php.html#114"><abbr title="Drupal\rest\RequestHandler::prepareResponse">prepareResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/RequestHandler.php.html#136"><abbr title="Drupal\rest\RequestHandler::getNormalizedRequestMethod">getNormalizedRequestMethod</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#244"><abbr title="Drupal\rest\Plugin\views\display\RestExport::setContentType">setContentType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#221"><abbr title="Drupal\rest\Plugin\views\display\RestExport::setMimeType">setMimeType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/ConfigDependencies.php.html#46"><abbr title="Drupal\rest\Entity\ConfigDependencies::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/ResourceResponseSubscriber.php.html#56"><abbr title="Drupal\rest\EventSubscriber\ResourceResponseSubscriber::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#262"><abbr title="Drupal\rest\Entity\RestResourceConfig::normalizeRestMethod">normalizeRestMethod</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#269"><abbr title="Drupal\rest\Entity\RestResourceConfig::postSave">postSave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#278"><abbr title="Drupal\rest\Entity\RestResourceConfig::postDelete">postDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/EntityResourcePostRouteSubscriber.php.html#28"><abbr title="Drupal\rest\EventSubscriber\EntityResourcePostRouteSubscriber::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/EntityResourcePostRouteSubscriber.php.html#38"><abbr title="Drupal\rest\EventSubscriber\EntityResourcePostRouteSubscriber::onDynamicRouteEvent">onDynamicRouteEvent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/EntityResourcePostRouteSubscriber.php.html#67"><abbr title="Drupal\rest\EventSubscriber\EntityResourcePostRouteSubscriber::getSubscribedEvents">getSubscribedEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/ResourceResponseSubscriber.php.html#68"><abbr title="Drupal\rest\EventSubscriber\ResourceResponseSubscriber::onResponse">onResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#234"><abbr title="Drupal\rest\Entity\RestResourceConfig::onDependencyRemoval">onDependencyRemoval</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/ResourceResponseSubscriber.php.html#97"><abbr title="Drupal\rest\EventSubscriber\ResourceResponseSubscriber::getResponseFormat">getResponseFormat</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/ResourceResponseSubscriber.php.html#160"><abbr title="Drupal\rest\EventSubscriber\ResourceResponseSubscriber::renderResponseBody">renderResponseBody</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/ResourceResponseSubscriber.php.html#205"><abbr title="Drupal\rest\EventSubscriber\ResourceResponseSubscriber::flattenResponse">flattenResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/ResourceResponseSubscriber.php.html#223"><abbr title="Drupal\rest\EventSubscriber\ResourceResponseSubscriber::getSubscribedEvents">getSubscribedEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/RestConfigSubscriber.php.html#28"><abbr title="Drupal\rest\EventSubscriber\RestConfigSubscriber::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/RestConfigSubscriber.php.html#38"><abbr title="Drupal\rest\EventSubscriber\RestConfigSubscriber::onSave">onSave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#249"><abbr title="Drupal\rest\Entity\RestResourceConfig::getRestResourceDependencies">getRestResourceDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#220"><abbr title="Drupal\rest\Entity\RestResourceConfig::calculateDependencies">calculateDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ModifiedResourceResponse.php.html#29"><abbr title="Drupal\rest\ModifiedResourceResponse::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#107"><abbr title="Drupal\rest\Entity\RestResourceConfig::getResourcePluginManager">getResourcePluginManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/ConfigDependencies.php.html#71"><abbr title="Drupal\rest\Entity\ConfigDependencies::calculateDependencies">calculateDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/ConfigDependencies.php.html#125"><abbr title="Drupal\rest\Entity\ConfigDependencies::onDependencyRemoval">onDependencyRemoval</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/ConfigDependencies.php.html#149"><abbr title="Drupal\rest\Entity\ConfigDependencies::onDependencyRemovalForMethodGranularity">onDependencyRemovalForMethodGranularity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/ConfigDependencies.php.html#215"><abbr title="Drupal\rest\Entity\ConfigDependencies::onDependencyRemovalForResourceGranularity">onDependencyRemovalForResourceGranularity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#81"><abbr title="Drupal\rest\Entity\RestResourceConfig::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#96"><abbr title="Drupal\rest\Entity\RestResourceConfig::getLabelFromPlugin">getLabelFromPlugin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#117"><abbr title="Drupal\rest\Entity\RestResourceConfig::getResourcePlugin">getResourcePlugin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#211"><abbr title="Drupal\rest\Entity\RestResourceConfig::getPluginCollections">getPluginCollections</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#124"><abbr title="Drupal\rest\Entity\RestResourceConfig::getMethods">getMethods</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#141"><abbr title="Drupal\rest\Entity\RestResourceConfig::getMethodsForMethodGranularity">getMethodsForMethodGranularity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#149"><abbr title="Drupal\rest\Entity\RestResourceConfig::getAuthenticationProviders">getAuthenticationProviders</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#169"><abbr title="Drupal\rest\Entity\RestResourceConfig::getAuthenticationProvidersForMethodGranularity">getAuthenticationProvidersForMethodGranularity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#180"><abbr title="Drupal\rest\Entity\RestResourceConfig::getFormats">getFormats</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#200"><abbr title="Drupal\rest\Entity\RestResourceConfig::getFormatsForMethodGranularity">getFormatsForMethodGranularity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/RestConfigSubscriber.php.html#49"><abbr title="Drupal\rest\EventSubscriber\RestConfigSubscriber::getSubscribedEvents">getSubscribedEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/PathProcessor/PathProcessorEntityResourceBC.php.html#27"><abbr title="Drupal\rest\PathProcessor\PathProcessorEntityResourceBC::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#211"><abbr title="Drupal\rest\Plugin\views\display\RestExport::displaysExposed">displaysExposed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#423"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::isConfigEntityResource">isConfigEntityResource</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#280"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::checkPatchFieldAccess">checkPatchFieldAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#324"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#348"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::generateFallbackAccessDeniedMessage">generateFallbackAccessDeniedMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#360"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::permissions">permissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#375"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::getBaseRoute">getBaseRoute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#406"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::availableMethods">availableMethods</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#430"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::calculateDependencies">calculateDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#160"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::post">post</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#446"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::addLinkHeaders">addLinkHeaders</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#139"><abbr title="Drupal\rest\Plugin\views\display\RestExport::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#157"><abbr title="Drupal\rest\Plugin\views\display\RestExport::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#173"><abbr title="Drupal\rest\Plugin\views\display\RestExport::initDisplay">initDisplay</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#197"><abbr title="Drupal\rest\Plugin\views\display\RestExport::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#204"><abbr title="Drupal\rest\Plugin\views\display\RestExport::usesExposed">usesExposed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#217"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::patch">patch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#126"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/PathProcessor/PathProcessorEntityResourceBC.php.html#34"><abbr title="Drupal\rest\PathProcessor\PathProcessorEntityResourceBC::processInbound">processInbound</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/ResourceBase.php.html#84"><abbr title="Drupal\rest\Plugin\ResourceBase::permissions">permissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Deriver/EntityDeriver.php.html#43"><abbr title="Drupal\rest\Plugin\Deriver\EntityDeriver::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Deriver/EntityDeriver.php.html#50"><abbr title="Drupal\rest\Plugin\Deriver\EntityDeriver::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Deriver/EntityDeriver.php.html#59"><abbr title="Drupal\rest\Plugin\Deriver\EntityDeriver::getDerivativeDefinition">getDerivativeDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Deriver/EntityDeriver.php.html#71"><abbr title="Drupal\rest\Plugin\Deriver\EntityDeriver::getDerivativeDefinitions">getDerivativeDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/ResourceBase.php.html#58"><abbr title="Drupal\rest\Plugin\ResourceBase::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/ResourceBase.php.html#67"><abbr title="Drupal\rest\Plugin\ResourceBase::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/ResourceBase.php.html#99"><abbr title="Drupal\rest\Plugin\ResourceBase::routes">routes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#100"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/ResourceBase.php.html#152"><abbr title="Drupal\rest\Plugin\ResourceBase::requestMethods">requestMethods</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/ResourceBase.php.html#169"><abbr title="Drupal\rest\Plugin\ResourceBase::availableMethods">availableMethods</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/ResourceBase.php.html#192"><abbr title="Drupal\rest\Plugin\ResourceBase::getBaseRoute">getBaseRoute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/ResourceBase.php.html#214"><abbr title="Drupal\rest\Plugin\ResourceBase::getBaseRouteRequirements">getBaseRouteRequirements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Type/ResourcePluginManager.php.html#30"><abbr title="Drupal\rest\Plugin\Type\ResourcePluginManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Type/ResourcePluginManager.php.html#46"><abbr title="Drupal\rest\Plugin\Type\ResourcePluginManager::getInstance">getInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#90"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/ResourceResponseTrait.php.html#20"><abbr title="ResourceResponseTrait::getResponseData">getResponseData</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Routing/ResourceRoutes.php.html#87"><abbr title="Drupal\rest\Routing\ResourceRoutes::getRoutesForResourceConfig">getRoutesForResourceConfig</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="src/Entity/ConfigDependencies.php.html#149"><abbr title="Drupal\rest\Entity\ConfigDependencies::onDependencyRemovalForMethodGranularity">onDependencyRemovalForMethodGranularity</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="src/Entity/ConfigDependencies.php.html#215"><abbr title="Drupal\rest\Entity\ConfigDependencies::onDependencyRemovalForResourceGranularity">onDependencyRemovalForResourceGranularity</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#217"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::patch">patch</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="src/Plugin/ResourceBase.php.html#99"><abbr title="Drupal\rest\Plugin\ResourceBase::routes">routes</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="src/Entity/ConfigDependencies.php.html#71"><abbr title="Drupal\rest\Entity\ConfigDependencies::calculateDependencies">calculateDependencies</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/EventSubscriber/ResourceResponseSubscriber.php.html#97"><abbr title="Drupal\rest\EventSubscriber\ResourceResponseSubscriber::getResponseFormat">getResponseFormat</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#160"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::post">post</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/RequestHandler.php.html#172"><abbr title="Drupal\rest\RequestHandler::deserialize">deserialize</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataFieldRow.php.html#72"><abbr title="Drupal\rest\Plugin\views\row\DataFieldRow::buildOptionsForm">buildOptionsForm</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#375"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::getBaseRoute">getBaseRoute</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#280"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::checkPatchFieldAccess">checkPatchFieldAccess</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Plugin/Deriver/EntityDeriver.php.html#71"><abbr title="Drupal\rest\Plugin\Deriver\EntityDeriver::getDerivativeDefinitions">getDerivativeDefinitions</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/RequestHandler.php.html#259"><abbr title="Drupal\rest\RequestHandler::createArgumentResolver">createArgumentResolver</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#446"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::addLinkHeaders">addLinkHeaders</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResourceValidationTrait.php.html#32"><abbr title="EntityResourceValidationTrait::validate">validate</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/EventSubscriber/ResourceResponseSubscriber.php.html#160"><abbr title="Drupal\rest\EventSubscriber\ResourceResponseSubscriber::renderResponseBody">renderResponseBody</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataFieldRow.php.html#136"><abbr title="Drupal\rest\Plugin\views\row\DataFieldRow::render">render</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/PathProcessor/PathProcessorEntityResourceBC.php.html#34"><abbr title="Drupal\rest\PathProcessor\PathProcessorEntityResourceBC::processInbound">processInbound</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/views/style/Serializer.php.html#121"><abbr title="Drupal\rest\Plugin\views\style\Serializer::render">render</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#358"><abbr title="Drupal\rest\Plugin\views\display\RestExport::collectRoutes">collectRoutes</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/EventSubscriber/EntityResourcePostRouteSubscriber.php.html#38"><abbr title="Drupal\rest\EventSubscriber\EntityResourcePostRouteSubscriber::onDynamicRouteEvent">onDynamicRouteEvent</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/EventSubscriber/ResourceResponseSubscriber.php.html#205"><abbr title="Drupal\rest\EventSubscriber\ResourceResponseSubscriber::flattenResponse">flattenResponse</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/RouteProcessor/RestResourceGetRouteProcessorBC.php.html#45"><abbr title="Drupal\rest\RouteProcessor\RestResourceGetRouteProcessorBC::processOutbound">processOutbound</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#126"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::get">get</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#173"><abbr title="Drupal\rest\Plugin\views\display\RestExport::initDisplay">initDisplay</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Entity/ConfigDependencies.php.html#125"><abbr title="Drupal\rest\Entity\ConfigDependencies::onDependencyRemoval">onDependencyRemoval</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#403"><abbr title="Drupal\rest\Plugin\views\display\RestExport::overrideApplies">overrideApplies</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#124"><abbr title="Drupal\rest\Entity\RestResourceConfig::getMethods">getMethods</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#169"><abbr title="Drupal\rest\Entity\RestResourceConfig::getAuthenticationProvidersForMethodGranularity">getAuthenticationProvidersForMethodGranularity</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#180"><abbr title="Drupal\rest\Entity\RestResourceConfig::getFormats">getFormats</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/RequestHandler.php.html#328"><abbr title="Drupal\rest\RequestHandler::getLegacyParameters">getLegacyParameters</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataFieldRow.php.html#122"><abbr title="Drupal\rest\Plugin\views\row\DataFieldRow::validateOptionsForm">validateOptionsForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/ResourceBase.php.html#169"><abbr title="Drupal\rest\Plugin\ResourceBase::availableMethods">availableMethods</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/EventSubscriber/RestConfigSubscriber.php.html#38"><abbr title="Drupal\rest\EventSubscriber\RestConfigSubscriber::onSave">onSave</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/Deriver/EntityDeriver.php.html#59"><abbr title="Drupal\rest\Plugin\Deriver\EntityDeriver::getDerivativeDefinition">getDerivativeDefinition</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResourceAccessTrait.php.html#24"><abbr title="EntityResourceAccessTrait::checkEditFieldAccess">checkEditFieldAccess</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#81"><abbr title="Drupal\rest\Entity\RestResourceConfig::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#149"><abbr title="Drupal\rest\Entity\RestResourceConfig::getAuthenticationProviders">getAuthenticationProviders</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Routing/ResourceRoutes.php.html#63"><abbr title="Drupal\rest\Routing\ResourceRoutes::onDynamicRouteEvent">onDynamicRouteEvent</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#220"><abbr title="Drupal\rest\Entity\RestResourceConfig::calculateDependencies">calculateDependencies</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#200"><abbr title="Drupal\rest\Entity\RestResourceConfig::getFormatsForMethodGranularity">getFormatsForMethodGranularity</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/RestPermissions.php.html#54"><abbr title="Drupal\rest\RestPermissions::permissions">permissions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/RestServiceProvider.php.html#25"><abbr title="Drupal\rest\RestServiceProvider::register">register</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/RequestHandler.php.html#227"><abbr title="Drupal\rest\RequestHandler::delegateToRestResourcePlugin">delegateToRestResourcePlugin</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#107"><abbr title="Drupal\rest\Entity\RestResourceConfig::getResourcePluginManager">getResourcePluginManager</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataFieldRow.php.html#190"><abbr title="Drupal\rest\Plugin\views\row\DataFieldRow::extractFromOptionsArray">extractFromOptionsArray</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataFieldRow.php.html#171"><abbr title="Drupal\rest\Plugin\views\row\DataFieldRow::getFieldKeyAlias">getFieldKeyAlias</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/RequestHandler.php.html#114"><abbr title="Drupal\rest\RequestHandler::prepareResponse">prepareResponse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#347"><abbr title="Drupal\rest\Plugin\views\display\RestExport::submitOptionsForm">submitOptionsForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataFieldRow.php.html#113"><abbr title="Drupal\rest\Plugin\views\row\DataFieldRow::validateAliasName">validateAliasName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#348"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::generateFallbackAccessDeniedMessage">generateFallbackAccessDeniedMessage</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/EventSubscriber/ResourceResponseSubscriber.php.html#68"><abbr title="Drupal\rest\EventSubscriber\ResourceResponseSubscriber::onResponse">onResponse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/ResourceBase.php.html#84"><abbr title="Drupal\rest\Plugin\ResourceBase::permissions">permissions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/ResourceBase.php.html#214"><abbr title="Drupal\rest\Plugin\ResourceBase::getBaseRouteRequirements">getBaseRouteRequirements</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/Type/ResourcePluginManager.php.html#46"><abbr title="Drupal\rest\Plugin\Type\ResourcePluginManager::getInstance">getInstance</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Entity/RestResourceConfig.php.html#234"><abbr title="Drupal\rest\Entity\RestResourceConfig::onDependencyRemoval">onDependencyRemoval</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#324"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#406"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::availableMethods">availableMethods</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataFieldRow.php.html#46"><abbr title="Drupal\rest\Plugin\views\row\DataFieldRow::init">init</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#430"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::calculateDependencies">calculateDependencies</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#294"><abbr title="Drupal\rest\Plugin\views\display\RestExport::optionsSummary">optionsSummary</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#330"><abbr title="Drupal\rest\Plugin\views\display\RestExport::buildOptionsForm">buildOptionsForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#447"><abbr title="Drupal\rest\Plugin\views\display\RestExport::render">render</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/display/RestExport.php.html#495"><abbr title="Drupal\rest\Plugin\views\display\RestExport::calculateDependencies">calculateDependencies</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/row/DataEntityRow.php.html#91"><abbr title="Drupal\rest\Plugin\views\row\DataEntityRow::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/rest/resource/EntityResource.php.html#360"><abbr title="Drupal\rest\Plugin\rest\resource\EntityResource::permissions">permissions</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.33-16+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Fri Jun 12 8:21:00 AEST 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([24,0,0,0,0,0,0,0,0,0,0,5], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([144,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,0,"<a href=\"src\/Annotation\/RestResource.php.html#23\">Drupal\\rest\\Annotation\\RestResource<\/a>"],[0,41,"<a href=\"src\/Entity\/ConfigDependencies.php.html#14\">Drupal\\rest\\Entity\\ConfigDependencies<\/a>"],[0,33,"<a href=\"src\/Entity\/RestResourceConfig.php.html#37\">Drupal\\rest\\Entity\\RestResourceConfig<\/a>"],[0,6,"<a href=\"src\/EventSubscriber\/EntityResourcePostRouteSubscriber.php.html#13\">Drupal\\rest\\EventSubscriber\\EntityResourcePostRouteSubscriber<\/a>"],[0,20,"<a href=\"src\/EventSubscriber\/ResourceResponseSubscriber.php.html#23\">Drupal\\rest\\EventSubscriber\\ResourceResponseSubscriber<\/a>"],[0,5,"<a href=\"src\/EventSubscriber\/RestConfigSubscriber.php.html#13\">Drupal\\rest\\EventSubscriber\\RestConfigSubscriber<\/a>"],[100,0,"<a href=\"src\/LinkManager\/LinkManager.php.html#13\">Drupal\\rest\\LinkManager\\LinkManager<\/a>"],[100,0,"<a href=\"src\/LinkManager\/LinkManagerBase.php.html#13\">Drupal\\rest\\LinkManager\\LinkManagerBase<\/a>"],[100,0,"<a href=\"src\/LinkManager\/RelationLinkManager.php.html#13\">Drupal\\rest\\LinkManager\\RelationLinkManager<\/a>"],[100,0,"<a href=\"src\/LinkManager\/TypeLinkManager.php.html#13\">Drupal\\rest\\LinkManager\\TypeLinkManager<\/a>"],[0,1,"<a href=\"src\/ModifiedResourceResponse.php.html#15\">Drupal\\rest\\ModifiedResourceResponse<\/a>"],[0,5,"<a href=\"src\/PathProcessor\/PathProcessorEntityResourceBC.php.html#12\">Drupal\\rest\\PathProcessor\\PathProcessorEntityResourceBC<\/a>"],[0,11,"<a href=\"src\/Plugin\/Deriver\/EntityDeriver.php.html#15\">Drupal\\rest\\Plugin\\Deriver\\EntityDeriver<\/a>"],[0,21,"<a href=\"src\/Plugin\/ResourceBase.php.html#28\">Drupal\\rest\\Plugin\\ResourceBase<\/a>"],[0,3,"<a href=\"src\/Plugin\/Type\/ResourcePluginManager.php.html#17\">Drupal\\rest\\Plugin\\Type\\ResourcePluginManager<\/a>"],[0,52,"<a href=\"src\/Plugin\/rest\/resource\/EntityResource.php.html#44\">Drupal\\rest\\Plugin\\rest\\resource\\EntityResource<\/a>"],[0,36,"<a href=\"src\/Plugin\/views\/display\/RestExport.php.html#34\">Drupal\\rest\\Plugin\\views\\display\\RestExport<\/a>"],[0,11,"<a href=\"src\/Plugin\/views\/row\/DataEntityRow.php.html#25\">Drupal\\rest\\Plugin\\views\\row\\DataEntityRow<\/a>"],[0,22,"<a href=\"src\/Plugin\/views\/row\/DataFieldRow.php.html#22\">Drupal\\rest\\Plugin\\views\\row\\DataFieldRow<\/a>"],[0,15,"<a href=\"src\/Plugin\/views\/style\/Serializer.php.html#24\">Drupal\\rest\\Plugin\\views\\style\\Serializer<\/a>"],[0,23,"<a href=\"src\/RequestHandler.php.html#25\">Drupal\\rest\\RequestHandler<\/a>"],[0,1,"<a href=\"src\/ResourceResponse.php.html#19\">Drupal\\rest\\ResourceResponse<\/a>"],[0,4,"<a href=\"src\/RestPermissions.php.html#13\">Drupal\\rest\\RestPermissions<\/a>"],[0,2,"<a href=\"src\/RestServiceProvider.php.html#20\">Drupal\\rest\\RestServiceProvider<\/a>"],[0,6,"<a href=\"src\/RouteProcessor\/RestResourceGetRouteProcessorBC.php.html#13\">Drupal\\rest\\RouteProcessor\\RestResourceGetRouteProcessorBC<\/a>"],[0,21,"<a href=\"src\/Routing\/ResourceRoutes.php.html#17\">Drupal\\rest\\Routing\\ResourceRoutes<\/a>"],[0,3,"<a href=\"src\/Plugin\/rest\/resource\/EntityResourceAccessTrait.php.html#12\">EntityResourceAccessTrait<\/a>"],[0,5,"<a href=\"src\/Plugin\/rest\/resource\/EntityResourceValidationTrait.php.html#14\">EntityResourceValidationTrait<\/a>"],[0,1,"<a href=\"src\/ResourceResponseTrait.php.html#5\">ResourceResponseTrait<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"src\/Entity\/ConfigDependencies.php.html#38\">Drupal\\rest\\Entity\\ConfigDependencies::__construct<\/a>"],[0,1,"<a href=\"src\/Entity\/ConfigDependencies.php.html#46\">Drupal\\rest\\Entity\\ConfigDependencies::create<\/a>"],[0,8,"<a href=\"src\/Entity\/ConfigDependencies.php.html#71\">Drupal\\rest\\Entity\\ConfigDependencies::calculateDependencies<\/a>"],[0,3,"<a href=\"src\/Entity\/ConfigDependencies.php.html#125\">Drupal\\rest\\Entity\\ConfigDependencies::onDependencyRemoval<\/a>"],[0,14,"<a href=\"src\/Entity\/ConfigDependencies.php.html#149\">Drupal\\rest\\Entity\\ConfigDependencies::onDependencyRemovalForMethodGranularity<\/a>"],[0,14,"<a href=\"src\/Entity\/ConfigDependencies.php.html#215\">Drupal\\rest\\Entity\\ConfigDependencies::onDependencyRemovalForResourceGranularity<\/a>"],[0,3,"<a href=\"src\/Entity\/RestResourceConfig.php.html#81\">Drupal\\rest\\Entity\\RestResourceConfig::__construct<\/a>"],[0,1,"<a href=\"src\/Entity\/RestResourceConfig.php.html#96\">Drupal\\rest\\Entity\\RestResourceConfig::getLabelFromPlugin<\/a>"],[0,2,"<a href=\"src\/Entity\/RestResourceConfig.php.html#107\">Drupal\\rest\\Entity\\RestResourceConfig::getResourcePluginManager<\/a>"],[0,1,"<a href=\"src\/Entity\/RestResourceConfig.php.html#117\">Drupal\\rest\\Entity\\RestResourceConfig::getResourcePlugin<\/a>"],[0,3,"<a href=\"src\/Entity\/RestResourceConfig.php.html#124\">Drupal\\rest\\Entity\\RestResourceConfig::getMethods<\/a>"],[0,1,"<a href=\"src\/Entity\/RestResourceConfig.php.html#141\">Drupal\\rest\\Entity\\RestResourceConfig::getMethodsForMethodGranularity<\/a>"],[0,3,"<a href=\"src\/Entity\/RestResourceConfig.php.html#149\">Drupal\\rest\\Entity\\RestResourceConfig::getAuthenticationProviders<\/a>"],[0,3,"<a href=\"src\/Entity\/RestResourceConfig.php.html#169\">Drupal\\rest\\Entity\\RestResourceConfig::getAuthenticationProvidersForMethodGranularity<\/a>"],[0,3,"<a href=\"src\/Entity\/RestResourceConfig.php.html#180\">Drupal\\rest\\Entity\\RestResourceConfig::getFormats<\/a>"],[0,3,"<a href=\"src\/Entity\/RestResourceConfig.php.html#200\">Drupal\\rest\\Entity\\RestResourceConfig::getFormatsForMethodGranularity<\/a>"],[0,1,"<a href=\"src\/Entity\/RestResourceConfig.php.html#211\">Drupal\\rest\\Entity\\RestResourceConfig::getPluginCollections<\/a>"],[0,3,"<a href=\"src\/Entity\/RestResourceConfig.php.html#220\">Drupal\\rest\\Entity\\RestResourceConfig::calculateDependencies<\/a>"],[0,2,"<a href=\"src\/Entity\/RestResourceConfig.php.html#234\">Drupal\\rest\\Entity\\RestResourceConfig::onDependencyRemoval<\/a>"],[0,1,"<a href=\"src\/Entity\/RestResourceConfig.php.html#249\">Drupal\\rest\\Entity\\RestResourceConfig::getRestResourceDependencies<\/a>"],[0,1,"<a href=\"src\/Entity\/RestResourceConfig.php.html#262\">Drupal\\rest\\Entity\\RestResourceConfig::normalizeRestMethod<\/a>"],[0,1,"<a href=\"src\/Entity\/RestResourceConfig.php.html#269\">Drupal\\rest\\Entity\\RestResourceConfig::postSave<\/a>"],[0,1,"<a href=\"src\/Entity\/RestResourceConfig.php.html#278\">Drupal\\rest\\Entity\\RestResourceConfig::postDelete<\/a>"],[0,1,"<a href=\"src\/EventSubscriber\/EntityResourcePostRouteSubscriber.php.html#28\">Drupal\\rest\\EventSubscriber\\EntityResourcePostRouteSubscriber::__construct<\/a>"],[0,4,"<a href=\"src\/EventSubscriber\/EntityResourcePostRouteSubscriber.php.html#38\">Drupal\\rest\\EventSubscriber\\EntityResourcePostRouteSubscriber::onDynamicRouteEvent<\/a>"],[0,1,"<a href=\"src\/EventSubscriber\/EntityResourcePostRouteSubscriber.php.html#67\">Drupal\\rest\\EventSubscriber\\EntityResourcePostRouteSubscriber::getSubscribedEvents<\/a>"],[0,1,"<a href=\"src\/EventSubscriber\/ResourceResponseSubscriber.php.html#56\">Drupal\\rest\\EventSubscriber\\ResourceResponseSubscriber::__construct<\/a>"],[0,2,"<a href=\"src\/EventSubscriber\/ResourceResponseSubscriber.php.html#68\">Drupal\\rest\\EventSubscriber\\ResourceResponseSubscriber::onResponse<\/a>"],[0,8,"<a href=\"src\/EventSubscriber\/ResourceResponseSubscriber.php.html#97\">Drupal\\rest\\EventSubscriber\\ResourceResponseSubscriber::getResponseFormat<\/a>"],[0,4,"<a href=\"src\/EventSubscriber\/ResourceResponseSubscriber.php.html#160\">Drupal\\rest\\EventSubscriber\\ResourceResponseSubscriber::renderResponseBody<\/a>"],[0,4,"<a href=\"src\/EventSubscriber\/ResourceResponseSubscriber.php.html#205\">Drupal\\rest\\EventSubscriber\\ResourceResponseSubscriber::flattenResponse<\/a>"],[0,1,"<a href=\"src\/EventSubscriber\/ResourceResponseSubscriber.php.html#223\">Drupal\\rest\\EventSubscriber\\ResourceResponseSubscriber::getSubscribedEvents<\/a>"],[0,1,"<a href=\"src\/EventSubscriber\/RestConfigSubscriber.php.html#28\">Drupal\\rest\\EventSubscriber\\RestConfigSubscriber::__construct<\/a>"],[0,3,"<a href=\"src\/EventSubscriber\/RestConfigSubscriber.php.html#38\">Drupal\\rest\\EventSubscriber\\RestConfigSubscriber::onSave<\/a>"],[0,1,"<a href=\"src\/EventSubscriber\/RestConfigSubscriber.php.html#49\">Drupal\\rest\\EventSubscriber\\RestConfigSubscriber::getSubscribedEvents<\/a>"],[0,1,"<a href=\"src\/ModifiedResourceResponse.php.html#29\">Drupal\\rest\\ModifiedResourceResponse::__construct<\/a>"],[0,1,"<a href=\"src\/PathProcessor\/PathProcessorEntityResourceBC.php.html#27\">Drupal\\rest\\PathProcessor\\PathProcessorEntityResourceBC::__construct<\/a>"],[0,4,"<a href=\"src\/PathProcessor\/PathProcessorEntityResourceBC.php.html#34\">Drupal\\rest\\PathProcessor\\PathProcessorEntityResourceBC::processInbound<\/a>"],[0,1,"<a href=\"src\/Plugin\/Deriver\/EntityDeriver.php.html#43\">Drupal\\rest\\Plugin\\Deriver\\EntityDeriver::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/Deriver\/EntityDeriver.php.html#50\">Drupal\\rest\\Plugin\\Deriver\\EntityDeriver::create<\/a>"],[0,3,"<a href=\"src\/Plugin\/Deriver\/EntityDeriver.php.html#59\">Drupal\\rest\\Plugin\\Deriver\\EntityDeriver::getDerivativeDefinition<\/a>"],[0,6,"<a href=\"src\/Plugin\/Deriver\/EntityDeriver.php.html#71\">Drupal\\rest\\Plugin\\Deriver\\EntityDeriver::getDerivativeDefinitions<\/a>"],[0,1,"<a href=\"src\/Plugin\/ResourceBase.php.html#58\">Drupal\\rest\\Plugin\\ResourceBase::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/ResourceBase.php.html#67\">Drupal\\rest\\Plugin\\ResourceBase::create<\/a>"],[0,2,"<a href=\"src\/Plugin\/ResourceBase.php.html#84\">Drupal\\rest\\Plugin\\ResourceBase::permissions<\/a>"],[0,10,"<a href=\"src\/Plugin\/ResourceBase.php.html#99\">Drupal\\rest\\Plugin\\ResourceBase::routes<\/a>"],[0,1,"<a href=\"src\/Plugin\/ResourceBase.php.html#152\">Drupal\\rest\\Plugin\\ResourceBase::requestMethods<\/a>"],[0,3,"<a href=\"src\/Plugin\/ResourceBase.php.html#169\">Drupal\\rest\\Plugin\\ResourceBase::availableMethods<\/a>"],[0,1,"<a href=\"src\/Plugin\/ResourceBase.php.html#192\">Drupal\\rest\\Plugin\\ResourceBase::getBaseRoute<\/a>"],[0,2,"<a href=\"src\/Plugin\/ResourceBase.php.html#214\">Drupal\\rest\\Plugin\\ResourceBase::getBaseRouteRequirements<\/a>"],[0,1,"<a href=\"src\/Plugin\/Type\/ResourcePluginManager.php.html#30\">Drupal\\rest\\Plugin\\Type\\ResourcePluginManager::__construct<\/a>"],[0,2,"<a href=\"src\/Plugin\/Type\/ResourcePluginManager.php.html#46\">Drupal\\rest\\Plugin\\Type\\ResourcePluginManager::getInstance<\/a>"],[0,1,"<a href=\"src\/Plugin\/rest\/resource\/EntityResource.php.html#90\">Drupal\\rest\\Plugin\\rest\\resource\\EntityResource::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/rest\/resource\/EntityResource.php.html#100\">Drupal\\rest\\Plugin\\rest\\resource\\EntityResource::create<\/a>"],[0,4,"<a href=\"src\/Plugin\/rest\/resource\/EntityResource.php.html#126\">Drupal\\rest\\Plugin\\rest\\resource\\EntityResource::get<\/a>"],[0,8,"<a href=\"src\/Plugin\/rest\/resource\/EntityResource.php.html#160\">Drupal\\rest\\Plugin\\rest\\resource\\EntityResource::post<\/a>"],[0,10,"<a href=\"src\/Plugin\/rest\/resource\/EntityResource.php.html#217\">Drupal\\rest\\Plugin\\rest\\resource\\EntityResource::patch<\/a>"],[0,6,"<a href=\"src\/Plugin\/rest\/resource\/EntityResource.php.html#280\">Drupal\\rest\\Plugin\\rest\\resource\\EntityResource::checkPatchFieldAccess<\/a>"],[0,2,"<a href=\"src\/Plugin\/rest\/resource\/EntityResource.php.html#324\">Drupal\\rest\\Plugin\\rest\\resource\\EntityResource::delete<\/a>"],[0,2,"<a href=\"src\/Plugin\/rest\/resource\/EntityResource.php.html#348\">Drupal\\rest\\Plugin\\rest\\resource\\EntityResource::generateFallbackAccessDeniedMessage<\/a>"],[0,2,"<a href=\"src\/Plugin\/rest\/resource\/EntityResource.php.html#360\">Drupal\\rest\\Plugin\\rest\\resource\\EntityResource::permissions<\/a>"],[0,6,"<a href=\"src\/Plugin\/rest\/resource\/EntityResource.php.html#375\">Drupal\\rest\\Plugin\\rest\\resource\\EntityResource::getBaseRoute<\/a>"],[0,2,"<a href=\"src\/Plugin\/rest\/resource\/EntityResource.php.html#406\">Drupal\\rest\\Plugin\\rest\\resource\\EntityResource::availableMethods<\/a>"],[0,1,"<a href=\"src\/Plugin\/rest\/resource\/EntityResource.php.html#423\">Drupal\\rest\\Plugin\\rest\\resource\\EntityResource::isConfigEntityResource<\/a>"],[0,2,"<a href=\"src\/Plugin\/rest\/resource\/EntityResource.php.html#430\">Drupal\\rest\\Plugin\\rest\\resource\\EntityResource::calculateDependencies<\/a>"],[0,5,"<a href=\"src\/Plugin\/rest\/resource\/EntityResource.php.html#446\">Drupal\\rest\\Plugin\\rest\\resource\\EntityResource::addLinkHeaders<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/display\/RestExport.php.html#139\">Drupal\\rest\\Plugin\\views\\display\\RestExport::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/display\/RestExport.php.html#157\">Drupal\\rest\\Plugin\\views\\display\\RestExport::create<\/a>"],[0,4,"<a href=\"src\/Plugin\/views\/display\/RestExport.php.html#173\">Drupal\\rest\\Plugin\\views\\display\\RestExport::initDisplay<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/display\/RestExport.php.html#197\">Drupal\\rest\\Plugin\\views\\display\\RestExport::getType<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/display\/RestExport.php.html#204\">Drupal\\rest\\Plugin\\views\\display\\RestExport::usesExposed<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/display\/RestExport.php.html#211\">Drupal\\rest\\Plugin\\views\\display\\RestExport::displaysExposed<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/display\/RestExport.php.html#221\">Drupal\\rest\\Plugin\\views\\display\\RestExport::setMimeType<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/display\/RestExport.php.html#234\">Drupal\\rest\\Plugin\\views\\display\\RestExport::getMimeType<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/display\/RestExport.php.html#244\">Drupal\\rest\\Plugin\\views\\display\\RestExport::setContentType<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/display\/RestExport.php.html#254\">Drupal\\rest\\Plugin\\views\\display\\RestExport::getContentType<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/display\/RestExport.php.html#264\">Drupal\\rest\\Plugin\\views\\display\\RestExport::getAuthOptions<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/display\/RestExport.php.html#271\">Drupal\\rest\\Plugin\\views\\display\\RestExport::defineOptions<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/display\/RestExport.php.html#294\">Drupal\\rest\\Plugin\\views\\display\\RestExport::optionsSummary<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/display\/RestExport.php.html#330\">Drupal\\rest\\Plugin\\views\\display\\RestExport::buildOptionsForm<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/display\/RestExport.php.html#347\">Drupal\\rest\\Plugin\\views\\display\\RestExport::submitOptionsForm<\/a>"],[0,4,"<a href=\"src\/Plugin\/views\/display\/RestExport.php.html#358\">Drupal\\rest\\Plugin\\views\\display\\RestExport::collectRoutes<\/a>"],[0,3,"<a href=\"src\/Plugin\/views\/display\/RestExport.php.html#403\">Drupal\\rest\\Plugin\\views\\display\\RestExport::overrideApplies<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/display\/RestExport.php.html#413\">Drupal\\rest\\Plugin\\views\\display\\RestExport::buildResponse<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/display\/RestExport.php.html#438\">Drupal\\rest\\Plugin\\views\\display\\RestExport::execute<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/display\/RestExport.php.html#447\">Drupal\\rest\\Plugin\\views\\display\\RestExport::render<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/display\/RestExport.php.html#488\">Drupal\\rest\\Plugin\\views\\display\\RestExport::preview<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/display\/RestExport.php.html#495\">Drupal\\rest\\Plugin\\views\\display\\RestExport::calculateDependencies<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/display\/RestExport.php.html#517\">Drupal\\rest\\Plugin\\views\\display\\RestExport::getFormatOptions<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/row\/DataEntityRow.php.html#91\">Drupal\\rest\\Plugin\\views\\row\\DataEntityRow::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/row\/DataEntityRow.php.html#107\">Drupal\\rest\\Plugin\\views\\row\\DataEntityRow::create<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/row\/DataEntityRow.php.html#121\">Drupal\\rest\\Plugin\\views\\row\\DataEntityRow::render<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/row\/DataEntityRow.php.html#128\">Drupal\\rest\\Plugin\\views\\row\\DataEntityRow::getEntityTypeId<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/row\/DataEntityRow.php.html#135\">Drupal\\rest\\Plugin\\views\\row\\DataEntityRow::getEntityManager<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/row\/DataEntityRow.php.html#144\">Drupal\\rest\\Plugin\\views\\row\\DataEntityRow::getEntityTypeManager<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/row\/DataEntityRow.php.html#151\">Drupal\\rest\\Plugin\\views\\row\\DataEntityRow::getEntityRepository<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/row\/DataEntityRow.php.html#158\">Drupal\\rest\\Plugin\\views\\row\\DataEntityRow::getLanguageManager<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/row\/DataEntityRow.php.html#165\">Drupal\\rest\\Plugin\\views\\row\\DataEntityRow::getView<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/row\/DataEntityRow.php.html#172\">Drupal\\rest\\Plugin\\views\\row\\DataEntityRow::query<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/row\/DataFieldRow.php.html#46\">Drupal\\rest\\Plugin\\views\\row\\DataFieldRow::init<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/row\/DataFieldRow.php.html#62\">Drupal\\rest\\Plugin\\views\\row\\DataFieldRow::defineOptions<\/a>"],[0,6,"<a href=\"src\/Plugin\/views\/row\/DataFieldRow.php.html#72\">Drupal\\rest\\Plugin\\views\\row\\DataFieldRow::buildOptionsForm<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/row\/DataFieldRow.php.html#113\">Drupal\\rest\\Plugin\\views\\row\\DataFieldRow::validateAliasName<\/a>"],[0,3,"<a href=\"src\/Plugin\/views\/row\/DataFieldRow.php.html#122\">Drupal\\rest\\Plugin\\views\\row\\DataFieldRow::validateOptionsForm<\/a>"],[0,4,"<a href=\"src\/Plugin\/views\/row\/DataFieldRow.php.html#136\">Drupal\\rest\\Plugin\\views\\row\\DataFieldRow::render<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/row\/DataFieldRow.php.html#171\">Drupal\\rest\\Plugin\\views\\row\\DataFieldRow::getFieldKeyAlias<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/row\/DataFieldRow.php.html#190\">Drupal\\rest\\Plugin\\views\\row\\DataFieldRow::extractFromOptionsArray<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/style\/Serializer.php.html#60\">Drupal\\rest\\Plugin\\views\\style\\Serializer::create<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/style\/Serializer.php.html#74\">Drupal\\rest\\Plugin\\views\\style\\Serializer::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/style\/Serializer.php.html#86\">Drupal\\rest\\Plugin\\views\\style\\Serializer::defineOptions<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/style\/Serializer.php.html#96\">Drupal\\rest\\Plugin\\views\\style\\Serializer::buildOptionsForm<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/style\/Serializer.php.html#111\">Drupal\\rest\\Plugin\\views\\style\\Serializer::submitOptionsForm<\/a>"],[0,4,"<a href=\"src\/Plugin\/views\/style\/Serializer.php.html#121\">Drupal\\rest\\Plugin\\views\\style\\Serializer::render<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/style\/Serializer.php.html#154\">Drupal\\rest\\Plugin\\views\\style\\Serializer::getFormats<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/style\/Serializer.php.html#161\">Drupal\\rest\\Plugin\\views\\style\\Serializer::getCacheMaxAge<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/style\/Serializer.php.html#168\">Drupal\\rest\\Plugin\\views\\style\\Serializer::getCacheContexts<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/style\/Serializer.php.html#175\">Drupal\\rest\\Plugin\\views\\style\\Serializer::getCacheTags<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/style\/Serializer.php.html#182\">Drupal\\rest\\Plugin\\views\\style\\Serializer::calculateDependencies<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/style\/Serializer.php.html#200\">Drupal\\rest\\Plugin\\views\\style\\Serializer::getFormatOptions<\/a>"],[0,1,"<a href=\"src\/RequestHandler.php.html#49\">Drupal\\rest\\RequestHandler::__construct<\/a>"],[0,1,"<a href=\"src\/RequestHandler.php.html#57\">Drupal\\rest\\RequestHandler::create<\/a>"],[0,1,"<a href=\"src\/RequestHandler.php.html#77\">Drupal\\rest\\RequestHandler::handle<\/a>"],[0,1,"<a href=\"src\/RequestHandler.php.html#97\">Drupal\\rest\\RequestHandler::handleRaw<\/a>"],[0,2,"<a href=\"src\/RequestHandler.php.html#114\">Drupal\\rest\\RequestHandler::prepareResponse<\/a>"],[0,1,"<a href=\"src\/RequestHandler.php.html#136\">Drupal\\rest\\RequestHandler::getNormalizedRequestMethod<\/a>"],[0,6,"<a href=\"src\/RequestHandler.php.html#172\">Drupal\\rest\\RequestHandler::deserialize<\/a>"],[0,2,"<a href=\"src\/RequestHandler.php.html#227\">Drupal\\rest\\RequestHandler::delegateToRestResourcePlugin<\/a>"],[0,5,"<a href=\"src\/RequestHandler.php.html#259\">Drupal\\rest\\RequestHandler::createArgumentResolver<\/a>"],[0,3,"<a href=\"src\/RequestHandler.php.html#328\">Drupal\\rest\\RequestHandler::getLegacyParameters<\/a>"],[0,1,"<a href=\"src\/ResourceResponse.php.html#34\">Drupal\\rest\\ResourceResponse::__construct<\/a>"],[0,1,"<a href=\"src\/RestPermissions.php.html#37\">Drupal\\rest\\RestPermissions::__construct<\/a>"],[0,1,"<a href=\"src\/RestPermissions.php.html#45\">Drupal\\rest\\RestPermissions::create<\/a>"],[0,2,"<a href=\"src\/RestPermissions.php.html#54\">Drupal\\rest\\RestPermissions::permissions<\/a>"],[0,2,"<a href=\"src\/RestServiceProvider.php.html#25\">Drupal\\rest\\RestServiceProvider::register<\/a>"],[0,1,"<a href=\"src\/RouteProcessor\/RestResourceGetRouteProcessorBC.php.html#37\">Drupal\\rest\\RouteProcessor\\RestResourceGetRouteProcessorBC::__construct<\/a>"],[0,4,"<a href=\"src\/RouteProcessor\/RestResourceGetRouteProcessorBC.php.html#45\">Drupal\\rest\\RouteProcessor\\RestResourceGetRouteProcessorBC::processOutbound<\/a>"],[0,1,"<a href=\"src\/RouteProcessor\/RestResourceGetRouteProcessorBC.php.html#70\">Drupal\\rest\\RouteProcessor\\RestResourceGetRouteProcessorBC::overwriteRoute<\/a>"],[0,1,"<a href=\"src\/Routing\/ResourceRoutes.php.html#50\">Drupal\\rest\\Routing\\ResourceRoutes::__construct<\/a>"],[0,3,"<a href=\"src\/Routing\/ResourceRoutes.php.html#63\">Drupal\\rest\\Routing\\ResourceRoutes::onDynamicRouteEvent<\/a>"],[0,16,"<a href=\"src\/Routing\/ResourceRoutes.php.html#87\">Drupal\\rest\\Routing\\ResourceRoutes::getRoutesForResourceConfig<\/a>"],[0,1,"<a href=\"src\/Routing\/ResourceRoutes.php.html#152\">Drupal\\rest\\Routing\\ResourceRoutes::getSubscribedEvents<\/a>"],[0,3,"<a href=\"src\/Plugin\/rest\/resource\/EntityResourceAccessTrait.php.html#24\">EntityResourceAccessTrait::checkEditFieldAccess<\/a>"],[0,5,"<a href=\"src\/Plugin\/rest\/resource\/EntityResourceValidationTrait.php.html#32\">EntityResourceValidationTrait::validate<\/a>"],[0,1,"<a href=\"src\/ResourceResponseTrait.php.html#20\">ResourceResponseTrait::getResponseData<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

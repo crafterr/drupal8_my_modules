@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/crafter/www/drupal-modules.devel/web/core/modules/statistics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/home/crafter/www/drupal-modules.devel/web</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">core</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">modules</a></li>
+         <li class="breadcrumb-item"><a href="index.html">statistics</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/NodeStatisticsDatabaseStorage.php.html#12">Drupal\statistics\NodeStatisticsDatabaseStorage</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/StatisticsPopularBlock.php.html#24">Drupal\statistics\Plugin\Block\StatisticsPopularBlock</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/NodeCounter.php.html#20">Drupal\statistics\Plugin\migrate\destination\NodeCounter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/NodeCounter.php.html#15">Drupal\statistics\Plugin\migrate\source\NodeCounter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeCounterTimestamp.php.html#15">Drupal\statistics\Plugin\views\field\NodeCounterTimestamp</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/StatisticsNumeric.php.html#15">Drupal\statistics\Plugin\views\field\StatisticsNumeric</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/StatisticsSettingsForm.php.html#16">Drupal\statistics\StatisticsSettingsForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/StatisticsViewsResult.php.html#8">Drupal\statistics\StatisticsViewsResult</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Plugin/Block/StatisticsPopularBlock.php.html#24">Drupal\statistics\Plugin\Block\StatisticsPopularBlock</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="src/NodeStatisticsDatabaseStorage.php.html#12">Drupal\statistics\NodeStatisticsDatabaseStorage</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/StatisticsSettingsForm.php.html#16">Drupal\statistics\StatisticsSettingsForm</a></td><td class="text-right">56</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/NodeStatisticsDatabaseStorage.php.html#43"><abbr title="Drupal\statistics\NodeStatisticsDatabaseStorage::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/StatisticsSettingsForm.php.html#33"><abbr title="Drupal\statistics\StatisticsSettingsForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/NodeCounter.php.html#83"><abbr title="Drupal\statistics\Plugin\migrate\destination\NodeCounter::import">import</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/NodeCounter.php.html#20"><abbr title="Drupal\statistics\Plugin\migrate\source\NodeCounter::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/NodeCounter.php.html#27"><abbr title="Drupal\statistics\Plugin\migrate\source\NodeCounter::fields">fields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/NodeCounter.php.html#39"><abbr title="Drupal\statistics\Plugin\migrate\source\NodeCounter::getIds">getIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeCounterTimestamp.php.html#20"><abbr title="Drupal\statistics\Plugin\views\field\NodeCounterTimestamp::access">access</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/StatisticsNumeric.php.html#20"><abbr title="Drupal\statistics\Plugin\views\field\StatisticsNumeric::access">access</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/StatisticsSettingsForm.php.html#42"><abbr title="Drupal\statistics\StatisticsSettingsForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/NodeCounter.php.html#64"><abbr title="Drupal\statistics\Plugin\migrate\destination\NodeCounter::getIds">getIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/StatisticsSettingsForm.php.html#52"><abbr title="Drupal\statistics\StatisticsSettingsForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/StatisticsSettingsForm.php.html#59"><abbr title="Drupal\statistics\StatisticsSettingsForm::getEditableConfigNames">getEditableConfigNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/StatisticsSettingsForm.php.html#66"><abbr title="Drupal\statistics\StatisticsSettingsForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/StatisticsSettingsForm.php.html#88"><abbr title="Drupal\statistics\StatisticsSettingsForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/StatisticsViewsResult.php.html#25"><abbr title="Drupal\statistics\StatisticsViewsResult::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/StatisticsViewsResult.php.html#36"><abbr title="Drupal\statistics\StatisticsViewsResult::getTotalCount">getTotalCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/StatisticsViewsResult.php.html#45"><abbr title="Drupal\statistics\StatisticsViewsResult::getDayCount">getDayCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/NodeCounter.php.html#71"><abbr title="Drupal\statistics\Plugin\migrate\destination\NodeCounter::fields">fields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/NodeCounter.php.html#51"><abbr title="Drupal\statistics\Plugin\migrate\destination\NodeCounter::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/NodeStatisticsDatabaseStorage.php.html#52"><abbr title="Drupal\statistics\NodeStatisticsDatabaseStorage::recordView">recordView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/NodeStatisticsDatabaseStorage.php.html#144"><abbr title="Drupal\statistics\NodeStatisticsDatabaseStorage::getRequestTime">getRequestTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/NodeStatisticsDatabaseStorage.php.html#69"><abbr title="Drupal\statistics\NodeStatisticsDatabaseStorage::fetchViews">fetchViews</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/NodeStatisticsDatabaseStorage.php.html#85"><abbr title="Drupal\statistics\NodeStatisticsDatabaseStorage::fetchView">fetchView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/NodeStatisticsDatabaseStorage.php.html#93"><abbr title="Drupal\statistics\NodeStatisticsDatabaseStorage::fetchAll">fetchAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/NodeStatisticsDatabaseStorage.php.html#108"><abbr title="Drupal\statistics\NodeStatisticsDatabaseStorage::deleteViews">deleteViews</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/NodeStatisticsDatabaseStorage.php.html#118"><abbr title="Drupal\statistics\NodeStatisticsDatabaseStorage::resetDayCount">resetDayCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/NodeStatisticsDatabaseStorage.php.html#131"><abbr title="Drupal\statistics\NodeStatisticsDatabaseStorage::maxTotalCount">maxTotalCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/StatisticsPopularBlock.php.html#68"><abbr title="Drupal\statistics\Plugin\Block\StatisticsPopularBlock::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/NodeCounter.php.html#43"><abbr title="Drupal\statistics\Plugin\migrate\destination\NodeCounter::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/StatisticsPopularBlock.php.html#79"><abbr title="Drupal\statistics\Plugin\Block\StatisticsPopularBlock::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/StatisticsPopularBlock.php.html#94"><abbr title="Drupal\statistics\Plugin\Block\StatisticsPopularBlock::defaultConfiguration">defaultConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/StatisticsPopularBlock.php.html#105"><abbr title="Drupal\statistics\Plugin\Block\StatisticsPopularBlock::blockAccess">blockAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/StatisticsPopularBlock.php.html#112"><abbr title="Drupal\statistics\Plugin\Block\StatisticsPopularBlock::blockForm">blockForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/StatisticsPopularBlock.php.html#143"><abbr title="Drupal\statistics\Plugin\Block\StatisticsPopularBlock::blockSubmit">blockSubmit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/StatisticsPopularBlock.php.html#152"><abbr title="Drupal\statistics\Plugin\Block\StatisticsPopularBlock::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Block/StatisticsPopularBlock.php.html#191"><abbr title="Drupal\statistics\Plugin\Block\StatisticsPopularBlock::nodeTitleList">nodeTitleList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/StatisticsViewsResult.php.html#54"><abbr title="Drupal\statistics\StatisticsViewsResult::getTimestamp">getTimestamp</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Plugin/Block/StatisticsPopularBlock.php.html#152"><abbr title="Drupal\statistics\Plugin\Block\StatisticsPopularBlock::build">build</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/NodeStatisticsDatabaseStorage.php.html#118"><abbr title="Drupal\statistics\NodeStatisticsDatabaseStorage::resetDayCount">resetDayCount</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/NodeStatisticsDatabaseStorage.php.html#69"><abbr title="Drupal\statistics\NodeStatisticsDatabaseStorage::fetchViews">fetchViews</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/Block/StatisticsPopularBlock.php.html#191"><abbr title="Drupal\statistics\Plugin\Block\StatisticsPopularBlock::nodeTitleList">nodeTitleList</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/StatisticsSettingsForm.php.html#88"><abbr title="Drupal\statistics\StatisticsSettingsForm::submitForm">submitForm</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.33-16+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Fri Jun 12 8:21:00 AEST 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([8,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([37,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,12,"<a href=\"src\/NodeStatisticsDatabaseStorage.php.html#12\">Drupal\\statistics\\NodeStatisticsDatabaseStorage<\/a>"],[0,14,"<a href=\"src\/Plugin\/Block\/StatisticsPopularBlock.php.html#24\">Drupal\\statistics\\Plugin\\Block\\StatisticsPopularBlock<\/a>"],[0,5,"<a href=\"src\/Plugin\/migrate\/destination\/NodeCounter.php.html#20\">Drupal\\statistics\\Plugin\\migrate\\destination\\NodeCounter<\/a>"],[0,3,"<a href=\"src\/Plugin\/migrate\/source\/NodeCounter.php.html#15\">Drupal\\statistics\\Plugin\\migrate\\source\\NodeCounter<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/NodeCounterTimestamp.php.html#15\">Drupal\\statistics\\Plugin\\views\\field\\NodeCounterTimestamp<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/StatisticsNumeric.php.html#15\">Drupal\\statistics\\Plugin\\views\\field\\StatisticsNumeric<\/a>"],[0,7,"<a href=\"src\/StatisticsSettingsForm.php.html#16\">Drupal\\statistics\\StatisticsSettingsForm<\/a>"],[0,4,"<a href=\"src\/StatisticsViewsResult.php.html#8\">Drupal\\statistics\\StatisticsViewsResult<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"src\/NodeStatisticsDatabaseStorage.php.html#43\">Drupal\\statistics\\NodeStatisticsDatabaseStorage::__construct<\/a>"],[0,1,"<a href=\"src\/NodeStatisticsDatabaseStorage.php.html#52\">Drupal\\statistics\\NodeStatisticsDatabaseStorage::recordView<\/a>"],[0,2,"<a href=\"src\/NodeStatisticsDatabaseStorage.php.html#69\">Drupal\\statistics\\NodeStatisticsDatabaseStorage::fetchViews<\/a>"],[0,1,"<a href=\"src\/NodeStatisticsDatabaseStorage.php.html#85\">Drupal\\statistics\\NodeStatisticsDatabaseStorage::fetchView<\/a>"],[0,1,"<a href=\"src\/NodeStatisticsDatabaseStorage.php.html#93\">Drupal\\statistics\\NodeStatisticsDatabaseStorage::fetchAll<\/a>"],[0,1,"<a href=\"src\/NodeStatisticsDatabaseStorage.php.html#108\">Drupal\\statistics\\NodeStatisticsDatabaseStorage::deleteViews<\/a>"],[0,3,"<a href=\"src\/NodeStatisticsDatabaseStorage.php.html#118\">Drupal\\statistics\\NodeStatisticsDatabaseStorage::resetDayCount<\/a>"],[0,1,"<a href=\"src\/NodeStatisticsDatabaseStorage.php.html#131\">Drupal\\statistics\\NodeStatisticsDatabaseStorage::maxTotalCount<\/a>"],[0,1,"<a href=\"src\/NodeStatisticsDatabaseStorage.php.html#144\">Drupal\\statistics\\NodeStatisticsDatabaseStorage::getRequestTime<\/a>"],[0,1,"<a href=\"src\/Plugin\/Block\/StatisticsPopularBlock.php.html#68\">Drupal\\statistics\\Plugin\\Block\\StatisticsPopularBlock::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/Block\/StatisticsPopularBlock.php.html#79\">Drupal\\statistics\\Plugin\\Block\\StatisticsPopularBlock::create<\/a>"],[0,1,"<a href=\"src\/Plugin\/Block\/StatisticsPopularBlock.php.html#94\">Drupal\\statistics\\Plugin\\Block\\StatisticsPopularBlock::defaultConfiguration<\/a>"],[0,1,"<a href=\"src\/Plugin\/Block\/StatisticsPopularBlock.php.html#105\">Drupal\\statistics\\Plugin\\Block\\StatisticsPopularBlock::blockAccess<\/a>"],[0,1,"<a href=\"src\/Plugin\/Block\/StatisticsPopularBlock.php.html#112\">Drupal\\statistics\\Plugin\\Block\\StatisticsPopularBlock::blockForm<\/a>"],[0,1,"<a href=\"src\/Plugin\/Block\/StatisticsPopularBlock.php.html#143\">Drupal\\statistics\\Plugin\\Block\\StatisticsPopularBlock::blockSubmit<\/a>"],[0,6,"<a href=\"src\/Plugin\/Block\/StatisticsPopularBlock.php.html#152\">Drupal\\statistics\\Plugin\\Block\\StatisticsPopularBlock::build<\/a>"],[0,2,"<a href=\"src\/Plugin\/Block\/StatisticsPopularBlock.php.html#191\">Drupal\\statistics\\Plugin\\Block\\StatisticsPopularBlock::nodeTitleList<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/destination\/NodeCounter.php.html#43\">Drupal\\statistics\\Plugin\\migrate\\destination\\NodeCounter::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/destination\/NodeCounter.php.html#51\">Drupal\\statistics\\Plugin\\migrate\\destination\\NodeCounter::create<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/destination\/NodeCounter.php.html#64\">Drupal\\statistics\\Plugin\\migrate\\destination\\NodeCounter::getIds<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/destination\/NodeCounter.php.html#71\">Drupal\\statistics\\Plugin\\migrate\\destination\\NodeCounter::fields<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/destination\/NodeCounter.php.html#83\">Drupal\\statistics\\Plugin\\migrate\\destination\\NodeCounter::import<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/NodeCounter.php.html#20\">Drupal\\statistics\\Plugin\\migrate\\source\\NodeCounter::query<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/NodeCounter.php.html#27\">Drupal\\statistics\\Plugin\\migrate\\source\\NodeCounter::fields<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/NodeCounter.php.html#39\">Drupal\\statistics\\Plugin\\migrate\\source\\NodeCounter::getIds<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/NodeCounterTimestamp.php.html#20\">Drupal\\statistics\\Plugin\\views\\field\\NodeCounterTimestamp::access<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/StatisticsNumeric.php.html#20\">Drupal\\statistics\\Plugin\\views\\field\\StatisticsNumeric::access<\/a>"],[0,1,"<a href=\"src\/StatisticsSettingsForm.php.html#33\">Drupal\\statistics\\StatisticsSettingsForm::__construct<\/a>"],[0,1,"<a href=\"src\/StatisticsSettingsForm.php.html#42\">Drupal\\statistics\\StatisticsSettingsForm::create<\/a>"],[0,1,"<a href=\"src\/StatisticsSettingsForm.php.html#52\">Drupal\\statistics\\StatisticsSettingsForm::getFormId<\/a>"],[0,1,"<a href=\"src\/StatisticsSettingsForm.php.html#59\">Drupal\\statistics\\StatisticsSettingsForm::getEditableConfigNames<\/a>"],[0,1,"<a href=\"src\/StatisticsSettingsForm.php.html#66\">Drupal\\statistics\\StatisticsSettingsForm::buildForm<\/a>"],[0,2,"<a href=\"src\/StatisticsSettingsForm.php.html#88\">Drupal\\statistics\\StatisticsSettingsForm::submitForm<\/a>"],[0,1,"<a href=\"src\/StatisticsViewsResult.php.html#25\">Drupal\\statistics\\StatisticsViewsResult::__construct<\/a>"],[0,1,"<a href=\"src\/StatisticsViewsResult.php.html#36\">Drupal\\statistics\\StatisticsViewsResult::getTotalCount<\/a>"],[0,1,"<a href=\"src\/StatisticsViewsResult.php.html#45\">Drupal\\statistics\\StatisticsViewsResult::getDayCount<\/a>"],[0,1,"<a href=\"src\/StatisticsViewsResult.php.html#54\">Drupal\\statistics\\StatisticsViewsResult::getTimestamp<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

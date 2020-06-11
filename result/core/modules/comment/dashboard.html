@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/crafter/www/drupal-modules.devel/web/core/modules/comment</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/home/crafter/www/drupal-modules.devel/web</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">core</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">modules</a></li>
+         <li class="breadcrumb-item"><a href="index.html">comment</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/CommentAccessControlHandler.php.html#17">Drupal\comment\CommentAccessControlHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/Depth.php.html#15">Drupal\comment\Plugin\views\field\Depth</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/CommentNameConstraintValidator.php.html#15">Drupal\comment\Plugin\Validation\Constraint\CommentNameConstraintValidator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/D7Comment.php.html#10">Drupal\comment\Plugin\migrate\D7Comment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/EntityComment.php.html#19">Drupal\comment\Plugin\migrate\destination\EntityComment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/EntityCommentType.php.html#13">Drupal\comment\Plugin\migrate\destination\EntityCommentType</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/Comment.php.html#16">Drupal\comment\Plugin\migrate\source\d6\Comment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/CommentVariable.php.html#19">Drupal\comment\Plugin\migrate\source\d6\CommentVariable</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/CommentVariablePerCommentType.php.html#16">Drupal\comment\Plugin\migrate\source\d6\CommentVariablePerCommentType</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d7/Comment.php.html#16">Drupal\comment\Plugin\migrate\source\d7\Comment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d7/CommentEntityTranslation.php.html#16">Drupal\comment\Plugin\migrate\source\d7\CommentEntityTranslation</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d7/CommentType.php.html#22">Drupal\comment\Plugin\migrate\source\d7\CommentType</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/argument/UserUid.php.html#18">Drupal\comment\Plugin\views\argument\UserUid</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/CommentBulkForm.php.html#12">Drupal\comment\Plugin\views\field\CommentBulkForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/CommentedEntity.php.html#13">Drupal\comment\Plugin\views\field\CommentedEntity</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/EntityLink.php.html#16">Drupal\comment\Plugin\views\field\EntityLink</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Menu/LocalTask/UnapprovedComments.php.html#15">Drupal\comment\Plugin\Menu\LocalTask\UnapprovedComments</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/LastTimestamp.php.html#17">Drupal\comment\Plugin\views\field\LastTimestamp</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/LinkApprove.php.html#16">Drupal\comment\Plugin\views\field\LinkApprove</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/LinkReply.php.html#16">Drupal\comment\Plugin\views\field\LinkReply</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#24">Drupal\comment\Plugin\views\field\NodeNewComments</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/StatisticsLastCommentName.php.html#16">Drupal\comment\Plugin\views\field\StatisticsLastCommentName</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/StatisticsLastUpdated.php.html#14">Drupal\comment\Plugin\views\field\StatisticsLastUpdated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/filter/NodeComment.php.html#15">Drupal\comment\Plugin\views\filter\NodeComment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/filter/StatisticsLastUpdated.php.html#14">Drupal\comment\Plugin\views\filter\StatisticsLastUpdated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/filter/UserUid.php.html#17">Drupal\comment\Plugin\views\filter\UserUid</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/Rss.php.html#20">Drupal\comment\Plugin\views\row\Rss</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/sort/StatisticsLastCommentName.php.html#15">Drupal\comment\Plugin\views\sort\StatisticsLastCommentName</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/sort/StatisticsLastUpdated.php.html#14">Drupal\comment\Plugin\views\sort\StatisticsLastUpdated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/sort/Thread.php.html#14">Drupal\comment\Plugin\views\sort\Thread</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/CommentNameConstraint.php.html#16">Drupal\comment\Plugin\Validation\Constraint\CommentNameConstraint</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldWidget/CommentWidget.php.html#22">Drupal\comment\Plugin\Field\FieldWidget\CommentWidget</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentBreadcrumbBuilder.php.html#15">Drupal\comment\CommentBreadcrumbBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#29">Drupal\comment\Controller\CommentController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentFieldItemList.php.html#12">Drupal\comment\CommentFieldItemList</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#27">Drupal\comment\CommentForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentLazyBuilders.php.html#20">Drupal\comment\CommentLazyBuilders</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentLinkBuilder.php.html#21">Drupal\comment\CommentLinkBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentManager.php.html#26">Drupal\comment\CommentManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStatistics.php.html#15">Drupal\comment\CommentStatistics</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#25">Drupal\comment\CommentStorage</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorageSchema.php.html#13">Drupal\comment\CommentStorageSchema</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTranslationHandler.php.html#12">Drupal\comment\CommentTranslationHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTypeForm.php.html#19">Drupal\comment\CommentTypeForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTypeListBuilder.php.html#13">Drupal\comment\CommentTypeListBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentViewBuilder.php.html#20">Drupal\comment\CommentViewBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentViewsData.php.html#11">Drupal\comment\CommentViewsData</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#71">Drupal\comment\Entity\Comment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldType/CommentItem.php.html#29">Drupal\comment\Plugin\Field\FieldType\CommentItem</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/CommentType.php.html#50">Drupal\comment\Entity\CommentType</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/CommentAdminOverview.php.html#20">Drupal\comment\Form\CommentAdminOverview</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/CommentTypeDeleteForm.php.html#17">Drupal\comment\Form\CommentTypeDeleteForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/ConfirmDeleteMultiple.php.html#13">Drupal\comment\Form\ConfirmDeleteMultiple</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/DeleteForm.php.html#12">Drupal\comment\Form\DeleteForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/DeleteComment.php.html#24">Drupal\comment\Plugin\Action\DeleteComment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/PublishComment.php.html#23">Drupal\comment\Plugin\Action\PublishComment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/SaveComment.php.html#24">Drupal\comment\Plugin\Action\SaveComment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishByKeywordComment.php.html#23">Drupal\comment\Plugin\Action\UnpublishByKeywordComment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishComment.php.html#23">Drupal\comment\Plugin\Action\UnpublishComment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/CommentSelection.php.html#20">Drupal\comment\Plugin\EntityReferenceSelection\CommentSelection</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/AuthorNameFormatter.php.html#21">Drupal\comment\Plugin\Field\FieldFormatter\AuthorNameFormatter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php.html#35">Drupal\comment\Plugin\Field\FieldFormatter\CommentDefaultFormatter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentPermalinkFormatter.php.html#28">Drupal\comment\Plugin\Field\FieldFormatter\CommentPermalinkFormatter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/wizard/Comment.php.html#20">Drupal\comment\Plugin\views\wizard\Comment</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Entity/Comment.php.html#71">Drupal\comment\Entity\Comment</a></td><td class="text-right">3422</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#27">Drupal\comment\CommentForm</a></td><td class="text-right">3306</td></tr>
+       <tr><td><a href="src/CommentAccessControlHandler.php.html#17">Drupal\comment\CommentAccessControlHandler</a></td><td class="text-right">992</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#29">Drupal\comment\Controller\CommentController</a></td><td class="text-right">930</td></tr>
+       <tr><td><a href="src/CommentLinkBuilder.php.html#21">Drupal\comment\CommentLinkBuilder</a></td><td class="text-right">930</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#24">Drupal\comment\Plugin\views\field\NodeNewComments</a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php.html#35">Drupal\comment\Plugin\Field\FieldFormatter\CommentDefaultFormatter</a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="src/Form/CommentAdminOverview.php.html#20">Drupal\comment\Form\CommentAdminOverview</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="src/CommentStatistics.php.html#15">Drupal\comment\CommentStatistics</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="src/CommentManager.php.html#26">Drupal\comment\CommentManager</a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#25">Drupal\comment\CommentStorage</a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="src/CommentViewBuilder.php.html#20">Drupal\comment\CommentViewBuilder</a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/CommentNameConstraintValidator.php.html#15">Drupal\comment\Plugin\Validation\Constraint\CommentNameConstraintValidator</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="src/CommentLazyBuilders.php.html#20">Drupal\comment\CommentLazyBuilders</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/CommentVariable.php.html#19">Drupal\comment\Plugin\migrate\source\d6\CommentVariable</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="src/CommentViewsData.php.html#11">Drupal\comment\CommentViewsData</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="src/CommentFieldItemList.php.html#12">Drupal\comment\CommentFieldItemList</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d7/Comment.php.html#16">Drupal\comment\Plugin\migrate\source\d7\Comment</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/Plugin/views/argument/UserUid.php.html#18">Drupal\comment\Plugin\views\argument\UserUid</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldType/CommentItem.php.html#29">Drupal\comment\Plugin\Field\FieldType\CommentItem</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/CommentStorageSchema.php.html#13">Drupal\comment\CommentStorageSchema</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishByKeywordComment.php.html#23">Drupal\comment\Plugin\Action\UnpublishByKeywordComment</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="src/CommentTypeForm.php.html#19">Drupal\comment\CommentTypeForm</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/Form/CommentTypeDeleteForm.php.html#17">Drupal\comment\Form\CommentTypeDeleteForm</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/CommentSelection.php.html#20">Drupal\comment\Plugin\EntityReferenceSelection\CommentSelection</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/Plugin/views/field/EntityLink.php.html#16">Drupal\comment\Plugin\views\field\EntityLink</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/Plugin/views/row/Rss.php.html#20">Drupal\comment\Plugin\views\row\Rss</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d7/CommentEntityTranslation.php.html#16">Drupal\comment\Plugin\migrate\source\d7\CommentEntityTranslation</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/EntityComment.php.html#19">Drupal\comment\Plugin\migrate\destination\EntityComment</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/Comment.php.html#16">Drupal\comment\Plugin\migrate\source\d6\Comment</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentPermalinkFormatter.php.html#28">Drupal\comment\Plugin\Field\FieldFormatter\CommentPermalinkFormatter</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldWidget/CommentWidget.php.html#22">Drupal\comment\Plugin\Field\FieldWidget\CommentWidget</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/CommentBreadcrumbBuilder.php.html#15">Drupal\comment\CommentBreadcrumbBuilder</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/CommentVariablePerCommentType.php.html#16">Drupal\comment\Plugin\migrate\source\d6\CommentVariablePerCommentType</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Plugin/views/field/CommentedEntity.php.html#13">Drupal\comment\Plugin\views\field\CommentedEntity</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/CommentTranslationHandler.php.html#12">Drupal\comment\CommentTranslationHandler</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/AuthorNameFormatter.php.html#21">Drupal\comment\Plugin\Field\FieldFormatter\AuthorNameFormatter</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/views/field/LastTimestamp.php.html#17">Drupal\comment\Plugin\views\field\LastTimestamp</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/CommentTypeListBuilder.php.html#13">Drupal\comment\CommentTypeListBuilder</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/views/field/StatisticsLastCommentName.php.html#16">Drupal\comment\Plugin\views\field\StatisticsLastCommentName</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/migrate/D7Comment.php.html#10">Drupal\comment\Plugin\migrate\D7Comment</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/field/Depth.php.html#15">Drupal\comment\Plugin\views\field\Depth</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/filter/StatisticsLastUpdated.php.html#14">Drupal\comment\Plugin\views\filter\StatisticsLastUpdated</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/sort/Thread.php.html#14">Drupal\comment\Plugin\views\sort\Thread</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/CommentAccessControlHandler.php.html#22"><abbr title="Drupal\comment\CommentAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/CommentNameConstraintValidator.php.html#51"><abbr title="Drupal\comment\Plugin\Validation\Constraint\CommentNameConstraintValidator::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldType/CommentItem.php.html#156"><abbr title="Drupal\comment\Plugin\Field\FieldType\CommentItem::mainPropertyName">mainPropertyName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldType/CommentItem.php.html#163"><abbr title="Drupal\comment\Plugin\Field\FieldType\CommentItem::isEmpty">isEmpty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldType/CommentItem.php.html#173"><abbr title="Drupal\comment\Plugin\Field\FieldType\CommentItem::storageSettingsForm">storageSettingsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldType/CommentItem.php.html#201"><abbr title="Drupal\comment\Plugin\Field\FieldType\CommentItem::generateSampleValue">generateSampleValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldWidget/CommentWidget.php.html#27"><abbr title="Drupal\comment\Plugin\Field\FieldWidget\CommentWidget::formElement">formElement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldWidget/CommentWidget.php.html#89"><abbr title="Drupal\comment\Plugin\Field\FieldWidget\CommentWidget::massageFormValues">massageFormValues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Menu/LocalTask/UnapprovedComments.php.html#37"><abbr title="Drupal\comment\Plugin\Menu\LocalTask\UnapprovedComments::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Menu/LocalTask/UnapprovedComments.php.html#45"><abbr title="Drupal\comment\Plugin\Menu\LocalTask\UnapprovedComments::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Menu/LocalTask/UnapprovedComments.php.html#57"><abbr title="Drupal\comment\Plugin\Menu\LocalTask\UnapprovedComments::getTitle">getTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/CommentNameConstraint.php.html#42"><abbr title="Drupal\comment\Plugin\Validation\Constraint\CommentNameConstraint::coversFields">coversFields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/CommentNameConstraintValidator.php.html#37"><abbr title="Drupal\comment\Plugin\Validation\Constraint\CommentNameConstraintValidator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/CommentNameConstraintValidator.php.html#44"><abbr title="Drupal\comment\Plugin\Validation\Constraint\CommentNameConstraintValidator::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/CommentNameConstraintValidator.php.html#95"><abbr title="Drupal\comment\Plugin\Validation\Constraint\CommentNameConstraintValidator::getAnonymousContactDetailsSetting">getAnonymousContactDetailsSetting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldType/CommentItem.php.html#85"><abbr title="Drupal\comment\Plugin\Field\FieldType\CommentItem::schema">schema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/D7Comment.php.html#15"><abbr title="Drupal\comment\Plugin\migrate\D7Comment::getProcess">getProcess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/EntityComment.php.html#57"><abbr title="Drupal\comment\Plugin\migrate\destination\EntityComment::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/EntityComment.php.html#65"><abbr title="Drupal\comment\Plugin\migrate\destination\EntityComment::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/EntityComment.php.html#83"><abbr title="Drupal\comment\Plugin\migrate\destination\EntityComment::import">import</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/EntityComment.php.html#97"><abbr title="Drupal\comment\Plugin\migrate\destination\EntityComment::processStubRow">processStubRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/EntityCommentType.php.html#18"><abbr title="Drupal\comment\Plugin\migrate\destination\EntityCommentType::import">import</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/Comment.php.html#21"><abbr title="Drupal\comment\Plugin\migrate\source\d6\Comment::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/Comment.php.html#36"><abbr title="Drupal\comment\Plugin\migrate\source\d6\Comment::prepareRow">prepareRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/Comment.php.html#63"><abbr title="Drupal\comment\Plugin\migrate\source\d6\Comment::prepareComment">prepareComment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/Comment.php.html#90"><abbr title="Drupal\comment\Plugin\migrate\source\d6\Comment::fields">fields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/Comment.php.html#114"><abbr title="Drupal\comment\Plugin\migrate\source\d6\Comment::getIds">getIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/CommentVariable.php.html#26"><abbr title="Drupal\comment\Plugin\migrate\source\d6\CommentVariable::initializeIterator">initializeIterator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/CommentVariable.php.html#33"><abbr title="Drupal\comment\Plugin\migrate\source\d6\CommentVariable::count">count</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldType/CommentItem.php.html#102"><abbr title="Drupal\comment\Plugin\Field\FieldType\CommentItem::fieldSettingsForm">fieldSettingsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldType/CommentItem.php.html#56"><abbr title="Drupal\comment\Plugin\Field\FieldType\CommentItem::propertyDefinitions">propertyDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/CommentVariable.php.html#82"><abbr title="Drupal\comment\Plugin\migrate\source\d6\CommentVariable::fields">fields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/CommentSelection.php.html#53"><abbr title="Drupal\comment\Plugin\EntityReferenceSelection\CommentSelection::validateReferenceableNewEntities">validateReferenceableNewEntities</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/DeleteComment.php.html#29"><abbr title="Drupal\comment\Plugin\Action\DeleteComment::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/PublishComment.php.html#28"><abbr title="Drupal\comment\Plugin\Action\PublishComment::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/SaveComment.php.html#29"><abbr title="Drupal\comment\Plugin\Action\SaveComment::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishByKeywordComment.php.html#53"><abbr title="Drupal\comment\Plugin\Action\UnpublishByKeywordComment::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishByKeywordComment.php.html#63"><abbr title="Drupal\comment\Plugin\Action\UnpublishByKeywordComment::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishByKeywordComment.php.html#76"><abbr title="Drupal\comment\Plugin\Action\UnpublishByKeywordComment::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishByKeywordComment.php.html#91"><abbr title="Drupal\comment\Plugin\Action\UnpublishByKeywordComment::defaultConfiguration">defaultConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishByKeywordComment.php.html#100"><abbr title="Drupal\comment\Plugin\Action\UnpublishByKeywordComment::buildConfigurationForm">buildConfigurationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishByKeywordComment.php.html#113"><abbr title="Drupal\comment\Plugin\Action\UnpublishByKeywordComment::submitConfigurationForm">submitConfigurationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishByKeywordComment.php.html#120"><abbr title="Drupal\comment\Plugin\Action\UnpublishByKeywordComment::access">access</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishComment.php.html#28"><abbr title="Drupal\comment\Plugin\Action\UnpublishComment::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/CommentSelection.php.html#25"><abbr title="Drupal\comment\Plugin\EntityReferenceSelection\CommentSelection::buildEntityQuery">buildEntityQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/CommentSelection.php.html#40"><abbr title="Drupal\comment\Plugin\EntityReferenceSelection\CommentSelection::createNewEntity">createNewEntity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/CommentSelection.php.html#68"><abbr title="Drupal\comment\Plugin\EntityReferenceSelection\CommentSelection::entityQueryAlter">entityQueryAlter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldType/CommentItem.php.html#43"><abbr title="Drupal\comment\Plugin\Field\FieldType\CommentItem::defaultFieldSettings">defaultFieldSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/AuthorNameFormatter.php.html#26"><abbr title="Drupal\comment\Plugin\Field\FieldFormatter\AuthorNameFormatter::viewElements">viewElements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/AuthorNameFormatter.php.html#48"><abbr title="Drupal\comment\Plugin\Field\FieldFormatter\AuthorNameFormatter::isApplicable">isApplicable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php.html#46"><abbr title="Drupal\comment\Plugin\Field\FieldFormatter\CommentDefaultFormatter::defaultSettings">defaultSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php.html#96"><abbr title="Drupal\comment\Plugin\Field\FieldFormatter\CommentDefaultFormatter::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php.html#141"><abbr title="Drupal\comment\Plugin\Field\FieldFormatter\CommentDefaultFormatter::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php.html#158"><abbr title="Drupal\comment\Plugin\Field\FieldFormatter\CommentDefaultFormatter::viewElements">viewElements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php.html#238"><abbr title="Drupal\comment\Plugin\Field\FieldFormatter\CommentDefaultFormatter::settingsForm">settingsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php.html#263"><abbr title="Drupal\comment\Plugin\Field\FieldFormatter\CommentDefaultFormatter::settingsSummary">settingsSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php.html#277"><abbr title="Drupal\comment\Plugin\Field\FieldFormatter\CommentDefaultFormatter::calculateDependencies">calculateDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php.html#297"><abbr title="Drupal\comment\Plugin\Field\FieldFormatter\CommentDefaultFormatter::getViewModes">getViewModes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentPermalinkFormatter.php.html#33"><abbr title="Drupal\comment\Plugin\Field\FieldFormatter\CommentPermalinkFormatter::getEntityUrl">getEntityUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentPermalinkFormatter.php.html#47"><abbr title="Drupal\comment\Plugin\Field\FieldFormatter\CommentPermalinkFormatter::isApplicable">isApplicable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldType/CommentItem.php.html#34"><abbr title="Drupal\comment\Plugin\Field\FieldType\CommentItem::defaultStorageSettings">defaultStorageSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/CommentVariable.php.html#42"><abbr title="Drupal\comment\Plugin\migrate\source\d6\CommentVariable::getCommentVariables">getCommentVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/CommentVariable.php.html#92"><abbr title="Drupal\comment\Plugin\migrate\source\d6\CommentVariable::commentPrefixes">commentPrefixes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/DeleteForm.php.html#39"><abbr title="Drupal\comment\Form\DeleteForm::getDeletionMessage">getDeletionMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#229"><abbr title="Drupal\comment\Plugin\views\field\NodeNewComments::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/LinkApprove.php.html#28"><abbr title="Drupal\comment\Plugin\views\field\LinkApprove::renderLink">renderLink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/LinkApprove.php.html#36"><abbr title="Drupal\comment\Plugin\views\field\LinkApprove::getDefaultLabel">getDefaultLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/LinkReply.php.html#21"><abbr title="Drupal\comment\Plugin\views\field\LinkReply::getUrlInfo">getUrlInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/LinkReply.php.html#35"><abbr title="Drupal\comment\Plugin\views\field\LinkReply::getDefaultLabel">getDefaultLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#29"><abbr title="Drupal\comment\Plugin\views\field\NodeNewComments::usesGroupBy">usesGroupBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#70"><abbr title="Drupal\comment\Plugin\views\field\NodeNewComments::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#88"><abbr title="Drupal\comment\Plugin\views\field\NodeNewComments::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#102"><abbr title="Drupal\comment\Plugin\views\field\NodeNewComments::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#113"><abbr title="Drupal\comment\Plugin\views\field\NodeNewComments::defineOptions">defineOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#124"><abbr title="Drupal\comment\Plugin\views\field\NodeNewComments::buildOptionsForm">buildOptionsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#138"><abbr title="Drupal\comment\Plugin\views\field\NodeNewComments::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#147"><abbr title="Drupal\comment\Plugin\views\field\NodeNewComments::preRender">preRender</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#194"><abbr title="Drupal\comment\Plugin\views\field\NodeNewComments::renderLink">renderLink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/StatisticsLastCommentName.php.html#21"><abbr title="Drupal\comment\Plugin\views\field\StatisticsLastCommentName::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/LastTimestamp.php.html#31"><abbr title="Drupal\comment\Plugin\views\field\LastTimestamp::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/StatisticsLastCommentName.php.html#53"><abbr title="Drupal\comment\Plugin\views\field\StatisticsLastCommentName::defineOptions">defineOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/StatisticsLastCommentName.php.html#64"><abbr title="Drupal\comment\Plugin\views\field\StatisticsLastCommentName::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/StatisticsLastUpdated.php.html#16"><abbr title="Drupal\comment\Plugin\views\field\StatisticsLastUpdated::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/filter/NodeComment.php.html#17"><abbr title="Drupal\comment\Plugin\views\filter\NodeComment::getValueOptions">getValueOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/filter/StatisticsLastUpdated.php.html#16"><abbr title="Drupal\comment\Plugin\views\filter\StatisticsLastUpdated::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/filter/UserUid.php.html#19"><abbr title="Drupal\comment\Plugin\views\filter\UserUid::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/Rss.php.html#42"><abbr title="Drupal\comment\Plugin\views\row\Rss::preRender">preRender</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/Rss.php.html#55"><abbr title="Drupal\comment\Plugin\views\row\Rss::buildOptionsForm_summary_options">buildOptionsForm_summary_options</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/row/Rss.php.html#62"><abbr title="Drupal\comment\Plugin\views\row\Rss::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/sort/StatisticsLastCommentName.php.html#17"><abbr title="Drupal\comment\Plugin\views\sort\StatisticsLastCommentName::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/sort/StatisticsLastUpdated.php.html#16"><abbr title="Drupal\comment\Plugin\views\sort\StatisticsLastUpdated::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/sort/Thread.php.html#16"><abbr title="Drupal\comment\Plugin\views\sort\Thread::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/wizard/Comment.php.html#47"><abbr title="Drupal\comment\Plugin\views\wizard\Comment::rowStyleOptions">rowStyleOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/LinkApprove.php.html#21"><abbr title="Drupal\comment\Plugin\views\field\LinkApprove::getUrlInfo">getUrlInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/LastTimestamp.php.html#22"><abbr title="Drupal\comment\Plugin\views\field\LastTimestamp::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/CommentVariable.php.html#109"><abbr title="Drupal\comment\Plugin\migrate\source\d6\CommentVariable::getIds">getIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d7/CommentType.php.html#56"><abbr title="Drupal\comment\Plugin\migrate\source\d7\CommentType::prepareRow">prepareRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/CommentVariablePerCommentType.php.html#23"><abbr title="Drupal\comment\Plugin\migrate\source\d6\CommentVariablePerCommentType::getCommentVariables">getCommentVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/CommentVariablePerCommentType.php.html#52"><abbr title="Drupal\comment\Plugin\migrate\source\d6\CommentVariablePerCommentType::fields">fields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/CommentVariablePerCommentType.php.html#63"><abbr title="Drupal\comment\Plugin\migrate\source\d6\CommentVariablePerCommentType::getIds">getIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d7/Comment.php.html#21"><abbr title="Drupal\comment\Plugin\migrate\source\d7\Comment::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d7/Comment.php.html#32"><abbr title="Drupal\comment\Plugin\migrate\source\d7\Comment::prepareRow">prepareRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d7/Comment.php.html#70"><abbr title="Drupal\comment\Plugin\migrate\source\d7\Comment::fields">fields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d7/Comment.php.html#95"><abbr title="Drupal\comment\Plugin\migrate\source\d7\Comment::getIds">getIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d7/CommentEntityTranslation.php.html#21"><abbr title="Drupal\comment\Plugin\migrate\source\d7\CommentEntityTranslation::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d7/CommentEntityTranslation.php.html#43"><abbr title="Drupal\comment\Plugin\migrate\source\d7\CommentEntityTranslation::prepareRow">prepareRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d7/CommentEntityTranslation.php.html#71"><abbr title="Drupal\comment\Plugin\migrate\source\d7\CommentEntityTranslation::fields">fields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d7/CommentEntityTranslation.php.html#90"><abbr title="Drupal\comment\Plugin\migrate\source\d7\CommentEntityTranslation::getIds">getIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d7/CommentType.php.html#34"><abbr title="Drupal\comment\Plugin\migrate\source\d7\CommentType::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d7/CommentType.php.html#44"><abbr title="Drupal\comment\Plugin\migrate\source\d7\CommentType::initializeIterator">initializeIterator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d7/CommentType.php.html#78"><abbr title="Drupal\comment\Plugin\migrate\source\d7\CommentType::fields">fields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/EntityLink.php.html#75"><abbr title="Drupal\comment\Plugin\views\field\EntityLink::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d7/CommentType.php.html#95"><abbr title="Drupal\comment\Plugin\migrate\source\d7\CommentType::getIds">getIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/argument/UserUid.php.html#39"><abbr title="Drupal\comment\Plugin\views\argument\UserUid::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/argument/UserUid.php.html#48"><abbr title="Drupal\comment\Plugin\views\argument\UserUid::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/argument/UserUid.php.html#52"><abbr title="Drupal\comment\Plugin\views\argument\UserUid::title">title</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/argument/UserUid.php.html#66"><abbr title="Drupal\comment\Plugin\views\argument\UserUid::defaultActions">defaultActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/argument/UserUid.php.html#80"><abbr title="Drupal\comment\Plugin\views\argument\UserUid::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/argument/UserUid.php.html#105"><abbr title="Drupal\comment\Plugin\views\argument\UserUid::getSortName">getSortName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/CommentBulkForm.php.html#17"><abbr title="Drupal\comment\Plugin\views\field\CommentBulkForm::emptySelectedMessage">emptySelectedMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/CommentedEntity.php.html#28"><abbr title="Drupal\comment\Plugin\views\field\CommentedEntity::getItems">getItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/Depth.php.html#20"><abbr title="Drupal\comment\Plugin\views\field\Depth::getItems">getItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/EntityLink.php.html#28"><abbr title="Drupal\comment\Plugin\views\field\EntityLink::defineOptions">defineOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/EntityLink.php.html#37"><abbr title="Drupal\comment\Plugin\views\field\EntityLink::buildOptionsForm">buildOptionsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/field/EntityLink.php.html#56"><abbr title="Drupal\comment\Plugin\views\field\EntityLink::preRender">preRender</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/DeleteForm.php.html#46"><abbr title="Drupal\comment\Form\DeleteForm::logDeletionMessage">logDeletionMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/DeleteForm.php.html#32"><abbr title="Drupal\comment\Form\DeleteForm::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentAccessControlHandler.php.html#64"><abbr title="Drupal\comment\CommentAccessControlHandler::checkCreateAccess">checkCreateAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#341"><abbr title="Drupal\comment\CommentStorage::getUnapprovedCount">getUnapprovedCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStatistics.php.html#111"><abbr title="Drupal\comment\CommentStatistics::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStatistics.php.html#163"><abbr title="Drupal\comment\CommentStatistics::getMaximumCount">getMaximumCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStatistics.php.html#170"><abbr title="Drupal\comment\CommentStatistics::getRankingInfo">getRankingInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStatistics.php.html#197"><abbr title="Drupal\comment\CommentStatistics::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#56"><abbr title="Drupal\comment\CommentStorage::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#64"><abbr title="Drupal\comment\CommentStorage::createInstance">createInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#81"><abbr title="Drupal\comment\CommentStorage::getMaxThread">getMaxThread</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#95"><abbr title="Drupal\comment\CommentStorage::getMaxThreadPerThread">getMaxThreadPerThread</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#110"><abbr title="Drupal\comment\CommentStorage::getDisplayOrdinal">getDisplayOrdinal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#146"><abbr title="Drupal\comment\CommentStorage::getNewCommentPageNumber">getNewCommentPageNumber</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#208"><abbr title="Drupal\comment\CommentStorage::getChildCids">getChildCids</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#274"><abbr title="Drupal\comment\CommentStorage::loadThread">loadThread</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorageSchema.php.html#18"><abbr title="Drupal\comment\CommentStorageSchema::getEntitySchema">getEntitySchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStatistics.php.html#83"><abbr title="Drupal\comment\CommentStatistics::read">read</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStorageSchema.php.html#48"><abbr title="Drupal\comment\CommentStorageSchema::getSharedTableFieldSchema">getSharedTableFieldSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTranslationHandler.php.html#17"><abbr title="Drupal\comment\CommentTranslationHandler::entityFormAlter">entityFormAlter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTranslationHandler.php.html#32"><abbr title="Drupal\comment\CommentTranslationHandler::entityFormTitle">entityFormTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTranslationHandler.php.html#39"><abbr title="Drupal\comment\CommentTranslationHandler::entityFormEntityBuild">entityFormEntityBuild</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTypeForm.php.html#53"><abbr title="Drupal\comment\CommentTypeForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTypeForm.php.html#71"><abbr title="Drupal\comment\CommentTypeForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTypeForm.php.html#80"><abbr title="Drupal\comment\CommentTypeForm::form">form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTypeForm.php.html#166"><abbr title="Drupal\comment\CommentTypeForm::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTypeListBuilder.php.html#18"><abbr title="Drupal\comment\CommentTypeListBuilder::getDefaultOperations">getDefaultOperations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTypeListBuilder.php.html#31"><abbr title="Drupal\comment\CommentTypeListBuilder::buildHeader">buildHeader</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentTypeListBuilder.php.html#40"><abbr title="Drupal\comment\CommentTypeListBuilder::buildRow">buildRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentViewBuilder.php.html#54"><abbr title="Drupal\comment\CommentViewBuilder::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentViewBuilder.php.html#63"><abbr title="Drupal\comment\CommentViewBuilder::createInstance">createInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStatistics.php.html#101"><abbr title="Drupal\comment\CommentStatistics::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentStatistics.php.html#72"><abbr title="Drupal\comment\CommentStatistics::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentViewBuilder.php.html#104"><abbr title="Drupal\comment\CommentViewBuilder::buildComponents">buildComponents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#341"><abbr title="Drupal\comment\CommentForm::flagViolations">flagViolations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentAccessControlHandler.php.html#71"><abbr title="Drupal\comment\CommentAccessControlHandler::checkFieldAccess">checkFieldAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentBreadcrumbBuilder.php.html#31"><abbr title="Drupal\comment\CommentBreadcrumbBuilder::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentBreadcrumbBuilder.php.html#38"><abbr title="Drupal\comment\CommentBreadcrumbBuilder::applies">applies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentBreadcrumbBuilder.php.html#45"><abbr title="Drupal\comment\CommentBreadcrumbBuilder::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentFieldItemList.php.html#17"><abbr title="Drupal\comment\CommentFieldItemList::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentFieldItemList.php.html#33"><abbr title="Drupal\comment\CommentFieldItemList::offsetExists">offsetExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentFieldItemList.php.html#45"><abbr title="Drupal\comment\CommentFieldItemList::access">access</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#53"><abbr title="Drupal\comment\CommentForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#78"><abbr title="Drupal\comment\CommentForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#88"><abbr title="Drupal\comment\CommentForm::form">form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#249"><abbr title="Drupal\comment\CommentForm::actions">actions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#280"><abbr title="Drupal\comment\CommentForm::buildEntity">buildEntity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#334"><abbr title="Drupal\comment\CommentForm::getEditedFieldNames">getEditedFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#360"><abbr title="Drupal\comment\CommentForm::preview">preview</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentManager.php.html#214"><abbr title="Drupal\comment\CommentManager::getCountNewComments">getCountNewComments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#370"><abbr title="Drupal\comment\CommentForm::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentLazyBuilders.php.html#86"><abbr title="Drupal\comment\CommentLazyBuilders::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentLazyBuilders.php.html#110"><abbr title="Drupal\comment\CommentLazyBuilders::renderForm">renderForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentLazyBuilders.php.html#137"><abbr title="Drupal\comment\CommentLazyBuilders::renderLinks">renderLinks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentLazyBuilders.php.html#173"><abbr title="Drupal\comment\CommentLazyBuilders::buildLinks">buildLinks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentLazyBuilders.php.html#232"><abbr title="Drupal\comment\CommentLazyBuilders::access">access</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentLazyBuilders.php.html#239"><abbr title="Drupal\comment\CommentLazyBuilders::trustedCallbacks">trustedCallbacks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentLinkBuilder.php.html#73"><abbr title="Drupal\comment\CommentLinkBuilder::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentLinkBuilder.php.html#84"><abbr title="Drupal\comment\CommentLinkBuilder::buildCommentedEntityLinks">buildCommentedEntityLinks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentManager.php.html#102"><abbr title="Drupal\comment\CommentManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentManager.php.html#124"><abbr title="Drupal\comment\CommentManager::getFields">getFields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentManager.php.html#137"><abbr title="Drupal\comment\CommentManager::addBodyField">addBodyField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentManager.php.html#169"><abbr title="Drupal\comment\CommentManager::forbiddenMessage">forbiddenMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentViewBuilder.php.html#78"><abbr title="Drupal\comment\CommentViewBuilder::getBuildDefaults">getBuildDefaults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentViewBuilder.php.html#186"><abbr title="Drupal\comment\CommentViewBuilder::alterBuild">alterBuild</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/DeleteForm.php.html#25"><abbr title="Drupal\comment\Form\DeleteForm::getRedirectUrl">getRedirectUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/CommentType.php.html#98"><abbr title="Drupal\comment\Entity\CommentType::getTargetEntityTypeId">getTargetEntityTypeId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#459"><abbr title="Drupal\comment\Entity\Comment::setHostname">setHostname</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#467"><abbr title="Drupal\comment\Entity\Comment::getCreatedTime">getCreatedTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#477"><abbr title="Drupal\comment\Entity\Comment::setCreatedTime">setCreatedTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#485"><abbr title="Drupal\comment\Entity\Comment::getStatus">getStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#493"><abbr title="Drupal\comment\Entity\Comment::getThread">getThread</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#503"><abbr title="Drupal\comment\Entity\Comment::setThread">setThread</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#511"><abbr title="Drupal\comment\Entity\Comment::preCreate">preCreate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#521"><abbr title="Drupal\comment\Entity\Comment::getOwner">getOwner</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#537"><abbr title="Drupal\comment\Entity\Comment::getTypeId">getTypeId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#549"><abbr title="Drupal\comment\Entity\Comment::getDefaultStatus">getDefaultStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#559"><abbr title="Drupal\comment\Entity\Comment::getDefaultHostname">getDefaultHostname</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/CommentType.php.html#83"><abbr title="Drupal\comment\Entity\CommentType::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/CommentType.php.html#90"><abbr title="Drupal\comment\Entity\CommentType::setDescription">setDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/CommentAdminOverview.php.html#69"><abbr title="Drupal\comment\Form\CommentAdminOverview::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#444"><abbr title="Drupal\comment\Entity\Comment::setHomepage">setHomepage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/CommentAdminOverview.php.html#80"><abbr title="Drupal\comment\Form\CommentAdminOverview::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/CommentAdminOverview.php.html#92"><abbr title="Drupal\comment\Form\CommentAdminOverview::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/CommentAdminOverview.php.html#109"><abbr title="Drupal\comment\Form\CommentAdminOverview::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/CommentAdminOverview.php.html#256"><abbr title="Drupal\comment\Form\CommentAdminOverview::validateForm">validateForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/CommentAdminOverview.php.html#267"><abbr title="Drupal\comment\Form\CommentAdminOverview::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/CommentTypeDeleteForm.php.html#48"><abbr title="Drupal\comment\Form\CommentTypeDeleteForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/CommentTypeDeleteForm.php.html#56"><abbr title="Drupal\comment\Form\CommentTypeDeleteForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/CommentTypeDeleteForm.php.html#66"><abbr title="Drupal\comment\Form\CommentTypeDeleteForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/ConfirmDeleteMultiple.php.html#18"><abbr title="Drupal\comment\Form\ConfirmDeleteMultiple::getQuestion">getQuestion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/ConfirmDeleteMultiple.php.html#25"><abbr title="Drupal\comment\Form\ConfirmDeleteMultiple::getCancelUrl">getCancelUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/ConfirmDeleteMultiple.php.html#32"><abbr title="Drupal\comment\Form\ConfirmDeleteMultiple::getDeletedMessage">getDeletedMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/ConfirmDeleteMultiple.php.html#39"><abbr title="Drupal\comment\Form\ConfirmDeleteMultiple::getInaccessibleMessage">getInaccessibleMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/DeleteForm.php.html#17"><abbr title="Drupal\comment\Form\DeleteForm::getCancelUrl">getCancelUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#452"><abbr title="Drupal\comment\Entity\Comment::getHostname">getHostname</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#437"><abbr title="Drupal\comment\Entity\Comment::getHomepage">getHomepage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/CommentViewsData.php.html#16"><abbr title="Drupal\comment\CommentViewsData::getViewsData">getViewsData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#204"><abbr title="Drupal\comment\Entity\Comment::referencedEntities">referencedEntities</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#73"><abbr title="Drupal\comment\Controller\CommentController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#92"><abbr title="Drupal\comment\Controller\CommentController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#110"><abbr title="Drupal\comment\Controller\CommentController::commentApprove">commentApprove</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#142"><abbr title="Drupal\comment\Controller\CommentController::commentPermalink">commentPermalink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#183"><abbr title="Drupal\comment\Controller\CommentController::commentPermalinkTitle">commentPermalinkTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#198"><abbr title="Drupal\comment\Controller\CommentController::redirectNode">redirectNode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#238"><abbr title="Drupal\comment\Controller\CommentController::getReplyForm">getReplyForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#296"><abbr title="Drupal\comment\Controller\CommentController::replyFormAccess">replyFormAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#343"><abbr title="Drupal\comment\Controller\CommentController::renderNewCommentsNodeLinks">renderNewCommentsNodeLinks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#87"><abbr title="Drupal\comment\Entity\Comment::preSave">preSave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#162"><abbr title="Drupal\comment\Entity\Comment::postSave">postSave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#178"><abbr title="Drupal\comment\Entity\Comment::releaseThreadLock">releaseThreadLock</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#188"><abbr title="Drupal\comment\Entity\Comment::postDelete">postDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#215"><abbr title="Drupal\comment\Entity\Comment::permalink">permalink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#424"><abbr title="Drupal\comment\Entity\Comment::getAuthorEmail">getAuthorEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#224"><abbr title="Drupal\comment\Entity\Comment::baseFieldDefinitions">baseFieldDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#329"><abbr title="Drupal\comment\Entity\Comment::bundleFieldDefinitions">bundleFieldDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#341"><abbr title="Drupal\comment\Entity\Comment::hasParentComment">hasParentComment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#348"><abbr title="Drupal\comment\Entity\Comment::getParentComment">getParentComment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#355"><abbr title="Drupal\comment\Entity\Comment::getCommentedEntity">getCommentedEntity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#362"><abbr title="Drupal\comment\Entity\Comment::getCommentedEntityId">getCommentedEntityId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#369"><abbr title="Drupal\comment\Entity\Comment::getCommentedEntityTypeId">getCommentedEntityTypeId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#376"><abbr title="Drupal\comment\Entity\Comment::setFieldName">setFieldName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#384"><abbr title="Drupal\comment\Entity\Comment::getFieldName">getFieldName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#391"><abbr title="Drupal\comment\Entity\Comment::getSubject">getSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#398"><abbr title="Drupal\comment\Entity\Comment::setSubject">setSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#406"><abbr title="Drupal\comment\Entity\Comment::getAuthorName">getAuthorName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#416"><abbr title="Drupal\comment\Entity\Comment::setAuthorName">setAuthorName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/views/wizard/Comment.php.html#57"><abbr title="Drupal\comment\Plugin\views\wizard\Comment::defaultDisplayOptions">defaultDisplayOptions</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/CommentLinkBuilder.php.html#84"><abbr title="Drupal\comment\CommentLinkBuilder::buildCommentedEntityLinks">buildCommentedEntityLinks</abbr></a></td><td class="text-right">870</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#88"><abbr title="Drupal\comment\CommentForm::form">form</abbr></a></td><td class="text-right">702</td></tr>
+       <tr><td><a href="src/CommentAccessControlHandler.php.html#71"><abbr title="Drupal\comment\CommentAccessControlHandler::checkFieldAccess">checkFieldAccess</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php.html#158"><abbr title="Drupal\comment\Plugin\Field\FieldFormatter\CommentDefaultFormatter::viewElements">viewElements</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="src/Plugin/Validation/Constraint/CommentNameConstraintValidator.php.html#51"><abbr title="Drupal\comment\Plugin\Validation\Constraint\CommentNameConstraintValidator::validate">validate</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="src/CommentAccessControlHandler.php.html#22"><abbr title="Drupal\comment\CommentAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="src/CommentViewsData.php.html#16"><abbr title="Drupal\comment\CommentViewsData::getViewsData">getViewsData</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#280"><abbr title="Drupal\comment\CommentForm::buildEntity">buildEntity</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/CommentViewBuilder.php.html#104"><abbr title="Drupal\comment\CommentViewBuilder::buildComponents">buildComponents</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/Form/CommentAdminOverview.php.html#109"><abbr title="Drupal\comment\Form\CommentAdminOverview::buildForm">buildForm</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/CommentLazyBuilders.php.html#173"><abbr title="Drupal\comment\CommentLazyBuilders::buildLinks">buildLinks</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d7/Comment.php.html#32"><abbr title="Drupal\comment\Plugin\migrate\source\d7\Comment::prepareRow">prepareRow</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/CommentFieldItemList.php.html#45"><abbr title="Drupal\comment\CommentFieldItemList::access">access</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#87"><abbr title="Drupal\comment\Entity\Comment::preSave">preSave</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#147"><abbr title="Drupal\comment\Plugin\views\field\NodeNewComments::preRender">preRender</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/CommentVariable.php.html#42"><abbr title="Drupal\comment\Plugin\migrate\source\d6\CommentVariable::getCommentVariables">getCommentVariables</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/CommentStorageSchema.php.html#48"><abbr title="Drupal\comment\CommentStorageSchema::getSharedTableFieldSchema">getSharedTableFieldSchema</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/CommentManager.php.html#214"><abbr title="Drupal\comment\CommentManager::getCountNewComments">getCountNewComments</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#194"><abbr title="Drupal\comment\Plugin\views\field\NodeNewComments::renderLink">renderLink</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/Form/CommentTypeDeleteForm.php.html#66"><abbr title="Drupal\comment\Form\CommentTypeDeleteForm::buildForm">buildForm</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/CommentStatistics.php.html#197"><abbr title="Drupal\comment\CommentStatistics::update">update</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#370"><abbr title="Drupal\comment\CommentForm::save">save</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#274"><abbr title="Drupal\comment\CommentStorage::loadThread">loadThread</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/Plugin/views/row/Rss.php.html#62"><abbr title="Drupal\comment\Plugin\views\row\Rss::render">render</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#296"><abbr title="Drupal\comment\Controller\CommentController::replyFormAccess">replyFormAccess</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/CommentStatistics.php.html#111"><abbr title="Drupal\comment\CommentStatistics::create">create</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Form/CommentAdminOverview.php.html#267"><abbr title="Drupal\comment\Form\CommentAdminOverview::submitForm">submitForm</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#343"><abbr title="Drupal\comment\Controller\CommentController::renderNewCommentsNodeLinks">renderNewCommentsNodeLinks</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#142"><abbr title="Drupal\comment\Controller\CommentController::commentPermalink">commentPermalink</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/CommentViewBuilder.php.html#186"><abbr title="Drupal\comment\CommentViewBuilder::alterBuild">alterBuild</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/CommentTypeForm.php.html#80"><abbr title="Drupal\comment\CommentTypeForm::form">form</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Plugin/migrate/destination/EntityComment.php.html#83"><abbr title="Drupal\comment\Plugin\migrate\destination\EntityComment::import">import</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Plugin/views/field/CommentedEntity.php.html#28"><abbr title="Drupal\comment\Plugin\views\field\CommentedEntity::getItems">getItems</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d7/CommentEntityTranslation.php.html#43"><abbr title="Drupal\comment\Plugin\migrate\source\d7\CommentEntityTranslation::prepareRow">prepareRow</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/CommentManager.php.html#169"><abbr title="Drupal\comment\CommentManager::forbiddenMessage">forbiddenMessage</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#198"><abbr title="Drupal\comment\Controller\CommentController::redirectNode">redirectNode</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/views/argument/UserUid.php.html#66"><abbr title="Drupal\comment\Plugin\views\argument\UserUid::defaultActions">defaultActions</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/CommentSelection.php.html#68"><abbr title="Drupal\comment\Plugin\EntityReferenceSelection\CommentSelection::entityQueryAlter">entityQueryAlter</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php.html#277"><abbr title="Drupal\comment\Plugin\Field\FieldFormatter\CommentDefaultFormatter::calculateDependencies">calculateDependencies</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/Comment.php.html#63"><abbr title="Drupal\comment\Plugin\migrate\source\d6\Comment::prepareComment">prepareComment</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#238"><abbr title="Drupal\comment\Controller\CommentController::getReplyForm">getReplyForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#110"><abbr title="Drupal\comment\CommentStorage::getDisplayOrdinal">getDisplayOrdinal</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentPermalinkFormatter.php.html#33"><abbr title="Drupal\comment\Plugin\Field\FieldFormatter\CommentPermalinkFormatter::getEntityUrl">getEntityUrl</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/CommentStorage.php.html#146"><abbr title="Drupal\comment\CommentStorage::getNewCommentPageNumber">getNewCommentPageNumber</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#511"><abbr title="Drupal\comment\Entity\Comment::preCreate">preCreate</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldWidget/CommentWidget.php.html#27"><abbr title="Drupal\comment\Plugin\Field\FieldWidget\CommentWidget::formElement">formElement</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/views/field/EntityLink.php.html#56"><abbr title="Drupal\comment\Plugin\views\field\EntityLink::preRender">preRender</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#249"><abbr title="Drupal\comment\CommentForm::actions">actions</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/migrate/source/d6/CommentVariablePerCommentType.php.html#23"><abbr title="Drupal\comment\Plugin\migrate\source\d6\CommentVariablePerCommentType::getCommentVariables">getCommentVariables</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#70"><abbr title="Drupal\comment\Plugin\views\field\NodeNewComments::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentPermalinkFormatter.php.html#47"><abbr title="Drupal\comment\Plugin\Field\FieldFormatter\CommentPermalinkFormatter::isApplicable">isApplicable</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php.html#263"><abbr title="Drupal\comment\Plugin\Field\FieldFormatter\CommentDefaultFormatter::settingsSummary">settingsSummary</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/views/argument/UserUid.php.html#52"><abbr title="Drupal\comment\Plugin\views\argument\UserUid::title">title</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldType/CommentItem.php.html#173"><abbr title="Drupal\comment\Plugin\Field\FieldType\CommentItem::storageSettingsForm">storageSettingsForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishByKeywordComment.php.html#76"><abbr title="Drupal\comment\Plugin\Action\UnpublishByKeywordComment::execute">execute</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/views/field/LastTimestamp.php.html#31"><abbr title="Drupal\comment\Plugin\views\field\LastTimestamp::render">render</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#406"><abbr title="Drupal\comment\Entity\Comment::getAuthorName">getAuthorName</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#521"><abbr title="Drupal\comment\Entity\Comment::getOwner">getOwner</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/CommentFieldItemList.php.html#17"><abbr title="Drupal\comment\CommentFieldItemList::get">get</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/CommentStatistics.php.html#83"><abbr title="Drupal\comment\CommentStatistics::read">read</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Controller/CommentController.php.html#73"><abbr title="Drupal\comment\Controller\CommentController::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/CommentManager.php.html#124"><abbr title="Drupal\comment\CommentManager::getFields">getFields</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/CommentManager.php.html#102"><abbr title="Drupal\comment\CommentManager::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#341"><abbr title="Drupal\comment\CommentForm::flagViolations">flagViolations</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/CommentBreadcrumbBuilder.php.html#45"><abbr title="Drupal\comment\CommentBreadcrumbBuilder::build">build</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/views/field/StatisticsLastCommentName.php.html#64"><abbr title="Drupal\comment\Plugin\views\field\StatisticsLastCommentName::render">render</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CommentStatistics.php.html#170"><abbr title="Drupal\comment\CommentStatistics::getRankingInfo">getRankingInfo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CommentBreadcrumbBuilder.php.html#38"><abbr title="Drupal\comment\CommentBreadcrumbBuilder::applies">applies</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CommentStatistics.php.html#72"><abbr title="Drupal\comment\CommentStatistics::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CommentManager.php.html#137"><abbr title="Drupal\comment\CommentManager::addBodyField">addBodyField</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/row/Rss.php.html#42"><abbr title="Drupal\comment\Plugin\views\row\Rss::preRender">preRender</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/filter/StatisticsLastUpdated.php.html#16"><abbr title="Drupal\comment\Plugin\views\filter\StatisticsLastUpdated::query">query</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/argument/UserUid.php.html#80"><abbr title="Drupal\comment\Plugin\views\argument\UserUid::query">query</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/field/NodeNewComments.php.html#229"><abbr title="Drupal\comment\Plugin\views\field\NodeNewComments::render">render</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CommentLazyBuilders.php.html#137"><abbr title="Drupal\comment\CommentLazyBuilders::renderLinks">renderLinks</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/field/Depth.php.html#20"><abbr title="Drupal\comment\Plugin\views\field\Depth::getItems">getItems</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CommentTranslationHandler.php.html#17"><abbr title="Drupal\comment\CommentTranslationHandler::entityFormAlter">entityFormAlter</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/field/EntityLink.php.html#75"><abbr title="Drupal\comment\Plugin\views\field\EntityLink::render">render</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CommentForm.php.html#78"><abbr title="Drupal\comment\CommentForm::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CommentFieldItemList.php.html#33"><abbr title="Drupal\comment\CommentFieldItemList::offsetExists">offsetExists</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CommentStorageSchema.php.html#18"><abbr title="Drupal\comment\CommentStorageSchema::getEntitySchema">getEntitySchema</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/migrate/D7Comment.php.html#15"><abbr title="Drupal\comment\Plugin\migrate\D7Comment::getProcess">getProcess</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#549"><abbr title="Drupal\comment\Entity\Comment::getDefaultStatus">getDefaultStatus</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#204"><abbr title="Drupal\comment\Entity\Comment::referencedEntities">referencedEntities</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#559"><abbr title="Drupal\comment\Entity\Comment::getDefaultHostname">getDefaultHostname</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#493"><abbr title="Drupal\comment\Entity\Comment::getThread">getThread</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Form/CommentAdminOverview.php.html#256"><abbr title="Drupal\comment\Form\CommentAdminOverview::validateForm">validateForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#467"><abbr title="Drupal\comment\Entity\Comment::getCreatedTime">getCreatedTime</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#424"><abbr title="Drupal\comment\Entity\Comment::getAuthorEmail">getAuthorEmail</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#329"><abbr title="Drupal\comment\Entity\Comment::bundleFieldDefinitions">bundleFieldDefinitions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/Action/UnpublishByKeywordComment.php.html#120"><abbr title="Drupal\comment\Plugin\Action\UnpublishByKeywordComment::access">access</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/CommentSelection.php.html#25"><abbr title="Drupal\comment\Plugin\EntityReferenceSelection\CommentSelection::buildEntityQuery">buildEntityQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/EntityReferenceSelection/CommentSelection.php.html#53"><abbr title="Drupal\comment\Plugin\EntityReferenceSelection\CommentSelection::validateReferenceableNewEntities">validateReferenceableNewEntities</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/AuthorNameFormatter.php.html#26"><abbr title="Drupal\comment\Plugin\Field\FieldFormatter\AuthorNameFormatter::viewElements">viewElements</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CommentTranslationHandler.php.html#39"><abbr title="Drupal\comment\CommentTranslationHandler::entityFormEntityBuild">entityFormEntityBuild</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/AuthorNameFormatter.php.html#48"><abbr title="Drupal\comment\Plugin\Field\FieldFormatter\AuthorNameFormatter::isApplicable">isApplicable</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldFormatter/CommentDefaultFormatter.php.html#141"><abbr title="Drupal\comment\Plugin\Field\FieldFormatter\CommentDefaultFormatter::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#188"><abbr title="Drupal\comment\Entity\Comment::postDelete">postDelete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#178"><abbr title="Drupal\comment\Entity\Comment::releaseThreadLock">releaseThreadLock</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Entity/Comment.php.html#162"><abbr title="Drupal\comment\Entity\Comment::postSave">postSave</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CommentViewBuilder.php.html#78"><abbr title="Drupal\comment\CommentViewBuilder::getBuildDefaults">getBuildDefaults</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CommentTypeListBuilder.php.html#18"><abbr title="Drupal\comment\CommentTypeListBuilder::getDefaultOperations">getDefaultOperations</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/CommentTypeForm.php.html#166"><abbr title="Drupal\comment\CommentTypeForm::save">save</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/Field/FieldWidget/CommentWidget.php.html#89"><abbr title="Drupal\comment\Plugin\Field\FieldWidget\CommentWidget::massageFormValues">massageFormValues</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/views/sort/Thread.php.html#16"><abbr title="Drupal\comment\Plugin\views\sort\Thread::query">query</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.33-16+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Fri Jun 12 8:21:00 AEST 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([64,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([253,0,0,0,0,0,0,0,0,0,0,1], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,31,"<a href=\"src\/CommentAccessControlHandler.php.html#17\">Drupal\\comment\\CommentAccessControlHandler<\/a>"],[0,6,"<a href=\"src\/CommentBreadcrumbBuilder.php.html#15\">Drupal\\comment\\CommentBreadcrumbBuilder<\/a>"],[0,13,"<a href=\"src\/CommentFieldItemList.php.html#12\">Drupal\\comment\\CommentFieldItemList<\/a>"],[0,57,"<a href=\"src\/CommentForm.php.html#27\">Drupal\\comment\\CommentForm<\/a>"],[0,17,"<a href=\"src\/CommentLazyBuilders.php.html#20\">Drupal\\comment\\CommentLazyBuilders<\/a>"],[0,30,"<a href=\"src\/CommentLinkBuilder.php.html#21\">Drupal\\comment\\CommentLinkBuilder<\/a>"],[0,21,"<a href=\"src\/CommentManager.php.html#26\">Drupal\\comment\\CommentManager<\/a>"],[0,22,"<a href=\"src\/CommentStatistics.php.html#15\">Drupal\\comment\\CommentStatistics<\/a>"],[0,21,"<a href=\"src\/CommentStorage.php.html#25\">Drupal\\comment\\CommentStorage<\/a>"],[0,10,"<a href=\"src\/CommentStorageSchema.php.html#13\">Drupal\\comment\\CommentStorageSchema<\/a>"],[0,5,"<a href=\"src\/CommentTranslationHandler.php.html#12\">Drupal\\comment\\CommentTranslationHandler<\/a>"],[0,9,"<a href=\"src\/CommentTypeForm.php.html#19\">Drupal\\comment\\CommentTypeForm<\/a>"],[0,4,"<a href=\"src\/CommentTypeListBuilder.php.html#13\">Drupal\\comment\\CommentTypeListBuilder<\/a>"],[0,21,"<a href=\"src\/CommentViewBuilder.php.html#20\">Drupal\\comment\\CommentViewBuilder<\/a>"],[0,13,"<a href=\"src\/CommentViewsData.php.html#11\">Drupal\\comment\\CommentViewsData<\/a>"],[0,30,"<a href=\"src\/Controller\/CommentController.php.html#29\">Drupal\\comment\\Controller\\CommentController<\/a>"],[0,58,"<a href=\"src\/Entity\/Comment.php.html#71\">Drupal\\comment\\Entity\\Comment<\/a>"],[0,3,"<a href=\"src\/Entity\/CommentType.php.html#50\">Drupal\\comment\\Entity\\CommentType<\/a>"],[0,23,"<a href=\"src\/Form\/CommentAdminOverview.php.html#20\">Drupal\\comment\\Form\\CommentAdminOverview<\/a>"],[0,9,"<a href=\"src\/Form\/CommentTypeDeleteForm.php.html#17\">Drupal\\comment\\Form\\CommentTypeDeleteForm<\/a>"],[0,4,"<a href=\"src\/Form\/ConfirmDeleteMultiple.php.html#13\">Drupal\\comment\\Form\\ConfirmDeleteMultiple<\/a>"],[0,5,"<a href=\"src\/Form\/DeleteForm.php.html#12\">Drupal\\comment\\Form\\DeleteForm<\/a>"],[0,1,"<a href=\"src\/Plugin\/Action\/DeleteComment.php.html#24\">Drupal\\comment\\Plugin\\Action\\DeleteComment<\/a>"],[0,1,"<a href=\"src\/Plugin\/Action\/PublishComment.php.html#23\">Drupal\\comment\\Plugin\\Action\\PublishComment<\/a>"],[0,1,"<a href=\"src\/Plugin\/Action\/SaveComment.php.html#24\">Drupal\\comment\\Plugin\\Action\\SaveComment<\/a>"],[0,10,"<a href=\"src\/Plugin\/Action\/UnpublishByKeywordComment.php.html#23\">Drupal\\comment\\Plugin\\Action\\UnpublishByKeywordComment<\/a>"],[0,1,"<a href=\"src\/Plugin\/Action\/UnpublishComment.php.html#23\">Drupal\\comment\\Plugin\\Action\\UnpublishComment<\/a>"],[0,9,"<a href=\"src\/Plugin\/EntityReferenceSelection\/CommentSelection.php.html#20\">Drupal\\comment\\Plugin\\EntityReferenceSelection\\CommentSelection<\/a>"],[0,4,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/AuthorNameFormatter.php.html#21\">Drupal\\comment\\Plugin\\Field\\FieldFormatter\\AuthorNameFormatter<\/a>"],[0,27,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/CommentDefaultFormatter.php.html#35\">Drupal\\comment\\Plugin\\Field\\FieldFormatter\\CommentDefaultFormatter<\/a>"],[0,7,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/CommentPermalinkFormatter.php.html#28\">Drupal\\comment\\Plugin\\Field\\FieldFormatter\\CommentPermalinkFormatter<\/a>"],[0,11,"<a href=\"src\/Plugin\/Field\/FieldType\/CommentItem.php.html#29\">Drupal\\comment\\Plugin\\Field\\FieldType\\CommentItem<\/a>"],[0,6,"<a href=\"src\/Plugin\/Field\/FieldWidget\/CommentWidget.php.html#22\">Drupal\\comment\\Plugin\\Field\\FieldWidget\\CommentWidget<\/a>"],[0,3,"<a href=\"src\/Plugin\/Menu\/LocalTask\/UnapprovedComments.php.html#15\">Drupal\\comment\\Plugin\\Menu\\LocalTask\\UnapprovedComments<\/a>"],[0,1,"<a href=\"src\/Plugin\/Validation\/Constraint\/CommentNameConstraint.php.html#16\">Drupal\\comment\\Plugin\\Validation\\Constraint\\CommentNameConstraint<\/a>"],[0,17,"<a href=\"src\/Plugin\/Validation\/Constraint\/CommentNameConstraintValidator.php.html#15\">Drupal\\comment\\Plugin\\Validation\\Constraint\\CommentNameConstraintValidator<\/a>"],[0,2,"<a href=\"src\/Plugin\/migrate\/D7Comment.php.html#10\">Drupal\\comment\\Plugin\\migrate\\D7Comment<\/a>"],[0,8,"<a href=\"src\/Plugin\/migrate\/destination\/EntityComment.php.html#19\">Drupal\\comment\\Plugin\\migrate\\destination\\EntityComment<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/destination\/EntityCommentType.php.html#13\">Drupal\\comment\\Plugin\\migrate\\destination\\EntityCommentType<\/a>"],[0,8,"<a href=\"src\/Plugin\/migrate\/source\/d6\/Comment.php.html#16\">Drupal\\comment\\Plugin\\migrate\\source\\d6\\Comment<\/a>"],[0,13,"<a href=\"src\/Plugin\/migrate\/source\/d6\/CommentVariable.php.html#19\">Drupal\\comment\\Plugin\\migrate\\source\\d6\\CommentVariable<\/a>"],[0,5,"<a href=\"src\/Plugin\/migrate\/source\/d6\/CommentVariablePerCommentType.php.html#16\">Drupal\\comment\\Plugin\\migrate\\source\\d6\\CommentVariablePerCommentType<\/a>"],[0,12,"<a href=\"src\/Plugin\/migrate\/source\/d7\/Comment.php.html#16\">Drupal\\comment\\Plugin\\migrate\\source\\d7\\Comment<\/a>"],[0,8,"<a href=\"src\/Plugin\/migrate\/source\/d7\/CommentEntityTranslation.php.html#16\">Drupal\\comment\\Plugin\\migrate\\source\\d7\\CommentEntityTranslation<\/a>"],[0,5,"<a href=\"src\/Plugin\/migrate\/source\/d7\/CommentType.php.html#22\">Drupal\\comment\\Plugin\\migrate\\source\\d7\\CommentType<\/a>"],[0,12,"<a href=\"src\/Plugin\/views\/argument\/UserUid.php.html#18\">Drupal\\comment\\Plugin\\views\\argument\\UserUid<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/CommentBulkForm.php.html#12\">Drupal\\comment\\Plugin\\views\\field\\CommentBulkForm<\/a>"],[0,5,"<a href=\"src\/Plugin\/views\/field\/CommentedEntity.php.html#13\">Drupal\\comment\\Plugin\\views\\field\\CommentedEntity<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/field\/Depth.php.html#15\">Drupal\\comment\\Plugin\\views\\field\\Depth<\/a>"],[0,9,"<a href=\"src\/Plugin\/views\/field\/EntityLink.php.html#16\">Drupal\\comment\\Plugin\\views\\field\\EntityLink<\/a>"],[0,4,"<a href=\"src\/Plugin\/views\/field\/LastTimestamp.php.html#17\">Drupal\\comment\\Plugin\\views\\field\\LastTimestamp<\/a>"],[0,3,"<a href=\"src\/Plugin\/views\/field\/LinkApprove.php.html#16\">Drupal\\comment\\Plugin\\views\\field\\LinkApprove<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/field\/LinkReply.php.html#16\">Drupal\\comment\\Plugin\\views\\field\\LinkReply<\/a>"],[0,27,"<a href=\"src\/Plugin\/views\/field\/NodeNewComments.php.html#24\">Drupal\\comment\\Plugin\\views\\field\\NodeNewComments<\/a>"],[0,4,"<a href=\"src\/Plugin\/views\/field\/StatisticsLastCommentName.php.html#16\">Drupal\\comment\\Plugin\\views\\field\\StatisticsLastCommentName<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/StatisticsLastUpdated.php.html#14\">Drupal\\comment\\Plugin\\views\\field\\StatisticsLastUpdated<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/filter\/NodeComment.php.html#15\">Drupal\\comment\\Plugin\\views\\filter\\NodeComment<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/filter\/StatisticsLastUpdated.php.html#14\">Drupal\\comment\\Plugin\\views\\filter\\StatisticsLastUpdated<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/filter\/UserUid.php.html#17\">Drupal\\comment\\Plugin\\views\\filter\\UserUid<\/a>"],[0,9,"<a href=\"src\/Plugin\/views\/row\/Rss.php.html#20\">Drupal\\comment\\Plugin\\views\\row\\Rss<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/sort\/StatisticsLastCommentName.php.html#15\">Drupal\\comment\\Plugin\\views\\sort\\StatisticsLastCommentName<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/sort\/StatisticsLastUpdated.php.html#14\">Drupal\\comment\\Plugin\\views\\sort\\StatisticsLastUpdated<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/sort\/Thread.php.html#14\">Drupal\\comment\\Plugin\\views\\sort\\Thread<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/wizard\/Comment.php.html#20\">Drupal\\comment\\Plugin\\views\\wizard\\Comment<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,13,"<a href=\"src\/CommentAccessControlHandler.php.html#22\">Drupal\\comment\\CommentAccessControlHandler::checkAccess<\/a>"],[0,1,"<a href=\"src\/CommentAccessControlHandler.php.html#64\">Drupal\\comment\\CommentAccessControlHandler::checkCreateAccess<\/a>"],[0,17,"<a href=\"src\/CommentAccessControlHandler.php.html#71\">Drupal\\comment\\CommentAccessControlHandler::checkFieldAccess<\/a>"],[0,1,"<a href=\"src\/CommentBreadcrumbBuilder.php.html#31\">Drupal\\comment\\CommentBreadcrumbBuilder::__construct<\/a>"],[0,2,"<a href=\"src\/CommentBreadcrumbBuilder.php.html#38\">Drupal\\comment\\CommentBreadcrumbBuilder::applies<\/a>"],[0,3,"<a href=\"src\/CommentBreadcrumbBuilder.php.html#45\">Drupal\\comment\\CommentBreadcrumbBuilder::build<\/a>"],[0,3,"<a href=\"src\/CommentFieldItemList.php.html#17\">Drupal\\comment\\CommentFieldItemList::get<\/a>"],[0,2,"<a href=\"src\/CommentFieldItemList.php.html#33\">Drupal\\comment\\CommentFieldItemList::offsetExists<\/a>"],[0,8,"<a href=\"src\/CommentFieldItemList.php.html#45\">Drupal\\comment\\CommentFieldItemList::access<\/a>"],[0,1,"<a href=\"src\/CommentForm.php.html#53\">Drupal\\comment\\CommentForm::create<\/a>"],[0,2,"<a href=\"src\/CommentForm.php.html#78\">Drupal\\comment\\CommentForm::__construct<\/a>"],[0,26,"<a href=\"src\/CommentForm.php.html#88\">Drupal\\comment\\CommentForm::form<\/a>"],[0,4,"<a href=\"src\/CommentForm.php.html#249\">Drupal\\comment\\CommentForm::actions<\/a>"],[0,12,"<a href=\"src\/CommentForm.php.html#280\">Drupal\\comment\\CommentForm::buildEntity<\/a>"],[0,1,"<a href=\"src\/CommentForm.php.html#334\">Drupal\\comment\\CommentForm::getEditedFieldNames<\/a>"],[0,3,"<a href=\"src\/CommentForm.php.html#341\">Drupal\\comment\\CommentForm::flagViolations<\/a>"],[0,1,"<a href=\"src\/CommentForm.php.html#360\">Drupal\\comment\\CommentForm::preview<\/a>"],[0,7,"<a href=\"src\/CommentForm.php.html#370\">Drupal\\comment\\CommentForm::save<\/a>"],[0,1,"<a href=\"src\/CommentLazyBuilders.php.html#86\">Drupal\\comment\\CommentLazyBuilders::__construct<\/a>"],[0,1,"<a href=\"src\/CommentLazyBuilders.php.html#110\">Drupal\\comment\\CommentLazyBuilders::renderForm<\/a>"],[0,2,"<a href=\"src\/CommentLazyBuilders.php.html#137\">Drupal\\comment\\CommentLazyBuilders::renderLinks<\/a>"],[0,11,"<a href=\"src\/CommentLazyBuilders.php.html#173\">Drupal\\comment\\CommentLazyBuilders::buildLinks<\/a>"],[0,1,"<a href=\"src\/CommentLazyBuilders.php.html#232\">Drupal\\comment\\CommentLazyBuilders::access<\/a>"],[0,1,"<a href=\"src\/CommentLazyBuilders.php.html#239\">Drupal\\comment\\CommentLazyBuilders::trustedCallbacks<\/a>"],[0,1,"<a href=\"src\/CommentLinkBuilder.php.html#73\">Drupal\\comment\\CommentLinkBuilder::__construct<\/a>"],[0,29,"<a href=\"src\/CommentLinkBuilder.php.html#84\">Drupal\\comment\\CommentLinkBuilder::buildCommentedEntityLinks<\/a>"],[0,3,"<a href=\"src\/CommentManager.php.html#102\">Drupal\\comment\\CommentManager::__construct<\/a>"],[0,3,"<a href=\"src\/CommentManager.php.html#124\">Drupal\\comment\\CommentManager::getFields<\/a>"],[0,2,"<a href=\"src\/CommentManager.php.html#137\">Drupal\\comment\\CommentManager::addBodyField<\/a>"],[0,5,"<a href=\"src\/CommentManager.php.html#169\">Drupal\\comment\\CommentManager::forbiddenMessage<\/a>"],[0,8,"<a href=\"src\/CommentManager.php.html#214\">Drupal\\comment\\CommentManager::getCountNewComments<\/a>"],[0,2,"<a href=\"src\/CommentStatistics.php.html#72\">Drupal\\comment\\CommentStatistics::__construct<\/a>"],[0,3,"<a href=\"src\/CommentStatistics.php.html#83\">Drupal\\comment\\CommentStatistics::read<\/a>"],[0,1,"<a href=\"src\/CommentStatistics.php.html#101\">Drupal\\comment\\CommentStatistics::delete<\/a>"],[0,6,"<a href=\"src\/CommentStatistics.php.html#111\">Drupal\\comment\\CommentStatistics::create<\/a>"],[0,1,"<a href=\"src\/CommentStatistics.php.html#163\">Drupal\\comment\\CommentStatistics::getMaximumCount<\/a>"],[0,2,"<a href=\"src\/CommentStatistics.php.html#170\">Drupal\\comment\\CommentStatistics::getRankingInfo<\/a>"],[0,7,"<a href=\"src\/CommentStatistics.php.html#197\">Drupal\\comment\\CommentStatistics::update<\/a>"],[0,1,"<a href=\"src\/CommentStorage.php.html#56\">Drupal\\comment\\CommentStorage::__construct<\/a>"],[0,1,"<a href=\"src\/CommentStorage.php.html#64\">Drupal\\comment\\CommentStorage::createInstance<\/a>"],[0,1,"<a href=\"src\/CommentStorage.php.html#81\">Drupal\\comment\\CommentStorage::getMaxThread<\/a>"],[0,1,"<a href=\"src\/CommentStorage.php.html#95\">Drupal\\comment\\CommentStorage::getMaxThreadPerThread<\/a>"],[0,4,"<a href=\"src\/CommentStorage.php.html#110\">Drupal\\comment\\CommentStorage::getDisplayOrdinal<\/a>"],[0,4,"<a href=\"src\/CommentStorage.php.html#146\">Drupal\\comment\\CommentStorage::getNewCommentPageNumber<\/a>"],[0,1,"<a href=\"src\/CommentStorage.php.html#208\">Drupal\\comment\\CommentStorage::getChildCids<\/a>"],[0,7,"<a href=\"src\/CommentStorage.php.html#274\">Drupal\\comment\\CommentStorage::loadThread<\/a>"],[0,1,"<a href=\"src\/CommentStorage.php.html#341\">Drupal\\comment\\CommentStorage::getUnapprovedCount<\/a>"],[0,2,"<a href=\"src\/CommentStorageSchema.php.html#18\">Drupal\\comment\\CommentStorageSchema::getEntitySchema<\/a>"],[0,8,"<a href=\"src\/CommentStorageSchema.php.html#48\">Drupal\\comment\\CommentStorageSchema::getSharedTableFieldSchema<\/a>"],[0,2,"<a href=\"src\/CommentTranslationHandler.php.html#17\">Drupal\\comment\\CommentTranslationHandler::entityFormAlter<\/a>"],[0,1,"<a href=\"src\/CommentTranslationHandler.php.html#32\">Drupal\\comment\\CommentTranslationHandler::entityFormTitle<\/a>"],[0,2,"<a href=\"src\/CommentTranslationHandler.php.html#39\">Drupal\\comment\\CommentTranslationHandler::entityFormEntityBuild<\/a>"],[0,1,"<a href=\"src\/CommentTypeForm.php.html#53\">Drupal\\comment\\CommentTypeForm::create<\/a>"],[0,1,"<a href=\"src\/CommentTypeForm.php.html#71\">Drupal\\comment\\CommentTypeForm::__construct<\/a>"],[0,5,"<a href=\"src\/CommentTypeForm.php.html#80\">Drupal\\comment\\CommentTypeForm::form<\/a>"],[0,2,"<a href=\"src\/CommentTypeForm.php.html#166\">Drupal\\comment\\CommentTypeForm::save<\/a>"],[0,2,"<a href=\"src\/CommentTypeListBuilder.php.html#18\">Drupal\\comment\\CommentTypeListBuilder::getDefaultOperations<\/a>"],[0,1,"<a href=\"src\/CommentTypeListBuilder.php.html#31\">Drupal\\comment\\CommentTypeListBuilder::buildHeader<\/a>"],[0,1,"<a href=\"src\/CommentTypeListBuilder.php.html#40\">Drupal\\comment\\CommentTypeListBuilder::buildRow<\/a>"],[0,1,"<a href=\"src\/CommentViewBuilder.php.html#54\">Drupal\\comment\\CommentViewBuilder::__construct<\/a>"],[0,1,"<a href=\"src\/CommentViewBuilder.php.html#63\">Drupal\\comment\\CommentViewBuilder::createInstance<\/a>"],[0,2,"<a href=\"src\/CommentViewBuilder.php.html#78\">Drupal\\comment\\CommentViewBuilder::getBuildDefaults<\/a>"],[0,12,"<a href=\"src\/CommentViewBuilder.php.html#104\">Drupal\\comment\\CommentViewBuilder::buildComponents<\/a>"],[0,5,"<a href=\"src\/CommentViewBuilder.php.html#186\">Drupal\\comment\\CommentViewBuilder::alterBuild<\/a>"],[0,13,"<a href=\"src\/CommentViewsData.php.html#16\">Drupal\\comment\\CommentViewsData::getViewsData<\/a>"],[0,3,"<a href=\"src\/Controller\/CommentController.php.html#73\">Drupal\\comment\\Controller\\CommentController::__construct<\/a>"],[0,1,"<a href=\"src\/Controller\/CommentController.php.html#92\">Drupal\\comment\\Controller\\CommentController::create<\/a>"],[0,1,"<a href=\"src\/Controller\/CommentController.php.html#110\">Drupal\\comment\\Controller\\CommentController::commentApprove<\/a>"],[0,5,"<a href=\"src\/Controller\/CommentController.php.html#142\">Drupal\\comment\\Controller\\CommentController::commentPermalink<\/a>"],[0,1,"<a href=\"src\/Controller\/CommentController.php.html#183\">Drupal\\comment\\Controller\\CommentController::commentPermalinkTitle<\/a>"],[0,4,"<a href=\"src\/Controller\/CommentController.php.html#198\">Drupal\\comment\\Controller\\CommentController::redirectNode<\/a>"],[0,4,"<a href=\"src\/Controller\/CommentController.php.html#238\">Drupal\\comment\\Controller\\CommentController::getReplyForm<\/a>"],[0,6,"<a href=\"src\/Controller\/CommentController.php.html#296\">Drupal\\comment\\Controller\\CommentController::replyFormAccess<\/a>"],[0,5,"<a href=\"src\/Controller\/CommentController.php.html#343\">Drupal\\comment\\Controller\\CommentController::renderNewCommentsNodeLinks<\/a>"],[0,8,"<a href=\"src\/Entity\/Comment.php.html#87\">Drupal\\comment\\Entity\\Comment::preSave<\/a>"],[0,2,"<a href=\"src\/Entity\/Comment.php.html#162\">Drupal\\comment\\Entity\\Comment::postSave<\/a>"],[0,2,"<a href=\"src\/Entity\/Comment.php.html#178\">Drupal\\comment\\Entity\\Comment::releaseThreadLock<\/a>"],[0,2,"<a href=\"src\/Entity\/Comment.php.html#188\">Drupal\\comment\\Entity\\Comment::postDelete<\/a>"],[0,2,"<a href=\"src\/Entity\/Comment.php.html#204\">Drupal\\comment\\Entity\\Comment::referencedEntities<\/a>"],[0,1,"<a href=\"src\/Entity\/Comment.php.html#215\">Drupal\\comment\\Entity\\Comment::permalink<\/a>"],[0,1,"<a href=\"src\/Entity\/Comment.php.html#224\">Drupal\\comment\\Entity\\Comment::baseFieldDefinitions<\/a>"],[0,2,"<a href=\"src\/Entity\/Comment.php.html#329\">Drupal\\comment\\Entity\\Comment::bundleFieldDefinitions<\/a>"],[0,1,"<a href=\"src\/Entity\/Comment.php.html#341\">Drupal\\comment\\Entity\\Comment::hasParentComment<\/a>"],[0,1,"<a href=\"src\/Entity\/Comment.php.html#348\">Drupal\\comment\\Entity\\Comment::getParentComment<\/a>"],[0,1,"<a href=\"src\/Entity\/Comment.php.html#355\">Drupal\\comment\\Entity\\Comment::getCommentedEntity<\/a>"],[0,1,"<a href=\"src\/Entity\/Comment.php.html#362\">Drupal\\comment\\Entity\\Comment::getCommentedEntityId<\/a>"],[0,1,"<a href=\"src\/Entity\/Comment.php.html#369\">Drupal\\comment\\Entity\\Comment::getCommentedEntityTypeId<\/a>"],[0,1,"<a href=\"src\/Entity\/Comment.php.html#376\">Drupal\\comment\\Entity\\Comment::setFieldName<\/a>"],[0,1,"<a href=\"src\/Entity\/Comment.php.html#384\">Drupal\\comment\\Entity\\Comment::getFieldName<\/a>"],[0,1,"<a href=\"src\/Entity\/Comment.php.html#391\">Drupal\\comment\\Entity\\Comment::getSubject<\/a>"],[0,1,"<a href=\"src\/Entity\/Comment.php.html#398\">Drupal\\comment\\Entity\\Comment::setSubject<\/a>"],[0,3,"<a href=\"src\/Entity\/Comment.php.html#406\">Drupal\\comment\\Entity\\Comment::getAuthorName<\/a>"],[0,1,"<a href=\"src\/Entity\/Comment.php.html#416\">Drupal\\comment\\Entity\\Comment::setAuthorName<\/a>"],[0,2,"<a href=\"src\/Entity\/Comment.php.html#424\">Drupal\\comment\\Entity\\Comment::getAuthorEmail<\/a>"],[0,1,"<a href=\"src\/Entity\/Comment.php.html#437\">Drupal\\comment\\Entity\\Comment::getHomepage<\/a>"],[0,1,"<a href=\"src\/Entity\/Comment.php.html#444\">Drupal\\comment\\Entity\\Comment::setHomepage<\/a>"],[0,1,"<a href=\"src\/Entity\/Comment.php.html#452\">Drupal\\comment\\Entity\\Comment::getHostname<\/a>"],[0,1,"<a href=\"src\/Entity\/Comment.php.html#459\">Drupal\\comment\\Entity\\Comment::setHostname<\/a>"],[0,2,"<a href=\"src\/Entity\/Comment.php.html#467\">Drupal\\comment\\Entity\\Comment::getCreatedTime<\/a>"],[0,1,"<a href=\"src\/Entity\/Comment.php.html#477\">Drupal\\comment\\Entity\\Comment::setCreatedTime<\/a>"],[0,1,"<a href=\"src\/Entity\/Comment.php.html#485\">Drupal\\comment\\Entity\\Comment::getStatus<\/a>"],[0,2,"<a href=\"src\/Entity\/Comment.php.html#493\">Drupal\\comment\\Entity\\Comment::getThread<\/a>"],[0,1,"<a href=\"src\/Entity\/Comment.php.html#503\">Drupal\\comment\\Entity\\Comment::setThread<\/a>"],[0,4,"<a href=\"src\/Entity\/Comment.php.html#511\">Drupal\\comment\\Entity\\Comment::preCreate<\/a>"],[0,3,"<a href=\"src\/Entity\/Comment.php.html#521\">Drupal\\comment\\Entity\\Comment::getOwner<\/a>"],[0,1,"<a href=\"src\/Entity\/Comment.php.html#537\">Drupal\\comment\\Entity\\Comment::getTypeId<\/a>"],[0,2,"<a href=\"src\/Entity\/Comment.php.html#549\">Drupal\\comment\\Entity\\Comment::getDefaultStatus<\/a>"],[0,2,"<a href=\"src\/Entity\/Comment.php.html#559\">Drupal\\comment\\Entity\\Comment::getDefaultHostname<\/a>"],[0,1,"<a href=\"src\/Entity\/CommentType.php.html#83\">Drupal\\comment\\Entity\\CommentType::getDescription<\/a>"],[0,1,"<a href=\"src\/Entity\/CommentType.php.html#90\">Drupal\\comment\\Entity\\CommentType::setDescription<\/a>"],[0,1,"<a href=\"src\/Entity\/CommentType.php.html#98\">Drupal\\comment\\Entity\\CommentType::getTargetEntityTypeId<\/a>"],[0,1,"<a href=\"src\/Form\/CommentAdminOverview.php.html#69\">Drupal\\comment\\Form\\CommentAdminOverview::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/CommentAdminOverview.php.html#80\">Drupal\\comment\\Form\\CommentAdminOverview::create<\/a>"],[0,1,"<a href=\"src\/Form\/CommentAdminOverview.php.html#92\">Drupal\\comment\\Form\\CommentAdminOverview::getFormId<\/a>"],[0,12,"<a href=\"src\/Form\/CommentAdminOverview.php.html#109\">Drupal\\comment\\Form\\CommentAdminOverview::buildForm<\/a>"],[0,2,"<a href=\"src\/Form\/CommentAdminOverview.php.html#256\">Drupal\\comment\\Form\\CommentAdminOverview::validateForm<\/a>"],[0,6,"<a href=\"src\/Form\/CommentAdminOverview.php.html#267\">Drupal\\comment\\Form\\CommentAdminOverview::submitForm<\/a>"],[0,1,"<a href=\"src\/Form\/CommentTypeDeleteForm.php.html#48\">Drupal\\comment\\Form\\CommentTypeDeleteForm::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/CommentTypeDeleteForm.php.html#56\">Drupal\\comment\\Form\\CommentTypeDeleteForm::create<\/a>"],[0,7,"<a href=\"src\/Form\/CommentTypeDeleteForm.php.html#66\">Drupal\\comment\\Form\\CommentTypeDeleteForm::buildForm<\/a>"],[0,1,"<a href=\"src\/Form\/ConfirmDeleteMultiple.php.html#18\">Drupal\\comment\\Form\\ConfirmDeleteMultiple::getQuestion<\/a>"],[0,1,"<a href=\"src\/Form\/ConfirmDeleteMultiple.php.html#25\">Drupal\\comment\\Form\\ConfirmDeleteMultiple::getCancelUrl<\/a>"],[0,1,"<a href=\"src\/Form\/ConfirmDeleteMultiple.php.html#32\">Drupal\\comment\\Form\\ConfirmDeleteMultiple::getDeletedMessage<\/a>"],[0,1,"<a href=\"src\/Form\/ConfirmDeleteMultiple.php.html#39\">Drupal\\comment\\Form\\ConfirmDeleteMultiple::getInaccessibleMessage<\/a>"],[0,1,"<a href=\"src\/Form\/DeleteForm.php.html#17\">Drupal\\comment\\Form\\DeleteForm::getCancelUrl<\/a>"],[0,1,"<a href=\"src\/Form\/DeleteForm.php.html#25\">Drupal\\comment\\Form\\DeleteForm::getRedirectUrl<\/a>"],[0,1,"<a href=\"src\/Form\/DeleteForm.php.html#32\">Drupal\\comment\\Form\\DeleteForm::getDescription<\/a>"],[0,1,"<a href=\"src\/Form\/DeleteForm.php.html#39\">Drupal\\comment\\Form\\DeleteForm::getDeletionMessage<\/a>"],[0,1,"<a href=\"src\/Form\/DeleteForm.php.html#46\">Drupal\\comment\\Form\\DeleteForm::logDeletionMessage<\/a>"],[0,1,"<a href=\"src\/Plugin\/Action\/DeleteComment.php.html#29\">Drupal\\comment\\Plugin\\Action\\DeleteComment::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/Action\/PublishComment.php.html#28\">Drupal\\comment\\Plugin\\Action\\PublishComment::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/Action\/SaveComment.php.html#29\">Drupal\\comment\\Plugin\\Action\\SaveComment::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/Action\/UnpublishByKeywordComment.php.html#53\">Drupal\\comment\\Plugin\\Action\\UnpublishByKeywordComment::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/Action\/UnpublishByKeywordComment.php.html#63\">Drupal\\comment\\Plugin\\Action\\UnpublishByKeywordComment::create<\/a>"],[0,3,"<a href=\"src\/Plugin\/Action\/UnpublishByKeywordComment.php.html#76\">Drupal\\comment\\Plugin\\Action\\UnpublishByKeywordComment::execute<\/a>"],[0,1,"<a href=\"src\/Plugin\/Action\/UnpublishByKeywordComment.php.html#91\">Drupal\\comment\\Plugin\\Action\\UnpublishByKeywordComment::defaultConfiguration<\/a>"],[0,1,"<a href=\"src\/Plugin\/Action\/UnpublishByKeywordComment.php.html#100\">Drupal\\comment\\Plugin\\Action\\UnpublishByKeywordComment::buildConfigurationForm<\/a>"],[0,1,"<a href=\"src\/Plugin\/Action\/UnpublishByKeywordComment.php.html#113\">Drupal\\comment\\Plugin\\Action\\UnpublishByKeywordComment::submitConfigurationForm<\/a>"],[0,2,"<a href=\"src\/Plugin\/Action\/UnpublishByKeywordComment.php.html#120\">Drupal\\comment\\Plugin\\Action\\UnpublishByKeywordComment::access<\/a>"],[0,1,"<a href=\"src\/Plugin\/Action\/UnpublishComment.php.html#28\">Drupal\\comment\\Plugin\\Action\\UnpublishComment::__construct<\/a>"],[0,2,"<a href=\"src\/Plugin\/EntityReferenceSelection\/CommentSelection.php.html#25\">Drupal\\comment\\Plugin\\EntityReferenceSelection\\CommentSelection::buildEntityQuery<\/a>"],[0,1,"<a href=\"src\/Plugin\/EntityReferenceSelection\/CommentSelection.php.html#40\">Drupal\\comment\\Plugin\\EntityReferenceSelection\\CommentSelection::createNewEntity<\/a>"],[0,2,"<a href=\"src\/Plugin\/EntityReferenceSelection\/CommentSelection.php.html#53\">Drupal\\comment\\Plugin\\EntityReferenceSelection\\CommentSelection::validateReferenceableNewEntities<\/a>"],[0,4,"<a href=\"src\/Plugin\/EntityReferenceSelection\/CommentSelection.php.html#68\">Drupal\\comment\\Plugin\\EntityReferenceSelection\\CommentSelection::entityQueryAlter<\/a>"],[0,2,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/AuthorNameFormatter.php.html#26\">Drupal\\comment\\Plugin\\Field\\FieldFormatter\\AuthorNameFormatter::viewElements<\/a>"],[0,2,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/AuthorNameFormatter.php.html#48\">Drupal\\comment\\Plugin\\Field\\FieldFormatter\\AuthorNameFormatter::isApplicable<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/CommentDefaultFormatter.php.html#46\">Drupal\\comment\\Plugin\\Field\\FieldFormatter\\CommentDefaultFormatter::defaultSettings<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/CommentDefaultFormatter.php.html#96\">Drupal\\comment\\Plugin\\Field\\FieldFormatter\\CommentDefaultFormatter::create<\/a>"],[0,2,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/CommentDefaultFormatter.php.html#141\">Drupal\\comment\\Plugin\\Field\\FieldFormatter\\CommentDefaultFormatter::__construct<\/a>"],[0,14,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/CommentDefaultFormatter.php.html#158\">Drupal\\comment\\Plugin\\Field\\FieldFormatter\\CommentDefaultFormatter::viewElements<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/CommentDefaultFormatter.php.html#238\">Drupal\\comment\\Plugin\\Field\\FieldFormatter\\CommentDefaultFormatter::settingsForm<\/a>"],[0,3,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/CommentDefaultFormatter.php.html#263\">Drupal\\comment\\Plugin\\Field\\FieldFormatter\\CommentDefaultFormatter::settingsSummary<\/a>"],[0,4,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/CommentDefaultFormatter.php.html#277\">Drupal\\comment\\Plugin\\Field\\FieldFormatter\\CommentDefaultFormatter::calculateDependencies<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/CommentDefaultFormatter.php.html#297\">Drupal\\comment\\Plugin\\Field\\FieldFormatter\\CommentDefaultFormatter::getViewModes<\/a>"],[0,4,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/CommentPermalinkFormatter.php.html#33\">Drupal\\comment\\Plugin\\Field\\FieldFormatter\\CommentPermalinkFormatter::getEntityUrl<\/a>"],[0,3,"<a href=\"src\/Plugin\/Field\/FieldFormatter\/CommentPermalinkFormatter.php.html#47\">Drupal\\comment\\Plugin\\Field\\FieldFormatter\\CommentPermalinkFormatter::isApplicable<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldType\/CommentItem.php.html#34\">Drupal\\comment\\Plugin\\Field\\FieldType\\CommentItem::defaultStorageSettings<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldType\/CommentItem.php.html#43\">Drupal\\comment\\Plugin\\Field\\FieldType\\CommentItem::defaultFieldSettings<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldType\/CommentItem.php.html#56\">Drupal\\comment\\Plugin\\Field\\FieldType\\CommentItem::propertyDefinitions<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldType\/CommentItem.php.html#85\">Drupal\\comment\\Plugin\\Field\\FieldType\\CommentItem::schema<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldType\/CommentItem.php.html#102\">Drupal\\comment\\Plugin\\Field\\FieldType\\CommentItem::fieldSettingsForm<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldType\/CommentItem.php.html#156\">Drupal\\comment\\Plugin\\Field\\FieldType\\CommentItem::mainPropertyName<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldType\/CommentItem.php.html#163\">Drupal\\comment\\Plugin\\Field\\FieldType\\CommentItem::isEmpty<\/a>"],[0,3,"<a href=\"src\/Plugin\/Field\/FieldType\/CommentItem.php.html#173\">Drupal\\comment\\Plugin\\Field\\FieldType\\CommentItem::storageSettingsForm<\/a>"],[0,1,"<a href=\"src\/Plugin\/Field\/FieldType\/CommentItem.php.html#201\">Drupal\\comment\\Plugin\\Field\\FieldType\\CommentItem::generateSampleValue<\/a>"],[0,4,"<a href=\"src\/Plugin\/Field\/FieldWidget\/CommentWidget.php.html#27\">Drupal\\comment\\Plugin\\Field\\FieldWidget\\CommentWidget::formElement<\/a>"],[0,2,"<a href=\"src\/Plugin\/Field\/FieldWidget\/CommentWidget.php.html#89\">Drupal\\comment\\Plugin\\Field\\FieldWidget\\CommentWidget::massageFormValues<\/a>"],[0,1,"<a href=\"src\/Plugin\/Menu\/LocalTask\/UnapprovedComments.php.html#37\">Drupal\\comment\\Plugin\\Menu\\LocalTask\\UnapprovedComments::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/Menu\/LocalTask\/UnapprovedComments.php.html#45\">Drupal\\comment\\Plugin\\Menu\\LocalTask\\UnapprovedComments::create<\/a>"],[0,1,"<a href=\"src\/Plugin\/Menu\/LocalTask\/UnapprovedComments.php.html#57\">Drupal\\comment\\Plugin\\Menu\\LocalTask\\UnapprovedComments::getTitle<\/a>"],[0,1,"<a href=\"src\/Plugin\/Validation\/Constraint\/CommentNameConstraint.php.html#42\">Drupal\\comment\\Plugin\\Validation\\Constraint\\CommentNameConstraint::coversFields<\/a>"],[0,1,"<a href=\"src\/Plugin\/Validation\/Constraint\/CommentNameConstraintValidator.php.html#37\">Drupal\\comment\\Plugin\\Validation\\Constraint\\CommentNameConstraintValidator::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/Validation\/Constraint\/CommentNameConstraintValidator.php.html#44\">Drupal\\comment\\Plugin\\Validation\\Constraint\\CommentNameConstraintValidator::create<\/a>"],[0,14,"<a href=\"src\/Plugin\/Validation\/Constraint\/CommentNameConstraintValidator.php.html#51\">Drupal\\comment\\Plugin\\Validation\\Constraint\\CommentNameConstraintValidator::validate<\/a>"],[0,1,"<a href=\"src\/Plugin\/Validation\/Constraint\/CommentNameConstraintValidator.php.html#95\">Drupal\\comment\\Plugin\\Validation\\Constraint\\CommentNameConstraintValidator::getAnonymousContactDetailsSetting<\/a>"],[0,2,"<a href=\"src\/Plugin\/migrate\/D7Comment.php.html#15\">Drupal\\comment\\Plugin\\migrate\\D7Comment::getProcess<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/destination\/EntityComment.php.html#57\">Drupal\\comment\\Plugin\\migrate\\destination\\EntityComment::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/destination\/EntityComment.php.html#65\">Drupal\\comment\\Plugin\\migrate\\destination\\EntityComment::create<\/a>"],[0,5,"<a href=\"src\/Plugin\/migrate\/destination\/EntityComment.php.html#83\">Drupal\\comment\\Plugin\\migrate\\destination\\EntityComment::import<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/destination\/EntityComment.php.html#97\">Drupal\\comment\\Plugin\\migrate\\destination\\EntityComment::processStubRow<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/destination\/EntityCommentType.php.html#18\">Drupal\\comment\\Plugin\\migrate\\destination\\EntityCommentType::import<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d6\/Comment.php.html#21\">Drupal\\comment\\Plugin\\migrate\\source\\d6\\Comment::query<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d6\/Comment.php.html#36\">Drupal\\comment\\Plugin\\migrate\\source\\d6\\Comment::prepareRow<\/a>"],[0,4,"<a href=\"src\/Plugin\/migrate\/source\/d6\/Comment.php.html#63\">Drupal\\comment\\Plugin\\migrate\\source\\d6\\Comment::prepareComment<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d6\/Comment.php.html#90\">Drupal\\comment\\Plugin\\migrate\\source\\d6\\Comment::fields<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d6\/Comment.php.html#114\">Drupal\\comment\\Plugin\\migrate\\source\\d6\\Comment::getIds<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d6\/CommentVariable.php.html#26\">Drupal\\comment\\Plugin\\migrate\\source\\d6\\CommentVariable::initializeIterator<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d6\/CommentVariable.php.html#33\">Drupal\\comment\\Plugin\\migrate\\source\\d6\\CommentVariable::count<\/a>"],[0,8,"<a href=\"src\/Plugin\/migrate\/source\/d6\/CommentVariable.php.html#42\">Drupal\\comment\\Plugin\\migrate\\source\\d6\\CommentVariable::getCommentVariables<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d6\/CommentVariable.php.html#82\">Drupal\\comment\\Plugin\\migrate\\source\\d6\\CommentVariable::fields<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d6\/CommentVariable.php.html#92\">Drupal\\comment\\Plugin\\migrate\\source\\d6\\CommentVariable::commentPrefixes<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d6\/CommentVariable.php.html#109\">Drupal\\comment\\Plugin\\migrate\\source\\d6\\CommentVariable::getIds<\/a>"],[0,3,"<a href=\"src\/Plugin\/migrate\/source\/d6\/CommentVariablePerCommentType.php.html#23\">Drupal\\comment\\Plugin\\migrate\\source\\d6\\CommentVariablePerCommentType::getCommentVariables<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d6\/CommentVariablePerCommentType.php.html#52\">Drupal\\comment\\Plugin\\migrate\\source\\d6\\CommentVariablePerCommentType::fields<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d6\/CommentVariablePerCommentType.php.html#63\">Drupal\\comment\\Plugin\\migrate\\source\\d6\\CommentVariablePerCommentType::getIds<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/Comment.php.html#21\">Drupal\\comment\\Plugin\\migrate\\source\\d7\\Comment::query<\/a>"],[0,9,"<a href=\"src\/Plugin\/migrate\/source\/d7\/Comment.php.html#32\">Drupal\\comment\\Plugin\\migrate\\source\\d7\\Comment::prepareRow<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/Comment.php.html#70\">Drupal\\comment\\Plugin\\migrate\\source\\d7\\Comment::fields<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/Comment.php.html#95\">Drupal\\comment\\Plugin\\migrate\\source\\d7\\Comment::getIds<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/CommentEntityTranslation.php.html#21\">Drupal\\comment\\Plugin\\migrate\\source\\d7\\CommentEntityTranslation::query<\/a>"],[0,5,"<a href=\"src\/Plugin\/migrate\/source\/d7\/CommentEntityTranslation.php.html#43\">Drupal\\comment\\Plugin\\migrate\\source\\d7\\CommentEntityTranslation::prepareRow<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/CommentEntityTranslation.php.html#71\">Drupal\\comment\\Plugin\\migrate\\source\\d7\\CommentEntityTranslation::fields<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/CommentEntityTranslation.php.html#90\">Drupal\\comment\\Plugin\\migrate\\source\\d7\\CommentEntityTranslation::getIds<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/CommentType.php.html#34\">Drupal\\comment\\Plugin\\migrate\\source\\d7\\CommentType::query<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/CommentType.php.html#44\">Drupal\\comment\\Plugin\\migrate\\source\\d7\\CommentType::initializeIterator<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/CommentType.php.html#56\">Drupal\\comment\\Plugin\\migrate\\source\\d7\\CommentType::prepareRow<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/CommentType.php.html#78\">Drupal\\comment\\Plugin\\migrate\\source\\d7\\CommentType::fields<\/a>"],[0,1,"<a href=\"src\/Plugin\/migrate\/source\/d7\/CommentType.php.html#95\">Drupal\\comment\\Plugin\\migrate\\source\\d7\\CommentType::getIds<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/argument\/UserUid.php.html#39\">Drupal\\comment\\Plugin\\views\\argument\\UserUid::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/argument\/UserUid.php.html#48\">Drupal\\comment\\Plugin\\views\\argument\\UserUid::create<\/a>"],[0,3,"<a href=\"src\/Plugin\/views\/argument\/UserUid.php.html#52\">Drupal\\comment\\Plugin\\views\\argument\\UserUid::title<\/a>"],[0,4,"<a href=\"src\/Plugin\/views\/argument\/UserUid.php.html#66\">Drupal\\comment\\Plugin\\views\\argument\\UserUid::defaultActions<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/argument\/UserUid.php.html#80\">Drupal\\comment\\Plugin\\views\\argument\\UserUid::query<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/argument\/UserUid.php.html#105\">Drupal\\comment\\Plugin\\views\\argument\\UserUid::getSortName<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/CommentBulkForm.php.html#17\">Drupal\\comment\\Plugin\\views\\field\\CommentBulkForm::emptySelectedMessage<\/a>"],[0,5,"<a href=\"src\/Plugin\/views\/field\/CommentedEntity.php.html#28\">Drupal\\comment\\Plugin\\views\\field\\CommentedEntity::getItems<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/field\/Depth.php.html#20\">Drupal\\comment\\Plugin\\views\\field\\Depth::getItems<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/EntityLink.php.html#28\">Drupal\\comment\\Plugin\\views\\field\\EntityLink::defineOptions<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/EntityLink.php.html#37\">Drupal\\comment\\Plugin\\views\\field\\EntityLink::buildOptionsForm<\/a>"],[100,1,"<a href=\"src\/Plugin\/views\/field\/EntityLink.php.html#51\">Drupal\\comment\\Plugin\\views\\field\\EntityLink::query<\/a>"],[0,4,"<a href=\"src\/Plugin\/views\/field\/EntityLink.php.html#56\">Drupal\\comment\\Plugin\\views\\field\\EntityLink::preRender<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/field\/EntityLink.php.html#75\">Drupal\\comment\\Plugin\\views\\field\\EntityLink::render<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/LastTimestamp.php.html#22\">Drupal\\comment\\Plugin\\views\\field\\LastTimestamp::init<\/a>"],[0,3,"<a href=\"src\/Plugin\/views\/field\/LastTimestamp.php.html#31\">Drupal\\comment\\Plugin\\views\\field\\LastTimestamp::render<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/LinkApprove.php.html#21\">Drupal\\comment\\Plugin\\views\\field\\LinkApprove::getUrlInfo<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/LinkApprove.php.html#28\">Drupal\\comment\\Plugin\\views\\field\\LinkApprove::renderLink<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/LinkApprove.php.html#36\">Drupal\\comment\\Plugin\\views\\field\\LinkApprove::getDefaultLabel<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/LinkReply.php.html#21\">Drupal\\comment\\Plugin\\views\\field\\LinkReply::getUrlInfo<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/LinkReply.php.html#35\">Drupal\\comment\\Plugin\\views\\field\\LinkReply::getDefaultLabel<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/NodeNewComments.php.html#29\">Drupal\\comment\\Plugin\\views\\field\\NodeNewComments::usesGroupBy<\/a>"],[0,3,"<a href=\"src\/Plugin\/views\/field\/NodeNewComments.php.html#70\">Drupal\\comment\\Plugin\\views\\field\\NodeNewComments::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/NodeNewComments.php.html#88\">Drupal\\comment\\Plugin\\views\\field\\NodeNewComments::create<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/NodeNewComments.php.html#102\">Drupal\\comment\\Plugin\\views\\field\\NodeNewComments::init<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/NodeNewComments.php.html#113\">Drupal\\comment\\Plugin\\views\\field\\NodeNewComments::defineOptions<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/NodeNewComments.php.html#124\">Drupal\\comment\\Plugin\\views\\field\\NodeNewComments::buildOptionsForm<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/NodeNewComments.php.html#138\">Drupal\\comment\\Plugin\\views\\field\\NodeNewComments::query<\/a>"],[0,8,"<a href=\"src\/Plugin\/views\/field\/NodeNewComments.php.html#147\">Drupal\\comment\\Plugin\\views\\field\\NodeNewComments::preRender<\/a>"],[0,8,"<a href=\"src\/Plugin\/views\/field\/NodeNewComments.php.html#194\">Drupal\\comment\\Plugin\\views\\field\\NodeNewComments::renderLink<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/field\/NodeNewComments.php.html#229\">Drupal\\comment\\Plugin\\views\\field\\NodeNewComments::render<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/StatisticsLastCommentName.php.html#21\">Drupal\\comment\\Plugin\\views\\field\\StatisticsLastCommentName::query<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/StatisticsLastCommentName.php.html#53\">Drupal\\comment\\Plugin\\views\\field\\StatisticsLastCommentName::defineOptions<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/field\/StatisticsLastCommentName.php.html#64\">Drupal\\comment\\Plugin\\views\\field\\StatisticsLastCommentName::render<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/field\/StatisticsLastUpdated.php.html#16\">Drupal\\comment\\Plugin\\views\\field\\StatisticsLastUpdated::query<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/filter\/NodeComment.php.html#17\">Drupal\\comment\\Plugin\\views\\filter\\NodeComment::getValueOptions<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/filter\/StatisticsLastUpdated.php.html#16\">Drupal\\comment\\Plugin\\views\\filter\\StatisticsLastUpdated::query<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/filter\/UserUid.php.html#19\">Drupal\\comment\\Plugin\\views\\filter\\UserUid::query<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/row\/Rss.php.html#42\">Drupal\\comment\\Plugin\\views\\row\\Rss::preRender<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/row\/Rss.php.html#55\">Drupal\\comment\\Plugin\\views\\row\\Rss::buildOptionsForm_summary_options<\/a>"],[0,6,"<a href=\"src\/Plugin\/views\/row\/Rss.php.html#62\">Drupal\\comment\\Plugin\\views\\row\\Rss::render<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/sort\/StatisticsLastCommentName.php.html#17\">Drupal\\comment\\Plugin\\views\\sort\\StatisticsLastCommentName::query<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/sort\/StatisticsLastUpdated.php.html#16\">Drupal\\comment\\Plugin\\views\\sort\\StatisticsLastUpdated::query<\/a>"],[0,2,"<a href=\"src\/Plugin\/views\/sort\/Thread.php.html#16\">Drupal\\comment\\Plugin\\views\\sort\\Thread::query<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/wizard\/Comment.php.html#47\">Drupal\\comment\\Plugin\\views\\wizard\\Comment::rowStyleOptions<\/a>"],[0,1,"<a href=\"src\/Plugin\/views\/wizard\/Comment.php.html#57\">Drupal\\comment\\Plugin\\views\\wizard\\Comment::defaultDisplayOptions<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

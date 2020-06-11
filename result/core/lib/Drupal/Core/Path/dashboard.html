@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/crafter/www/drupal-modules.devel/web/core/lib/Drupal/Core/Path</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../../index.html">/home/crafter/www/drupal-modules.devel/web</a></li>
+         <li class="breadcrumb-item"><a href="../../../../index.html">core</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">lib</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Drupal</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Core</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Path</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AliasManager.php.html#20">Drupal\Core\Path\AliasManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasRepository.php.html#18">Drupal\Core\Path\AliasRepository</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorage.php.html#28">Drupal\Core\Path\AliasStorage</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasWhitelist.php.html#19">Drupal\Core\Path\AliasWhitelist</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CurrentPathStack.php.html#15">Drupal\Core\Path\CurrentPathStack</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathMatcher.php.html#12">Drupal\Core\Path\PathMatcher</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathValidator.php.html#22">Drupal\Core\Path\PathValidator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Validation/Constraint/UniquePathAliasConstraintValidator.php.html#14">Drupal\Core\Path\Plugin\Validation\Constraint\UniquePathAliasConstraintValidator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Validation/Constraint/ValidPathConstraintValidator.php.html#14">Drupal\Core\Path\Plugin\Validation\Constraint\ValidPathConstraintValidator</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AliasManager.php.html#20">Drupal\Core\Path\AliasManager</a></td><td class="text-right">1806</td></tr>
+       <tr><td><a href="AliasStorage.php.html#28">Drupal\Core\Path\AliasStorage</a></td><td class="text-right">1122</td></tr>
+       <tr><td><a href="PathValidator.php.html#22">Drupal\Core\Path\PathValidator</a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="AliasWhitelist.php.html#19">Drupal\Core\Path\AliasWhitelist</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="AliasRepository.php.html#18">Drupal\Core\Path\AliasRepository</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="PathMatcher.php.html#12">Drupal\Core\Path\PathMatcher</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Plugin/Validation/Constraint/UniquePathAliasConstraintValidator.php.html#14">Drupal\Core\Path\Plugin\Validation\Constraint\UniquePathAliasConstraintValidator</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="CurrentPathStack.php.html#15">Drupal\Core\Path\CurrentPathStack</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Plugin/Validation/Constraint/ValidPathConstraintValidator.php.html#14">Drupal\Core\Path\Plugin\Validation\Constraint\ValidPathConstraintValidator</a></td><td class="text-right">30</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AliasManager.php.html#121"><abbr title="Drupal\Core\Path\AliasManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathMatcher.php.html#91"><abbr title="Drupal\Core\Path\PathMatcher::isFrontPage">isFrontPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasWhitelist.php.html#77"><abbr title="Drupal\Core\Path\AliasWhitelist::lazyLoadCache">lazyLoadCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasWhitelist.php.html#96"><abbr title="Drupal\Core\Path\AliasWhitelist::loadMenuPathRoots">loadMenuPathRoots</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasWhitelist.php.html#108"><abbr title="Drupal\Core\Path\AliasWhitelist::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasWhitelist.php.html#128"><abbr title="Drupal\Core\Path\AliasWhitelist::resolveCacheMiss">resolveCacheMiss</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasWhitelist.php.html#140"><abbr title="Drupal\Core\Path\AliasWhitelist::clear">clear</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CurrentPathStack.php.html#37"><abbr title="Drupal\Core\Path\CurrentPathStack::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CurrentPathStack.php.html#51"><abbr title="Drupal\Core\Path\CurrentPathStack::getPath">getPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CurrentPathStack.php.html#72"><abbr title="Drupal\Core\Path\CurrentPathStack::setPath">setPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathMatcher.php.html#57"><abbr title="Drupal\Core\Path\PathMatcher::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathMatcher.php.html#65"><abbr title="Drupal\Core\Path\PathMatcher::matchPath">matchPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathMatcher.php.html#111"><abbr title="Drupal\Core\Path\PathMatcher::getFrontPagePath">getFrontPagePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorage.php.html#352"><abbr title="Drupal\Core\Path\AliasStorage::getPathAliasEntityStorage">getPathAliasEntityStorage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathValidator.php.html#64"><abbr title="Drupal\Core\Path\PathValidator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathValidator.php.html#74"><abbr title="Drupal\Core\Path\PathValidator::isValid">isValid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathValidator.php.html#81"><abbr title="Drupal\Core\Path\PathValidator::getUrlIfValid">getUrlIfValid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathValidator.php.html#88"><abbr title="Drupal\Core\Path\PathValidator::getUrlIfValidWithoutAccessCheck">getUrlIfValidWithoutAccessCheck</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathValidator.php.html#95"><abbr title="Drupal\Core\Path\PathValidator::getUrl">getUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PathValidator.php.html#148"><abbr title="Drupal\Core\Path\PathValidator::getPathAttributes">getPathAttributes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Validation/Constraint/UniquePathAliasConstraintValidator.php.html#29"><abbr title="Drupal\Core\Path\Plugin\Validation\Constraint\UniquePathAliasConstraintValidator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Validation/Constraint/UniquePathAliasConstraintValidator.php.html#36"><abbr title="Drupal\Core\Path\Plugin\Validation\Constraint\UniquePathAliasConstraintValidator::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Validation/Constraint/UniquePathAliasConstraintValidator.php.html#45"><abbr title="Drupal\Core\Path\Plugin\Validation\Constraint\UniquePathAliasConstraintValidator::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Validation/Constraint/ValidPathConstraintValidator.php.html#29"><abbr title="Drupal\Core\Path\Plugin\Validation\Constraint\ValidPathConstraintValidator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Validation/Constraint/ValidPathConstraintValidator.php.html#36"><abbr title="Drupal\Core\Path\Plugin\Validation\Constraint\ValidPathConstraintValidator::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasWhitelist.php.html#56"><abbr title="Drupal\Core\Path\AliasWhitelist::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorage.php.html#328"><abbr title="Drupal\Core\Path\AliasStorage::pathHasMatchingAlias">pathHasMatchingAlias</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasManager.php.html#160"><abbr title="Drupal\Core\Path\AliasManager::setCacheKey">setCacheKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasRepository.php.html#121"><abbr title="Drupal\Core\Path\AliasRepository::getBaseQuery">getBaseQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasManager.php.html#172"><abbr title="Drupal\Core\Path\AliasManager::writeCache">writeCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasManager.php.html#194"><abbr title="Drupal\Core\Path\AliasManager::getPathByAlias">getPathByAlias</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasManager.php.html#227"><abbr title="Drupal\Core\Path\AliasManager::getAliasByPath">getAliasByPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasManager.php.html#297"><abbr title="Drupal\Core\Path\AliasManager::cacheClear">cacheClear</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasManager.php.html#323"><abbr title="Drupal\Core\Path\AliasManager::pathAliasWhitelistRebuild">pathAliasWhitelistRebuild</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasManager.php.html#339"><abbr title="Drupal\Core\Path\AliasManager::getRequestTime">getRequestTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasRepository.php.html#33"><abbr title="Drupal\Core\Path\AliasRepository::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasRepository.php.html#47"><abbr title="Drupal\Core\Path\AliasRepository::preloadPathAlias">preloadPathAlias</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasRepository.php.html#72"><abbr title="Drupal\Core\Path\AliasRepository::lookupBySystemPath">lookupBySystemPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasRepository.php.html#88"><abbr title="Drupal\Core\Path\AliasRepository::lookupByAlias">lookupByAlias</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasRepository.php.html#104"><abbr title="Drupal\Core\Path\AliasRepository::pathHasMatchingAlias">pathHasMatchingAlias</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasRepository.php.html#137"><abbr title="Drupal\Core\Path\AliasRepository::addLanguageFallback">addLanguageFallback</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorage.php.html#306"><abbr title="Drupal\Core\Path\AliasStorage::getAliasesForAdminListing">getAliasesForAdminListing</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorage.php.html#66"><abbr title="Drupal\Core\Path\AliasStorage::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorage.php.html#75"><abbr title="Drupal\Core\Path\AliasStorage::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorage.php.html#124"><abbr title="Drupal\Core\Path\AliasStorage::load">load</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorage.php.html#162"><abbr title="Drupal\Core\Path\AliasStorage::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorage.php.html#189"><abbr title="Drupal\Core\Path\AliasStorage::getBaseQuery">getBaseQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorage.php.html#199"><abbr title="Drupal\Core\Path\AliasStorage::preloadPathAlias">preloadPathAlias</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorage.php.html#224"><abbr title="Drupal\Core\Path\AliasStorage::lookupPathAlias">lookupPathAlias</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorage.php.html#240"><abbr title="Drupal\Core\Path\AliasStorage::lookupPathSource">lookupPathSource</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorage.php.html#262"><abbr title="Drupal\Core\Path\AliasStorage::addLanguageFallback">addLanguageFallback</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorage.php.html#282"><abbr title="Drupal\Core\Path\AliasStorage::aliasExists">aliasExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AliasStorage.php.html#299"><abbr title="Drupal\Core\Path\AliasStorage::languageAliasExists">languageAliasExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin/Validation/Constraint/ValidPathConstraintValidator.php.html#45"><abbr title="Drupal\Core\Path\Plugin\Validation\Constraint\ValidPathConstraintValidator::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AliasManager.php.html#227"><abbr title="Drupal\Core\Path\AliasManager::getAliasByPath">getAliasByPath</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="PathValidator.php.html#95"><abbr title="Drupal\Core\Path\PathValidator::getUrl">getUrl</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="PathValidator.php.html#148"><abbr title="Drupal\Core\Path\PathValidator::getPathAttributes">getPathAttributes</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="AliasManager.php.html#121"><abbr title="Drupal\Core\Path\AliasManager::__construct">__construct</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="AliasManager.php.html#194"><abbr title="Drupal\Core\Path\AliasManager::getPathByAlias">getPathByAlias</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="AliasManager.php.html#172"><abbr title="Drupal\Core\Path\AliasManager::writeCache">writeCache</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Plugin/Validation/Constraint/UniquePathAliasConstraintValidator.php.html#45"><abbr title="Drupal\Core\Path\Plugin\Validation\Constraint\UniquePathAliasConstraintValidator::validate">validate</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="AliasStorage.php.html#75"><abbr title="Drupal\Core\Path\AliasStorage::save">save</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="AliasStorage.php.html#124"><abbr title="Drupal\Core\Path\AliasStorage::load">load</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="AliasStorage.php.html#162"><abbr title="Drupal\Core\Path\AliasStorage::delete">delete</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PathMatcher.php.html#91"><abbr title="Drupal\Core\Path\PathMatcher::isFrontPage">isFrontPage</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="AliasWhitelist.php.html#108"><abbr title="Drupal\Core\Path\AliasWhitelist::get">get</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="AliasWhitelist.php.html#56"><abbr title="Drupal\Core\Path\AliasWhitelist::__construct">__construct</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="CurrentPathStack.php.html#51"><abbr title="Drupal\Core\Path\CurrentPathStack::getPath">getPath</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AliasWhitelist.php.html#96"><abbr title="Drupal\Core\Path\AliasWhitelist::loadMenuPathRoots">loadMenuPathRoots</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AliasStorage.php.html#262"><abbr title="Drupal\Core\Path\AliasStorage::addLanguageFallback">addLanguageFallback</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AliasStorage.php.html#199"><abbr title="Drupal\Core\Path\AliasStorage::preloadPathAlias">preloadPathAlias</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AliasRepository.php.html#47"><abbr title="Drupal\Core\Path\AliasRepository::preloadPathAlias">preloadPathAlias</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AliasManager.php.html#297"><abbr title="Drupal\Core\Path\AliasManager::cacheClear">cacheClear</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AliasManager.php.html#323"><abbr title="Drupal\Core\Path\AliasManager::pathAliasWhitelistRebuild">pathAliasWhitelistRebuild</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AliasRepository.php.html#33"><abbr title="Drupal\Core\Path\AliasRepository::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin/Validation/Constraint/ValidPathConstraintValidator.php.html#45"><abbr title="Drupal\Core\Path\Plugin\Validation\Constraint\ValidPathConstraintValidator::validate">validate</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AliasRepository.php.html#137"><abbr title="Drupal\Core\Path\AliasRepository::addLanguageFallback">addLanguageFallback</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AliasWhitelist.php.html#77"><abbr title="Drupal\Core\Path\AliasWhitelist::lazyLoadCache">lazyLoadCache</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AliasRepository.php.html#88"><abbr title="Drupal\Core\Path\AliasRepository::lookupByAlias">lookupByAlias</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AliasRepository.php.html#72"><abbr title="Drupal\Core\Path\AliasRepository::lookupBySystemPath">lookupBySystemPath</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AliasStorage.php.html#66"><abbr title="Drupal\Core\Path\AliasStorage::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CurrentPathStack.php.html#72"><abbr title="Drupal\Core\Path\CurrentPathStack::setPath">setPath</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PathMatcher.php.html#65"><abbr title="Drupal\Core\Path\PathMatcher::matchPath">matchPath</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AliasStorage.php.html#328"><abbr title="Drupal\Core\Path\AliasStorage::pathHasMatchingAlias">pathHasMatchingAlias</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PathMatcher.php.html#111"><abbr title="Drupal\Core\Path\PathMatcher::getFrontPagePath">getFrontPagePath</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AliasManager.php.html#339"><abbr title="Drupal\Core\Path\AliasManager::getRequestTime">getRequestTime</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AliasStorage.php.html#306"><abbr title="Drupal\Core\Path\AliasStorage::getAliasesForAdminListing">getAliasesForAdminListing</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AliasStorage.php.html#282"><abbr title="Drupal\Core\Path\AliasStorage::aliasExists">aliasExists</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AliasWhitelist.php.html#128"><abbr title="Drupal\Core\Path\AliasWhitelist::resolveCacheMiss">resolveCacheMiss</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.33-16+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Fri Jun 12 8:21:00 AEST 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([9,0,0,0,0,0,0,0,0,0,0,2], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([54,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,42,"<a href=\"AliasManager.php.html#20\">Drupal\\Core\\Path\\AliasManager<\/a>"],[0,15,"<a href=\"AliasRepository.php.html#18\">Drupal\\Core\\Path\\AliasRepository<\/a>"],[0,33,"<a href=\"AliasStorage.php.html#28\">Drupal\\Core\\Path\\AliasStorage<\/a>"],[0,16,"<a href=\"AliasWhitelist.php.html#19\">Drupal\\Core\\Path\\AliasWhitelist<\/a>"],[0,6,"<a href=\"CurrentPathStack.php.html#15\">Drupal\\Core\\Path\\CurrentPathStack<\/a>"],[0,9,"<a href=\"PathMatcher.php.html#12\">Drupal\\Core\\Path\\PathMatcher<\/a>"],[0,21,"<a href=\"PathValidator.php.html#22\">Drupal\\Core\\Path\\PathValidator<\/a>"],[100,0,"<a href=\"Plugin\/Validation\/Constraint\/UniquePathAliasConstraint.php.html#15\">Drupal\\Core\\Path\\Plugin\\Validation\\Constraint\\UniquePathAliasConstraint<\/a>"],[0,7,"<a href=\"Plugin\/Validation\/Constraint\/UniquePathAliasConstraintValidator.php.html#14\">Drupal\\Core\\Path\\Plugin\\Validation\\Constraint\\UniquePathAliasConstraintValidator<\/a>"],[100,0,"<a href=\"Plugin\/Validation\/Constraint\/ValidPathConstraint.php.html#15\">Drupal\\Core\\Path\\Plugin\\Validation\\Constraint\\ValidPathConstraint<\/a>"],[0,5,"<a href=\"Plugin\/Validation\/Constraint\/ValidPathConstraintValidator.php.html#14\">Drupal\\Core\\Path\\Plugin\\Validation\\Constraint\\ValidPathConstraintValidator<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,7,"<a href=\"AliasManager.php.html#121\">Drupal\\Core\\Path\\AliasManager::__construct<\/a>"],[0,1,"<a href=\"AliasManager.php.html#160\">Drupal\\Core\\Path\\AliasManager::setCacheKey<\/a>"],[0,6,"<a href=\"AliasManager.php.html#172\">Drupal\\Core\\Path\\AliasManager::writeCache<\/a>"],[0,7,"<a href=\"AliasManager.php.html#194\">Drupal\\Core\\Path\\AliasManager::getPathByAlias<\/a>"],[0,13,"<a href=\"AliasManager.php.html#227\">Drupal\\Core\\Path\\AliasManager::getAliasByPath<\/a>"],[0,3,"<a href=\"AliasManager.php.html#297\">Drupal\\Core\\Path\\AliasManager::cacheClear<\/a>"],[0,3,"<a href=\"AliasManager.php.html#323\">Drupal\\Core\\Path\\AliasManager::pathAliasWhitelistRebuild<\/a>"],[0,2,"<a href=\"AliasManager.php.html#339\">Drupal\\Core\\Path\\AliasManager::getRequestTime<\/a>"],[0,3,"<a href=\"AliasRepository.php.html#33\">Drupal\\Core\\Path\\AliasRepository::__construct<\/a>"],[0,3,"<a href=\"AliasRepository.php.html#47\">Drupal\\Core\\Path\\AliasRepository::preloadPathAlias<\/a>"],[0,2,"<a href=\"AliasRepository.php.html#72\">Drupal\\Core\\Path\\AliasRepository::lookupBySystemPath<\/a>"],[0,2,"<a href=\"AliasRepository.php.html#88\">Drupal\\Core\\Path\\AliasRepository::lookupByAlias<\/a>"],[0,1,"<a href=\"AliasRepository.php.html#104\">Drupal\\Core\\Path\\AliasRepository::pathHasMatchingAlias<\/a>"],[0,1,"<a href=\"AliasRepository.php.html#121\">Drupal\\Core\\Path\\AliasRepository::getBaseQuery<\/a>"],[0,3,"<a href=\"AliasRepository.php.html#137\">Drupal\\Core\\Path\\AliasRepository::addLanguageFallback<\/a>"],[0,2,"<a href=\"AliasStorage.php.html#66\">Drupal\\Core\\Path\\AliasStorage::__construct<\/a>"],[0,5,"<a href=\"AliasStorage.php.html#75\">Drupal\\Core\\Path\\AliasStorage::save<\/a>"],[0,5,"<a href=\"AliasStorage.php.html#124\">Drupal\\Core\\Path\\AliasStorage::load<\/a>"],[0,4,"<a href=\"AliasStorage.php.html#162\">Drupal\\Core\\Path\\AliasStorage::delete<\/a>"],[0,1,"<a href=\"AliasStorage.php.html#189\">Drupal\\Core\\Path\\AliasStorage::getBaseQuery<\/a>"],[0,3,"<a href=\"AliasStorage.php.html#199\">Drupal\\Core\\Path\\AliasStorage::preloadPathAlias<\/a>"],[0,1,"<a href=\"AliasStorage.php.html#224\">Drupal\\Core\\Path\\AliasStorage::lookupPathAlias<\/a>"],[0,1,"<a href=\"AliasStorage.php.html#240\">Drupal\\Core\\Path\\AliasStorage::lookupPathSource<\/a>"],[0,3,"<a href=\"AliasStorage.php.html#262\">Drupal\\Core\\Path\\AliasStorage::addLanguageFallback<\/a>"],[0,2,"<a href=\"AliasStorage.php.html#282\">Drupal\\Core\\Path\\AliasStorage::aliasExists<\/a>"],[0,1,"<a href=\"AliasStorage.php.html#299\">Drupal\\Core\\Path\\AliasStorage::languageAliasExists<\/a>"],[0,2,"<a href=\"AliasStorage.php.html#306\">Drupal\\Core\\Path\\AliasStorage::getAliasesForAdminListing<\/a>"],[0,2,"<a href=\"AliasStorage.php.html#328\">Drupal\\Core\\Path\\AliasStorage::pathHasMatchingAlias<\/a>"],[0,1,"<a href=\"AliasStorage.php.html#352\">Drupal\\Core\\Path\\AliasStorage::getPathAliasEntityStorage<\/a>"],[0,4,"<a href=\"AliasWhitelist.php.html#56\">Drupal\\Core\\Path\\AliasWhitelist::__construct<\/a>"],[0,2,"<a href=\"AliasWhitelist.php.html#77\">Drupal\\Core\\Path\\AliasWhitelist::lazyLoadCache<\/a>"],[0,3,"<a href=\"AliasWhitelist.php.html#96\">Drupal\\Core\\Path\\AliasWhitelist::loadMenuPathRoots<\/a>"],[0,4,"<a href=\"AliasWhitelist.php.html#108\">Drupal\\Core\\Path\\AliasWhitelist::get<\/a>"],[0,2,"<a href=\"AliasWhitelist.php.html#128\">Drupal\\Core\\Path\\AliasWhitelist::resolveCacheMiss<\/a>"],[0,1,"<a href=\"AliasWhitelist.php.html#140\">Drupal\\Core\\Path\\AliasWhitelist::clear<\/a>"],[0,1,"<a href=\"CurrentPathStack.php.html#37\">Drupal\\Core\\Path\\CurrentPathStack::__construct<\/a>"],[0,3,"<a href=\"CurrentPathStack.php.html#51\">Drupal\\Core\\Path\\CurrentPathStack::getPath<\/a>"],[0,2,"<a href=\"CurrentPathStack.php.html#72\">Drupal\\Core\\Path\\CurrentPathStack::setPath<\/a>"],[0,1,"<a href=\"PathMatcher.php.html#57\">Drupal\\Core\\Path\\PathMatcher::__construct<\/a>"],[0,2,"<a href=\"PathMatcher.php.html#65\">Drupal\\Core\\Path\\PathMatcher::matchPath<\/a>"],[0,4,"<a href=\"PathMatcher.php.html#91\">Drupal\\Core\\Path\\PathMatcher::isFrontPage<\/a>"],[0,2,"<a href=\"PathMatcher.php.html#111\">Drupal\\Core\\Path\\PathMatcher::getFrontPagePath<\/a>"],[0,1,"<a href=\"PathValidator.php.html#64\">Drupal\\Core\\Path\\PathValidator::__construct<\/a>"],[0,1,"<a href=\"PathValidator.php.html#74\">Drupal\\Core\\Path\\PathValidator::isValid<\/a>"],[0,1,"<a href=\"PathValidator.php.html#81\">Drupal\\Core\\Path\\PathValidator::getUrlIfValid<\/a>"],[0,1,"<a href=\"PathValidator.php.html#88\">Drupal\\Core\\Path\\PathValidator::getUrlIfValidWithoutAccessCheck<\/a>"],[0,9,"<a href=\"PathValidator.php.html#95\">Drupal\\Core\\Path\\PathValidator::getUrl<\/a>"],[0,8,"<a href=\"PathValidator.php.html#148\">Drupal\\Core\\Path\\PathValidator::getPathAttributes<\/a>"],[0,1,"<a href=\"Plugin\/Validation\/Constraint\/UniquePathAliasConstraintValidator.php.html#29\">Drupal\\Core\\Path\\Plugin\\Validation\\Constraint\\UniquePathAliasConstraintValidator::__construct<\/a>"],[0,1,"<a href=\"Plugin\/Validation\/Constraint\/UniquePathAliasConstraintValidator.php.html#36\">Drupal\\Core\\Path\\Plugin\\Validation\\Constraint\\UniquePathAliasConstraintValidator::create<\/a>"],[0,5,"<a href=\"Plugin\/Validation\/Constraint\/UniquePathAliasConstraintValidator.php.html#45\">Drupal\\Core\\Path\\Plugin\\Validation\\Constraint\\UniquePathAliasConstraintValidator::validate<\/a>"],[0,1,"<a href=\"Plugin\/Validation\/Constraint\/ValidPathConstraintValidator.php.html#29\">Drupal\\Core\\Path\\Plugin\\Validation\\Constraint\\ValidPathConstraintValidator::__construct<\/a>"],[0,1,"<a href=\"Plugin\/Validation\/Constraint\/ValidPathConstraintValidator.php.html#36\">Drupal\\Core\\Path\\Plugin\\Validation\\Constraint\\ValidPathConstraintValidator::create<\/a>"],[0,3,"<a href=\"Plugin\/Validation\/Constraint\/ValidPathConstraintValidator.php.html#45\">Drupal\\Core\\Path\\Plugin\\Validation\\Constraint\\ValidPathConstraintValidator::validate<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

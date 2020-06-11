@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/crafter/www/drupal-modules.devel/web/core/lib/Drupal/Component/Plugin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../../index.html">/home/crafter/www/drupal-modules.devel/web</a></li>
+         <li class="breadcrumb-item"><a href="../../../../index.html">core</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">lib</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Drupal</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Component</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Plugin</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Context/Context.php.html#12">Drupal\Component\Plugin\Context\Context</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Factory/DefaultFactory.php.html#17">Drupal\Component\Plugin\Factory\DefaultFactory</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/DiscoveryCachedTrait.php.html#5">DiscoveryCachedTrait</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definition/ContextAwarePluginDefinitionTrait.php.html#11">ContextAwarePluginDefinitionTrait</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginManagerBase.php.html#11">Drupal\Component\Plugin\PluginManagerBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginHelper.php.html#16">Drupal\Component\Plugin\PluginHelper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginBase.php.html#8">Drupal\Component\Plugin\PluginBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LazyPluginCollection.php.html#10">Drupal\Component\Plugin\LazyPluginCollection</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Factory/ReflectionFactory.php.html#11">Drupal\Component\Plugin\Factory\ReflectionFactory</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/PluginNotFoundException.php.html#8">Drupal\Component\Plugin\Exception\PluginNotFoundException</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ContextAwarePluginBase.php.html#14">Drupal\Component\Plugin\ContextAwarePluginBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/MissingValueContextException.php.html#8">Drupal\Component\Plugin\Exception\MissingValueContextException</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/InvalidPluginDefinitionException.php.html#8">Drupal\Component\Plugin\Exception\InvalidPluginDefinitionException</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/StaticDiscoveryDecorator.php.html#8">Drupal\Component\Plugin\Discovery\StaticDiscoveryDecorator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/StaticDiscovery.php.html#9">Drupal\Component\Plugin\Discovery\StaticDiscovery</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/DerivativeDiscoveryDecorator.php.html#14">Drupal\Component\Plugin\Discovery\DerivativeDiscoveryDecorator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Derivative/DeriverBase.php.html#8">Drupal\Component\Plugin\Derivative\DeriverBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definition/PluginDefinition.php.html#8">Drupal\Component\Plugin\Definition\PluginDefinition</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/DiscoveryTrait.php.html#10">DiscoveryTrait</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Discovery/DerivativeDiscoveryDecorator.php.html#14">Drupal\Component\Plugin\Discovery\DerivativeDiscoveryDecorator</a></td><td class="text-right">1122</td></tr>
+       <tr><td><a href="ContextAwarePluginBase.php.html#14">Drupal\Component\Plugin\ContextAwarePluginBase</a></td><td class="text-right">650</td></tr>
+       <tr><td><a href="LazyPluginCollection.php.html#10">Drupal\Component\Plugin\LazyPluginCollection</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="Context/Context.php.html#12">Drupal\Component\Plugin\Context\Context</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Factory/DefaultFactory.php.html#17">Drupal\Component\Plugin\Factory\DefaultFactory</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="PluginBase.php.html#8">Drupal\Component\Plugin\PluginBase</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Factory/ReflectionFactory.php.html#11">Drupal\Component\Plugin\Factory\ReflectionFactory</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="PluginManagerBase.php.html#11">Drupal\Component\Plugin\PluginManagerBase</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Discovery/StaticDiscoveryDecorator.php.html#8">Drupal\Component\Plugin\Discovery\StaticDiscoveryDecorator</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Definition/ContextAwarePluginDefinitionTrait.php.html#11">ContextAwarePluginDefinitionTrait</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Discovery/DiscoveryTrait.php.html#10">DiscoveryTrait</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Derivative/DeriverBase.php.html#8">Drupal\Component\Plugin\Derivative\DeriverBase</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Discovery/StaticDiscovery.php.html#9">Drupal\Component\Plugin\Discovery\StaticDiscovery</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Exception/PluginNotFoundException.php.html#8">Drupal\Component\Plugin\Exception\PluginNotFoundException</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PluginHelper.php.html#16">Drupal\Component\Plugin\PluginHelper</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Discovery/DiscoveryCachedTrait.php.html#5">DiscoveryCachedTrait</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Context/Context.php.html#36"><abbr title="Drupal\Component\Plugin\Context\Context::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LazyPluginCollection.php.html#93"><abbr title="Drupal\Component\Plugin\LazyPluginCollection::set">set</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginBase.php.html#53"><abbr title="Drupal\Component\Plugin\PluginBase::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LazyPluginCollection.php.html#156"><abbr title="Drupal\Component\Plugin\LazyPluginCollection::count">count</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LazyPluginCollection.php.html#145"><abbr title="Drupal\Component\Plugin\LazyPluginCollection::getIterator">getIterator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LazyPluginCollection.php.html#140"><abbr title="Drupal\Component\Plugin\LazyPluginCollection::removeInstanceId">removeInstanceId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LazyPluginCollection.php.html#130"><abbr title="Drupal\Component\Plugin\LazyPluginCollection::getInstanceIds">getInstanceIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LazyPluginCollection.php.html#118"><abbr title="Drupal\Component\Plugin\LazyPluginCollection::addInstanceId">addInstanceId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LazyPluginCollection.php.html#106"><abbr title="Drupal\Component\Plugin\LazyPluginCollection::remove">remove</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LazyPluginCollection.php.html#78"><abbr title="Drupal\Component\Plugin\LazyPluginCollection::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginBase.php.html#73"><abbr title="Drupal\Component\Plugin\PluginBase::getBaseId">getBaseId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LazyPluginCollection.php.html#68"><abbr title="Drupal\Component\Plugin\LazyPluginCollection::has">has</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LazyPluginCollection.php.html#55"><abbr title="Drupal\Component\Plugin\LazyPluginCollection::clear">clear</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Factory/ReflectionFactory.php.html#52"><abbr title="Drupal\Component\Plugin\Factory\ReflectionFactory::getInstanceArguments">getInstanceArguments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Factory/ReflectionFactory.php.html#16"><abbr title="Drupal\Component\Plugin\Factory\ReflectionFactory::createInstance">createInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Factory/DefaultFactory.php.html#75"><abbr title="Drupal\Component\Plugin\Factory\DefaultFactory::getPluginClass">getPluginClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Factory/DefaultFactory.php.html#52"><abbr title="Drupal\Component\Plugin\Factory\DefaultFactory::createInstance">createInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Factory/DefaultFactory.php.html#44"><abbr title="Drupal\Component\Plugin\Factory\DefaultFactory::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/PluginNotFoundException.php.html#20"><abbr title="Drupal\Component\Plugin\Exception\PluginNotFoundException::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginBase.php.html#66"><abbr title="Drupal\Component\Plugin\PluginBase::getPluginId">getPluginId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginBase.php.html#84"><abbr title="Drupal\Component\Plugin\PluginBase::getDerivativeId">getDerivativeId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/InvalidPluginDefinitionException.php.html#38"><abbr title="Drupal\Component\Plugin\Exception\InvalidPluginDefinitionException::getPluginId">getPluginId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definition/ContextAwarePluginDefinitionTrait.php.html#23"><abbr title="ContextAwarePluginDefinitionTrait::hasContextDefinition">hasContextDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/DiscoveryTrait.php.html#43"><abbr title="DiscoveryTrait::doGetDefinition">doGetDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/DiscoveryTrait.php.html#20"><abbr title="DiscoveryTrait::getDefinition">getDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/DiscoveryCachedTrait.php.html#19"><abbr title="DiscoveryCachedTrait::getDefinition">getDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definition/ContextAwarePluginDefinitionTrait.php.html#55"><abbr title="ContextAwarePluginDefinitionTrait::removeContextDefinition">removeContextDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definition/ContextAwarePluginDefinitionTrait.php.html#47"><abbr title="ContextAwarePluginDefinitionTrait::addContextDefinition">addContextDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definition/ContextAwarePluginDefinitionTrait.php.html#37"><abbr title="ContextAwarePluginDefinitionTrait::getContextDefinition">getContextDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definition/ContextAwarePluginDefinitionTrait.php.html#30"><abbr title="ContextAwarePluginDefinitionTrait::getContextDefinitions">getContextDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginManagerBase.php.html#106"><abbr title="Drupal\Component\Plugin\PluginManagerBase::getInstance">getInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginBase.php.html#96"><abbr title="Drupal\Component\Plugin\PluginBase::getPluginDefinition">getPluginDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginManagerBase.php.html#98"><abbr title="Drupal\Component\Plugin\PluginManagerBase::handlePluginNotFound">handlePluginNotFound</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginManagerBase.php.html#71"><abbr title="Drupal\Component\Plugin\PluginManagerBase::createInstance">createInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginManagerBase.php.html#64"><abbr title="Drupal\Component\Plugin\PluginManagerBase::getDefinitions">getDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginManagerBase.php.html#57"><abbr title="Drupal\Component\Plugin\PluginManagerBase::getDefinition">getDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginManagerBase.php.html#50"><abbr title="Drupal\Component\Plugin\PluginManagerBase::getFactory">getFactory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginManagerBase.php.html#41"><abbr title="Drupal\Component\Plugin\PluginManagerBase::getDiscovery">getDiscovery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginHelper.php.html#27"><abbr title="Drupal\Component\Plugin\PluginHelper::isConfigurable">isConfigurable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginBase.php.html#106"><abbr title="Drupal\Component\Plugin\PluginBase::isConfigurable">isConfigurable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/MissingValueContextException.php.html#16"><abbr title="Drupal\Component\Plugin\Exception\MissingValueContextException::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exception/InvalidPluginDefinitionException.php.html#27"><abbr title="Drupal\Component\Plugin\Exception\InvalidPluginDefinitionException::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Context/Context.php.html#44"><abbr title="Drupal\Component\Plugin\Context\Context::getContextValue">getContextValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ContextAwarePluginBase.php.html#124"><abbr title="Drupal\Component\Plugin\ContextAwarePluginBase::getContexts">getContexts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definition/PluginDefinition.php.html#34"><abbr title="Drupal\Component\Plugin\Definition\PluginDefinition::id">id</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ContextAwarePluginBase.php.html#179"><abbr title="Drupal\Component\Plugin\ContextAwarePluginBase::validateContexts">validateContexts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ContextAwarePluginBase.php.html#171"><abbr title="Drupal\Component\Plugin\ContextAwarePluginBase::setContextValue">setContextValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ContextAwarePluginBase.php.html#164"><abbr title="Drupal\Component\Plugin\ContextAwarePluginBase::getContextValue">getContextValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ContextAwarePluginBase.php.html#153"><abbr title="Drupal\Component\Plugin\ContextAwarePluginBase::getContextValues">getContextValues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ContextAwarePluginBase.php.html#146"><abbr title="Drupal\Component\Plugin\ContextAwarePluginBase::setContext">setContext</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ContextAwarePluginBase.php.html#135"><abbr title="Drupal\Component\Plugin\ContextAwarePluginBase::getContext">getContext</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ContextAwarePluginBase.php.html#108"><abbr title="Drupal\Component\Plugin\ContextAwarePluginBase::getContextDefinition">getContextDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definition/PluginDefinition.php.html#49"><abbr title="Drupal\Component\Plugin\Definition\PluginDefinition::getClass">getClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ContextAwarePluginBase.php.html#95"><abbr title="Drupal\Component\Plugin\ContextAwarePluginBase::getContextDefinitions">getContextDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ContextAwarePluginBase.php.html#83"><abbr title="Drupal\Component\Plugin\ContextAwarePluginBase::createContextFromConfiguration">createContextFromConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ContextAwarePluginBase.php.html#67"><abbr title="Drupal\Component\Plugin\ContextAwarePluginBase::__get">__get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ContextAwarePluginBase.php.html#52"><abbr title="Drupal\Component\Plugin\ContextAwarePluginBase::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Context/Context.php.html#88"><abbr title="Drupal\Component\Plugin\Context\Context::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Context/Context.php.html#78"><abbr title="Drupal\Component\Plugin\Context\Context::getConstraints">getConstraints</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Context/Context.php.html#71"><abbr title="Drupal\Component\Plugin\Context\Context::getContextDefinition">getContextDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Context/Context.php.html#64"><abbr title="Drupal\Component\Plugin\Context\Context::hasContextValue">hasContextValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definition/PluginDefinition.php.html#41"><abbr title="Drupal\Component\Plugin\Definition\PluginDefinition::setClass">setClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definition/PluginDefinition.php.html#56"><abbr title="Drupal\Component\Plugin\Definition\PluginDefinition::getProvider">getProvider</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/StaticDiscoveryDecorator.php.html#63"><abbr title="Drupal\Component\Plugin\Discovery\StaticDiscoveryDecorator::__call">__call</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/DerivativeDiscoveryDecorator.php.html#238"><abbr title="Drupal\Component\Plugin\Discovery\DerivativeDiscoveryDecorator::mergeDerivativeDefinition">mergeDerivativeDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/StaticDiscoveryDecorator.php.html#52"><abbr title="Drupal\Component\Plugin\Discovery\StaticDiscoveryDecorator::getDefinitions">getDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/StaticDiscoveryDecorator.php.html#41"><abbr title="Drupal\Component\Plugin\Discovery\StaticDiscoveryDecorator::getDefinition">getDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/StaticDiscoveryDecorator.php.html#33"><abbr title="Drupal\Component\Plugin\Discovery\StaticDiscoveryDecorator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/StaticDiscovery.php.html#33"><abbr title="Drupal\Component\Plugin\Discovery\StaticDiscovery::deleteDefinition">deleteDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/StaticDiscovery.php.html#26"><abbr title="Drupal\Component\Plugin\Discovery\StaticDiscovery::setDefinition">setDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/StaticDiscovery.php.html#16"><abbr title="Drupal\Component\Plugin\Discovery\StaticDiscovery::getDefinitions">getDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/DerivativeDiscoveryDecorator.php.html#250"><abbr title="Drupal\Component\Plugin\Discovery\DerivativeDiscoveryDecorator::__call">__call</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/DerivativeDiscoveryDecorator.php.html#205"><abbr title="Drupal\Component\Plugin\Discovery\DerivativeDiscoveryDecorator::getDeriverClass">getDeriverClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Derivative/DeriverBase.php.html#20"><abbr title="Drupal\Component\Plugin\Derivative\DeriverBase::getDerivativeDefinition">getDerivativeDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/DerivativeDiscoveryDecorator.php.html#179"><abbr title="Drupal\Component\Plugin\Discovery\DerivativeDiscoveryDecorator::getDeriver">getDeriver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/DerivativeDiscoveryDecorator.php.html#154"><abbr title="Drupal\Component\Plugin\Discovery\DerivativeDiscoveryDecorator::encodePluginId">encodePluginId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/DerivativeDiscoveryDecorator.php.html#132"><abbr title="Drupal\Component\Plugin\Discovery\DerivativeDiscoveryDecorator::decodePluginId">decodePluginId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/DerivativeDiscoveryDecorator.php.html#96"><abbr title="Drupal\Component\Plugin\Discovery\DerivativeDiscoveryDecorator::getDerivatives">getDerivatives</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/DerivativeDiscoveryDecorator.php.html#85"><abbr title="Drupal\Component\Plugin\Discovery\DerivativeDiscoveryDecorator::getDefinitions">getDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/DerivativeDiscoveryDecorator.php.html#51"><abbr title="Drupal\Component\Plugin\Discovery\DerivativeDiscoveryDecorator::getDefinition">getDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/DerivativeDiscoveryDecorator.php.html#40"><abbr title="Drupal\Component\Plugin\Discovery\DerivativeDiscoveryDecorator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Derivative/DeriverBase.php.html#31"><abbr title="Drupal\Component\Plugin\Derivative\DeriverBase::getDerivativeDefinitions">getDerivativeDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discovery/DiscoveryTrait.php.html#59"><abbr title="DiscoveryTrait::hasDefinition">hasDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Factory/DefaultFactory.php.html#75"><abbr title="Drupal\Component\Plugin\Factory\DefaultFactory::getPluginClass">getPluginClass</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Factory/ReflectionFactory.php.html#52"><abbr title="Drupal\Component\Plugin\Factory\ReflectionFactory::getInstanceArguments">getInstanceArguments</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Discovery/DerivativeDiscoveryDecorator.php.html#205"><abbr title="Drupal\Component\Plugin\Discovery\DerivativeDiscoveryDecorator::getDeriverClass">getDeriverClass</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Discovery/DerivativeDiscoveryDecorator.php.html#96"><abbr title="Drupal\Component\Plugin\Discovery\DerivativeDiscoveryDecorator::getDerivatives">getDerivatives</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Discovery/DerivativeDiscoveryDecorator.php.html#51"><abbr title="Drupal\Component\Plugin\Discovery\DerivativeDiscoveryDecorator::getDefinition">getDefinition</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Context/Context.php.html#44"><abbr title="Drupal\Component\Plugin\Context\Context::getContextValue">getContextValue</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ContextAwarePluginBase.php.html#108"><abbr title="Drupal\Component\Plugin\ContextAwarePluginBase::getContextDefinition">getContextDefinition</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Discovery/DerivativeDiscoveryDecorator.php.html#179"><abbr title="Drupal\Component\Plugin\Discovery\DerivativeDiscoveryDecorator::getDeriver">getDeriver</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Derivative/DeriverBase.php.html#20"><abbr title="Drupal\Component\Plugin\Derivative\DeriverBase::getDerivativeDefinition">getDerivativeDefinition</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PluginManagerBase.php.html#71"><abbr title="Drupal\Component\Plugin\PluginManagerBase::createInstance">createInstance</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PluginBase.php.html#53"><abbr title="Drupal\Component\Plugin\PluginBase::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Discovery/DiscoveryTrait.php.html#43"><abbr title="DiscoveryTrait::doGetDefinition">doGetDefinition</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ContextAwarePluginBase.php.html#153"><abbr title="Drupal\Component\Plugin\ContextAwarePluginBase::getContextValues">getContextValues</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ContextAwarePluginBase.php.html#95"><abbr title="Drupal\Component\Plugin\ContextAwarePluginBase::getContextDefinitions">getContextDefinitions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ContextAwarePluginBase.php.html#179"><abbr title="Drupal\Component\Plugin\ContextAwarePluginBase::validateContexts">validateContexts</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="LazyPluginCollection.php.html#78"><abbr title="Drupal\Component\Plugin\LazyPluginCollection::get">get</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Discovery/DiscoveryCachedTrait.php.html#19"><abbr title="DiscoveryCachedTrait::getDefinition">getDefinition</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Definition/ContextAwarePluginDefinitionTrait.php.html#37"><abbr title="ContextAwarePluginDefinitionTrait::getContextDefinition">getContextDefinition</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PluginManagerBase.php.html#106"><abbr title="Drupal\Component\Plugin\PluginManagerBase::getInstance">getInstance</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Context/Context.php.html#78"><abbr title="Drupal\Component\Plugin\Context\Context::getConstraints">getConstraints</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PluginHelper.php.html#27"><abbr title="Drupal\Component\Plugin\PluginHelper::isConfigurable">isConfigurable</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PluginBase.php.html#106"><abbr title="Drupal\Component\Plugin\PluginBase::isConfigurable">isConfigurable</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PluginBase.php.html#84"><abbr title="Drupal\Component\Plugin\PluginBase::getDerivativeId">getDerivativeId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PluginBase.php.html#73"><abbr title="Drupal\Component\Plugin\PluginBase::getBaseId">getBaseId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ContextAwarePluginBase.php.html#52"><abbr title="Drupal\Component\Plugin\ContextAwarePluginBase::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="LazyPluginCollection.php.html#145"><abbr title="Drupal\Component\Plugin\LazyPluginCollection::getIterator">getIterator</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="LazyPluginCollection.php.html#118"><abbr title="Drupal\Component\Plugin\LazyPluginCollection::addInstanceId">addInstanceId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ContextAwarePluginBase.php.html#67"><abbr title="Drupal\Component\Plugin\ContextAwarePluginBase::__get">__get</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="LazyPluginCollection.php.html#68"><abbr title="Drupal\Component\Plugin\LazyPluginCollection::has">has</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Factory/ReflectionFactory.php.html#16"><abbr title="Drupal\Component\Plugin\Factory\ReflectionFactory::createInstance">createInstance</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ContextAwarePluginBase.php.html#83"><abbr title="Drupal\Component\Plugin\ContextAwarePluginBase::createContextFromConfiguration">createContextFromConfiguration</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Exception/PluginNotFoundException.php.html#20"><abbr title="Drupal\Component\Plugin\Exception\PluginNotFoundException::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Discovery/StaticDiscoveryDecorator.php.html#52"><abbr title="Drupal\Component\Plugin\Discovery\StaticDiscoveryDecorator::getDefinitions">getDefinitions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Discovery/StaticDiscoveryDecorator.php.html#41"><abbr title="Drupal\Component\Plugin\Discovery\StaticDiscoveryDecorator::getDefinition">getDefinition</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Context/Context.php.html#64"><abbr title="Drupal\Component\Plugin\Context\Context::hasContextValue">hasContextValue</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Discovery/DerivativeDiscoveryDecorator.php.html#238"><abbr title="Drupal\Component\Plugin\Discovery\DerivativeDiscoveryDecorator::mergeDerivativeDefinition">mergeDerivativeDefinition</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ContextAwarePluginBase.php.html#124"><abbr title="Drupal\Component\Plugin\ContextAwarePluginBase::getContexts">getContexts</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Discovery/DerivativeDiscoveryDecorator.php.html#154"><abbr title="Drupal\Component\Plugin\Discovery\DerivativeDiscoveryDecorator::encodePluginId">encodePluginId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Discovery/DerivativeDiscoveryDecorator.php.html#132"><abbr title="Drupal\Component\Plugin\Discovery\DerivativeDiscoveryDecorator::decodePluginId">decodePluginId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ContextAwarePluginBase.php.html#135"><abbr title="Drupal\Component\Plugin\ContextAwarePluginBase::getContext">getContext</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Discovery/StaticDiscovery.php.html#16"><abbr title="Drupal\Component\Plugin\Discovery\StaticDiscovery::getDefinitions">getDefinitions</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.33-16+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Fri Jun 12 8:21:00 AEST 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([19,0,0,0,0,0,0,0,0,0,0,4], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([83,0,0,0,0,0,0,0,0,0,0,4], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,11,"<a href=\"Context\/Context.php.html#12\">Drupal\\Component\\Plugin\\Context\\Context<\/a>"],[0,25,"<a href=\"ContextAwarePluginBase.php.html#14\">Drupal\\Component\\Plugin\\ContextAwarePluginBase<\/a>"],[0,4,"<a href=\"Definition\/PluginDefinition.php.html#8\">Drupal\\Component\\Plugin\\Definition\\PluginDefinition<\/a>"],[0,4,"<a href=\"Derivative\/DeriverBase.php.html#8\">Drupal\\Component\\Plugin\\Derivative\\DeriverBase<\/a>"],[0,33,"<a href=\"Discovery\/DerivativeDiscoveryDecorator.php.html#14\">Drupal\\Component\\Plugin\\Discovery\\DerivativeDiscoveryDecorator<\/a>"],[0,4,"<a href=\"Discovery\/StaticDiscovery.php.html#9\">Drupal\\Component\\Plugin\\Discovery\\StaticDiscovery<\/a>"],[0,6,"<a href=\"Discovery\/StaticDiscoveryDecorator.php.html#8\">Drupal\\Component\\Plugin\\Discovery\\StaticDiscoveryDecorator<\/a>"],[100,0,"<a href=\"Exception\/ContextException.php.html#8\">Drupal\\Component\\Plugin\\Exception\\ContextException<\/a>"],[100,0,"<a href=\"Exception\/InvalidDecoratedMethod.php.html#11\">Drupal\\Component\\Plugin\\Exception\\InvalidDecoratedMethod<\/a>"],[100,0,"<a href=\"Exception\/InvalidDeriverException.php.html#8\">Drupal\\Component\\Plugin\\Exception\\InvalidDeriverException<\/a>"],[0,2,"<a href=\"Exception\/InvalidPluginDefinitionException.php.html#8\">Drupal\\Component\\Plugin\\Exception\\InvalidPluginDefinitionException<\/a>"],[0,1,"<a href=\"Exception\/MissingValueContextException.php.html#8\">Drupal\\Component\\Plugin\\Exception\\MissingValueContextException<\/a>"],[100,0,"<a href=\"Exception\/PluginException.php.html#9\">Drupal\\Component\\Plugin\\Exception\\PluginException<\/a>"],[0,2,"<a href=\"Exception\/PluginNotFoundException.php.html#8\">Drupal\\Component\\Plugin\\Exception\\PluginNotFoundException<\/a>"],[0,11,"<a href=\"Factory\/DefaultFactory.php.html#17\">Drupal\\Component\\Plugin\\Factory\\DefaultFactory<\/a>"],[0,10,"<a href=\"Factory\/ReflectionFactory.php.html#11\">Drupal\\Component\\Plugin\\Factory\\ReflectionFactory<\/a>"],[0,17,"<a href=\"LazyPluginCollection.php.html#10\">Drupal\\Component\\Plugin\\LazyPluginCollection<\/a>"],[0,11,"<a href=\"PluginBase.php.html#8\">Drupal\\Component\\Plugin\\PluginBase<\/a>"],[0,2,"<a href=\"PluginHelper.php.html#16\">Drupal\\Component\\Plugin\\PluginHelper<\/a>"],[0,10,"<a href=\"PluginManagerBase.php.html#11\">Drupal\\Component\\Plugin\\PluginManagerBase<\/a>"],[0,6,"<a href=\"Definition\/ContextAwarePluginDefinitionTrait.php.html#11\">ContextAwarePluginDefinitionTrait<\/a>"],[0,2,"<a href=\"Discovery\/DiscoveryCachedTrait.php.html#5\">DiscoveryCachedTrait<\/a>"],[0,6,"<a href=\"Discovery\/DiscoveryTrait.php.html#10\">DiscoveryTrait<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Context\/Context.php.html#36\">Drupal\\Component\\Plugin\\Context\\Context::__construct<\/a>"],[0,4,"<a href=\"Context\/Context.php.html#44\">Drupal\\Component\\Plugin\\Context\\Context::getContextValue<\/a>"],[0,2,"<a href=\"Context\/Context.php.html#64\">Drupal\\Component\\Plugin\\Context\\Context::hasContextValue<\/a>"],[0,1,"<a href=\"Context\/Context.php.html#71\">Drupal\\Component\\Plugin\\Context\\Context::getContextDefinition<\/a>"],[0,2,"<a href=\"Context\/Context.php.html#78\">Drupal\\Component\\Plugin\\Context\\Context::getConstraints<\/a>"],[0,1,"<a href=\"Context\/Context.php.html#88\">Drupal\\Component\\Plugin\\Context\\Context::validate<\/a>"],[0,2,"<a href=\"ContextAwarePluginBase.php.html#52\">Drupal\\Component\\Plugin\\ContextAwarePluginBase::__construct<\/a>"],[0,2,"<a href=\"ContextAwarePluginBase.php.html#67\">Drupal\\Component\\Plugin\\ContextAwarePluginBase::__get<\/a>"],[0,2,"<a href=\"ContextAwarePluginBase.php.html#83\">Drupal\\Component\\Plugin\\ContextAwarePluginBase::createContextFromConfiguration<\/a>"],[0,3,"<a href=\"ContextAwarePluginBase.php.html#95\">Drupal\\Component\\Plugin\\ContextAwarePluginBase::getContextDefinitions<\/a>"],[0,4,"<a href=\"ContextAwarePluginBase.php.html#108\">Drupal\\Component\\Plugin\\ContextAwarePluginBase::getContextDefinition<\/a>"],[0,2,"<a href=\"ContextAwarePluginBase.php.html#124\">Drupal\\Component\\Plugin\\ContextAwarePluginBase::getContexts<\/a>"],[0,2,"<a href=\"ContextAwarePluginBase.php.html#135\">Drupal\\Component\\Plugin\\ContextAwarePluginBase::getContext<\/a>"],[0,1,"<a href=\"ContextAwarePluginBase.php.html#146\">Drupal\\Component\\Plugin\\ContextAwarePluginBase::setContext<\/a>"],[0,3,"<a href=\"ContextAwarePluginBase.php.html#153\">Drupal\\Component\\Plugin\\ContextAwarePluginBase::getContextValues<\/a>"],[0,1,"<a href=\"ContextAwarePluginBase.php.html#164\">Drupal\\Component\\Plugin\\ContextAwarePluginBase::getContextValue<\/a>"],[0,1,"<a href=\"ContextAwarePluginBase.php.html#171\">Drupal\\Component\\Plugin\\ContextAwarePluginBase::setContextValue<\/a>"],[0,2,"<a href=\"ContextAwarePluginBase.php.html#179\">Drupal\\Component\\Plugin\\ContextAwarePluginBase::validateContexts<\/a>"],[0,1,"<a href=\"Definition\/PluginDefinition.php.html#34\">Drupal\\Component\\Plugin\\Definition\\PluginDefinition::id<\/a>"],[0,1,"<a href=\"Definition\/PluginDefinition.php.html#41\">Drupal\\Component\\Plugin\\Definition\\PluginDefinition::setClass<\/a>"],[0,1,"<a href=\"Definition\/PluginDefinition.php.html#49\">Drupal\\Component\\Plugin\\Definition\\PluginDefinition::getClass<\/a>"],[0,1,"<a href=\"Definition\/PluginDefinition.php.html#56\">Drupal\\Component\\Plugin\\Definition\\PluginDefinition::getProvider<\/a>"],[0,3,"<a href=\"Derivative\/DeriverBase.php.html#20\">Drupal\\Component\\Plugin\\Derivative\\DeriverBase::getDerivativeDefinition<\/a>"],[0,1,"<a href=\"Derivative\/DeriverBase.php.html#31\">Drupal\\Component\\Plugin\\Derivative\\DeriverBase::getDerivativeDefinitions<\/a>"],[0,1,"<a href=\"Discovery\/DerivativeDiscoveryDecorator.php.html#40\">Drupal\\Component\\Plugin\\Discovery\\DerivativeDiscoveryDecorator::__construct<\/a>"],[0,5,"<a href=\"Discovery\/DerivativeDiscoveryDecorator.php.html#51\">Drupal\\Component\\Plugin\\Discovery\\DerivativeDiscoveryDecorator::getDefinition<\/a>"],[0,1,"<a href=\"Discovery\/DerivativeDiscoveryDecorator.php.html#85\">Drupal\\Component\\Plugin\\Discovery\\DerivativeDiscoveryDecorator::getDefinitions<\/a>"],[0,7,"<a href=\"Discovery\/DerivativeDiscoveryDecorator.php.html#96\">Drupal\\Component\\Plugin\\Discovery\\DerivativeDiscoveryDecorator::getDerivatives<\/a>"],[0,2,"<a href=\"Discovery\/DerivativeDiscoveryDecorator.php.html#132\">Drupal\\Component\\Plugin\\Discovery\\DerivativeDiscoveryDecorator::decodePluginId<\/a>"],[0,2,"<a href=\"Discovery\/DerivativeDiscoveryDecorator.php.html#154\">Drupal\\Component\\Plugin\\Discovery\\DerivativeDiscoveryDecorator::encodePluginId<\/a>"],[0,4,"<a href=\"Discovery\/DerivativeDiscoveryDecorator.php.html#179\">Drupal\\Component\\Plugin\\Discovery\\DerivativeDiscoveryDecorator::getDeriver<\/a>"],[0,8,"<a href=\"Discovery\/DerivativeDiscoveryDecorator.php.html#205\">Drupal\\Component\\Plugin\\Discovery\\DerivativeDiscoveryDecorator::getDeriverClass<\/a>"],[0,2,"<a href=\"Discovery\/DerivativeDiscoveryDecorator.php.html#238\">Drupal\\Component\\Plugin\\Discovery\\DerivativeDiscoveryDecorator::mergeDerivativeDefinition<\/a>"],[0,1,"<a href=\"Discovery\/DerivativeDiscoveryDecorator.php.html#250\">Drupal\\Component\\Plugin\\Discovery\\DerivativeDiscoveryDecorator::__call<\/a>"],[0,2,"<a href=\"Discovery\/StaticDiscovery.php.html#16\">Drupal\\Component\\Plugin\\Discovery\\StaticDiscovery::getDefinitions<\/a>"],[0,1,"<a href=\"Discovery\/StaticDiscovery.php.html#26\">Drupal\\Component\\Plugin\\Discovery\\StaticDiscovery::setDefinition<\/a>"],[0,1,"<a href=\"Discovery\/StaticDiscovery.php.html#33\">Drupal\\Component\\Plugin\\Discovery\\StaticDiscovery::deleteDefinition<\/a>"],[0,1,"<a href=\"Discovery\/StaticDiscoveryDecorator.php.html#33\">Drupal\\Component\\Plugin\\Discovery\\StaticDiscoveryDecorator::__construct<\/a>"],[0,2,"<a href=\"Discovery\/StaticDiscoveryDecorator.php.html#41\">Drupal\\Component\\Plugin\\Discovery\\StaticDiscoveryDecorator::getDefinition<\/a>"],[0,2,"<a href=\"Discovery\/StaticDiscoveryDecorator.php.html#52\">Drupal\\Component\\Plugin\\Discovery\\StaticDiscoveryDecorator::getDefinitions<\/a>"],[0,1,"<a href=\"Discovery\/StaticDiscoveryDecorator.php.html#63\">Drupal\\Component\\Plugin\\Discovery\\StaticDiscoveryDecorator::__call<\/a>"],[0,1,"<a href=\"Exception\/InvalidPluginDefinitionException.php.html#27\">Drupal\\Component\\Plugin\\Exception\\InvalidPluginDefinitionException::__construct<\/a>"],[0,1,"<a href=\"Exception\/InvalidPluginDefinitionException.php.html#38\">Drupal\\Component\\Plugin\\Exception\\InvalidPluginDefinitionException::getPluginId<\/a>"],[0,1,"<a href=\"Exception\/MissingValueContextException.php.html#16\">Drupal\\Component\\Plugin\\Exception\\MissingValueContextException::__construct<\/a>"],[0,2,"<a href=\"Exception\/PluginNotFoundException.php.html#20\">Drupal\\Component\\Plugin\\Exception\\PluginNotFoundException::__construct<\/a>"],[0,1,"<a href=\"Factory\/DefaultFactory.php.html#44\">Drupal\\Component\\Plugin\\Factory\\DefaultFactory::__construct<\/a>"],[0,1,"<a href=\"Factory\/DefaultFactory.php.html#52\">Drupal\\Component\\Plugin\\Factory\\DefaultFactory::createInstance<\/a>"],[0,9,"<a href=\"Factory\/DefaultFactory.php.html#75\">Drupal\\Component\\Plugin\\Factory\\DefaultFactory::getPluginClass<\/a>"],[0,2,"<a href=\"Factory\/ReflectionFactory.php.html#16\">Drupal\\Component\\Plugin\\Factory\\ReflectionFactory::createInstance<\/a>"],[0,8,"<a href=\"Factory\/ReflectionFactory.php.html#52\">Drupal\\Component\\Plugin\\Factory\\ReflectionFactory::getInstanceArguments<\/a>"],[100,1,"<a href=\"LazyPluginCollection.php.html#32\">Drupal\\Component\\Plugin\\LazyPluginCollection::initializePlugin<\/a>"],[100,1,"<a href=\"LazyPluginCollection.php.html#40\">Drupal\\Component\\Plugin\\LazyPluginCollection::getConfiguration<\/a>"],[100,1,"<a href=\"LazyPluginCollection.php.html#50\">Drupal\\Component\\Plugin\\LazyPluginCollection::setConfiguration<\/a>"],[0,1,"<a href=\"LazyPluginCollection.php.html#55\">Drupal\\Component\\Plugin\\LazyPluginCollection::clear<\/a>"],[0,2,"<a href=\"LazyPluginCollection.php.html#68\">Drupal\\Component\\Plugin\\LazyPluginCollection::has<\/a>"],[0,2,"<a href=\"LazyPluginCollection.php.html#78\">Drupal\\Component\\Plugin\\LazyPluginCollection::get<\/a>"],[0,1,"<a href=\"LazyPluginCollection.php.html#93\">Drupal\\Component\\Plugin\\LazyPluginCollection::set<\/a>"],[0,1,"<a href=\"LazyPluginCollection.php.html#106\">Drupal\\Component\\Plugin\\LazyPluginCollection::remove<\/a>"],[0,2,"<a href=\"LazyPluginCollection.php.html#118\">Drupal\\Component\\Plugin\\LazyPluginCollection::addInstanceId<\/a>"],[0,1,"<a href=\"LazyPluginCollection.php.html#130\">Drupal\\Component\\Plugin\\LazyPluginCollection::getInstanceIds<\/a>"],[0,1,"<a href=\"LazyPluginCollection.php.html#140\">Drupal\\Component\\Plugin\\LazyPluginCollection::removeInstanceId<\/a>"],[0,2,"<a href=\"LazyPluginCollection.php.html#145\">Drupal\\Component\\Plugin\\LazyPluginCollection::getIterator<\/a>"],[0,1,"<a href=\"LazyPluginCollection.php.html#156\">Drupal\\Component\\Plugin\\LazyPluginCollection::count<\/a>"],[0,3,"<a href=\"PluginBase.php.html#53\">Drupal\\Component\\Plugin\\PluginBase::__construct<\/a>"],[0,1,"<a href=\"PluginBase.php.html#66\">Drupal\\Component\\Plugin\\PluginBase::getPluginId<\/a>"],[0,2,"<a href=\"PluginBase.php.html#73\">Drupal\\Component\\Plugin\\PluginBase::getBaseId<\/a>"],[0,2,"<a href=\"PluginBase.php.html#84\">Drupal\\Component\\Plugin\\PluginBase::getDerivativeId<\/a>"],[0,1,"<a href=\"PluginBase.php.html#96\">Drupal\\Component\\Plugin\\PluginBase::getPluginDefinition<\/a>"],[0,2,"<a href=\"PluginBase.php.html#106\">Drupal\\Component\\Plugin\\PluginBase::isConfigurable<\/a>"],[0,2,"<a href=\"PluginHelper.php.html#27\">Drupal\\Component\\Plugin\\PluginHelper::isConfigurable<\/a>"],[0,1,"<a href=\"PluginManagerBase.php.html#41\">Drupal\\Component\\Plugin\\PluginManagerBase::getDiscovery<\/a>"],[0,1,"<a href=\"PluginManagerBase.php.html#50\">Drupal\\Component\\Plugin\\PluginManagerBase::getFactory<\/a>"],[0,1,"<a href=\"PluginManagerBase.php.html#57\">Drupal\\Component\\Plugin\\PluginManagerBase::getDefinition<\/a>"],[0,1,"<a href=\"PluginManagerBase.php.html#64\">Drupal\\Component\\Plugin\\PluginManagerBase::getDefinitions<\/a>"],[0,3,"<a href=\"PluginManagerBase.php.html#71\">Drupal\\Component\\Plugin\\PluginManagerBase::createInstance<\/a>"],[0,1,"<a href=\"PluginManagerBase.php.html#98\">Drupal\\Component\\Plugin\\PluginManagerBase::handlePluginNotFound<\/a>"],[0,2,"<a href=\"PluginManagerBase.php.html#106\">Drupal\\Component\\Plugin\\PluginManagerBase::getInstance<\/a>"],[0,1,"<a href=\"Definition\/ContextAwarePluginDefinitionTrait.php.html#23\">ContextAwarePluginDefinitionTrait::hasContextDefinition<\/a>"],[0,1,"<a href=\"Definition\/ContextAwarePluginDefinitionTrait.php.html#30\">ContextAwarePluginDefinitionTrait::getContextDefinitions<\/a>"],[0,2,"<a href=\"Definition\/ContextAwarePluginDefinitionTrait.php.html#37\">ContextAwarePluginDefinitionTrait::getContextDefinition<\/a>"],[0,1,"<a href=\"Definition\/ContextAwarePluginDefinitionTrait.php.html#47\">ContextAwarePluginDefinitionTrait::addContextDefinition<\/a>"],[0,1,"<a href=\"Definition\/ContextAwarePluginDefinitionTrait.php.html#55\">ContextAwarePluginDefinitionTrait::removeContextDefinition<\/a>"],[0,2,"<a href=\"Discovery\/DiscoveryCachedTrait.php.html#19\">DiscoveryCachedTrait::getDefinition<\/a>"],[100,1,"<a href=\"Discovery\/DiscoveryTrait.php.html#15\">DiscoveryTrait::getDefinitions<\/a>"],[0,1,"<a href=\"Discovery\/DiscoveryTrait.php.html#20\">DiscoveryTrait::getDefinition<\/a>"],[0,3,"<a href=\"Discovery\/DiscoveryTrait.php.html#43\">DiscoveryTrait::doGetDefinition<\/a>"],[0,1,"<a href=\"Discovery\/DiscoveryTrait.php.html#59\">DiscoveryTrait::hasDefinition<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

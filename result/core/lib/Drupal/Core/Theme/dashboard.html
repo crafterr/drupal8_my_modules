@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/crafter/www/drupal-modules.devel/web/core/lib/Drupal/Core/Theme</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../../index.html">/home/crafter/www/drupal-modules.devel/web</a></li>
+         <li class="breadcrumb-item"><a href="../../../../index.html">core</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">lib</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Drupal</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Core</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Theme</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ActiveTheme.php.html#13">Drupal\Core\Theme\ActiveTheme</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AjaxBasePageNegotiator.php.html#25">Drupal\Core\Theme\AjaxBasePageNegotiator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultNegotiator.php.html#11">Drupal\Core\Theme\DefaultNegotiator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MissingThemeDependencyException.php.html#10">Drupal\Core\Theme\MissingThemeDependencyException</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Registry.php.html#26">Drupal\Core\Theme\Registry</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeAccessCheck.php.html#12">Drupal\Core\Theme\ThemeAccessCheck</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeInitialization.php.html#13">Drupal\Core\Theme\ThemeInitialization</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeManager.php.html#15">Drupal\Core\Theme\ThemeManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeNegotiator.php.html#14">Drupal\Core\Theme\ThemeNegotiator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeSettings.php.html#16">Drupal\Core\Theme\ThemeSettings</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Registry.php.html#26">Drupal\Core\Theme\Registry</a></td><td class="text-right">10920</td></tr>
+       <tr><td><a href="ThemeManager.php.html#15">Drupal\Core\Theme\ThemeManager</a></td><td class="text-right">5112</td></tr>
+       <tr><td><a href="ThemeInitialization.php.html#13">Drupal\Core\Theme\ThemeInitialization</a></td><td class="text-right">2756</td></tr>
+       <tr><td><a href="ActiveTheme.php.html#13">Drupal\Core\Theme\ActiveTheme</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="ThemeNegotiator.php.html#14">Drupal\Core\Theme\ThemeNegotiator</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="AjaxBasePageNegotiator.php.html#25">Drupal\Core\Theme\AjaxBasePageNegotiator</a></td><td class="text-right">42</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ActiveTheme.php.html#117"><abbr title="Drupal\Core\Theme\ActiveTheme::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeInitialization.php.html#325"><abbr title="Drupal\Core\Theme\ThemeInitialization::prepareStylesheetsRemove">prepareStylesheetsRemove</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Registry.php.html#786"><abbr title="Drupal\Core\Theme\Registry::destruct">destruct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Registry.php.html#800"><abbr title="Drupal\Core\Theme\Registry::getPrefixGroupedUserFunctions">getPrefixGroupedUserFunctions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Registry.php.html#830"><abbr title="Drupal\Core\Theme\Registry::getPath">getPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeAccessCheck.php.html#27"><abbr title="Drupal\Core\Theme\ThemeAccessCheck::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeAccessCheck.php.html#40"><abbr title="Drupal\Core\Theme\ThemeAccessCheck::access">access</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeAccessCheck.php.html#54"><abbr title="Drupal\Core\Theme\ThemeAccessCheck::checkAccess">checkAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeInitialization.php.html#62"><abbr title="Drupal\Core\Theme\ThemeInitialization::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeInitialization.php.html#72"><abbr title="Drupal\Core\Theme\ThemeInitialization::initTheme">initTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeInitialization.php.html#82"><abbr title="Drupal\Core\Theme\ThemeInitialization::getActiveThemeByName">getActiveThemeByName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeInitialization.php.html#136"><abbr title="Drupal\Core\Theme\ThemeInitialization::loadActiveTheme">loadActiveTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeInitialization.php.html#170"><abbr title="Drupal\Core\Theme\ThemeInitialization::getActiveTheme">getActiveTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeInitialization.php.html#279"><abbr title="Drupal\Core\Theme\ThemeInitialization::getExtensions">getExtensions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeInitialization.php.html#297"><abbr title="Drupal\Core\Theme\ThemeInitialization::resolveStyleSheetPlaceholders">resolveStyleSheetPlaceholders</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeManager.php.html#71"><abbr title="Drupal\Core\Theme\ThemeManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Registry.php.html#683"><abbr title="Drupal\Core\Theme\Registry::postProcessExtension">postProcessExtension</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeManager.php.html#86"><abbr title="Drupal\Core\Theme\ThemeManager::setThemeRegistry">setThemeRegistry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeManager.php.html#94"><abbr title="Drupal\Core\Theme\ThemeManager::getActiveTheme">getActiveTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeManager.php.html#104"><abbr title="Drupal\Core\Theme\ThemeManager::hasActiveTheme">hasActiveTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeManager.php.html#111"><abbr title="Drupal\Core\Theme\ThemeManager::resetActiveTheme">resetActiveTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeManager.php.html#119"><abbr title="Drupal\Core\Theme\ThemeManager::setActiveTheme">setActiveTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeManager.php.html#130"><abbr title="Drupal\Core\Theme\ThemeManager::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeManager.php.html#396"><abbr title="Drupal\Core\Theme\ThemeManager::initTheme">initTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeManager.php.html#414"><abbr title="Drupal\Core\Theme\ThemeManager::alterForTheme">alterForTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeManager.php.html#456"><abbr title="Drupal\Core\Theme\ThemeManager::alter">alter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeNegotiator.php.html#47"><abbr title="Drupal\Core\Theme\ThemeNegotiator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeNegotiator.php.html#56"><abbr title="Drupal\Core\Theme\ThemeNegotiator::applies">applies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeNegotiator.php.html#63"><abbr title="Drupal\Core\Theme\ThemeNegotiator::determineActiveTheme">determineActiveTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeSettings.php.html#31"><abbr title="Drupal\Core\Theme\ThemeSettings::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeSettings.php.html#41"><abbr title="Drupal\Core\Theme\ThemeSettings::getTheme">getTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Registry.php.html#771"><abbr title="Drupal\Core\Theme\Registry::reset">reset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Registry.php.html#655"><abbr title="Drupal\Core\Theme\Registry::mergePreprocessFunctions">mergePreprocessFunctions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActiveTheme.php.html#158"><abbr title="Drupal\Core\Theme\ActiveTheme::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AjaxBasePageNegotiator.php.html#67"><abbr title="Drupal\Core\Theme\AjaxBasePageNegotiator::applies">applies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActiveTheme.php.html#167"><abbr title="Drupal\Core\Theme\ActiveTheme::getPath">getPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActiveTheme.php.html#176"><abbr title="Drupal\Core\Theme\ActiveTheme::getEngine">getEngine</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActiveTheme.php.html#187"><abbr title="Drupal\Core\Theme\ActiveTheme::getOwner">getOwner</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActiveTheme.php.html#196"><abbr title="Drupal\Core\Theme\ActiveTheme::getExtension">getExtension</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActiveTheme.php.html#205"><abbr title="Drupal\Core\Theme\ActiveTheme::getLibraries">getLibraries</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActiveTheme.php.html#218"><abbr title="Drupal\Core\Theme\ActiveTheme::getStyleSheetsRemove">getStyleSheetsRemove</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActiveTheme.php.html#235"><abbr title="Drupal\Core\Theme\ActiveTheme::getBaseThemes">getBaseThemes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActiveTheme.php.html#251"><abbr title="Drupal\Core\Theme\ActiveTheme::getBaseThemeExtensions">getBaseThemeExtensions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActiveTheme.php.html#261"><abbr title="Drupal\Core\Theme\ActiveTheme::getLogo">getLogo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActiveTheme.php.html#273"><abbr title="Drupal\Core\Theme\ActiveTheme::getRegions">getRegions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActiveTheme.php.html#283"><abbr title="Drupal\Core\Theme\ActiveTheme::getLibrariesOverride">getLibrariesOverride</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActiveTheme.php.html#293"><abbr title="Drupal\Core\Theme\ActiveTheme::getLibrariesExtend">getLibrariesExtend</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AjaxBasePageNegotiator.php.html#58"><abbr title="Drupal\Core\Theme\AjaxBasePageNegotiator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AjaxBasePageNegotiator.php.html#75"><abbr title="Drupal\Core\Theme\AjaxBasePageNegotiator::determineActiveTheme">determineActiveTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Registry.php.html#615"><abbr title="Drupal\Core\Theme\Registry::completeSuggestion">completeSuggestion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultNegotiator.php.html#26"><abbr title="Drupal\Core\Theme\DefaultNegotiator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultNegotiator.php.html#33"><abbr title="Drupal\Core\Theme\DefaultNegotiator::applies">applies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DefaultNegotiator.php.html#40"><abbr title="Drupal\Core\Theme\DefaultNegotiator::determineActiveTheme">determineActiveTheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MissingThemeDependencyException.php.html#27"><abbr title="Drupal\Core\Theme\MissingThemeDependencyException::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MissingThemeDependencyException.php.html#38"><abbr title="Drupal\Core\Theme\MissingThemeDependencyException::getMissingThemeName">getMissingThemeName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Registry.php.html#171"><abbr title="Drupal\Core\Theme\Registry::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Registry.php.html#188"><abbr title="Drupal\Core\Theme\Registry::setThemeManager">setThemeManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Registry.php.html#201"><abbr title="Drupal\Core\Theme\Registry::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Registry.php.html#224"><abbr title="Drupal\Core\Theme\Registry::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Registry.php.html#250"><abbr title="Drupal\Core\Theme\Registry::getRuntime">getRuntime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Registry.php.html#261"><abbr title="Drupal\Core\Theme\Registry::setCache">setCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Registry.php.html#274"><abbr title="Drupal\Core\Theme\Registry::getBaseHook">getBaseHook</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Registry.php.html#323"><abbr title="Drupal\Core\Theme\Registry::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Registry.php.html#431"><abbr title="Drupal\Core\Theme\Registry::processExtension">processExtension</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemeSettings.php.html#48"><abbr title="Drupal\Core\Theme\ThemeSettings::getCacheTags">getCacheTags</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ThemeManager.php.html#130"><abbr title="Drupal\Core\Theme\ThemeManager::render">render</abbr></a></td><td class="text-right">2550</td></tr>
+       <tr><td><a href="Registry.php.html#431"><abbr title="Drupal\Core\Theme\Registry::processExtension">processExtension</abbr></a></td><td class="text-right">1332</td></tr>
+       <tr><td><a href="ThemeInitialization.php.html#170"><abbr title="Drupal\Core\Theme\ThemeInitialization::getActiveTheme">getActiveTheme</abbr></a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="Registry.php.html#683"><abbr title="Drupal\Core\Theme\Registry::postProcessExtension">postProcessExtension</abbr></a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="ThemeInitialization.php.html#82"><abbr title="Drupal\Core\Theme\ThemeInitialization::getActiveThemeByName">getActiveThemeByName</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="ThemeManager.php.html#414"><abbr title="Drupal\Core\Theme\ThemeManager::alterForTheme">alterForTheme</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Registry.php.html#323"><abbr title="Drupal\Core\Theme\Registry::build">build</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Registry.php.html#615"><abbr title="Drupal\Core\Theme\Registry::completeSuggestion">completeSuggestion</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="ThemeInitialization.php.html#136"><abbr title="Drupal\Core\Theme\ThemeInitialization::loadActiveTheme">loadActiveTheme</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="ThemeInitialization.php.html#325"><abbr title="Drupal\Core\Theme\ThemeInitialization::prepareStylesheetsRemove">prepareStylesheetsRemove</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Registry.php.html#655"><abbr title="Drupal\Core\Theme\Registry::mergePreprocessFunctions">mergePreprocessFunctions</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ThemeNegotiator.php.html#63"><abbr title="Drupal\Core\Theme\ThemeNegotiator::determineActiveTheme">determineActiveTheme</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Registry.php.html#274"><abbr title="Drupal\Core\Theme\Registry::getBaseHook">getBaseHook</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ActiveTheme.php.html#117"><abbr title="Drupal\Core\Theme\ActiveTheme::__construct">__construct</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Registry.php.html#224"><abbr title="Drupal\Core\Theme\Registry::get">get</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Registry.php.html#800"><abbr title="Drupal\Core\Theme\Registry::getPrefixGroupedUserFunctions">getPrefixGroupedUserFunctions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Registry.php.html#250"><abbr title="Drupal\Core\Theme\Registry::getRuntime">getRuntime</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ThemeInitialization.php.html#297"><abbr title="Drupal\Core\Theme\ThemeInitialization::resolveStyleSheetPlaceholders">resolveStyleSheetPlaceholders</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Registry.php.html#201"><abbr title="Drupal\Core\Theme\Registry::init">init</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ThemeManager.php.html#396"><abbr title="Drupal\Core\Theme\ThemeManager::initTheme">initTheme</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AjaxBasePageNegotiator.php.html#75"><abbr title="Drupal\Core\Theme\AjaxBasePageNegotiator::determineActiveTheme">determineActiveTheme</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AjaxBasePageNegotiator.php.html#67"><abbr title="Drupal\Core\Theme\AjaxBasePageNegotiator::applies">applies</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Registry.php.html#771"><abbr title="Drupal\Core\Theme\Registry::reset">reset</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThemeInitialization.php.html#279"><abbr title="Drupal\Core\Theme\ThemeInitialization::getExtensions">getExtensions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThemeManager.php.html#94"><abbr title="Drupal\Core\Theme\ThemeManager::getActiveTheme">getActiveTheme</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThemeManager.php.html#119"><abbr title="Drupal\Core\Theme\ThemeManager::setActiveTheme">setActiveTheme</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Registry.php.html#786"><abbr title="Drupal\Core\Theme\Registry::destruct">destruct</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.33-16+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Fri Jun 12 8:21:00 AEST 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([10,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([65,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,17,"<a href=\"ActiveTheme.php.html#13\">Drupal\\Core\\Theme\\ActiveTheme<\/a>"],[0,6,"<a href=\"AjaxBasePageNegotiator.php.html#25\">Drupal\\Core\\Theme\\AjaxBasePageNegotiator<\/a>"],[0,3,"<a href=\"DefaultNegotiator.php.html#11\">Drupal\\Core\\Theme\\DefaultNegotiator<\/a>"],[0,2,"<a href=\"MissingThemeDependencyException.php.html#10\">Drupal\\Core\\Theme\\MissingThemeDependencyException<\/a>"],[0,104,"<a href=\"Registry.php.html#26\">Drupal\\Core\\Theme\\Registry<\/a>"],[0,3,"<a href=\"ThemeAccessCheck.php.html#12\">Drupal\\Core\\Theme\\ThemeAccessCheck<\/a>"],[0,52,"<a href=\"ThemeInitialization.php.html#13\">Drupal\\Core\\Theme\\ThemeInitialization<\/a>"],[0,71,"<a href=\"ThemeManager.php.html#15\">Drupal\\Core\\Theme\\ThemeManager<\/a>"],[0,7,"<a href=\"ThemeNegotiator.php.html#14\">Drupal\\Core\\Theme\\ThemeNegotiator<\/a>"],[0,3,"<a href=\"ThemeSettings.php.html#16\">Drupal\\Core\\Theme\\ThemeSettings<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,4,"<a href=\"ActiveTheme.php.html#117\">Drupal\\Core\\Theme\\ActiveTheme::__construct<\/a>"],[0,1,"<a href=\"ActiveTheme.php.html#158\">Drupal\\Core\\Theme\\ActiveTheme::getName<\/a>"],[0,1,"<a href=\"ActiveTheme.php.html#167\">Drupal\\Core\\Theme\\ActiveTheme::getPath<\/a>"],[0,1,"<a href=\"ActiveTheme.php.html#176\">Drupal\\Core\\Theme\\ActiveTheme::getEngine<\/a>"],[0,1,"<a href=\"ActiveTheme.php.html#187\">Drupal\\Core\\Theme\\ActiveTheme::getOwner<\/a>"],[0,1,"<a href=\"ActiveTheme.php.html#196\">Drupal\\Core\\Theme\\ActiveTheme::getExtension<\/a>"],[0,1,"<a href=\"ActiveTheme.php.html#205\">Drupal\\Core\\Theme\\ActiveTheme::getLibraries<\/a>"],[0,1,"<a href=\"ActiveTheme.php.html#218\">Drupal\\Core\\Theme\\ActiveTheme::getStyleSheetsRemove<\/a>"],[0,1,"<a href=\"ActiveTheme.php.html#235\">Drupal\\Core\\Theme\\ActiveTheme::getBaseThemes<\/a>"],[0,1,"<a href=\"ActiveTheme.php.html#251\">Drupal\\Core\\Theme\\ActiveTheme::getBaseThemeExtensions<\/a>"],[0,1,"<a href=\"ActiveTheme.php.html#261\">Drupal\\Core\\Theme\\ActiveTheme::getLogo<\/a>"],[0,1,"<a href=\"ActiveTheme.php.html#273\">Drupal\\Core\\Theme\\ActiveTheme::getRegions<\/a>"],[0,1,"<a href=\"ActiveTheme.php.html#283\">Drupal\\Core\\Theme\\ActiveTheme::getLibrariesOverride<\/a>"],[0,1,"<a href=\"ActiveTheme.php.html#293\">Drupal\\Core\\Theme\\ActiveTheme::getLibrariesExtend<\/a>"],[0,1,"<a href=\"AjaxBasePageNegotiator.php.html#58\">Drupal\\Core\\Theme\\AjaxBasePageNegotiator::__construct<\/a>"],[0,2,"<a href=\"AjaxBasePageNegotiator.php.html#67\">Drupal\\Core\\Theme\\AjaxBasePageNegotiator::applies<\/a>"],[0,3,"<a href=\"AjaxBasePageNegotiator.php.html#75\">Drupal\\Core\\Theme\\AjaxBasePageNegotiator::determineActiveTheme<\/a>"],[0,1,"<a href=\"DefaultNegotiator.php.html#26\">Drupal\\Core\\Theme\\DefaultNegotiator::__construct<\/a>"],[0,1,"<a href=\"DefaultNegotiator.php.html#33\">Drupal\\Core\\Theme\\DefaultNegotiator::applies<\/a>"],[0,1,"<a href=\"DefaultNegotiator.php.html#40\">Drupal\\Core\\Theme\\DefaultNegotiator::determineActiveTheme<\/a>"],[0,1,"<a href=\"MissingThemeDependencyException.php.html#27\">Drupal\\Core\\Theme\\MissingThemeDependencyException::__construct<\/a>"],[0,1,"<a href=\"MissingThemeDependencyException.php.html#38\">Drupal\\Core\\Theme\\MissingThemeDependencyException::getMissingThemeName<\/a>"],[0,1,"<a href=\"Registry.php.html#171\">Drupal\\Core\\Theme\\Registry::__construct<\/a>"],[0,1,"<a href=\"Registry.php.html#188\">Drupal\\Core\\Theme\\Registry::setThemeManager<\/a>"],[0,3,"<a href=\"Registry.php.html#201\">Drupal\\Core\\Theme\\Registry::init<\/a>"],[0,4,"<a href=\"Registry.php.html#224\">Drupal\\Core\\Theme\\Registry::get<\/a>"],[0,3,"<a href=\"Registry.php.html#250\">Drupal\\Core\\Theme\\Registry::getRuntime<\/a>"],[0,1,"<a href=\"Registry.php.html#261\">Drupal\\Core\\Theme\\Registry::setCache<\/a>"],[0,5,"<a href=\"Registry.php.html#274\">Drupal\\Core\\Theme\\Registry::getBaseHook<\/a>"],[0,9,"<a href=\"Registry.php.html#323\">Drupal\\Core\\Theme\\Registry::build<\/a>"],[0,36,"<a href=\"Registry.php.html#431\">Drupal\\Core\\Theme\\Registry::processExtension<\/a>"],[0,8,"<a href=\"Registry.php.html#615\">Drupal\\Core\\Theme\\Registry::completeSuggestion<\/a>"],[0,6,"<a href=\"Registry.php.html#655\">Drupal\\Core\\Theme\\Registry::mergePreprocessFunctions<\/a>"],[0,19,"<a href=\"Registry.php.html#683\">Drupal\\Core\\Theme\\Registry::postProcessExtension<\/a>"],[0,2,"<a href=\"Registry.php.html#771\">Drupal\\Core\\Theme\\Registry::reset<\/a>"],[0,2,"<a href=\"Registry.php.html#786\">Drupal\\Core\\Theme\\Registry::destruct<\/a>"],[0,3,"<a href=\"Registry.php.html#800\">Drupal\\Core\\Theme\\Registry::getPrefixGroupedUserFunctions<\/a>"],[0,1,"<a href=\"Registry.php.html#830\">Drupal\\Core\\Theme\\Registry::getPath<\/a>"],[0,1,"<a href=\"ThemeAccessCheck.php.html#27\">Drupal\\Core\\Theme\\ThemeAccessCheck::__construct<\/a>"],[0,1,"<a href=\"ThemeAccessCheck.php.html#40\">Drupal\\Core\\Theme\\ThemeAccessCheck::access<\/a>"],[0,1,"<a href=\"ThemeAccessCheck.php.html#54\">Drupal\\Core\\Theme\\ThemeAccessCheck::checkAccess<\/a>"],[0,1,"<a href=\"ThemeInitialization.php.html#62\">Drupal\\Core\\Theme\\ThemeInitialization::__construct<\/a>"],[0,1,"<a href=\"ThemeInitialization.php.html#72\">Drupal\\Core\\Theme\\ThemeInitialization::initTheme<\/a>"],[0,9,"<a href=\"ThemeInitialization.php.html#82\">Drupal\\Core\\Theme\\ThemeInitialization::getActiveThemeByName<\/a>"],[0,7,"<a href=\"ThemeInitialization.php.html#136\">Drupal\\Core\\Theme\\ThemeInitialization::loadActiveTheme<\/a>"],[0,23,"<a href=\"ThemeInitialization.php.html#170\">Drupal\\Core\\Theme\\ThemeInitialization::getActiveTheme<\/a>"],[0,2,"<a href=\"ThemeInitialization.php.html#279\">Drupal\\Core\\Theme\\ThemeInitialization::getExtensions<\/a>"],[0,3,"<a href=\"ThemeInitialization.php.html#297\">Drupal\\Core\\Theme\\ThemeInitialization::resolveStyleSheetPlaceholders<\/a>"],[0,6,"<a href=\"ThemeInitialization.php.html#325\">Drupal\\Core\\Theme\\ThemeInitialization::prepareStylesheetsRemove<\/a>"],[0,1,"<a href=\"ThemeManager.php.html#71\">Drupal\\Core\\Theme\\ThemeManager::__construct<\/a>"],[0,1,"<a href=\"ThemeManager.php.html#86\">Drupal\\Core\\Theme\\ThemeManager::setThemeRegistry<\/a>"],[0,2,"<a href=\"ThemeManager.php.html#94\">Drupal\\Core\\Theme\\ThemeManager::getActiveTheme<\/a>"],[0,1,"<a href=\"ThemeManager.php.html#104\">Drupal\\Core\\Theme\\ThemeManager::hasActiveTheme<\/a>"],[0,1,"<a href=\"ThemeManager.php.html#111\">Drupal\\Core\\Theme\\ThemeManager::resetActiveTheme<\/a>"],[0,2,"<a href=\"ThemeManager.php.html#119\">Drupal\\Core\\Theme\\ThemeManager::setActiveTheme<\/a>"],[0,50,"<a href=\"ThemeManager.php.html#130\">Drupal\\Core\\Theme\\ThemeManager::render<\/a>"],[0,3,"<a href=\"ThemeManager.php.html#396\">Drupal\\Core\\Theme\\ThemeManager::initTheme<\/a>"],[0,9,"<a href=\"ThemeManager.php.html#414\">Drupal\\Core\\Theme\\ThemeManager::alterForTheme<\/a>"],[0,1,"<a href=\"ThemeManager.php.html#456\">Drupal\\Core\\Theme\\ThemeManager::alter<\/a>"],[0,1,"<a href=\"ThemeNegotiator.php.html#47\">Drupal\\Core\\Theme\\ThemeNegotiator::__construct<\/a>"],[0,1,"<a href=\"ThemeNegotiator.php.html#56\">Drupal\\Core\\Theme\\ThemeNegotiator::applies<\/a>"],[0,5,"<a href=\"ThemeNegotiator.php.html#63\">Drupal\\Core\\Theme\\ThemeNegotiator::determineActiveTheme<\/a>"],[0,1,"<a href=\"ThemeSettings.php.html#31\">Drupal\\Core\\Theme\\ThemeSettings::__construct<\/a>"],[0,1,"<a href=\"ThemeSettings.php.html#41\">Drupal\\Core\\Theme\\ThemeSettings::getTheme<\/a>"],[0,1,"<a href=\"ThemeSettings.php.html#48\">Drupal\\Core\\Theme\\ThemeSettings::getCacheTags<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

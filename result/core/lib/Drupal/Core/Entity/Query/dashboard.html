@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/crafter/www/drupal-modules.devel/web/core/lib/Drupal/Core/Entity/Query</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../../../index.html">/home/crafter/www/drupal-modules.devel/web</a></li>
+         <li class="breadcrumb-item"><a href="../../../../../index.html">core</a></li>
+         <li class="breadcrumb-item"><a href="../../../../index.html">lib</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">Drupal</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Core</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Entity</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Query</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ConditionAggregateBase.php.html#8">Drupal\Core\Entity\Query\ConditionAggregateBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConditionBase.php.html#8">Drupal\Core\Entity\Query\ConditionBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConditionFundamentals.php.html#8">Drupal\Core\Entity\Query\ConditionFundamentals</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Null/Condition.php.html#10">Drupal\Core\Entity\Query\Null\Condition</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Null/Query.php.html#13">Drupal\Core\Entity\Query\Null\Query</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Null/QueryFactory.php.html#12">Drupal\Core\Entity\Query\Null\QueryFactory</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#12">Drupal\Core\Entity\Query\QueryBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryFactory.php.html#25">Drupal\Core\Entity\Query\QueryFactory</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Condition.php.html#13">Drupal\Core\Entity\Query\Sql\Condition</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/ConditionAggregate.php.html#14">Drupal\Core\Entity\Query\Sql\ConditionAggregate</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Query.php.html#15">Drupal\Core\Entity\Query\Sql\Query</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/QueryAggregate.php.html#10">Drupal\Core\Entity\Query\Sql\QueryAggregate</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/QueryFactory.php.html#16">Drupal\Core\Entity\Query\Sql\QueryFactory</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Tables.php.html#18">Drupal\Core\Entity\Query\Sql\Tables</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/pgsql/Condition.php.html#11">Drupal\Core\Entity\Query\Sql\pgsql\Condition</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Sql/Tables.php.html#18">Drupal\Core\Entity\Query\Sql\Tables</a></td><td class="text-right">3782</td></tr>
+       <tr><td><a href="QueryBase.php.html#12">Drupal\Core\Entity\Query\QueryBase</a></td><td class="text-right">2550</td></tr>
+       <tr><td><a href="Sql/Query.php.html#15">Drupal\Core\Entity\Query\Sql\Query</a></td><td class="text-right">1892</td></tr>
+       <tr><td><a href="Sql/Condition.php.html#13">Drupal\Core\Entity\Query\Sql\Condition</a></td><td class="text-right">650</td></tr>
+       <tr><td><a href="Sql/QueryAggregate.php.html#10">Drupal\Core\Entity\Query\Sql\QueryAggregate</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="Sql/ConditionAggregate.php.html#14">Drupal\Core\Entity\Query\Sql\ConditionAggregate</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="ConditionFundamentals.php.html#8">Drupal\Core\Entity\Query\ConditionFundamentals</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Null/Query.php.html#13">Drupal\Core\Entity\Query\Null\Query</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Sql/pgsql/Condition.php.html#11">Drupal\Core\Entity\Query\Sql\pgsql\Condition</a></td><td class="text-right">20</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ConditionAggregateBase.php.html#13"><abbr title="Drupal\Core\Entity\Query\ConditionAggregateBase::condition">condition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Query.php.html#77"><abbr title="Drupal\Core\Entity\Query\Sql\Query::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Query.php.html#309"><abbr title="Drupal\Core\Entity\Query\Sql\Query::__clone">__clone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Query.php.html#300"><abbr title="Drupal\Core\Entity\Query\Sql\Query::isSimpleQuery">isSimpleQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Query.php.html#282"><abbr title="Drupal\Core\Entity\Query\Sql\Query::getSqlField">getSqlField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Query.php.html#260"><abbr title="Drupal\Core\Entity\Query\Sql\Query::result">result</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Query.php.html#240"><abbr title="Drupal\Core\Entity\Query\Sql\Query::finish">finish</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Query.php.html#182"><abbr title="Drupal\Core\Entity\Query\Sql\Query::addSort">addSort</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Query.php.html#171"><abbr title="Drupal\Core\Entity\Query\Sql\Query::compile">compile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Query.php.html#95"><abbr title="Drupal\Core\Entity\Query\Sql\Query::prepare">prepare</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Query.php.html#69"><abbr title="Drupal\Core\Entity\Query\Sql\Query::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/QueryAggregate.php.html#23"><abbr title="Drupal\Core\Entity\Query\Sql\QueryAggregate::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/ConditionAggregate.php.html#57"><abbr title="Drupal\Core\Entity\Query\Sql\ConditionAggregate::notExists">notExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/ConditionAggregate.php.html#50"><abbr title="Drupal\Core\Entity\Query\Sql\ConditionAggregate::exists">exists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/ConditionAggregate.php.html#19"><abbr title="Drupal\Core\Entity\Query\Sql\ConditionAggregate::compile">compile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Condition.php.html#94"><abbr title="Drupal\Core\Entity\Query\Sql\Condition::translateCondition">translateCondition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Condition.php.html#77"><abbr title="Drupal\Core\Entity\Query\Sql\Condition::notExists">notExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Condition.php.html#70"><abbr title="Drupal\Core\Entity\Query\Sql\Condition::exists">exists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Condition.php.html#32"><abbr title="Drupal\Core\Entity\Query\Sql\Condition::compile">compile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryFactory.php.html#80"><abbr title="Drupal\Core\Entity\Query\QueryFactory::getAggregate">getAggregate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryFactory.php.html#64"><abbr title="Drupal\Core\Entity\Query\QueryFactory::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Query.php.html#324"><abbr title="Drupal\Core\Entity\Query\Sql\Query::getTables">getTables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/QueryAggregate.php.html#39"><abbr title="Drupal\Core\Entity\Query\Sql\QueryAggregate::prepare">prepare</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#496"><abbr title="Drupal\Core\Entity\Query\QueryBase::getClass">getClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/QueryFactory.php.html#46"><abbr title="Drupal\Core\Entity\Query\Sql\QueryFactory::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Tables.php.html#474"><abbr title="Drupal\Core\Entity\Query\Sql\Tables::addNextBaseTable">addNextBaseTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Tables.php.html#441"><abbr title="Drupal\Core\Entity\Query\Sql\Tables::getTableMapping">getTableMapping</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Tables.php.html#410"><abbr title="Drupal\Core\Entity\Query\Sql\Tables::addJoin">addJoin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Tables.php.html#378"><abbr title="Drupal\Core\Entity\Query\Sql\Tables::ensureFieldTable">ensureFieldTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Tables.php.html#352"><abbr title="Drupal\Core\Entity\Query\Sql\Tables::ensureEntityTable">ensureEntityTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Tables.php.html#315"><abbr title="Drupal\Core\Entity\Query\Sql\Tables::isFieldCaseSensitive">isFieldCaseSensitive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Tables.php.html#87"><abbr title="Drupal\Core\Entity\Query\Sql\Tables::addField">addField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/Tables.php.html#78"><abbr title="Drupal\Core\Entity\Query\Sql\Tables::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/QueryFactory.php.html#54"><abbr title="Drupal\Core\Entity\Query\Sql\QueryFactory::getAggregate">getAggregate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/QueryFactory.php.html#38"><abbr title="Drupal\Core\Entity\Query\Sql\QueryFactory::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/QueryAggregate.php.html#49"><abbr title="Drupal\Core\Entity\Query\Sql\QueryAggregate::conditionAggregateGroupFactory">conditionAggregateGroupFactory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/QueryAggregate.php.html#167"><abbr title="Drupal\Core\Entity\Query\Sql\QueryAggregate::result">result</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/QueryAggregate.php.html#152"><abbr title="Drupal\Core\Entity\Query\Sql\QueryAggregate::createSqlAlias">createSqlAlias</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/QueryAggregate.php.html#133"><abbr title="Drupal\Core\Entity\Query\Sql\QueryAggregate::finish">finish</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/QueryAggregate.php.html#119"><abbr title="Drupal\Core\Entity\Query\Sql\QueryAggregate::addSortAggregate">addSortAggregate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/QueryAggregate.php.html#101"><abbr title="Drupal\Core\Entity\Query\Sql\QueryAggregate::addGroupBy">addGroupBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/QueryAggregate.php.html#90"><abbr title="Drupal\Core\Entity\Query\Sql\QueryAggregate::compileAggregate">compileAggregate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/QueryAggregate.php.html#74"><abbr title="Drupal\Core\Entity\Query\Sql\QueryAggregate::addAggregate">addAggregate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/QueryAggregate.php.html#64"><abbr title="Drupal\Core\Entity\Query\Sql\QueryAggregate::notExistsAggregate">notExistsAggregate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/QueryAggregate.php.html#57"><abbr title="Drupal\Core\Entity\Query\Sql\QueryAggregate::existsAggregate">existsAggregate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryFactory.php.html#48"><abbr title="Drupal\Core\Entity\Query\QueryFactory::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#477"><abbr title="Drupal\Core\Entity\Query\QueryBase::getNamespaces">getNamespaces</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConditionBase.php.html#13"><abbr title="Drupal\Core\Entity\Query\ConditionBase::condition">condition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Null/Query.php.html#35"><abbr title="Drupal\Core\Entity\Query\Null\Query::notExistsAggregate">notExistsAggregate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#183"><abbr title="Drupal\Core\Entity\Query\QueryBase::notExists">notExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#175"><abbr title="Drupal\Core\Entity\Query\QueryBase::exists">exists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#167"><abbr title="Drupal\Core\Entity\Query\QueryBase::condition">condition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#160"><abbr title="Drupal\Core\Entity\Query\QueryBase::getEntityTypeId">getEntityTypeId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#146"><abbr title="Drupal\Core\Entity\Query\QueryBase::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Null/QueryFactory.php.html#38"><abbr title="Drupal\Core\Entity\Query\Null\QueryFactory::getAggregate">getAggregate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Null/QueryFactory.php.html#31"><abbr title="Drupal\Core\Entity\Query\Null\QueryFactory::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Null/QueryFactory.php.html#24"><abbr title="Drupal\Core\Entity\Query\Null\QueryFactory::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Null/Query.php.html#42"><abbr title="Drupal\Core\Entity\Query\Null\Query::conditionAggregateGroupFactory">conditionAggregateGroupFactory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Null/Query.php.html#28"><abbr title="Drupal\Core\Entity\Query\Null\Query::existsAggregate">existsAggregate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#211"><abbr title="Drupal\Core\Entity\Query\QueryBase::conditionGroupFactory">conditionGroupFactory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Null/Query.php.html#18"><abbr title="Drupal\Core\Entity\Query\Null\Query::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Null/Condition.php.html#28"><abbr title="Drupal\Core\Entity\Query\Null\Condition::notExists">notExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Null/Condition.php.html#21"><abbr title="Drupal\Core\Entity\Query\Null\Condition::exists">exists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Null/Condition.php.html#15"><abbr title="Drupal\Core\Entity\Query\Null\Condition::compile">compile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConditionFundamentals.php.html#83"><abbr title="Drupal\Core\Entity\Query\ConditionFundamentals::__clone">__clone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConditionFundamentals.php.html#74"><abbr title="Drupal\Core\Entity\Query\ConditionFundamentals::conditions">conditions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConditionFundamentals.php.html#67"><abbr title="Drupal\Core\Entity\Query\ConditionFundamentals::count">count</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConditionFundamentals.php.html#60"><abbr title="Drupal\Core\Entity\Query\ConditionFundamentals::getConjunction">getConjunction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConditionFundamentals.php.html#51"><abbr title="Drupal\Core\Entity\Query\ConditionFundamentals::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#191"><abbr title="Drupal\Core\Entity\Query\QueryBase::range">range</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#219"><abbr title="Drupal\Core\Entity\Query\QueryBase::andConditionGroup">andConditionGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#463"><abbr title="Drupal\Core\Entity\Query\QueryBase::getAggregationAlias">getAggregationAlias</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#354"><abbr title="Drupal\Core\Entity\Query\QueryBase::addTag">addTag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#443"><abbr title="Drupal\Core\Entity\Query\QueryBase::groupBy">groupBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#426"><abbr title="Drupal\Core\Entity\Query\QueryBase::sortAggregate">sortAggregate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#416"><abbr title="Drupal\Core\Entity\Query\QueryBase::conditionAggregate">conditionAggregate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#398"><abbr title="Drupal\Core\Entity\Query\QueryBase::aggregate">aggregate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#391"><abbr title="Drupal\Core\Entity\Query\QueryBase::getMetaData">getMetaData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#383"><abbr title="Drupal\Core\Entity\Query\QueryBase::addMetaData">addMetaData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#376"><abbr title="Drupal\Core\Entity\Query\QueryBase::hasAnyTag">hasAnyTag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#369"><abbr title="Drupal\Core\Entity\Query\QueryBase::hasAllTags">hasAllTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#362"><abbr title="Drupal\Core\Entity\Query\QueryBase::hasTag">hasTag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#347"><abbr title="Drupal\Core\Entity\Query\QueryBase::__clone">__clone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#226"><abbr title="Drupal\Core\Entity\Query\QueryBase::orConditionGroup">orConditionGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#325"><abbr title="Drupal\Core\Entity\Query\QueryBase::tableSort">tableSort</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#311"><abbr title="Drupal\Core\Entity\Query\QueryBase::initializePager">initializePager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#288"><abbr title="Drupal\Core\Entity\Query\QueryBase::pager">pager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#279"><abbr title="Drupal\Core\Entity\Query\QueryBase::allRevisions">allRevisions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#270"><abbr title="Drupal\Core\Entity\Query\QueryBase::latestRevision">latestRevision</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#261"><abbr title="Drupal\Core\Entity\Query\QueryBase::currentRevision">currentRevision</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#253"><abbr title="Drupal\Core\Entity\Query\QueryBase::accessCheck">accessCheck</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#245"><abbr title="Drupal\Core\Entity\Query\QueryBase::count">count</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryBase.php.html#233"><abbr title="Drupal\Core\Entity\Query\QueryBase::sort">sort</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Sql/pgsql/Condition.php.html#16"><abbr title="Drupal\Core\Entity\Query\Sql\pgsql\Condition::translateCondition">translateCondition</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Sql/Tables.php.html#87"><abbr title="Drupal\Core\Entity\Query\Sql\Tables::addField">addField</abbr></a></td><td class="text-right">1806</td></tr>
+       <tr><td><a href="Sql/Query.php.html#95"><abbr title="Drupal\Core\Entity\Query\Sql\Query::prepare">prepare</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Sql/Condition.php.html#94"><abbr title="Drupal\Core\Entity\Query\Sql\Condition::translateCondition">translateCondition</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Sql/Query.php.html#182"><abbr title="Drupal\Core\Entity\Query\Sql\Query::addSort">addSort</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Sql/Condition.php.html#32"><abbr title="Drupal\Core\Entity\Query\Sql\Condition::compile">compile</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="QueryBase.php.html#325"><abbr title="Drupal\Core\Entity\Query\QueryBase::tableSort">tableSort</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Sql/ConditionAggregate.php.html#19"><abbr title="Drupal\Core\Entity\Query\Sql\ConditionAggregate::compile">compile</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Sql/Query.php.html#240"><abbr title="Drupal\Core\Entity\Query\Sql\Query::finish">finish</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Sql/Tables.php.html#352"><abbr title="Drupal\Core\Entity\Query\Sql\Tables::ensureEntityTable">ensureEntityTable</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Sql/pgsql/Condition.php.html#16"><abbr title="Drupal\Core\Entity\Query\Sql\pgsql\Condition::translateCondition">translateCondition</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Sql/QueryAggregate.php.html#152"><abbr title="Drupal\Core\Entity\Query\Sql\QueryAggregate::createSqlAlias">createSqlAlias</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Sql/Query.php.html#300"><abbr title="Drupal\Core\Entity\Query\Sql\Query::isSimpleQuery">isSimpleQuery</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="QueryBase.php.html#311"><abbr title="Drupal\Core\Entity\Query\QueryBase::initializePager">initializePager</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Sql/Tables.php.html#378"><abbr title="Drupal\Core\Entity\Query\Sql\Tables::ensureFieldTable">ensureFieldTable</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Sql/Tables.php.html#410"><abbr title="Drupal\Core\Entity\Query\Sql\Tables::addJoin">addJoin</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Sql/QueryAggregate.php.html#167"><abbr title="Drupal\Core\Entity\Query\Sql\QueryAggregate::result">result</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Sql/QueryAggregate.php.html#119"><abbr title="Drupal\Core\Entity\Query\Sql\QueryAggregate::addSortAggregate">addSortAggregate</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Sql/QueryAggregate.php.html#74"><abbr title="Drupal\Core\Entity\Query\Sql\QueryAggregate::addAggregate">addAggregate</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ConditionFundamentals.php.html#83"><abbr title="Drupal\Core\Entity\Query\ConditionFundamentals::__clone">__clone</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Sql/Query.php.html#282"><abbr title="Drupal\Core\Entity\Query\Sql\Query::getSqlField">getSqlField</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="QueryBase.php.html#496"><abbr title="Drupal\Core\Entity\Query\QueryBase::getClass">getClass</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="QueryBase.php.html#288"><abbr title="Drupal\Core\Entity\Query\QueryBase::pager">pager</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Sql/QueryAggregate.php.html#101"><abbr title="Drupal\Core\Entity\Query\Sql\QueryAggregate::addGroupBy">addGroupBy</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Null/Query.php.html#18"><abbr title="Drupal\Core\Entity\Query\Null\Query::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Sql/QueryAggregate.php.html#133"><abbr title="Drupal\Core\Entity\Query\Sql\QueryAggregate::finish">finish</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="QueryBase.php.html#477"><abbr title="Drupal\Core\Entity\Query\QueryBase::getNamespaces">getNamespaces</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="QueryBase.php.html#398"><abbr title="Drupal\Core\Entity\Query\QueryBase::aggregate">aggregate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Sql/Tables.php.html#315"><abbr title="Drupal\Core\Entity\Query\Sql\Tables::isFieldCaseSensitive">isFieldCaseSensitive</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="QueryBase.php.html#391"><abbr title="Drupal\Core\Entity\Query\QueryBase::getMetaData">getMetaData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="QueryBase.php.html#146"><abbr title="Drupal\Core\Entity\Query\QueryBase::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Sql/Tables.php.html#441"><abbr title="Drupal\Core\Entity\Query\Sql\Tables::getTableMapping">getTableMapping</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Sql/Query.php.html#260"><abbr title="Drupal\Core\Entity\Query\Sql\Query::result">result</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.33-16+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Fri Jun 12 8:21:00 AEST 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([15,0,0,0,0,0,0,0,0,0,0,2], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([94,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"ConditionAggregateBase.php.html#8\">Drupal\\Core\\Entity\\Query\\ConditionAggregateBase<\/a>"],[0,1,"<a href=\"ConditionBase.php.html#8\">Drupal\\Core\\Entity\\Query\\ConditionBase<\/a>"],[0,7,"<a href=\"ConditionFundamentals.php.html#8\">Drupal\\Core\\Entity\\Query\\ConditionFundamentals<\/a>"],[0,3,"<a href=\"Null\/Condition.php.html#10\">Drupal\\Core\\Entity\\Query\\Null\\Condition<\/a>"],[0,5,"<a href=\"Null\/Query.php.html#13\">Drupal\\Core\\Entity\\Query\\Null\\Query<\/a>"],[0,3,"<a href=\"Null\/QueryFactory.php.html#12\">Drupal\\Core\\Entity\\Query\\Null\\QueryFactory<\/a>"],[0,50,"<a href=\"QueryBase.php.html#12\">Drupal\\Core\\Entity\\Query\\QueryBase<\/a>"],[100,0,"<a href=\"QueryException.php.html#12\">Drupal\\Core\\Entity\\Query\\QueryException<\/a>"],[0,3,"<a href=\"QueryFactory.php.html#25\">Drupal\\Core\\Entity\\Query\\QueryFactory<\/a>"],[0,25,"<a href=\"Sql\/Condition.php.html#13\">Drupal\\Core\\Entity\\Query\\Sql\\Condition<\/a>"],[0,8,"<a href=\"Sql\/ConditionAggregate.php.html#14\">Drupal\\Core\\Entity\\Query\\Sql\\ConditionAggregate<\/a>"],[0,43,"<a href=\"Sql\/Query.php.html#15\">Drupal\\Core\\Entity\\Query\\Sql\\Query<\/a>"],[0,23,"<a href=\"Sql\/QueryAggregate.php.html#10\">Drupal\\Core\\Entity\\Query\\Sql\\QueryAggregate<\/a>"],[0,3,"<a href=\"Sql\/QueryFactory.php.html#16\">Drupal\\Core\\Entity\\Query\\Sql\\QueryFactory<\/a>"],[0,61,"<a href=\"Sql\/Tables.php.html#18\">Drupal\\Core\\Entity\\Query\\Sql\\Tables<\/a>"],[0,4,"<a href=\"Sql\/pgsql\/Condition.php.html#11\">Drupal\\Core\\Entity\\Query\\Sql\\pgsql\\Condition<\/a>"],[100,0,"<a href=\"Sql\/pgsql\/QueryFactory.php.html#22\">Drupal\\Core\\Entity\\Query\\Sql\\pgsql\\QueryFactory<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"ConditionAggregateBase.php.html#13\">Drupal\\Core\\Entity\\Query\\ConditionAggregateBase::condition<\/a>"],[0,1,"<a href=\"ConditionBase.php.html#13\">Drupal\\Core\\Entity\\Query\\ConditionBase::condition<\/a>"],[0,1,"<a href=\"ConditionFundamentals.php.html#51\">Drupal\\Core\\Entity\\Query\\ConditionFundamentals::__construct<\/a>"],[0,1,"<a href=\"ConditionFundamentals.php.html#60\">Drupal\\Core\\Entity\\Query\\ConditionFundamentals::getConjunction<\/a>"],[0,1,"<a href=\"ConditionFundamentals.php.html#67\">Drupal\\Core\\Entity\\Query\\ConditionFundamentals::count<\/a>"],[0,1,"<a href=\"ConditionFundamentals.php.html#74\">Drupal\\Core\\Entity\\Query\\ConditionFundamentals::conditions<\/a>"],[0,3,"<a href=\"ConditionFundamentals.php.html#83\">Drupal\\Core\\Entity\\Query\\ConditionFundamentals::__clone<\/a>"],[0,1,"<a href=\"Null\/Condition.php.html#15\">Drupal\\Core\\Entity\\Query\\Null\\Condition::compile<\/a>"],[0,1,"<a href=\"Null\/Condition.php.html#21\">Drupal\\Core\\Entity\\Query\\Null\\Condition::exists<\/a>"],[0,1,"<a href=\"Null\/Condition.php.html#28\">Drupal\\Core\\Entity\\Query\\Null\\Condition::notExists<\/a>"],[0,2,"<a href=\"Null\/Query.php.html#18\">Drupal\\Core\\Entity\\Query\\Null\\Query::execute<\/a>"],[0,1,"<a href=\"Null\/Query.php.html#28\">Drupal\\Core\\Entity\\Query\\Null\\Query::existsAggregate<\/a>"],[0,1,"<a href=\"Null\/Query.php.html#35\">Drupal\\Core\\Entity\\Query\\Null\\Query::notExistsAggregate<\/a>"],[0,1,"<a href=\"Null\/Query.php.html#42\">Drupal\\Core\\Entity\\Query\\Null\\Query::conditionAggregateGroupFactory<\/a>"],[0,1,"<a href=\"Null\/QueryFactory.php.html#24\">Drupal\\Core\\Entity\\Query\\Null\\QueryFactory::__construct<\/a>"],[0,1,"<a href=\"Null\/QueryFactory.php.html#31\">Drupal\\Core\\Entity\\Query\\Null\\QueryFactory::get<\/a>"],[0,1,"<a href=\"Null\/QueryFactory.php.html#38\">Drupal\\Core\\Entity\\Query\\Null\\QueryFactory::getAggregate<\/a>"],[0,2,"<a href=\"QueryBase.php.html#146\">Drupal\\Core\\Entity\\Query\\QueryBase::__construct<\/a>"],[0,1,"<a href=\"QueryBase.php.html#160\">Drupal\\Core\\Entity\\Query\\QueryBase::getEntityTypeId<\/a>"],[0,1,"<a href=\"QueryBase.php.html#167\">Drupal\\Core\\Entity\\Query\\QueryBase::condition<\/a>"],[0,1,"<a href=\"QueryBase.php.html#175\">Drupal\\Core\\Entity\\Query\\QueryBase::exists<\/a>"],[0,1,"<a href=\"QueryBase.php.html#183\">Drupal\\Core\\Entity\\Query\\QueryBase::notExists<\/a>"],[0,1,"<a href=\"QueryBase.php.html#191\">Drupal\\Core\\Entity\\Query\\QueryBase::range<\/a>"],[0,1,"<a href=\"QueryBase.php.html#211\">Drupal\\Core\\Entity\\Query\\QueryBase::conditionGroupFactory<\/a>"],[0,1,"<a href=\"QueryBase.php.html#219\">Drupal\\Core\\Entity\\Query\\QueryBase::andConditionGroup<\/a>"],[0,1,"<a href=\"QueryBase.php.html#226\">Drupal\\Core\\Entity\\Query\\QueryBase::orConditionGroup<\/a>"],[0,1,"<a href=\"QueryBase.php.html#233\">Drupal\\Core\\Entity\\Query\\QueryBase::sort<\/a>"],[0,1,"<a href=\"QueryBase.php.html#245\">Drupal\\Core\\Entity\\Query\\QueryBase::count<\/a>"],[0,1,"<a href=\"QueryBase.php.html#253\">Drupal\\Core\\Entity\\Query\\QueryBase::accessCheck<\/a>"],[0,1,"<a href=\"QueryBase.php.html#261\">Drupal\\Core\\Entity\\Query\\QueryBase::currentRevision<\/a>"],[0,1,"<a href=\"QueryBase.php.html#270\">Drupal\\Core\\Entity\\Query\\QueryBase::latestRevision<\/a>"],[0,1,"<a href=\"QueryBase.php.html#279\">Drupal\\Core\\Entity\\Query\\QueryBase::allRevisions<\/a>"],[0,3,"<a href=\"QueryBase.php.html#288\">Drupal\\Core\\Entity\\Query\\QueryBase::pager<\/a>"],[0,4,"<a href=\"QueryBase.php.html#311\">Drupal\\Core\\Entity\\Query\\QueryBase::initializePager<\/a>"],[0,8,"<a href=\"QueryBase.php.html#325\">Drupal\\Core\\Entity\\Query\\QueryBase::tableSort<\/a>"],[0,1,"<a href=\"QueryBase.php.html#347\">Drupal\\Core\\Entity\\Query\\QueryBase::__clone<\/a>"],[0,1,"<a href=\"QueryBase.php.html#354\">Drupal\\Core\\Entity\\Query\\QueryBase::addTag<\/a>"],[0,1,"<a href=\"QueryBase.php.html#362\">Drupal\\Core\\Entity\\Query\\QueryBase::hasTag<\/a>"],[0,1,"<a href=\"QueryBase.php.html#369\">Drupal\\Core\\Entity\\Query\\QueryBase::hasAllTags<\/a>"],[0,1,"<a href=\"QueryBase.php.html#376\">Drupal\\Core\\Entity\\Query\\QueryBase::hasAnyTag<\/a>"],[0,1,"<a href=\"QueryBase.php.html#383\">Drupal\\Core\\Entity\\Query\\QueryBase::addMetaData<\/a>"],[0,2,"<a href=\"QueryBase.php.html#391\">Drupal\\Core\\Entity\\Query\\QueryBase::getMetaData<\/a>"],[0,2,"<a href=\"QueryBase.php.html#398\">Drupal\\Core\\Entity\\Query\\QueryBase::aggregate<\/a>"],[0,1,"<a href=\"QueryBase.php.html#416\">Drupal\\Core\\Entity\\Query\\QueryBase::conditionAggregate<\/a>"],[0,1,"<a href=\"QueryBase.php.html#426\">Drupal\\Core\\Entity\\Query\\QueryBase::sortAggregate<\/a>"],[0,1,"<a href=\"QueryBase.php.html#443\">Drupal\\Core\\Entity\\Query\\QueryBase::groupBy<\/a>"],[0,1,"<a href=\"QueryBase.php.html#463\">Drupal\\Core\\Entity\\Query\\QueryBase::getAggregationAlias<\/a>"],[0,2,"<a href=\"QueryBase.php.html#477\">Drupal\\Core\\Entity\\Query\\QueryBase::getNamespaces<\/a>"],[0,3,"<a href=\"QueryBase.php.html#496\">Drupal\\Core\\Entity\\Query\\QueryBase::getClass<\/a>"],[0,1,"<a href=\"QueryFactory.php.html#48\">Drupal\\Core\\Entity\\Query\\QueryFactory::__construct<\/a>"],[0,1,"<a href=\"QueryFactory.php.html#64\">Drupal\\Core\\Entity\\Query\\QueryFactory::get<\/a>"],[0,1,"<a href=\"QueryFactory.php.html#80\">Drupal\\Core\\Entity\\Query\\QueryFactory::getAggregate<\/a>"],[0,10,"<a href=\"Sql\/Condition.php.html#32\">Drupal\\Core\\Entity\\Query\\Sql\\Condition::compile<\/a>"],[0,1,"<a href=\"Sql\/Condition.php.html#70\">Drupal\\Core\\Entity\\Query\\Sql\\Condition::exists<\/a>"],[0,1,"<a href=\"Sql\/Condition.php.html#77\">Drupal\\Core\\Entity\\Query\\Sql\\Condition::notExists<\/a>"],[0,13,"<a href=\"Sql\/Condition.php.html#94\">Drupal\\Core\\Entity\\Query\\Sql\\Condition::translateCondition<\/a>"],[0,6,"<a href=\"Sql\/ConditionAggregate.php.html#19\">Drupal\\Core\\Entity\\Query\\Sql\\ConditionAggregate::compile<\/a>"],[0,1,"<a href=\"Sql\/ConditionAggregate.php.html#50\">Drupal\\Core\\Entity\\Query\\Sql\\ConditionAggregate::exists<\/a>"],[0,1,"<a href=\"Sql\/ConditionAggregate.php.html#57\">Drupal\\Core\\Entity\\Query\\Sql\\ConditionAggregate::notExists<\/a>"],[0,1,"<a href=\"Sql\/Query.php.html#69\">Drupal\\Core\\Entity\\Query\\Sql\\Query::__construct<\/a>"],[0,1,"<a href=\"Sql\/Query.php.html#77\">Drupal\\Core\\Entity\\Query\\Sql\\Query::execute<\/a>"],[0,13,"<a href=\"Sql\/Query.php.html#95\">Drupal\\Core\\Entity\\Query\\Sql\\Query::prepare<\/a>"],[0,1,"<a href=\"Sql\/Query.php.html#171\">Drupal\\Core\\Entity\\Query\\Sql\\Query::compile<\/a>"],[0,11,"<a href=\"Sql\/Query.php.html#182\">Drupal\\Core\\Entity\\Query\\Sql\\Query::addSort<\/a>"],[0,5,"<a href=\"Sql\/Query.php.html#240\">Drupal\\Core\\Entity\\Query\\Sql\\Query::finish<\/a>"],[0,2,"<a href=\"Sql\/Query.php.html#260\">Drupal\\Core\\Entity\\Query\\Sql\\Query::result<\/a>"],[0,3,"<a href=\"Sql\/Query.php.html#282\">Drupal\\Core\\Entity\\Query\\Sql\\Query::getSqlField<\/a>"],[0,4,"<a href=\"Sql\/Query.php.html#300\">Drupal\\Core\\Entity\\Query\\Sql\\Query::isSimpleQuery<\/a>"],[0,1,"<a href=\"Sql\/Query.php.html#309\">Drupal\\Core\\Entity\\Query\\Sql\\Query::__clone<\/a>"],[0,1,"<a href=\"Sql\/Query.php.html#324\">Drupal\\Core\\Entity\\Query\\Sql\\Query::getTables<\/a>"],[0,1,"<a href=\"Sql\/QueryAggregate.php.html#23\">Drupal\\Core\\Entity\\Query\\Sql\\QueryAggregate::execute<\/a>"],[0,1,"<a href=\"Sql\/QueryAggregate.php.html#39\">Drupal\\Core\\Entity\\Query\\Sql\\QueryAggregate::prepare<\/a>"],[0,1,"<a href=\"Sql\/QueryAggregate.php.html#49\">Drupal\\Core\\Entity\\Query\\Sql\\QueryAggregate::conditionAggregateGroupFactory<\/a>"],[0,1,"<a href=\"Sql\/QueryAggregate.php.html#57\">Drupal\\Core\\Entity\\Query\\Sql\\QueryAggregate::existsAggregate<\/a>"],[0,1,"<a href=\"Sql\/QueryAggregate.php.html#64\">Drupal\\Core\\Entity\\Query\\Sql\\QueryAggregate::notExistsAggregate<\/a>"],[0,3,"<a href=\"Sql\/QueryAggregate.php.html#74\">Drupal\\Core\\Entity\\Query\\Sql\\QueryAggregate::addAggregate<\/a>"],[0,1,"<a href=\"Sql\/QueryAggregate.php.html#90\">Drupal\\Core\\Entity\\Query\\Sql\\QueryAggregate::compileAggregate<\/a>"],[0,2,"<a href=\"Sql\/QueryAggregate.php.html#101\">Drupal\\Core\\Entity\\Query\\Sql\\QueryAggregate::addGroupBy<\/a>"],[0,3,"<a href=\"Sql\/QueryAggregate.php.html#119\">Drupal\\Core\\Entity\\Query\\Sql\\QueryAggregate::addSortAggregate<\/a>"],[0,2,"<a href=\"Sql\/QueryAggregate.php.html#133\">Drupal\\Core\\Entity\\Query\\Sql\\QueryAggregate::finish<\/a>"],[0,4,"<a href=\"Sql\/QueryAggregate.php.html#152\">Drupal\\Core\\Entity\\Query\\Sql\\QueryAggregate::createSqlAlias<\/a>"],[0,3,"<a href=\"Sql\/QueryAggregate.php.html#167\">Drupal\\Core\\Entity\\Query\\Sql\\QueryAggregate::result<\/a>"],[0,1,"<a href=\"Sql\/QueryFactory.php.html#38\">Drupal\\Core\\Entity\\Query\\Sql\\QueryFactory::__construct<\/a>"],[0,1,"<a href=\"Sql\/QueryFactory.php.html#46\">Drupal\\Core\\Entity\\Query\\Sql\\QueryFactory::get<\/a>"],[0,1,"<a href=\"Sql\/QueryFactory.php.html#54\">Drupal\\Core\\Entity\\Query\\Sql\\QueryFactory::getAggregate<\/a>"],[0,1,"<a href=\"Sql\/Tables.php.html#78\">Drupal\\Core\\Entity\\Query\\Sql\\Tables::__construct<\/a>"],[0,42,"<a href=\"Sql\/Tables.php.html#87\">Drupal\\Core\\Entity\\Query\\Sql\\Tables::addField<\/a>"],[0,2,"<a href=\"Sql\/Tables.php.html#315\">Drupal\\Core\\Entity\\Query\\Sql\\Tables::isFieldCaseSensitive<\/a>"],[0,5,"<a href=\"Sql\/Tables.php.html#352\">Drupal\\Core\\Entity\\Query\\Sql\\Tables::ensureEntityTable<\/a>"],[0,4,"<a href=\"Sql\/Tables.php.html#378\">Drupal\\Core\\Entity\\Query\\Sql\\Tables::ensureFieldTable<\/a>"],[0,4,"<a href=\"Sql\/Tables.php.html#410\">Drupal\\Core\\Entity\\Query\\Sql\\Tables::addJoin<\/a>"],[0,2,"<a href=\"Sql\/Tables.php.html#441\">Drupal\\Core\\Entity\\Query\\Sql\\Tables::getTableMapping<\/a>"],[0,1,"<a href=\"Sql\/Tables.php.html#474\">Drupal\\Core\\Entity\\Query\\Sql\\Tables::addNextBaseTable<\/a>"],[0,4,"<a href=\"Sql\/pgsql\/Condition.php.html#16\">Drupal\\Core\\Entity\\Query\\Sql\\pgsql\\Condition::translateCondition<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/crafter/www/drupal-modules.devel/web/core/modules/editor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/home/crafter/www/drupal-modules.devel/web</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">core</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">modules</a></li>
+         <li class="breadcrumb-item"><a href="index.html">editor</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Ajax/EditorDialogSave.php.html#13">Drupal\editor\Ajax\EditorDialogSave</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Ajax/GetUntransformedTextCommand.php.html#11">Drupal\editor\Ajax\GetUntransformedTextCommand</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EditorAccessControlHandler.php.html#14">Drupal\editor\EditorAccessControlHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EditorController.php.html#18">Drupal\editor\EditorController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EditorXssFilter/Standard.php.html#13">Drupal\editor\EditorXssFilter\Standard</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Element.php.html#14">Drupal\editor\Element</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Editor.php.html#35">Drupal\editor\Entity\Editor</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/EditorConfigTranslationSubscriber.php.html#14">Drupal\editor\EventSubscriber\EditorConfigTranslationSubscriber</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/EditorImageDialog.php.html#22">Drupal\editor\Form\EditorImageDialog</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/EditorLinkDialog.php.html#18">Drupal\editor\Form\EditorLinkDialog</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EditorBase.php.html#23">Drupal\editor\Plugin\EditorBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EditorManager.php.html#17">Drupal\editor\Plugin\EditorManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/EditorFileReference.php.html#26">Drupal\editor\Plugin\Filter\EditorFileReference</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/InPlaceEditor/Editor.php.html#18">Drupal\editor\Plugin\InPlaceEditor\Editor</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Form/EditorImageDialog.php.html#22">Drupal\editor\Form\EditorImageDialog</a></td><td class="text-right">650</td></tr>
+       <tr><td><a href="src/Entity/Editor.php.html#35">Drupal\editor\Entity\Editor</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="src/EditorXssFilter/Standard.php.html#13">Drupal\editor\EditorXssFilter\Standard</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="src/Element.php.html#14">Drupal\editor\Element</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="src/Plugin/InPlaceEditor/Editor.php.html#18">Drupal\editor\Plugin\InPlaceEditor\Editor</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/Plugin/EditorBase.php.html#23">Drupal\editor\Plugin\EditorBase</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="src/Plugin/Filter/EditorFileReference.php.html#26">Drupal\editor\Plugin\Filter\EditorFileReference</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/Plugin/EditorManager.php.html#17">Drupal\editor\Plugin\EditorManager</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/EventSubscriber/EditorConfigTranslationSubscriber.php.html#14">Drupal\editor\EventSubscriber\EditorConfigTranslationSubscriber</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/Form/EditorLinkDialog.php.html#18">Drupal\editor\Form\EditorLinkDialog</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/EditorController.php.html#18">Drupal\editor\EditorController</a></td><td class="text-right">20</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Ajax/EditorDialogSave.php.html#28"><abbr title="Drupal\editor\Ajax\EditorDialogSave::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EditorBase.php.html#35"><abbr title="Drupal\editor\Plugin\EditorBase::buildConfigurationForm">buildConfigurationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/EditorConfigTranslationSubscriber.php.html#50"><abbr title="Drupal\editor\EventSubscriber\EditorConfigTranslationSubscriber::addConfigNames">addConfigNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/EditorImageDialog.php.html#37"><abbr title="Drupal\editor\Form\EditorImageDialog::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/EditorImageDialog.php.html#44"><abbr title="Drupal\editor\Form\EditorImageDialog::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/EditorImageDialog.php.html#53"><abbr title="Drupal\editor\Form\EditorImageDialog::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/EditorImageDialog.php.html#63"><abbr title="Drupal\editor\Form\EditorImageDialog::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/EditorImageDialog.php.html#202"><abbr title="Drupal\editor\Form\EditorImageDialog::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/EditorLinkDialog.php.html#23"><abbr title="Drupal\editor\Form\EditorLinkDialog::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/EditorLinkDialog.php.html#33"><abbr title="Drupal\editor\Form\EditorLinkDialog::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/EditorLinkDialog.php.html#73"><abbr title="Drupal\editor\Form\EditorLinkDialog::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EditorBase.php.html#28"><abbr title="Drupal\editor\Plugin\EditorBase::getDefaultSettings">getDefaultSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EditorBase.php.html#49"><abbr title="Drupal\editor\Plugin\EditorBase::validateConfigurationForm">validateConfigurationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/EditorConfigTranslationSubscriber.php.html#29"><abbr title="Drupal\editor\EventSubscriber\EditorConfigTranslationSubscriber::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EditorBase.php.html#62"><abbr title="Drupal\editor\Plugin\EditorBase::submitConfigurationForm">submitConfigurationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EditorManager.php.html#30"><abbr title="Drupal\editor\Plugin\EditorManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EditorManager.php.html#42"><abbr title="Drupal\editor\Plugin\EditorManager::listOptions">listOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/EditorManager.php.html#61"><abbr title="Drupal\editor\Plugin\EditorManager::getAttachments">getAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/EditorFileReference.php.html#53"><abbr title="Drupal\editor\Plugin\Filter\EditorFileReference::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/EditorFileReference.php.html#61"><abbr title="Drupal\editor\Plugin\Filter\EditorFileReference::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/Filter/EditorFileReference.php.html#73"><abbr title="Drupal\editor\Plugin\Filter\EditorFileReference::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/InPlaceEditor/Editor.php.html#23"><abbr title="Drupal\editor\Plugin\InPlaceEditor\Editor::isCompatible">isCompatible</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/InPlaceEditor/Editor.php.html#46"><abbr title="Drupal\editor\Plugin\InPlaceEditor\Editor::getMetadata">getMetadata</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/InPlaceEditor/Editor.php.html#61"><abbr title="Drupal\editor\Plugin\InPlaceEditor\Editor::textFormatHasTransformationFilters">textFormatHasTransformationFilters</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EventSubscriber/EditorConfigTranslationSubscriber.php.html#36"><abbr title="Drupal\editor\EventSubscriber\EditorConfigTranslationSubscriber::getSubscribedEvents">getSubscribedEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Editor.php.html#188"><abbr title="Drupal\editor\Entity\Editor::setImageUploadSettings">setImageUploadSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Ajax/EditorDialogSave.php.html#35"><abbr title="Drupal\editor\Ajax\EditorDialogSave::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Element.php.html#36"><abbr title="Drupal\editor\Element::trustedCallbacks">trustedCallbacks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Ajax/GetUntransformedTextCommand.php.html#19"><abbr title="Drupal\editor\Ajax\GetUntransformedTextCommand::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EditorAccessControlHandler.php.html#19"><abbr title="Drupal\editor\EditorAccessControlHandler::checkAccess">checkAccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EditorController.php.html#36"><abbr title="Drupal\editor\EditorController::getUntransformedText">getUntransformedText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EditorController.php.html#63"><abbr title="Drupal\editor\EditorController::filterXss">filterXss</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EditorXssFilter/Standard.php.html#18"><abbr title="Drupal\editor\EditorXssFilter\Standard::filterXss">filterXss</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EditorXssFilter/Standard.php.html#101"><abbr title="Drupal\editor\EditorXssFilter\Standard::filterXssDataAttributes">filterXssDataAttributes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EditorXssFilter/Standard.php.html#130"><abbr title="Drupal\editor\EditorXssFilter\Standard::getAllowedTags">getAllowedTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EditorXssFilter/Standard.php.html#154"><abbr title="Drupal\editor\EditorXssFilter\Standard::getForbiddenTags">getForbiddenTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EditorXssFilter/Standard.php.html#166"><abbr title="Drupal\editor\EditorXssFilter\Standard::needsRemoval">needsRemoval</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Element.php.html#29"><abbr title="Drupal\editor\Element::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Element.php.html#43"><abbr title="Drupal\editor\Element::preRenderTextFormat">preRenderTextFormat</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Editor.php.html#181"><abbr title="Drupal\editor\Entity\Editor::getImageUploadSettings">getImageUploadSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Editor.php.html#83"><abbr title="Drupal\editor\Entity\Editor::id">id</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Editor.php.html#90"><abbr title="Drupal\editor\Entity\Editor::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Editor.php.html#100"><abbr title="Drupal\editor\Entity\Editor::label">label</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Editor.php.html#107"><abbr title="Drupal\editor\Entity\Editor::calculateDependencies">calculateDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Editor.php.html#121"><abbr title="Drupal\editor\Entity\Editor::hasAssociatedFilterFormat">hasAssociatedFilterFormat</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Editor.php.html#128"><abbr title="Drupal\editor\Entity\Editor::getFilterFormat">getFilterFormat</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Editor.php.html#140"><abbr title="Drupal\editor\Entity\Editor::editorPluginManager">editorPluginManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Editor.php.html#151"><abbr title="Drupal\editor\Entity\Editor::getEditor">getEditor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Editor.php.html#158"><abbr title="Drupal\editor\Entity\Editor::setEditor">setEditor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Editor.php.html#166"><abbr title="Drupal\editor\Entity\Editor::getSettings">getSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Entity/Editor.php.html#173"><abbr title="Drupal\editor\Entity\Editor::setSettings">setSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Plugin/InPlaceEditor/Editor.php.html#69"><abbr title="Drupal\editor\Plugin\InPlaceEditor\Editor::getAttachments">getAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Form/EditorImageDialog.php.html#63"><abbr title="Drupal\editor\Form\EditorImageDialog::buildForm">buildForm</abbr></a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="src/Element.php.html#43"><abbr title="Drupal\editor\Element::preRenderTextFormat">preRenderTextFormat</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/Plugin/Filter/EditorFileReference.php.html#73"><abbr title="Drupal\editor\Plugin\Filter\EditorFileReference::process">process</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/Plugin/InPlaceEditor/Editor.php.html#69"><abbr title="Drupal\editor\Plugin\InPlaceEditor\Editor::getAttachments">getAttachments</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Plugin/EditorManager.php.html#61"><abbr title="Drupal\editor\Plugin\EditorManager::getAttachments">getAttachments</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/EventSubscriber/EditorConfigTranslationSubscriber.php.html#50"><abbr title="Drupal\editor\EventSubscriber\EditorConfigTranslationSubscriber::addConfigNames">addConfigNames</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Plugin/InPlaceEditor/Editor.php.html#23"><abbr title="Drupal\editor\Plugin\InPlaceEditor\Editor::isCompatible">isCompatible</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/EditorXssFilter/Standard.php.html#18"><abbr title="Drupal\editor\EditorXssFilter\Standard::filterXss">filterXss</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Form/EditorImageDialog.php.html#202"><abbr title="Drupal\editor\Form\EditorImageDialog::submitForm">submitForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Form/EditorLinkDialog.php.html#33"><abbr title="Drupal\editor\Form\EditorLinkDialog::buildForm">buildForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/EditorBase.php.html#35"><abbr title="Drupal\editor\Plugin\EditorBase::buildConfigurationForm">buildConfigurationForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/EditorBase.php.html#49"><abbr title="Drupal\editor\Plugin\EditorBase::validateConfigurationForm">validateConfigurationForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Plugin/EditorBase.php.html#62"><abbr title="Drupal\editor\Plugin\EditorBase::submitConfigurationForm">submitConfigurationForm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/EditorXssFilter/Standard.php.html#154"><abbr title="Drupal\editor\EditorXssFilter\Standard::getForbiddenTags">getForbiddenTags</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/EditorXssFilter/Standard.php.html#130"><abbr title="Drupal\editor\EditorXssFilter\Standard::getAllowedTags">getAllowedTags</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/EditorXssFilter/Standard.php.html#101"><abbr title="Drupal\editor\EditorXssFilter\Standard::filterXssDataAttributes">filterXssDataAttributes</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/EditorController.php.html#63"><abbr title="Drupal\editor\EditorController::filterXss">filterXss</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/EventSubscriber/EditorConfigTranslationSubscriber.php.html#36"><abbr title="Drupal\editor\EventSubscriber\EditorConfigTranslationSubscriber::getSubscribedEvents">getSubscribedEvents</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Entity/Editor.php.html#140"><abbr title="Drupal\editor\Entity\Editor::editorPluginManager">editorPluginManager</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Entity/Editor.php.html#128"><abbr title="Drupal\editor\Entity\Editor::getFilterFormat">getFilterFormat</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Form/EditorLinkDialog.php.html#73"><abbr title="Drupal\editor\Form\EditorLinkDialog::submitForm">submitForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Plugin/EditorManager.php.html#42"><abbr title="Drupal\editor\Plugin\EditorManager::listOptions">listOptions</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.33-16+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Fri Jun 12 8:21:00 AEST 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([14,0,0,0,0,0,0,0,0,0,0,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([52,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,2,"<a href=\"src\/Ajax\/EditorDialogSave.php.html#13\">Drupal\\editor\\Ajax\\EditorDialogSave<\/a>"],[0,1,"<a href=\"src\/Ajax\/GetUntransformedTextCommand.php.html#11\">Drupal\\editor\\Ajax\\GetUntransformedTextCommand<\/a>"],[100,0,"<a href=\"src\/Annotation\/Editor.php.html#53\">Drupal\\editor\\Annotation\\Editor<\/a>"],[0,1,"<a href=\"src\/EditorAccessControlHandler.php.html#14\">Drupal\\editor\\EditorAccessControlHandler<\/a>"],[0,4,"<a href=\"src\/EditorController.php.html#18\">Drupal\\editor\\EditorController<\/a>"],[0,14,"<a href=\"src\/EditorXssFilter\/Standard.php.html#13\">Drupal\\editor\\EditorXssFilter\\Standard<\/a>"],[0,14,"<a href=\"src\/Element.php.html#14\">Drupal\\editor\\Element<\/a>"],[0,15,"<a href=\"src\/Entity\/Editor.php.html#35\">Drupal\\editor\\Entity\\Editor<\/a>"],[0,7,"<a href=\"src\/EventSubscriber\/EditorConfigTranslationSubscriber.php.html#14\">Drupal\\editor\\EventSubscriber\\EditorConfigTranslationSubscriber<\/a>"],[0,25,"<a href=\"src\/Form\/EditorImageDialog.php.html#22\">Drupal\\editor\\Form\\EditorImageDialog<\/a>"],[0,6,"<a href=\"src\/Form\/EditorLinkDialog.php.html#18\">Drupal\\editor\\Form\\EditorLinkDialog<\/a>"],[0,10,"<a href=\"src\/Plugin\/EditorBase.php.html#23\">Drupal\\editor\\Plugin\\EditorBase<\/a>"],[0,8,"<a href=\"src\/Plugin\/EditorManager.php.html#17\">Drupal\\editor\\Plugin\\EditorManager<\/a>"],[0,9,"<a href=\"src\/Plugin\/Filter\/EditorFileReference.php.html#26\">Drupal\\editor\\Plugin\\Filter\\EditorFileReference<\/a>"],[0,11,"<a href=\"src\/Plugin\/InPlaceEditor\/Editor.php.html#18\">Drupal\\editor\\Plugin\\InPlaceEditor\\Editor<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"src\/Ajax\/EditorDialogSave.php.html#28\">Drupal\\editor\\Ajax\\EditorDialogSave::__construct<\/a>"],[0,1,"<a href=\"src\/Ajax\/EditorDialogSave.php.html#35\">Drupal\\editor\\Ajax\\EditorDialogSave::render<\/a>"],[0,1,"<a href=\"src\/Ajax\/GetUntransformedTextCommand.php.html#19\">Drupal\\editor\\Ajax\\GetUntransformedTextCommand::__construct<\/a>"],[0,1,"<a href=\"src\/EditorAccessControlHandler.php.html#19\">Drupal\\editor\\EditorAccessControlHandler::checkAccess<\/a>"],[0,1,"<a href=\"src\/EditorController.php.html#36\">Drupal\\editor\\EditorController::getUntransformedText<\/a>"],[0,3,"<a href=\"src\/EditorController.php.html#63\">Drupal\\editor\\EditorController::filterXss<\/a>"],[0,4,"<a href=\"src\/EditorXssFilter\/Standard.php.html#18\">Drupal\\editor\\EditorXssFilter\\Standard::filterXss<\/a>"],[0,3,"<a href=\"src\/EditorXssFilter\/Standard.php.html#101\">Drupal\\editor\\EditorXssFilter\\Standard::filterXssDataAttributes<\/a>"],[0,3,"<a href=\"src\/EditorXssFilter\/Standard.php.html#130\">Drupal\\editor\\EditorXssFilter\\Standard::getAllowedTags<\/a>"],[0,3,"<a href=\"src\/EditorXssFilter\/Standard.php.html#154\">Drupal\\editor\\EditorXssFilter\\Standard::getForbiddenTags<\/a>"],[0,1,"<a href=\"src\/EditorXssFilter\/Standard.php.html#166\">Drupal\\editor\\EditorXssFilter\\Standard::needsRemoval<\/a>"],[0,1,"<a href=\"src\/Element.php.html#29\">Drupal\\editor\\Element::__construct<\/a>"],[0,1,"<a href=\"src\/Element.php.html#36\">Drupal\\editor\\Element::trustedCallbacks<\/a>"],[0,12,"<a href=\"src\/Element.php.html#43\">Drupal\\editor\\Element::preRenderTextFormat<\/a>"],[0,1,"<a href=\"src\/Entity\/Editor.php.html#83\">Drupal\\editor\\Entity\\Editor::id<\/a>"],[0,1,"<a href=\"src\/Entity\/Editor.php.html#90\">Drupal\\editor\\Entity\\Editor::__construct<\/a>"],[0,1,"<a href=\"src\/Entity\/Editor.php.html#100\">Drupal\\editor\\Entity\\Editor::label<\/a>"],[0,1,"<a href=\"src\/Entity\/Editor.php.html#107\">Drupal\\editor\\Entity\\Editor::calculateDependencies<\/a>"],[0,1,"<a href=\"src\/Entity\/Editor.php.html#121\">Drupal\\editor\\Entity\\Editor::hasAssociatedFilterFormat<\/a>"],[0,2,"<a href=\"src\/Entity\/Editor.php.html#128\">Drupal\\editor\\Entity\\Editor::getFilterFormat<\/a>"],[0,2,"<a href=\"src\/Entity\/Editor.php.html#140\">Drupal\\editor\\Entity\\Editor::editorPluginManager<\/a>"],[0,1,"<a href=\"src\/Entity\/Editor.php.html#151\">Drupal\\editor\\Entity\\Editor::getEditor<\/a>"],[0,1,"<a href=\"src\/Entity\/Editor.php.html#158\">Drupal\\editor\\Entity\\Editor::setEditor<\/a>"],[0,1,"<a href=\"src\/Entity\/Editor.php.html#166\">Drupal\\editor\\Entity\\Editor::getSettings<\/a>"],[0,1,"<a href=\"src\/Entity\/Editor.php.html#173\">Drupal\\editor\\Entity\\Editor::setSettings<\/a>"],[0,1,"<a href=\"src\/Entity\/Editor.php.html#181\">Drupal\\editor\\Entity\\Editor::getImageUploadSettings<\/a>"],[0,1,"<a href=\"src\/Entity\/Editor.php.html#188\">Drupal\\editor\\Entity\\Editor::setImageUploadSettings<\/a>"],[0,1,"<a href=\"src\/EventSubscriber\/EditorConfigTranslationSubscriber.php.html#29\">Drupal\\editor\\EventSubscriber\\EditorConfigTranslationSubscriber::__construct<\/a>"],[0,2,"<a href=\"src\/EventSubscriber\/EditorConfigTranslationSubscriber.php.html#36\">Drupal\\editor\\EventSubscriber\\EditorConfigTranslationSubscriber::getSubscribedEvents<\/a>"],[0,4,"<a href=\"src\/EventSubscriber\/EditorConfigTranslationSubscriber.php.html#50\">Drupal\\editor\\EventSubscriber\\EditorConfigTranslationSubscriber::addConfigNames<\/a>"],[0,1,"<a href=\"src\/Form\/EditorImageDialog.php.html#37\">Drupal\\editor\\Form\\EditorImageDialog::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/EditorImageDialog.php.html#44\">Drupal\\editor\\Form\\EditorImageDialog::create<\/a>"],[0,1,"<a href=\"src\/Form\/EditorImageDialog.php.html#53\">Drupal\\editor\\Form\\EditorImageDialog::getFormId<\/a>"],[0,18,"<a href=\"src\/Form\/EditorImageDialog.php.html#63\">Drupal\\editor\\Form\\EditorImageDialog::buildForm<\/a>"],[0,4,"<a href=\"src\/Form\/EditorImageDialog.php.html#202\">Drupal\\editor\\Form\\EditorImageDialog::submitForm<\/a>"],[0,1,"<a href=\"src\/Form\/EditorLinkDialog.php.html#23\">Drupal\\editor\\Form\\EditorLinkDialog::getFormId<\/a>"],[0,3,"<a href=\"src\/Form\/EditorLinkDialog.php.html#33\">Drupal\\editor\\Form\\EditorLinkDialog::buildForm<\/a>"],[0,2,"<a href=\"src\/Form\/EditorLinkDialog.php.html#73\">Drupal\\editor\\Form\\EditorLinkDialog::submitForm<\/a>"],[0,1,"<a href=\"src\/Plugin\/EditorBase.php.html#28\">Drupal\\editor\\Plugin\\EditorBase::getDefaultSettings<\/a>"],[0,3,"<a href=\"src\/Plugin\/EditorBase.php.html#35\">Drupal\\editor\\Plugin\\EditorBase::buildConfigurationForm<\/a>"],[0,3,"<a href=\"src\/Plugin\/EditorBase.php.html#49\">Drupal\\editor\\Plugin\\EditorBase::validateConfigurationForm<\/a>"],[0,3,"<a href=\"src\/Plugin\/EditorBase.php.html#62\">Drupal\\editor\\Plugin\\EditorBase::submitConfigurationForm<\/a>"],[0,1,"<a href=\"src\/Plugin\/EditorManager.php.html#30\">Drupal\\editor\\Plugin\\EditorManager::__construct<\/a>"],[0,2,"<a href=\"src\/Plugin\/EditorManager.php.html#42\">Drupal\\editor\\Plugin\\EditorManager::listOptions<\/a>"],[0,5,"<a href=\"src\/Plugin\/EditorManager.php.html#61\">Drupal\\editor\\Plugin\\EditorManager::getAttachments<\/a>"],[0,1,"<a href=\"src\/Plugin\/Filter\/EditorFileReference.php.html#53\">Drupal\\editor\\Plugin\\Filter\\EditorFileReference::__construct<\/a>"],[0,1,"<a href=\"src\/Plugin\/Filter\/EditorFileReference.php.html#61\">Drupal\\editor\\Plugin\\Filter\\EditorFileReference::create<\/a>"],[0,7,"<a href=\"src\/Plugin\/Filter\/EditorFileReference.php.html#73\">Drupal\\editor\\Plugin\\Filter\\EditorFileReference::process<\/a>"],[0,4,"<a href=\"src\/Plugin\/InPlaceEditor\/Editor.php.html#23\">Drupal\\editor\\Plugin\\InPlaceEditor\\Editor::isCompatible<\/a>"],[0,1,"<a href=\"src\/Plugin\/InPlaceEditor\/Editor.php.html#46\">Drupal\\editor\\Plugin\\InPlaceEditor\\Editor::getMetadata<\/a>"],[0,1,"<a href=\"src\/Plugin\/InPlaceEditor\/Editor.php.html#61\">Drupal\\editor\\Plugin\\InPlaceEditor\\Editor::textFormatHasTransformationFilters<\/a>"],[0,5,"<a href=\"src\/Plugin\/InPlaceEditor\/Editor.php.html#69\">Drupal\\editor\\Plugin\\InPlaceEditor\\Editor::getAttachments<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

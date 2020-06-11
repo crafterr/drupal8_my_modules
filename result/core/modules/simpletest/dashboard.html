@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/crafter/www/drupal-modules.devel/web/core/modules/simpletest</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/home/crafter/www/drupal-modules.devel/web</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">core</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">modules</a></li>
+         <li class="breadcrumb-item"><a href="index.html">simpletest</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Cache/Context/TestDiscoveryCacheContext.php.html#16">Drupal\simpletest\Cache\Context\TestDiscoveryCacheContext</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EnvironmentCleanerFactory.php.html#15">Drupal\simpletest\EnvironmentCleanerFactory</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EnvironmentCleanerService.php.html#16">Drupal\simpletest\EnvironmentCleanerService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SimpletestResultsForm.php.html#25">Drupal\simpletest\Form\SimpletestResultsForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SimpletestSettingsForm.php.html#13">Drupal\simpletest\Form\SimpletestSettingsForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SimpletestTestForm.php.html#16">Drupal\simpletest\Form\SimpletestTestForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/InstallerTestBase.php.html#24">Drupal\simpletest\InstallerTestBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#70">Drupal\simpletest\KernelTestBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#32">Drupal\simpletest\TestBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestDiscovery.php.html#25">Drupal\simpletest\TestDiscovery</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#40">Drupal\simpletest\WebTestBase</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/WebTestBase.php.html#40">Drupal\simpletest\WebTestBase</a></td><td class="text-right">62750</td></tr>
+       <tr><td><a href="src/TestBase.php.html#32">Drupal\simpletest\TestBase</a></td><td class="text-right">12882</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#70">Drupal\simpletest\KernelTestBase</a></td><td class="text-right">2256</td></tr>
+       <tr><td><a href="src/Form/SimpletestResultsForm.php.html#25">Drupal\simpletest\Form\SimpletestResultsForm</a></td><td class="text-right">650</td></tr>
+       <tr><td><a href="src/TestDiscovery.php.html#25">Drupal\simpletest\TestDiscovery</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="src/Form/SimpletestSettingsForm.php.html#13">Drupal\simpletest\Form\SimpletestSettingsForm</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/InstallerTestBase.php.html#24">Drupal\simpletest\InstallerTestBase</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/Form/SimpletestTestForm.php.html#16">Drupal\simpletest\Form\SimpletestTestForm</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/EnvironmentCleanerService.php.html#16">Drupal\simpletest\EnvironmentCleanerService</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="src/Cache/Context/TestDiscoveryCacheContext.php.html#16">Drupal\simpletest\Cache\Context\TestDiscoveryCacheContext</a></td><td class="text-right">42</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Cache/Context/TestDiscoveryCacheContext.php.html#51"><abbr title="Drupal\simpletest\Cache\Context\TestDiscoveryCacheContext::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#1415"><abbr title="Drupal\simpletest\TestBase::getTempFilesDirectory">getTempFilesDirectory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#477"><abbr title="Drupal\simpletest\WebTestBase::writeCustomTranslations">writeCustomTranslations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#454"><abbr title="Drupal\simpletest\WebTestBase::addCustomTranslations">addCustomTranslations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#428"><abbr title="Drupal\simpletest\WebTestBase::restoreBatch">restoreBatch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#410"><abbr title="Drupal\simpletest\WebTestBase::setBatch">setBatch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#365"><abbr title="Drupal\simpletest\WebTestBase::setUp">setUp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#333"><abbr title="Drupal\simpletest\WebTestBase::drupalLogout">drupalLogout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#317"><abbr title="Drupal\simpletest\WebTestBase::drupalUserIsLoggedIn">drupalUserIsLoggedIn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#289"><abbr title="Drupal\simpletest\WebTestBase::drupalLogin">drupalLogin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#258"><abbr title="Drupal\simpletest\WebTestBase::findBlockInstance">findBlockInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#244"><abbr title="Drupal\simpletest\WebTestBase::assertNoBlockAppears">assertNoBlockAppears</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#233"><abbr title="Drupal\simpletest\WebTestBase::assertBlockAppears">assertBlockAppears</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#221"><abbr title="Drupal\simpletest\WebTestBase::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestDiscovery.php.html#78"><abbr title="Drupal\simpletest\TestDiscovery::getTestClasses">getTestClasses</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestDiscovery.php.html#46"><abbr title="Drupal\simpletest\TestDiscovery::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#1405"><abbr title="Drupal\simpletest\TestBase::getDatabasePrefix">getDatabasePrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#531"><abbr title="Drupal\simpletest\WebTestBase::curlInitialize">curlInitialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#1395"><abbr title="Drupal\simpletest\TestBase::config">config</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#1378"><abbr title="Drupal\simpletest\TestBase::filePreDeleteCallback">filePreDeleteCallback</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#1363"><abbr title="Drupal\simpletest\TestBase::settingsSet">settingsSet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#1337"><abbr title="Drupal\simpletest\TestBase::exceptionHandler">exceptionHandler</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#1302"><abbr title="Drupal\simpletest\TestBase::errorHandler">errorHandler</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#1208"><abbr title="Drupal\simpletest\TestBase::restoreEnvironment">restoreEnvironment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#1194"><abbr title="Drupal\simpletest\TestBase::tearDown">tearDown</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#1079"><abbr title="Drupal\simpletest\TestBase::prepareEnvironment">prepareEnvironment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#1060"><abbr title="Drupal\simpletest\TestBase::beforePrepareEnvironment">beforePrepareEnvironment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#1036"><abbr title="Drupal\simpletest\TestBase::prepareDatabasePrefix">prepareDatabasePrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#889"><abbr title="Drupal\simpletest\TestBase::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#858"><abbr title="Drupal\simpletest\TestBase::verbose">verbose</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#837"><abbr title="Drupal\simpletest\TestBase::error">error</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#814"><abbr title="Drupal\simpletest\TestBase::fail">fail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#502"><abbr title="Drupal\simpletest\WebTestBase::tearDown">tearDown</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#589"><abbr title="Drupal\simpletest\WebTestBase::curlExec">curlExec</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#752"><abbr title="Drupal\simpletest\TestBase::assertErrorLogged">assertErrorLogged</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1501"><abbr title="Drupal\simpletest\WebTestBase::drupalHead">drupalHead</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#2065"><abbr title="Drupal\simpletest\WebTestBase::assertNoCacheTag">assertNoCacheTag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#2054"><abbr title="Drupal\simpletest\WebTestBase::assertCacheTag">assertCacheTag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#2019"><abbr title="Drupal\simpletest\WebTestBase::buildUrl">buildUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#2002"><abbr title="Drupal\simpletest\WebTestBase::assertNoResponse">assertNoResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1976"><abbr title="Drupal\simpletest\WebTestBase::assertResponse">assertResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1929"><abbr title="Drupal\simpletest\WebTestBase::assertUrl">assertUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1903"><abbr title="Drupal\simpletest\WebTestBase::assertHeader">assertHeader</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1865"><abbr title="Drupal\simpletest\WebTestBase::drupalGetHeader">drupalGetHeader</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1816"><abbr title="Drupal\simpletest\WebTestBase::drupalGetHeaders">drupalGetHeaders</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1758"><abbr title="Drupal\simpletest\WebTestBase::getAbsoluteUrl">getAbsoluteUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1731"><abbr title="Drupal\simpletest\WebTestBase::clickLinkHelper">clickLinkHelper</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1714"><abbr title="Drupal\simpletest\WebTestBase::clickLinkPartialName">clickLinkPartialName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1695"><abbr title="Drupal\simpletest\WebTestBase::clickLink">clickLink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1535"><abbr title="Drupal\simpletest\WebTestBase::handleForm">handleForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1472"><abbr title="Drupal\simpletest\WebTestBase::checkForMetaRefresh">checkForMetaRefresh</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#689"><abbr title="Drupal\simpletest\WebTestBase::curlHeaderCallback">curlHeaderCallback</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#882"><abbr title="Drupal\simpletest\WebTestBase::drupalGetXHR">drupalGetXHR</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#746"><abbr title="Drupal\simpletest\WebTestBase::curlClose">curlClose</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#764"><abbr title="Drupal\simpletest\WebTestBase::isInChildSite">isInChildSite</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#782"><abbr title="Drupal\simpletest\WebTestBase::drupalGet">drupalGet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#825"><abbr title="Drupal\simpletest\WebTestBase::drupalGetJSON">drupalGetJSON</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#844"><abbr title="Drupal\simpletest\WebTestBase::drupalGetWithFormat">drupalGetWithFormat</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#862"><abbr title="Drupal\simpletest\WebTestBase::drupalGetAjax">drupalGetAjax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#971"><abbr title="Drupal\simpletest\WebTestBase::drupalPostForm">drupalPostForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1450"><abbr title="Drupal\simpletest\WebTestBase::translatePostValues">translatePostValues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1117"><abbr title="Drupal\simpletest\WebTestBase::drupalPostAjaxForm">drupalPostAjaxForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1234"><abbr title="Drupal\simpletest\WebTestBase::drupalProcessAjaxResponse">drupalProcessAjaxResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1361"><abbr title="Drupal\simpletest\WebTestBase::drupalPost">drupalPost</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1395"><abbr title="Drupal\simpletest\WebTestBase::drupalPostWithFormat">drupalPostWithFormat</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1406"><abbr title="Drupal\simpletest\WebTestBase::getAjaxPageStatePostData">getAjaxPageStatePostData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1434"><abbr title="Drupal\simpletest\WebTestBase::serializePostValues">serializePostValues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#793"><abbr title="Drupal\simpletest\TestBase::pass">pass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#734"><abbr title="Drupal\simpletest\TestBase::assertNoErrorsLogged">assertNoErrorsLogged</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Cache/Context/TestDiscoveryCacheContext.php.html#59"><abbr title="Drupal\simpletest\Cache\Context\TestDiscoveryCacheContext::getLabel">getLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SimpletestResultsForm.php.html#230"><abbr title="Drupal\simpletest\Form\SimpletestResultsForm::getResults">getResults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/InstallerTestBase.php.html#188"><abbr title="Drupal\simpletest\InstallerTestBase::setUpLanguage">setUpLanguage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/InstallerTestBase.php.html#181"><abbr title="Drupal\simpletest\InstallerTestBase::visitInstaller">visitInstaller</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/InstallerTestBase.php.html#81"><abbr title="Drupal\simpletest\InstallerTestBase::setUp">setUp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SimpletestTestForm.php.html#219"><abbr title="Drupal\simpletest\Form\SimpletestTestForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SimpletestTestForm.php.html#65"><abbr title="Drupal\simpletest\Form\SimpletestTestForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SimpletestTestForm.php.html#58"><abbr title="Drupal\simpletest\Form\SimpletestTestForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SimpletestTestForm.php.html#50"><abbr title="Drupal\simpletest\Form\SimpletestTestForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SimpletestTestForm.php.html#35"><abbr title="Drupal\simpletest\Form\SimpletestTestForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SimpletestSettingsForm.php.html#114"><abbr title="Drupal\simpletest\Form\SimpletestSettingsForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SimpletestSettingsForm.php.html#94"><abbr title="Drupal\simpletest\Form\SimpletestSettingsForm::validateForm">validateForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SimpletestSettingsForm.php.html#32"><abbr title="Drupal\simpletest\Form\SimpletestSettingsForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SimpletestSettingsForm.php.html#25"><abbr title="Drupal\simpletest\Form\SimpletestSettingsForm::getEditableConfigNames">getEditableConfigNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SimpletestSettingsForm.php.html#18"><abbr title="Drupal\simpletest\Form\SimpletestSettingsForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SimpletestResultsForm.php.html#259"><abbr title="Drupal\simpletest\Form\SimpletestResultsForm::addResultForm">addResultForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SimpletestResultsForm.php.html#184"><abbr title="Drupal\simpletest\Form\SimpletestResultsForm::submitForm">submitForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/InstallerTestBase.php.html#208"><abbr title="Drupal\simpletest\InstallerTestBase::setUpSettings">setUpSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SimpletestResultsForm.php.html#119"><abbr title="Drupal\simpletest\Form\SimpletestResultsForm::buildForm">buildForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SimpletestResultsForm.php.html#112"><abbr title="Drupal\simpletest\Form\SimpletestResultsForm::getFormId">getFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SimpletestResultsForm.php.html#72"><abbr title="Drupal\simpletest\Form\SimpletestResultsForm::buildStatusImageMap">buildStatusImageMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SimpletestResultsForm.php.html#64"><abbr title="Drupal\simpletest\Form\SimpletestResultsForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Form/SimpletestResultsForm.php.html#51"><abbr title="Drupal\simpletest\Form\SimpletestResultsForm::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EnvironmentCleanerService.php.html#114"><abbr title="Drupal\simpletest\EnvironmentCleanerService::cleanTemporaryDirectories">cleanTemporaryDirectories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EnvironmentCleanerService.php.html#101"><abbr title="Drupal\simpletest\EnvironmentCleanerService::cleanDatabase">cleanDatabase</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EnvironmentCleanerService.php.html#74"><abbr title="Drupal\simpletest\EnvironmentCleanerService::cleanEnvironment">cleanEnvironment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EnvironmentCleanerService.php.html#60"><abbr title="Drupal\simpletest\EnvironmentCleanerService::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EnvironmentCleanerFactory.php.html#40"><abbr title="Drupal\simpletest\EnvironmentCleanerFactory::createCleaner">createCleaner</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/EnvironmentCleanerFactory.php.html#30"><abbr title="Drupal\simpletest\EnvironmentCleanerFactory::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Cache/Context/TestDiscoveryCacheContext.php.html#90"><abbr title="Drupal\simpletest\Cache\Context\TestDiscoveryCacheContext::hash">hash</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Cache/Context/TestDiscoveryCacheContext.php.html#77"><abbr title="Drupal\simpletest\Cache\Context\TestDiscoveryCacheContext::getCacheableMetadata">getCacheableMetadata</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Cache/Context/TestDiscoveryCacheContext.php.html#66"><abbr title="Drupal\simpletest\Cache\Context\TestDiscoveryCacheContext::getContext">getContext</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/InstallerTestBase.php.html#198"><abbr title="Drupal\simpletest\InstallerTestBase::setUpProfile">setUpProfile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/InstallerTestBase.php.html#221"><abbr title="Drupal\simpletest\InstallerTestBase::setUpRequirementsProblem">setUpRequirementsProblem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#713"><abbr title="Drupal\simpletest\TestBase::assertIdenticalObject">assertIdenticalObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#262"><abbr title="Drupal\simpletest\TestBase::checkTestHierarchyMismatch">checkTestHierarchyMismatch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#683"><abbr title="Drupal\simpletest\TestBase::assertNotIdentical">assertNotIdentical</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#653"><abbr title="Drupal\simpletest\TestBase::assertIdentical">assertIdentical</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#618"><abbr title="Drupal\simpletest\TestBase::assertNotEqual">assertNotEqual</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#583"><abbr title="Drupal\simpletest\TestBase::assertEqual">assertEqual</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#558"><abbr title="Drupal\simpletest\TestBase::assertNotNull">assertNotNull</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#535"><abbr title="Drupal\simpletest\TestBase::assertNull">assertNull</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#512"><abbr title="Drupal\simpletest\TestBase::assertFalse">assertFalse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#487"><abbr title="Drupal\simpletest\TestBase::assertTrue">assertTrue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#450"><abbr title="Drupal\simpletest\TestBase::getAssertionCall">getAssertionCall</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#436"><abbr title="Drupal\simpletest\TestBase::deleteAssert">deleteAssert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#395"><abbr title="Drupal\simpletest\TestBase::insertAssert">insertAssert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#328"><abbr title="Drupal\simpletest\TestBase::assert">assert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#298"><abbr title="Drupal\simpletest\TestBase::storeAssertion">storeAssertion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#281"><abbr title="Drupal\simpletest\TestBase::checkRequirements">checkRequirements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/TestBase.php.html#252"><abbr title="Drupal\simpletest\TestBase::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/InstallerTestBase.php.html#228"><abbr title="Drupal\simpletest\InstallerTestBase::setUpSite">setUpSite</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#337"><abbr title="Drupal\simpletest\KernelTestBase::containerBuild">containerBuild</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/InstallerTestBase.php.html#242"><abbr title="Drupal\simpletest\InstallerTestBase::refreshVariables">refreshVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#122"><abbr title="Drupal\simpletest\KernelTestBase::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#130"><abbr title="Drupal\simpletest\KernelTestBase::beforePrepareEnvironment">beforePrepareEnvironment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#150"><abbr title="Drupal\simpletest\KernelTestBase::prepareConfigDirectories">prepareConfigDirectories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#166"><abbr title="Drupal\simpletest\KernelTestBase::setUp">setUp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#310"><abbr title="Drupal\simpletest\KernelTestBase::tearDown">tearDown</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#417"><abbr title="Drupal\simpletest\KernelTestBase::defaultLanguageData">defaultLanguageData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#633"><abbr title="Drupal\simpletest\KernelTestBase::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#430"><abbr title="Drupal\simpletest\KernelTestBase::installConfig">installConfig</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#454"><abbr title="Drupal\simpletest\KernelTestBase::installSchema">installSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#491"><abbr title="Drupal\simpletest\KernelTestBase::installEntitySchema">installEntitySchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#536"><abbr title="Drupal\simpletest\KernelTestBase::enableModules">enableModules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#583"><abbr title="Drupal\simpletest\KernelTestBase::disableModules">disableModules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#620"><abbr title="Drupal\simpletest\KernelTestBase::registerStreamWrapper">registerStreamWrapper</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#2078"><abbr title="Drupal\simpletest\WebTestBase::setHttpResponseDebugCacheabilityHeaders">setHttpResponseDebugCacheabilityHeaders</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/WebTestBase.php.html#1535"><abbr title="Drupal\simpletest\WebTestBase::handleForm">handleForm</abbr></a></td><td class="text-right">2450</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#971"><abbr title="Drupal\simpletest\WebTestBase::drupalPostForm">drupalPostForm</abbr></a></td><td class="text-right">812</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1234"><abbr title="Drupal\simpletest\WebTestBase::drupalProcessAjaxResponse">drupalProcessAjaxResponse</abbr></a></td><td class="text-right">600</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#589"><abbr title="Drupal\simpletest\WebTestBase::curlExec">curlExec</abbr></a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="src/TestDiscovery.php.html#78"><abbr title="Drupal\simpletest\TestDiscovery::getTestClasses">getTestClasses</abbr></a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="src/TestBase.php.html#889"><abbr title="Drupal\simpletest\TestBase::run">run</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1117"><abbr title="Drupal\simpletest\WebTestBase::drupalPostAjaxForm">drupalPostAjaxForm</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="src/TestBase.php.html#1208"><abbr title="Drupal\simpletest\TestBase::restoreEnvironment">restoreEnvironment</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#166"><abbr title="Drupal\simpletest\KernelTestBase::setUp">setUp</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#689"><abbr title="Drupal\simpletest\WebTestBase::curlHeaderCallback">curlHeaderCallback</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="src/TestBase.php.html#328"><abbr title="Drupal\simpletest\TestBase::assert">assert</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/Form/SimpletestResultsForm.php.html#184"><abbr title="Drupal\simpletest\Form\SimpletestResultsForm::submitForm">submitForm</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#2019"><abbr title="Drupal\simpletest\WebTestBase::buildUrl">buildUrl</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1472"><abbr title="Drupal\simpletest\WebTestBase::checkForMetaRefresh">checkForMetaRefresh</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/Form/SimpletestResultsForm.php.html#259"><abbr title="Drupal\simpletest\Form\SimpletestResultsForm::addResultForm">addResultForm</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1758"><abbr title="Drupal\simpletest\WebTestBase::getAbsoluteUrl">getAbsoluteUrl</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1816"><abbr title="Drupal\simpletest\WebTestBase::drupalGetHeaders">drupalGetHeaders</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/TestBase.php.html#1079"><abbr title="Drupal\simpletest\TestBase::prepareEnvironment">prepareEnvironment</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#337"><abbr title="Drupal\simpletest\KernelTestBase::containerBuild">containerBuild</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Form/SimpletestSettingsForm.php.html#94"><abbr title="Drupal\simpletest\Form\SimpletestSettingsForm::validateForm">validateForm</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/EnvironmentCleanerService.php.html#74"><abbr title="Drupal\simpletest\EnvironmentCleanerService::cleanEnvironment">cleanEnvironment</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/TestBase.php.html#450"><abbr title="Drupal\simpletest\TestBase::getAssertionCall">getAssertionCall</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#491"><abbr title="Drupal\simpletest\KernelTestBase::installEntitySchema">installEntitySchema</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1865"><abbr title="Drupal\simpletest\WebTestBase::drupalGetHeader">drupalGetHeader</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/TestBase.php.html#713"><abbr title="Drupal\simpletest\TestBase::assertIdenticalObject">assertIdenticalObject</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#454"><abbr title="Drupal\simpletest\KernelTestBase::installSchema">installSchema</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Form/SimpletestResultsForm.php.html#119"><abbr title="Drupal\simpletest\Form\SimpletestResultsForm::buildForm">buildForm</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1929"><abbr title="Drupal\simpletest\WebTestBase::assertUrl">assertUrl</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#531"><abbr title="Drupal\simpletest\WebTestBase::curlInitialize">curlInitialize</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#289"><abbr title="Drupal\simpletest\WebTestBase::drupalLogin">drupalLogin</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#454"><abbr title="Drupal\simpletest\WebTestBase::addCustomTranslations">addCustomTranslations</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1406"><abbr title="Drupal\simpletest\WebTestBase::getAjaxPageStatePostData">getAjaxPageStatePostData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#782"><abbr title="Drupal\simpletest\WebTestBase::drupalGet">drupalGet</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/TestBase.php.html#752"><abbr title="Drupal\simpletest\TestBase::assertErrorLogged">assertErrorLogged</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Form/SimpletestSettingsForm.php.html#32"><abbr title="Drupal\simpletest\Form\SimpletestSettingsForm::buildForm">buildForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/TestBase.php.html#683"><abbr title="Drupal\simpletest\TestBase::assertNotIdentical">assertNotIdentical</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/TestBase.php.html#653"><abbr title="Drupal\simpletest\TestBase::assertIdentical">assertIdentical</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Form/SimpletestTestForm.php.html#65"><abbr title="Drupal\simpletest\Form\SimpletestTestForm::buildForm">buildForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Form/SimpletestTestForm.php.html#219"><abbr title="Drupal\simpletest\Form\SimpletestTestForm::submitForm">submitForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/InstallerTestBase.php.html#81"><abbr title="Drupal\simpletest\InstallerTestBase::setUp">setUp</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#130"><abbr title="Drupal\simpletest\KernelTestBase::beforePrepareEnvironment">beforePrepareEnvironment</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/TestBase.php.html#618"><abbr title="Drupal\simpletest\TestBase::assertNotEqual">assertNotEqual</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/TestBase.php.html#583"><abbr title="Drupal\simpletest\TestBase::assertEqual">assertEqual</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/TestBase.php.html#395"><abbr title="Drupal\simpletest\TestBase::insertAssert">insertAssert</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/TestBase.php.html#1302"><abbr title="Drupal\simpletest\TestBase::errorHandler">errorHandler</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#430"><abbr title="Drupal\simpletest\KernelTestBase::installConfig">installConfig</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#310"><abbr title="Drupal\simpletest\KernelTestBase::tearDown">tearDown</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#333"><abbr title="Drupal\simpletest\WebTestBase::drupalLogout">drupalLogout</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#477"><abbr title="Drupal\simpletest\WebTestBase::writeCustomTranslations">writeCustomTranslations</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1976"><abbr title="Drupal\simpletest\WebTestBase::assertResponse">assertResponse</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/TestBase.php.html#858"><abbr title="Drupal\simpletest\TestBase::verbose">verbose</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#2002"><abbr title="Drupal\simpletest\WebTestBase::assertNoResponse">assertNoResponse</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1731"><abbr title="Drupal\simpletest\WebTestBase::clickLinkHelper">clickLinkHelper</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1903"><abbr title="Drupal\simpletest\WebTestBase::assertHeader">assertHeader</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1450"><abbr title="Drupal\simpletest\WebTestBase::translatePostValues">translatePostValues</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1501"><abbr title="Drupal\simpletest\WebTestBase::drupalHead">drupalHead</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#1434"><abbr title="Drupal\simpletest\WebTestBase::serializePostValues">serializePostValues</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Cache/Context/TestDiscoveryCacheContext.php.html#66"><abbr title="Drupal\simpletest\Cache\Context\TestDiscoveryCacheContext::getContext">getContext</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#862"><abbr title="Drupal\simpletest\WebTestBase::drupalGetAjax">drupalGetAjax</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/TestBase.php.html#262"><abbr title="Drupal\simpletest\TestBase::checkTestHierarchyMismatch">checkTestHierarchyMismatch</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/EnvironmentCleanerService.php.html#101"><abbr title="Drupal\simpletest\EnvironmentCleanerService::cleanDatabase">cleanDatabase</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/EnvironmentCleanerService.php.html#114"><abbr title="Drupal\simpletest\EnvironmentCleanerService::cleanTemporaryDirectories">cleanTemporaryDirectories</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/InstallerTestBase.php.html#242"><abbr title="Drupal\simpletest\InstallerTestBase::refreshVariables">refreshVariables</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#150"><abbr title="Drupal\simpletest\KernelTestBase::prepareConfigDirectories">prepareConfigDirectories</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#536"><abbr title="Drupal\simpletest\KernelTestBase::enableModules">enableModules</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/KernelTestBase.php.html#583"><abbr title="Drupal\simpletest\KernelTestBase::disableModules">disableModules</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/TestBase.php.html#487"><abbr title="Drupal\simpletest\TestBase::assertTrue">assertTrue</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#746"><abbr title="Drupal\simpletest\WebTestBase::curlClose">curlClose</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/TestBase.php.html#512"><abbr title="Drupal\simpletest\TestBase::assertFalse">assertFalse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/TestBase.php.html#535"><abbr title="Drupal\simpletest\TestBase::assertNull">assertNull</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/TestBase.php.html#558"><abbr title="Drupal\simpletest\TestBase::assertNotNull">assertNotNull</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/TestBase.php.html#1036"><abbr title="Drupal\simpletest\TestBase::prepareDatabasePrefix">prepareDatabasePrefix</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#317"><abbr title="Drupal\simpletest\WebTestBase::drupalUserIsLoggedIn">drupalUserIsLoggedIn</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/WebTestBase.php.html#502"><abbr title="Drupal\simpletest\WebTestBase::tearDown">tearDown</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/TestBase.php.html#837"><abbr title="Drupal\simpletest\TestBase::error">error</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.33-16+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Fri Jun 12 8:21:00 AEST 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([11,0,0,0,0,0,0,0,0,0,0,13], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([137,0,0,0,0,0,0,0,0,0,0,1], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,0,"<a href=\"src\/BrowserTestBase.php.html#24\">Drupal\\simpletest\\BrowserTestBase<\/a>"],[0,6,"<a href=\"src\/Cache\/Context\/TestDiscoveryCacheContext.php.html#16\">Drupal\\simpletest\\Cache\\Context\\TestDiscoveryCacheContext<\/a>"],[0,2,"<a href=\"src\/EnvironmentCleanerFactory.php.html#15\">Drupal\\simpletest\\EnvironmentCleanerFactory<\/a>"],[0,10,"<a href=\"src\/EnvironmentCleanerService.php.html#16\">Drupal\\simpletest\\EnvironmentCleanerService<\/a>"],[100,0,"<a href=\"src\/Exception\/MissingGroupException.php.html#17\">Drupal\\simpletest\\Exception\\MissingGroupException<\/a>"],[0,25,"<a href=\"src\/Form\/SimpletestResultsForm.php.html#25\">Drupal\\simpletest\\Form\\SimpletestResultsForm<\/a>"],[0,12,"<a href=\"src\/Form\/SimpletestSettingsForm.php.html#13\">Drupal\\simpletest\\Form\\SimpletestSettingsForm<\/a>"],[0,11,"<a href=\"src\/Form\/SimpletestTestForm.php.html#16\">Drupal\\simpletest\\Form\\SimpletestTestForm<\/a>"],[0,12,"<a href=\"src\/InstallerTestBase.php.html#24\">Drupal\\simpletest\\InstallerTestBase<\/a>"],[0,47,"<a href=\"src\/KernelTestBase.php.html#70\">Drupal\\simpletest\\KernelTestBase<\/a>"],[100,0,"<a href=\"src\/RouteProvider.php.html#15\">Drupal\\simpletest\\RouteProvider<\/a>"],[0,113,"<a href=\"src\/TestBase.php.html#32\">Drupal\\simpletest\\TestBase<\/a>"],[0,19,"<a href=\"src\/TestDiscovery.php.html#25\">Drupal\\simpletest\\TestDiscovery<\/a>"],[100,0,"<a href=\"src\/TestServiceProvider.php.html#15\">Drupal\\simpletest\\TestServiceProvider<\/a>"],[100,0,"<a href=\"src\/WebAssert.php.html#15\">Drupal\\simpletest\\WebAssert<\/a>"],[0,250,"<a href=\"src\/WebTestBase.php.html#40\">Drupal\\simpletest\\WebTestBase<\/a>"],[100,0,"<a href=\"src\/AssertContentTrait.php.html#17\">AssertContentTrait<\/a>"],[100,0,"<a href=\"src\/AssertHelperTrait.php.html#17\">AssertHelperTrait<\/a>"],[100,0,"<a href=\"src\/BlockCreationTrait.php.html#19\">BlockCreationTrait<\/a>"],[100,0,"<a href=\"src\/ContentTypeCreationTrait.php.html#19\">ContentTypeCreationTrait<\/a>"],[100,0,"<a href=\"src\/NodeCreationTrait.php.html#19\">NodeCreationTrait<\/a>"],[100,0,"<a href=\"src\/RandomGeneratorTrait.php.html#17\">RandomGeneratorTrait<\/a>"],[100,0,"<a href=\"src\/SessionTestTrait.php.html#17\">SessionTestTrait<\/a>"],[100,0,"<a href=\"src\/UserCreationTrait.php.html#21\">UserCreationTrait<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"src\/Cache\/Context\/TestDiscoveryCacheContext.php.html#51\">Drupal\\simpletest\\Cache\\Context\\TestDiscoveryCacheContext::__construct<\/a>"],[0,1,"<a href=\"src\/Cache\/Context\/TestDiscoveryCacheContext.php.html#59\">Drupal\\simpletest\\Cache\\Context\\TestDiscoveryCacheContext::getLabel<\/a>"],[0,2,"<a href=\"src\/Cache\/Context\/TestDiscoveryCacheContext.php.html#66\">Drupal\\simpletest\\Cache\\Context\\TestDiscoveryCacheContext::getContext<\/a>"],[0,1,"<a href=\"src\/Cache\/Context\/TestDiscoveryCacheContext.php.html#77\">Drupal\\simpletest\\Cache\\Context\\TestDiscoveryCacheContext::getCacheableMetadata<\/a>"],[0,1,"<a href=\"src\/Cache\/Context\/TestDiscoveryCacheContext.php.html#90\">Drupal\\simpletest\\Cache\\Context\\TestDiscoveryCacheContext::hash<\/a>"],[0,1,"<a href=\"src\/EnvironmentCleanerFactory.php.html#30\">Drupal\\simpletest\\EnvironmentCleanerFactory::__construct<\/a>"],[0,1,"<a href=\"src\/EnvironmentCleanerFactory.php.html#40\">Drupal\\simpletest\\EnvironmentCleanerFactory::createCleaner<\/a>"],[0,1,"<a href=\"src\/EnvironmentCleanerService.php.html#60\">Drupal\\simpletest\\EnvironmentCleanerService::__construct<\/a>"],[0,5,"<a href=\"src\/EnvironmentCleanerService.php.html#74\">Drupal\\simpletest\\EnvironmentCleanerService::cleanEnvironment<\/a>"],[0,2,"<a href=\"src\/EnvironmentCleanerService.php.html#101\">Drupal\\simpletest\\EnvironmentCleanerService::cleanDatabase<\/a>"],[0,2,"<a href=\"src\/EnvironmentCleanerService.php.html#114\">Drupal\\simpletest\\EnvironmentCleanerService::cleanTemporaryDirectories<\/a>"],[0,1,"<a href=\"src\/Form\/SimpletestResultsForm.php.html#51\">Drupal\\simpletest\\Form\\SimpletestResultsForm::create<\/a>"],[0,1,"<a href=\"src\/Form\/SimpletestResultsForm.php.html#64\">Drupal\\simpletest\\Form\\SimpletestResultsForm::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/SimpletestResultsForm.php.html#72\">Drupal\\simpletest\\Form\\SimpletestResultsForm::buildStatusImageMap<\/a>"],[0,1,"<a href=\"src\/Form\/SimpletestResultsForm.php.html#112\">Drupal\\simpletest\\Form\\SimpletestResultsForm::getFormId<\/a>"],[0,5,"<a href=\"src\/Form\/SimpletestResultsForm.php.html#119\">Drupal\\simpletest\\Form\\SimpletestResultsForm::buildForm<\/a>"],[0,8,"<a href=\"src\/Form\/SimpletestResultsForm.php.html#184\">Drupal\\simpletest\\Form\\SimpletestResultsForm::submitForm<\/a>"],[0,1,"<a href=\"src\/Form\/SimpletestResultsForm.php.html#230\">Drupal\\simpletest\\Form\\SimpletestResultsForm::getResults<\/a>"],[0,7,"<a href=\"src\/Form\/SimpletestResultsForm.php.html#259\">Drupal\\simpletest\\Form\\SimpletestResultsForm::addResultForm<\/a>"],[0,1,"<a href=\"src\/Form\/SimpletestSettingsForm.php.html#18\">Drupal\\simpletest\\Form\\SimpletestSettingsForm::getFormId<\/a>"],[0,1,"<a href=\"src\/Form\/SimpletestSettingsForm.php.html#25\">Drupal\\simpletest\\Form\\SimpletestSettingsForm::getEditableConfigNames<\/a>"],[0,4,"<a href=\"src\/Form\/SimpletestSettingsForm.php.html#32\">Drupal\\simpletest\\Form\\SimpletestSettingsForm::buildForm<\/a>"],[0,5,"<a href=\"src\/Form\/SimpletestSettingsForm.php.html#94\">Drupal\\simpletest\\Form\\SimpletestSettingsForm::validateForm<\/a>"],[0,1,"<a href=\"src\/Form\/SimpletestSettingsForm.php.html#114\">Drupal\\simpletest\\Form\\SimpletestSettingsForm::submitForm<\/a>"],[0,1,"<a href=\"src\/Form\/SimpletestTestForm.php.html#35\">Drupal\\simpletest\\Form\\SimpletestTestForm::create<\/a>"],[0,1,"<a href=\"src\/Form\/SimpletestTestForm.php.html#50\">Drupal\\simpletest\\Form\\SimpletestTestForm::__construct<\/a>"],[0,1,"<a href=\"src\/Form\/SimpletestTestForm.php.html#58\">Drupal\\simpletest\\Form\\SimpletestTestForm::getFormId<\/a>"],[0,4,"<a href=\"src\/Form\/SimpletestTestForm.php.html#65\">Drupal\\simpletest\\Form\\SimpletestTestForm::buildForm<\/a>"],[0,4,"<a href=\"src\/Form\/SimpletestTestForm.php.html#219\">Drupal\\simpletest\\Form\\SimpletestTestForm::submitForm<\/a>"],[0,4,"<a href=\"src\/InstallerTestBase.php.html#81\">Drupal\\simpletest\\InstallerTestBase::setUp<\/a>"],[0,1,"<a href=\"src\/InstallerTestBase.php.html#181\">Drupal\\simpletest\\InstallerTestBase::visitInstaller<\/a>"],[0,1,"<a href=\"src\/InstallerTestBase.php.html#188\">Drupal\\simpletest\\InstallerTestBase::setUpLanguage<\/a>"],[0,1,"<a href=\"src\/InstallerTestBase.php.html#198\">Drupal\\simpletest\\InstallerTestBase::setUpProfile<\/a>"],[0,1,"<a href=\"src\/InstallerTestBase.php.html#208\">Drupal\\simpletest\\InstallerTestBase::setUpSettings<\/a>"],[0,1,"<a href=\"src\/InstallerTestBase.php.html#221\">Drupal\\simpletest\\InstallerTestBase::setUpRequirementsProblem<\/a>"],[0,1,"<a href=\"src\/InstallerTestBase.php.html#228\">Drupal\\simpletest\\InstallerTestBase::setUpSite<\/a>"],[0,2,"<a href=\"src\/InstallerTestBase.php.html#242\">Drupal\\simpletest\\InstallerTestBase::refreshVariables<\/a>"],[0,1,"<a href=\"src\/KernelTestBase.php.html#122\">Drupal\\simpletest\\KernelTestBase::__construct<\/a>"],[0,4,"<a href=\"src\/KernelTestBase.php.html#130\">Drupal\\simpletest\\KernelTestBase::beforePrepareEnvironment<\/a>"],[0,2,"<a href=\"src\/KernelTestBase.php.html#150\">Drupal\\simpletest\\KernelTestBase::prepareConfigDirectories<\/a>"],[0,11,"<a href=\"src\/KernelTestBase.php.html#166\">Drupal\\simpletest\\KernelTestBase::setUp<\/a>"],[0,3,"<a href=\"src\/KernelTestBase.php.html#310\">Drupal\\simpletest\\KernelTestBase::tearDown<\/a>"],[0,6,"<a href=\"src\/KernelTestBase.php.html#337\">Drupal\\simpletest\\KernelTestBase::containerBuild<\/a>"],[0,1,"<a href=\"src\/KernelTestBase.php.html#417\">Drupal\\simpletest\\KernelTestBase::defaultLanguageData<\/a>"],[0,3,"<a href=\"src\/KernelTestBase.php.html#430\">Drupal\\simpletest\\KernelTestBase::installConfig<\/a>"],[0,5,"<a href=\"src\/KernelTestBase.php.html#454\">Drupal\\simpletest\\KernelTestBase::installSchema<\/a>"],[0,5,"<a href=\"src\/KernelTestBase.php.html#491\">Drupal\\simpletest\\KernelTestBase::installEntitySchema<\/a>"],[0,2,"<a href=\"src\/KernelTestBase.php.html#536\">Drupal\\simpletest\\KernelTestBase::enableModules<\/a>"],[0,2,"<a href=\"src\/KernelTestBase.php.html#583\">Drupal\\simpletest\\KernelTestBase::disableModules<\/a>"],[0,1,"<a href=\"src\/KernelTestBase.php.html#620\">Drupal\\simpletest\\KernelTestBase::registerStreamWrapper<\/a>"],[0,1,"<a href=\"src\/KernelTestBase.php.html#633\">Drupal\\simpletest\\KernelTestBase::render<\/a>"],[0,1,"<a href=\"src\/TestBase.php.html#252\">Drupal\\simpletest\\TestBase::__construct<\/a>"],[0,2,"<a href=\"src\/TestBase.php.html#262\">Drupal\\simpletest\\TestBase::checkTestHierarchyMismatch<\/a>"],[100,1,"<a href=\"src\/TestBase.php.html#273\">Drupal\\simpletest\\TestBase::setUp<\/a>"],[0,1,"<a href=\"src\/TestBase.php.html#281\">Drupal\\simpletest\\TestBase::checkRequirements<\/a>"],[0,1,"<a href=\"src\/TestBase.php.html#298\">Drupal\\simpletest\\TestBase::storeAssertion<\/a>"],[0,9,"<a href=\"src\/TestBase.php.html#328\">Drupal\\simpletest\\TestBase::assert<\/a>"],[0,3,"<a href=\"src\/TestBase.php.html#395\">Drupal\\simpletest\\TestBase::insertAssert<\/a>"],[0,1,"<a href=\"src\/TestBase.php.html#436\">Drupal\\simpletest\\TestBase::deleteAssert<\/a>"],[0,5,"<a href=\"src\/TestBase.php.html#450\">Drupal\\simpletest\\TestBase::getAssertionCall<\/a>"],[0,2,"<a href=\"src\/TestBase.php.html#487\">Drupal\\simpletest\\TestBase::assertTrue<\/a>"],[0,2,"<a href=\"src\/TestBase.php.html#512\">Drupal\\simpletest\\TestBase::assertFalse<\/a>"],[0,2,"<a href=\"src\/TestBase.php.html#535\">Drupal\\simpletest\\TestBase::assertNull<\/a>"],[0,2,"<a href=\"src\/TestBase.php.html#558\">Drupal\\simpletest\\TestBase::assertNotNull<\/a>"],[0,4,"<a href=\"src\/TestBase.php.html#583\">Drupal\\simpletest\\TestBase::assertEqual<\/a>"],[0,4,"<a href=\"src\/TestBase.php.html#618\">Drupal\\simpletest\\TestBase::assertNotEqual<\/a>"],[0,4,"<a href=\"src\/TestBase.php.html#653\">Drupal\\simpletest\\TestBase::assertIdentical<\/a>"],[0,4,"<a href=\"src\/TestBase.php.html#683\">Drupal\\simpletest\\TestBase::assertNotIdentical<\/a>"],[0,5,"<a href=\"src\/TestBase.php.html#713\">Drupal\\simpletest\\TestBase::assertIdenticalObject<\/a>"],[0,1,"<a href=\"src\/TestBase.php.html#734\">Drupal\\simpletest\\TestBase::assertNoErrorsLogged<\/a>"],[0,4,"<a href=\"src\/TestBase.php.html#752\">Drupal\\simpletest\\TestBase::assertErrorLogged<\/a>"],[0,1,"<a href=\"src\/TestBase.php.html#793\">Drupal\\simpletest\\TestBase::pass<\/a>"],[0,1,"<a href=\"src\/TestBase.php.html#814\">Drupal\\simpletest\\TestBase::fail<\/a>"],[0,2,"<a href=\"src\/TestBase.php.html#837\">Drupal\\simpletest\\TestBase::error<\/a>"],[0,3,"<a href=\"src\/TestBase.php.html#858\">Drupal\\simpletest\\TestBase::verbose<\/a>"],[0,16,"<a href=\"src\/TestBase.php.html#889\">Drupal\\simpletest\\TestBase::run<\/a>"],[0,2,"<a href=\"src\/TestBase.php.html#1036\">Drupal\\simpletest\\TestBase::prepareDatabasePrefix<\/a>"],[0,1,"<a href=\"src\/TestBase.php.html#1060\">Drupal\\simpletest\\TestBase::beforePrepareEnvironment<\/a>"],[0,6,"<a href=\"src\/TestBase.php.html#1079\">Drupal\\simpletest\\TestBase::prepareEnvironment<\/a>"],[0,1,"<a href=\"src\/TestBase.php.html#1194\">Drupal\\simpletest\\TestBase::tearDown<\/a>"],[0,13,"<a href=\"src\/TestBase.php.html#1208\">Drupal\\simpletest\\TestBase::restoreEnvironment<\/a>"],[0,3,"<a href=\"src\/TestBase.php.html#1302\">Drupal\\simpletest\\TestBase::errorHandler<\/a>"],[0,1,"<a href=\"src\/TestBase.php.html#1337\">Drupal\\simpletest\\TestBase::exceptionHandler<\/a>"],[0,1,"<a href=\"src\/TestBase.php.html#1363\">Drupal\\simpletest\\TestBase::settingsSet<\/a>"],[0,1,"<a href=\"src\/TestBase.php.html#1378\">Drupal\\simpletest\\TestBase::filePreDeleteCallback<\/a>"],[0,1,"<a href=\"src\/TestBase.php.html#1395\">Drupal\\simpletest\\TestBase::config<\/a>"],[0,1,"<a href=\"src\/TestBase.php.html#1405\">Drupal\\simpletest\\TestBase::getDatabasePrefix<\/a>"],[0,1,"<a href=\"src\/TestBase.php.html#1415\">Drupal\\simpletest\\TestBase::getTempFilesDirectory<\/a>"],[0,1,"<a href=\"src\/TestDiscovery.php.html#46\">Drupal\\simpletest\\TestDiscovery::__construct<\/a>"],[0,18,"<a href=\"src\/TestDiscovery.php.html#78\">Drupal\\simpletest\\TestDiscovery::getTestClasses<\/a>"],[0,1,"<a href=\"src\/WebTestBase.php.html#221\">Drupal\\simpletest\\WebTestBase::__construct<\/a>"],[0,1,"<a href=\"src\/WebTestBase.php.html#233\">Drupal\\simpletest\\WebTestBase::assertBlockAppears<\/a>"],[0,1,"<a href=\"src\/WebTestBase.php.html#244\">Drupal\\simpletest\\WebTestBase::assertNoBlockAppears<\/a>"],[0,1,"<a href=\"src\/WebTestBase.php.html#258\">Drupal\\simpletest\\WebTestBase::findBlockInstance<\/a>"],[0,4,"<a href=\"src\/WebTestBase.php.html#289\">Drupal\\simpletest\\WebTestBase::drupalLogin<\/a>"],[0,2,"<a href=\"src\/WebTestBase.php.html#317\">Drupal\\simpletest\\WebTestBase::drupalUserIsLoggedIn<\/a>"],[0,3,"<a href=\"src\/WebTestBase.php.html#333\">Drupal\\simpletest\\WebTestBase::drupalLogout<\/a>"],[0,1,"<a href=\"src\/WebTestBase.php.html#365\">Drupal\\simpletest\\WebTestBase::setUp<\/a>"],[0,1,"<a href=\"src\/WebTestBase.php.html#410\">Drupal\\simpletest\\WebTestBase::setBatch<\/a>"],[0,1,"<a href=\"src\/WebTestBase.php.html#428\">Drupal\\simpletest\\WebTestBase::restoreBatch<\/a>"],[0,4,"<a href=\"src\/WebTestBase.php.html#454\">Drupal\\simpletest\\WebTestBase::addCustomTranslations<\/a>"],[0,3,"<a href=\"src\/WebTestBase.php.html#477\">Drupal\\simpletest\\WebTestBase::writeCustomTranslations<\/a>"],[0,2,"<a href=\"src\/WebTestBase.php.html#502\">Drupal\\simpletest\\WebTestBase::tearDown<\/a>"],[0,5,"<a href=\"src\/WebTestBase.php.html#531\">Drupal\\simpletest\\WebTestBase::curlInitialize<\/a>"],[0,18,"<a href=\"src\/WebTestBase.php.html#589\">Drupal\\simpletest\\WebTestBase::curlExec<\/a>"],[0,11,"<a href=\"src\/WebTestBase.php.html#689\">Drupal\\simpletest\\WebTestBase::curlHeaderCallback<\/a>"],[0,2,"<a href=\"src\/WebTestBase.php.html#746\">Drupal\\simpletest\\WebTestBase::curlClose<\/a>"],[0,1,"<a href=\"src\/WebTestBase.php.html#764\">Drupal\\simpletest\\WebTestBase::isInChildSite<\/a>"],[0,4,"<a href=\"src\/WebTestBase.php.html#782\">Drupal\\simpletest\\WebTestBase::drupalGet<\/a>"],[0,1,"<a href=\"src\/WebTestBase.php.html#825\">Drupal\\simpletest\\WebTestBase::drupalGetJSON<\/a>"],[0,1,"<a href=\"src\/WebTestBase.php.html#844\">Drupal\\simpletest\\WebTestBase::drupalGetWithFormat<\/a>"],[0,2,"<a href=\"src\/WebTestBase.php.html#862\">Drupal\\simpletest\\WebTestBase::drupalGetAjax<\/a>"],[0,1,"<a href=\"src\/WebTestBase.php.html#882\">Drupal\\simpletest\\WebTestBase::drupalGetXHR<\/a>"],[0,28,"<a href=\"src\/WebTestBase.php.html#971\">Drupal\\simpletest\\WebTestBase::drupalPostForm<\/a>"],[0,14,"<a href=\"src\/WebTestBase.php.html#1117\">Drupal\\simpletest\\WebTestBase::drupalPostAjaxForm<\/a>"],[0,24,"<a href=\"src\/WebTestBase.php.html#1234\">Drupal\\simpletest\\WebTestBase::drupalProcessAjaxResponse<\/a>"],[0,1,"<a href=\"src\/WebTestBase.php.html#1361\">Drupal\\simpletest\\WebTestBase::drupalPost<\/a>"],[0,1,"<a href=\"src\/WebTestBase.php.html#1395\">Drupal\\simpletest\\WebTestBase::drupalPostWithFormat<\/a>"],[0,4,"<a href=\"src\/WebTestBase.php.html#1406\">Drupal\\simpletest\\WebTestBase::getAjaxPageStatePostData<\/a>"],[0,2,"<a href=\"src\/WebTestBase.php.html#1434\">Drupal\\simpletest\\WebTestBase::serializePostValues<\/a>"],[0,2,"<a href=\"src\/WebTestBase.php.html#1450\">Drupal\\simpletest\\WebTestBase::translatePostValues<\/a>"],[0,7,"<a href=\"src\/WebTestBase.php.html#1472\">Drupal\\simpletest\\WebTestBase::checkForMetaRefresh<\/a>"],[0,2,"<a href=\"src\/WebTestBase.php.html#1501\">Drupal\\simpletest\\WebTestBase::drupalHead<\/a>"],[0,49,"<a href=\"src\/WebTestBase.php.html#1535\">Drupal\\simpletest\\WebTestBase::handleForm<\/a>"],[0,1,"<a href=\"src\/WebTestBase.php.html#1695\">Drupal\\simpletest\\WebTestBase::clickLink<\/a>"],[0,1,"<a href=\"src\/WebTestBase.php.html#1714\">Drupal\\simpletest\\WebTestBase::clickLinkPartialName<\/a>"],[0,2,"<a href=\"src\/WebTestBase.php.html#1731\">Drupal\\simpletest\\WebTestBase::clickLinkHelper<\/a>"],[0,7,"<a href=\"src\/WebTestBase.php.html#1758\">Drupal\\simpletest\\WebTestBase::getAbsoluteUrl<\/a>"],[0,6,"<a href=\"src\/WebTestBase.php.html#1816\">Drupal\\simpletest\\WebTestBase::drupalGetHeaders<\/a>"],[0,5,"<a href=\"src\/WebTestBase.php.html#1865\">Drupal\\simpletest\\WebTestBase::drupalGetHeader<\/a>"],[0,2,"<a href=\"src\/WebTestBase.php.html#1903\">Drupal\\simpletest\\WebTestBase::assertHeader<\/a>"],[0,5,"<a href=\"src\/WebTestBase.php.html#1929\">Drupal\\simpletest\\WebTestBase::assertUrl<\/a>"],[0,3,"<a href=\"src\/WebTestBase.php.html#1976\">Drupal\\simpletest\\WebTestBase::assertResponse<\/a>"],[0,3,"<a href=\"src\/WebTestBase.php.html#2002\">Drupal\\simpletest\\WebTestBase::assertNoResponse<\/a>"],[0,7,"<a href=\"src\/WebTestBase.php.html#2019\">Drupal\\simpletest\\WebTestBase::buildUrl<\/a>"],[0,1,"<a href=\"src\/WebTestBase.php.html#2054\">Drupal\\simpletest\\WebTestBase::assertCacheTag<\/a>"],[0,1,"<a href=\"src\/WebTestBase.php.html#2065\">Drupal\\simpletest\\WebTestBase::assertNoCacheTag<\/a>"],[0,1,"<a href=\"src\/WebTestBase.php.html#2078\">Drupal\\simpletest\\WebTestBase::setHttpResponseDebugCacheabilityHeaders<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

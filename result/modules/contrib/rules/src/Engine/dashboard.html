@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/crafter/www/drupal-modules.devel/web/modules/contrib/rules/src/Engine</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../../index.html">/home/crafter/www/drupal-modules.devel/web</a></li>
+         <li class="breadcrumb-item"><a href="../../../../index.html">modules</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">contrib</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">rules</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">src</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Engine</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ActionExpressionContainer.php.html#12">Drupal\rules\Engine\ActionExpressionContainer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConditionExpressionContainer.php.html#12">Drupal\rules\Engine\ConditionExpressionContainer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExecutionMetadataState.php.html#15">Drupal\rules\Engine\ExecutionMetadataState</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExecutionState.php.html#20">Drupal\rules\Engine\ExecutionState</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionBase.php.html#10">Drupal\rules\Engine\ExpressionBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionContainerBase.php.html#11">Drupal\rules\Engine\ExpressionContainerBase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionManager.php.html#16">Drupal\rules\Engine\ExpressionManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="IntegrityViolation.php.html#10">Drupal\rules\Engine\IntegrityViolation</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="IntegrityViolationList.php.html#11">Drupal\rules\Engine\IntegrityViolationList</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponent.php.html#13">Drupal\rules\Engine\RulesComponent</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponentRepository.php.html#12">Drupal\rules\Engine\RulesComponentRepository</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="RulesComponent.php.html#13">Drupal\rules\Engine\RulesComponent</a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="ConditionExpressionContainer.php.html#12">Drupal\rules\Engine\ConditionExpressionContainer</a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="ExecutionState.php.html#20">Drupal\rules\Engine\ExecutionState</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="ActionExpressionContainer.php.html#12">Drupal\rules\Engine\ActionExpressionContainer</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="ExecutionMetadataState.php.html#15">Drupal\rules\Engine\ExecutionMetadataState</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="ExpressionBase.php.html#10">Drupal\rules\Engine\ExpressionBase</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="ExpressionContainerBase.php.html#11">Drupal\rules\Engine\ExpressionContainerBase</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="ExpressionManager.php.html#16">Drupal\rules\Engine\ExpressionManager</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="RulesComponentRepository.php.html#12">Drupal\rules\Engine\RulesComponentRepository</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="IntegrityViolationList.php.html#11">Drupal\rules\Engine\IntegrityViolationList</a></td><td class="text-right">110</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ActionExpressionContainer.php.html#33"><abbr title="Drupal\rules\Engine\ActionExpressionContainer::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionManager.php.html#93"><abbr title="Drupal\rules\Engine\ExpressionManager::createOr">createOr</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="IntegrityViolationList.php.html#41"><abbr title="Drupal\rules\Engine\IntegrityViolationList::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="IntegrityViolationList.php.html#23"><abbr title="Drupal\rules\Engine\IntegrityViolationList::addAll">addAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="IntegrityViolationList.php.html#16"><abbr title="Drupal\rules\Engine\IntegrityViolationList::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="IntegrityViolation.php.html#74"><abbr title="Drupal\rules\Engine\IntegrityViolation::getUuid">getUuid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="IntegrityViolation.php.html#66"><abbr title="Drupal\rules\Engine\IntegrityViolation::setUuid">setUuid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="IntegrityViolation.php.html#59"><abbr title="Drupal\rules\Engine\IntegrityViolation::getContextName">getContextName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="IntegrityViolation.php.html#51"><abbr title="Drupal\rules\Engine\IntegrityViolation::setContextName">setContextName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="IntegrityViolation.php.html#44"><abbr title="Drupal\rules\Engine\IntegrityViolation::getMessage">getMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="IntegrityViolation.php.html#36"><abbr title="Drupal\rules\Engine\IntegrityViolation::setMessage">setMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionManager.php.html#86"><abbr title="Drupal\rules\Engine\ExpressionManager::createAnd">createAnd</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="IntegrityViolationList.php.html#71"><abbr title="Drupal\rules\Engine\IntegrityViolationList::addViolationWithMessage">addViolationWithMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionManager.php.html#76"><abbr title="Drupal\rules\Engine\ExpressionManager::createCondition">createCondition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionManager.php.html#66"><abbr title="Drupal\rules\Engine\ExpressionManager::createAction">createAction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionManager.php.html#58"><abbr title="Drupal\rules\Engine\ExpressionManager::createActionSet">createActionSet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionManager.php.html#50"><abbr title="Drupal\rules\Engine\ExpressionManager::createRule">createRule</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionManager.php.html#37"><abbr title="Drupal\rules\Engine\ExpressionManager::createInstance">createInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionManager.php.html#28"><abbr title="Drupal\rules\Engine\ExpressionManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionContainerBase.php.html#101"><abbr title="Drupal\rules\Engine\ExpressionContainerBase::prepareExecutionMetadataStateAfterTraversal">prepareExecutionMetadataStateAfterTraversal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionContainerBase.php.html#91"><abbr title="Drupal\rules\Engine\ExpressionContainerBase::prepareExecutionMetadataStateBeforeTraversal">prepareExecutionMetadataStateBeforeTraversal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionContainerBase.php.html#69"><abbr title="Drupal\rules\Engine\ExpressionContainerBase::prepareExecutionMetadataState">prepareExecutionMetadataState</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionContainerBase.php.html#54"><abbr title="Drupal\rules\Engine\ExpressionContainerBase::checkIntegrity">checkIntegrity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="IntegrityViolationList.php.html#59"><abbr title="Drupal\rules\Engine\IntegrityViolationList::has">has</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="IntegrityViolationList.php.html#81"><abbr title="Drupal\rules\Engine\IntegrityViolationList::getFor">getFor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionContainerBase.php.html#23"><abbr title="Drupal\rules\Engine\ExpressionContainerBase::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponent.php.html#234"><abbr title="Drupal\rules\Engine\RulesComponent::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponentRepository.php.html#76"><abbr title="Drupal\rules\Engine\RulesComponentRepository::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponentRepository.php.html#68"><abbr title="Drupal\rules\Engine\RulesComponentRepository::addComponentResolver">addComponentResolver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponentRepository.php.html#59"><abbr title="Drupal\rules\Engine\RulesComponentRepository::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponent.php.html#339"><abbr title="Drupal\rules\Engine\RulesComponent::autocomplete">autocomplete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponent.php.html#315"><abbr title="Drupal\rules\Engine\RulesComponent::__clone">__clone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponent.php.html#305"><abbr title="Drupal\rules\Engine\RulesComponent::calculateDependencies">calculateDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponent.php.html#287"><abbr title="Drupal\rules\Engine\RulesComponent::getMetadataState">getMetadataState</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponent.php.html#273"><abbr title="Drupal\rules\Engine\RulesComponent::checkIntegrity">checkIntegrity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponent.php.html#259"><abbr title="Drupal\rules\Engine\RulesComponent::executeWithArguments">executeWithArguments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponent.php.html#217"><abbr title="Drupal\rules\Engine\RulesComponent::setContextValue">setContextValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponent.php.html#53"><abbr title="Drupal\rules\Engine\RulesComponent::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponent.php.html#200"><abbr title="Drupal\rules\Engine\RulesComponent::getProvidedContext">getProvidedContext</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponent.php.html#189"><abbr title="Drupal\rules\Engine\RulesComponent::provideContext">provideContext</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponent.php.html#169"><abbr title="Drupal\rules\Engine\RulesComponent::addContextDefinitionsForEvents">addContextDefinitionsForEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponent.php.html#156"><abbr title="Drupal\rules\Engine\RulesComponent::getContextDefinitions">getContextDefinitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponent.php.html#145"><abbr title="Drupal\rules\Engine\RulesComponent::addContextDefinition">addContextDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponent.php.html#131"><abbr title="Drupal\rules\Engine\RulesComponent::getState">getState</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponent.php.html#115"><abbr title="Drupal\rules\Engine\RulesComponent::getConfiguration">getConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponent.php.html#100"><abbr title="Drupal\rules\Engine\RulesComponent::getExpression">getExpression</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponent.php.html#89"><abbr title="Drupal\rules\Engine\RulesComponent::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponent.php.html#65"><abbr title="Drupal\rules\Engine\RulesComponent::createFromConfiguration">createFromConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionContainerBase.php.html#35"><abbr title="Drupal\rules\Engine\ExpressionContainerBase::addExpression">addExpression</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionBase.php.html#147"><abbr title="Drupal\rules\Engine\ExpressionBase::setUuid">setUuid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActionExpressionContainer.php.html#47"><abbr title="Drupal\rules\Engine\ActionExpressionContainer::addExpressionObject">addExpressionObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConditionExpressionContainer.php.html#93"><abbr title="Drupal\rules\Engine\ConditionExpressionContainer::isNegated">isNegated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExecutionMetadataState.php.html#63"><abbr title="Drupal\rules\Engine\ExecutionMetadataState::getDataDefinition">getDataDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExecutionMetadataState.php.html#55"><abbr title="Drupal\rules\Engine\ExecutionMetadataState::setDataDefinition">setDataDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExecutionMetadataState.php.html#40"><abbr title="Drupal\rules\Engine\ExecutionMetadataState::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExecutionMetadataState.php.html#30"><abbr title="Drupal\rules\Engine\ExecutionMetadataState::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConditionExpressionContainer.php.html#149"><abbr title="Drupal\rules\Engine\ConditionExpressionContainer::deleteExpression">deleteExpression</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConditionExpressionContainer.php.html#131"><abbr title="Drupal\rules\Engine\ConditionExpressionContainer::getExpression">getExpression</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConditionExpressionContainer.php.html#121"><abbr title="Drupal\rules\Engine\ConditionExpressionContainer::__clone">__clone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConditionExpressionContainer.php.html#114"><abbr title="Drupal\rules\Engine\ConditionExpressionContainer::getIterator">getIterator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConditionExpressionContainer.php.html#100"><abbr title="Drupal\rules\Engine\ConditionExpressionContainer::getConfiguration">getConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConditionExpressionContainer.php.html#85"><abbr title="Drupal\rules\Engine\ConditionExpressionContainer::negate">negate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExecutionMetadataState.php.html#80"><abbr title="Drupal\rules\Engine\ExecutionMetadataState::removeDataDefinition">removeDataDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConditionExpressionContainer.php.html#72"><abbr title="Drupal\rules\Engine\ConditionExpressionContainer::executeWithState">executeWithState</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConditionExpressionContainer.php.html#61"><abbr title="Drupal\rules\Engine\ConditionExpressionContainer::addCondition">addCondition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConditionExpressionContainer.php.html#47"><abbr title="Drupal\rules\Engine\ConditionExpressionContainer::addExpressionObject">addExpressionObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConditionExpressionContainer.php.html#33"><abbr title="Drupal\rules\Engine\ConditionExpressionContainer::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActionExpressionContainer.php.html#121"><abbr title="Drupal\rules\Engine\ActionExpressionContainer::deleteExpression">deleteExpression</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActionExpressionContainer.php.html#103"><abbr title="Drupal\rules\Engine\ActionExpressionContainer::getExpression">getExpression</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActionExpressionContainer.php.html#93"><abbr title="Drupal\rules\Engine\ActionExpressionContainer::__clone">__clone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActionExpressionContainer.php.html#86"><abbr title="Drupal\rules\Engine\ActionExpressionContainer::getIterator">getIterator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActionExpressionContainer.php.html#72"><abbr title="Drupal\rules\Engine\ActionExpressionContainer::getConfiguration">getConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ActionExpressionContainer.php.html#61"><abbr title="Drupal\rules\Engine\ActionExpressionContainer::addAction">addAction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExecutionMetadataState.php.html#73"><abbr title="Drupal\rules\Engine\ExecutionMetadataState::hasDataDefinition">hasDataDefinition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExecutionMetadataState.php.html#90"><abbr title="Drupal\rules\Engine\ExecutionMetadataState::fetchDefinitionByPropertyPath">fetchDefinitionByPropertyPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionBase.php.html#140"><abbr title="Drupal\rules\Engine\ExpressionBase::getUuid">getUuid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExecutionState.php.html#195"><abbr title="Drupal\rules\Engine\ExecutionState::autoSave">autoSave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionBase.php.html#133"><abbr title="Drupal\rules\Engine\ExpressionBase::getLabel">getLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionBase.php.html#126"><abbr title="Drupal\rules\Engine\ExpressionBase::setRoot">setRoot</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionBase.php.html#115"><abbr title="Drupal\rules\Engine\ExpressionBase::getRoot">getRoot</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionBase.php.html#105"><abbr title="Drupal\rules\Engine\ExpressionBase::getFormHandler">getFormHandler</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionBase.php.html#98"><abbr title="Drupal\rules\Engine\ExpressionBase::calculateDependencies">calculateDependencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionBase.php.html#91"><abbr title="Drupal\rules\Engine\ExpressionBase::defaultConfiguration">defaultConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionBase.php.html#80"><abbr title="Drupal\rules\Engine\ExpressionBase::setConfiguration">setConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionBase.php.html#70"><abbr title="Drupal\rules\Engine\ExpressionBase::getConfiguration">getConfiguration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionBase.php.html#58"><abbr title="Drupal\rules\Engine\ExpressionBase::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpressionBase.php.html#50"><abbr title="Drupal\rules\Engine\ExpressionBase::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExecutionState.php.html#188"><abbr title="Drupal\rules\Engine\ExecutionState::getAutoSaveSelectors">getAutoSaveSelectors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExecutionMetadataState.php.html#115"><abbr title="Drupal\rules\Engine\ExecutionMetadataState::autocomplete">autocomplete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExecutionState.php.html#180"><abbr title="Drupal\rules\Engine\ExecutionState::saveChangesLater">saveChangesLater</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExecutionState.php.html#151"><abbr title="Drupal\rules\Engine\ExecutionState::fetchDataByPropertyPath">fetchDataByPropertyPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExecutionState.php.html#141"><abbr title="Drupal\rules\Engine\ExecutionState::removeVariable">removeVariable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExecutionState.php.html#122"><abbr title="Drupal\rules\Engine\ExecutionState::hasVariable">hasVariable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExecutionState.php.html#115"><abbr title="Drupal\rules\Engine\ExecutionState::getVariableValue">getVariableValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExecutionState.php.html#101"><abbr title="Drupal\rules\Engine\ExecutionState::getVariable">getVariable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExecutionState.php.html#93"><abbr title="Drupal\rules\Engine\ExecutionState::setVariableData">setVariableData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExecutionState.php.html#81"><abbr title="Drupal\rules\Engine\ExecutionState::setVariable">setVariable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExecutionState.php.html#74"><abbr title="Drupal\rules\Engine\ExecutionState::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExecutionState.php.html#64"><abbr title="Drupal\rules\Engine\ExecutionState::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RulesComponentRepository.php.html#84"><abbr title="Drupal\rules\Engine\RulesComponentRepository::getMultiple">getMultiple</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="RulesComponentRepository.php.html#84"><abbr title="Drupal\rules\Engine\RulesComponentRepository::getMultiple">getMultiple</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="ExpressionContainerBase.php.html#69"><abbr title="Drupal\rules\Engine\ExpressionContainerBase::prepareExecutionMetadataState">prepareExecutionMetadataState</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ConditionExpressionContainer.php.html#131"><abbr title="Drupal\rules\Engine\ConditionExpressionContainer::getExpression">getExpression</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ExecutionMetadataState.php.html#90"><abbr title="Drupal\rules\Engine\ExecutionMetadataState::fetchDefinitionByPropertyPath">fetchDefinitionByPropertyPath</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ExecutionState.php.html#151"><abbr title="Drupal\rules\Engine\ExecutionState::fetchDataByPropertyPath">fetchDataByPropertyPath</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ExecutionState.php.html#122"><abbr title="Drupal\rules\Engine\ExecutionState::hasVariable">hasVariable</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ConditionExpressionContainer.php.html#149"><abbr title="Drupal\rules\Engine\ConditionExpressionContainer::deleteExpression">deleteExpression</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ActionExpressionContainer.php.html#103"><abbr title="Drupal\rules\Engine\ActionExpressionContainer::getExpression">getExpression</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ActionExpressionContainer.php.html#121"><abbr title="Drupal\rules\Engine\ActionExpressionContainer::deleteExpression">deleteExpression</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="RulesComponent.php.html#169"><abbr title="Drupal\rules\Engine\RulesComponent::addContextDefinitionsForEvents">addContextDefinitionsForEvents</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="RulesComponent.php.html#65"><abbr title="Drupal\rules\Engine\RulesComponent::createFromConfiguration">createFromConfiguration</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="IntegrityViolationList.php.html#81"><abbr title="Drupal\rules\Engine\IntegrityViolationList::getFor">getFor</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ExpressionContainerBase.php.html#54"><abbr title="Drupal\rules\Engine\ExpressionContainerBase::checkIntegrity">checkIntegrity</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ActionExpressionContainer.php.html#47"><abbr title="Drupal\rules\Engine\ActionExpressionContainer::addExpressionObject">addExpressionObject</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ConditionExpressionContainer.php.html#47"><abbr title="Drupal\rules\Engine\ConditionExpressionContainer::addExpressionObject">addExpressionObject</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="RulesComponent.php.html#234"><abbr title="Drupal\rules\Engine\RulesComponent::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExpressionManager.php.html#37"><abbr title="Drupal\rules\Engine\ExpressionManager::createInstance">createInstance</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExpressionManager.php.html#50"><abbr title="Drupal\rules\Engine\ExpressionManager::createRule">createRule</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="RulesComponent.php.html#259"><abbr title="Drupal\rules\Engine\RulesComponent::executeWithArguments">executeWithArguments</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExpressionManager.php.html#58"><abbr title="Drupal\rules\Engine\ExpressionManager::createActionSet">createActionSet</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExpressionManager.php.html#76"><abbr title="Drupal\rules\Engine\ExpressionManager::createCondition">createCondition</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExpressionManager.php.html#66"><abbr title="Drupal\rules\Engine\ExpressionManager::createAction">createAction</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="IntegrityViolationList.php.html#23"><abbr title="Drupal\rules\Engine\IntegrityViolationList::addAll">addAll</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="IntegrityViolationList.php.html#41"><abbr title="Drupal\rules\Engine\IntegrityViolationList::get">get</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="RulesComponent.php.html#287"><abbr title="Drupal\rules\Engine\RulesComponent::getMetadataState">getMetadataState</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="RulesComponent.php.html#217"><abbr title="Drupal\rules\Engine\RulesComponent::setContextValue">setContextValue</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="RulesComponentRepository.php.html#76"><abbr title="Drupal\rules\Engine\RulesComponentRepository::get">get</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ActionExpressionContainer.php.html#33"><abbr title="Drupal\rules\Engine\ActionExpressionContainer::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExpressionContainerBase.php.html#35"><abbr title="Drupal\rules\Engine\ExpressionContainerBase::addExpression">addExpression</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ConditionExpressionContainer.php.html#100"><abbr title="Drupal\rules\Engine\ConditionExpressionContainer::getConfiguration">getConfiguration</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ActionExpressionContainer.php.html#61"><abbr title="Drupal\rules\Engine\ActionExpressionContainer::addAction">addAction</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ActionExpressionContainer.php.html#72"><abbr title="Drupal\rules\Engine\ActionExpressionContainer::getConfiguration">getConfiguration</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ActionExpressionContainer.php.html#93"><abbr title="Drupal\rules\Engine\ActionExpressionContainer::__clone">__clone</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ConditionExpressionContainer.php.html#33"><abbr title="Drupal\rules\Engine\ConditionExpressionContainer::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ConditionExpressionContainer.php.html#61"><abbr title="Drupal\rules\Engine\ConditionExpressionContainer::addCondition">addCondition</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ConditionExpressionContainer.php.html#72"><abbr title="Drupal\rules\Engine\ConditionExpressionContainer::executeWithState">executeWithState</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ConditionExpressionContainer.php.html#121"><abbr title="Drupal\rules\Engine\ConditionExpressionContainer::__clone">__clone</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExpressionBase.php.html#115"><abbr title="Drupal\rules\Engine\ExpressionBase::getRoot">getRoot</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExecutionMetadataState.php.html#40"><abbr title="Drupal\rules\Engine\ExecutionMetadataState::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExecutionMetadataState.php.html#63"><abbr title="Drupal\rules\Engine\ExecutionMetadataState::getDataDefinition">getDataDefinition</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExecutionMetadataState.php.html#80"><abbr title="Drupal\rules\Engine\ExecutionMetadataState::removeDataDefinition">removeDataDefinition</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExecutionState.php.html#101"><abbr title="Drupal\rules\Engine\ExecutionState::getVariable">getVariable</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExecutionState.php.html#141"><abbr title="Drupal\rules\Engine\ExecutionState::removeVariable">removeVariable</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExpressionBase.php.html#80"><abbr title="Drupal\rules\Engine\ExpressionBase::setConfiguration">setConfiguration</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExpressionBase.php.html#105"><abbr title="Drupal\rules\Engine\ExpressionBase::getFormHandler">getFormHandler</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExecutionState.php.html#195"><abbr title="Drupal\rules\Engine\ExecutionState::autoSave">autoSave</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.33-16+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Fri Jun 12 8:21:00 AEST 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([11,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([100,0,0,0,0,0,0,0,0,0,0,2], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,22,"<a href=\"ActionExpressionContainer.php.html#12\">Drupal\\rules\\Engine\\ActionExpressionContainer<\/a>"],[0,27,"<a href=\"ConditionExpressionContainer.php.html#12\">Drupal\\rules\\Engine\\ConditionExpressionContainer<\/a>"],[0,15,"<a href=\"ExecutionMetadataState.php.html#15\">Drupal\\rules\\Engine\\ExecutionMetadataState<\/a>"],[0,23,"<a href=\"ExecutionState.php.html#20\">Drupal\\rules\\Engine\\ExecutionState<\/a>"],[0,15,"<a href=\"ExpressionBase.php.html#10\">Drupal\\rules\\Engine\\ExpressionBase<\/a>"],[0,15,"<a href=\"ExpressionContainerBase.php.html#11\">Drupal\\rules\\Engine\\ExpressionContainerBase<\/a>"],[0,13,"<a href=\"ExpressionManager.php.html#16\">Drupal\\rules\\Engine\\ExpressionManager<\/a>"],[0,6,"<a href=\"IntegrityViolation.php.html#10\">Drupal\\rules\\Engine\\IntegrityViolation<\/a>"],[0,10,"<a href=\"IntegrityViolationList.php.html#11\">Drupal\\rules\\Engine\\IntegrityViolationList<\/a>"],[0,27,"<a href=\"RulesComponent.php.html#13\">Drupal\\rules\\Engine\\RulesComponent<\/a>"],[0,11,"<a href=\"RulesComponentRepository.php.html#12\">Drupal\\rules\\Engine\\RulesComponentRepository<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,2,"<a href=\"ActionExpressionContainer.php.html#33\">Drupal\\rules\\Engine\\ActionExpressionContainer::__construct<\/a>"],[0,3,"<a href=\"ActionExpressionContainer.php.html#47\">Drupal\\rules\\Engine\\ActionExpressionContainer::addExpressionObject<\/a>"],[0,2,"<a href=\"ActionExpressionContainer.php.html#61\">Drupal\\rules\\Engine\\ActionExpressionContainer::addAction<\/a>"],[0,2,"<a href=\"ActionExpressionContainer.php.html#72\">Drupal\\rules\\Engine\\ActionExpressionContainer::getConfiguration<\/a>"],[0,1,"<a href=\"ActionExpressionContainer.php.html#86\">Drupal\\rules\\Engine\\ActionExpressionContainer::getIterator<\/a>"],[0,2,"<a href=\"ActionExpressionContainer.php.html#93\">Drupal\\rules\\Engine\\ActionExpressionContainer::__clone<\/a>"],[0,5,"<a href=\"ActionExpressionContainer.php.html#103\">Drupal\\rules\\Engine\\ActionExpressionContainer::getExpression<\/a>"],[0,5,"<a href=\"ActionExpressionContainer.php.html#121\">Drupal\\rules\\Engine\\ActionExpressionContainer::deleteExpression<\/a>"],[0,2,"<a href=\"ConditionExpressionContainer.php.html#33\">Drupal\\rules\\Engine\\ConditionExpressionContainer::__construct<\/a>"],[0,3,"<a href=\"ConditionExpressionContainer.php.html#47\">Drupal\\rules\\Engine\\ConditionExpressionContainer::addExpressionObject<\/a>"],[0,2,"<a href=\"ConditionExpressionContainer.php.html#61\">Drupal\\rules\\Engine\\ConditionExpressionContainer::addCondition<\/a>"],[0,2,"<a href=\"ConditionExpressionContainer.php.html#72\">Drupal\\rules\\Engine\\ConditionExpressionContainer::executeWithState<\/a>"],[100,1,"<a href=\"ConditionExpressionContainer.php.html#80\">Drupal\\rules\\Engine\\ConditionExpressionContainer::evaluate<\/a>"],[0,1,"<a href=\"ConditionExpressionContainer.php.html#85\">Drupal\\rules\\Engine\\ConditionExpressionContainer::negate<\/a>"],[0,1,"<a href=\"ConditionExpressionContainer.php.html#93\">Drupal\\rules\\Engine\\ConditionExpressionContainer::isNegated<\/a>"],[0,2,"<a href=\"ConditionExpressionContainer.php.html#100\">Drupal\\rules\\Engine\\ConditionExpressionContainer::getConfiguration<\/a>"],[0,1,"<a href=\"ConditionExpressionContainer.php.html#114\">Drupal\\rules\\Engine\\ConditionExpressionContainer::getIterator<\/a>"],[0,2,"<a href=\"ConditionExpressionContainer.php.html#121\">Drupal\\rules\\Engine\\ConditionExpressionContainer::__clone<\/a>"],[0,5,"<a href=\"ConditionExpressionContainer.php.html#131\">Drupal\\rules\\Engine\\ConditionExpressionContainer::getExpression<\/a>"],[0,5,"<a href=\"ConditionExpressionContainer.php.html#149\">Drupal\\rules\\Engine\\ConditionExpressionContainer::deleteExpression<\/a>"],[0,1,"<a href=\"ExecutionMetadataState.php.html#30\">Drupal\\rules\\Engine\\ExecutionMetadataState::create<\/a>"],[0,2,"<a href=\"ExecutionMetadataState.php.html#40\">Drupal\\rules\\Engine\\ExecutionMetadataState::__construct<\/a>"],[0,1,"<a href=\"ExecutionMetadataState.php.html#55\">Drupal\\rules\\Engine\\ExecutionMetadataState::setDataDefinition<\/a>"],[0,2,"<a href=\"ExecutionMetadataState.php.html#63\">Drupal\\rules\\Engine\\ExecutionMetadataState::getDataDefinition<\/a>"],[0,1,"<a href=\"ExecutionMetadataState.php.html#73\">Drupal\\rules\\Engine\\ExecutionMetadataState::hasDataDefinition<\/a>"],[0,2,"<a href=\"ExecutionMetadataState.php.html#80\">Drupal\\rules\\Engine\\ExecutionMetadataState::removeDataDefinition<\/a>"],[0,5,"<a href=\"ExecutionMetadataState.php.html#90\">Drupal\\rules\\Engine\\ExecutionMetadataState::fetchDefinitionByPropertyPath<\/a>"],[0,1,"<a href=\"ExecutionMetadataState.php.html#115\">Drupal\\rules\\Engine\\ExecutionMetadataState::autocomplete<\/a>"],[0,1,"<a href=\"ExecutionState.php.html#64\">Drupal\\rules\\Engine\\ExecutionState::create<\/a>"],[0,1,"<a href=\"ExecutionState.php.html#74\">Drupal\\rules\\Engine\\ExecutionState::__construct<\/a>"],[0,1,"<a href=\"ExecutionState.php.html#81\">Drupal\\rules\\Engine\\ExecutionState::setVariable<\/a>"],[0,1,"<a href=\"ExecutionState.php.html#93\">Drupal\\rules\\Engine\\ExecutionState::setVariableData<\/a>"],[0,2,"<a href=\"ExecutionState.php.html#101\">Drupal\\rules\\Engine\\ExecutionState::getVariable<\/a>"],[0,1,"<a href=\"ExecutionState.php.html#115\">Drupal\\rules\\Engine\\ExecutionState::getVariableValue<\/a>"],[0,5,"<a href=\"ExecutionState.php.html#122\">Drupal\\rules\\Engine\\ExecutionState::hasVariable<\/a>"],[0,2,"<a href=\"ExecutionState.php.html#141\">Drupal\\rules\\Engine\\ExecutionState::removeVariable<\/a>"],[0,5,"<a href=\"ExecutionState.php.html#151\">Drupal\\rules\\Engine\\ExecutionState::fetchDataByPropertyPath<\/a>"],[0,1,"<a href=\"ExecutionState.php.html#180\">Drupal\\rules\\Engine\\ExecutionState::saveChangesLater<\/a>"],[0,1,"<a href=\"ExecutionState.php.html#188\">Drupal\\rules\\Engine\\ExecutionState::getAutoSaveSelectors<\/a>"],[0,2,"<a href=\"ExecutionState.php.html#195\">Drupal\\rules\\Engine\\ExecutionState::autoSave<\/a>"],[0,1,"<a href=\"ExpressionBase.php.html#50\">Drupal\\rules\\Engine\\ExpressionBase::__construct<\/a>"],[0,1,"<a href=\"ExpressionBase.php.html#58\">Drupal\\rules\\Engine\\ExpressionBase::execute<\/a>"],[0,1,"<a href=\"ExpressionBase.php.html#70\">Drupal\\rules\\Engine\\ExpressionBase::getConfiguration<\/a>"],[0,2,"<a href=\"ExpressionBase.php.html#80\">Drupal\\rules\\Engine\\ExpressionBase::setConfiguration<\/a>"],[0,1,"<a href=\"ExpressionBase.php.html#91\">Drupal\\rules\\Engine\\ExpressionBase::defaultConfiguration<\/a>"],[0,1,"<a href=\"ExpressionBase.php.html#98\">Drupal\\rules\\Engine\\ExpressionBase::calculateDependencies<\/a>"],[0,2,"<a href=\"ExpressionBase.php.html#105\">Drupal\\rules\\Engine\\ExpressionBase::getFormHandler<\/a>"],[0,2,"<a href=\"ExpressionBase.php.html#115\">Drupal\\rules\\Engine\\ExpressionBase::getRoot<\/a>"],[0,1,"<a href=\"ExpressionBase.php.html#126\">Drupal\\rules\\Engine\\ExpressionBase::setRoot<\/a>"],[0,1,"<a href=\"ExpressionBase.php.html#133\">Drupal\\rules\\Engine\\ExpressionBase::getLabel<\/a>"],[0,1,"<a href=\"ExpressionBase.php.html#140\">Drupal\\rules\\Engine\\ExpressionBase::getUuid<\/a>"],[0,1,"<a href=\"ExpressionBase.php.html#147\">Drupal\\rules\\Engine\\ExpressionBase::setUuid<\/a>"],[0,1,"<a href=\"ExpressionContainerBase.php.html#23\">Drupal\\rules\\Engine\\ExpressionContainerBase::create<\/a>"],[0,2,"<a href=\"ExpressionContainerBase.php.html#35\">Drupal\\rules\\Engine\\ExpressionContainerBase::addExpression<\/a>"],[100,1,"<a href=\"ExpressionContainerBase.php.html#49\">Drupal\\rules\\Engine\\ExpressionContainerBase::allowsMetadataAssertions<\/a>"],[0,3,"<a href=\"ExpressionContainerBase.php.html#54\">Drupal\\rules\\Engine\\ExpressionContainerBase::checkIntegrity<\/a>"],[0,6,"<a href=\"ExpressionContainerBase.php.html#69\">Drupal\\rules\\Engine\\ExpressionContainerBase::prepareExecutionMetadataState<\/a>"],[0,1,"<a href=\"ExpressionContainerBase.php.html#91\">Drupal\\rules\\Engine\\ExpressionContainerBase::prepareExecutionMetadataStateBeforeTraversal<\/a>"],[0,1,"<a href=\"ExpressionContainerBase.php.html#101\">Drupal\\rules\\Engine\\ExpressionContainerBase::prepareExecutionMetadataStateAfterTraversal<\/a>"],[0,1,"<a href=\"ExpressionManager.php.html#28\">Drupal\\rules\\Engine\\ExpressionManager::__construct<\/a>"],[0,2,"<a href=\"ExpressionManager.php.html#37\">Drupal\\rules\\Engine\\ExpressionManager::createInstance<\/a>"],[0,2,"<a href=\"ExpressionManager.php.html#50\">Drupal\\rules\\Engine\\ExpressionManager::createRule<\/a>"],[0,2,"<a href=\"ExpressionManager.php.html#58\">Drupal\\rules\\Engine\\ExpressionManager::createActionSet<\/a>"],[0,2,"<a href=\"ExpressionManager.php.html#66\">Drupal\\rules\\Engine\\ExpressionManager::createAction<\/a>"],[0,2,"<a href=\"ExpressionManager.php.html#76\">Drupal\\rules\\Engine\\ExpressionManager::createCondition<\/a>"],[0,1,"<a href=\"ExpressionManager.php.html#86\">Drupal\\rules\\Engine\\ExpressionManager::createAnd<\/a>"],[0,1,"<a href=\"ExpressionManager.php.html#93\">Drupal\\rules\\Engine\\ExpressionManager::createOr<\/a>"],[0,1,"<a href=\"IntegrityViolation.php.html#36\">Drupal\\rules\\Engine\\IntegrityViolation::setMessage<\/a>"],[0,1,"<a href=\"IntegrityViolation.php.html#44\">Drupal\\rules\\Engine\\IntegrityViolation::getMessage<\/a>"],[0,1,"<a href=\"IntegrityViolation.php.html#51\">Drupal\\rules\\Engine\\IntegrityViolation::setContextName<\/a>"],[0,1,"<a href=\"IntegrityViolation.php.html#59\">Drupal\\rules\\Engine\\IntegrityViolation::getContextName<\/a>"],[0,1,"<a href=\"IntegrityViolation.php.html#66\">Drupal\\rules\\Engine\\IntegrityViolation::setUuid<\/a>"],[0,1,"<a href=\"IntegrityViolation.php.html#74\">Drupal\\rules\\Engine\\IntegrityViolation::getUuid<\/a>"],[0,1,"<a href=\"IntegrityViolationList.php.html#16\">Drupal\\rules\\Engine\\IntegrityViolationList::add<\/a>"],[0,2,"<a href=\"IntegrityViolationList.php.html#23\">Drupal\\rules\\Engine\\IntegrityViolationList::addAll<\/a>"],[0,2,"<a href=\"IntegrityViolationList.php.html#41\">Drupal\\rules\\Engine\\IntegrityViolationList::get<\/a>"],[0,1,"<a href=\"IntegrityViolationList.php.html#59\">Drupal\\rules\\Engine\\IntegrityViolationList::has<\/a>"],[0,1,"<a href=\"IntegrityViolationList.php.html#71\">Drupal\\rules\\Engine\\IntegrityViolationList::addViolationWithMessage<\/a>"],[0,3,"<a href=\"IntegrityViolationList.php.html#81\">Drupal\\rules\\Engine\\IntegrityViolationList::getFor<\/a>"],[0,1,"<a href=\"RulesComponent.php.html#53\">Drupal\\rules\\Engine\\RulesComponent::create<\/a>"],[0,3,"<a href=\"RulesComponent.php.html#65\">Drupal\\rules\\Engine\\RulesComponent::createFromConfiguration<\/a>"],[0,1,"<a href=\"RulesComponent.php.html#89\">Drupal\\rules\\Engine\\RulesComponent::__construct<\/a>"],[0,1,"<a href=\"RulesComponent.php.html#100\">Drupal\\rules\\Engine\\RulesComponent::getExpression<\/a>"],[0,1,"<a href=\"RulesComponent.php.html#115\">Drupal\\rules\\Engine\\RulesComponent::getConfiguration<\/a>"],[0,1,"<a href=\"RulesComponent.php.html#131\">Drupal\\rules\\Engine\\RulesComponent::getState<\/a>"],[0,1,"<a href=\"RulesComponent.php.html#145\">Drupal\\rules\\Engine\\RulesComponent::addContextDefinition<\/a>"],[0,1,"<a href=\"RulesComponent.php.html#156\">Drupal\\rules\\Engine\\RulesComponent::getContextDefinitions<\/a>"],[0,3,"<a href=\"RulesComponent.php.html#169\">Drupal\\rules\\Engine\\RulesComponent::addContextDefinitionsForEvents<\/a>"],[0,1,"<a href=\"RulesComponent.php.html#189\">Drupal\\rules\\Engine\\RulesComponent::provideContext<\/a>"],[0,1,"<a href=\"RulesComponent.php.html#200\">Drupal\\rules\\Engine\\RulesComponent::getProvidedContext<\/a>"],[0,2,"<a href=\"RulesComponent.php.html#217\">Drupal\\rules\\Engine\\RulesComponent::setContextValue<\/a>"],[0,2,"<a href=\"RulesComponent.php.html#234\">Drupal\\rules\\Engine\\RulesComponent::execute<\/a>"],[0,2,"<a href=\"RulesComponent.php.html#259\">Drupal\\rules\\Engine\\RulesComponent::executeWithArguments<\/a>"],[0,1,"<a href=\"RulesComponent.php.html#273\">Drupal\\rules\\Engine\\RulesComponent::checkIntegrity<\/a>"],[0,2,"<a href=\"RulesComponent.php.html#287\">Drupal\\rules\\Engine\\RulesComponent::getMetadataState<\/a>"],[0,1,"<a href=\"RulesComponent.php.html#305\">Drupal\\rules\\Engine\\RulesComponent::calculateDependencies<\/a>"],[0,1,"<a href=\"RulesComponent.php.html#315\">Drupal\\rules\\Engine\\RulesComponent::__clone<\/a>"],[0,1,"<a href=\"RulesComponent.php.html#339\">Drupal\\rules\\Engine\\RulesComponent::autocomplete<\/a>"],[0,1,"<a href=\"RulesComponentRepository.php.html#59\">Drupal\\rules\\Engine\\RulesComponentRepository::__construct<\/a>"],[0,1,"<a href=\"RulesComponentRepository.php.html#68\">Drupal\\rules\\Engine\\RulesComponentRepository::addComponentResolver<\/a>"],[0,2,"<a href=\"RulesComponentRepository.php.html#76\">Drupal\\rules\\Engine\\RulesComponentRepository::get<\/a>"],[0,7,"<a href=\"RulesComponentRepository.php.html#84\">Drupal\\rules\\Engine\\RulesComponentRepository::getMultiple<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

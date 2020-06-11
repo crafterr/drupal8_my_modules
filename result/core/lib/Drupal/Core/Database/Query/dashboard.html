@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/crafter/www/drupal-modules.devel/web/core/lib/Drupal/Core/Database/Query</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../../.css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../../../../../.css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../../../index.html">/home/crafter/www/drupal-modules.devel/web</a></li>
+         <li class="breadcrumb-item"><a href="../../../../../index.html">core</a></li>
+         <li class="breadcrumb-item"><a href="../../../../index.html">lib</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">Drupal</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">Core</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Database</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Query</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Condition.php.html#11">Drupal\Core\Database\Query\Condition</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Delete.php.html#13">Drupal\Core\Database\Query\Delete</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Insert.php.html#12">Drupal\Core\Database\Query\Insert</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Merge.php.html#46">Drupal\Core\Database\Query\Merge</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PagerSelectExtender.php.html#17">Drupal\Core\Database\Query\PagerSelectExtender</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query.php.html#14">Drupal\Core\Database\Query\Query</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#13">Drupal\Core\Database\Query\Select</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#10">Drupal\Core\Database\Query\SelectExtender</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TableSortExtender.php.html#11">Drupal\Core\Database\Query\TableSortExtender</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Truncate.php.html#11">Drupal\Core\Database\Query\Truncate</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Update.php.html#13">Drupal\Core\Database\Query\Update</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Upsert.php.html#16">Drupal\Core\Database\Query\Upsert</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InsertTrait.php.html#10">InsertTrait</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryConditionTrait.php.html#12">QueryConditionTrait</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Select.php.html#13">Drupal\Core\Database\Query\Select</a></td><td class="text-right">19460</td></tr>
+       <tr><td><a href="SelectExtender.php.html#10">Drupal\Core\Database\Query\SelectExtender</a></td><td class="text-right">4556</td></tr>
+       <tr><td><a href="Condition.php.html#11">Drupal\Core\Database\Query\Condition</a></td><td class="text-right">2550</td></tr>
+       <tr><td><a href="Merge.php.html#46">Drupal\Core\Database\Query\Merge</a></td><td class="text-right">812</td></tr>
+       <tr><td><a href="Insert.php.html#12">Drupal\Core\Database\Query\Insert</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="InsertTrait.php.html#10">InsertTrait</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Update.php.html#13">Drupal\Core\Database\Query\Update</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="PagerSelectExtender.php.html#17">Drupal\Core\Database\Query\PagerSelectExtender</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Upsert.php.html#16">Drupal\Core\Database\Query\Upsert</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Truncate.php.html#11">Drupal\Core\Database\Query\Truncate</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Delete.php.html#13">Drupal\Core\Database\Query\Delete</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="TableSortExtender.php.html#11">Drupal\Core\Database\Query\TableSortExtender</a></td><td class="text-right">12</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Condition.php.html#82"><abbr title="Drupal\Core\Database\Query\Condition::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#301"><abbr title="Drupal\Core\Database\Query\SelectExtender::preExecute">preExecute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#237"><abbr title="Drupal\Core\Database\Query\SelectExtender::getExpressions">getExpressions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#244"><abbr title="Drupal\Core\Database\Query\SelectExtender::getOrderBy">getOrderBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#251"><abbr title="Drupal\Core\Database\Query\SelectExtender::getGroupBy">getGroupBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#258"><abbr title="Drupal\Core\Database\Query\SelectExtender::getTables">getTables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#265"><abbr title="Drupal\Core\Database\Query\SelectExtender::getUnion">getUnion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#272"><abbr title="Drupal\Core\Database\Query\SelectExtender::escapeLike">escapeLike</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#279"><abbr title="Drupal\Core\Database\Query\SelectExtender::escapeField">escapeField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#287"><abbr title="Drupal\Core\Database\Query\SelectExtender::getArguments">getArguments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#294"><abbr title="Drupal\Core\Database\Query\SelectExtender::isPrepared">isPrepared</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#313"><abbr title="Drupal\Core\Database\Query\SelectExtender::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#220"><abbr title="Drupal\Core\Database\Query\SelectExtender::extend">extend</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#327"><abbr title="Drupal\Core\Database\Query\SelectExtender::distinct">distinct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#335"><abbr title="Drupal\Core\Database\Query\SelectExtender::addField">addField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#342"><abbr title="Drupal\Core\Database\Query\SelectExtender::fields">fields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#350"><abbr title="Drupal\Core\Database\Query\SelectExtender::addExpression">addExpression</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#357"><abbr title="Drupal\Core\Database\Query\SelectExtender::join">join</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#364"><abbr title="Drupal\Core\Database\Query\SelectExtender::innerJoin">innerJoin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#371"><abbr title="Drupal\Core\Database\Query\SelectExtender::leftJoin">leftJoin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#378"><abbr title="Drupal\Core\Database\Query\SelectExtender::rightJoin">rightJoin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#385"><abbr title="Drupal\Core\Database\Query\SelectExtender::addJoin">addJoin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#392"><abbr title="Drupal\Core\Database\Query\SelectExtender::orderBy">orderBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#230"><abbr title="Drupal\Core\Database\Query\SelectExtender::getFields">getFields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#212"><abbr title="Drupal\Core\Database\Query\SelectExtender::havingNotExists">havingNotExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#408"><abbr title="Drupal\Core\Database\Query\SelectExtender::range">range</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#115"><abbr title="Drupal\Core\Database\Query\SelectExtender::conditions">conditions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#40"><abbr title="Drupal\Core\Database\Query\SelectExtender::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#49"><abbr title="Drupal\Core\Database\Query\SelectExtender::uniqueIdentifier">uniqueIdentifier</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#56"><abbr title="Drupal\Core\Database\Query\SelectExtender::nextPlaceholder">nextPlaceholder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#63"><abbr title="Drupal\Core\Database\Query\SelectExtender::addTag">addTag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#71"><abbr title="Drupal\Core\Database\Query\SelectExtender::hasTag">hasTag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#78"><abbr title="Drupal\Core\Database\Query\SelectExtender::hasAllTags">hasAllTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#85"><abbr title="Drupal\Core\Database\Query\SelectExtender::hasAnyTag">hasAnyTag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#92"><abbr title="Drupal\Core\Database\Query\SelectExtender::addMetaData">addMetaData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#100"><abbr title="Drupal\Core\Database\Query\SelectExtender::getMetaData">getMetaData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#107"><abbr title="Drupal\Core\Database\Query\SelectExtender::condition">condition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#122"><abbr title="Drupal\Core\Database\Query\SelectExtender::arguments">arguments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#204"><abbr title="Drupal\Core\Database\Query\SelectExtender::havingExists">havingExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#129"><abbr title="Drupal\Core\Database\Query\SelectExtender::where">where</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#137"><abbr title="Drupal\Core\Database\Query\SelectExtender::compile">compile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#144"><abbr title="Drupal\Core\Database\Query\SelectExtender::compiled">compiled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#151"><abbr title="Drupal\Core\Database\Query\SelectExtender::havingCondition">havingCondition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#159"><abbr title="Drupal\Core\Database\Query\SelectExtender::havingConditions">havingConditions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#166"><abbr title="Drupal\Core\Database\Query\SelectExtender::havingArguments">havingArguments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#173"><abbr title="Drupal\Core\Database\Query\SelectExtender::having">having</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#181"><abbr title="Drupal\Core\Database\Query\SelectExtender::havingCompile">havingCompile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#188"><abbr title="Drupal\Core\Database\Query\SelectExtender::havingIsNull">havingIsNull</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#196"><abbr title="Drupal\Core\Database\Query\SelectExtender::havingIsNotNull">havingIsNotNull</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#400"><abbr title="Drupal\Core\Database\Query\SelectExtender::orderRandom">orderRandom</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#416"><abbr title="Drupal\Core\Database\Query\SelectExtender::union">union</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#795"><abbr title="Drupal\Core\Database\Query\Select::__toString">__toString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryConditionTrait.php.html#34"><abbr title="QueryConditionTrait::isNull">isNull</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Upsert.php.html#51"><abbr title="Drupal\Core\Database\Query\Upsert::key">key</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Upsert.php.html#67"><abbr title="Drupal\Core\Database\Query\Upsert::preExecute">preExecute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Upsert.php.html#93"><abbr title="Drupal\Core\Database\Query\Upsert::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InsertTrait.php.html#70"><abbr title="InsertTrait::fields">fields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InsertTrait.php.html#101"><abbr title="InsertTrait::values">values</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InsertTrait.php.html#135"><abbr title="InsertTrait::useDefaults">useDefaults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InsertTrait.php.html#151"><abbr title="InsertTrait::getInsertPlaceholderFragment">getInsertPlaceholderFragment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InsertTrait.php.html#182"><abbr title="InsertTrait::count">count</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryConditionTrait.php.html#26"><abbr title="QueryConditionTrait::condition">condition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryConditionTrait.php.html#42"><abbr title="QueryConditionTrait::isNotNull">isNotNull</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Update.php.html#157"><abbr title="Drupal\Core\Database\Query\Update::__toString">__toString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryConditionTrait.php.html#50"><abbr title="QueryConditionTrait::exists">exists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryConditionTrait.php.html#58"><abbr title="QueryConditionTrait::notExists">notExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryConditionTrait.php.html#66"><abbr title="QueryConditionTrait::alwaysFalse">alwaysFalse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryConditionTrait.php.html#74"><abbr title="QueryConditionTrait::conditions">conditions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryConditionTrait.php.html#81"><abbr title="QueryConditionTrait::arguments">arguments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryConditionTrait.php.html#88"><abbr title="QueryConditionTrait::where">where</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryConditionTrait.php.html#96"><abbr title="QueryConditionTrait::compile">compile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryConditionTrait.php.html#103"><abbr title="QueryConditionTrait::compiled">compiled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryConditionTrait.php.html#110"><abbr title="QueryConditionTrait::conditionGroupFactory">conditionGroupFactory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryConditionTrait.php.html#117"><abbr title="QueryConditionTrait::andConditionGroup">andConditionGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Upsert.php.html#37"><abbr title="Drupal\Core\Database\Query\Upsert::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Update.php.html#120"><abbr title="Drupal\Core\Database\Query\Update::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#424"><abbr title="Drupal\Core\Database\Query\SelectExtender::groupBy">groupBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#530"><abbr title="Drupal\Core\Database\Query\SelectExtender::conditionGroupFactory">conditionGroupFactory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#432"><abbr title="Drupal\Core\Database\Query\SelectExtender::forUpdate">forUpdate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#440"><abbr title="Drupal\Core\Database\Query\SelectExtender::countQuery">countQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#447"><abbr title="Drupal\Core\Database\Query\SelectExtender::isNull">isNull</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#455"><abbr title="Drupal\Core\Database\Query\SelectExtender::isNotNull">isNotNull</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#463"><abbr title="Drupal\Core\Database\Query\SelectExtender::exists">exists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#471"><abbr title="Drupal\Core\Database\Query\SelectExtender::notExists">notExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#479"><abbr title="Drupal\Core\Database\Query\SelectExtender::alwaysFalse">alwaysFalse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#487"><abbr title="Drupal\Core\Database\Query\SelectExtender::__toString">__toString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#494"><abbr title="Drupal\Core\Database\Query\SelectExtender::__clone">__clone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#511"><abbr title="Drupal\Core\Database\Query\SelectExtender::__call">__call</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#537"><abbr title="Drupal\Core\Database\Query\SelectExtender::andConditionGroup">andConditionGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Update.php.html#104"><abbr title="Drupal\Core\Database\Query\Update::expression">expression</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SelectExtender.php.html#544"><abbr title="Drupal\Core\Database\Query\SelectExtender::orConditionGroup">orConditionGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TableSortExtender.php.html#16"><abbr title="Drupal\Core\Database\Query\TableSortExtender::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TableSortExtender.php.html#36"><abbr title="Drupal\Core\Database\Query\TableSortExtender::orderByHeader">orderByHeader</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Truncate.php.html#30"><abbr title="Drupal\Core\Database\Query\Truncate::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Truncate.php.html#39"><abbr title="Drupal\Core\Database\Query\Truncate::compile">compile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Truncate.php.html#46"><abbr title="Drupal\Core\Database\Query\Truncate::compiled">compiled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Truncate.php.html#56"><abbr title="Drupal\Core\Database\Query\Truncate::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Truncate.php.html#66"><abbr title="Drupal\Core\Database\Query\Truncate::__toString">__toString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Update.php.html#63"><abbr title="Drupal\Core\Database\Query\Update::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Update.php.html#81"><abbr title="Drupal\Core\Database\Query\Update::fields">fields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#916"><abbr title="Drupal\Core\Database\Query\Select::__clone">__clone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#735"><abbr title="Drupal\Core\Database\Query\Select::prepareCountQuery">prepareCountQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Condition.php.html#93"><abbr title="Drupal\Core\Database\Query\Condition::count">count</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Merge.php.html#354"><abbr title="Drupal\Core\Database\Query\Merge::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Merge.php.html#154"><abbr title="Drupal\Core\Database\Query\Merge::conditionTable">conditionTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Merge.php.html#169"><abbr title="Drupal\Core\Database\Query\Merge::updateFields">updateFields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Merge.php.html#194"><abbr title="Drupal\Core\Database\Query\Merge::expression">expression</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Merge.php.html#219"><abbr title="Drupal\Core\Database\Query\Merge::insertFields">insertFields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Merge.php.html#246"><abbr title="Drupal\Core\Database\Query\Merge::useDefaults">useDefaults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Merge.php.html#272"><abbr title="Drupal\Core\Database\Query\Merge::fields">fields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Merge.php.html#305"><abbr title="Drupal\Core\Database\Query\Merge::keys">keys</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Merge.php.html#331"><abbr title="Drupal\Core\Database\Query\Merge::key">key</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Merge.php.html#351"><abbr title="Drupal\Core\Database\Query\Merge::__toString">__toString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PagerSelectExtender.php.html#47"><abbr title="Drupal\Core\Database\Query\PagerSelectExtender::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Insert.php.html#143"><abbr title="Drupal\Core\Database\Query\Insert::preExecute">preExecute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PagerSelectExtender.php.html#61"><abbr title="Drupal\Core\Database\Query\PagerSelectExtender::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PagerSelectExtender.php.html#93"><abbr title="Drupal\Core\Database\Query\PagerSelectExtender::ensureElement">ensureElement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PagerSelectExtender.php.html#109"><abbr title="Drupal\Core\Database\Query\PagerSelectExtender::setCountQuery">setCountQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PagerSelectExtender.php.html#122"><abbr title="Drupal\Core\Database\Query\PagerSelectExtender::getCountQuery">getCountQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PagerSelectExtender.php.html#140"><abbr title="Drupal\Core\Database\Query\PagerSelectExtender::limit">limit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PagerSelectExtender.php.html#164"><abbr title="Drupal\Core\Database\Query\PagerSelectExtender::element">element</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query.php.html#73"><abbr title="Drupal\Core\Database\Query\Query::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query.php.html#86"><abbr title="Drupal\Core\Database\Query\Query::__sleep">__sleep</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query.php.html#95"><abbr title="Drupal\Core\Database\Query\Query::__wakeup">__wakeup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query.php.html#102"><abbr title="Drupal\Core\Database\Query\Query::__clone">__clone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Merge.php.html#136"><abbr title="Drupal\Core\Database\Query\Merge::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Insert.php.html#113"><abbr title="Drupal\Core\Database\Query\Insert::__toString">__toString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query.php.html#138"><abbr title="Drupal\Core\Database\Query\Query::nextPlaceholder">nextPlaceholder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Condition.php.html#329"><abbr title="Drupal\Core\Database\Query\Condition::compiled">compiled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Condition.php.html#100"><abbr title="Drupal\Core\Database\Query\Condition::condition">condition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Condition.php.html#122"><abbr title="Drupal\Core\Database\Query\Condition::where">where</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Condition.php.html#136"><abbr title="Drupal\Core\Database\Query\Condition::isNull">isNull</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Condition.php.html#143"><abbr title="Drupal\Core\Database\Query\Condition::isNotNull">isNotNull</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Condition.php.html#150"><abbr title="Drupal\Core\Database\Query\Condition::exists">exists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Condition.php.html#157"><abbr title="Drupal\Core\Database\Query\Condition::notExists">notExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Condition.php.html#164"><abbr title="Drupal\Core\Database\Query\Condition::alwaysFalse">alwaysFalse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Condition.php.html#171"><abbr title="Drupal\Core\Database\Query\Condition::conditions">conditions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Condition.php.html#178"><abbr title="Drupal\Core\Database\Query\Condition::arguments">arguments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Condition.php.html#189"><abbr title="Drupal\Core\Database\Query\Condition::compile">compile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Condition.php.html#339"><abbr title="Drupal\Core\Database\Query\Condition::__toString">__toString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Insert.php.html#64"><abbr title="Drupal\Core\Database\Query\Insert::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Condition.php.html#353"><abbr title="Drupal\Core\Database\Query\Condition::__clone">__clone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Condition.php.html#381"><abbr title="Drupal\Core\Database\Query\Condition::mapConditionOperator">mapConditionOperator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Condition.php.html#401"><abbr title="Drupal\Core\Database\Query\Condition::conditionGroupFactory">conditionGroupFactory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Condition.php.html#408"><abbr title="Drupal\Core\Database\Query\Condition::andConditionGroup">andConditionGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Condition.php.html#415"><abbr title="Drupal\Core\Database\Query\Condition::orConditionGroup">orConditionGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Delete.php.html#34"><abbr title="Drupal\Core\Database\Query\Delete::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Delete.php.html#48"><abbr title="Drupal\Core\Database\Query\Delete::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Delete.php.html#64"><abbr title="Drupal\Core\Database\Query\Delete::__toString">__toString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Insert.php.html#33"><abbr title="Drupal\Core\Database\Query\Insert::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Insert.php.html#50"><abbr title="Drupal\Core\Database\Query\Insert::from">from</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query.php.html#128"><abbr title="Drupal\Core\Database\Query\Query::uniqueIdentifier">uniqueIdentifier</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query.php.html#158"><abbr title="Drupal\Core\Database\Query\Query::comment">comment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#720"><abbr title="Drupal\Core\Database\Query\Select::countQuery">countQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#555"><abbr title="Drupal\Core\Database\Query\Select::fields">fields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#408"><abbr title="Drupal\Core\Database\Query\Select::getUnion">getUnion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#415"><abbr title="Drupal\Core\Database\Query\Select::escapeLike">escapeLike</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#422"><abbr title="Drupal\Core\Database\Query\Select::escapeField">escapeField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#429"><abbr title="Drupal\Core\Database\Query\Select::getArguments">getArguments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#440"><abbr title="Drupal\Core\Database\Query\Select::isPrepared">isPrepared</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#447"><abbr title="Drupal\Core\Database\Query\Select::preExecute">preExecute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#502"><abbr title="Drupal\Core\Database\Query\Select::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#516"><abbr title="Drupal\Core\Database\Query\Select::distinct">distinct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#524"><abbr title="Drupal\Core\Database\Query\Select::addField">addField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#573"><abbr title="Drupal\Core\Database\Query\Select::addExpression">addExpression</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#394"><abbr title="Drupal\Core\Database\Query\Select::getGroupBy">getGroupBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#597"><abbr title="Drupal\Core\Database\Query\Select::join">join</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#604"><abbr title="Drupal\Core\Database\Query\Select::innerJoin">innerJoin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#611"><abbr title="Drupal\Core\Database\Query\Select::leftJoin">leftJoin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#618"><abbr title="Drupal\Core\Database\Query\Select::rightJoin">rightJoin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#625"><abbr title="Drupal\Core\Database\Query\Select::addJoin">addJoin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#660"><abbr title="Drupal\Core\Database\Query\Select::orderBy">orderBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#670"><abbr title="Drupal\Core\Database\Query\Select::orderRandom">orderRandom</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#679"><abbr title="Drupal\Core\Database\Query\Select::range">range</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#687"><abbr title="Drupal\Core\Database\Query\Select::union">union</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#712"><abbr title="Drupal\Core\Database\Query\Select::groupBy">groupBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#401"><abbr title="Drupal\Core\Database\Query\Select::getTables">getTables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#387"><abbr title="Drupal\Core\Database\Query\Select::getOrderBy">getOrderBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query.php.html#178"><abbr title="Drupal\Core\Database\Query\Query::getComments">getComments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#283"><abbr title="Drupal\Core\Database\Query\Select::havingCondition">havingCondition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#133"><abbr title="Drupal\Core\Database\Query\Select::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#145"><abbr title="Drupal\Core\Database\Query\Select::addTag">addTag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#153"><abbr title="Drupal\Core\Database\Query\Select::hasTag">hasTag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#160"><abbr title="Drupal\Core\Database\Query\Select::hasAllTags">hasAllTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#167"><abbr title="Drupal\Core\Database\Query\Select::hasAnyTag">hasAnyTag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#174"><abbr title="Drupal\Core\Database\Query\Select::addMetaData">addMetaData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#182"><abbr title="Drupal\Core\Database\Query\Select::getMetaData">getMetaData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#189"><abbr title="Drupal\Core\Database\Query\Select::arguments">arguments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#228"><abbr title="Drupal\Core\Database\Query\Select::compile">compile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#252"><abbr title="Drupal\Core\Database\Query\Select::compiled">compiled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#291"><abbr title="Drupal\Core\Database\Query\Select::havingConditions">havingConditions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#380"><abbr title="Drupal\Core\Database\Query\Select::getExpressions">getExpressions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#298"><abbr title="Drupal\Core\Database\Query\Select::havingArguments">havingArguments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#305"><abbr title="Drupal\Core\Database\Query\Select::having">having</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#313"><abbr title="Drupal\Core\Database\Query\Select::havingCompile">havingCompile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#320"><abbr title="Drupal\Core\Database\Query\Select::extend">extend</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#331"><abbr title="Drupal\Core\Database\Query\Select::havingIsNull">havingIsNull</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#339"><abbr title="Drupal\Core\Database\Query\Select::havingIsNotNull">havingIsNotNull</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#347"><abbr title="Drupal\Core\Database\Query\Select::havingExists">havingExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#355"><abbr title="Drupal\Core\Database\Query\Select::havingNotExists">havingNotExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#363"><abbr title="Drupal\Core\Database\Query\Select::forUpdate">forUpdate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Select.php.html#373"><abbr title="Drupal\Core\Database\Query\Select::getFields">getFields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryConditionTrait.php.html#124"><abbr title="QueryConditionTrait::orConditionGroup">orConditionGroup</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Select.php.html#795"><abbr title="Drupal\Core\Database\Query\Select::__toString">__toString</abbr></a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="Condition.php.html#189"><abbr title="Drupal\Core\Database\Query\Condition::compile">compile</abbr></a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="Select.php.html#252"><abbr title="Drupal\Core\Database\Query\Select::compiled">compiled</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Merge.php.html#354"><abbr title="Drupal\Core\Database\Query\Merge::execute">execute</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Select.php.html#735"><abbr title="Drupal\Core\Database\Query\Select::prepareCountQuery">prepareCountQuery</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Select.php.html#189"><abbr title="Drupal\Core\Database\Query\Select::arguments">arguments</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Select.php.html#447"><abbr title="Drupal\Core\Database\Query\Select::preExecute">preExecute</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Insert.php.html#143"><abbr title="Drupal\Core\Database\Query\Insert::preExecute">preExecute</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Update.php.html#120"><abbr title="Drupal\Core\Database\Query\Update::execute">execute</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Select.php.html#228"><abbr title="Drupal\Core\Database\Query\Select::compile">compile</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Insert.php.html#64"><abbr title="Drupal\Core\Database\Query\Insert::execute">execute</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Update.php.html#157"><abbr title="Drupal\Core\Database\Query\Update::__toString">__toString</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Upsert.php.html#67"><abbr title="Drupal\Core\Database\Query\Upsert::preExecute">preExecute</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="InsertTrait.php.html#70"><abbr title="InsertTrait::fields">fields</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Select.php.html#625"><abbr title="Drupal\Core\Database\Query\Select::addJoin">addJoin</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Condition.php.html#353"><abbr title="Drupal\Core\Database\Query\Condition::__clone">__clone</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Select.php.html#916"><abbr title="Drupal\Core\Database\Query\Select::__clone">__clone</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Upsert.php.html#93"><abbr title="Drupal\Core\Database\Query\Upsert::execute">execute</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Select.php.html#687"><abbr title="Drupal\Core\Database\Query\Select::union">union</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Select.php.html#524"><abbr title="Drupal\Core\Database\Query\Select::addField">addField</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="InsertTrait.php.html#101"><abbr title="InsertTrait::values">values</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Condition.php.html#100"><abbr title="Drupal\Core\Database\Query\Condition::condition">condition</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="InsertTrait.php.html#151"><abbr title="InsertTrait::getInsertPlaceholderFragment">getInsertPlaceholderFragment</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Merge.php.html#305"><abbr title="Drupal\Core\Database\Query\Merge::keys">keys</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Select.php.html#555"><abbr title="Drupal\Core\Database\Query\Select::fields">fields</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Merge.php.html#331"><abbr title="Drupal\Core\Database\Query\Merge::key">key</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PagerSelectExtender.php.html#61"><abbr title="Drupal\Core\Database\Query\PagerSelectExtender::execute">execute</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Select.php.html#573"><abbr title="Drupal\Core\Database\Query\Select::addExpression">addExpression</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Merge.php.html#272"><abbr title="Drupal\Core\Database\Query\Merge::fields">fields</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Condition.php.html#381"><abbr title="Drupal\Core\Database\Query\Condition::mapConditionOperator">mapConditionOperator</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Insert.php.html#33"><abbr title="Drupal\Core\Database\Query\Insert::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Insert.php.html#113"><abbr title="Drupal\Core\Database\Query\Insert::__toString">__toString</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SelectExtender.php.html#301"><abbr title="Drupal\Core\Database\Query\SelectExtender::preExecute">preExecute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Delete.php.html#64"><abbr title="Drupal\Core\Database\Query\Delete::__toString">__toString</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Delete.php.html#48"><abbr title="Drupal\Core\Database\Query\Delete::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TableSortExtender.php.html#36"><abbr title="Drupal\Core\Database\Query\TableSortExtender::orderByHeader">orderByHeader</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SelectExtender.php.html#511"><abbr title="Drupal\Core\Database\Query\SelectExtender::__call">__call</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Condition.php.html#339"><abbr title="Drupal\Core\Database\Query\Condition::__toString">__toString</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SelectExtender.php.html#313"><abbr title="Drupal\Core\Database\Query\SelectExtender::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Truncate.php.html#66"><abbr title="Drupal\Core\Database\Query\Truncate::__toString">__toString</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Select.php.html#182"><abbr title="Drupal\Core\Database\Query\Select::getMetaData">getMetaData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Merge.php.html#219"><abbr title="Drupal\Core\Database\Query\Merge::insertFields">insertFields</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Select.php.html#133"><abbr title="Drupal\Core\Database\Query\Select::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Select.php.html#679"><abbr title="Drupal\Core\Database\Query\Select::range">range</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Select.php.html#660"><abbr title="Drupal\Core\Database\Query\Select::orderBy">orderBy</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PagerSelectExtender.php.html#93"><abbr title="Drupal\Core\Database\Query\PagerSelectExtender::ensureElement">ensureElement</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Select.php.html#502"><abbr title="Drupal\Core\Database\Query\Select::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PagerSelectExtender.php.html#122"><abbr title="Drupal\Core\Database\Query\PagerSelectExtender::getCountQuery">getCountQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Select.php.html#429"><abbr title="Drupal\Core\Database\Query\Select::getArguments">getArguments</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Select.php.html#363"><abbr title="Drupal\Core\Database\Query\Select::forUpdate">forUpdate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Condition.php.html#178"><abbr title="Drupal\Core\Database\Query\Condition::arguments">arguments</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PagerSelectExtender.php.html#164"><abbr title="Drupal\Core\Database\Query\PagerSelectExtender::element">element</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Select.php.html#320"><abbr title="Drupal\Core\Database\Query\Select::extend">extend</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.33-16+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.9.3</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Fri Jun 12 8:21:00 AEST 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([14,0,0,0,0,0,0,0,0,0,0,4], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([203,0,0,0,0,0,0,0,0,0,0,2], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,50,"<a href=\"Condition.php.html#11\">Drupal\\Core\\Database\\Query\\Condition<\/a>"],[0,5,"<a href=\"Delete.php.html#13\">Drupal\\Core\\Database\\Query\\Delete<\/a>"],[100,0,"<a href=\"FieldsOverlapException.php.html#13\">Drupal\\Core\\Database\\Query\\FieldsOverlapException<\/a>"],[0,17,"<a href=\"Insert.php.html#12\">Drupal\\Core\\Database\\Query\\Insert<\/a>"],[100,0,"<a href=\"InvalidMergeQueryException.php.html#13\">Drupal\\Core\\Database\\Query\\InvalidMergeQueryException<\/a>"],[0,28,"<a href=\"Merge.php.html#46\">Drupal\\Core\\Database\\Query\\Merge<\/a>"],[100,0,"<a href=\"NoFieldsException.php.html#10\">Drupal\\Core\\Database\\Query\\NoFieldsException<\/a>"],[100,0,"<a href=\"NoUniqueFieldException.php.html#10\">Drupal\\Core\\Database\\Query\\NoUniqueFieldException<\/a>"],[0,12,"<a href=\"PagerSelectExtender.php.html#17\">Drupal\\Core\\Database\\Query\\PagerSelectExtender<\/a>"],[0,10,"<a href=\"Query.php.html#14\">Drupal\\Core\\Database\\Query\\Query<\/a>"],[0,139,"<a href=\"Select.php.html#13\">Drupal\\Core\\Database\\Query\\Select<\/a>"],[0,67,"<a href=\"SelectExtender.php.html#10\">Drupal\\Core\\Database\\Query\\SelectExtender<\/a>"],[0,3,"<a href=\"TableSortExtender.php.html#11\">Drupal\\Core\\Database\\Query\\TableSortExtender<\/a>"],[0,6,"<a href=\"Truncate.php.html#11\">Drupal\\Core\\Database\\Query\\Truncate<\/a>"],[0,14,"<a href=\"Update.php.html#13\">Drupal\\Core\\Database\\Query\\Update<\/a>"],[0,11,"<a href=\"Upsert.php.html#16\">Drupal\\Core\\Database\\Query\\Upsert<\/a>"],[0,15,"<a href=\"InsertTrait.php.html#10\">InsertTrait<\/a>"],[0,14,"<a href=\"QueryConditionTrait.php.html#12\">QueryConditionTrait<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Condition.php.html#82\">Drupal\\Core\\Database\\Query\\Condition::__construct<\/a>"],[0,1,"<a href=\"Condition.php.html#93\">Drupal\\Core\\Database\\Query\\Condition::count<\/a>"],[0,4,"<a href=\"Condition.php.html#100\">Drupal\\Core\\Database\\Query\\Condition::condition<\/a>"],[0,1,"<a href=\"Condition.php.html#122\">Drupal\\Core\\Database\\Query\\Condition::where<\/a>"],[0,1,"<a href=\"Condition.php.html#136\">Drupal\\Core\\Database\\Query\\Condition::isNull<\/a>"],[0,1,"<a href=\"Condition.php.html#143\">Drupal\\Core\\Database\\Query\\Condition::isNotNull<\/a>"],[0,1,"<a href=\"Condition.php.html#150\">Drupal\\Core\\Database\\Query\\Condition::exists<\/a>"],[0,1,"<a href=\"Condition.php.html#157\">Drupal\\Core\\Database\\Query\\Condition::notExists<\/a>"],[0,1,"<a href=\"Condition.php.html#164\">Drupal\\Core\\Database\\Query\\Condition::alwaysFalse<\/a>"],[0,1,"<a href=\"Condition.php.html#171\">Drupal\\Core\\Database\\Query\\Condition::conditions<\/a>"],[0,2,"<a href=\"Condition.php.html#178\">Drupal\\Core\\Database\\Query\\Condition::arguments<\/a>"],[0,21,"<a href=\"Condition.php.html#189\">Drupal\\Core\\Database\\Query\\Condition::compile<\/a>"],[0,1,"<a href=\"Condition.php.html#329\">Drupal\\Core\\Database\\Query\\Condition::compiled<\/a>"],[0,2,"<a href=\"Condition.php.html#339\">Drupal\\Core\\Database\\Query\\Condition::__toString<\/a>"],[0,5,"<a href=\"Condition.php.html#353\">Drupal\\Core\\Database\\Query\\Condition::__clone<\/a>"],[0,3,"<a href=\"Condition.php.html#381\">Drupal\\Core\\Database\\Query\\Condition::mapConditionOperator<\/a>"],[0,1,"<a href=\"Condition.php.html#401\">Drupal\\Core\\Database\\Query\\Condition::conditionGroupFactory<\/a>"],[0,1,"<a href=\"Condition.php.html#408\">Drupal\\Core\\Database\\Query\\Condition::andConditionGroup<\/a>"],[0,1,"<a href=\"Condition.php.html#415\">Drupal\\Core\\Database\\Query\\Condition::orConditionGroup<\/a>"],[0,1,"<a href=\"Delete.php.html#34\">Drupal\\Core\\Database\\Query\\Delete::__construct<\/a>"],[0,2,"<a href=\"Delete.php.html#48\">Drupal\\Core\\Database\\Query\\Delete::execute<\/a>"],[0,2,"<a href=\"Delete.php.html#64\">Drupal\\Core\\Database\\Query\\Delete::__toString<\/a>"],[0,2,"<a href=\"Insert.php.html#33\">Drupal\\Core\\Database\\Query\\Insert::__construct<\/a>"],[0,1,"<a href=\"Insert.php.html#50\">Drupal\\Core\\Database\\Query\\Insert::from<\/a>"],[0,5,"<a href=\"Insert.php.html#64\">Drupal\\Core\\Database\\Query\\Insert::execute<\/a>"],[0,2,"<a href=\"Insert.php.html#113\">Drupal\\Core\\Database\\Query\\Insert::__toString<\/a>"],[0,7,"<a href=\"Insert.php.html#143\">Drupal\\Core\\Database\\Query\\Insert::preExecute<\/a>"],[0,1,"<a href=\"Merge.php.html#136\">Drupal\\Core\\Database\\Query\\Merge::__construct<\/a>"],[0,1,"<a href=\"Merge.php.html#154\">Drupal\\Core\\Database\\Query\\Merge::conditionTable<\/a>"],[0,1,"<a href=\"Merge.php.html#169\">Drupal\\Core\\Database\\Query\\Merge::updateFields<\/a>"],[0,1,"<a href=\"Merge.php.html#194\">Drupal\\Core\\Database\\Query\\Merge::expression<\/a>"],[0,2,"<a href=\"Merge.php.html#219\">Drupal\\Core\\Database\\Query\\Merge::insertFields<\/a>"],[0,1,"<a href=\"Merge.php.html#246\">Drupal\\Core\\Database\\Query\\Merge::useDefaults<\/a>"],[0,3,"<a href=\"Merge.php.html#272\">Drupal\\Core\\Database\\Query\\Merge::fields<\/a>"],[0,3,"<a href=\"Merge.php.html#305\">Drupal\\Core\\Database\\Query\\Merge::keys<\/a>"],[0,3,"<a href=\"Merge.php.html#331\">Drupal\\Core\\Database\\Query\\Merge::key<\/a>"],[0,1,"<a href=\"Merge.php.html#351\">Drupal\\Core\\Database\\Query\\Merge::__toString<\/a>"],[0,11,"<a href=\"Merge.php.html#354\">Drupal\\Core\\Database\\Query\\Merge::execute<\/a>"],[0,1,"<a href=\"PagerSelectExtender.php.html#47\">Drupal\\Core\\Database\\Query\\PagerSelectExtender::__construct<\/a>"],[0,3,"<a href=\"PagerSelectExtender.php.html#61\">Drupal\\Core\\Database\\Query\\PagerSelectExtender::execute<\/a>"],[0,2,"<a href=\"PagerSelectExtender.php.html#93\">Drupal\\Core\\Database\\Query\\PagerSelectExtender::ensureElement<\/a>"],[0,1,"<a href=\"PagerSelectExtender.php.html#109\">Drupal\\Core\\Database\\Query\\PagerSelectExtender::setCountQuery<\/a>"],[0,2,"<a href=\"PagerSelectExtender.php.html#122\">Drupal\\Core\\Database\\Query\\PagerSelectExtender::getCountQuery<\/a>"],[0,1,"<a href=\"PagerSelectExtender.php.html#140\">Drupal\\Core\\Database\\Query\\PagerSelectExtender::limit<\/a>"],[0,2,"<a href=\"PagerSelectExtender.php.html#164\">Drupal\\Core\\Database\\Query\\PagerSelectExtender::element<\/a>"],[0,1,"<a href=\"Query.php.html#73\">Drupal\\Core\\Database\\Query\\Query::__construct<\/a>"],[0,1,"<a href=\"Query.php.html#86\">Drupal\\Core\\Database\\Query\\Query::__sleep<\/a>"],[0,1,"<a href=\"Query.php.html#95\">Drupal\\Core\\Database\\Query\\Query::__wakeup<\/a>"],[0,1,"<a href=\"Query.php.html#102\">Drupal\\Core\\Database\\Query\\Query::__clone<\/a>"],[100,1,"<a href=\"Query.php.html#112\">Drupal\\Core\\Database\\Query\\Query::execute<\/a>"],[100,1,"<a href=\"Query.php.html#123\">Drupal\\Core\\Database\\Query\\Query::__toString<\/a>"],[0,1,"<a href=\"Query.php.html#128\">Drupal\\Core\\Database\\Query\\Query::uniqueIdentifier<\/a>"],[0,1,"<a href=\"Query.php.html#138\">Drupal\\Core\\Database\\Query\\Query::nextPlaceholder<\/a>"],[0,1,"<a href=\"Query.php.html#158\">Drupal\\Core\\Database\\Query\\Query::comment<\/a>"],[0,1,"<a href=\"Query.php.html#178\">Drupal\\Core\\Database\\Query\\Query::getComments<\/a>"],[0,2,"<a href=\"Select.php.html#133\">Drupal\\Core\\Database\\Query\\Select::__construct<\/a>"],[0,1,"<a href=\"Select.php.html#145\">Drupal\\Core\\Database\\Query\\Select::addTag<\/a>"],[0,1,"<a href=\"Select.php.html#153\">Drupal\\Core\\Database\\Query\\Select::hasTag<\/a>"],[0,1,"<a href=\"Select.php.html#160\">Drupal\\Core\\Database\\Query\\Select::hasAllTags<\/a>"],[0,1,"<a href=\"Select.php.html#167\">Drupal\\Core\\Database\\Query\\Select::hasAnyTag<\/a>"],[0,1,"<a href=\"Select.php.html#174\">Drupal\\Core\\Database\\Query\\Select::addMetaData<\/a>"],[0,2,"<a href=\"Select.php.html#182\">Drupal\\Core\\Database\\Query\\Select::getMetaData<\/a>"],[0,10,"<a href=\"Select.php.html#189\">Drupal\\Core\\Database\\Query\\Select::arguments<\/a>"],[0,6,"<a href=\"Select.php.html#228\">Drupal\\Core\\Database\\Query\\Select::compile<\/a>"],[0,11,"<a href=\"Select.php.html#252\">Drupal\\Core\\Database\\Query\\Select::compiled<\/a>"],[0,1,"<a href=\"Select.php.html#283\">Drupal\\Core\\Database\\Query\\Select::havingCondition<\/a>"],[0,1,"<a href=\"Select.php.html#291\">Drupal\\Core\\Database\\Query\\Select::havingConditions<\/a>"],[0,1,"<a href=\"Select.php.html#298\">Drupal\\Core\\Database\\Query\\Select::havingArguments<\/a>"],[0,1,"<a href=\"Select.php.html#305\">Drupal\\Core\\Database\\Query\\Select::having<\/a>"],[0,1,"<a href=\"Select.php.html#313\">Drupal\\Core\\Database\\Query\\Select::havingCompile<\/a>"],[0,2,"<a href=\"Select.php.html#320\">Drupal\\Core\\Database\\Query\\Select::extend<\/a>"],[0,1,"<a href=\"Select.php.html#331\">Drupal\\Core\\Database\\Query\\Select::havingIsNull<\/a>"],[0,1,"<a href=\"Select.php.html#339\">Drupal\\Core\\Database\\Query\\Select::havingIsNotNull<\/a>"],[0,1,"<a href=\"Select.php.html#347\">Drupal\\Core\\Database\\Query\\Select::havingExists<\/a>"],[0,1,"<a href=\"Select.php.html#355\">Drupal\\Core\\Database\\Query\\Select::havingNotExists<\/a>"],[0,2,"<a href=\"Select.php.html#363\">Drupal\\Core\\Database\\Query\\Select::forUpdate<\/a>"],[0,1,"<a href=\"Select.php.html#373\">Drupal\\Core\\Database\\Query\\Select::getFields<\/a>"],[0,1,"<a href=\"Select.php.html#380\">Drupal\\Core\\Database\\Query\\Select::getExpressions<\/a>"],[0,1,"<a href=\"Select.php.html#387\">Drupal\\Core\\Database\\Query\\Select::getOrderBy<\/a>"],[0,1,"<a href=\"Select.php.html#394\">Drupal\\Core\\Database\\Query\\Select::getGroupBy<\/a>"],[0,1,"<a href=\"Select.php.html#401\">Drupal\\Core\\Database\\Query\\Select::getTables<\/a>"],[0,1,"<a href=\"Select.php.html#408\">Drupal\\Core\\Database\\Query\\Select::getUnion<\/a>"],[0,1,"<a href=\"Select.php.html#415\">Drupal\\Core\\Database\\Query\\Select::escapeLike<\/a>"],[0,1,"<a href=\"Select.php.html#422\">Drupal\\Core\\Database\\Query\\Select::escapeField<\/a>"],[0,2,"<a href=\"Select.php.html#429\">Drupal\\Core\\Database\\Query\\Select::getArguments<\/a>"],[0,1,"<a href=\"Select.php.html#440\">Drupal\\Core\\Database\\Query\\Select::isPrepared<\/a>"],[0,9,"<a href=\"Select.php.html#447\">Drupal\\Core\\Database\\Query\\Select::preExecute<\/a>"],[0,2,"<a href=\"Select.php.html#502\">Drupal\\Core\\Database\\Query\\Select::execute<\/a>"],[0,1,"<a href=\"Select.php.html#516\">Drupal\\Core\\Database\\Query\\Select::distinct<\/a>"],[0,4,"<a href=\"Select.php.html#524\">Drupal\\Core\\Database\\Query\\Select::addField<\/a>"],[0,3,"<a href=\"Select.php.html#555\">Drupal\\Core\\Database\\Query\\Select::fields<\/a>"],[0,3,"<a href=\"Select.php.html#573\">Drupal\\Core\\Database\\Query\\Select::addExpression<\/a>"],[0,1,"<a href=\"Select.php.html#597\">Drupal\\Core\\Database\\Query\\Select::join<\/a>"],[0,1,"<a href=\"Select.php.html#604\">Drupal\\Core\\Database\\Query\\Select::innerJoin<\/a>"],[0,1,"<a href=\"Select.php.html#611\">Drupal\\Core\\Database\\Query\\Select::leftJoin<\/a>"],[0,1,"<a href=\"Select.php.html#618\">Drupal\\Core\\Database\\Query\\Select::rightJoin<\/a>"],[0,5,"<a href=\"Select.php.html#625\">Drupal\\Core\\Database\\Query\\Select::addJoin<\/a>"],[0,2,"<a href=\"Select.php.html#660\">Drupal\\Core\\Database\\Query\\Select::orderBy<\/a>"],[0,1,"<a href=\"Select.php.html#670\">Drupal\\Core\\Database\\Query\\Select::orderRandom<\/a>"],[0,2,"<a href=\"Select.php.html#679\">Drupal\\Core\\Database\\Query\\Select::range<\/a>"],[0,4,"<a href=\"Select.php.html#687\">Drupal\\Core\\Database\\Query\\Select::union<\/a>"],[0,1,"<a href=\"Select.php.html#712\">Drupal\\Core\\Database\\Query\\Select::groupBy<\/a>"],[0,1,"<a href=\"Select.php.html#720\">Drupal\\Core\\Database\\Query\\Select::countQuery<\/a>"],[0,11,"<a href=\"Select.php.html#735\">Drupal\\Core\\Database\\Query\\Select::prepareCountQuery<\/a>"],[0,22,"<a href=\"Select.php.html#795\">Drupal\\Core\\Database\\Query\\Select::__toString<\/a>"],[0,4,"<a href=\"Select.php.html#916\">Drupal\\Core\\Database\\Query\\Select::__clone<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#40\">Drupal\\Core\\Database\\Query\\SelectExtender::__construct<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#49\">Drupal\\Core\\Database\\Query\\SelectExtender::uniqueIdentifier<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#56\">Drupal\\Core\\Database\\Query\\SelectExtender::nextPlaceholder<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#63\">Drupal\\Core\\Database\\Query\\SelectExtender::addTag<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#71\">Drupal\\Core\\Database\\Query\\SelectExtender::hasTag<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#78\">Drupal\\Core\\Database\\Query\\SelectExtender::hasAllTags<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#85\">Drupal\\Core\\Database\\Query\\SelectExtender::hasAnyTag<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#92\">Drupal\\Core\\Database\\Query\\SelectExtender::addMetaData<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#100\">Drupal\\Core\\Database\\Query\\SelectExtender::getMetaData<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#107\">Drupal\\Core\\Database\\Query\\SelectExtender::condition<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#115\">Drupal\\Core\\Database\\Query\\SelectExtender::conditions<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#122\">Drupal\\Core\\Database\\Query\\SelectExtender::arguments<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#129\">Drupal\\Core\\Database\\Query\\SelectExtender::where<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#137\">Drupal\\Core\\Database\\Query\\SelectExtender::compile<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#144\">Drupal\\Core\\Database\\Query\\SelectExtender::compiled<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#151\">Drupal\\Core\\Database\\Query\\SelectExtender::havingCondition<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#159\">Drupal\\Core\\Database\\Query\\SelectExtender::havingConditions<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#166\">Drupal\\Core\\Database\\Query\\SelectExtender::havingArguments<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#173\">Drupal\\Core\\Database\\Query\\SelectExtender::having<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#181\">Drupal\\Core\\Database\\Query\\SelectExtender::havingCompile<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#188\">Drupal\\Core\\Database\\Query\\SelectExtender::havingIsNull<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#196\">Drupal\\Core\\Database\\Query\\SelectExtender::havingIsNotNull<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#204\">Drupal\\Core\\Database\\Query\\SelectExtender::havingExists<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#212\">Drupal\\Core\\Database\\Query\\SelectExtender::havingNotExists<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#220\">Drupal\\Core\\Database\\Query\\SelectExtender::extend<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#230\">Drupal\\Core\\Database\\Query\\SelectExtender::getFields<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#237\">Drupal\\Core\\Database\\Query\\SelectExtender::getExpressions<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#244\">Drupal\\Core\\Database\\Query\\SelectExtender::getOrderBy<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#251\">Drupal\\Core\\Database\\Query\\SelectExtender::getGroupBy<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#258\">Drupal\\Core\\Database\\Query\\SelectExtender::getTables<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#265\">Drupal\\Core\\Database\\Query\\SelectExtender::getUnion<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#272\">Drupal\\Core\\Database\\Query\\SelectExtender::escapeLike<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#279\">Drupal\\Core\\Database\\Query\\SelectExtender::escapeField<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#287\">Drupal\\Core\\Database\\Query\\SelectExtender::getArguments<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#294\">Drupal\\Core\\Database\\Query\\SelectExtender::isPrepared<\/a>"],[0,2,"<a href=\"SelectExtender.php.html#301\">Drupal\\Core\\Database\\Query\\SelectExtender::preExecute<\/a>"],[0,2,"<a href=\"SelectExtender.php.html#313\">Drupal\\Core\\Database\\Query\\SelectExtender::execute<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#327\">Drupal\\Core\\Database\\Query\\SelectExtender::distinct<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#335\">Drupal\\Core\\Database\\Query\\SelectExtender::addField<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#342\">Drupal\\Core\\Database\\Query\\SelectExtender::fields<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#350\">Drupal\\Core\\Database\\Query\\SelectExtender::addExpression<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#357\">Drupal\\Core\\Database\\Query\\SelectExtender::join<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#364\">Drupal\\Core\\Database\\Query\\SelectExtender::innerJoin<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#371\">Drupal\\Core\\Database\\Query\\SelectExtender::leftJoin<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#378\">Drupal\\Core\\Database\\Query\\SelectExtender::rightJoin<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#385\">Drupal\\Core\\Database\\Query\\SelectExtender::addJoin<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#392\">Drupal\\Core\\Database\\Query\\SelectExtender::orderBy<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#400\">Drupal\\Core\\Database\\Query\\SelectExtender::orderRandom<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#408\">Drupal\\Core\\Database\\Query\\SelectExtender::range<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#416\">Drupal\\Core\\Database\\Query\\SelectExtender::union<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#424\">Drupal\\Core\\Database\\Query\\SelectExtender::groupBy<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#432\">Drupal\\Core\\Database\\Query\\SelectExtender::forUpdate<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#440\">Drupal\\Core\\Database\\Query\\SelectExtender::countQuery<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#447\">Drupal\\Core\\Database\\Query\\SelectExtender::isNull<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#455\">Drupal\\Core\\Database\\Query\\SelectExtender::isNotNull<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#463\">Drupal\\Core\\Database\\Query\\SelectExtender::exists<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#471\">Drupal\\Core\\Database\\Query\\SelectExtender::notExists<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#479\">Drupal\\Core\\Database\\Query\\SelectExtender::alwaysFalse<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#487\">Drupal\\Core\\Database\\Query\\SelectExtender::__toString<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#494\">Drupal\\Core\\Database\\Query\\SelectExtender::__clone<\/a>"],[0,2,"<a href=\"SelectExtender.php.html#511\">Drupal\\Core\\Database\\Query\\SelectExtender::__call<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#530\">Drupal\\Core\\Database\\Query\\SelectExtender::conditionGroupFactory<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#537\">Drupal\\Core\\Database\\Query\\SelectExtender::andConditionGroup<\/a>"],[0,1,"<a href=\"SelectExtender.php.html#544\">Drupal\\Core\\Database\\Query\\SelectExtender::orConditionGroup<\/a>"],[0,1,"<a href=\"TableSortExtender.php.html#16\">Drupal\\Core\\Database\\Query\\TableSortExtender::__construct<\/a>"],[0,2,"<a href=\"TableSortExtender.php.html#36\">Drupal\\Core\\Database\\Query\\TableSortExtender::orderByHeader<\/a>"],[0,1,"<a href=\"Truncate.php.html#30\">Drupal\\Core\\Database\\Query\\Truncate::__construct<\/a>"],[0,1,"<a href=\"Truncate.php.html#39\">Drupal\\Core\\Database\\Query\\Truncate::compile<\/a>"],[0,1,"<a href=\"Truncate.php.html#46\">Drupal\\Core\\Database\\Query\\Truncate::compiled<\/a>"],[0,1,"<a href=\"Truncate.php.html#56\">Drupal\\Core\\Database\\Query\\Truncate::execute<\/a>"],[0,2,"<a href=\"Truncate.php.html#66\">Drupal\\Core\\Database\\Query\\Truncate::__toString<\/a>"],[0,1,"<a href=\"Update.php.html#63\">Drupal\\Core\\Database\\Query\\Update::__construct<\/a>"],[0,1,"<a href=\"Update.php.html#81\">Drupal\\Core\\Database\\Query\\Update::fields<\/a>"],[0,1,"<a href=\"Update.php.html#104\">Drupal\\Core\\Database\\Query\\Update::expression<\/a>"],[0,6,"<a href=\"Update.php.html#120\">Drupal\\Core\\Database\\Query\\Update::execute<\/a>"],[0,5,"<a href=\"Update.php.html#157\">Drupal\\Core\\Database\\Query\\Update::__toString<\/a>"],[0,1,"<a href=\"Upsert.php.html#37\">Drupal\\Core\\Database\\Query\\Upsert::__construct<\/a>"],[0,1,"<a href=\"Upsert.php.html#51\">Drupal\\Core\\Database\\Query\\Upsert::key<\/a>"],[0,5,"<a href=\"Upsert.php.html#67\">Drupal\\Core\\Database\\Query\\Upsert::preExecute<\/a>"],[0,4,"<a href=\"Upsert.php.html#93\">Drupal\\Core\\Database\\Query\\Upsert::execute<\/a>"],[0,5,"<a href=\"InsertTrait.php.html#70\">InsertTrait::fields<\/a>"],[0,4,"<a href=\"InsertTrait.php.html#101\">InsertTrait::values<\/a>"],[0,1,"<a href=\"InsertTrait.php.html#135\">InsertTrait::useDefaults<\/a>"],[0,4,"<a href=\"InsertTrait.php.html#151\">InsertTrait::getInsertPlaceholderFragment<\/a>"],[0,1,"<a href=\"InsertTrait.php.html#182\">InsertTrait::count<\/a>"],[0,1,"<a href=\"QueryConditionTrait.php.html#26\">QueryConditionTrait::condition<\/a>"],[0,1,"<a href=\"QueryConditionTrait.php.html#34\">QueryConditionTrait::isNull<\/a>"],[0,1,"<a href=\"QueryConditionTrait.php.html#42\">QueryConditionTrait::isNotNull<\/a>"],[0,1,"<a href=\"QueryConditionTrait.php.html#50\">QueryConditionTrait::exists<\/a>"],[0,1,"<a href=\"QueryConditionTrait.php.html#58\">QueryConditionTrait::notExists<\/a>"],[0,1,"<a href=\"QueryConditionTrait.php.html#66\">QueryConditionTrait::alwaysFalse<\/a>"],[0,1,"<a href=\"QueryConditionTrait.php.html#74\">QueryConditionTrait::conditions<\/a>"],[0,1,"<a href=\"QueryConditionTrait.php.html#81\">QueryConditionTrait::arguments<\/a>"],[0,1,"<a href=\"QueryConditionTrait.php.html#88\">QueryConditionTrait::where<\/a>"],[0,1,"<a href=\"QueryConditionTrait.php.html#96\">QueryConditionTrait::compile<\/a>"],[0,1,"<a href=\"QueryConditionTrait.php.html#103\">QueryConditionTrait::compiled<\/a>"],[0,1,"<a href=\"QueryConditionTrait.php.html#110\">QueryConditionTrait::conditionGroupFactory<\/a>"],[0,1,"<a href=\"QueryConditionTrait.php.html#117\">QueryConditionTrait::andConditionGroup<\/a>"],[0,1,"<a href=\"QueryConditionTrait.php.html#124\">QueryConditionTrait::orConditionGroup<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
