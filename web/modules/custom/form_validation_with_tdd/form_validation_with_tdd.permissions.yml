@@ -1,0 +1,3 @@
+administer books:
+  title: Administer books
+  restrict access: true
