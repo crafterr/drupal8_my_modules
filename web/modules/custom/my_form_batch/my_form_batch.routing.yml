@@ -1,0 +1,7 @@
+my_form_batch.comfiguration_form:
+  path: '/admin/config/my-form-batch'
+  defaults:
+    _form: '\Drupal\my_form_batch\Form\ConfigurationForm'
+    _title: 'Configuration'
+  requirements:
+    _permission: 'administer site configuration'

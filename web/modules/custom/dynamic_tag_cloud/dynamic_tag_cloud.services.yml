@@ -1,0 +1,4 @@
+services:
+  plugin.manager.tag_cloud:
+    class: Drupal\dynamic_tag_cloud\Plugin\TagCloudManager
+    parent: default_plugin_manager

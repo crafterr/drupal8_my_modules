@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains dynamic_tag_cloud.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function dynamic_tag_cloud_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the dynamic_tag_cloud module.
+    case 'help.page.dynamic_tag_cloud':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function dynamic_tag_cloud_theme() {
+  return [
+    'dynamic_tag_cloud' => [
+      'render element' => 'children',
+    ],
+  ];
+}

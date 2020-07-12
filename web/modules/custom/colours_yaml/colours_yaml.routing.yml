@@ -1,0 +1,8 @@
+
+colours_yaml.colour_controller_render:
+  path: '/coloursyaaml/render/{plugin_id}'
+  defaults:
+    _controller: '\Drupal\colours_yaml\Controller\ColourController::render'
+    _title: 'Colour'
+  requirements:
+    _permission: 'access content'

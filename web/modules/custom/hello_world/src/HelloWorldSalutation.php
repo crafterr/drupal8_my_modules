@@ -82,4 +82,8 @@ class HelloWorldSalutation implements HelloWorldSalutationInterface{
 
 
   }
+
+  public function getMyTest() {
+    return 'adam ma kota';
+  }
 }

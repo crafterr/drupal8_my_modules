@@ -1,0 +1,13 @@
+{
+    "name": "colours_yaml",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/colours_yaml",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/colours_yaml",
+        "source": "http://cgit.drupalcode.org/colours_yaml",
+    },
+}

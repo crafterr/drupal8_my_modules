@@ -2,32 +2,14 @@
 namespace Drupal\hello_world\Form;
 
 use Drupal\Core\Config\ConfigFactoryInterface;
-use Drupal\Core\Form\ConfigFormBase;
+
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\Core\Logger\LoggerChannelInterface;
-use Symfony\Component\DependencyInjection\ContainerInterface;
+class SalutationConfigurationForm extends MyClass  {
+use MyTrait;
 
-class SalutationConfigurationForm extends ConfigFormBase {
 
-  /**
-   * @var LoggerChannelInterface
-   */
-  protected $logger;
 
-  public function __construct(ConfigFactoryInterface $config_factory, LoggerChannelInterface $logger) {
-    parent::__construct($config_factory);
-    $this->logger = $logger;
-  }
 
-  /**
-   * @inheritDoc
-   */
-  public static function create(ContainerInterface $container) {
-    return new static(
-      $container->get('config.factory'),
-      $container->get('hello_world.logger.channel.hello_world')
-    );
-  }
 
   protected function getEditableConfigNames() {
     return ['hello_world_custom_salutation.settings'];
@@ -45,6 +27,8 @@ class SalutationConfigurationForm extends ConfigFormBase {
    */
   public function buildForm(array $form, FormStateInterface $form_state) {
     $config = $this->config('hello_world_custom_salutation.settings');
+    parent::save();
+    $this->save();
     $form['salutation'] = array(
       '#type' => 'textfield',
       '#title' => $this->t('Salutation'),

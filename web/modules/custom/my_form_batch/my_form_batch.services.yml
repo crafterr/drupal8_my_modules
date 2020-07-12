@@ -1,0 +1,4 @@
+services:
+  my_form_batch.service:
+    class: Drupal\my_form_batch\DefaultService
+    arguments: []

@@ -1,0 +1,7 @@
+my_form_batch_text.settings:
+  type: config_object
+  label: 'Salutation settings'
+  mapping:
+    salutation:
+      type: string
+      label: 'The salutation message'

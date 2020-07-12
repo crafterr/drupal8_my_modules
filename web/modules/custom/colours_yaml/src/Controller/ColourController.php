@@ -1,10 +1,8 @@
 <?php
 
-namespace Drupal\colours\Controller;
+namespace Drupal\colours_yaml\Controller;
 
-use Drupal\colours\Event\Event;
-use Drupal\colours\Event\MyEvent;
-use Drupal\colours\Plugin\ColourPluginManager;
+use Drupal\colours_yaml\ColourYamlManager;
 use Drupal\Core\Controller\ControllerBase;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
@@ -25,24 +23,34 @@ class ColourController extends ControllerBase {
    */
   protected $eventDispatcher;
 
-  public function __construct(ColourPluginManager $colourPluginManager, EventDispatcherInterface $eventDispatcher) {
+  public function __construct(ColourYamlManager  $colourPluginManager, EventDispatcherInterface $eventDispatcher) {
     $this->colourPluginManager = $colourPluginManager;
     $this->eventDispatcher = $eventDispatcher;
   }
 
   public static function create(ContainerInterface $container) {
     return new static(
-      $container->get('plugin.manager.colour_plugin'),
+      $container->get('plugin.manager.colour_yaml'),
       $container->get('event_dispatcher')
     );
   }
 
   public function render($plugin_id) {
-    echo 'weszlo'; die();
-    foreach ($this->colourPluginManager->getDefinitions() as $export_type => $definition) {
-      dump($definition); die();
-    }
 
+
+    /**
+     * @var \Drupal\colours\Plugin\ColourPluginInterface $plugin
+     */
+   // $plugin = $this->colourPluginManager->createInstance($plugin_id);
+
+   // dump($plugin); die();
+
+   // return $plugin->render();
+   foreach ($this->colourPluginManager->getDefinitions() as $definition) {
+
+     echo $definition['label'];
+    }
+die();
 
   }
 

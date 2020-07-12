@@ -5,7 +5,6 @@ namespace Drupal\my_batch\Controller;
 use Drupal\Core\Batch\BatchBuilder;
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\Core\Url;
-use Zend\Feed\Reader\Http\Response;
 
 /**
  * Class DefaultController.

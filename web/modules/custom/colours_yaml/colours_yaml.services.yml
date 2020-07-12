@@ -1,0 +1,4 @@
+services:
+  plugin.manager.colour_yaml:
+    class: Drupal\colours_yaml\ColourYamlManager
+    arguments: ['@module_handler', '@cache.discovery']

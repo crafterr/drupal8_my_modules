@@ -1,0 +1,13 @@
+{
+    "name": "my_form_batch",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/my_form_batch",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/my_form_batch",
+        "source": "http://cgit.drupalcode.org/my_form_batch",
+    },
+}

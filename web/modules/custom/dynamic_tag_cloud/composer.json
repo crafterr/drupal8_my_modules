@@ -1,0 +1,13 @@
+{
+    "name": "dynamic_tag_cloud",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/dynamic_tag_cloud",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/dynamic_tag_cloud",
+        "source": "http://cgit.drupalcode.org/dynamic_tag_cloud",
+    },
+}

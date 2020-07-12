@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains my_mockup_service.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function my_mockup_service_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the my_mockup_service module.
+    case 'help.page.my_mockup_service':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function my_mockup_service_theme() {
+  return [
+    'my_mockup_service' => [
+      'render element' => 'children',
+    ],
+  ];
+}

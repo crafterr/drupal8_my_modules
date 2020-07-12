@@ -1,0 +1,8 @@
+# Example colour_yaml plugin definitions.
+# Plugin property $defaults are defined in ColourYamlManager.
+reds:
+  id: reds
+  label: Reds
+greens:
+  id: greens
+  label: Greens

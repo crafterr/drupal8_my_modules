@@ -1,0 +1,5 @@
+my_form_batch.admin.structure.settings:
+  title: 'My Form Batch'
+  description: 'My Form Batch Settings'
+  route_name: my_form_batch.comfiguration_form
+  parent: system.admin_config_system

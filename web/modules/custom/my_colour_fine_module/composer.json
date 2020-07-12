@@ -1,0 +1,13 @@
+{
+    "name": "my_colour_fine_module",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/my_colour_fine_module",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/my_colour_fine_module",
+        "source": "http://cgit.drupalcode.org/my_colour_fine_module",
+    },
+}

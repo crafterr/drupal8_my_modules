@@ -1,0 +1,7 @@
+services:
+  logger.channel.my_mockup_service:
+    parent: logger.channel_base
+    arguments: ['my_mockup_service']
+  my_cokup_service.service:
+    class: Drupal\my_mockup_service\Service
+    arguments: ['@current_user','@entity_type.manager']

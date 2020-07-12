@@ -1,0 +1,8 @@
+
+my_mockup_service.default_controller_hello:
+  path: '/my_mockup_service/render'
+  defaults:
+    _controller: '\Drupal\my_mockup_service\Controller\DefaultController::render'
+    _title: 'test'
+  requirements:
+    _permission: 'access content'
