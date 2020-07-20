@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains my_menu_link_tree_manipulator.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function my_menu_link_tree_manipulator_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the my_menu_link_tree_manipulator module.
+    case 'help.page.my_menu_link_tree_manipulator':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function my_menu_link_tree_manipulator_theme() {
+  return [
+    'my_menu_link_tree_manipulator' => [
+      'render element' => 'children',
+    ],
+  ];
+}

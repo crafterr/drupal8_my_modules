@@ -29,7 +29,7 @@ function dynamic_tag_cloud_help($route_name, RouteMatchInterface $route_match) {
 function dynamic_tag_cloud_theme() {
   return [
     'dynamic_tag_cloud' => [
-      'render element' => 'children',
+      'variables' => ['tags' => NULL]
     ],
   ];
 }

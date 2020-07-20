@@ -1,0 +1,13 @@
+{
+    "name": "my_menu_link_tree_manipulator",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/my_menu_link_tree_manipulator",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/my_menu_link_tree_manipulator",
+        "source": "http://cgit.drupalcode.org/my_menu_link_tree_manipulator",
+    },
+}

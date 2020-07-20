@@ -1,0 +1,52 @@
+<?php
+
+/**
+ * @file
+ * Contains my_access_node.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Access\AccessResult;
+/**
+ * Implements hook_help().
+ */
+function my_access_node_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the my_access_node module.
+    case 'help.page.my_access_node':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function my_access_node_theme() {
+  return [
+    'my_access_node' => [
+      'render element' => 'children',
+    ],
+  ];
+}
+
+/**
+ * Implements hook_node_access().
+ */
+function my_access_node_node_access(\Drupal\node\NodeInterface $node, $op, \Drupal\Core\Session\AccountInterface $account) {
+  return my_access_node_check_node_access($node,$op);
+}
+
+//add forbiden for node 24 and remove link for this node from menu
+function my_access_node_check_node_access(\Drupal\node\NodeInterface $node,$opp) {
+
+  $id = (int) 24;
+  if ((int) $node->id() === $id ) {
+    return AccessResult::forbidden()->addCacheableDependency($node);
+  }
+
+}

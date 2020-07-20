@@ -1,0 +1,13 @@
+{
+    "name": "my_access_node",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/my_access_node",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/my_access_node",
+        "source": "http://cgit.drupalcode.org/my_access_node",
+    },
+}

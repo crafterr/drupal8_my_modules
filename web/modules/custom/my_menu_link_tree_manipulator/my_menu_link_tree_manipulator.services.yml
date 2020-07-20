@@ -1,0 +1,4 @@
+services:
+  menu.default_tree_manipulators:
+    class: Drupal\my_menu_link_tree_manipulator\MenuItemRoleAccessLinkTreeManipulator
+    arguments: ['@access_manager', '@current_user', '@entity_type.manager', '@config.manager', '@entity.repository']
