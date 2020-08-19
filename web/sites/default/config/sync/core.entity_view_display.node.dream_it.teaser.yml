@@ -1,0 +1,35 @@
+uuid: 3dbcab08-3a15-40aa-8af8-33b4e54932ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.dream_it.body
+    - node.type.dream_it
+  module:
+    - text
+    - user
+id: node.dream_it.teaser
+targetEntityType: node
+bundle: dream_it
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  disclaimer:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

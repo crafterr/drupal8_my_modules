@@ -1,0 +1,22 @@
+reading_time:
+  submit: 'Save configuration'
+  container:
+    article:
+      is_activated: 0
+    article_category:
+      is_activated: 0
+    dream_it:
+      is_activated: 1
+    event:
+      is_activated: 0
+    licence_plate:
+      is_activated: 0
+    page:
+      is_activated: 0
+    person:
+      is_activated: 0
+  words_per_minute: '100'
+  form_build_id: form-WoJiSQ9V_-JpMvEZ1ZX8mS_5Zz2Qxx1ajHi7zkPRtFs
+  form_token: sCPT2Gh_mog8RHSUZEfJY1_CeiWsyg96v6QVyVShX4U
+  form_id: reading_time
+  op: 'Save configuration'

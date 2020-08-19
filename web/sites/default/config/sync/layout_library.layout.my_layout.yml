@@ -1,0 +1,38 @@
+uuid: f1a98818-5b88-453f-a34a-eba56aa0c610
+langcode: en
+status: true
+dependencies: {  }
+id: my_layout
+label: 'My Layout'
+targetEntityType: node
+targetBundle: page
+layout:
+  -
+    layout_id: two_column
+    layout_settings: {  }
+    components:
+      26609e54-8ac5-4131-98c4-94ae211e220e:
+        uuid: 26609e54-8ac5-4131-98c4-94ae211e220e
+        region: left
+        configuration:
+          id: hello_world_salutation_block
+          label: 'Hello world salutation block'
+          provider: hello_world
+          label_display: visible
+          enabled: 1
+          context_mapping: {  }
+        additional: {  }
+        weight: 0
+      38e2bd77-3bb4-43bf-bd90-79ecb833d80d:
+        uuid: 38e2bd77-3bb4-43bf-bd90-79ecb833d80d
+        region: right
+        configuration:
+          id: hello_world_salutation_block
+          label: 'Hello world salutation block'
+          provider: hello_world
+          label_display: visible
+          enabled: 1
+          context_mapping: {  }
+        additional: {  }
+        weight: 0
+    third_party_settings: {  }

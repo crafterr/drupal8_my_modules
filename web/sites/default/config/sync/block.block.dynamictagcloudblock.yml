@@ -1,0 +1,21 @@
+uuid: 8685b27c-d0fc-4a5f-86fa-05aff6a460e1
+langcode: en
+status: true
+dependencies:
+  module:
+    - dynamic_tag_cloud
+  theme:
+    - mytheme
+id: dynamictagcloudblock
+theme: mytheme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: dynamic_tag_cloud_block
+settings:
+  id: dynamic_tag_cloud_block
+  label: 'Dynamic tag cloud block'
+  provider: dynamic_tag_cloud
+  label_display: visible
+  style: default_tag_cloud
+visibility: {  }

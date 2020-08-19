@@ -1,0 +1,10 @@
+uuid: a5fd1ae0-6baf-424f-9e67-cfce06bcc748
+langcode: en
+status: true
+dependencies: {  }
+id: afdsa
+label: afdsa
+url: 'http://europacare24.pixel-web.pl/csv.csv'
+plugin: csv
+update_existing: true
+source: ''

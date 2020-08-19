@@ -38,9 +38,9 @@ class ColourController extends ControllerBase {
   }
 
   public function render($plugin_id) {
-    echo 'weszlo'; die();
+    dump($this->colourPluginManager->getDefinitions()); die();
     foreach ($this->colourPluginManager->getDefinitions() as $export_type => $definition) {
-      dump($definition); die();
+      dump($definition);
     }
 
 

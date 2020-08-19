@@ -1,0 +1,25 @@
+uuid: 80e7b733-9d3f-46d6-8e3f-6dcf1171c3af
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.licence_plate
+  module:
+    - user
+id: node.licence_plate.teaser
+targetEntityType: node
+bundle: licence_plate
+mode: teaser
+content:
+  disclaimer:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

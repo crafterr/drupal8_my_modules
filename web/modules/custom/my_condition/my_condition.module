@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains my_condition.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function my_condition_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the my_condition module.
+    case 'help.page.my_condition':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function my_condition_theme() {
+  return [
+    'my_condition' => [
+      'render element' => 'children',
+    ],
+  ];
+}

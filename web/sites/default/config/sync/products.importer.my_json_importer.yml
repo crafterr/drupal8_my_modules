@@ -1,0 +1,12 @@
+uuid: ada24663-ce77-42b1-adfb-07465bc3ff84
+langcode: en
+status: true
+dependencies: {  }
+id: my_json_importer
+label: 'My Json Importer'
+plugin: json
+update_existing: true
+source: 'jakis source'
+bundle: null
+plugin_configuration:
+  url: 'http://drupal-modules.devel/sites/default/files/product.json'

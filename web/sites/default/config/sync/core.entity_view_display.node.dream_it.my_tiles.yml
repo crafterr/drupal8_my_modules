@@ -1,0 +1,39 @@
+uuid: 107004e3-262b-4110-ad82-cca0ec6678f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.my_tiles
+    - field.field.node.dream_it.body
+    - node.type.dream_it
+  module:
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+id: node.dream_it.my_tiles
+targetEntityType: node
+bundle: dream_it
+mode: my_tiles
+content:
+  body:
+    label: above
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  disclaimer:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

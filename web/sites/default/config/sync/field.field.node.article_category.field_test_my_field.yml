@@ -1,0 +1,21 @@
+uuid: ee151047-d056-4ecd-b893-307ba0a004b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_test_my_field
+    - node.type.article_category
+  module:
+    - text
+id: node.article_category.field_test_my_field
+field_name: field_test_my_field
+entity_type: node
+bundle: article_category
+label: 'Test My FIeld'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

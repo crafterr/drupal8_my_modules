@@ -34,6 +34,8 @@
         "drupal/entity_embed": "^1.0",
         "drupal/examples": "1.x-dev",
         "drupal/layout_library": "^1.0@beta",
+        "drupal/migrate_plus": "^5.1",
+        "drupal/migrate_tools": "^5.0",
         "drupal/node_read_time": "1.x-dev",
         "drupal/pathauto": "^1.5",
         "drupal/restui": "^1.17",

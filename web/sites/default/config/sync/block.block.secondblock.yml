@@ -1,0 +1,20 @@
+uuid: b068e23f-412c-4aa9-95d4-559fe6bdd7b0
+langcode: en
+status: true
+dependencies:
+  module:
+    - my_cache
+  theme:
+    - mytheme
+id: secondblock
+theme: mytheme
+region: content
+weight: -4
+provider: null
+plugin: second_block
+settings:
+  id: second_block
+  label: 'Second block'
+  provider: my_cache
+  label_display: visible
+visibility: {  }

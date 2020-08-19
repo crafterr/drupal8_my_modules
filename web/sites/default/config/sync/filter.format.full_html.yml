@@ -1,0 +1,75 @@
+uuid: 2df14b47-d4e6-40b9-9a73-449db369af65
+langcode: en
+status: true
+dependencies:
+  module:
+    - editor
+    - entity_embed
+    - media
+    - my_style_filter_to_ckeditor
+_core:
+  default_config_hash: WNeK5FbcY8pXgEpbD_KgRzlF1-5PL3BJXwqaBctPTqw
+name: 'Full HTML'
+format: full_html
+weight: 2
+filters:
+  filter_align:
+    id: filter_align
+    provider: filter
+    status: false
+    weight: 8
+    settings: {  }
+  filter_caption:
+    id: filter_caption
+    provider: filter
+    status: false
+    weight: 9
+    settings: {  }
+  editor_file_reference:
+    id: editor_file_reference
+    provider: editor
+    status: false
+    weight: 11
+    settings: {  }
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: false
+    weight: -10
+    settings:
+      allowed_html: '<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <s> <sup> <sub> <img src alt data-entity-type data-entity-uuid data-align data-caption> <table> <caption> <tbody> <thead> <tfoot> <th> <td> <tr> <hr> <p> <h1> <pre> <drupal-entity data-entity-type data-entity-uuid data-entity-embed-display data-entity-embed-display-settings data-align data-caption data-embed-button data-langcode alt title>'
+      filter_html_help: true
+      filter_html_nofollow: false
+  entity_embed:
+    id: entity_embed
+    provider: entity_embed
+    status: true
+    weight: 100
+    settings: {  }
+  filter_celebrate:
+    id: filter_celebrate
+    provider: my_style_filter_to_ckeditor
+    status: true
+    weight: 0
+    settings:
+      allowed_node_types:
+        article: article
+        article_category: article_category
+        dream_it: dream_it
+        event: event
+        licence_plate: licence_plate
+  table_style_filter:
+    id: table_style_filter
+    provider: my_style_filter_to_ckeditor
+    status: true
+    weight: 0
+    settings: {  }
+  media_embed:
+    id: media_embed
+    provider: media
+    status: false
+    weight: 100
+    settings:
+      default_view_mode: default
+      allowed_media_types: {  }
+      allowed_view_modes: {  }

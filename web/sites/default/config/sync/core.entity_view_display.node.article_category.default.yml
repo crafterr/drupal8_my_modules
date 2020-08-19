@@ -1,0 +1,36 @@
+uuid: 56f53f42-0a8b-4c55-9bb9-a3ce489f71c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.article_category.body
+    - field.field.node.article_category.field_test_my_field
+    - node.type.article_category
+  module:
+    - text
+    - user
+id: node.article_category.default
+targetEntityType: node
+bundle: article_category
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_test_my_field:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,20 @@
+uuid: ca64dfe1-0873-47a7-882c-22fb2022b1f2
+langcode: en
+status: true
+dependencies:
+  module:
+    - carousel_block
+  theme:
+    - mytheme
+id: carouselblock
+theme: mytheme
+region: content
+weight: 0
+provider: null
+plugin: carousel_block
+settings:
+  id: carousel_block
+  label: 'Carousel Block'
+  provider: carousel_block
+  label_display: visible
+visibility: {  }

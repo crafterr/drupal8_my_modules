@@ -1,0 +1,17 @@
+uuid: 40528595-bd45-4e88-9f89-f30743259227
+langcode: en
+status: true
+dependencies:
+  module:
+    - sports
+title: 'Default cron handler'
+id: sports_cron
+weight: 0
+module: sports
+callback: sports_cron
+scheduler:
+  id: simple
+launcher:
+  id: serial
+logger:
+  id: database

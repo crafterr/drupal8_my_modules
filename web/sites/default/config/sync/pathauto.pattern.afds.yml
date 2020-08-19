@@ -1,0 +1,22 @@
+uuid: 571c456c-1196-468b-9ab1-74ab805bb101
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: afds
+label: afds
+type: 'canonical_entities:node'
+pattern: '[hello_world:salutation]'
+selection_criteria:
+  f3324313-689b-4c45-8841-23d21e9feff8:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: node
+    uuid: f3324313-689b-4c45-8841-23d21e9feff8
+selection_logic: and
+weight: -5
+relationships: {  }

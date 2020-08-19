@@ -1,0 +1,35 @@
+uuid: 75317174-65ca-428c-95f2-cbde6a63c89a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.licence_plate.field_licence_plate
+    - node.type.licence_plate
+  module:
+    - custom_field
+    - user
+id: node.licence_plate.default
+targetEntityType: node
+bundle: licence_plate
+mode: default
+content:
+  disclaimer:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_licence_plate:
+    weight: 101
+    label: above
+    settings:
+      concatenated: true
+      color: '1'
+    third_party_settings: {  }
+    type: default_license_plate_formatter
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,22 @@
+uuid: 46804b82-154b-4ba5-bba0-fca8530bbf3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_licence_plate
+    - node.type.licence_plate
+  module:
+    - custom_field
+id: node.licence_plate.field_licence_plate
+field_name: field_licence_plate
+entity_type: node
+bundle: licence_plate
+label: 'Licence Plate'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  codes: "pl\r\nen\r\nde"
+field_type: license_plate

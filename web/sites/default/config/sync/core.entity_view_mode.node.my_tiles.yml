@@ -1,0 +1,10 @@
+uuid: d5273e8b-f0e2-4a79-8cd6-9e82f8a22afe
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.my_tiles
+label: 'My Tiles'
+targetEntityType: node
+cache: true

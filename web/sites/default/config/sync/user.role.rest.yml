@@ -1,0 +1,12 @@
+uuid: ad4e3878-759e-477e-89d6-b15aa87eb5b3
+langcode: en
+status: true
+dependencies: {  }
+id: rest
+label: REST
+weight: 3
+is_admin: null
+permissions:
+  - 'create dream_it content'
+  - 'delete own dream_it content'
+  - 'edit own dream_it content'

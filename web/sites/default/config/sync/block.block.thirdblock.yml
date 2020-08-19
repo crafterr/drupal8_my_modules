@@ -1,0 +1,20 @@
+uuid: 44efe51e-f6d3-48dd-9bf9-1ccb71480ff5
+langcode: en
+status: true
+dependencies:
+  module:
+    - my_cache
+  theme:
+    - mytheme
+id: thirdblock
+theme: mytheme
+region: content
+weight: -3
+provider: null
+plugin: third_block
+settings:
+  id: third_block
+  label: 'Third block'
+  provider: my_cache
+  label_display: visible
+visibility: {  }

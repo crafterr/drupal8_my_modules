@@ -1,0 +1,38 @@
+uuid: 36027a7e-50eb-4b83-ba15-954ce126db57
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.dream_it.body
+    - node.type.dream_it
+  module:
+    - text
+    - user
+id: node.dream_it.default
+targetEntityType: node
+bundle: dream_it
+mode: default
+content:
+  body:
+    label: above
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  disclaimer:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  reading_time:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

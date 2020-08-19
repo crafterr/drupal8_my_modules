@@ -1,0 +1,15 @@
+uuid: 98a08004-379b-44c0-a61c-e7d71273d45b
+langcode: en
+status: true
+dependencies: {  }
+name: rozmiar_100x100
+label: 'Rozmiar 100x100'
+effects:
+  c7a2807d-0fa6-44c8-a8fc-b97b3154df2b:
+    uuid: c7a2807d-0fa6-44c8-a8fc-b97b3154df2b
+    id: image_crop
+    weight: 1
+    data:
+      width: 100
+      height: 100
+      anchor: center-center

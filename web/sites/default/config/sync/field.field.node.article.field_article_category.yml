@@ -1,0 +1,28 @@
+uuid: 5902acc0-995e-4742-9bb3-802f12c37669
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_article_category
+    - node.type.article
+    - node.type.article_category
+id: node.article.field_article_category
+field_name: field_article_category
+entity_type: node
+bundle: article
+label: 'Article Category'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      article_category: article_category
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

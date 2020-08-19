@@ -1,0 +1,40 @@
+# Migration configuration for tream.
+id: team
+label: Team
+migration_group: sports
+migration_dependencies: {}
+source:
+  plugin: url
+  data_fetcher_plugin: http
+  data_parser_plugin: json
+  include_raw_data: true
+  urls: 'http://drupal-modules.devel/sports/teams/json'
+  headers:
+    Accept: 'application/json'
+  item_selector: teams
+  fields:
+    -
+      name: name
+      label: 'Name'
+      selector: name
+    -
+      name: description
+      label: 'Description'
+      selector: description
+  ids: {}
+destination:
+  plugin: table
+  table_name: teams
+  id_fields:
+    id:
+      type: integer
+      use_auto_increment: true
+  fields:
+    name: name
+    description: description
+process:
+  name: name
+  description: description
+  created:
+    plugin: format_date
+    from_format: U

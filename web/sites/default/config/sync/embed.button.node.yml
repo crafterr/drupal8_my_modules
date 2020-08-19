@@ -1,0 +1,25 @@
+uuid: c0556fa6-ffb3-4e1e-b479-cb27cb6723dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - node.type.dream_it
+  module:
+    - entity_embed
+    - node
+_core:
+  default_config_hash: xgvZUh-eaMilacE1XYCQ9nLH-2-meOjCyofXSO82gqg
+label: Node
+id: node
+type_id: entity
+type_settings:
+  entity_type: node
+  bundles:
+    - dream_it
+  display_plugins:
+    - 'view_mode:node.full'
+  entity_browser: ''
+  entity_browser_settings: {  }
+icon: {  }
+icon_uuid: null

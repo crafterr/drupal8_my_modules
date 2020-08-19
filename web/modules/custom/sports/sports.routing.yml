@@ -142,3 +142,11 @@ sports.settings:
     _title: 'Sport page settings'
   requirements:
     _permission: 'administer site configuration'
+
+sports.teams.migrate:
+  path: '/sports/teams/json'
+  defaults:
+    _controller: '\Drupal\sports\Controller\DataController::json'
+    _title: 'Teams Dashboard'
+  requirements:
+    _permission: 'access content'

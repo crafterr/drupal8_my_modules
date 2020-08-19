@@ -1,0 +1,13 @@
+autoplay: 0
+autoplaySpeed: '100'
+dots: 1
+arrows: 1
+infinite: 1
+centerMode: 1
+image_style: original
+dependencies:
+  enforced:
+    module:
+      - carousel_block
+_core:
+  default_config_hash: uR6hOz0-SwlaF0l16FRXFmwWUgKQoHzFQEiiwt0WA3k

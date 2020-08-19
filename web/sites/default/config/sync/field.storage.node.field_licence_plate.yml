@@ -1,0 +1,21 @@
+uuid: 39391aab-0d64-4d81-9ada-489a35c8a834
+langcode: en
+status: true
+dependencies:
+  module:
+    - custom_field
+    - node
+id: node.field_licence_plate
+field_name: field_licence_plate
+entity_type: node
+type: license_plate
+settings:
+  number_max_length: '255'
+  code_max_length: '5'
+module: custom_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

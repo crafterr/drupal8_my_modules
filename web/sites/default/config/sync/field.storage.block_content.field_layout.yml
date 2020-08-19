@@ -1,0 +1,20 @@
+uuid: a083456b-0736-4cc8-aef8-2c0850099aed
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - layout_library
+id: block_content.field_layout
+field_name: field_layout
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: layout
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

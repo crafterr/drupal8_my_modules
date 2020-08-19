@@ -1,0 +1,12 @@
+uuid: 326a8205-e03e-4cd6-ae0a-10923468f056
+langcode: en
+status: true
+dependencies: {  }
+id: test
+label: test
+plugin: json
+update_existing: true
+source: ''
+bundle: null
+plugin_configuration:
+  url: 'http://drupal-modules.devel/sites/default/files/product.json'

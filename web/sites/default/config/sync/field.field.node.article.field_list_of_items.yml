@@ -1,0 +1,19 @@
+uuid: aaf704ab-5726-42e1-bc61-e019dfcabc83
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_list_of_items
+    - node.type.article
+id: node.article.field_list_of_items
+field_name: field_list_of_items
+entity_type: node
+bundle: article
+label: 'List of items'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

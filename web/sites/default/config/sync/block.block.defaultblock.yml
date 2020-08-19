@@ -1,0 +1,20 @@
+uuid: d39d64c0-1618-464f-b12c-284d75cb8672
+langcode: en
+status: true
+dependencies:
+  module:
+    - my_cache
+  theme:
+    - mytheme
+id: defaultblock
+theme: mytheme
+region: content
+weight: -5
+provider: null
+plugin: default_block
+settings:
+  id: default_block
+  label: 'Default block'
+  provider: my_cache
+  label_display: visible
+visibility: {  }

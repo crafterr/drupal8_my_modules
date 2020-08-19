@@ -1,0 +1,16 @@
+uuid: 4c50b07c-6b48-45e0-bb87-89ad232668d1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dsAAC_cb1Fkkksj8Oyy1c1R-cKyiIc7XJbI6WahnSxg
+name: tiny_thumbnail
+label: 'Tiny Thumbnail (50x50)'
+effects:
+  6da4517f-2825-4e06-b1f6-c12bac338dd9:
+    uuid: 6da4517f-2825-4e06-b1f6-c12bac338dd9
+    id: image_resize
+    weight: 1
+    data:
+      width: 50
+      height: 50

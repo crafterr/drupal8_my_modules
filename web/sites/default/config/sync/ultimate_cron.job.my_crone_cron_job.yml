@@ -1,0 +1,31 @@
+uuid: 01d99c9b-edc6-41f7-9741-e6676d44006c
+langcode: en
+status: true
+dependencies:
+  module:
+    - my_crone
+_core:
+  default_config_hash: BOp9FBJi8qT0TLvxgDCMnUuImoAeG9Cm86OWsvqMY6s
+title: 'Sample Cron Job for create new file txt with date'
+id: my_crone_cron_job
+weight: 0
+module: my_crone
+callback: test_cron_sample_cron_job
+scheduler:
+  id: simple
+  configuration:
+    rules:
+      - '* * * * *'
+launcher:
+  id: serial
+  configuration:
+    timeouts:
+      lock_timeout: 3600
+    launcher:
+      thread: 0
+logger:
+  id: database
+  configuration:
+    method: '3'
+    expire: 1209600
+    retain: 1000
